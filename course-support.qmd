@@ -2,108 +2,90 @@
 title: "Course support"
 ---
 
-Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.
+# Student Support Services {#sec-student-support-services}
 
-## Lectures and labs
+CSUN aims to make all learning experiences as accessible as possible, and has a variety of resources available to help support students. If you believe the design of this course poses barriers to effectively participate or demonstrate your learning, please contact me to discuss possible options and adjustments.
 
-If you have a question during lecture or lab, feel free to ask it!
-There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.
+-   The IT Help Center (818)677-1400, helpcenter\@csun.edu is available to help with Canvas, CSUN e-mail, SOLAR/Portal, and other technical issues.
+-   CSUN Device Loaner Program (<https://bit.ly/3t1G0An>) provides devices that can be checked out that includes laptops, webcams, hotspots and headsets
+-   The Learning Resource Center (818) 677-2033 The mission of the LRC is to enable students to improve their academic performance through a variety of learning programs, including workshops, one-on-one and group tutoring, supplemental instruction classes and interactive subject area computer programs and videos. Student who use the LRC learning programs will develop and strengthen their critical thinking skills, study strategies, writing skills and performance in subject matter courses.
+-   University Counseling Services (818) 677-2366, Bayramian Hall 520. UCS provides resources and information to assist students in dealing with a variety of large and small psychological obstacles that may interfere with academic progress and/or relationship satisfaction. Services include individual, group, and crisis counseling.
+-   In accordance with the CSUN Accessibility Policy (<https://bit.ly/3yqGHE9>), CSUN is working to ensure that campus communication and course materials are accessible to everyone. Please reach out to me if you have difficulty with any of the materials for this course.
+-   If you have a disability and need accommodations, please register with the Disability Resources and Educational Services (DRES) office or the National Center on Deafness (NCOD).
+    -   The DRES office can be reached at (818) 677-2684.
+    -   NCOD can be reached at (818) 677-2611.
+    -   Reasonable accommodations and services will be provided to students if requests are made in a timely manner and with appropriate documentation
+    -   If you would like to discuss your need for accommodations with me, please drop in office hours or contact me to set up an appointment.
+-   Food Pantry (<https://bit.ly/38nTsVH>) at CSUN: Anybody who faces challenges securing food or housing and believes this impacts course performance, should contact CSUN's Food Pantry website and the corresponding contacts. If you also feel comfortable contacting me, the department chair, or the Dean's Office, we can also facilitate assistance. You don't have to be alone in this moment.
+-   Emergency MataCare grants (<https://bit.ly/2WAZkIz>), one-time grants to prevent evictions, urgent child care issues, etc. - DACA (Deferred Action for Childhood Arrivals) Resources: Check out the Central American Resource Center facebook page (https://bit.ly/2Yg0p9z), legal resources listed on CSUN's Educational Opportunity Program (EOP) Dream Center that was created to support all undocumented students & allies (Dream Center flyer). CSUN President Harrison issued a support statement on the CSUN homepage for DACA and resources.
+-   Help lines (https://bit.ly/3sYbMOo)(after hours when the University Counseling is closed) for numerous topics/needs (e.g., suicide, drug, rape, LGBQT, military, or any crisis). You don't have to manage these feelings alone.
+-   Pride Center (https://bit.ly/3jqNZUi) offers support and resources to lesbian, gay, bisexual, transgender, queer, & questioning students, faculty, & staff.
+-   Klotz Student Health Center (https://bit.ly/3zx1Y0s): Numerous health services including primary care, dental, nutritional counseling, acupuncture, massage and lots more.
+-   Career Center (https://bit.ly/3jtTcL2) for resume writing & interviewing and much more; Matty's Closet (https://bit.ly/3jAResx) has free professional clothes for students who need interview or professional attire.
+-   USU 9https://bit.ly/38uz59j) for more student services; Clubs & Organizations (https://bit.ly/38tBhOa): Hopefully a dozen people have already advised you to "get involved" (https://bit.ly/3ysqYVb) at CSUN in something that interests you.
+-   Associated Students (https://bit.ly/3yuWjGT) offers recycling, and a Children's Center providing child care
+-   Financial Aid & Scholarships (https://bit.ly/3sYFzqr) offers aid for applications
+-   University Library https://bit.ly/3yuIEQ9) for many additional academic resources
+-   Veterans Resource Center (https://bit.ly/38qYtg7) assists CSUN students as they transition from military service to academic success.
+
+Title 5, California Code of Regulations,§ 41301. Standards for Student Conduct -- (a) Campus Community Values: The university is committed to maintaining a safe and healthy living and learning environment for students, faculty, and staff. Each member of the campus community should choose behaviors that contribute toward this end. Students are expected to be good citizens and to engage in responsible behaviors that reflect well upon their university, to be civil to one another and to others in the campus community, and contribute positively to student and university life.
+
+CSUN with A HEART If you are facing challenges related to food insecurity, housing precarity/homelessness, mental health, access to technology, eldercare/childcare, or healthcare, you can find guidance, help, and resources from CSUN with A HEART (https://www.csun.edu/heart).
 
 ## Office hours
 
-The teaching team is here to help you be successful in the course.
-You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments.
-A lot of questions are most effectively answered in-person, so office hours are a valuable resource.
-I encourage each and every one of you to take advantage of this resource!
-Make a pledge to stop by office hours at least once during the first three weeks of class.
-If you truly have no questions to ask, just stop by and say hi and introduce yourself.
-You can find a list of everyone's office hours [here](/course-team.html).
+As a professor, I am committed to providing students with the highest quality of education and support. To this end, I will be offering weekly office hours every Thursday from 2-4 pm or by [appointment via Zoom](https://calendly.com/drfurtado). Additionally, I am readily available to answer questions and provide guidance via email.
+
+A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class.
 
 ## Discussion forum
 
-Have a question that can't wait for office hours?
-Prefer to write out your question in detail rather than asking in person?
-The online discussion forum is the best venue for these!
-We will use [Conversations](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b) as the online discussion forum.
-There is a chance another student has already asked a similar question, so please check the other posts on Ed Discussion before adding a new question.
-If you know the answer to a question that is posted, I encourage you to respond!
+Have a question that can't wait for office hours? Prefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use [Conversations](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b) as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts on Ed Discussion before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!
 
 ## Email
 
-Please refrain from emailing any course content questions (those should go [Conversations](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b)), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).
-For such matters, you may email Dr. Mine Çetinkaya-Rundel at [mc301\@duke.edu](mailto:mc301@duke.edu).
+Please refrain from emailing any course content questions (those should go [Conversations](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b)), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.). For such matters, you may email Dr. Mine Çetinkaya-Rundel at [mc301\@duke.edu](mailto:mc301@duke.edu).
 
-If there is a question that's not appropriate for the public forum, you are welcome to email me directly.
-**If you email me, please include "STA 210" in the subject line.** Barring extenuating circumstances, I will respond to STA 210 emails within 48 hours Monday - Friday.
-Response time may be slower for emails sent Friday evening - Sunday.
+If there is a question that's not appropriate for the public forum, you are welcome to email me directly. **If you email me, please include "STA 210" in the subject line.** Barring extenuating circumstances, I will respond to STA 210 emails within 48 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.
 
 ## Academic support
 
-There are times you may need help with the class that is beyond what can be provided by the teaching team.
-In those instances, I encourage you to visit the **Academic Resource Center**.
-The [Academic Resource Center (ARC)](https://arc.duke.edu) offers free services to all students during their undergraduate careers at Duke.
-Services include Learning Consultations, Peer Tutoring and Study Groups, ADHD/LD Coaching, Outreach Workshops, and more.
-Because learning is a process unique to every individual, they work with each student to discover and develop their own academic strategy for success at Duke.
-ARC services are available free to any Duke undergraduate student, in any year, studying in any discipline.
-Contact the ARC to schedule an appointment.
-Undergraduates in any year, studying any discipline can benefit!
-Contact [theARC\@duke.edu](mailto:theARC@duke.edu), 919-684-5917.
+There are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the **Academic Resource Center**. The [Academic Resource Center (ARC)](https://arc.duke.edu) offers free services to all students during their undergraduate careers at Duke. Services include Learning Consultations, Peer Tutoring and Study Groups, ADHD/LD Coaching, Outreach Workshops, and more. Because learning is a process unique to every individual, they work with each student to discover and develop their own academic strategy for success at Duke. ARC services are available free to any Duke undergraduate student, in any year, studying in any discipline. Contact the ARC to schedule an appointment. Undergraduates in any year, studying any discipline can benefit! Contact [theARC\@duke.edu](mailto:theARC@duke.edu), 919-684-5917.
 
 ## Mental health and wellness
 
-Student mental health and wellness is of primary importance at Duke, and the university offers resources to support students in managing daily stress and self-care.
-Duke offers several resources for students to seek assistance on coursework and to nurture daily habits that support overall well-being, some of which are listed below:
+Student mental health and wellness is of primary importance at Duke, and the university offers resources to support students in managing daily stress and self-care. Duke offers several resources for students to seek assistance on coursework and to nurture daily habits that support overall well-being, some of which are listed below:
 
 -   **The Academic Resource Center**: (919) 684-5917, [theARC\@duke.edu](mailto:theARC@duke.edu), or [arc.duke.edu](https://arc.duke.edu/),
 
 -   **DuWell**: (919) 681-8421, [duwell\@studentaffairs.duke.edu](mailto:duwell@studentaffairs.duke.edu), or [studentaffairs.duke.edu/duwell](https://studentaffairs.duke.edu/duwell)
 
-If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times.
-Duke encourages all students to access these resources.
+If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times. Duke encourages all students to access these resources.
 
--   **DukeReach.** Provides comprehensive outreach services to identify and support students in managing all aspects of well-being.
-    If you have concerns about a student's behavior or health visit the website for resources and assistance.
-    [studentaffairs.duke.edu/dukereach](http://studentaffairs.duke.edu/dukereach)
+-   **DukeReach.** Provides comprehensive outreach services to identify and support students in managing all aspects of well-being. If you have concerns about a student's behavior or health visit the website for resources and assistance. [studentaffairs.duke.edu/dukereach](http://studentaffairs.duke.edu/dukereach)
 
--   **Counseling and Psychological Services (CAPS).** CAPS helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives.
-    CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being.
-    CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more.
-    CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life.
-    CAPS provides services to students via Telehealth.
-    To initiate services, you can contact their front desk at 919-660-1000.
-    [studentaffairs.duke.edu/caps](https://studentaffairs.duke.edu/caps)
+-   **Counseling and Psychological Services (CAPS).** CAPS helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives. CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being. CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more. CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life. CAPS provides services to students via Telehealth. To initiate services, you can contact their front desk at 919-660-1000. [studentaffairs.duke.edu/caps](https://studentaffairs.duke.edu/caps)
 
--   **Blue Devils Care.** A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow and scheduled counseling.
-    [bluedevilscare.duke.edu](https://bluedevilscare.duke.edu/)
+-   **Blue Devils Care.** A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow and scheduled counseling. [bluedevilscare.duke.edu](https://bluedevilscare.duke.edu/)
 
--   **Two-Click Support.** Duke Student Government and DukeReach partnership that connects students to help in just two clicks.
-    [bit.ly/TwoClickSupport](https://bit.ly/TwoClickSupport)
+-   **Two-Click Support.** Duke Student Government and DukeReach partnership that connects students to help in just two clicks. [bit.ly/TwoClickSupport](https://bit.ly/TwoClickSupport)
 
--   **WellTrack**.
-    Sign up for WellTrack at [app.welltrack.com](https://app.welltrack.com/).
+-   **WellTrack**. Sign up for WellTrack at [app.welltrack.com](https://app.welltrack.com/).
 
 ## **Technology accommodations**
 
-Students with demonstrated high financial need who have limited access to computers may request assistance in the form of loaner laptops.
-For technology assistance requests, please go [here](https://keeplearning.duke.edu/technical-support/).
-Please note that supplies are limited.
+Students with demonstrated high financial need who have limited access to computers may request assistance in the form of loaner laptops. For technology assistance requests, please go [here](https://keeplearning.duke.edu/technical-support/). Please note that supplies are limited.
 
-Note that we will be using Duke's computational resources in this course.
-These resources are freely available to you.
-As long as your computer can connect to the internet and open a browser window, you can perform the necessary computing for this course.
-All software we use is open-source and/or freely available.
+Note that we will be using Duke's computational resources in this course. These resources are freely available to you. As long as your computer can connect to the internet and open a browser window, you can perform the necessary computing for this course. All software we use is open-source and/or freely available.
 
 ## **Course materials costs**
 
-There are no costs associated with this course.
-All readings will come from freely available, open resources (open-source textbooks, journal articles, etc.).
+There are no costs associated with this course. All readings will come from freely available, open resources (open-source textbooks, journal articles, etc.).
 
 ## **Assistance with Zoom or Sakai**
 
-For technical help with Sakai or Zoom, contact the Duke OIT Service Desk at [oit.duke.edu/help](https://oit.duke.edu/help).
-You can also access the self-service help documentation for Zoom [here](https://oit.duke.edu/help/articles/kb0029318) and for Sakai [here](https://sakai-duke.screenstepslive.com/s/sakai_support).
+For technical help with Sakai or Zoom, contact the Duke OIT Service Desk at [oit.duke.edu/help](https://oit.duke.edu/help). You can also access the self-service help documentation for Zoom [here](https://oit.duke.edu/help/articles/kb0029318) and for Sakai [here](https://sakai-duke.screenstepslive.com/s/sakai_support).
 
-Note that we will be making minimal use of Sakai in this course (primarily for announcements and grade book).
-All assignment submission and discussion will take place on GitHub instead.
+Note that we will be making minimal use of Sakai in this course (primarily for announcements and grade book). All assignment submission and discussion will take place on GitHub instead.
 
 Zoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.

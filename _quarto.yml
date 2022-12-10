@@ -1,24 +1,25 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   page-navigation: true
-  title: "STA 210 - Spring 2022"
-  description: "Homepage for STA 210 - Regression Analysis at Duke University, Spring 2022."
-  site-url: "https://sta210-s22.github.io/website/"
+  title: "KIN 610 - Spring 2023"
+  description: "Homepage for KIN 610 - Quantitative Analysis of Research in Kinesiology at Cal State Northridge, Spring 2023."
+  site-url: "drfurtado.github.io/kin610"
 
-  repo-url: https://github.com/sta210-s22/website
+  repo-url: https://github.com/drfurtado/kin610
   repo-actions: [edit, issue]
 
   open-graph: true
 
   twitter-card:
-    creator: "@minebocek"
+    creator: "@ofurtado"
     image: "images/twitter-card.png"
 
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; Copyright 2022, Mine Çetinkaya-Rundel"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2022, Ovande Furtado Jr"
     background: "#D9E3E4"
 
   sidebar:
@@ -28,20 +29,11 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/sta210-s22
-        text: "GitHub organization"
-      - icon: code-square
-        href: https://cmgr.oit.duke.edu/containers
-        text: "RStudio Containers"
+        href: https://github.com/drfurtado/kin610
+        text: "GitHub"
       - icon: person-fill
-        text: "Sakai"
-        menu:
-          - text: Discussion forum
-            url: https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b
-          - text: Gradescope
-            url: https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/aec742dc-2972-4f02-a35b-1dd3315af889
-          - text: Gradebook
-            url: https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/69078433-67a6-4054-a2e7-9e6c202ecdc3/
+        href: http://drfurtado.us
+        text: "Dr Furtado"
 
     style: "docked"
     search: true
@@ -55,8 +47,6 @@ website:
             text: Syllabus
           - href: course-support.qmd
             text: Support
-          - href: course-team.qmd
-            text: Teaching team
           - href: index.qmd
             text: Schedule
           - href: course-links.qmd

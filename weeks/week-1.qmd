@@ -1,23 +1,20 @@
 ---
 title: "Week 1"
-subtitle: "Welcome to STA 210"
+subtitle: "Course intro and data collection"
 editor: visual
 ---
 
 ::: callout-important
-Classes are virtual this week.
-Find Zoom links [here](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562 "Sakai - Zoom meetings").
+Classes are virtual this week. Find Zoom links [here](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562 "Sakai - Zoom meetings").
 :::
 
 ## Prepare
 
-📖 Read the [syllabus](/course-syllabus.html)
+{{< bi book >}} Read the [syllabus](/course-syllabus.html)
 
 📖 Read the [support](/course-support.html) resources
 
 ## Participate
-
-🖥️ [Lab 0 -](/_slides/lab-0.html)[Meet](/slides/lab-0.html)[+ greet](/_slides/lab-0.html)
 
 🖥️ [Lecture 1 - Welcome to STA 210](/slides/lec-1.html)
 

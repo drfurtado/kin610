@@ -1,10 +1,31 @@
 ---
-title: "STA 210: Regression Analysis"
+title: "KIN 610 - Quantitative Analysis of Research in Kinesiology"
 ---
 
-Learn approaches for analyzing multivariate data sets, emphasizing analysis of variance, linear regression, and logistic regression.
-Learn techniques for checking the appropriateness of proposed models, such as residual analyses and case influence diagnostics, and techniques for selecting models.
-Gain experience dealing with the challenges that arise in practice through assignments that utilize real-world data.
-This class emphasizes data analysis over mathematical theory.
+This course focuses on the introductory statistical techniques used in social science research. Students will be introduced to concepts such as reliability, validity, measures of central tendency, variability, probability, and statistical techniques including: t tests (independent & dependent samples), Analysis of Variance (ANOVA), Chi-square, correlation, and regression.
 
-![](images/background-bikeshare.png){fig-alt="A series of six, generic data visualizations: a scatterplot, a density plot, a contour plot, a line plot, a box plot, and another scatterplot." width="700"}
+Students are expected to take the material/concepts presented in this course and apply them through a series of homework assignments and quizzes. The overall goal of the course is not only to help students understand the mathematical/statistical concepts presented but also to assist in the application of these procedures.
+
+```{r, echo=FALSE}
+# Create data:
+a=c(1:5)
+b=c(5,3,4,5,5)
+c=c(4,5,4,3,1)
+ 
+# Make a basic graph
+plot( b~a , type="b" , bty="l" , xlab="value of a" , ylab="value of b" , col=rgb(0.2,0.4,0.1,0.7) , lwd=3 , pch=17 , ylim=c(1,5) )
+lines(c ~a , col=rgb(0.8,0.4,0.1,0.7) , lwd=3 , pch=19 , type="b" )
+ 
+# Add a legend
+legend("bottomleft", 
+  legend = c("Group 1", "Group 2"), 
+  col = c(rgb(0.2,0.4,0.1,0.7), 
+  rgb(0.8,0.4,0.1,0.7)), 
+  pch = c(17,19), 
+  bty = "n", 
+  pt.cex = 2, 
+  cex = 1.2, 
+  text.col = "black", 
+  horiz = F , 
+  inset = c(0.1, 0.1))
+```

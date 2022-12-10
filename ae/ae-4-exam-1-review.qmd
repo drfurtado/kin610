@@ -18,12 +18,9 @@ library(knitr)
 
 ## Restaurant tips
 
-What factors are associated with the amount customers tip at a restaurant?
-To answer this question, we will use data collected in 2011 by a student at St. Olaf who worked at a local restaurant.[^1]
+What factors are associated with the amount customers tip at a restaurant? To answer this question, we will use data collected in 2011 by a student at St. Olaf who worked at a local restaurant.[^1]
 
-[^1]: Dahlquist, Samantha, and Jin Dong.
-    2011.
-    "The Effects of Credit Cards on Tipping." Project for Statistics 212-Statistics for the Sciences, St. Olaf College.
+[^1]: Dahlquist, Samantha, and Jin Dong. 2011. "The Effects of Credit Cards on Tipping." Project for Statistics 212-Statistics for the Sciences, St. Olaf College.
 
 The variables we'll focus on for this analysis are
 
@@ -52,8 +49,7 @@ Let's start by fitting a model using `Party` to predict the `Tip` at this restau
 
 2.  Write the statistical model.
 
-3.  Fit the regression line and write the regression equation.
-    Name the model `tips_fit` and display the results with `kable()` and a reasonable number of digits.
+3.  Fit the regression line and write the regression equation. Name the model `tips_fit` and display the results with `kable()` and a reasonable number of digits.
 
 ```{r}
 # add your code here
@@ -61,8 +57,7 @@ Let's start by fitting a model using `Party` to predict the `Tip` at this restau
 
 4.  Interpret the slope.
 
-5.  Does it make sense to interpret the intercept?
-    Explain your reasoning.
+5.  Does it make sense to interpret the intercept? Explain your reasoning.
 
 ## Inference
 
@@ -117,9 +112,7 @@ boot_dist <- tips %>%
 # add your code here
 ```
 
-13. Suppose you're asked to construct a confidence and a prediction interval for your finding in Exercise 11.
-    Which one would you expect to be wider and why?
-    In your answer clearly state the difference between these intervals.
+13. Suppose you're asked to construct a confidence and a prediction interval for your finding in Exercise 11. Which one would you expect to be wider and why? In your answer clearly state the difference between these intervals.
 
 14. Now construct the intervals from Exercise 12 and comment on whether your guess is confirmed.
 
@@ -191,8 +184,6 @@ boot_dist <- tips %>%
 
 23. Interpret each of the slopes.
 
-24. Does it make sense to interpret the intercept?
-    Explain your reasoning.
+24. Does it make sense to interpret the intercept? Explain your reasoning.
 
-25. According to this model, is the rate of change in tip amount the same for various sizes of parties regardless of alcohol consumption or are they different?
-    Explain your reasoning.
+25. According to this model, is the rate of change in tip amount the same for various sizes of parties regardless of alcohol consumption or are they different? Explain your reasoning.

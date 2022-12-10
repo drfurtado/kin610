@@ -1,0 +1,16 @@
+{
+  "hash": "86ff6ca35044f5f7161644cb31899589",
+  "result": {
+    "markdown": "---\ntitle: \"KIN 610 - Quantitative Analysis of Research in Kinesiology\"\n---\n\n\nThis course focuses on the introductory statistical techniques used in social science research. Students will be introduced to concepts such as reliability, validity, measures of central tendency, variability, probability, and statistical techniques including: t tests (independent & dependent samples), Analysis of Variance (ANOVA), Chi-square, correlation, and regression.\n\nStudents are expected to take the material/concepts presented in this course and apply them through a series of homework assignments and quizzes. The overall goal of the course is not only to help students understand the mathematical/statistical concepts presented but also to assist in the application of these procedures.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](course-overview_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "course-overview_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
