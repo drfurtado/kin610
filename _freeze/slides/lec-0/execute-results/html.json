@@ -1,0 +1,21 @@
+{
+  "hash": "113e9072b6479575af28278e183844b8",
+  "result": {
+    "markdown": "---\ntitle: \"Welcome to KIN 610!\"\nsubtitle: \"KIN 610 - Spring 2023\"\nauthor: \"Dr. Ovande Furtado Jr\"\nfooter:  \"[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)\"\nlogo: \"images/logo.png\"\nformat: \n  revealjs: \n    theme: slides.scss\n    multiplex: true\n    transition: fade\n    slide-number: true\n    width: 16:9\neditor: visual\nexecute:\n  freeze: auto\n---\n\n\n\n\n## Meet each other!\n\nIn breakout rooms:\n\n-   Name, year, major, hometown\n-   What did you do over the winter break?\n-   What do you hope to get out of this course?\n-   Anything else you want to share/ask?\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div class=\"countdown\" id=\"timer_37fc750a\" data-update-every=\"1\" tabindex=\"0\" style=\"right:0;bottom:0;\">\n<div class=\"countdown-controls\"><button class=\"countdown-bump-down\">&minus;</button><button class=\"countdown-bump-up\">&plus;</button></div>\n<code class=\"countdown-time\"><span class=\"countdown-digits minutes\">05</span><span class=\"countdown-digits colon\">:</span><span class=\"countdown-digits seconds\">00</span></code>\n</div>\n```\n:::\n:::\n\n\n## **What to expect in class** {.scrollable .incremental}\n\n-   ::: incremental\n    -   Try to arrive 10 minutes before class begins to set up the computer, open lecture notes, etc.\n\n    -   I will go over any announcements and begin the lecture shortly after\n\n    -   A PDF version of the lecture notes will be provide to students, which can used for note taking purposes - electronically[^1] or hand writing[^2]\n\n    -   When covering jamovi, students are expected to follow along and turn in the generated output at the end of class - will count toward participation points\n    :::\n\n[^1]: Use Acrobat Reader for this purpose.\n\n[^2]: The computer lab has a printer.\n\n## Wrap up\n\nAre there any questions {{< bi question-diamond-fill >}}\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<link href=\"../site_libs/countdown-0.4.0/countdown.css\" rel=\"stylesheet\" />\n<script src=\"../site_libs/countdown-0.4.0/countdown.js\"></script>\n"
+      ],
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

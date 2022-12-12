@@ -1,0 +1,54 @@
+---
+title: "Welcome to KIN 610!"
+subtitle: "KIN 610 - Spring 2023"
+author: "Dr. Ovande Furtado Jr"
+footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
+logo: "images/logo.png"
+format: 
+  revealjs: 
+    theme: slides.scss
+    multiplex: true
+    transition: fade
+    slide-number: true
+    width: 16:9
+editor: visual
+execute:
+  freeze: auto
+---
+
+```{r include = FALSE}
+library(countdown)
+```
+
+## Meet each other!
+
+In breakout rooms:
+
+-   Name, year, major, hometown
+-   What did you do over the winter break?
+-   What do you hope to get out of this course?
+-   Anything else you want to share/ask?
+
+```{r}
+countdown(minutes = 5)
+```
+
+## **What to expect in class** {.scrollable .incremental}
+
+-   ::: incremental
+    -   Try to arrive 10 minutes before class begins to set up the computer, open lecture notes, etc.
+
+    -   I will go over any announcements and begin the lecture shortly after
+
+    -   A PDF version of the lecture notes will be provide to students, which can used for note taking purposes - electronically[^1] or hand writing[^2]
+
+    -   When covering jamovi, students are expected to follow along and turn in the generated output at the end of class - will count toward participation points
+    :::
+
+[^1]: Use Acrobat Reader for this purpose.
+
+[^2]: The computer lab has a printer.
+
+## Wrap up
+
+Are there any questions {{< bi question-diamond-fill >}}

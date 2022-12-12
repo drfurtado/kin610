@@ -1,8 +1,8 @@
 ---
-title: "Welcome to STA 210!"
-subtitle: "STA 210 - Spring 2022"
-author: "Dr. Mine Çetinkaya-Rundel"
-footer:  "[sta210-s22.github.io/website](https://sta210-s22.github.io/website/)"
+title: "Welcome to KIN 610!"
+subtitle: "KIN 610 - Spring 2023"
+author: "Dr. Ovande Furtado Jr"
+footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
 logo: "images/logo.png"
 format: 
   revealjs: 
@@ -26,40 +26,15 @@ library(countdown)
 
 ::: columns
 ::: {.column width="50%"}
-![Dr. Mine Çetinkaya-Rundel (she/her)](images/lec-1/mine.png){fig-alt="Headshot of Dr. Mine Çetinkaya-Rundel" fig-align="center" width="200"}
+![Dr. Furtado - Cal State Northridge](images/lec-1/portrait.jpeg){fig-align="center" width="284"}
 :::
 
 ::: {.column width="50%"}
--   Professor of the Practice & Director of Undergraduate Studies, Department of Statistical Science
+-   Associate Professor in Motor Behavior, Department Kinesiology, Cal State Northridge
 -   Affiliated Faculty, Computational Media, Arts & Cultures
--   Find out more at [mine-cr.com](https://mine-cr.com)
+-   Find out more at my [academic site](http://drfurtado.us)
 :::
 :::
-
-## Meet the TAs
-
--   Martha Aboagye (she/her, UG)
--   Rich Fremgen (he/him, MS)
--   Emily Gentles (she/her, MS)
--   Sara Mehta (she/her, UG)
--   Rick Presman (he/him, PhD)
--   Shari Tian (she/her, UG)
--   Aaditya Warrier (he/him, UG)
-
-## Check out Conversations
-
--   Go to [Conversations 💬](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d1f70802b)
--   Answer the discussion question: How are you doing?
-
-# Regression analysis
-
-## What is regression analysis
-
-::: {style="font-size: 0.8em;"}
-> "In statistical modeling, regression analysis is a set of statistical processes for estimating the relationships among variables. It includes many techniques for modeling and analyzing several variables, when **the focus is on the relationship between a dependent variable and one or more independent variables (or predictors)**. More specifically, regression analysis helps one understand how the typical value of the dependent variable (or 'criterion variable') changes when any one of the independent variables is varied, while the other independent variables are held fixed."
-:::
-
-Source: [Wikipedia](https://en.wikipedia.org/wiki/Regression_analysis)
 
 ## Course FAQ
 

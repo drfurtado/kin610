@@ -23,9 +23,9 @@ bibliography: references.bib
 csl: apa-numeric-superscript-brackets.csl
 ---
 
-# Instructor Info {#sec-instructor-info}
+Download the syllabus as [PDF](syllabus.pdf)
 
-**Brief Bio**
+# Instructor Info {#sec-instructor-info}
 
 Ovande Furtado Jr., Ph.D.
 
@@ -51,11 +51,8 @@ Students are expected to take the material/concepts presented in this course and
 Upon completion of this course, you will be able to adequately:
 
 1.  Introduce statistical concepts utilized in research within the social sciences
-
 2.  Apply the mathematical/statistical techniques presented for social science research
-
 3.  Demonstrate an ability to analyze and interpret data within the social sciences
-
 4.  Provide practical examples as to when statistical techniques presented are appropriate methods for analysis.
 
 ## Text, readings & instructional resources
@@ -67,17 +64,13 @@ Weir and Vincent (2021) @weir2021
 ### Other readings
 
 -   StatKat - Statistical method selection table
-
 -   GPower - Statistical Power Analysis
-
     -   HHU website[@universi2014] (many resources related to the app, including tutorials)
-
     -   Demonstration Article[@faul2007]
 
 ### Instructional resources {#instructional-resources}
 
 -   jamovi Statistical Software[@thejamoviproject2021] (Free)
-
 -   jamovi Video Tutorials[^1] (Free)
 
 [^1]: [jamovi video tutorials](https://bit.ly/2VHvd1w)
