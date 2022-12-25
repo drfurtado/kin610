@@ -1,18 +1,29 @@
 ---
 title: "Week 1"
 subtitle: "Course intro and data collection"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
 editor: source
 ---
 
 ::: callout-important
 We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+
+Download this lesson as [PDF](week-1.pdf)
 :::
 
 ## Prepare
 
-{{< bi book >}} [Read the syllabus](../syllabus.qmd)
+{{< bi book >}} Read the syllabus
 
-{{< bi book >}} [Read the support resources](../course-support.qmd)
+{{< bi book >}} Read the support resources
 
 ## Participate
 
@@ -22,11 +33,11 @@ You will be asked to use Google Drive for this course. Create a folder in which 
 
 KIN610 (main folder)
 
-- KIN610 Useful Links (Google Doc file)
--  Lectures in PDF (Folder)
-  - KIN610 Lec 01 (PDF file)
-  - KIN610 Lec 02 (PDF file)
-  - ... and so on
+-   KIN610 Useful Links (Google Doc file)
+-   Lectures in PDF (Folder)
+-   KIN610 Lec 01 (PDF file)
+-   KIN610 Lec 02 (PDF file)
+-   ... and so on
 
 ### Data collection
 
@@ -36,14 +47,14 @@ Information about each test will be provided in class.
 
 ## Practice
 
-1. Follow the steps above and create the folder and the Google Doc file in the root of your Google Drive account
-2. Download the syllabus in pdf (../syllabus.pdf) and upload it to the newly created folder - `Lectures in PDF` 
-3. Create a shared link for `KIN610` and set `Anyone with the link` under `General access`
+1.  Follow the steps above and create the folder and the Google Doc file in the root of your Google Drive account
+2.  Download the syllabus in pdf (../syllabus.pdf) and upload it to the newly created folder - `Lectures in PDF`
+3.  Create a shared link for `KIN610` and set `Anyone with the link` under `General access`
 
 ## Perform
 
-1. Submit the share link created above through [Canvas](https://canvas.csun.edu)
-2. Submit the scores from the cognitive tests through [Canvas](https://canvas.csun.edu)
+1.  Submit the share link created above through [Canvas](https://canvas.csun.edu)
+2.  Submit the scores from the cognitive tests through [Canvas](https://canvas.csun.edu)
 
 <br><br>
 

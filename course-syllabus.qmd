@@ -4,6 +4,7 @@ subtitle: |
   | Department of Kinesiology, Cal State Northridge
   | Fall 2022 | Tuesday, 4:00-6:45 p.m (RE 276)
 latex-auto-mk: true
+identifier-prefix: silla
 format: 
   html:
     toc: true

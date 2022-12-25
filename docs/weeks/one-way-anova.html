@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KIN 610 - Spring 2023 - Week 14</title>
+<title>KIN 610 - Spring 2023 - One-Way ANOVA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week-15.html" rel="next">
-<link href="../weeks/week-13.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -63,11 +61,11 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="KIN 610 - Spring 2023 - Week 14">
-<meta property="og:description" content="MultiLR + Exam 3 review">
+<meta property="og:title" content="KIN 610 - Spring 2023 - One-Way ANOVA">
+<meta property="og:description" content="ntroduction">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
-<meta name="twitter:title" content="KIN 610 - Spring 2023 - Week 14">
-<meta name="twitter:description" content="MultiLR + Exam 3 review">
+<meta name="twitter:title" content="KIN 610 - Spring 2023 - One-Way ANOVA">
+<meta name="twitter:description" content="ntroduction">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -81,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Week 14</h1>
+      <h1 class="quarto-secondary-nav-title">One-Way ANOVA</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -191,12 +189,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Weekly materials</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Weekly materials</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week-1.html" class="sidebar-item-text sidebar-link">Week 1</a>
@@ -264,7 +262,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-14.html" class="sidebar-item-text sidebar-link active">Week 14</a>
+  <a href="../weeks/week-14.html" class="sidebar-item-text sidebar-link">Week 14</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -314,23 +312,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#participate" id="toc-participate" class="nav-link active" data-scroll-target="#participate">Participate</a></li>
-  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">Practice</a></li>
-  <li><a href="#perform" id="toc-perform" class="nav-link" data-scroll-target="#perform">Perform</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/drfurtado/kin610/edit/main/weeks/week-14.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/drfurtado/kin610/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Week 14</h1>
-<p class="subtitle lead">MultiLR + Exam 3 review</p>
+<h1 class="title d-none d-lg-block">One-Way ANOVA</h1>
 </div>
 
 
@@ -345,38 +334,35 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="callout-important callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Due dates: Friday, April 15 - Project peer review of drafts</p>
-</div>
-</div>
-<section id="participate" class="level2">
-<h2 class="anchored" data-anchor-id="participate">Participate</h2>
-<p>🖥️ <a href="../slides/lec-26.html">Lecture 26 - MultiLR: Predictive models (cont.)</a></p>
-<p>🖥️ <a href="../slides/lec-27.html">Lecture 27 - Exam 3 Review</a></p>
-</section>
-<section id="practice" class="level2">
-<h2 class="anchored" data-anchor-id="practice">Practice</h2>
-<p>📋 <a href="../ae/ae-12-exam-3-review.html">Application Exercise 12 - Exam 3 Review</a></p>
-</section>
-<section id="perform" class="level2">
-<h2 class="anchored" data-anchor-id="perform">Perform</h2>
-<p>✍️ <a href="../project-description.html#peer-review">Project - Peer review of drafts</a></p>
-<p><br><br></p>
-<div style="font-size: 0.875em;">
-<p>Back to <a href="../" title="Course schedule">course schedule</a> ⏎</p>
-</div>
+<p>ntroduction</p>
+<p>One-way analysis of variance (ANOVA) is a statistical test used to compare the means of three or more groups. It is a powerful tool for understanding the relationships between variables and can be used to test hypotheses about the differences between groups. In this chapter, we will discuss the assumptions, calculations, and interpretation of one-way ANOVA, as well as its strengths and limitations.</p>
+<p>Assumptions</p>
+<p>There are several assumptions that must be met in order to use one-way ANOVA:</p>
+<ol type="1">
+<li><p>Normality: The data should be approximately normally distributed within each group.</p></li>
+<li><p>Independence: The observations should be independent of each other, meaning that the value of one observation should not affect the value of another observation.</p></li>
+<li><p>Equal variance: The variance within each group should be approximately equal.</p></li>
+</ol>
+<p>If these assumptions are not met, the results of the ANOVA may be biased or unreliable. It is important to check for these assumptions before conducting the test.</p>
+<p>Calculations</p>
+<p>To calculate a one-way ANOVA, we first need to calculate the sum of squares within groups (SSW) and the sum of squares between groups (SSB). The SSW represents the variance within each group, while the SSB represents the variance between the groups.</p>
+<p>The formula for calculating the SSW is:</p>
+<p>SSW = Σ(x - x̄)^2</p>
+<p>Where x is the value of each observation and x̄ is the mean of the group.</p>
+<p>The formula for calculating the SSB is:</p>
+<p>SSB = k * Σ(x̄ - x̄̄)^2</p>
+<p>Where k is the number of groups, x̄ is the mean of each group, and x̄̄ is the overall mean of all the groups.</p>
+<p>Once we have calculated the SSW and SSB, we can then use them to calculate the F statistic, which is used to determine whether there are significant differences between the groups. The F statistic is calculated as follows:</p>
+<p>F = SSB / SSW</p>
+<p>The F statistic follows an F distribution, which allows us to determine the probability (p-value) that the differences between the groups are due to chance. If the p-value is less than a predetermined level of significance (usually 0.05), we can reject the null hypothesis and conclude that there are significant differences between the groups.</p>
+<p>Interpretation</p>
+<p>If the p-value is significant, we can conclude that there are differences between the groups. However, we cannot determine which groups are significantly different from each other without conducting additional tests. To determine which groups are significantly different, we can use a post-hoc test, such as the Tukey HSD test or the Bonferroni correction.</p>
+<p>Strengths and Limitations</p>
+<p>One-way ANOVA is a powerful statistical tool that can be used to compare the means of three or more groups. However, it has some limitations. For example, it is only appropriate for continuous data and cannot be used with categorical data. It also assumes that the variance is equal within each group, which may not always be the case. Additionally, it does not provide information about the direction or size of the differences between the groups.</p>
+<p>Conclusion</p>
+<p>One-way ANOVA is a statistical test used to compare the means of three or more groups. It is a useful tool for understanding the relationships between variables and can be used to test hypotheses about the differences between groups. However, it has some limitations and should be used with caution.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -627,18 +613,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../weeks/week-13.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Week 13</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../weeks/week-15.html" class="pagination-link">
-        <span class="nav-page-text">Week 15</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
