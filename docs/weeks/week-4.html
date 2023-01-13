@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.313">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KIN 610 - Spring 2023 - Week 4</title>
+<title>KIN 610 - Spring 2023 - Week 3</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,25 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -61,13 +80,14 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
-<meta property="og:title" content="KIN 610 - Spring 2023 - Week 4">
-<meta property="og:description" content="TBA">
+<meta property="og:title" content="KIN 610 - Spring 2023 - Week 3">
+<meta property="og:description" content="Organizing and Displaying Data | Percentiles">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
-<meta name="twitter:title" content="KIN 610 - Spring 2023 - Week 4">
-<meta name="twitter:description" content="TBA">
+<meta name="twitter:title" content="KIN 610 - Spring 2023 - Week 3">
+<meta name="twitter:description" content="Organizing and Displaying Data | Percentiles">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -81,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Week 4</h1>
+      <h1 class="quarto-secondary-nav-title">Week 3</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -124,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-syllabus.qmd" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -318,7 +338,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prepare" id="toc-prepare" class="nav-link active" data-scroll-target="#prepare">Prepare</a></li>
+  <li><a href="#prepare" id="toc-prepare" class="nav-link active" data-scroll-target="#prepare">Prepare</a>
+  <ul class="collapse">
+  <li><a href="#organizing-and-displaying-data" id="toc-organizing-and-displaying-data" class="nav-link" data-scroll-target="#organizing-and-displaying-data">Organizing and Displaying Data</a></li>
+  <li><a href="#percentiles" id="toc-percentiles" class="nav-link" data-scroll-target="#percentiles">Percentiles</a></li>
+  </ul></li>
   <li><a href="#participate" id="toc-participate" class="nav-link" data-scroll-target="#participate">Participate</a></li>
   <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">Practice</a></li>
   <li><a href="#perform" id="toc-perform" class="nav-link" data-scroll-target="#perform">Perform</a></li>
@@ -330,8 +354,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Week 4</h1>
-<p class="subtitle lead">TBA</p>
+<h1 class="title d-none d-lg-block">Week 3</h1>
+<p class="subtitle lead">Organizing and Displaying Data | Percentiles</p>
 </div>
 
 
@@ -357,45 +381,66 @@ Important
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li>If you can’t be in class for the lectures, you can watch the live stream or watch the recording later on <a href="https://duke.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22d6c1d58a-cb6d-4732-9d4b-ae0c011bf767%22">Panopto</a>.</li>
 <li>Due dates:
 <ul>
-<li>HW 1: Fri, Jan 28, 5pm ET</li>
-<li>Lab 1: Fri, Jan 28, 5pm ET</li>
+<li>Ch02, Ch03 Quiz - after class</li>
+<li>Ch02, Ch03 Major Takeaways (MT) - before class</li>
 </ul></li>
 </ul>
 </div>
 </div>
 <section id="prepare" class="level2">
 <h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
-<p>📖 Read Introduction to Modern Statistics, Sec 24.4: <a href="https://openintro-ims.netlify.app/inf-model-slr.html#mathslope">Mathematical model for testing the slope</a></p>
-<p>📖 Read Introduction to Modern Statistics, Sec 24.5: <a href="https://openintro-ims.netlify.app/inf-model-slr.html#mathematical-model-interval-for-the-slope">Mathematical model, interval for the slope</a></p>
-<p>📖 Read Introduction to Modern Statistics, Sec 24.6: <a href="https://openintro-ims.netlify.app/inf-model-slr.html#tech-cond-linmod">Checking model conditions</a></p>
-<p>📖 Read Introduction to Modern Statistics, Sec 24.7: <a href="https://openintro-ims.netlify.app/inf-model-slr.html#chp24-review">Chapter review</a></p>
+<section id="organizing-and-displaying-data" class="level3">
+<h3 class="anchored" data-anchor-id="organizing-and-displaying-data">Organizing and Displaying Data</h3>
+<ul>
+<li>Read</li>
+<li>Submit the <a href="https://canvas.csun.edu">MT assignment</a></li>
+</ul>
+</section>
+<section id="percentiles" class="level3">
+<h3 class="anchored" data-anchor-id="percentiles">Percentiles</h3>
+<ul>
+<li>Read <span class="citation" data-cites="furtado2022">Furtado (<a href="#ref-furtado2022" role="doc-biblioref">2022</a>)</span></li>
+<li>Watch the mini lectures<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> 1 and 2 from <span class="citation" data-cites="humankinetics2021">Human Kinetics (<a href="#ref-humankinetics2021" role="doc-biblioref">2021</a>)</span>; chap.&nbsp;3</li>
+<li>Submit the <a href="https://canvas.csun.edu">MT assignment</a></li>
+</ul>
+</section>
 </section>
 <section id="participate" class="level2">
 <h2 class="anchored" data-anchor-id="participate">Participate</h2>
-<p>🖥️ <a href="../slides/lab-1.html">Lab 2 - College scorecard</a></p>
-<p>🖥️ <a href="../slides/lec-6.html">Lecture 6 - SLR: Mathematical models for inference</a></p>
-<p>🖥️ <a href="../slides/lec-7.html">Lecture 7 - SLR: Model diagnostics</a></p>
+<p>TBD</p>
 </section>
 <section id="practice" class="level2">
 <h2 class="anchored" data-anchor-id="practice">Practice</h2>
-<p>📋 <a href="../ae/ae-3-duke-forest.html">Application Exercise 3 - Checking model conditions</a></p>
+<p>TBD</p>
 </section>
 <section id="perform" class="level2">
 <h2 class="anchored" data-anchor-id="perform">Perform</h2>
-<p>⌨️ <a href="../labs/lab-2.html" title="Lab instructions">Lab 2 - College scorecard</a></p>
-<p>✍️ <a href="../hw/hw-1.html">HW 1 - In-person voting trends</a></p>
+<p>TBD</p>
 <p><br><br></p>
 <div style="font-size: 0.875em;">
 <p>Back to <a href="../" title="Course schedule">course schedule</a> ⏎</p>
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-furtado2022" class="csl-entry" role="doc-biblioentry">
+Furtado, O. (2022). <em>Percentiles</em>. <a href="https://drfurtado.github.io/randomstats/posts/12302022-percentiles/">https://drfurtado.github.io/randomstats/posts/12302022-percentiles/</a>
+</div>
+<div id="ref-humankinetics2021" class="csl-entry" role="doc-biblioentry">
+Human Kinetics. (2021). <em>Chapter 3 percentiles - mini lectures</em>. <a href="http://courses.humankinetics.com/lcourses/SIKWR5E/index.html#/">http://courses.humankinetics.com/lcourses/SIKWR5E/index.html#/</a>
+</div>
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>If the link fails to open, edit the URL address in your browser adding <code>index.html</code> before <code>#/</code><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -666,4 +711,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -84,55 +84,6 @@
     "text": "Course Schedule5\nTextbook: Weir and Vincent (2021)[1]\n\n\n\nWeek\nDate6\nReading7\nAssignments8\n\n\n\n\n Wk1\nJan 26\nCourse Intro & Data Collection\nRead and study the syllabus\n\n\n2\nFeb 2\nCh01: Measurement, Statistics, and Research\nQuiz; Major Takeaways\n\n\n3\nFeb 9\nCh02: Organizing and Displaying Data\nCh03: Percentiles\nQuizzes; Major Takeaways\n\n\n4\nFeb 16\nCh04: Measures of Central Tendency\nCh05: Measures of Variability\nQuizzes; Major Takeaways\n\n\n5\nFeb 23\nCh06: The Normal Curve\n\nQuiz; Major Takeaways; Homework 1\n\n\n6\nMar 2\nCh07: Fundamentals of Statistical Inference\nQuiz; Major Takeaways\n\n\n7\nMar 9\nCh08: Correlation and Bivariate Regression\nQuiz; Major Takeaways\n\n\n8\nMar 16\nCh09: Multiple Correlation and Multiple Regression\n\nQuiz; Major Takeaways; Homework 2\n\n\n9\nMar 23\nPreviously covered chapters\nna\n\n\n10\nMar 30\nCh10: The Student’s t-test\n\nQuiz; Major Takeaways\n\n\n11\nApr 6\nCh11: Simple Analysis of Variance\n\nQuiz; Major Takeaways\n\n\n12\nApr 13\nCh12: Analysis of Variance With Repeated Measures\n\nQuiz; Major Takeaways; Homework 3\n\n\n13\nApr 20\nCh14: Factorial Analysis of Variance\n\nQuiz; Major Takeaways\n\n\n14\nApr 27\nCh15: Analysis of Covariance\n\nQuiz; Major Takeaways\n\n\n15\nMay 4\nCh16: Analysis of Nonparametric Data\n\nQuiz; Major Takeaways\n\n\n16\nMay 11\n\n\n\n\nExam 2\nTBD\nAll chapters covered\nna"
   },
   {
-    "objectID": "labs/lab-2.html",
-    "href": "labs/lab-2.html",
-    "title": "Lab 2 - College scorecard",
-    "section": "",
-    "text": "In today’s lab, you’ll use simple linear regression to analyze the relationship between the admissions rate and total cost for colleges and universities in the United States.\n\n\nBy the end of the lab you will…\n\nBe able to fit a simple linear regression model using R.\nBe able to interpret the slope and intercept for the model.\nBe able to use statistical inference to draw conclusions about the slope.\nContinue developing a workflow for reproducible data analysis."
-  },
-  {
-    "objectID": "labs/lab-2.html#getting-started",
-    "href": "labs/lab-2.html#getting-started",
-    "title": "Lab 2 - College scorecard",
-    "section": "Getting started",
-    "text": "Getting started\n\nGo to the sta210-s22 organization on GitHub. Click on the repo with the prefix lab-2. It contains the starter documents you need to complete the lab.\nClone the repo and start a new project in RStudio. See the Lab 1 instructions for details on cloning a repo, starting a new R project and configuring git."
-  },
-  {
-    "objectID": "labs/lab-2.html#packages",
-    "href": "labs/lab-2.html#packages",
-    "title": "Lab 2 - College scorecard",
-    "section": "Packages",
-    "text": "Packages\nWe will use the following package in today’s lab.\n\nlibrary(tidyverse)  # for data wrangling + visualization\nlibrary(tidymodels) # for modeling\nlibrary(knitr)      # for pretty printing of tables"
-  },
-  {
-    "objectID": "labs/lab-2.html#data-college-scorecard",
-    "href": "labs/lab-2.html#data-college-scorecard",
-    "title": "Lab 2 - College scorecard",
-    "section": "Data: College scorecard",
-    "text": "Data: College scorecard\nThe data for this lab is from the scorecard data set in the rcfss R package. It includes information originally obtained from the U.S. Department of Education’s College Scorecard for 1753 colleges and universities during the 2018 - 2019 academic year.\nThe lab focuses on the following variables:\n\nadmrate: Undergraduate admissions rate (from 0-100%)\ncost: The average annual total cost of attendance, including tuition and fees, books and supplies, and living expenses\ntype: Type of college (Public; Private, nonprofit; Private, for-profit)\n\nClick here to see a full list of variables and definitions.\nUse the code below to load the data set.\n\nscorecard <- read_csv(\"data/scorecard.csv\")"
-  },
-  {
-    "objectID": "labs/lab-2.html#exercises",
-    "href": "labs/lab-2.html#exercises",
-    "title": "Lab 2 - College scorecard",
-    "section": "Exercises",
-    "text": "Exercises\n\n\n\n\n\n\nNote\n\n\n\nInclude axis labels and an informative title for all plots. Use the kable() function to neatly print tables and regression output.\n\n\n\nExercise 1\nCreate a histogram to examine the distribution of admrate and calculate summary statistics for the center (mean and median) and the spread (standard deviation and IQR).\n\n\nExercise 2\nUse the results from the previous exercise to describe the distribution of admrate. Include the shape, center, spread, and if there are potential outliers.\n\n\nExercise 3\nPlot the distribution of cost and calculate the appropriate summary statistics. Describe the distribution of cost (shape, center, and spread, and outliers) using the plot and appropriate summary statistics.\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty.\n\n\n\nExercise 4\nThe goal of this analysis is to fit a regression model that can be used to understand the variability in the cost of college based on the admission rate. Before fitting the model, let’s look at the relationship between the two variables. Create a scatterplot to display the relationship between cost and admissions rate. Describe the relationship between the two variables based on the plot.\n\n\nExercise 5\nDoes the relationship between cost and admissions rate differ by type of college? Modify the plot from the previous exercise visualize the relationship by type of college.\n\n\nExercise 6\nDescribe two new observations from the scatterplot in Exercise 5 that you didn’t see in the scatterplot from Exercise 4.\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty.\n\n\n\nExercise 7\nFit the linear regression model. Use the kable function to neatly display the results with a reasonable number of decimals.\n\n\nExercise 8\nConsider the model from the previous exercise.\n\nInterpret the slope in the context of the problem.\nDoes the intercept have a meaningful interpretation? If so, write the interpretation in the context of the problem. Otherwise, explain why the interpretation is not meaningful.\n\n\n\nExercise 9\nConstruct a 95% confidence interval for the slope using bootstrapping. Follow these steps to accomplish this:\n\nFirst set a seed for simulating reproducibly.\nThen, simulate the bootstrap distribution of the slope using 1,000 bootstrap samples.\nThen, visually estimate the bounds of the bootstrap interval based on a histogram of the distribution of the bootstrapped slopes, using the percentile method.\nAnd then, use the get_confidence_interval() function to explicitly calculate the bounds of the confidence interval using the percentile method.\nFinally, interpret the confidence interval in the context of the data.\n\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty.\n\n\n\nExercise 10\nFinally, we want to answer the question “Do the data provide sufficient evidence of a linear relationship between cost and admissions rate, i.e. \\(\\beta_1\\) is different from 0?”\nTo answer this question we will use a hypothesis test. We can conduct a hypothesis test via simulation (what we’ll do in this lab) or using mathematical models (what we’ll do in the next class).\nBefore we can conduct the hypothesis test, let’s first set our hypotheses. Remember that the null hypothesis represents the status quo (nothing going on, i.e. there is no relationship) and the alternative hypothesis represents our research question (there is something going on, i.e. there is a relationship).\n\n\\(H_0\\): There is no linear relationship between the admissions rate and cost of colleges in the United States, \\(\\beta_1 = 0\\)\n\\(H_A\\): There is a linear relationship between the admissions rate and cost of colleges in the United States, \\(\\beta_1 \\ne 0\\)\n\nTo test these hypotheses, we will use a permutation test, where we\n\nSimulate new samples from the original sample via permutation under the assumption that the null hypothesis is true\nFit models to each of the samples and estimate the slope\nUse features of the distribution of the permuted slopes to calculate the p-value for the hypothesis test\n\nThe major difference between constructing a confidence interval and conducting a hypothesis test is that for the hypothesis test we assume that the null hypothesis is true. This requires a simulation scheme that will allow us to measure the natural variability in the data due to sampling but not due to cost and admission rate being correlated by permuting permute one variable to eliminate any existing relationship between the variables. To do so, we randomly assign each admrate value to cost of a given university, i.e. cost and admrate are no longer matched for a given university.\nIn the following code chunk we\n\nFirst set a seed for simulating reproducibly.\nThen, we start with our data frame and specify our model as cost vs. admrate.\nThen, we set our null hypothesis (cost and admrate are independent)\nAnd then we generate 1000 replicates of our data where, for each replicate, we permute values of admrate to randomly assign them to values of cost\nFinally, we fit our model to each of our 1000 permuted datasets\n\n\nset.seed(1234)\n\nperm_fits <- scorecard %>%\n  specify(cost ~ admrate) %>%\n  hypothesize(null = \"independence\") %>%\n  generate(reps = 1000, type = \"permute\") %>%\n  fit()\n\nThe resulting dataset perm_fits has nrow(perm_fits) and ncol(perm_fits) columns. The first column, replicate indicates the replicate number of the dataset the models were fit to; the values in this column range between 1 and 1000. The second column, term, tells us which term (intercept of the model or slope of admrate) the estimate value in the third column is for.\n\nperm_fits\n\n# A tibble: 2,000 × 3\n# Groups:   replicate [1,000]\n   replicate term      estimate\n       <int> <chr>        <dbl>\n 1         1 intercept  36857. \n 2         1 admrate     -781. \n 3         2 intercept  35901. \n 4         2 admrate      643. \n 5         3 intercept  36608. \n 6         3 admrate     -411. \n 7         4 intercept  35831. \n 8         4 admrate      746. \n 9         5 intercept  36367. \n10         5 admrate      -51.7\n# … with 1,990 more rows\n\n\n\nCreate a histogram of the slope estimates in perm_fits. (Hint: Filter the dataset for just the slope values, term == \"admrate\".)\nEstimate the p-value of the hypothesis test based on this distribution.\nState your conclusion for the test in context.\nIndicate whether or not it is consistent with the results of the hypothesis test from the previous exercise. Briefly explain your response.\n\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty."
-  },
-  {
-    "objectID": "labs/lab-2.html#submission",
-    "href": "labs/lab-2.html#submission",
-    "title": "Lab 2 - College scorecard",
-    "section": "Submission",
-    "text": "Submission\n\n\n\n\n\n\nWarning\n\n\n\nBefore you wrap up the assignment, make sure all documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.\nRemember – you must turn in a PDF file to the Gradescope page before the submission deadline for full credit.\n\n\nTo submit your assignment:\n\nGo to http://www.gradescope.com and click Log in in the top right corner.\nClick School Credentials ➡️ Duke NetID and log in using your NetID credentials.\nClick on your STA 210 course.\nClick on the assignment, and you’ll be prompted to submit it.\nMark the pages associated with each exercise. All of the pages of your lab should be associated with at least one question (i.e., should be “checked”).\nSelect the first page of your PDF submission to be associated with the “Workflow & formatting” section."
-  },
-  {
-    "objectID": "labs/lab-2.html#grading",
-    "href": "labs/lab-2.html#grading",
-    "title": "Lab 2 - College scorecard",
-    "section": "Grading",
-    "text": "Grading\nTotal points available: 50 points.\n\n\n\nComponent\nPoints\n\n\n\n\nEx 1 - 10\n45\n\n\nWorkflow & formatting\n51\n\n\n\n\n\n1 The “Workflow & formatting” grade is to assess the reproducible workflow. This includes having at least 3 informative commit messages and updating the name and date in the YAML."
-  },
-  {
     "objectID": "labs/lab-3.html",
     "href": "labs/lab-3.html",
     "title": "Lab 3 - Coffee ratings",
@@ -485,37 +436,37 @@
   {
     "objectID": "weeks/week-4.html",
     "href": "weeks/week-4.html",
-    "title": "Week 4",
+    "title": "Week 3",
     "section": "",
-    "text": "Important\n\n\n\n\nIf you can’t be in class for the lectures, you can watch the live stream or watch the recording later on Panopto.\nDue dates:\n\nHW 1: Fri, Jan 28, 5pm ET\nLab 1: Fri, Jan 28, 5pm ET"
+    "text": "Important\n\n\n\n\nDue dates:\n\nCh02, Ch03 Quiz - after class\nCh02, Ch03 Major Takeaways (MT) - before class"
   },
   {
     "objectID": "weeks/week-4.html#prepare",
     "href": "weeks/week-4.html#prepare",
-    "title": "Week 4",
+    "title": "Week 3",
     "section": "Prepare",
-    "text": "Prepare\n📖 Read Introduction to Modern Statistics, Sec 24.4: Mathematical model for testing the slope\n📖 Read Introduction to Modern Statistics, Sec 24.5: Mathematical model, interval for the slope\n📖 Read Introduction to Modern Statistics, Sec 24.6: Checking model conditions\n📖 Read Introduction to Modern Statistics, Sec 24.7: Chapter review"
+    "text": "Prepare\n\nOrganizing and Displaying Data\n\nRead\nSubmit the MT assignment\n\n\n\nPercentiles\n\nRead Furtado (2022)\nWatch the mini lectures1 1 and 2 from Human Kinetics (2021); chap. 3\nSubmit the MT assignment"
   },
   {
     "objectID": "weeks/week-4.html#participate",
     "href": "weeks/week-4.html#participate",
-    "title": "Week 4",
+    "title": "Week 3",
     "section": "Participate",
-    "text": "Participate\n🖥️ Lab 2 - College scorecard\n🖥️ Lecture 6 - SLR: Mathematical models for inference\n🖥️ Lecture 7 - SLR: Model diagnostics"
+    "text": "Participate\nTBD"
   },
   {
     "objectID": "weeks/week-4.html#practice",
     "href": "weeks/week-4.html#practice",
-    "title": "Week 4",
+    "title": "Week 3",
     "section": "Practice",
-    "text": "Practice\n📋 Application Exercise 3 - Checking model conditions"
+    "text": "Practice\nTBD"
   },
   {
     "objectID": "weeks/week-4.html#perform",
     "href": "weeks/week-4.html#perform",
-    "title": "Week 4",
+    "title": "Week 3",
     "section": "Perform",
-    "text": "Perform\n⌨️ Lab 2 - College scorecard\n✍️ HW 1 - In-person voting trends\n\n\nBack to course schedule ⏎"
+    "text": "Perform\nTBD\n\n\nBack to course schedule ⏎"
   },
   {
     "objectID": "weeks/week-1.html",
@@ -564,7 +515,7 @@
     "href": "weeks/week-3.html#prepare",
     "title": "Week 3",
     "section": "Prepare",
-    "text": "Prepare\n\nOrganizing and Displaying Data\n\nRead\nSubmit the MT assignment\n\n\n\nPercentiles\n\nRead Furtado (2022)\nWatch the mini lectures1 1 and 2 from Human Kinetics (2021); chap. 3\nSubmit the MT assignment"
+    "text": "Prepare\n\nRead Furtado (2023)\nSubmit the MT assignment and take the quiz\nWatch the mini lectures1 1-3 from Human Kinetics (2021); chap. 1"
   },
   {
     "objectID": "weeks/week-3.html#participate",
@@ -620,7 +571,7 @@
     "href": "weeks/week-2.html#perform",
     "title": "Week 2",
     "section": "Perform",
-    "text": "Perform\nComplete Lab 1 and submit it by the deadline.\n\n\nBack to course schedule ⏎"
+    "text": "Perform\nComplete Lab 2 and submit it by the deadline.\n\n\nBack to course schedule ⏎"
   },
   {
     "objectID": "weeks/week-10.html",
@@ -6934,7 +6885,7 @@
     "href": "index.html",
     "title": "KIN 610 - Spring 2023",
     "section": "",
-    "text": "Optional Textbook: Weir and Vincent (2021); Required ebook: Navarro and Foxcroft (2022)\n\n\n\n\n\n\n\n\n\n\n\nWeek1\nDate2\nReading3\nAssignments4\n\n\n\n\n\nWk01\nJan 26\nCourse Intro & Data Collection\nRead and study the Syllabus\n\n\n\nWK02\nFeb 2\nIntroduction to jamovi\nLab 1\n\n\n\nWK03\nFeb 9\nIntroduction to Statistics and Measurement\nQuiz; Major Takeaways\n\n\n\nWK04\nFeb 16\nOrganizing and Displaying Data\nPercentiles\nQuizzes; Major Takeaways\n\n\n\nWK05\nFeb 23\nMeasures of Central Tendency\nMeasures of Variability\nQuizzes; Major Takeaways; Lab 2\n\n\n\nWK06\nMar 2\nFundamentals of Inferential Statistical\n\nQuiz; Major Takeaways\n\n\n\nWK07\nMar 9\nCorrelation and Bivariate Regression\nQuiz; Major Takeaways\n\n\n\nWK08\nMar 16\nMultiple Correlation and Multiple Regression\nQuiz; Major Takeaways; Lab 3\n\n\n\nWK09\nMar 23\nExam 15\nna\n\n\n\nWK10\nMar 30\nThe Student’s t-test\nQuiz; Major Takeaways\n\n\n\nWK11\nApr 6\nOne-way Analysis of Variance\nQuiz; Major Takeaways\n\n\n\nWK12\nApr 13\nAnalysis of Variance With Repeated Measures\nQuiz; Major Takeaways; Lab 4\n\n\n\nWK13\nApr 20\n\nFactorial Analysis of Variance: Between-Between\nQuiz; Major Takeaways\n\n\n\nWK14\nApr 27\n\nFactorial Analysis of Variance: Between-Within, Within-Within\nQuiz; Major Takeaways\n\n\n\nWK15\nMay 4\nReliability\nQuiz; Major Takeaways; Lab 5\n\n\n\nWK16\nMay 11\nAnalysis of Nonparametric Data\nQuiz; Major Takeaways\n\n\n\nFinal’s Week\nMay 18\n5:30PM - 7:30PM\nRedwood Hall 276\nExam 26\nna\n\n\n\n\nKIN 610 - Spring 2023 KIN 610 - Spring 2023 Useful links Support Course information Overview Syllabus Support Schedule Useful links FAQ Computing Access Troubleshooting Project Description Tips + resources Weekly materials Week 1 Week 2 Week 3 Week 4 Week 5 Week 6 Week 7 Week 8 Week 9 Week 10 Week 11 Week 12 Week 13 Week 14 Week 15 Supplemental notes Results in APA Model diagnostics MLR matrix notation Log transformations Model selection criteria © Copyright 2022, Ovande Furtado Jr This page is built with Quarto.\n\n\n  KIN 610 - Spring 2023\n\n\n\nNavarro, Danielle J, and David R Foxcroft. 2022. Learning Statistics with Jamovi: A Tutorial for Psychology Students and Other Beginners (Version 0.75). Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15.\n\n\nWeir, Joseph P., and William J. Vincent. 2021. Statistics in Kinesiology. Human Kinetics. https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource.\n\n\n\n\nFootnotes\n\n\nThe schedule is subject to change.↩︎\nClass Dates: Aug 29, 2022 - Dec 12, 2022↩︎\nStudents are expected to read and study the assigned chapters prior to attending each class meeting.↩︎\nQuizzes and Major Takeaways assignments are due before class; other assignment are due after class.↩︎\nCovers all previously covered topics.↩︎\nCovers mainly topics presented after Exam 1.↩︎"
+    "text": "Optional Textbook: Weir and Vincent (2021); Required ebook: Navarro and Foxcroft (2022)\n\n\n\n\n\n\n\n\n\n\n\nWeek1\nDate2\nReading3\nAssignments4\n\n\n\n\n\nWk01\nJan 26\nCourse Intro & Data Collection\nRead and study the Syllabus; Lab 1\n\n\n\nWK02\nFeb 2\nIntroduction to jamovi\nLab 2\n\n\n\nWK03\nFeb 9\nIntroduction to Statistics and Measurement\nQuiz; Major Takeaways\n\n\n\nWK04\nFeb 16\nOrganizing and Displaying Data\nPercentiles\nQuizzes; Major Takeaways\n\n\n\nWK05\nFeb 23\nMeasures of Central Tendency\nMeasures of Variability\nQuizzes; Major Takeaways; Lab 3\n\n\n\nWK06\nMar 2\nFundamentals of Inferential Statistical\n\nQuiz; Major Takeaways\n\n\n\nWK07\nMar 9\nCorrelation and Bivariate Regression\nQuiz; Major Takeaways\n\n\n\nWK08\nMar 16\nMultiple Correlation and Multiple Regression\nQuiz; Major Takeaways; Lab 4\n\n\n\nWK09\nMar 23\nExam 15\nna\n\n\n\nWK10\nMar 30\nThe Student’s t-test\nQuiz; Major Takeaways\n\n\n\nWK11\nApr 6\nOne-way Analysis of Variance\nQuiz; Major Takeaways\n\n\n\nWK12\nApr 13\nAnalysis of Variance With Repeated Measures\nQuiz; Major Takeaways; Lab 5\n\n\n\nWK13\nApr 20\nSpring Recess\nna\n\n\n\nWK14\nApr 27\n\nFactorial Analysis of Variance: Between-Between\nQuiz; Major Takeaways\n\n\n\nWK15\nMay 4\n\nFactorial Analysis of Variance: Between-Within, Within-Within\nQuiz; Major Takeaways; Lab 6\n\n\n\nWK16\nMay 11\nAnalysis of Nonparametric Data\nQuiz; Major Takeaways\n\n\n\nFinal’s Week\nMay 18\n5:30PM - 7:30PM\nRedwood Hall 276\nExam 26\nna\n\n\n\n\nKIN 610 - Spring 2023 KIN 610 - Spring 2023 Useful links Support Course information Overview Syllabus Support Schedule Useful links FAQ Computing Access Troubleshooting Project Description Tips + resources Weekly materials Week 1 Week 2 Week 3 Week 4 Week 5 Week 6 Week 7 Week 8 Week 9 Week 10 Week 11 Week 12 Week 13 Week 14 Week 15 Supplemental notes Results in APA Model diagnostics MLR matrix notation Log transformations Model selection criteria © Copyright 2022, Ovande Furtado Jr This page is built with Quarto.\n\n\n  KIN 610 - Spring 2023\n\n\n\nNavarro, Danielle J, and David R Foxcroft. 2022. Learning Statistics with Jamovi: A Tutorial for Psychology Students and Other Beginners (Version 0.75). Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15.\n\n\nWeir, Joseph P., and William J. Vincent. 2021. Statistics in Kinesiology. Human Kinetics. https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource.\n\n\n\n\nFootnotes\n\n\nThe schedule is subject to change.↩︎\nClass Dates: Aug 29, 2022 - Dec 12, 2022↩︎\nStudents are expected to read and study the assigned chapters prior to attending each class meeting.↩︎\nQuizzes and Major Takeaways assignments are due before class; other assignment are due after class.↩︎\nCovers all previously covered topics.↩︎\nCovers mainly topics presented after Exam 1.↩︎"
   },
   {
     "objectID": "supplemental/tables.html",
@@ -7194,5 +7145,89 @@
     "title": "KIN 610: Quantitative Analysis of Research in Kinesiology",
     "section": "Course Policy",
     "text": "Course Policy\nI will detail the policy for this course below. Basically, don’t cheat and try to learn stuff.\n\nGrading\n\n\n\nAssignment\nPercentage\n\n\n\n\nParticipation & Attendance\n5%\n\n\nWeekly Quizzes\n10%\n\n\nMajor Takeaways3\n20%\n\n\nLabs\n20%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nDéjà vu\n5%\n\n\n\n\n\nGrading Scale\nA 93.00-100.00 | A- 90.00-92.99 B+ 87.00-89.99 | B 83.00-86.99 | B- 80.00-82.99 C+ 77.00-79.99 | C 73.00-76.99 | C- 70.00-72.99 D+ 67.00-69.99 | D 63.00-66.99 | D- 60.00-62.99 F <59.99\n\n\n\n\n\n\nNote\n\n\n\nIn recognition of the fact that grading, however carefully done, will always be imperfect, this class will utilize a “round up” rule for assigning final grades. I will round up from .5% and above, but anything below this will round down. In other words, 79.5 will round up to 80, while 79.4 will round down to 79 even.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nRequests for an Incomplete (I) must conform to university policies. Among other requirements, “I” is possible only for instances in which you are demonstrating passing work in the class.\n\n\n\n\nAttendance\n\nShowing up is 80 percent of life – Woody Allen, via Marshall Brickman\n\nAttendance will be taken at the beginning of every class; please, plan accordingly.\n\n\nE-mail\nPlease, do not use the built-in email (Inbox) in Canvas. Instead, use your CSUN Gmail to communicate with me.\nIf your message concerns a non-private matter (e.g., assignments, content, deadlines, etc.), then please post your question to our mailing list, which can be answered by any student taking the course. The mailing list address is provided in Canvas.\n\n\nOffice Hours\n\nIn-person\nThursdays from 2-4 pm at RE 289.\n\n\nOnline via Zoom\nBy appointment only: www.calendly.com/drfurtado\n\n\n\nLate Assignments\nIt is important to note that late assignments are assessed a 10% deduction for each day it is late, not to exceed four days. After the fourth day of the deadline, no assignments will be accepted. Therefore, it is important to plan ahead and submit all assignments on time to receive full credit for your work. The instructor reserves the right to make exceptions to this policy on a case-by-case basis.\n\n\nExtra Credit\nThere is no individual extra credit granted. Therefore, do not plan to make-up poor grades at the end of the semester by asking to do extra credit work. I might provide extra credit opportunities, but these will be offered to the entire class, not to individuals.\n\n\nDisabilities\nFederal law mandates the provision of services at the university-level to qualified students with disabilities.\nThis instructor, in conjunction with California State University Northridge, is committed to upholding and maintaining all aspects of the federal Americans with Disabilities Act of 1990 (ADA) and Section 504 of the Rehabilitation Act of 1973.\nIf you are a student with a disability and wish to request accommodations, please contact the office of Students with Disabilities Resources located in 110 Student Services Building, or call (818) 677-2684 for an appointment. Any information regarding your disability will remain confidential. Because many accommodations require early planning, requests for accommodations should be made as early as possible. Any requests for accommodations will be reviewed in a timely manner to determine their appropriateness to this setting.\n\n\nAcademic Dishonesty\nTL;DR: Don’t cheat!\nPlease, stop and read the information below; this is important!\n\n\n\n\n\n\nImportant\n\n\n\nEach student is expected to be familiar with, and abide by, the conditions of student conduct, as presented in the CSUN Catalog, with emphasis on sections entitled, Student Conduct Code, Academic Dishonesty, Faculty Policy on Academic Dishonesty, and Penalties. Any student engaging in academic dishonesty (e.g., cheating, fabrication, facilitating academic dishonesty, plagiarism) is subject to discipline, which may include a failing grade in the course, and may also be subject to more severe discipline by the University. Students are encouraged to visit the link below and become familiar with the Standards for Student Conduct.\nhttp://www.csun.edu/a&r/soc/studentconduct.html\n\n\n\nAbout Plagiarism\nPlagiarism means using words, ideas, or arguments from another person or source without citation4. Cite all sources consulted to any extent (including material from the internet), whether or not assigned and whether or not quoted directly. For quotations, four or more words used in sequence must be set off in quotation marks, with the source identified.\nPlagiarism is a serious violation of the CSUN Student Conduct Code.. Any form of cheating will immediately earn you a failing grade for the entire course. By remaining enrolled, you consent to this policy.\n\nTurnitin (see below) will detect such misconducts as it checks every submission against a database of papers, as well as against the Internet.\n\nWhat is Turnitin?\nTurnitin is an automated system that instructors can use to quickly and easily compare each student’s assignment with billions of websites, as well as an enormous database of student papers that grows with each submission. Accordingly, you will be expected to submit assignments through the Canvas Assignment Tool in electronic format. After the assignment is processed, as an instructor, I receive a report from Turnitin that states if and how another author’s work was used in the assignment."
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html",
+    "href": "labs/CopyOflab-2.html",
+    "title": "Lab 2 - College scorecard",
+    "section": "",
+    "text": "In today’s lab, you’ll use simple linear regression to analyze the relationship between the admissions rate and total cost for colleges and universities in the United States.\n\n\nBy the end of the lab you will…\n\nBe able to fit a simple linear regression model using R.\nBe able to interpret the slope and intercept for the model.\nBe able to use statistical inference to draw conclusions about the slope.\nContinue developing a workflow for reproducible data analysis."
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html#getting-started",
+    "href": "labs/CopyOflab-2.html#getting-started",
+    "title": "Lab 2 - College scorecard",
+    "section": "Getting started",
+    "text": "Getting started\n\nGo to the sta210-s22 organization on GitHub. Click on the repo with the prefix lab-2. It contains the starter documents you need to complete the lab.\nClone the repo and start a new project in RStudio. See the Lab 1 instructions for details on cloning a repo, starting a new R project and configuring git."
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html#packages",
+    "href": "labs/CopyOflab-2.html#packages",
+    "title": "Lab 2 - College scorecard",
+    "section": "Packages",
+    "text": "Packages\nWe will use the following package in today’s lab.\n\nlibrary(tidyverse)  # for data wrangling + visualization\nlibrary(tidymodels) # for modeling\nlibrary(knitr)      # for pretty printing of tables"
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html#data-college-scorecard",
+    "href": "labs/CopyOflab-2.html#data-college-scorecard",
+    "title": "Lab 2 - College scorecard",
+    "section": "Data: College scorecard",
+    "text": "Data: College scorecard\nThe data for this lab is from the scorecard data set in the rcfss R package. It includes information originally obtained from the U.S. Department of Education’s College Scorecard for 1753 colleges and universities during the 2018 - 2019 academic year.\nThe lab focuses on the following variables:\n\nadmrate: Undergraduate admissions rate (from 0-100%)\ncost: The average annual total cost of attendance, including tuition and fees, books and supplies, and living expenses\ntype: Type of college (Public; Private, nonprofit; Private, for-profit)\n\nClick here to see a full list of variables and definitions.\nUse the code below to load the data set.\n\nscorecard <- read_csv(\"data/scorecard.csv\")"
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html#exercises",
+    "href": "labs/CopyOflab-2.html#exercises",
+    "title": "Lab 2 - College scorecard",
+    "section": "Exercises",
+    "text": "Exercises\n\n\n\n\n\n\nNote\n\n\n\nInclude axis labels and an informative title for all plots. Use the kable() function to neatly print tables and regression output.\n\n\n\nExercise 1\nCreate a histogram to examine the distribution of admrate and calculate summary statistics for the center (mean and median) and the spread (standard deviation and IQR).\n\n\nExercise 2\nUse the results from the previous exercise to describe the distribution of admrate. Include the shape, center, spread, and if there are potential outliers.\n\n\nExercise 3\nPlot the distribution of cost and calculate the appropriate summary statistics. Describe the distribution of cost (shape, center, and spread, and outliers) using the plot and appropriate summary statistics.\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty.\n\n\n\nExercise 4\nThe goal of this analysis is to fit a regression model that can be used to understand the variability in the cost of college based on the admission rate. Before fitting the model, let’s look at the relationship between the two variables. Create a scatterplot to display the relationship between cost and admissions rate. Describe the relationship between the two variables based on the plot.\n\n\nExercise 5\nDoes the relationship between cost and admissions rate differ by type of college? Modify the plot from the previous exercise visualize the relationship by type of college.\n\n\nExercise 6\nDescribe two new observations from the scatterplot in Exercise 5 that you didn’t see in the scatterplot from Exercise 4.\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty.\n\n\n\nExercise 7\nFit the linear regression model. Use the kable function to neatly display the results with a reasonable number of decimals.\n\n\nExercise 8\nConsider the model from the previous exercise.\n\nInterpret the slope in the context of the problem.\nDoes the intercept have a meaningful interpretation? If so, write the interpretation in the context of the problem. Otherwise, explain why the interpretation is not meaningful.\n\n\n\nExercise 9\nConstruct a 95% confidence interval for the slope using bootstrapping. Follow these steps to accomplish this:\n\nFirst set a seed for simulating reproducibly.\nThen, simulate the bootstrap distribution of the slope using 1,000 bootstrap samples.\nThen, visually estimate the bounds of the bootstrap interval based on a histogram of the distribution of the bootstrapped slopes, using the percentile method.\nAnd then, use the get_confidence_interval() function to explicitly calculate the bounds of the confidence interval using the percentile method.\nFinally, interpret the confidence interval in the context of the data.\n\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty.\n\n\n\nExercise 10\nFinally, we want to answer the question “Do the data provide sufficient evidence of a linear relationship between cost and admissions rate, i.e. \\(\\beta_1\\) is different from 0?”\nTo answer this question we will use a hypothesis test. We can conduct a hypothesis test via simulation (what we’ll do in this lab) or using mathematical models (what we’ll do in the next class).\nBefore we can conduct the hypothesis test, let’s first set our hypotheses. Remember that the null hypothesis represents the status quo (nothing going on, i.e. there is no relationship) and the alternative hypothesis represents our research question (there is something going on, i.e. there is a relationship).\n\n\\(H_0\\): There is no linear relationship between the admissions rate and cost of colleges in the United States, \\(\\beta_1 = 0\\)\n\\(H_A\\): There is a linear relationship between the admissions rate and cost of colleges in the United States, \\(\\beta_1 \\ne 0\\)\n\nTo test these hypotheses, we will use a permutation test, where we\n\nSimulate new samples from the original sample via permutation under the assumption that the null hypothesis is true\nFit models to each of the samples and estimate the slope\nUse features of the distribution of the permuted slopes to calculate the p-value for the hypothesis test\n\nThe major difference between constructing a confidence interval and conducting a hypothesis test is that for the hypothesis test we assume that the null hypothesis is true. This requires a simulation scheme that will allow us to measure the natural variability in the data due to sampling but not due to cost and admission rate being correlated by permuting permute one variable to eliminate any existing relationship between the variables. To do so, we randomly assign each admrate value to cost of a given university, i.e. cost and admrate are no longer matched for a given university.\nIn the following code chunk we\n\nFirst set a seed for simulating reproducibly.\nThen, we start with our data frame and specify our model as cost vs. admrate.\nThen, we set our null hypothesis (cost and admrate are independent)\nAnd then we generate 1000 replicates of our data where, for each replicate, we permute values of admrate to randomly assign them to values of cost\nFinally, we fit our model to each of our 1000 permuted datasets\n\n\nset.seed(1234)\n\nperm_fits <- scorecard %>%\n  specify(cost ~ admrate) %>%\n  hypothesize(null = \"independence\") %>%\n  generate(reps = 1000, type = \"permute\") %>%\n  fit()\n\nThe resulting dataset perm_fits has nrow(perm_fits) and ncol(perm_fits) columns. The first column, replicate indicates the replicate number of the dataset the models were fit to; the values in this column range between 1 and 1000. The second column, term, tells us which term (intercept of the model or slope of admrate) the estimate value in the third column is for.\n\nperm_fits\n\n# A tibble: 2,000 × 3\n# Groups:   replicate [1,000]\n   replicate term      estimate\n       <int> <chr>        <dbl>\n 1         1 intercept  36857. \n 2         1 admrate     -781. \n 3         2 intercept  35901. \n 4         2 admrate      643. \n 5         3 intercept  36608. \n 6         3 admrate     -411. \n 7         4 intercept  35831. \n 8         4 admrate      746. \n 9         5 intercept  36367. \n10         5 admrate      -51.7\n# … with 1,990 more rows\n\n\n\nCreate a histogram of the slope estimates in perm_fits. (Hint: Filter the dataset for just the slope values, term == \"admrate\".)\nEstimate the p-value of the hypothesis test based on this distribution.\nState your conclusion for the test in context.\nIndicate whether or not it is consistent with the results of the hypothesis test from the previous exercise. Briefly explain your response.\n\n\nThis is a good place to render, commit, and push changes to your remote lab repo on GitHub. Click the checkbox next to each file in the Git pane to stage the updates you’ve made, write an informative commit message, and push. After you push the changes, the Git pane in RStudio should be empty."
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html#submission",
+    "href": "labs/CopyOflab-2.html#submission",
+    "title": "Lab 2 - College scorecard",
+    "section": "Submission",
+    "text": "Submission\n\n\n\n\n\n\nWarning\n\n\n\nBefore you wrap up the assignment, make sure all documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.\nRemember – you must turn in a PDF file to the Gradescope page before the submission deadline for full credit.\n\n\nTo submit your assignment:\n\nGo to http://www.gradescope.com and click Log in in the top right corner.\nClick School Credentials ➡️ Duke NetID and log in using your NetID credentials.\nClick on your STA 210 course.\nClick on the assignment, and you’ll be prompted to submit it.\nMark the pages associated with each exercise. All of the pages of your lab should be associated with at least one question (i.e., should be “checked”).\nSelect the first page of your PDF submission to be associated with the “Workflow & formatting” section."
+  },
+  {
+    "objectID": "labs/CopyOflab-2.html#grading",
+    "href": "labs/CopyOflab-2.html#grading",
+    "title": "Lab 2 - College scorecard",
+    "section": "Grading",
+    "text": "Grading\nTotal points available: 50 points.\n\n\n\nComponent\nPoints\n\n\n\n\nEx 1 - 10\n45\n\n\nWorkflow & formatting\n51\n\n\n\n\n\n1 The “Workflow & formatting” grade is to assess the reproducible workflow. This includes having at least 3 informative commit messages and updating the name and date in the YAML."
+  },
+  {
+    "objectID": "weeks/CopyOfweek-4.html",
+    "href": "weeks/CopyOfweek-4.html",
+    "title": "Week 4",
+    "section": "",
+    "text": "Important\n\n\n\n\nIf you can’t be in class for the lectures, you can watch the live stream or watch the recording later on Panopto.\nDue dates:\n\nHW 1: Fri, Jan 28, 5pm ET\nLab 1: Fri, Jan 28, 5pm ET"
+  },
+  {
+    "objectID": "weeks/CopyOfweek-4.html#prepare",
+    "href": "weeks/CopyOfweek-4.html#prepare",
+    "title": "Week 4",
+    "section": "Prepare",
+    "text": "Prepare\n📖 Read Introduction to Modern Statistics, Sec 24.4: Mathematical model for testing the slope\n📖 Read Introduction to Modern Statistics, Sec 24.5: Mathematical model, interval for the slope\n📖 Read Introduction to Modern Statistics, Sec 24.6: Checking model conditions\n📖 Read Introduction to Modern Statistics, Sec 24.7: Chapter review"
+  },
+  {
+    "objectID": "weeks/CopyOfweek-4.html#participate",
+    "href": "weeks/CopyOfweek-4.html#participate",
+    "title": "Week 4",
+    "section": "Participate",
+    "text": "Participate\n🖥️ Lab 2 - College scorecard\n🖥️ Lecture 6 - SLR: Mathematical models for inference\n🖥️ Lecture 7 - SLR: Model diagnostics"
+  },
+  {
+    "objectID": "weeks/CopyOfweek-4.html#practice",
+    "href": "weeks/CopyOfweek-4.html#practice",
+    "title": "Week 4",
+    "section": "Practice",
+    "text": "Practice\n📋 Application Exercise 3 - Checking model conditions"
+  },
+  {
+    "objectID": "weeks/CopyOfweek-4.html#perform",
+    "href": "weeks/CopyOfweek-4.html#perform",
+    "title": "Week 4",
+    "section": "Perform",
+    "text": "Perform\n⌨️ Lab 2 - College scorecard\n✍️ HW 1 - In-person voting trends\n\n\nBack to course schedule ⏎"
   }
 ]
