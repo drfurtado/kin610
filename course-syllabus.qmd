@@ -4,7 +4,6 @@ subtitle: |
   | Department of Kinesiology, Cal State Northridge
   | Fall 2022 | Tuesday, 4:00-6:45 p.m (RE 276)
 latex-auto-mk: true
-identifier-prefix: silla
 format: 
   html:
     toc: true
@@ -21,7 +20,6 @@ format:
     number-sections: true
     colorlinks: true
 bibliography: references.bib
-csl: apa-numeric-superscript-brackets.csl
 ---
 
 Download the syllabus as [PDF](syllabus.pdf)
@@ -58,71 +56,93 @@ Upon completion of this course, you will be able to adequately:
 
 ## Text, readings & instructional resources
 
-### Textbook (required)
+### Required eBook (free)
 
-Weir and Vincent (2021) @weir2021
+@navarro2022
+
+### Optional Textbook
+
+@weir2021
 
 ### Other readings
 
--   StatKat - Statistical method selection table
--   GPower - Statistical Power Analysis
-    -   HHU website[@universi2014] (many resources related to the app, including tutorials)
-    -   Demonstration Article[@faul2007]
+All extra study content for this course can be found in the [course's website](https://drfurtado.github.io/kin610/).
 
 ### Instructional resources {#instructional-resources}
 
--   jamovi Statistical Software[@thejamoviproject2021] (Free)
--   jamovi Video Tutorials[^1] (Free)
-
-[^1]: [jamovi video tutorials](https://bit.ly/2VHvd1w)
+-   jamovi Statistical Software [@thejamoviproject2021] (Free)
+-   jamovi Video Tutorials @poulson2019 (Free)
 
 ## Structure & Requirements {#sec-structure-requirements}
 
-I will adopt the 4 "Ps"[^2] in this course. This means that while taking this course you will be asked to `prepare`, `participate`, `practice`, and `perform`.
+I will adopt the 4 "Ps"[^1] in this course. This means that while taking this course you will be asked to `prepare`, `participate`, `practice`, and `perform`.
 
-[^2]: Inspired by Mine Çetinkaya-Rundel teaching philosophy.
+[^1]: Inspired by Mine Çetinkaya-Rundel teaching philosophy.
 
-You are responsible for the material covered in the textbook prior to attending each class. Note that the week's readings are specified in the [course schedule](index.qmd).
+You are responsible for the material covered in class prior to attending each class. Note that the week's readings are specified in the [course schedule](index.qmd).
 
 In addition to these readings, the instructor may assign supplemental readings throughout the semester. These supplemental readings do not appear on the schedule as these readings will be assigned at the instructor's discretion.
 
 The assignments used to enhance your learning experience in this course include:
 
+### Participation & Attendance[^2] {#sec-participation-attendance}
+
+[^2]: Although it is not required, most students send their professor a brief e-mail to explain their absence in advance.
+
+Class presence and participation points are given to encourage your active class participation and discussion. You will be rewarded with a perfect score `as long as you frequently come to class and actively contribute to the class discussion during lectures.`
+
+In addition, some in-class activities will count toward participation points. These are unannounced assignments.
+
 ### Preparedness
 
-You will be evaluated on your preparedness by submitting an assignment before each class ([Major Takeaways](assig/mt00.qmd)).
-
-### Participation & Attendance {#sec-participation-attendance}
-
-Class presence and participation points are given to encourage your active class participation and discussion. You will be rewarded with a perfect score **as long as you frequently come to class and actively contribute to the class discussion during lectures**.
-
-Although it is not required, most students send their professor a brief e-mail to explain their absence in advance.
+You will be evaluated on your preparedness by completing the a `quiz` and the `major takeaways` assignment `before each class`.
 
 ### Quizzes {#sec-quizzes}
 
-**Before each class**, you will complete a multiple-choice quiz on the topic covered for that week. You will be given multiples attempts and the highest grade will be used.
+`Before` each class, you will complete a multiple-choice quiz on the week's topic. You must score 100% on each quiz. If you score below 100%, you will have to retake the quiz until you score 100%. You can only move to the following quiz if you score 100% on a quiz.
 
-### Homeworks {#homeworks}
+### Labs {#labs}
 
-Students will complete three (3) homework assignments on this course. The purpose of each assignment is to assist students in applying their understanding of the statistical procedures discussed in class as well as to provide an opportunity for students to respond to the readings.
-
-Homework assignments have two components. The first part is performing the statistical calculations correctly using jamovi. The second component involves interpreting the statistical analyses. When answering the interpretation questions, the point is to show that you know what your numbers mean, so don't simply provide the definition of the term. For instance, if you calculate the "number needed to treat (NNT)" as NNT = 7.69, the interpretation of this number is something like "7.69 people must be given the treatment to prevent one adverse event. The wrong answer is something like"the NNT tells you how many people must be given the treatment to prevent one adverse event."
+Students will complete several labs in this course. The purpose of each lab is to assist students in applying their understanding of the statistical procedures discussed in class as well as to provide an opportunity for students to respond to the readings.
 
 ::: callout-warning
-You are allowed to discuss homework with other students (and with the instructor), but you must write final answers yourself, in your own words. Solutions prepared "in committee" or by copying or paraphrasing someone else's work are not acceptable; your hand-in assignments must represent your own thoughts (refer to \[Academic Dishonesty Policy\](#dishonesty) for more information); especially, the information about PLAGIARISM.
+You are allowed to discuss the labs with other students (and with the instructor), but you must write the final answers yourself in your own words. Solutions prepared "in committee" or by, copying or paraphrasing someone else's work is not acceptable; your hand-in assignments must represent your thoughts.
 :::
 
-### Exams
+### Major Takeaways
 
-You will be required to complete two (2) exams in this course. Students may use their notes and textbook for the exams, but no other outside resource other than a calculator can be used.
+You will be evaluated on your preparedness by submitting an assignment before each class. This assignment is meant to be a reflection of your learning. You will be asked to submit at least ten major takeaways from the readings. The content of the assignment must come from the assigned readings for the corresponding class session.
 
-Each exam have 10 questions, with each question worth 10 points. Exams must be completed in the allotted time. The focus of the exams (and quizzes) will be on concepts and interpretation, with most of the computational activities occurring in the homework assignments.
+### Exams {#sec-exams}
+
+You will complete two (2) exams in this course. Students may use their notes and textbook for the exams, but no outside resource other than a calculator can be used.
+
+Each exam has between six to ten questions, with each question worth 10 points. Exams must be completed in the allotted time. The exams (and quizzes) focus on concepts and interpretation, with most of the computational activities occurring in the homework assignments.
 
 Although the quizzes and exams will not focus on previously tested material (they are not meant to be cumulative), knowledge of previously tested material may be inherently required to answer questions related to new material.
 
-Most of the computational activities will be via the homework assignments. In addition, selected readings will be assigned through the semester. The content of these readings will be included on exam and quiz questions and in homework assignments.
+Most of the computational activities will be via lab assignments. In addition, selected readings will be assigned throughout the semester. The content of these readings will be included in exam and quiz questions and homework assignments.
 
-## Course Policy
+### *Déjà vu* {#sec-déjà-vu}
+
+Organization is a prerequisite for effective learning. Throughout the semester, you will be asked to organize the material presented in class in a single directory in Google Drive.
+
+The directory should have a Doc file (essential links), the syllabus in PDF format, and several subdirectories for each topic covered in the course. Inside each subdirectory, you must include the week's lesson in PDF format and any assignments or activities you did. The structure of the main directory should look like this:
+
+KIN610
+
+-   Essential Links
+-   Syllabus in pdf
+-   @navarro2022 ebook
+
+Week 1: \<topic\>
+
+-   Lesson in pdf
+-   Any assignment and/or activity completed
+
+Week 2 \<topic\> ....
+
+## Course Policy {#sec-course-policy}
 
 I will detail the policy for this course below. Basically, don't cheat and try to learn stuff.
 
@@ -130,13 +150,15 @@ I will detail the policy for this course below. Basically, don't cheat and try t
 
 | Assignment                 | Percentage |
 |----------------------------|------------|
-| Major Takeaways (13)\*     | 15%        |
 | Participation & Attendance | 5%         |
-| Weekly Quizzes (14)\*      | 20%        |
-| Homeworks (3)              | 30%        |
-| Exams (2)                  | 30%        |
+| Weekly Quizzes             | 10%        |
+| Major Takeaways[^3]        | 20%        |
+| Labs                       | 20%        |
+| Exam 1                     | 20%        |
+| Exam 2                     | 20%        |
+| *Déjà vu*                  | 5%         |
 
-\*The lowest score will be dropped at the end of the semester.
+[^3]: The lowest score will be dropped at the end of the semester.
 
 ### Grading Scale
 
@@ -156,7 +178,7 @@ Requests for an Incomplete (I) must conform to [university policies](https://bit
 
 Attendance will be taken at the beginning of every class; please, plan accordingly.
 
-### E-mail
+### E-mail {#sec-e-mail}
 
 Please, do not use the built-in email (Inbox) in Canvas. Instead, use your CSUN Gmail to communicate with me.
 
@@ -170,7 +192,7 @@ Thursdays from 2-4 pm at RE 289.
 
 #### Online via Zoom
 
-By appointment only: [www.calendly.com/drfurtado](www.calendly.com/drfurtado)
+By appointment only: [www.calendly.com/drfurtado](https://calendly.com/drfurtado)
 
 ### Late Assignments {#sec-late-assignments}
 
@@ -202,11 +224,11 @@ Each student is expected to be familiar with, and abide by, the conditions of st
 
 #### About Plagiarism
 
-Plagiarism means using words, ideas, or arguments from another person or source without citation[^3]. Cite all sources consulted to any extent (including material from the internet), whether or not assigned and whether or not quoted directly. For quotations, four or more words used in sequence must be set off in quotation marks, with the source identified.
+Plagiarism means using words, ideas, or arguments from another person or source without citation[^4]. Cite all sources consulted to any extent (including material from the internet), whether or not assigned and whether or not quoted directly. For quotations, four or more words used in sequence must be set off in quotation marks, with the source identified.
 
-[^3]: Except for Homeworks. your hand-in assignments must represent your own thoughts (refer to [Academic Dishonesty Policy](#dishonesty) for more information); especially, the information about PLAGIARISM.
+[^4]: Except for Homeworks. your hand-in assignments must represent your own thoughts (refer to [Academic Dishonesty Policy](#dishonesty) for more information); especially, the information about PLAGIARISM.
 
-Plagiarism is a serious violation of the CSUN Student Conduct Code. Please read my comment about plagiarism under [Homeworks](#homeworks). Any form of cheating will immediately earn you a failing grade for the entire course. **By remaining enrolled, you consent to this policy**.
+Plagiarism is a serious violation of the CSUN Student Conduct Code.. Any form of cheating will immediately earn you a failing grade for the entire course. **By remaining enrolled, you consent to this policy**.
 
 > Turnitin (see below) will detect such misconducts as it checks every submission against a database of papers, as well as against the Internet.
 
@@ -239,37 +261,6 @@ Consider the goals you have for engaging in this course as you determine how to 
 
 Each student has a different pace when comes to studying for a course. Thus, I will let you figure out how many hours you need to reserve each week for this course. Regardless of the number of hours chosen, try to divide your time so that you devote more time to `assignments` and `assigned readings`.
 
-The Module Time chart below provides a visual representation of the typical time spent completing a module, followed by an example weekly schedule.
-
-### Module time
-
-A typical module in this course is comprised of the following categories:
-
-1.  Readings + eFlashcards
-2.  Mini-lecture
-3.  Practice `jamovi`
-4.  Assignments (major takeaways, quizzes)
-
-```{r echo=FALSE}
-# Pie Chart with Percentages
-slices <- c(30, 15, 15, 40)
-lbls <- c("Assignments", "Mini-lectures", "Practice jamovi", "Readings+eFlashcards")
-pct <- round(slices/sum(slices)*100)
-lbls <- paste(lbls, pct) # add percents to labels
-lbls <- paste(lbls,"%",sep="") # ad % to labels
-pie(slices,labels = lbls, main="Module Time") 
-
-```
-
-### Example Weekly Schedule
-
--   Monday-Tuesday (or get a jump-start on the weekend)
-    -   Read the chapter(s) + Study the eFlashcards
--   Wednesday-Thursday
-    -   Watch the mini-lectures + Practice jamovi
--   Friday-Sunday
-    -   Complete the assignments
-
 ## Student Support Services {#sec-student-support-services}
 
 CSUN aims to make all learning experiences as accessible as possible, and has a variety of resources available to help support students. If you believe the design of this course poses barriers to effectively participate or demonstrate your learning, please contact me to discuss possible options and adjustments.
@@ -300,13 +291,8 @@ Title 5, California Code of Regulations,§ 41301. Standards for Student Conduct 
 
 CSUN with A HEART If you are facing challenges related to food insecurity, housing precarity/homelessness, mental health, access to technology, eldercare/childcare, or healthcare, you can find guidance, help, and resources from CSUN with A HEART (https://www.csun.edu/heart).
 
-## Course Schedule[^4]
-
-[^4]: The schedule is subject to change.
+## Course Schedule
 
 {{< include index.qmd >}}
 
 ## References
-
-::: {#refs}
-:::

@@ -11,6 +11,7 @@ format:
     number-sections: true
     colorlinks: true
 editor: source
+bibliography: ../references.bib
 ---
 
 ::: callout-important
@@ -21,40 +22,24 @@ Download this lesson as [PDF](week-1.pdf)
 
 ## Prepare
 
-{{< bi book >}} Read the syllabus
-
-{{< bi book >}} Read the support resources
+-   Read and study the [Syllabus](../course-syllabus.qmd)
+-   Read and study this [APA Style in-text citation tutorial](https://docs.google.com/document/d/e/2PACX-1vQg7XJ-Z5619v-v9uCbS_5QjpYIfXH2Q1amid7Wcv6cmBMj-cMPpdJ2wK4NwU6H53LLbbgusqxxqXC6/pub)
 
 ## Participate
 
-### Google Drive
-
-You will be asked to use Google Drive for this course. Create a folder in which you will keep all the files I will provide you with for this course. The structure inside this folder should be:
-
-KIN610 (main folder)
-
--   KIN610 Useful Links (Google Doc file)
--   Lectures in PDF (Folder)
--   KIN610 Lec 01 (PDF file)
--   KIN610 Lec 02 (PDF file)
--   ... and so on
-
 ### Data collection
 
-While in class, you will be asked to complete a set of cognitive tests. The data collected from these tests will be used throughout the semester for various purposes. The tests will be completed in class, and your names will not be associated with the results. I will keep the data anonymous.
+While in class, you will be asked to complete a set of cognitive tests. The data collected from these tests will be used throughout the semester for various purposes. The tests will be completed in class, and your names `will not be` associated with the results. I will keep the data anonymous.
 
-Information about each test will be provided in class.
+In class, I will provide more information about each test.
 
 ## Practice
 
-1.  Follow the steps above and create the folder and the Google Doc file in the root of your Google Drive account
-2.  Download the syllabus in pdf (../syllabus.pdf) and upload it to the newly created folder - `Lectures in PDF`
-3.  Create a shared link for `KIN610` and set `Anyone with the link` under `General access`
+na
 
 ## Perform
 
-1.  Submit the share link created above through [Canvas](https://canvas.csun.edu)
-2.  Submit the scores from the cognitive tests through [Canvas](https://canvas.csun.edu)
+Complete [Lab 1](../labs/lab-1.qmd).
 
 <br><br>
 

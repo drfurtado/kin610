@@ -1,0 +1,935 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{5}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[many]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+% Make links footnotes instead of hotlinks:
+\DeclareRobustCommand{\href}[2]{#2\footnote{\url{#1}}}
+\hypersetup{
+  pdftitle={KIN 610: Quantitative Analysis of Research in Kinesiology},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{KIN 610: Quantitative Analysis of Research in Kinesiology}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Department of Kinesiology, Cal State Northridge\\
+Fall 2022 \textbar{} Tuesday, 4:00-6:45 p.m (RE 276)}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[interior hidden, breakable, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, frame hidden, enhanced, sharp corners]}{\end{tcolorbox}}\fi
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+Download the syllabus as \href{syllabus.pdf}{PDF}
+
+\hypertarget{sec-instructor-info}{%
+\section{Instructor Info}\label{sec-instructor-info}}
+
+Ovande Furtado Jr., Ph.D.
+
+Dr.~Furtado received a B.A. in Physical Education from the Federal
+University of Parana, Curitiba, PR - Brazil. He earned his M.S. and
+Ph.D.~degrees in Motor Behavior from the University of Pittsburgh, PA.
+Dr.~Furtado's line of research focuses on two main areas: (1) validation
+of observational models in psychomotor assessment instruments and (2)
+the relationship between motor skill competence, perceived motor
+competence, physical activity levels, and body composition.
+
+\textbf{Office Hours}
+
+See Section~\ref{sec-office-hours} for more information
+
+\textbf{Contact Info}
+
+Email: ovandef@csun.edu\\
+Office: Redwood Hall 289
+
+\hypertarget{sec-course-description}{%
+\subsection{Course Description}\label{sec-course-description}}
+
+This course focuses on the introductory statistical techniques used in
+social science research. Students will be introduced to concepts such as
+reliability, validity, measures of central tendency, variability,
+probability, and statistical techniques including: t tests (independent
+\& dependent samples), Analysis of Variance (ANOVA), Chi-square,
+correlation, and regression.
+
+Students are expected to take the material/concepts presented in this
+course and apply them through a series of homework assignments and
+quizzes. The overall goal of the course is not only to help students
+understand the mathematical/statistical concepts presented but also to
+assist in the application of these procedures.
+
+\hypertarget{expectations-and-goals}{%
+\subsection{Expectations and Goals}\label{expectations-and-goals}}
+
+Upon completion of this course, you will be able to adequately:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Introduce statistical concepts utilized in research within the social
+  sciences
+\item
+  Apply the mathematical/statistical techniques presented for social
+  science research
+\item
+  Demonstrate an ability to analyze and interpret data within the social
+  sciences
+\item
+  Provide practical examples as to when statistical techniques presented
+  are appropriate methods for analysis.
+\end{enumerate}
+
+\hypertarget{text-readings-instructional-resources}{%
+\subsection{Text, readings \& instructional
+resources}\label{text-readings-instructional-resources}}
+
+\hypertarget{required-ebook-free}{%
+\subsubsection{Required eBook (free)}\label{required-ebook-free}}
+
+Navarro and Foxcroft (2022)
+
+\hypertarget{optional-textbook}{%
+\subsubsection{Optional Textbook}\label{optional-textbook}}
+
+Weir and Vincent (2021)
+
+\hypertarget{other-readings}{%
+\subsubsection{Other readings}\label{other-readings}}
+
+All extra study content for this course can be found in the
+\href{https://drfurtado.github.io/kin610/}{course's website}.
+
+\hypertarget{instructional-resources}{%
+\subsubsection{Instructional resources}\label{instructional-resources}}
+
+\begin{itemize}
+\tightlist
+\item
+  jamovi Statistical Software (The jamovi project 2021) (Free)
+\item
+  jamovi Video Tutorials Poulson (2019) (Free)
+\end{itemize}
+
+\hypertarget{sec-structure-requirements}{%
+\subsection{Structure \&
+Requirements}\label{sec-structure-requirements}}
+
+I will adopt the 4 ``Ps''\footnote{The schedule is subject to change.}
+in this course. This means that while taking this course you will be
+asked to \texttt{prepare}, \texttt{participate}, \texttt{practice}, and
+\texttt{perform}.
+
+You are responsible for the material covered in class prior to attending
+each class. Note that the week's readings are specified in the
+\href{index.qmd}{course schedule}.
+
+In addition to these readings, the instructor may assign supplemental
+readings throughout the semester. These supplemental readings do not
+appear on the schedule as these readings will be assigned at the
+instructor's discretion.
+
+The assignments used to enhance your learning experience in this course
+include:
+
+\hypertarget{sec-participation-attendance}{%
+\subsubsection{Participation \&
+Attendance}\label{sec-participation-attendance}}
+
+Class presence and participation points are given to encourage your
+active class participation and discussion. You will be rewarded with a
+perfect score
+\texttt{as\ long\ as\ you\ frequently\ come\ to\ class\ and\ actively\ contribute\ to\ the\ class\ discussion\ during\ lecture}s.
+
+Although it is not required, most students send their professor a brief
+e-mail to explain their absence in advance.
+
+\hypertarget{preparedness}{%
+\subsubsection{Preparedness}\label{preparedness}}
+
+You will be evaluated on your preparedness by completing the a
+\texttt{quiz} and the \texttt{major\ takeaways} assignment
+\texttt{before\ each\ class}.
+
+\hypertarget{sec-quizzes}{%
+\subsubsection{Quizzes}\label{sec-quizzes}}
+
+\texttt{Before} each class, you will complete a multiple-choice quiz on
+the week's topic. You must score 100\% on each quiz. If you score below
+100\%, you will have to retake the quiz until you score 100\%. You can
+only move to the following quiz if you score 100\% on a quiz.
+
+\hypertarget{labs}{%
+\subsubsection{Labs}\label{labs}}
+
+Students will complete several labs in this course. The purpose of each
+lab is to assist students in applying their understanding of the
+statistical procedures discussed in class as well as to provide an
+opportunity for students to respond to the readings.
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, left=2mm, colframe=quarto-callout-warning-color-frame, titlerule=0mm, opacityback=0, colbacktitle=quarto-callout-warning-color!10!white, opacitybacktitle=0.6, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, rightrule=.15mm, bottomtitle=1mm, breakable, title=\textcolor{quarto-callout-warning-color}{\faExclamationTriangle}\hspace{0.5em}{Warning}, coltitle=black, arc=.35mm, colback=white]
+
+You are allowed to discuss the labs with other students (and with the
+instructor), but you must write the final answers yourself in your own
+words. Solutions prepared ``in committee'' or by, copying or
+paraphrasing someone else's work is not acceptable; your hand-in
+assignments must represent your thoughts.
+
+\end{tcolorbox}
+
+\hypertarget{sec-exams}{%
+\subsubsection{Exams}\label{sec-exams}}
+
+You will complete two (2) exams in this course. Students may use their
+notes and textbook for the exams, but no outside resource other than a
+calculator can be used.
+
+Each exam has between six to ten questions, with each question worth 10
+points. Exams must be completed in the allotted time. The exams (and
+quizzes) focus on concepts and interpretation, with most of the
+computational activities occurring in the homework assignments.
+
+Although the quizzes and exams will not focus on previously tested
+material (they are not meant to be cumulative), knowledge of previously
+tested material may be inherently required to answer questions related
+to new material.
+
+Most of the computational activities will be via lab assignments. In
+addition, selected readings will be assigned throughout the semester.
+The content of these readings will be included in exam and quiz
+questions and homework assignments.
+
+\hypertarget{sec-duxe9juxe0-vu}{%
+\subsubsection{\texorpdfstring{\emph{Déjà
+vu}}{Déjà vu}}\label{sec-duxe9juxe0-vu}}
+
+Organization is a prerequisite for effective learning. Throughout the
+semester, you will be asked to organize the material presented in class
+in a single directory in Google Drive.
+
+The directory should have a Doc file (essential links), the syllabus in
+PDF format, and several subdirectories for each topic covered in the
+course. Inside each subdirectory, you must include the week's lesson in
+PDF format and any assignments or activities you did. The structure of
+the main directory should look like this:
+
+KIN610
+
+\begin{itemize}
+\tightlist
+\item
+  Essential Links
+\item
+  Syllabus in pdf
+\item
+  Navarro and Foxcroft (2022) ebook
+\end{itemize}
+
+Week 1: \textless topic\textgreater{}
+
+\begin{itemize}
+\tightlist
+\item
+  Lesson in pdf
+\item
+  Any assignment and/or activity completed
+\end{itemize}
+
+Week 2 \textless topic\textgreater{} \ldots.
+
+\hypertarget{sec-course-policy}{%
+\subsection{Course Policy}\label{sec-course-policy}}
+
+I will detail the policy for this course below. Basically, don't cheat
+and try to learn stuff.
+
+\hypertarget{grading}{%
+\subsubsection{Grading}\label{grading}}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule()
+Assignment & Percentage \\
+\midrule()
+\endhead
+Participation \& Attendance & 5\% \\
+Weekly Quizzes & 10\% \\
+Major Takeaways\footnote{Class Dates: Aug 29, 2022 - Dec 12, 2022} &
+20\% \\
+Labs & 20\% \\
+Exam 1 & 20\% \\
+Exam 2 & 20\% \\
+\emph{Déjà vu} & 5\% \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{grading-scale}{%
+\subsubsection{Grading Scale}\label{grading-scale}}
+
+A 93.00-100.00 \textbar{} A- 90.00-92.99 B+ 87.00-89.99 \textbar{} B
+83.00-86.99 \textbar{} B- 80.00-82.99 C+ 77.00-79.99 \textbar{} C
+73.00-76.99 \textbar{} C- 70.00-72.99 D+ 67.00-69.99 \textbar{} D
+63.00-66.99 \textbar{} D- 60.00-62.99 F \textless59.99
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, left=2mm, colframe=quarto-callout-note-color-frame, titlerule=0mm, opacityback=0, colbacktitle=quarto-callout-note-color!10!white, opacitybacktitle=0.6, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, rightrule=.15mm, bottomtitle=1mm, breakable, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, coltitle=black, arc=.35mm, colback=white]
+
+In recognition of the fact that grading, however carefully done, will
+always be imperfect, this class will utilize a ``round up'' rule for
+assigning final grades. I will round up from .5\% and above, but
+anything below this will round down. In other words, 79.5 will round up
+to 80, while 79.4 will round down to 79 even.
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, left=2mm, colframe=quarto-callout-important-color-frame, titlerule=0mm, opacityback=0, colbacktitle=quarto-callout-important-color!10!white, opacitybacktitle=0.6, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, rightrule=.15mm, bottomtitle=1mm, breakable, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, coltitle=black, arc=.35mm, colback=white]
+
+Requests for an Incomplete (I) must conform to
+\href{https://bit.ly/3bDxwZi}{university policies}. Among other
+requirements, ``I'' is possible only for instances in which you are
+demonstrating passing work in the class.
+
+\end{tcolorbox}
+
+\hypertarget{attendance}{%
+\subsubsection{Attendance}\label{attendance}}
+
+\begin{quote}
+\emph{Showing up is 80 percent of life} -- Woody Allen,
+\href{http://quoteinvestigator.com/2013/06/10/showing-up/\#note-6553-1}{via
+Marshall Brickman}
+\end{quote}
+
+Attendance will be taken at the beginning of every class; please, plan
+accordingly.
+
+\hypertarget{sec-e-mail}{%
+\subsubsection{E-mail}\label{sec-e-mail}}
+
+Please, do not use the built-in email (Inbox) in Canvas. Instead, use
+your CSUN Gmail to communicate with me.
+
+If your message concerns a non-private matter (e.g., assignments,
+content, deadlines, etc.), then please post your question to our mailing
+list\textbf{, which can be answered by any student taking the course.}
+The mailing list address is provided in Canvas.
+
+\hypertarget{sec-office-hours}{%
+\subsubsection{Office Hours}\label{sec-office-hours}}
+
+\hypertarget{in-person}{%
+\paragraph{In-person}\label{in-person}}
+
+Thursdays from 2-4 pm at RE 289.
+
+\hypertarget{online-via-zoom}{%
+\paragraph{Online via Zoom}\label{online-via-zoom}}
+
+By appointment only:
+\href{https://calendly.com/drfurtado}{www.calendly.com/drfurtado}
+
+\hypertarget{sec-late-assignments}{%
+\subsubsection{Late Assignments}\label{sec-late-assignments}}
+
+It is important to note that late assignments are assessed a 10\%
+deduction for each day it is late, not to exceed four days. After the
+fourth day of the deadline, no assignments will be accepted. Therefore,
+it is important to plan ahead and submit all assignments on time to
+receive full credit for your work. The instructor reserves the right to
+make exceptions to this policy on a case-by-case basis.
+
+\hypertarget{extra-credit}{%
+\subsubsection{Extra Credit}\label{extra-credit}}
+
+There is no individual extra credit granted. Therefore, do not plan to
+make-up poor grades at the end of the semester by asking to do extra
+credit work. I might provide extra credit opportunities, but these will
+be offered to the entire class, not to individuals.
+
+\hypertarget{sec-disabilities}{%
+\subsubsection{Disabilities}\label{sec-disabilities}}
+
+Federal law mandates the provision of services at the university-level
+to qualified students with disabilities.
+
+This instructor, in conjunction with California State University
+Northridge, is committed to upholding and maintaining all aspects of the
+federal Americans with Disabilities Act of 1990 (ADA) and Section 504 of
+the Rehabilitation Act of 1973.
+
+If you are a student with a disability and wish to request
+accommodations, please contact the office of Students with Disabilities
+Resources located in 110 Student Services Building, or call (818)
+677-2684 for an appointment. Any information regarding your disability
+will remain confidential. Because many accommodations require early
+planning, requests for accommodations should be made as early as
+possible. Any requests for accommodations will be reviewed in a timely
+manner to determine their appropriateness to this setting.
+
+\hypertarget{dishonesty}{%
+\subsubsection{Academic Dishonesty}\label{dishonesty}}
+
+TL;DR: Don't cheat!
+
+\emph{Please, \textbf{stop} and read the information below; this is
+important!}
+
+\begin{tcolorbox}[enhanced jigsaw, toptitle=1mm, left=2mm, colframe=quarto-callout-important-color-frame, titlerule=0mm, opacityback=0, colbacktitle=quarto-callout-important-color!10!white, opacitybacktitle=0.6, leftrule=.75mm, toprule=.15mm, bottomrule=.15mm, rightrule=.15mm, bottomtitle=1mm, breakable, title=\textcolor{quarto-callout-important-color}{\faExclamation}\hspace{0.5em}{Important}, coltitle=black, arc=.35mm, colback=white]
+
+Each student is expected to be familiar with, and abide by, the
+conditions of student conduct, as presented in the CSUN Catalog, with
+emphasis on sections entitled, Student Conduct Code, Academic
+Dishonesty, Faculty Policy on Academic Dishonesty, and Penalties. Any
+student engaging in academic dishonesty (e.g., cheating, fabrication,
+facilitating academic dishonesty, plagiarism) is subject to discipline,
+which may include a failing grade in the course, and may also be subject
+to more severe discipline by the University. Students are encouraged to
+visit the link below and become familiar with the Standards for Student
+Conduct.
+
+\url{http://www.csun.edu/a\&r/soc/studentconduct.html}
+
+\end{tcolorbox}
+
+\hypertarget{about-plagiarism}{%
+\paragraph{About Plagiarism}\label{about-plagiarism}}
+
+Plagiarism means using words, ideas, or arguments from another person or
+source without citation\footnote{Students are expected to read and study
+  the assigned chapters prior to attending each class meeting.}. Cite
+all sources consulted to any extent (including material from the
+internet), whether or not assigned and whether or not quoted directly.
+For quotations, four or more words used in sequence must be set off in
+quotation marks, with the source identified.
+
+Plagiarism is a serious violation of the CSUN Student Conduct Code.. Any
+form of cheating will immediately earn you a failing grade for the
+entire course. \textbf{By remaining enrolled, you consent to this
+policy}.
+
+\begin{quote}
+Turnitin (see below) will detect such misconducts as it checks every
+submission against a database of papers, as well as against the
+Internet.
+\end{quote}
+
+What is Turnitin?
+
+\href{https://www.turnitin.com/}{Turnitin} is an automated system that
+instructors can use to quickly and easily compare each student's
+assignment with billions of websites, as well as an enormous database of
+student papers that grows with each submission. Accordingly, you will be
+expected to submit assignments through the Canvas Assignment Tool in
+electronic format. After the assignment is processed, as an instructor,
+I receive a report from \emph{Turnitin} that states if and how another
+author's work was used in the assignment.
+
+\hypertarget{sec-final-notes}{%
+\subsection{Final (yet important) Notes}\label{sec-final-notes}}
+
+\hypertarget{how-to-access-our-course-and-get-started}{%
+\subsubsection{How to Access our Course and Get
+Started}\label{how-to-access-our-course-and-get-started}}
+
+\begin{itemize}
+\tightlist
+\item
+  Log into Canvas: \url{https://canvas.csun.edu}
+\item
+  Under ``My Courses,'' locate our course and click on it.
+\item
+  This will take you to the course home page.
+\end{itemize}
+
+\hypertarget{technology-requirements-and-support}{%
+\subsubsection{Technology Requirements and
+Support:}\label{technology-requirements-and-support}}
+
+\begin{itemize}
+\tightlist
+\item
+  A computer and access to the internet (reliable connection)
+\item
+  Firefox, Safari, etc. (web browser)
+\end{itemize}
+
+\hypertarget{what-i-expect-of-you}{%
+\subsubsection{What I Expect of You:}\label{what-i-expect-of-you}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Plan your schedule to ensure you several hours per week to spend on
+  this class and take time to identify where and when you'll do your
+  learning.
+\item
+  Review the due dates for the assignments (refer to our Course Schedule
+  in Canvas) to orient yourself to the flow of the learning.
+\item
+  This course requires regular engagement and practice using
+  \protect\hyperlink{instructional-resources}{jamovi} (Statistical
+  Package).
+\end{enumerate}
+
+\hypertarget{sec-success}{%
+\subsection{How to be Success in this Course}\label{sec-success}}
+
+Consider the goals you have for engaging in this course as you determine
+how to allocate time to complete course requirements.
+
+Each student has a different pace when comes to studying for a course.
+Thus, I will let you figure out how many hours you need to reserve each
+week for this course. Regardless of the number of hours chosen, try to
+divide your time so that you devote more time to \texttt{assignments}
+and \texttt{assigned\ readings}.
+
+\hypertarget{sec-student-support-services}{%
+\subsection{Student Support
+Services}\label{sec-student-support-services}}
+
+CSUN aims to make all learning experiences as accessible as possible,
+and has a variety of resources available to help support students. If
+you believe the design of this course poses barriers to effectively
+participate or demonstrate your learning, please contact me to discuss
+possible options and adjustments.
+
+\begin{itemize}
+\tightlist
+\item
+  The IT Help Center (818)677-1400, helpcenter@csun.edu is available to
+  help with Canvas, CSUN e-mail, SOLAR/Portal, and other technical
+  issues.
+\item
+  CSUN Device Loaner Program (\url{https://bit.ly/3t1G0An}) provides
+  devices that can be checked out that includes laptops, webcams,
+  hotspots and headsets
+\item
+  The Learning Resource Center (818) 677-2033 The mission of the LRC is
+  to enable students to improve their academic performance through a
+  variety of learning programs, including workshops, one-on-one and
+  group tutoring, supplemental instruction classes and interactive
+  subject area computer programs and videos. Student who use the LRC
+  learning programs will develop and strengthen their critical thinking
+  skills, study strategies, writing skills and performance in subject
+  matter courses.
+\item
+  University Counseling Services (818) 677-2366, Bayramian Hall 520. UCS
+  provides resources and information to assist students in dealing with
+  a variety of large and small psychological obstacles that may
+  interfere with academic progress and/or relationship satisfaction.
+  Services include individual, group, and crisis counseling.
+\item
+  In accordance with the CSUN Accessibility Policy
+  (\url{https://bit.ly/3yqGHE9}), CSUN is working to ensure that campus
+  communication and course materials are accessible to everyone. Please
+  reach out to me if you have difficulty with any of the materials for
+  this course.
+\item
+  If you have a disability and need accommodations, please register with
+  the Disability Resources and Educational Services (DRES) office or the
+  National Center on Deafness (NCOD).
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The DRES office can be reached at (818) 677-2684.
+  \item
+    NCOD can be reached at (818) 677-2611.
+  \item
+    Reasonable accommodations and services will be provided to students
+    if requests are made in a timely manner and with appropriate
+    documentation
+  \item
+    If you would like to discuss your need for accommodations with me,
+    please drop in office hours or contact me to set up an appointment.
+  \end{itemize}
+\item
+  Food Pantry (\url{https://bit.ly/38nTsVH}) at CSUN: Anybody who faces
+  challenges securing food or housing and believes this impacts course
+  performance, should contact CSUN's Food Pantry website and the
+  corresponding contacts. If you also feel comfortable contacting me,
+  the department chair, or the Dean's Office, we can also facilitate
+  assistance. You don't have to be alone in this moment.
+\item
+  Emergency MataCare grants (\url{https://bit.ly/2WAZkIz}), one-time
+  grants to prevent evictions, urgent child care issues, etc. - DACA
+  (Deferred Action for Childhood Arrivals) Resources: Check out the
+  Central American Resource Center facebook page
+  (https://bit.ly/2Yg0p9z), legal resources listed on CSUN's Educational
+  Opportunity Program (EOP) Dream Center that was created to support all
+  undocumented students \& allies (Dream Center flyer). CSUN President
+  Harrison issued a support statement on the CSUN homepage for DACA and
+  resources.
+\item
+  Help lines (https://bit.ly/3sYbMOo)(after hours when the University
+  Counseling is closed) for numerous topics/needs (e.g., suicide, drug,
+  rape, LGBQT, military, or any crisis). You don't have to manage these
+  feelings alone.
+\item
+  Pride Center (https://bit.ly/3jqNZUi) offers support and resources to
+  lesbian, gay, bisexual, transgender, queer, \& questioning students,
+  faculty, \& staff.
+\item
+  Klotz Student Health Center (https://bit.ly/3zx1Y0s): Numerous health
+  services including primary care, dental, nutritional counseling,
+  acupuncture, massage and lots more.
+\item
+  Career Center (https://bit.ly/3jtTcL2) for resume writing \&
+  interviewing and much more; Matty's Closet (https://bit.ly/3jAResx)
+  has free professional clothes for students who need interview or
+  professional attire.
+\item
+  USU 9https://bit.ly/38uz59j) for more student services; Clubs \&
+  Organizations (https://bit.ly/38tBhOa): Hopefully a dozen people have
+  already advised you to ``get involved'' (https://bit.ly/3ysqYVb) at
+  CSUN in something that interests you.
+\item
+  Associated Students (https://bit.ly/3yuWjGT) offers recycling, and a
+  Children's Center providing child care
+\item
+  Financial Aid \& Scholarships (https://bit.ly/3sYFzqr) offers aid for
+  applications
+\item
+  University Library https://bit.ly/3yuIEQ9) for many additional
+  academic resources
+\item
+  Veterans Resource Center (https://bit.ly/38qYtg7) assists CSUN
+  students as they transition from military service to academic success.
+\end{itemize}
+
+Title 5, California Code of Regulations,§ 41301. Standards for Student
+Conduct -- (a) Campus Community Values: The university is committed to
+maintaining a safe and healthy living and learning environment for
+students, faculty, and staff. Each member of the campus community should
+choose behaviors that contribute toward this end. Students are expected
+to be good citizens and to engage in responsible behaviors that reflect
+well upon their university, to be civil to one another and to others in
+the campus community, and contribute positively to student and
+university life.
+
+CSUN with A HEART If you are facing challenges related to food
+insecurity, housing precarity/homelessness, mental health, access to
+technology, eldercare/childcare, or healthcare, you can find guidance,
+help, and resources from CSUN with A HEART (https://www.csun.edu/heart).
+
+\hypertarget{course-schedule}{%
+\subsection{Course Schedule}\label{course-schedule}}
+
+Optional Textbook: Weir and Vincent (2021)
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1158}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1526}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3368}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2789}}@{}}
+\toprule()
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Week\footnote{The schedule is subject to change.}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Date\footnote{Class Dates: Aug 29, 2022 - Dec 12, 2022}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Reading\footnote{Students are expected to read and study the assigned
+  chapters prior to attending each class meeting.}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Assignments\footnote{Quizzes and Major Takeaways assignments are due
+  \texttt{before} class; other assignment are due after class.}
+\end{minipage} \\
+\midrule()
+\endhead
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-1.qmd}{Wk01} & \texttt{Jan\ 26} &
+Course Intro \& Data Collection & Read and study the
+\href{course-syllabus.qmd}{Syllabus} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-2.qmd}{WK02} & \texttt{Feb\ 2} &
+Introduction to statistical packages - jamovi and SPSS &
+\texttt{Lab\ 1} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-3.qmd}{WK03} & \texttt{Feb\ 9} &
+Introduction to Statistics and Measurement & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-4.qmd}{WK04} & \texttt{Feb\ 16} &
+\begin{minipage}[t]{\linewidth}\raggedright
+Organizing and Displaying Data\\
+Percentiles\strut
+\end{minipage} & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-5.qmd}{WK05} & \texttt{Feb\ 23} &
+\begin{minipage}[t]{\linewidth}\raggedright
+Measures of Central Tendency\\
+Measures of Variability\strut
+\end{minipage} & Quiz; Major Takeaways; \texttt{Lab\ 2} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-6.qmd}{WK06} & \texttt{Mar\ 2} &
+\begin{minipage}[t]{\linewidth}\raggedright
+Fundamentals of Inferential Statistical\\
+\strut
+\end{minipage} & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-7.qmd}{WK07} & \texttt{Mar\ 9} &
+Correlation and Bivariate Regression & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-8.qmd}{WK08} & \texttt{Mar\ 16} &
+Multiple Correlation and Multiple Regression & Quiz; Major Takeaways;
+\texttt{Lab\ 3} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-9.qmd}{WK09} & \texttt{Mar\ 23} &
+\texttt{Exam\ 1}\footnote{Covers all previously covered topics.} & na \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-10.qmd}{WK10} & \texttt{Mar\ 30} &
+The Student's \emph{t}-test & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-11.qmd}{WK11} & \texttt{Apr\ 6} &
+One-way Analysis of Variance & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-12.qmd}{WK12} & \texttt{Apr\ 13} &
+Analysis of Variance With Repeated Measures & Quiz; Major Takeaways;
+\texttt{Lab\ 4} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-13.qmd}{WK13} & \texttt{Apr\ 20} &
+\begin{minipage}[t]{\linewidth}\raggedright
+\hfill\break
+Factorial Analysis of Variance: Between-Between\strut
+\end{minipage} & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-14.qmd}{WK14} & \texttt{Apr\ 27} &
+\begin{minipage}[t]{\linewidth}\raggedright
+\hfill\break
+Factorial Analysis of Variance: Between-Within, Within-Within\strut
+\end{minipage} & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-15.qmd}{WK15} & \texttt{May\ 4} &
+Reliability & Quiz; Major Takeaways; \texttt{Lab\ 5} \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & \href{/weeks/week-16.qmd}{WK16} & \texttt{May\ 11} &
+Analysis of Nonparametric Data & Quiz; Major Takeaways \\
+\begin{minipage}[t]{\linewidth}\raggedright
+\end{minipage} & Final's Week &
+\begin{minipage}[t]{\linewidth}\raggedright
+\texttt{May\ 18}\strut \\
+5:30PM - 7:30PM\\
+Redwood Hall 276\strut
+\end{minipage} & \texttt{Exam\ 2}\footnote{Covers mainly topics
+  presented after Exam 1.} & na \\
+\bottomrule()
+\end{longtable}
+
+\hypertarget{references}{%
+\subsection*{References}\label{references}}
+\addcontentsline{toc}{subsection}{References}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-navarro2022}{}}%
+Navarro, Danielle J, and David R Foxcroft. 2022. \emph{Learning
+Statistics with Jamovi: A Tutorial for Psychology Students and Other
+Beginners (Version 0.75)}. Danielle J. Navarro; David R. Foxcroft.
+\url{https://doi.org/10.24384/HGC3-7P15}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-poulson2019}{}}%
+Poulson, Barton. 2019. {``Jamovi Video Tutorials.''}
+\url{https://www.youtube.com/playlist?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-thejamoviproject2021}{}}%
+The jamovi project. 2021. \emph{Jamovi}. Syndey, Australia.
+\href{Retrieved\%20from\%20https://www.jamovi.org}{Retrieved from
+https://www.jamovi.org}.
+
+\leavevmode\vadjust pre{\hypertarget{ref-weir2021}{}}%
+Weir, Joseph P., and William J. Vincent. 2021. \emph{Statistics in
+Kinesiology}. Human Kinetics.
+\url{https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource}.
+
+\end{CSLReferences}
+
+
+
+\end{document}

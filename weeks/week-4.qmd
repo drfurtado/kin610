@@ -1,43 +1,54 @@
 ---
-title: "Week 4"
-subtitle: "TBA"
+title: "Week 3"
+subtitle: "Organizing and Displaying Data | Percentiles"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
--   If you can't be in class for the lectures, you can watch the live stream or watch the recording later on [Panopto](https://duke.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22d6c1d58a-cb6d-4732-9d4b-ae0c011bf767%22).
 -   Due dates:
-    -   HW 1: Fri, Jan 28, 5pm ET
-    -   Lab 1: Fri, Jan 28, 5pm ET
+    -   Ch02, Ch03 Quiz - after class
+    -   Ch02, Ch03 Major Takeaways (MT) - before class
 :::
 
 ## Prepare
 
-📖 Read Introduction to Modern Statistics, Sec 24.4: [Mathematical model for testing the slope](https://openintro-ims.netlify.app/inf-model-slr.html#mathslope)
+### Organizing and Displaying Data
 
-📖 Read Introduction to Modern Statistics, Sec 24.5: [Mathematical model, interval for the slope](https://openintro-ims.netlify.app/inf-model-slr.html#mathematical-model-interval-for-the-slope)
+-   Read
+-   Submit the [MT assignment](https://canvas.csun.edu)
 
-📖 Read Introduction to Modern Statistics, Sec 24.6: [Checking model conditions](https://openintro-ims.netlify.app/inf-model-slr.html#tech-cond-linmod)
+### Percentiles
 
-📖 Read Introduction to Modern Statistics, Sec 24.7: [Chapter review](https://openintro-ims.netlify.app/inf-model-slr.html#chp24-review)
+-   Read @furtado2022
+-   Watch the mini lectures[^1] 1 and 2 from @humankinetics2021; chap. 3
+-   Submit the [MT assignment](https://canvas.csun.edu)
+
+[^1]: If the link fails to open, edit the URL address in your browser adding `index.html` before `#/`
 
 ## Participate
 
-🖥️ [Lab 2 - College scorecard](/slides/lab-1.html)
-
-🖥️ [Lecture 6 - SLR: Mathematical models for inference](/slides/lec-6.html)
-
-🖥️ [Lecture 7 - SLR: Model diagnostics](/slides/lec-7.html)
+TBD
 
 ## Practice
 
-📋 [Application Exercise 3 - Checking model conditions](/ae/ae-3-duke-forest.html)
+TBD
 
 ## Perform
 
-⌨️ [Lab 2 - College scorecard](/labs/lab-2.html "Lab instructions")
-
-✍️ [HW 1 - In-person voting trends](/hw/hw-1.html)
+TBD
 
 <br><br>
 

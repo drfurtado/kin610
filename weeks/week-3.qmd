@@ -1,36 +1,47 @@
 ---
 title: "Week 3"
-subtitle: "TBA"
+subtitle: "Organizing and Displaying Data | Percentiles"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
--   We're back to in person classes this week! See [here](/course-syllabus.html#course-info) for class locations. And don't forget to wear your mask! 😷
 -   Due dates:
-    -   AE 2: Fri, Jan 21, 11:59pm ET
+    -   Ch02, Ch03 Quiz - after class
+    -   Ch02, Ch03 Major Takeaways (MT) - before class
 :::
 
 ## Prepare
 
-📖 Read Introduction to Modern Statistics, Sec 24.1: [Case study: Sandwich store](https://openintro-ims.netlify.app/inf-model-slr.html#case-study-sandwich-store)
+-   Read @furtado2023
+-   Submit the [MT assignment and take the quiz](https://canvas.csun.edu)
+-   Watch the mini lectures[^1] 1-3 from @humankinetics2021; chap. 1
 
-📖 Read Introduction to Modern Statistics, Sec 24.2: [Randomization test for the slope](https://openintro-ims.netlify.app/inf-model-slr.html#randslope)
-
-📖 Read Introduction to Modern Statistics, Sec 24.3: [Bootstrap confidence interval for the slope](https://openintro-ims.netlify.app/inf-model-slr.html#bootbeta1)
+[^1]: If the link fails to open, edit the URL address in your browser adding `index.html` before `#/`
 
 ## Participate
 
-🖥️ [Lecture 4 - SLR: Prediction + model evaluation](/slides/lec-4.html)
-
-🖥️ [Lecture 5 - SLR: Simulation-based inference](/slides/lec-5.html)
+TBD
 
 ## Practice
 
-📋 [Application Exercise 2 - Bike rentals in DC](/ae/ae-2-dcbikeshare.html)
+TBD
 
 ## Perform
 
-None.
+TBD
 
 <br><br>
 

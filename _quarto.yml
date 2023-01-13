@@ -99,8 +99,8 @@ website:
             text: "Week 15"
       - section: "Supplemental notes"
         contents:
-          - href: supplemental/slr-derivations.qmd
-            text: SLR derivations
+          - href: supplemental/results-apa.qmd
+            text: Results in APA
           - href: supplemental/model-diagnostics-matrix.qmd
             text: Model diagnostics
           - href: supplemental/mlr-matrix.qmd

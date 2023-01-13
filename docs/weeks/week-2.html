@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.313">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,6 +19,25 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
+}
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
 }
 </style>
 
@@ -61,13 +80,14 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <meta property="og:title" content="KIN 610 - Spring 2023 - Week 2">
-<meta property="og:description" content="Simple linear regression">
+<meta property="og:description" content="Introduction to jamovi">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
 <meta name="twitter:title" content="KIN 610 - Spring 2023 - Week 2">
-<meta name="twitter:description" content="Simple linear regression">
+<meta name="twitter:description" content="Introduction to jamovi">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -284,7 +304,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../supplemental/slr-derivations.html" class="sidebar-item-text sidebar-link">SLR derivations</a>
+  <a href="../supplemental/results-apa.html" class="sidebar-item-text sidebar-link">Results in APA</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -331,7 +351,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title d-none d-lg-block">Week 2</h1>
-<p class="subtitle lead">Simple linear regression</p>
+<p class="subtitle lead">Introduction to jamovi</p>
 </div>
 
 
@@ -356,42 +376,48 @@ Important
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<ul>
-<li>Classes are virtual this week. Find Zoom links <a href="https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562" title="Sakai - Zoom meetings">here</a>.</li>
-<li>Due dates:
-<ul>
-<li>Lab 1: Fri, Jan 14, 5pm ET</li>
-<li>AE 1: Sun, Jan 16, 11:59pm ET</li>
-</ul></li>
-</ul>
+<p>We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.</p>
+<p>Download this lesson as <a href="week-2.pdf">PDF</a></p>
 </div>
 </div>
 <section id="prepare" class="level2">
 <h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
-<p>📖 Read Introduction to Modern Statistics, Chp 7: <a href="https://openintro-ims.netlify.app/model-slr.html">Linear regression with a single predictor</a></p>
+<ul>
+<li>jamovi
+<ul>
+<li>Read “Getting Started with jamovi” <span class="citation" data-cites="navarro2022">(<a href="#ref-navarro2022" role="doc-biblioref">Navarro &amp; Foxcroft, 2022, Chapter 3</a>)</span></li>
+<li>Watch videos 1-6 by Dr. <span class="citation" data-cites="poulson2019">Poulson (<a href="#ref-poulson2019" role="doc-biblioref">2019</a>)</span></li>
+</ul></li>
+</ul>
 </section>
 <section id="participate" class="level2">
 <h2 class="anchored" data-anchor-id="participate">Participate</h2>
-<p>🖥️ <a href="../slides/lab-1.html">Lab 1 - Meet the toolkit</a></p>
-<p>🖥️ <a href="../slides/lec-2.html">Lecture 2 - Simple linear regression</a></p>
-<p>🖥️ <a href="../slides/lec-3.html">Lecture 3 - Model fitting in R with tidymodels</a></p>
+<p>While in class, ask questions and take notes.</p>
 </section>
 <section id="practice" class="level2">
 <h2 class="anchored" data-anchor-id="practice">Practice</h2>
-<p>📋 <a href="../ae/ae-1-dcbikeshare.html">Application Exercise 1 - Bike rentals in DC</a> <em>(Post-class note: complete only Part 1 - Daily counts and temperature)</em></p>
+<p>Students will be asked to complete a series of exercises in class.</p>
 </section>
 <section id="perform" class="level2">
 <h2 class="anchored" data-anchor-id="perform">Perform</h2>
-<p>⌨️ <a href="../labs/lab-1.html" title="Lab instructions">Lab 1 - Meet the toolkit</a></p>
+<p>Complete Lab 1 and <a href="https://canvas.csun.edu">submit</a> it by the <a href="../index.html">deadline</a>.</p>
 <p><br><br></p>
 <div style="font-size: 0.875em;">
 <p>Back to <a href="../" title="Course schedule">course schedule</a> ⏎</p>
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
+<div id="ref-navarro2022" class="csl-entry" role="doc-biblioentry">
+Navarro, D. J., &amp; Foxcroft, D. R. (2022). <em>Learning statistics with jamovi: A tutorial for psychology students and other beginners (version 0.75)</em>. Danielle J. Navarro; David R. Foxcroft. <a href="https://doi.org/10.24384/HGC3-7P15">https://doi.org/10.24384/HGC3-7P15</a>
+</div>
+<div id="ref-poulson2019" class="csl-entry" role="doc-biblioentry">
+Poulson, B. (2019). <em>Jamovi video tutorials</em>. <a href="https://www.youtube.com/playlist?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">https://www.youtube.com/playlist?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -638,6 +664,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/drfurtado\.github\.io\/kin610/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">
@@ -662,4 +702,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

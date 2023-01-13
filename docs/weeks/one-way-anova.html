@@ -62,10 +62,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="KIN 610 - Spring 2023 - One-Way ANOVA">
-<meta property="og:description" content="ntroduction">
+<meta property="og:description" content="Introduction">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
 <meta name="twitter:title" content="KIN 610 - Spring 2023 - One-Way ANOVA">
-<meta name="twitter:description" content="ntroduction">
+<meta name="twitter:description" content="Introduction">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -122,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="../course-syllabus.qmd" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -282,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../supplemental/slr-derivations.html" class="sidebar-item-text sidebar-link">SLR derivations</a>
+  <a href="../supplemental/results-apa.html" class="sidebar-item-text sidebar-link">Results in APA</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -334,7 +334,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>ntroduction</p>
+<p>Introduction</p>
 <p>One-way analysis of variance (ANOVA) is a statistical test used to compare the means of three or more groups. It is a powerful tool for understanding the relationships between variables and can be used to test hypotheses about the differences between groups. In this chapter, we will discuss the assumptions, calculations, and interpretation of one-way ANOVA, as well as its strengths and limitations.</p>
 <p>Assumptions</p>
 <p>There are several assumptions that must be met in order to use one-way ANOVA:</p>
@@ -361,6 +361,28 @@ ul.task-list li input[type="checkbox"] {
 <p>One-way ANOVA is a powerful statistical tool that can be used to compare the means of three or more groups. However, it has some limitations. For example, it is only appropriate for continuous data and cannot be used with categorical data. It also assumes that the variance is equal within each group, which may not always be the case. Additionally, it does not provide information about the direction or size of the differences between the groups.</p>
 <p>Conclusion</p>
 <p>One-way ANOVA is a statistical test used to compare the means of three or more groups. It is a useful tool for understanding the relationships between variables and can be used to test hypotheses about the differences between groups. However, it has some limitations and should be used with caution.</p>
+<p>version 2</p>
+<p>One-way analysis of variance (ANOVA) is a statistical test used to compare the means of two or more groups. It is a powerful tool for comparing the means of multiple groups to determine if there are significant differences between them. In this chapter, we will cover the basics of one-way ANOVA and how it can be used in biostatistics.</p>
+<p>To begin, let’s define some key terms:</p>
+<ul>
+<li><p>The <strong>dependent variable</strong> is the variable being measured or observed in an experiment. In the context of one-way ANOVA, the dependent variable is usually continuous (e.g., height, weight, blood pressure).</p></li>
+<li><p>The <strong>independent variable</strong> is the variable being manipulated or controlled in an experiment. In one-way ANOVA, the independent variable has only one level, meaning that there is only one group being compared.</p></li>
+<li><p>The <strong>null hypothesis</strong> is the assumption that there is no difference between the means of the groups being compared.</p></li>
+<li><p>The <strong>alternative hypothesis</strong> is the opposite of the null hypothesis, and states that there is a difference between the means of the groups being compared.</p></li>
+</ul>
+<p>To conduct a one-way ANOVA, we first need to ensure that our data meets the assumptions of the test. These assumptions include:</p>
+<ol type="1">
+<li><p>Normality: The data must be approximately normally distributed within each group.</p></li>
+<li><p>Independence: The observations within each group must be independent of each other.</p></li>
+<li><p>Equal variance: The variances of the groups being compared must be equal.</p></li>
+</ol>
+<p>If these assumptions are not met, it may be necessary to transform the data or use a different statistical test.</p>
+<p>To perform a one-way ANOVA, we first calculate the overall mean of the dependent variable. Then, we calculate the mean of the dependent variable for each group and subtract the overall mean from each group mean to obtain the group mean differences. We then divide the sum of the squares of these group mean differences by the number of groups minus one to obtain the <strong>between-groups sum of squares</strong>.</p>
+<p>Next, we calculate the sum of squares within each group by subtracting the group mean from each individual value, squaring the result, and summing the squared differences. We then sum these values across all groups to obtain the <strong>within-groups sum of squares</strong>.</p>
+<p>Finally, we divide the between-groups sum of squares by the within-groups sum of squares and compare the resulting <strong>F-statistic</strong> to a critical value from the F-distribution. If the F-statistic is greater than the critical value, we can reject the null hypothesis and conclude that there is a significant difference between the means of the groups.</p>
+<p>One-way ANOVA is a useful tool for comparing the means of multiple groups, but it has some limitations. It is only appropriate for comparing the means of two or more groups, and it does not allow for comparisons between specific pairs of groups. Additionally, it does not provide information about which groups are significantly different from each other. To address these limitations, we can use follow-up tests such as the Tukey HSD test or the Bonferroni correction.</p>
+<p>In summary, one-way ANOVA is a statistical test used to compare the means of two or more groups. It is important to ensure that the data meets the assumptions of the test and to use appropriate follow-up tests to understand the specific differences between groups.</p>
+<p>ver3</p>
 
 
 

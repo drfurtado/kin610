@@ -1,35 +1,44 @@
 ---
 title: "Week 2"
-subtitle: "Simple linear regression"
+subtitle: "Introduction to jamovi"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
 editor: visual
+bibliography: references.bib
+csl: ../apa.csl
 ---
 
 ::: callout-important
--   Classes are virtual this week. Find Zoom links [here](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/page/d5eef508-07a4-4c6d-b7bd-4614a9631562 "Sakai - Zoom meetings").
--   Due dates:
-    -   Lab 1: Fri, Jan 14, 5pm ET
-    -   AE 1: Sun, Jan 16, 11:59pm ET
+We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+
+Download this lesson as [PDF](week-2.pdf)
 :::
 
 ## Prepare
 
-📖 Read Introduction to Modern Statistics, Chp 7: [Linear regression with a single predictor](https://openintro-ims.netlify.app/model-slr.html)
+-   jamovi
+    -   Read "Getting Started with jamovi" [@navarro2022, chap. 3]
+    -   Watch videos 1-6 by Dr. @poulson2019
 
 ## Participate
 
-🖥️ [Lab 1 - Meet the toolkit](/slides/lab-1.html)
-
-🖥️ [Lecture 2 - Simple linear regression](/slides/lec-2.html)
-
-🖥️ [Lecture 3 - Model fitting in R with tidymodels](/slides/lec-3.html)
+While in class, ask questions and take notes.
 
 ## Practice
 
-📋 [Application Exercise 1 - Bike rentals in DC](/ae/ae-1-dcbikeshare.html) *(Post-class note: complete only Part 1 - Daily counts and temperature)*
+Students will be asked to complete a series of exercises in class.
 
 ## Perform
 
-⌨️ [Lab 1 - Meet the toolkit](/labs/lab-1.html "Lab instructions")
+Complete [Lab 2](../labs/lab-2.qmd) and [submit](https://canvas.csun.edu) it by the [deadline](../index.qmd).
 
 <br><br>
 
