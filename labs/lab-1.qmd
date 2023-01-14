@@ -39,7 +39,7 @@ In the study, the chimps consistently outperformed humans, and some chimps were 
 
 This test is a variant of that concept, that gets increasingly difficult every turn, starting at 4 digits, and adding one every turn. If you pass a level, the number increases. If you fail, you get a strike. Three strikes and the test is over.
 
-`Link to take the test`
+[`Link to take the test`](https://humanbenchmark.com/tests/chimp)
 
 #### 5. Typing Test
 
