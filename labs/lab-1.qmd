@@ -7,7 +7,7 @@ draft: true
 
 ## Introduction
 
-This lab in intended to collect data that will be used for several purposes throughout the semester.
+This lab in intended to collect data that will be uswed for several purposes throughout the semester.
 
 ### Tests
 
