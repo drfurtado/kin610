@@ -1,30 +1,41 @@
 ---
 title: "Week 9"
-subtitle: "MLR: Inference + conditions"
+subtitle: "Week 9"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
-Due date: Exam 1 released on Fri, Feb 35, due Mon, Feb 28 at 11:59pm
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 :::
 
 ## Prepare
 
-No readings this week.
+TBD
 
 ## Participate
 
-🖥️ [Lecture 16 - MLR: Inference](/slides/lec-16.html)
-
-🖥️ [Lecture 17 - MLR: Inference conditions + multicollinearity](/slides/lec-17.html)
+TBD
 
 ## Practice
 
-📋 [Application Exercise 8 - Rail Trail](/ae/ae-8-rail-trail.html)
+TBD
 
 ## Perform
 
-✅ [Exam 2](/exams/exam-2.html)
+TBD
 
 <br><br>
 

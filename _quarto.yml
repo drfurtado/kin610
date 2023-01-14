@@ -53,18 +53,6 @@ website:
             text: Useful links
           - href: course-faq.qmd
             text: FAQ
-      - section: "Computing"
-        contents:
-          - href: computing-access.qmd
-            text: Access
-          - href: computing-troubleshooting.qmd
-            text: Troubleshooting
-      - section: "Project"
-        contents:
-          - href: project-description.qmd
-            text: Description
-          - href: project-tips-resources.qmd
-            text: Tips + resources
       - section: "Weekly materials"
         contents:
           - href: weeks/week-1.qmd
@@ -101,14 +89,6 @@ website:
         contents:
           - href: supplemental/results-apa.qmd
             text: Results in APA
-          - href: supplemental/model-diagnostics-matrix.qmd
-            text: Model diagnostics
-          - href: supplemental/mlr-matrix.qmd
-            text: MLR matrix notation
-          - href: supplemental/log-transformations.qmd
-            text: Log transformations
-          - href: supplemental/model-selection-criteria.qmd
-            text: Model selection criteria
 
 format:
   html:

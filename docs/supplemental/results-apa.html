@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.2.313">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KIN 610 - Spring 2023 - Reporting Results in APA</title>
+<title>KIN 610 - Spring 2023 - Statistical Tests</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,7 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../supplemental/model-diagnostics-matrix.html" rel="next">
 <link href="../weeks/week-15.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -62,12 +61,13 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="KIN 610 - Spring 2023 - Reporting Results in APA">
-<meta property="og:description" content="When reporting the results of a one-sample t-test in APA style, you should include the following information:">
+<meta property="og:title" content="KIN 610 - Spring 2023 - Statistical Tests">
+<meta property="og:description" content="Parametric tests are a class of statistical tests that make assumptions about the underlying probability distribution of the data being analyzed.">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
-<meta name="twitter:title" content="KIN 610 - Spring 2023 - Reporting Results in APA">
-<meta name="twitter:description" content="When reporting the results of a one-sample t-test in APA style, you should include the following information:">
+<meta name="twitter:title" content="KIN 610 - Spring 2023 - Statistical Tests">
+<meta name="twitter:description" content="Parametric tests are a class of statistical tests that make assumptions about the underlying probability distribution of the data being analyzed.">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -75,13 +75,13 @@ ul.task-list li input[type="checkbox"] {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Reporting Results in APA</h1>
+      <h1 class="quarto-secondary-nav-title">Statistical Tests</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -124,7 +124,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../course-syllabus.qmd" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -151,52 +151,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Computing</a>
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Weekly materials</a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../computing-access.html" class="sidebar-item-text sidebar-link">Access</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../computing-troubleshooting.html" class="sidebar-item-text sidebar-link">Troubleshooting</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">Project</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../project-description.html" class="sidebar-item-text sidebar-link">Description</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../project-tips-resources.html" class="sidebar-item-text sidebar-link">Tips + resources</a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">Weekly materials</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week-1.html" class="sidebar-item-text sidebar-link">Week 1</a>
@@ -276,35 +236,15 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">Supplemental notes</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Supplemental notes</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../supplemental/results-apa.html" class="sidebar-item-text sidebar-link active">Results in APA</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../supplemental/model-diagnostics-matrix.html" class="sidebar-item-text sidebar-link">Model diagnostics</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../supplemental/mlr-matrix.html" class="sidebar-item-text sidebar-link">MLR matrix notation</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../supplemental/log-transformations.html" class="sidebar-item-text sidebar-link">Log transformations</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../supplemental/model-selection-criteria.html" class="sidebar-item-text sidebar-link">Model selection criteria</a>
   </div>
 </li>
       </ul>
@@ -318,23 +258,83 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#one-sample-t-test" id="toc-one-sample-t-test" class="nav-link active" data-scroll-target="#one-sample-t-test">One-sample t test</a>
+  <li><a href="#parametric-tests" id="toc-parametric-tests" class="nav-link active" data-scroll-target="#parametric-tests">Parametric tests</a>
   <ul class="collapse">
+  <li><a href="#one-sample-t-test" id="toc-one-sample-t-test" class="nav-link" data-scroll-target="#one-sample-t-test">One-sample t test</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-it" id="toc-when-to-use-it" class="nav-link" data-scroll-target="#when-to-use-it">When to use it?</a></li>
+  <li><a href="#assumptions" id="toc-assumptions" class="nav-link" data-scroll-target="#assumptions">Assumptions</a></li>
+  <li><a href="#reporting-results" id="toc-reporting-results" class="nav-link" data-scroll-target="#reporting-results">Reporting results</a></li>
   <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
   </ul></li>
   <li><a href="#independent-samples-t-test" id="toc-independent-samples-t-test" class="nav-link" data-scroll-target="#independent-samples-t-test">Independent-Samples t test</a>
   <ul class="collapse">
+  <li><a href="#when-to-use-it-1" id="toc-when-to-use-it-1" class="nav-link" data-scroll-target="#when-to-use-it-1">When to use it?</a></li>
+  <li><a href="#assumptions-1" id="toc-assumptions-1" class="nav-link" data-scroll-target="#assumptions-1">Assumptions</a></li>
+  <li><a href="#reporting-results-1" id="toc-reporting-results-1" class="nav-link" data-scroll-target="#reporting-results-1">Reporting Results</a></li>
   <li><a href="#examples-1" id="toc-examples-1" class="nav-link" data-scroll-target="#examples-1">Examples</a></li>
+  </ul></li>
+  <li><a href="#paired-samples-t-test" id="toc-paired-samples-t-test" class="nav-link" data-scroll-target="#paired-samples-t-test">Paired-Samples t-test</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-it-2" id="toc-when-to-use-it-2" class="nav-link" data-scroll-target="#when-to-use-it-2">When to use it?</a></li>
+  <li><a href="#assumptions-2" id="toc-assumptions-2" class="nav-link" data-scroll-target="#assumptions-2">Assumptions</a></li>
+  <li><a href="#reporting-results-2" id="toc-reporting-results-2" class="nav-link" data-scroll-target="#reporting-results-2">Reporting Results</a></li>
+  </ul></li>
+  <li><a href="#one-way-anova" id="toc-one-way-anova" class="nav-link" data-scroll-target="#one-way-anova">One-way ANOVA</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-it-3" id="toc-when-to-use-it-3" class="nav-link" data-scroll-target="#when-to-use-it-3">When to use it?</a></li>
+  <li><a href="#assumptions-3" id="toc-assumptions-3" class="nav-link" data-scroll-target="#assumptions-3">Assumptions</a></li>
+  <li><a href="#reporting-results-3" id="toc-reporting-results-3" class="nav-link" data-scroll-target="#reporting-results-3">Reporting results</a></li>
+  </ul></li>
+  <li><a href="#between-subjects-two-way-anova" id="toc-between-subjects-two-way-anova" class="nav-link" data-scroll-target="#between-subjects-two-way-anova">Between-subjects Two-way ANOVA</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-it-4" id="toc-when-to-use-it-4" class="nav-link" data-scroll-target="#when-to-use-it-4">When to use it?</a></li>
+  <li><a href="#assumptions-4" id="toc-assumptions-4" class="nav-link" data-scroll-target="#assumptions-4">Assumptions</a></li>
+  <li><a href="#reporting-results-4" id="toc-reporting-results-4" class="nav-link" data-scroll-target="#reporting-results-4">Reporting results</a></li>
+  </ul></li>
+  <li><a href="#within-subjects-two-way-anova" id="toc-within-subjects-two-way-anova" class="nav-link" data-scroll-target="#within-subjects-two-way-anova">Within-subjects Two-way ANOVA</a>
+  <ul class="collapse">
+  <li><a href="#assumptions-5" id="toc-assumptions-5" class="nav-link" data-scroll-target="#assumptions-5">Assumptions</a></li>
+  <li><a href="#reporting-results-5" id="toc-reporting-results-5" class="nav-link" data-scroll-target="#reporting-results-5">Reporting results</a></li>
+  </ul></li>
+  <li><a href="#mixed-design-two-way-anova" id="toc-mixed-design-two-way-anova" class="nav-link" data-scroll-target="#mixed-design-two-way-anova">Mixed-design Two-way ANOVA</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-it-5" id="toc-when-to-use-it-5" class="nav-link" data-scroll-target="#when-to-use-it-5">When to use it?</a></li>
+  <li><a href="#assumptions-6" id="toc-assumptions-6" class="nav-link" data-scroll-target="#assumptions-6">Assumptions</a></li>
+  <li><a href="#reporting-results-6" id="toc-reporting-results-6" class="nav-link" data-scroll-target="#reporting-results-6">Reporting results</a></li>
+  </ul></li>
+  <li><a href="#pearson-correlation-coefficient" id="toc-pearson-correlation-coefficient" class="nav-link" data-scroll-target="#pearson-correlation-coefficient">Pearson Correlation Coefficient</a>
+  <ul class="collapse">
+  <li><a href="#reporting-results-7" id="toc-reporting-results-7" class="nav-link" data-scroll-target="#reporting-results-7">Reporting results</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#non-parametric-tests" id="toc-non-parametric-tests" class="nav-link" data-scroll-target="#non-parametric-tests">Non-parametric tests</a>
+  <ul class="collapse">
+  <li><a href="#wilcoxon-signed-rank" id="toc-wilcoxon-signed-rank" class="nav-link" data-scroll-target="#wilcoxon-signed-rank">Wilcoxon signed-rank</a>
+  <ul class="collapse">
+  <li><a href="#assumptions-7" id="toc-assumptions-7" class="nav-link" data-scroll-target="#assumptions-7">Assumptions</a></li>
+  <li><a href="#reporting-results-8" id="toc-reporting-results-8" class="nav-link" data-scroll-target="#reporting-results-8">Reporting Results</a></li>
+  </ul></li>
+  <li><a href="#mann-whitney-u-test" id="toc-mann-whitney-u-test" class="nav-link" data-scroll-target="#mann-whitney-u-test">Mann-Whitney <em>U</em> test</a>
+  <ul class="collapse">
+  <li><a href="#assumptions-8" id="toc-assumptions-8" class="nav-link" data-scroll-target="#assumptions-8">Assumptions</a></li>
+  <li><a href="#reporting-results-9" id="toc-reporting-results-9" class="nav-link" data-scroll-target="#reporting-results-9">Reporting results</a></li>
+  </ul></li>
+  <li><a href="#spearman-rho-correlation-coefficient" id="toc-spearman-rho-correlation-coefficient" class="nav-link" data-scroll-target="#spearman-rho-correlation-coefficient">Spearman Rho Correlation Coefficient</a>
+  <ul class="collapse">
+  <li><a href="#when-to-use-it-6" id="toc-when-to-use-it-6" class="nav-link" data-scroll-target="#when-to-use-it-6">When to use it?</a></li>
+  <li><a href="#reporting-results-10" id="toc-reporting-results-10" class="nav-link" data-scroll-target="#reporting-results-10">Reporting results</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/drfurtado/kin610/edit/main/supplemental/results-apa.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/drfurtado/kin610/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Reporting Results in APA</h1>
+<h1 class="title d-none d-lg-block">Statistical Tests</h1>
 </div>
 
 
@@ -349,8 +349,53 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="parametric-tests" class="level1">
+<h1>Parametric tests</h1>
+<p>Parametric tests are a class of statistical tests that make assumptions about the underlying probability distribution of the data being analyzed. These assumptions include that the data are sampled from a population that follows a normal distribution, and that the sample size is large enough to make these assumptions valid. The most commonly used parametric tests include t-tests, ANOVA (analysis of variance) and multiple regression analysis. These tests are known to have more powerful results than non-parametric tests, which makes them more useful for exploring the difference between groups or testing hypotheses about a population.</p>
+<p>The assumptions of parametric tests are met when the data is approximately normal and when the sample size is large enough. Therefore, it is recommended to check for normality of the data using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.</p>
+<p>Parametric tests are useful when the researcher wants to compare means of two or more groups, establish a relationship between two or more variables, or investigate the correlation between variables. Examples of parametric tests include: t-test, ANOVA, multiple regression analysis, and chi-square tests.</p>
 <section id="one-sample-t-test" class="level2">
 <h2 class="anchored" data-anchor-id="one-sample-t-test">One-sample t test</h2>
+<p><span id="eq-one-sample-a"><span class="math display">\[
+t = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}
+\tag{1}\]</span></span></p>
+<p>where:</p>
+<ul>
+<li><p><span class="math inline">\(\bar{x}\)</span> is the sample mean</p></li>
+<li><p><span class="math inline">\(\mu\)</span> is the population mean</p></li>
+<li><p><span class="math inline">\(s\)</span> is the sample standard deviation</p></li>
+<li><p><span class="math inline">\(n\)</span> is the sample size</p></li>
+</ul>
+<p>It also can be written as:</p>
+<p><span id="eq-one-sample-b"><span class="math display">\[
+t = \frac{\bar{x} - \mu}{s_x/\sqrt{n}}
+\tag{2}\]</span></span></p>
+<p>where:</p>
+<ul>
+<li><p><span class="math inline">\(\bar{x}\)</span> is the sample mean</p></li>
+<li><p><span class="math inline">\(\mu\)</span> is the population mean</p></li>
+<li><p><span class="math inline">\(s_x\)</span> is the sample standard deviation</p></li>
+<li><p><span class="math inline">\(n\)</span> is the sample size</p></li>
+</ul>
+<section id="when-to-use-it" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it">When to use it?</h3>
+<p>The one-sample t-test should be run when you have a single sample of data and you want to compare the mean of that sample to a known or hypothesized population mean.</p>
+<p>Example in kinesiology: A kinesiologist wants to know if a new exercise program improves muscle strength in older adults. The kinesiologist recruits a sample of 20 older adults and has them complete the exercise program for 8 weeks. The kinesiologist measures muscle strength using a dynamometer before and after the 8 week program. The kinesiologist wants to know if the mean muscle strength of the sample is significantly different from the population mean muscle strength of older adults (which is hypothesized to be 40 kg). The kinesiologist would run a one-sample t-test to compare the mean muscle strength of the sample (after completing the exercise program) to the hypothesized population mean of 40 kg. If the t-value is significant, the kinesiologist can conclude that the exercise program does improve muscle strength in older adults.</p>
+</section>
+<section id="assumptions" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
+<p>The test makes several assumptions about the data:</p>
+<ol type="1">
+<li><p>Independence: The observations in the sample are independent of one another.</p></li>
+<li><p>Normality: The population from which the sample is drawn is normally distributed.</p></li>
+<li><p>Equal variances: The population variances of the two groups are equal.</p></li>
+<li><p>Random sampling: The sample is drawn randomly and independently from the population.</p></li>
+<li><p>Sample size: The sample size is large enough (usually greater than 30) for the Central Limit Theorem to be applied.</p></li>
+</ol>
+<p>It is important to check these assumptions before running the one-sample t-test to ensure the validity of the test results. In case the sample size is small or the data distribution is not normal, a non-parametric test such as the Wilcoxon signed-rank test should be used instead.</p>
+</section>
+<section id="reporting-results" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results">Reporting results</h3>
 <p>When reporting the results of a one-sample t-test in APA style, you should include the following information:</p>
 <ol type="1">
 <li><p>The test statistic and the associated degrees of freedom (df). For example: “t(df) = 2.45, p = .03.”</p></li>
@@ -362,6 +407,7 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>It is also good practice to include a brief description of the research question or hypothesis being tested, as well as a description of the sample and any relevant study variables.</p>
 <p>For example: “In this study, we tested the hypothesis that the mean score on a memory task would be significantly higher than 4.0. A sample of 20 participants completed the task, with a mean score of 5.6 (SD = 1.2). The one-sample t-test revealed a significant difference, t(df) = 2.45, p = .03, d = 0.87, indicating that the mean score was significantly higher than the hypothesized mean.”</p>
+</section>
 <section id="examples" class="level3">
 <h3 class="anchored" data-anchor-id="examples">Examples</h3>
 <p>The results of the one-sample t test indicated that the mean (M = X, SD = Y) was significantly different from the hypothesized value (t(df) = t-value, p &lt; .05).</p>
@@ -371,6 +417,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="independent-samples-t-test" class="level2">
 <h2 class="anchored" data-anchor-id="independent-samples-t-test">Independent-Samples t test</h2>
+<section id="when-to-use-it-1" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it-1">When to use it?</h3>
+<p>The independent-samples t-test should be run when comparing the means of two independent groups. For example, in the field of kinesiology, an independent-samples t-test can be used to compare the muscle strength of a group of individuals who have completed a resistance training program to a group of individuals who have not completed a resistance training program. The independent variable would be whether or not the individual completed the resistance training program and the dependent variable would be muscle strength. The t-test would be used to determine if there is a significant difference in muscle strength between the two groups, indicating that the resistance training program had an effect on muscle strength.</p>
+</section>
+<section id="assumptions-1" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-1">Assumptions</h3>
+<p>The assumptions of the independent-samples t-test include:</p>
+<ol type="1">
+<li><p>Normality: The data should be approximately normally distributed within each group.</p></li>
+<li><p>Independence: The observations in each group should be independent of one another.</p></li>
+<li><p>Equal variances: The variances of the two groups should be roughly equal.</p></li>
+<li><p>Random Sampling: The sample of each group should be random and representative of the population.</p></li>
+<li><p>Equal sample size: The sample size in each group should be equal or similar.</p></li>
+</ol>
+<p>It is important to note that not all these assumptions need to be perfectly met for the test to be valid, but the deviations from these assumptions should be small. If the data does not meet these assumptions, the non-parametric version of the independent-samples t-test, such as the Mann-Whitney U test, can be used instead.</p>
+</section>
+<section id="reporting-results-1" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-1">Reporting Results</h3>
 <p>To report the results of an independent samples t-test in APA style, you should include the following information:</p>
 <ol type="1">
 <li><p>The type of test that was conducted (e.g., “An independent samples t-test was conducted to compare the mean scores of two groups on a measure of stress.”)</p></li>
@@ -381,12 +445,326 @@ ul.task-list li input[type="checkbox"] {
 </ol>
 <p>It is also a good idea to provide a brief interpretation of the results, explaining what they mean in the context of your research question or hypothesis.</p>
 <p>Here is an example of how you might report the results of an independent samples t-test in APA style:</p>
+</section>
 <section id="examples-1" class="level3">
 <h3 class="anchored" data-anchor-id="examples-1">Examples</h3>
 <p>“An independent samples t-test was conducted to compare the mean scores of two groups on a measure of stress. The sample consisted of 20 participants in Group A and 25 participants in Group B. The mean score for Group A was M = 3.5, SD = 1.2, and the mean score for Group B was M = 2.8, SD = 0.9. The t-value was t(43) = 2.3, p = .03, indicating that there was a significant difference between the mean scores of the two groups, with Group A scoring higher than Group B. The effect size for the difference between the two groups was d = .7, indicating a moderate effect. These results suggest that participants in Group A experienced significantly higher levels of stress than those in Group B.”</p>
 <p>“The purpose of this study was to examine the effect of a new teaching method on student achievement. A sample of 50 students was randomly assigned to either the experimental group, which received the new teaching method, or the control group, which received the traditional teaching method. Student achievement was measured using a standardized test. The results of the independent samples t-test showed that there was a statistically significant difference between the experimental and control groups, t(48) = 2.57, p = .01. The experimental group had a higher mean score on the achievement test than the control group. These findings suggest that the new teaching method was effective in improving student achievement. However, it is important to note that the small sample size and lack of generalizability to other populations are limitations of this study.”</p>
+</section>
+</section>
+<section id="paired-samples-t-test" class="level2">
+<h2 class="anchored" data-anchor-id="paired-samples-t-test">Paired-Samples t-test</h2>
+<section id="when-to-use-it-2" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it-2">When to use it?</h3>
+<p>The paired-samples t-test should be run when you have two sets of related (or paired) data that you want to compare. For example, if you want to compare the effectiveness of two different treatments on a group of patients, you would use a paired-samples t-test. This test is also commonly used in pre- and post-test designs, where you want to compare scores before and after an intervention or treatment. Additionally, if you want to compare the mean differences between two groups or conditions, but you want to control for individual differences, you can use a paired-samples t-test.</p>
+</section>
+<section id="assumptions-2" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-2">Assumptions</h3>
+<p>The assumptions of the paired-samples t-test include:</p>
+<ol type="1">
+<li><p>Independence: The observations within each pair are independent of one another.</p></li>
+<li><p>Normality: The differences between the pairs of observations are approximately normally distributed.</p></li>
+<li><p>Equal variances: The variances of the differences between the pairs of observations are equal.</p></li>
+<li><p>Paired data: The observations are paired, meaning that each individual is measured twice, once before and once after some intervention, or in two different conditions.</p></li>
+<li><p>Random Sampling: The sample being used is selected randomly from the population.</p></li>
+</ol>
+<p>It’s important to note that violations of these assumptions may lead to inaccurate results, so it’s necessary to check them before applying the test. Checking for normality can be done using a normal probability plot, and checking for equal variances can be done using Levene’s test. The paired sample t-test is sensitive to the violation of normality and equal variances assumptions, thus if the assumptions are not met, there are other options that can be used, such as the Wilcoxon signed-rank test which is a non-parametric version of the paired-samples t-test.</p>
+</section>
+<section id="reporting-results-2" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-2">Reporting Results</h3>
+<p>When reporting the results of a paired-samples t-test, it is important to include the following information:</p>
+<ol type="1">
+<li><p>The test statistic (e.g.&nbsp;t-value) and the associated p-value. The t-value tells us how many standard errors the mean difference is from zero, and the p-value tells us the probability of observing a t-value as extreme as the one we calculated under the assumption that the null hypothesis is true.</p></li>
+<li><p>The sample size (e.g.&nbsp;the number of pairs of observations).</p></li>
+<li><p>The mean difference and the standard deviation of the differences.</p></li>
+<li><p>The effect size, such as Cohen’s d, which is a measure of the magnitude of the difference between the means.</p></li>
+</ol>
+<p>Example:</p>
+<p>“A paired-samples t-test was conducted to compare the pre-test and post-test scores of a group of students. The sample size was 20 pairs of observations. The mean difference between the pre-test and post-test scores was 5.3 (SD = 2.5). The t-value was 3.87, with a p-value of 0.001. The effect size (Cohen’s d) was 0.67, which indicates a moderate effect size.”</p>
+<p>“The results of the paired-samples t-test revealed that there was a statistically significant difference between the pre-test and post-test scores of the students, t(19) = 3.87, p = 0.001. The mean difference was 5.3 (95% CI [3.4, 7.2]), and the effect size (d = 0.67) suggests moderate effect size.”</p>
+</section>
+</section>
+<section id="one-way-anova" class="level2">
+<h2 class="anchored" data-anchor-id="one-way-anova">One-way ANOVA</h2>
+<section id="when-to-use-it-3" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it-3">When to use it?</h3>
+<p>A one-way ANOVA (Analysis of Variance) is used to test for differences in the mean of a continuous outcome variable across two or more categorical groups. It is used when you have one independent variable (also known as a factor) with two or more levels or groups and one continuous dependent variable.</p>
+<p>In other words, you should run a one-way ANOVA when:</p>
+<ol type="1">
+<li><p>You want to compare the means of a continuous outcome variable across two or more groups.</p></li>
+<li><p>You have one independent variable (factor) with two or more levels or groups</p></li>
+<li><p>The dependent variable is continuous</p></li>
+</ol>
+<p>Example: A researcher wants to know if there is a difference in the mean test scores of students who studied using different methods (Method A, Method B, Method C). The researcher collect data on test scores and the method used. The test scores are continuous variable and method of study is categorical variable with 3 levels. So, the researcher can use one-way ANOVA to test for the difference in mean test scores across different method of study.</p>
+</section>
+<section id="assumptions-3" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-3">Assumptions</h3>
+<p>The one-way ANOVA (analysis of variance) makes several assumptions about the data being analyzed:</p>
+<ol type="1">
+<li><p>Independence: The observations in each group are independent of each other and do not affect the observations in the other groups.</p></li>
+<li><p>Normality: The data within each group is normally distributed, or at least approximately normally distributed. This assumption can be checked using normality tests such as the Shapiro-Wilk test.</p></li>
+<li><p>Equal variances: The variances of the data within each group are equal. This assumption can be checked using tests such as the Levene’s test.</p></li>
+<li><p>Random sampling: The data is randomly sampled from the population, so that the sample is representative of the population.</p></li>
+</ol>
+<p>Violations of these assumptions can lead to biased or incorrect results. If the assumptions are not met, non-parametric alternatives such as Kruskal-Wallis test could be used.</p>
+</section>
+<section id="reporting-results-3" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-3">Reporting results</h3>
+<p>When reporting the results of a one-way ANOVA, it is important to include the following information:</p>
+<ol type="1">
+<li><p>The F-value and the associated p-value. The F-value tells us how much variation in the dependent variable is accounted for by the independent variable, and the p-value tells us the probability of observing an F-value as extreme as the one we calculated under the assumption that the null hypothesis is true.</p></li>
+<li><p>The sample size for each group, or the number of observations in each group.</p></li>
+<li><p>The means and standard deviations for each group.</p></li>
+<li><p>The effect size, such as eta-squared (η²) or omega-squared (ω²), which is a measure of the proportion of variance in the dependent variable that is accounted for by the independent variable.</p></li>
+</ol>
+<p>Example:</p>
+<p>“A one-way ANOVA was conducted to compare the scores of three groups of students on a test. The sample size for each group was 10, 10, and 12. The means and standard deviations for each group were: Group 1 = 80 (SD = 5), Group 2 = 75 (SD = 4), Group 3 = 70 (SD = 3). The F-value was 12.5, with a p-value of 0.001. The effect size (η²) was 0.17, which indicates a moderate effect size.”</p>
+<p>“The results of the one-way ANOVA revealed that there was a statistically significant difference between the scores of the three groups of students, F(2, 28) = 12.5, p = 0.001. Post-hoc comparisons revealed that group 1 significantly different from group 2 (p = 0.05) and group 3 (p = 0.001). The mean scores for each group were: Group 1 = 80 (95% CI [78, 82]), Group 2 = 75 (95% CI [73, 77]), Group 3 = 70 (95% CI [69, 72]). The effect size (η² = 0.17) suggests that the independent variable accounted for a moderate proportion of variance in the dependent variable.”</p>
+</section>
+</section>
+<section id="between-subjects-two-way-anova" class="level2">
+<h2 class="anchored" data-anchor-id="between-subjects-two-way-anova">Between-subjects Two-way ANOVA</h2>
+<section id="when-to-use-it-4" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it-4">When to use it?</h3>
+<p>You should run a Between-subjects Two-way ANOVA when you have two independent variables (also known as factors) that you want to test the effect of on a dependent variable, and the levels of these independent variables are different between groups of participants.</p>
+<p>An example related to physical activity could be comparing the effect of two different types of exercise programs (e.g.&nbsp;resistance training vs.&nbsp;cardio) on muscle mass gain in two different age groups (e.g.&nbsp;older adults vs.&nbsp;younger adults). In this example, the independent variables would be the type of exercise program and the age group, and the dependent variable would be muscle mass gain. The levels of the independent variables would be different between groups of participants, as the older adults would be in one group and the younger adults would be in another. A Between-subjects Two-way ANOVA would allow you to test for any interactions between the two independent variables (i.e.&nbsp;whether the effect of the exercise program on muscle mass gain is different in older adults vs.&nbsp;younger adults) and any main effects of each independent variable on the dependent variable.</p>
+</section>
+<section id="assumptions-4" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-4">Assumptions</h3>
+<p>The assumptions of the between-subjects two-way ANOVA are as follows:</p>
+<ol type="1">
+<li><p>Independence: The observations in each group are independent of each other, meaning that the responses of one participant do not affect the responses of another participant.</p></li>
+<li><p>Normality: The distribution of the residuals (the difference between the observed and predicted values) is approximately normal. It is important to check the normality assumptions using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.</p></li>
+<li><p>Equal variances: The variances of the residuals are equal across all groups and levels of the independent variables. This assumption can be checked using Levene’s test for equality of variances.</p></li>
+<li><p>Additivity: The effect of each independent variable on the dependent variable is additive, meaning that the effect of one independent variable does not depend on the level of the other independent variable.</p></li>
+<li><p>Linearity: The relationship between the independent variables and the dependent variable is linear, meaning that a straight line can be used to represent the relationship.</p></li>
+<li><p>Independence of errors: the residuals are independent, meaning that the residuals of one observation are not correlated with the residuals of any other observation.</p></li>
+</ol>
+<p>It’s important to note that when these assumptions are not met, the results of the ANOVA should be interpreted with caution and alternative methods of analysis should be considered.</p>
+</section>
+<section id="reporting-results-4" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-4">Reporting results</h3>
+<p>When reporting the results of a between-subjects Two-way ANOVA, you should include the following information:</p>
+<ol type="1">
+<li><p>A description of the study design, including the independent variables, dependent variable, and the levels of each independent variable.</p></li>
+<li><p>The results of the ANOVA, including the F-value, degrees of freedom, and p-value for each independent variable and any interaction between the two independent variables.</p></li>
+<li><p>A summary of the main findings, including any significant main effects or interactions between the independent variables.</p></li>
+<li><p>Follow-up tests, such as post-hoc tests, to determine which specific levels of the independent variables were responsible for the significant effects.</p></li>
+</ol>
+<p>Example:</p>
+<p>“The study aimed to examine the effect of two different types of physical education programs (e.g.&nbsp;traditional vs.&nbsp;adventure-based) on physical fitness in two different age groups (e.g.&nbsp;younger children vs.&nbsp;older children). A between-subjects Two-way ANOVA was conducted, with the independent variables being the type of program and the age group, and the dependent variable being physical fitness. The results of the ANOVA showed a significant main effect of the type of program, F (1, 48) = 8.32, p = 0.006, with the adventure-based program resulting in higher physical fitness scores than the traditional program. A significant interaction was also found between the type of program and the age group, F (1, 48) = 4.12, p = 0.047. Follow-up tests showed that the adventure-based program resulted in significantly higher physical fitness scores in older children compared to the traditional program, but there was no significant difference in younger children.”</p>
+</section>
+</section>
+<section id="within-subjects-two-way-anova" class="level2">
+<h2 class="anchored" data-anchor-id="within-subjects-two-way-anova">Within-subjects Two-way ANOVA</h2>
+<p>You should run a Within-subjects Two-way ANOVA when you have two independent variables (also known as factors) that you want to test the effect of on a dependent variable, and the levels of these independent variables are the same for all participants, but are manipulated within each participant.</p>
+<p>An example related to motor skill learning could be comparing the effect of two different types of feedback (e.g.&nbsp;verbal vs.&nbsp;visual) on the learning of a new motor skill (e.g.&nbsp;throwing a ball) in a group of participants. In this example, the independent variables would be the type of feedback and the time of testing (e.g.&nbsp;pre-test and post-test), and the dependent variable would be the accuracy of the throwing skill. The levels of the independent variables would be the same for all participants, as each participant would receive both types of feedback and be tested both before and after training. A Within-subjects Two-way ANOVA would allow you to test for any interactions between the two independent variables (i.e.&nbsp;whether the effect of feedback on motor skill learning is different at the pre-test vs.&nbsp;the post-test) and any main effects of each independent variable on the dependent variable.</p>
+<section id="assumptions-5" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-5">Assumptions</h3>
+<p>The assumptions of the within-subjects two-way ANOVA (also known as a repeated-measures ANOVA) include:</p>
+<ol type="1">
+<li><p>Independence: The observations within each cell of the design must be independent of one another.</p></li>
+<li><p>Normality: The observations within each cell should be approximately normally distributed.</p></li>
+<li><p>Equal variances: The variances of the observations within each cell should be approximately equal.</p></li>
+<li><p>Sphericity: The variances of the differences between the observations for each condition should be approximately equal across the levels of the other independent variable. This assumption is often tested using Mauchly’s test.</p></li>
+<li><p>No carryover effects: There should be no carryover effects from one level of one independent variable to the next level of the same independent variable.</p></li>
+<li><p>No missing data: There should be no missing data in the dataset.</p></li>
+</ol>
+<p>It is important to note that when the assumptions of the within-subjects two-way ANOVA are not met, the results may not be reliable and alternative methods such as mixed-design ANOVA or non-parametric methods may be needed.</p>
+</section>
+<section id="reporting-results-5" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-5">Reporting results</h3>
+<p>When reporting the results of a within-subjects Two-way ANOVA, you should first indicate the dependent variable, the independent variables and the levels of each independent variable. You should then report the main effect of each independent variable on the dependent variable, as well as any interaction effects between the independent variables.</p>
+<p>For example, if you were studying the effect of two different types of practice schedules (random vs.&nbsp;blocked) and two different types of feedback (verbal vs.&nbsp;visual) on motor skill learning, your report would look something like this:</p>
+<p>Dependent variable: Motor skill learning Independent variables: Practice schedule (random vs.&nbsp;blocked) and feedback (verbal vs.&nbsp;visual)</p>
+<p>Main Effects:</p>
+<ul>
+<li><p>Practice schedule: There was a significant main effect of practice schedule on motor skill learning, F(1,24) = 7.32, p = .012, ηp² = .234, such that participants who practiced in a random schedule showed better motor skill learning than those who practiced in a blocked schedule.</p></li>
+<li><p>Feedback: There was a significant main effect of feedback on motor skill learning, F(1,24) = 4.56, p = .045, ηp² = .158, such that participants who received visual feedback showed better motor skill learning than those who received verbal feedback.</p></li>
+</ul>
+<p>Interaction Effects:</p>
+<ul>
+<li>There was no significant interaction between practice schedule and feedback on motor skill learning, F(1,24) = .21, p = .65, ηp² = .009.</li>
+</ul>
+<p>It is worth noting that p values less than 0.05 would be considered statistically significant, and ηp² indicates the effect size of the interaction effects.</p>
+<p>It is also important to report the means and standard deviations of the dependent variable within each level of the independent variables. This will give a more detailed understanding of the pattern of results.</p>
+</section>
+</section>
+<section id="mixed-design-two-way-anova" class="level2">
+<h2 class="anchored" data-anchor-id="mixed-design-two-way-anova">Mixed-design Two-way ANOVA</h2>
+<section id="when-to-use-it-5" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it-5">When to use it?</h3>
+<p>You should run a mixed-factors two-way ANOVA when you have two independent variables (also known as factors) that you want to test the effect of on a dependent variable, and one of the independent variables is a between-subjects variable and the other is a within-subjects variable.</p>
+<p>A mixed-factors two-way ANOVA is useful when you want to examine the effect of a manipulation that varies within subjects (e.g.&nbsp;different levels of a treatment) while also taking into account individual differences among participants (e.g.&nbsp;gender, age, etc.).</p>
+<p>An example of when to run a mixed-factors two-way ANOVA would be if you wanted to investigate the effect of two different types of exercise programs (e.g.&nbsp;resistance training vs.&nbsp;cardio) on muscle mass gain in two different age groups (e.g.&nbsp;older adults vs.&nbsp;younger adults) but the program is applied to the same group of people. In this example, the independent variables would be the type of exercise program (between-subjects) and the age group (within-subjects) and the dependent variable would be muscle mass gain.</p>
+<p>A mixed-factors two-way ANOVA would allow you to test for any interactions between the two independent variables, and any main effects of each independent variable on the dependent variable, while also taking into account the individual differences among participants.</p>
+</section>
+<section id="assumptions-6" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-6">Assumptions</h3>
+<p>The assumptions of the mixed-factors two-way ANOVA (also known as a mixed-design two-way ANOVA) include:</p>
+<ol type="1">
+<li><p>Independence of observations: Each participant’s response should be independent of the responses of other participants.</p></li>
+<li><p>Normality: The residuals (the difference between the observed and predicted values) should be approximately normally distributed.</p></li>
+<li><p>Equal variances: The variances of the residuals should be equal across all levels of the independent variables.</p></li>
+<li><p>Sphericity: The variances of the differences between the levels of the within-subjects variable should be equal.</p></li>
+<li><p>Linearity: The relationship between the independent and dependent variables should be linear.</p></li>
+<li><p>Additivity: The effect of each independent variable should be additive, meaning that the effect of one variable should not depend on the level of the other variable.</p></li>
+</ol>
+<p>It’s important to note that the violation of these assumptions can lead to inaccurate results, therefore, it’s important to check them by using various graphical methods, like box plots, histograms and Q-Q plots, and statistical methods like Shapiro-Wilk test, Levene’s test, and Mauchly’s test.</p>
+</section>
+<section id="reporting-results-6" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-6">Reporting results</h3>
+<p>When reporting the results of a mixed-factors Two-way ANOVA, you should include the following information:</p>
+<ol type="1">
+<li><p>A description of the study design, including the independent variables, dependent variable, and the levels of each independent variable. Specify which variable is the within-subject variable and which one is the between-subject variable.</p></li>
+<li><p>The results of the ANOVA, including the F-value, degrees of freedom, and p-value for each independent variable and any interaction between the two independent variables.</p></li>
+<li><p>A summary of the main findings, including any significant main effects or interactions between the independent variables.</p></li>
+<li><p>Follow-up tests, such as post-hoc tests, to determine which specific levels of the independent variables were responsible for the significant effects.</p></li>
+</ol>
+<p>Example:</p>
+<p>“The study aimed to examine the effect of two different types of motor development programs (e.g.&nbsp;traditional vs.&nbsp;adventure-based) on balance skills in two different age groups (e.g.&nbsp;preschool children vs.&nbsp;school-aged children). A mixed-factors Two-way ANOVA was conducted, with the independent variables being time (within-subject variable) and the age group (between-subject variable) and the dependent variable being balance skills. The results of the ANOVA showed a significant main effect of time, F (1, 48) = 8.32, p = 0.006, with post-test resulting in higher balance skills scores than pretest. A significant interaction was also found between time and the age group, F (1, 48) = 4.12, p = 0.047. Follow-up tests showed that post-test resulted in significantly higher balance skills scores in preschool children compared to pre-test, but there was no significant difference in school-aged children.”</p>
+<p>It is important to note that in a mixed-factors ANOVA, the assumptions of normality and equal variances are tested at each level of the within-subject variable separately.</p>
+</section>
+</section>
+<section id="pearson-correlation-coefficient" class="level2">
+<h2 class="anchored" data-anchor-id="pearson-correlation-coefficient">Pearson Correlation Coefficient</h2>
+<p>The Pearson correlation coefficient (r) is used to measure the strength and direction of the linear relationship between two continuous variables. It is appropriate to use when you want to determine if there is a linear relationship between two variables and the data is at least interval level. It is important to note that the Pearson correlation coefficient only measures linear relationships, and it is not appropriate to use if the relationship between the variables is non-linear.</p>
+<p>It is generally considered appropriate to use the Pearson correlation coefficient when the following conditions are met:</p>
+<ol type="1">
+<li><p>The data for both variables is continuous (i.e., interval or ratio level).</p></li>
+<li><p>Both variables are normally distributed or the sample size is large enough (n&gt;30)</p></li>
+<li><p>The variables are not categorical</p></li>
+<li><p>The data is free from outliers</p></li>
+<li><p>The relationship between the two variables is believed to be linear</p></li>
+</ol>
+<p>It’s also worth noting that the Pearson correlation coefficient assumes that there is no causality between the two variables, it just measures the association between them. If you want to establish causality, you should use other statistical techniques such as regression analysis.</p>
+<section id="reporting-results-7" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-7">Reporting results</h3>
+<p>When reporting the results of a Pearson correlation coefficient, it is important to include the following information:</p>
+<ol type="1">
+<li><p>The correlation coefficient (r) and the associated p-value. The correlation coefficient tells us the strength and direction of the linear relationship between two variables, and the p-value tells us the probability of observing a correlation coefficient as extreme as the one we calculated under the assumption that there is no correlation.</p></li>
+<li><p>The sample size (e.g.&nbsp;the number of observations)</p></li>
+<li><p>The scatter plot of the data with the line of best fit and the equation of that line.</p></li>
+<li><p>The effect size, such as Cohen’s d, which is a measure of the magnitude of the correlation.</p></li>
+</ol>
+<p>Example:</p>
+<p>“A Pearson correlation coefficient was calculated to examine the relationship between hours of sleep and test scores of a group of students. The sample size was 30. The correlation coefficient was 0.75, with a p-value of 0.001. The scatter plot of the data with the line of best fit showing a positive correlation and equation of the line y = 0.5x+50 . The effect size (Cohen’s d) was 0.5, which indicates a moderate effect size.”</p>
+<p>“The results of the Pearson correlation coefficient revealed a statistically significant positive correlation between hours of sleep and test scores of the students (r(28) = 0.75, p = 0.001). The scatter plot of the data with the line of best fit y = 0.5x+50 illustrates the positive correlation. The effect size (d = 0.5) suggests a moderate correlation.”</p>
+</section>
+</section>
+</section>
+<section id="non-parametric-tests" class="level1 page-columns page-full">
+<h1>Non-parametric tests</h1>
+<p>Non-parametric tests are a class of statistical tests that do not make assumptions about the underlying probability distribution of the data being analyzed. These tests are also known as distribution-free tests, as they do not require the data to follow a specific distribution such as normal distribution. They are useful when the data does not meet the assumptions of parametric tests or when the sample size is small. Non-parametric tests are less powerful than parametric tests, but they are more robust and can be used with a wide range of data types.</p>
+<p>Examples of non-parametric tests include: Mann-Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis H test, chi-square test, and median test. They can be used to test for differences between groups, compare medians, and test for independence. They are commonly used in fields such as social sciences, medicine, and biology.</p>
+<p>It is important to note that non-parametric tests do not require the data to be normally distributed but they do require other assumptions to be met such as independence and ordinal or continuous data.</p>
+<section id="wilcoxon-signed-rank" class="level2">
+<h2 class="anchored" data-anchor-id="wilcoxon-signed-rank">Wilcoxon signed-rank</h2>
+<p>The Wilcoxon signed-rank test is a non-parametric test used to determine whether two related samples have the same median. It is used when the data does not meet the assumptions of a parametric test such as the t-test, such as when the data is not normally distributed or the sample size is small. The Wilcoxon signed-rank test is a good alternative to the t-test for comparing two related samples.</p>
+<p>You should run the Wilcoxon signed-rank test when:</p>
+<ol type="1">
+<li><p>You have two related samples (e.g.&nbsp;pre-test and post-test scores for the same individuals)</p></li>
+<li><p>The data is not normally distributed</p></li>
+<li><p>The sample size is small</p></li>
+<li><p>You want to compare the median of two related samples</p></li>
+</ol>
+<p>An example of when you would use the Wilcoxon signed-rank test would be if you were studying the effectiveness of a new treatment for a medical condition, and you collected pre-treatment and post-treatment scores for a small group of patients. Since the sample size is small, and the distribution of scores is not normal, you would use the Wilcoxon signed-rank test to compare the median pre-treatment and post-treatment scores and determine if there was a significant difference between them.</p>
+<section id="assumptions-7" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-7">Assumptions</h3>
+<p>It is a robust test and doesn’t require the assumptions of normality, equal variances and large sample size that parametric tests like t-test require.</p>
+<p>The Wilcoxon signed-rank test assumes the following:</p>
+<ol type="1">
+<li><p>The data is ordinal or continuous, not categorical.</p></li>
+<li><p>The two samples being compared are related or dependent, meaning that the observations in one sample correspond to the observations in the other sample in some meaningful way.</p></li>
+<li><p>The data is at least ordinal, it doesn’t assume normality.</p></li>
+<li><p>The data is independent and randomly selected from the population.</p></li>
+<li><p>The observations in the two samples should be continuous or ordinal, not categorical.</p></li>
+<li><p>The data should be free of outliers, as they can have a large impact on the test results.</p></li>
+</ol>
+<p>It is important to note that the Wilcoxon signed-rank test is a non-parametric test, so it is less powerful than a t-test and a parametric test. Therefore, it is advisable to use the Wilcoxon signed-rank test only when the assumptions of the t-test are not met.</p>
+</section>
+<section id="reporting-results-8" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-8">Reporting Results</h3>
+<p>When reporting the results of a Wilcoxon signed-rank test, you should include the following information:</p>
+<ol type="1">
+<li><p>A description of the study design, including the dependent variable and the groups being compared.</p></li>
+<li><p>The results of the test, including the test statistic (e.g.&nbsp;W) and the p-value.</p></li>
+<li><p>A summary of the main findings, including whether the difference between the groups is statistically significant.</p></li>
+<li><p>The effect size, such as Cohen’s d or r, to indicate the magnitude of the difference between the groups.</p></li>
+</ol>
+<p>Example:</p>
+<p>“The study aimed to examine the effect of a physical therapy intervention on pain levels in patients with knee osteoarthritis. A Wilcoxon signed-rank test was conducted to compare the pain levels before and after the intervention. The results of the test showed a significant decrease in pain levels after the intervention, W = 45, p = 0.03. The effect size was r = 0.5, indicating a moderate effect size. This suggests that the physical therapy intervention was effective in reducing pain levels in patients with knee osteoarthritis.”</p>
+<p>It is important to note that the Wilcoxon signed-rank test is a non-parametric test that is used when the data is not normally distributed or the sample size is small. This test is used to compare two related samples or matched-pairs data.</p>
+</section>
+</section>
+<section id="mann-whitney-u-test" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="mann-whitney-u-test">Mann-Whitney <em>U</em> test</h2>
+<p>The Mann-Whitney U test is a non-parametric test that is used to compare two independent groups to determine whether there is a significant difference in the distribution of scores between the two groups. This test is used when the assumptions of a parametric test such as the independent t-test cannot be met. These assumptions include normality of the data and equal variances between groups.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>The Mann-Whitney U test is equivalent to the <code>Independent-Samples t-test</code>.</p>
+</div></div><p>The Mann-Whitney U test is particularly useful when the data is not normally distributed, when the sample size is small, or when the data has outliers. It is also used when the data is ordinal or non-normally distributed, and when the variances of the two groups are not equal.</p>
+<p>An example of when to run the Mann-Whitney U test is when you want to compare the muscle mass gain of two groups of athletes, one group using a new supplement, and the other using a placebo. The muscle mass gain is measured in kilograms and the sample size is small(less than 30), thus, it would be appropriate to use the Mann-Whitney U test to determine if there is a significant difference in muscle mass gain between the two groups.</p>
+<section id="assumptions-8" class="level3">
+<h3 class="anchored" data-anchor-id="assumptions-8">Assumptions</h3>
+<p>The Mann-Whitney U test is a non-parametric test that is used to compare the medians of two independent groups. In order for the test to be valid, the following assumptions must be met:</p>
+<ol type="1">
+<li><p>Independence: The observations in each group must be independent of one another. This means that there should be no relationship between the observations within a group.</p></li>
+<li><p>Ordinal or continuous data: The data must be ordinal or continuous in nature. The Mann-Whitney U test cannot be used for categorical or discrete data.</p></li>
+<li><p>No ties: There should be no ties in the data. Ties occur when two or more observations have the same value.</p></li>
+<li><p>No outliers: The data should not contain outliers. Outliers are observations that are far away from the rest of the data and can have a strong impact on the results of the test.</p></li>
+<li><p>No normal distribution: The data does not need to follow a normal distribution, which makes the test a good option when dealing with non-normal data.</p></li>
+<li><p>Same population : The two groups being compared should be sampled from the same population.</p></li>
+</ol>
+<p>It is important to check for these assumptions before running the test and report the results accordingly.</p>
+</section>
+<section id="reporting-results-9" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-9">Reporting results</h3>
+<p>When reporting the results of a Mann-Whitney <em>U</em> test, you should include the following information:</p>
+<ol type="1">
+<li><p>A brief description of the test and its purpose.</p></li>
+<li><p>The test statistic (U) and the p-value.</p></li>
+<li><p>A statement about the outcome of the test, such as whether the null hypothesis was rejected or not.</p></li>
+<li><p>A summary of the main findings, such as the differences in the two groups being compared.</p></li>
+<li><p>A visual representation of the data, such as box plots or histograms, to help users understand the results.</p></li>
+</ol>
+<p>Example:</p>
+<p>“Mann-Whitney U Test</p>
+<p>Purpose: To compare the differences in physical activity levels between two groups of individuals (e.g.&nbsp;active vs.&nbsp;sedentary).</p>
+<p>Test statistic: U = 50</p>
+<p>p-value: 0.03</p>
+<p>Outcome: The null hypothesis is rejected.</p>
+<p>Findings: The active group had significantly higher physical activity levels than the sedentary group.</p>
+<p>Visual representation: A box plot is shown to help the user understand the distribution of physical activity levels in the two groups. The active group has a higher median value and a smaller interquartile range than the sedentary group.”</p>
+<p>It is important to note that the Mann-Whitney U test is a non-parametric test that is used to compare two independent samples when the data is not normally distributed. This test is also useful to compare two groups when the sample size is small.</p>
+</section>
+</section>
+<section id="spearman-rho-correlation-coefficient" class="level2">
+<h2 class="anchored" data-anchor-id="spearman-rho-correlation-coefficient">Spearman Rho Correlation Coefficient</h2>
+<section id="when-to-use-it-6" class="level3">
+<h3 class="anchored" data-anchor-id="when-to-use-it-6">When to use it?</h3>
+<p>The Spearman rank-order correlation coefficient (Spearman’s rho, or simply rho) is a nonparametric measure of the correlation between two variables. It is used when the assumptions of the Pearson correlation coefficient, such as normality of the data, are not met, or when the variables are ordinal or interval with non-linear relationship.</p>
+<p>Spearman’s rho should be used when your data is ordinal or interval and non-normally distributed. Or when you suspect that the relationship between the two variables is non-linear.</p>
+<p>It’s also useful when your data have outliers or extreme values as it is less affected by them compared to Pearson correlation coefficient.</p>
+<p>It’s also useful when you want to investigate the correlation between two ordinal variables, or when you want to investigate the correlation between an ordinal variable and an interval variable.</p>
+<p>Keep in mind that, Spearman’s rho assumes that the relationship between the two variables is monotonic, it does not test for linearity.</p>
+</section>
+<section id="reporting-results-10" class="level3">
+<h3 class="anchored" data-anchor-id="reporting-results-10">Reporting results</h3>
+<p>When reporting the results of a Spearman’s rank correlation coefficient (rho), it is important to include the following information:</p>
+<ol type="1">
+<li><p>The correlation coefficient (rho) and the associated p-value. The correlation coefficient tells us the strength and direction of the monotonic relationship between two variables, and the p-value tells us the probability of observing a correlation coefficient as extreme as the one we calculated under the assumption that there is no correlation.</p></li>
+<li><p>The sample size (e.g.&nbsp;the number of observations)</p></li>
+<li><p>A scatter plot of the data with the line of best fit if possible</p></li>
+<li><p>The effect size, such as Cohen’s d, which is a measure of the magnitude of the correlation.</p></li>
+</ol>
+<p>Example:</p>
+<p>“A Spearman’s rank correlation coefficient was calculated to examine the relationship between blood pressure and weight of a group of patients. The sample size was 40. The correlation coefficient was 0.6, with a p-value of 0.001. The scatter plot of the data with the line of best fit showing a positive correlation. The effect size (Cohen’s d) was 0.3, which indicates a weak effect size.”</p>
+<p>“The results of the Spearman’s rank correlation coefficient revealed a statistically significant positive correlation between blood pressure and weight of the patients (rho(38) = 0.6, p = 0.001). The scatter plot of the data with the line of best fit illustrates the positive correlation. The effect size (d = 0.3) suggests a weak correlation.”</p>
+<p>It’s important to note that when there is a non-parametric test like spearman correlation, it is better to report the median, percentiles and interquartile range of the variables instead of mean and standard deviation.</p>
 
 
+</section>
 </section>
 </section>
 
@@ -646,9 +1024,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../supplemental/model-diagnostics-matrix.html" class="pagination-link">
-        <span class="nav-page-text">Model diagnostics</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

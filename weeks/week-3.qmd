@@ -1,6 +1,6 @@
 ---
 title: "Week 3"
-subtitle: "Organizing and Displaying Data | Percentiles"
+subtitle: "Week 3"
 format: 
   html:
     toc: true
@@ -18,18 +18,12 @@ editor: visual
 ---
 
 ::: callout-important
--   Due dates:
-    -   Ch02, Ch03 Quiz - after class
-    -   Ch02, Ch03 Major Takeaways (MT) - before class
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 :::
 
 ## Prepare
 
--   Read @furtado2023
--   Submit the [MT assignment and take the quiz](https://canvas.csun.edu)
--   Watch the mini lectures[^1] 1-3 from @humankinetics2021; chap. 1
-
-[^1]: If the link fails to open, edit the URL address in your browser adding `index.html` before `#/`
+TBD
 
 ## Participate
 

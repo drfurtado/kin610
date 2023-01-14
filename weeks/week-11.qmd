@@ -1,36 +1,41 @@
 ---
 title: "Week 11"
-subtitle: "TBA"
+subtitle: "Week 11"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
-Due dates:
-
--   Lab 5 - Friday, Mar 25
--   HW 3 - Friday, Mar 25
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 :::
 
 ## Prepare
 
-No additional readings this week.
-Catch up with previously assigned readings if you've fallen behind.
+TBD
 
 ## Participate
 
-🖥️ [Lecture 20 - LR: Prediction / classification](/slides/lec-20.html)
-
-🖥️ [Lecture 21 - LR: Model validation](/slides/lec-21.html)
+TBD
 
 ## Practice
 
-📋 [Application Exercise 10 - Flight delays](/ae/ae-10-flight-delays.html)
+TBD
 
 ## Perform
 
-✍️ [HW 3 - Logistic regression and log transformation](/hw/hw-3.html)
-
-⌨️ [Lab 5 - General Social Survey](labs/lab-5.html)
+TBD
 
 <br><br>
 

@@ -1,26 +1,41 @@
 ---
 title: "Week 14"
-subtitle: "MultiLR + Exam 3 review"
+subtitle: "Week 14"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
-Due dates: Friday, April 15 - Project peer review of drafts
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 :::
+
+## Prepare
+
+TBD
 
 ## Participate
 
-🖥️ [Lecture 26 - MultiLR: Predictive models (cont.)](/slides/lec-26.html)
-
-🖥️ [Lecture 27 - Exam 3 Review](/slides/lec-27.html)
+TBD
 
 ## Practice
 
-📋 [Application Exercise 12 - Exam 3 Review](/ae/ae-12-exam-3-review.html)
+TBD
 
 ## Perform
 
-✍️ [Project - Peer review of drafts](/project-description.html#peer-review)
+TBD
 
 <br><br>
 

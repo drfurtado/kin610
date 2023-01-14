@@ -1,32 +1,41 @@
 ---
 title: "Week 6"
-subtitle: "MLR: Model building and comparison"
+subtitle: "Week 6"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
-Due dates: Exam 1 - Mon, Feb 7 at 11:59pm
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 :::
 
 ## Prepare
 
-No reading (take a break after the exam! 😴)
+TBD
 
 ## Participate
 
-🖥️ [Lecture 10 - MLR: Types of predictors](/slides/lec-10.html)
-
-🖥️ [Lecture 11 - MLR: Model comparison](/slides/lec-11.html)
+TBD
 
 ## Practice
 
-No application exercises
+TBD
 
 ## Perform
 
-No lab
-
-✅ [Exam 1](/exams/exam-1.html)
+TBD
 
 <br><br>
 

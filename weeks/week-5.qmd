@@ -1,39 +1,41 @@
 ---
 title: "Week 5"
-subtitle: "TBA"
+subtitle: "Week 5"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
 editor: visual
 ---
 
 ::: callout-important
--   Due date: Lab 2 - Fri, Feb 4, 5pm ET
--   Exam 1 released on Fri, Feb 4, due Mon, Feb 7 at 11:59pm
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 :::
 
 ## Prepare
 
-📖 Read Introduction to Modern Statistics, Sec 8.1: [Indicator and categorical predictors](https://openintro-ims.netlify.app/model-mlr.html#ind-and-cat-predictors)
-
-📖 Read Introduction to Modern Statistics, Sec 8.2: [Many predictors in a model](https://openintro-ims.netlify.app/model-mlr.html#many-predictors-in-a-model)
-
-📖 Read Introduction to Modern Statistics, Sec 8.3: [Adjusted R-squared](https://openintro-ims.netlify.app/model-mlr.html#adjusted-r-squared)
+TBD
 
 ## Participate
 
-🖥️ [Lab 3 - Coffee ratings](/slides/lab-3.html)
-
-🖥️ [Lecture 8 - Multiple linear regression (MLR)](/slides/lec-8.html)
-
-🖥️ [Lecture 9 - Exam 1 review](/slides/lec-9.html)
+TBD
 
 ## Practice
 
-📋 [Application Exercise 4 - Exam 1 Review](/ae/ae-4-exam-1-review.html)
+TBD
 
 ## Perform
 
-⌨️ [Lab 3 - Coffee ratings](labs/lab-3.html)
-
-✅ [Exam 1](/exams/exam-1.html)
+TBD
 
 <br><br>
 

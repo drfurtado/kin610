@@ -1,8 +1,70 @@
 ---
-title: "Reporting Results in APA"
+title: "Statistical Tests"
 ---
 
+# Parametric tests
+
+Parametric tests are a class of statistical tests that make assumptions about the underlying probability distribution of the data being analyzed. These assumptions include that the data are sampled from a population that follows a normal distribution, and that the sample size is large enough to make these assumptions valid. The most commonly used parametric tests include t-tests, ANOVA (analysis of variance) and multiple regression analysis. These tests are known to have more powerful results than non-parametric tests, which makes them more useful for exploring the difference between groups or testing hypotheses about a population.
+
+The assumptions of parametric tests are met when the data is approximately normal and when the sample size is large enough. Therefore, it is recommended to check for normality of the data using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.
+
+Parametric tests are useful when the researcher wants to compare means of two or more groups, establish a relationship between two or more variables, or investigate the correlation between variables. Examples of parametric tests include: t-test, ANOVA, multiple regression analysis, and chi-square tests.
+
 ## One-sample t test
+
+$$
+t = \frac{\bar{x} - \mu}{\frac{s}{\sqrt{n}}}
+$$ {#eq-one-sample-a}
+
+where:
+
+-   $\bar{x}$ is the sample mean
+
+-   $\mu$ is the population mean
+
+-   $s$ is the sample standard deviation
+
+-   $n$ is the sample size
+
+It also can be written as:
+
+$$
+t = \frac{\bar{x} - \mu}{s_x/\sqrt{n}}
+$$ {#eq-one-sample-b}
+
+where:
+
+-   $\bar{x}$ is the sample mean
+
+-   $\mu$ is the population mean
+
+-   $s_x$ is the sample standard deviation
+
+-   $n$ is the sample size
+
+### When to use it?
+
+The one-sample t-test should be run when you have a single sample of data and you want to compare the mean of that sample to a known or hypothesized population mean.
+
+Example in kinesiology: A kinesiologist wants to know if a new exercise program improves muscle strength in older adults. The kinesiologist recruits a sample of 20 older adults and has them complete the exercise program for 8 weeks. The kinesiologist measures muscle strength using a dynamometer before and after the 8 week program. The kinesiologist wants to know if the mean muscle strength of the sample is significantly different from the population mean muscle strength of older adults (which is hypothesized to be 40 kg). The kinesiologist would run a one-sample t-test to compare the mean muscle strength of the sample (after completing the exercise program) to the hypothesized population mean of 40 kg. If the t-value is significant, the kinesiologist can conclude that the exercise program does improve muscle strength in older adults.
+
+### Assumptions
+
+The test makes several assumptions about the data:
+
+1.  Independence: The observations in the sample are independent of one another.
+
+2.  Normality: The population from which the sample is drawn is normally distributed.
+
+3.  Equal variances: The population variances of the two groups are equal.
+
+4.  Random sampling: The sample is drawn randomly and independently from the population.
+
+5.  Sample size: The sample size is large enough (usually greater than 30) for the Central Limit Theorem to be applied.
+
+It is important to check these assumptions before running the one-sample t-test to ensure the validity of the test results. In case the sample size is small or the data distribution is not normal, a non-parametric test such as the Wilcoxon signed-rank test should be used instead.
+
+### Reporting results
 
 When reporting the results of a one-sample t-test in APA style, you should include the following information:
 
@@ -32,6 +94,28 @@ The results of the one-sample t test indicated that the mean of the sample (M = 
 
 ## Independent-Samples t test
 
+### When to use it?
+
+The independent-samples t-test should be run when comparing the means of two independent groups. For example, in the field of kinesiology, an independent-samples t-test can be used to compare the muscle strength of a group of individuals who have completed a resistance training program to a group of individuals who have not completed a resistance training program. The independent variable would be whether or not the individual completed the resistance training program and the dependent variable would be muscle strength. The t-test would be used to determine if there is a significant difference in muscle strength between the two groups, indicating that the resistance training program had an effect on muscle strength.
+
+### Assumptions
+
+The assumptions of the independent-samples t-test include:
+
+1.  Normality: The data should be approximately normally distributed within each group.
+
+2.  Independence: The observations in each group should be independent of one another.
+
+3.  Equal variances: The variances of the two groups should be roughly equal.
+
+4.  Random Sampling: The sample of each group should be random and representative of the population.
+
+5.  Equal sample size: The sample size in each group should be equal or similar.
+
+It is important to note that not all these assumptions need to be perfectly met for the test to be valid, but the deviations from these assumptions should be small. If the data does not meet these assumptions, the non-parametric version of the independent-samples t-test, such as the Mann-Whitney U test, can be used instead.
+
+### Reporting Results
+
 To report the results of an independent samples t-test in APA style, you should include the following information:
 
 1.  The type of test that was conducted (e.g., "An independent samples t-test was conducted to compare the mean scores of two groups on a measure of stress.")
@@ -53,3 +137,423 @@ Here is an example of how you might report the results of an independent samples
 "An independent samples t-test was conducted to compare the mean scores of two groups on a measure of stress. The sample consisted of 20 participants in Group A and 25 participants in Group B. The mean score for Group A was M = 3.5, SD = 1.2, and the mean score for Group B was M = 2.8, SD = 0.9. The t-value was t(43) = 2.3, p = .03, indicating that there was a significant difference between the mean scores of the two groups, with Group A scoring higher than Group B. The effect size for the difference between the two groups was d = .7, indicating a moderate effect. These results suggest that participants in Group A experienced significantly higher levels of stress than those in Group B."
 
 "The purpose of this study was to examine the effect of a new teaching method on student achievement. A sample of 50 students was randomly assigned to either the experimental group, which received the new teaching method, or the control group, which received the traditional teaching method. Student achievement was measured using a standardized test. The results of the independent samples t-test showed that there was a statistically significant difference between the experimental and control groups, t(48) = 2.57, p = .01. The experimental group had a higher mean score on the achievement test than the control group. These findings suggest that the new teaching method was effective in improving student achievement. However, it is important to note that the small sample size and lack of generalizability to other populations are limitations of this study."
+
+## Paired-Samples t-test
+
+### When to use it?
+
+The paired-samples t-test should be run when you have two sets of related (or paired) data that you want to compare. For example, if you want to compare the effectiveness of two different treatments on a group of patients, you would use a paired-samples t-test. This test is also commonly used in pre- and post-test designs, where you want to compare scores before and after an intervention or treatment. Additionally, if you want to compare the mean differences between two groups or conditions, but you want to control for individual differences, you can use a paired-samples t-test.
+
+### Assumptions
+
+The assumptions of the paired-samples t-test include:
+
+1.  Independence: The observations within each pair are independent of one another.
+
+2.  Normality: The differences between the pairs of observations are approximately normally distributed.
+
+3.  Equal variances: The variances of the differences between the pairs of observations are equal.
+
+4.  Paired data: The observations are paired, meaning that each individual is measured twice, once before and once after some intervention, or in two different conditions.
+
+5.  Random Sampling: The sample being used is selected randomly from the population.
+
+It's important to note that violations of these assumptions may lead to inaccurate results, so it's necessary to check them before applying the test. Checking for normality can be done using a normal probability plot, and checking for equal variances can be done using Levene's test. The paired sample t-test is sensitive to the violation of normality and equal variances assumptions, thus if the assumptions are not met, there are other options that can be used, such as the Wilcoxon signed-rank test which is a non-parametric version of the paired-samples t-test.
+
+### Reporting Results
+
+When reporting the results of a paired-samples t-test, it is important to include the following information:
+
+1.  The test statistic (e.g. t-value) and the associated p-value. The t-value tells us how many standard errors the mean difference is from zero, and the p-value tells us the probability of observing a t-value as extreme as the one we calculated under the assumption that the null hypothesis is true.
+
+2.  The sample size (e.g. the number of pairs of observations).
+
+3.  The mean difference and the standard deviation of the differences.
+
+4.  The effect size, such as Cohen's d, which is a measure of the magnitude of the difference between the means.
+
+Example:
+
+"A paired-samples t-test was conducted to compare the pre-test and post-test scores of a group of students. The sample size was 20 pairs of observations. The mean difference between the pre-test and post-test scores was 5.3 (SD = 2.5). The t-value was 3.87, with a p-value of 0.001. The effect size (Cohen's d) was 0.67, which indicates a moderate effect size."
+
+"The results of the paired-samples t-test revealed that there was a statistically significant difference between the pre-test and post-test scores of the students, t(19) = 3.87, p = 0.001. The mean difference was 5.3 (95% CI \[3.4, 7.2\]), and the effect size (d = 0.67) suggests moderate effect size."
+
+## One-way ANOVA
+
+### When to use it?
+
+A one-way ANOVA (Analysis of Variance) is used to test for differences in the mean of a continuous outcome variable across two or more categorical groups. It is used when you have one independent variable (also known as a factor) with two or more levels or groups and one continuous dependent variable.
+
+In other words, you should run a one-way ANOVA when:
+
+1.  You want to compare the means of a continuous outcome variable across two or more groups.
+
+2.  You have one independent variable (factor) with two or more levels or groups
+
+3.  The dependent variable is continuous
+
+Example:
+A researcher wants to know if there is a difference in the mean test scores of students who studied using different methods (Method A, Method B, Method C). The researcher collect data on test scores and the method used. The test scores are continuous variable and method of study is categorical variable with 3 levels. So, the researcher can use one-way ANOVA to test for the difference in mean test scores across different method of study.
+
+### Assumptions
+
+The one-way ANOVA (analysis of variance) makes several assumptions about the data being analyzed:
+
+1.  Independence: The observations in each group are independent of each other and do not affect the observations in the other groups.
+
+2.  Normality: The data within each group is normally distributed, or at least approximately normally distributed. This assumption can be checked using normality tests such as the Shapiro-Wilk test.
+
+3.  Equal variances: The variances of the data within each group are equal. This assumption can be checked using tests such as the Levene's test.
+
+4.  Random sampling: The data is randomly sampled from the population, so that the sample is representative of the population.
+
+Violations of these assumptions can lead to biased or incorrect results. If the assumptions are not met, non-parametric alternatives such as Kruskal-Wallis test could be used.
+
+### Reporting results
+
+When reporting the results of a one-way ANOVA, it is important to include the following information:
+
+1.  The F-value and the associated p-value. The F-value tells us how much variation in the dependent variable is accounted for by the independent variable, and the p-value tells us the probability of observing an F-value as extreme as the one we calculated under the assumption that the null hypothesis is true.
+
+2.  The sample size for each group, or the number of observations in each group.
+
+3.  The means and standard deviations for each group.
+
+4.  The effect size, such as eta-squared (η²) or omega-squared (ω²), which is a measure of the proportion of variance in the dependent variable that is accounted for by the independent variable.
+
+Example:
+
+"A one-way ANOVA was conducted to compare the scores of three groups of students on a test. The sample size for each group was 10, 10, and 12. The means and standard deviations for each group were: Group 1 = 80 (SD = 5), Group 2 = 75 (SD = 4), Group 3 = 70 (SD = 3). The F-value was 12.5, with a p-value of 0.001. The effect size (η²) was 0.17, which indicates a moderate effect size."
+
+"The results of the one-way ANOVA revealed that there was a statistically significant difference between the scores of the three groups of students, F(2, 28) = 12.5, p = 0.001. Post-hoc comparisons revealed that group 1 significantly different from group 2 (p = 0.05) and group 3 (p = 0.001). The mean scores for each group were: Group 1 = 80 (95% CI \[78, 82\]), Group 2 = 75 (95% CI \[73, 77\]), Group 3 = 70 (95% CI \[69, 72\]). The effect size (η² = 0.17) suggests that the independent variable accounted for a moderate proportion of variance in the dependent variable."
+
+## Between-subjects Two-way ANOVA
+
+### When to use it?
+
+You should run a Between-subjects Two-way ANOVA when you have two independent variables (also known as factors) that you want to test the effect of on a dependent variable, and the levels of these independent variables are different between groups of participants.
+
+An example related to physical activity could be comparing the effect of two different types of exercise programs (e.g. resistance training vs. cardio) on muscle mass gain in two different age groups (e.g. older adults vs. younger adults). In this example, the independent variables would be the type of exercise program and the age group, and the dependent variable would be muscle mass gain. The levels of the independent variables would be different between groups of participants, as the older adults would be in one group and the younger adults would be in another. A Between-subjects Two-way ANOVA would allow you to test for any interactions between the two independent variables (i.e. whether the effect of the exercise program on muscle mass gain is different in older adults vs. younger adults) and any main effects of each independent variable on the dependent variable.
+
+### Assumptions
+
+The assumptions of the between-subjects two-way ANOVA are as follows:
+
+1.  Independence: The observations in each group are independent of each other, meaning that the responses of one participant do not affect the responses of another participant.
+
+2.  Normality: The distribution of the residuals (the difference between the observed and predicted values) is approximately normal. It is important to check the normality assumptions using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.
+
+3.  Equal variances: The variances of the residuals are equal across all groups and levels of the independent variables. This assumption can be checked using Levene's test for equality of variances.
+
+4.  Additivity: The effect of each independent variable on the dependent variable is additive, meaning that the effect of one independent variable does not depend on the level of the other independent variable.
+
+5.  Linearity: The relationship between the independent variables and the dependent variable is linear, meaning that a straight line can be used to represent the relationship.
+
+6.  Independence of errors: the residuals are independent, meaning that the residuals of one observation are not correlated with the residuals of any other observation.
+
+It's important to note that when these assumptions are not met, the results of the ANOVA should be interpreted with caution and alternative methods of analysis should be considered.
+
+### Reporting results
+
+When reporting the results of a between-subjects Two-way ANOVA, you should include the following information:
+
+1.  A description of the study design, including the independent variables, dependent variable, and the levels of each independent variable.
+
+2.  The results of the ANOVA, including the F-value, degrees of freedom, and p-value for each independent variable and any interaction between the two independent variables.
+
+3.  A summary of the main findings, including any significant main effects or interactions between the independent variables.
+
+4.  Follow-up tests, such as post-hoc tests, to determine which specific levels of the independent variables were responsible for the significant effects.
+
+Example:
+
+"The study aimed to examine the effect of two different types of physical education programs (e.g. traditional vs. adventure-based) on physical fitness in two different age groups (e.g. younger children vs. older children). A between-subjects Two-way ANOVA was conducted, with the independent variables being the type of program and the age group, and the dependent variable being physical fitness. The results of the ANOVA showed a significant main effect of the type of program, F (1, 48) = 8.32, p = 0.006, with the adventure-based program resulting in higher physical fitness scores than the traditional program. A significant interaction was also found between the type of program and the age group, F (1, 48) = 4.12, p = 0.047. Follow-up tests showed that the adventure-based program resulted in significantly higher physical fitness scores in older children compared to the traditional program, but there was no significant difference in younger children."
+
+## Within-subjects Two-way ANOVA
+
+You should run a Within-subjects Two-way ANOVA when you have two independent variables (also known as factors) that you want to test the effect of on a dependent variable, and the levels of these independent variables are the same for all participants, but are manipulated within each participant.
+
+An example related to motor skill learning could be comparing the effect of two different types of feedback (e.g. verbal vs. visual) on the learning of a new motor skill (e.g. throwing a ball) in a group of participants. In this example, the independent variables would be the type of feedback and the time of testing (e.g. pre-test and post-test), and the dependent variable would be the accuracy of the throwing skill. The levels of the independent variables would be the same for all participants, as each participant would receive both types of feedback and be tested both before and after training. A Within-subjects Two-way ANOVA would allow you to test for any interactions between the two independent variables (i.e. whether the effect of feedback on motor skill learning is different at the pre-test vs. the post-test) and any main effects of each independent variable on the dependent variable.
+
+### Assumptions
+
+The assumptions of the within-subjects two-way ANOVA (also known as a repeated-measures ANOVA) include:
+
+1.  Independence: The observations within each cell of the design must be independent of one another.
+
+2.  Normality: The observations within each cell should be approximately normally distributed.
+
+3.  Equal variances: The variances of the observations within each cell should be approximately equal.
+
+4.  Sphericity: The variances of the differences between the observations for each condition should be approximately equal across the levels of the other independent variable. This assumption is often tested using Mauchly's test.
+
+5.  No carryover effects: There should be no carryover effects from one level of one independent variable to the next level of the same independent variable.
+
+6.  No missing data: There should be no missing data in the dataset.
+
+It is important to note that when the assumptions of the within-subjects two-way ANOVA are not met, the results may not be reliable and alternative methods such as mixed-design ANOVA or non-parametric methods may be needed.
+
+### Reporting results
+
+When reporting the results of a within-subjects Two-way ANOVA, you should first indicate the dependent variable, the independent variables and the levels of each independent variable. You should then report the main effect of each independent variable on the dependent variable, as well as any interaction effects between the independent variables.
+
+For example, if you were studying the effect of two different types of practice schedules (random vs. blocked) and two different types of feedback (verbal vs. visual) on motor skill learning, your report would look something like this:
+
+Dependent variable: Motor skill learning
+Independent variables: Practice schedule (random vs. blocked) and feedback (verbal vs. visual)
+
+Main Effects:
+
+-   Practice schedule: There was a significant main effect of practice schedule on motor skill learning, F(1,24) = 7.32, p = .012, ηp² = .234, such that participants who practiced in a random schedule showed better motor skill learning than those who practiced in a blocked schedule.
+
+-   Feedback: There was a significant main effect of feedback on motor skill learning, F(1,24) = 4.56, p = .045, ηp² = .158, such that participants who received visual feedback showed better motor skill learning than those who received verbal feedback.
+
+Interaction Effects:
+
+-   There was no significant interaction between practice schedule and feedback on motor skill learning, F(1,24) = .21, p = .65, ηp² = .009.
+
+It is worth noting that p values less than 0.05 would be considered statistically significant, and ηp² indicates the effect size of the interaction effects.
+
+It is also important to report the means and standard deviations of the dependent variable within each level of the independent variables. This will give a more detailed understanding of the pattern of results.
+
+## Mixed-design Two-way ANOVA
+
+### When to use it?
+
+You should run a mixed-factors two-way ANOVA when you have two independent variables (also known as factors) that you want to test the effect of on a dependent variable, and one of the independent variables is a between-subjects variable and the other is a within-subjects variable.
+
+A mixed-factors two-way ANOVA is useful when you want to examine the effect of a manipulation that varies within subjects (e.g. different levels of a treatment) while also taking into account individual differences among participants (e.g. gender, age, etc.).
+
+An example of when to run a mixed-factors two-way ANOVA would be if you wanted to investigate the effect of two different types of exercise programs (e.g. resistance training vs. cardio) on muscle mass gain in two different age groups (e.g. older adults vs. younger adults) but the program is applied to the same group of people. In this example, the independent variables would be the type of exercise program (between-subjects) and the age group (within-subjects) and the dependent variable would be muscle mass gain.
+
+A mixed-factors two-way ANOVA would allow you to test for any interactions between the two independent variables, and any main effects of each independent variable on the dependent variable, while also taking into account the individual differences among participants.
+
+### Assumptions
+
+The assumptions of the mixed-factors two-way ANOVA (also known as a mixed-design two-way ANOVA) include:
+
+1.  Independence of observations: Each participant's response should be independent of the responses of other participants.
+
+2.  Normality: The residuals (the difference between the observed and predicted values) should be approximately normally distributed.
+
+3.  Equal variances: The variances of the residuals should be equal across all levels of the independent variables.
+
+4.  Sphericity: The variances of the differences between the levels of the within-subjects variable should be equal.
+
+5.  Linearity: The relationship between the independent and dependent variables should be linear.
+
+6.  Additivity: The effect of each independent variable should be additive, meaning that the effect of one variable should not depend on the level of the other variable.
+
+It's important to note that the violation of these assumptions can lead to inaccurate results, therefore, it's important to check them by using various graphical methods, like box plots, histograms and Q-Q plots, and statistical methods like Shapiro-Wilk test, Levene's test, and Mauchly's test.
+
+### Reporting results
+
+When reporting the results of a mixed-factors Two-way ANOVA, you should include the following information:
+
+1.  A description of the study design, including the independent variables, dependent variable, and the levels of each independent variable. Specify which variable is the within-subject variable and which one is the between-subject variable.
+
+2.  The results of the ANOVA, including the F-value, degrees of freedom, and p-value for each independent variable and any interaction between the two independent variables.
+
+3.  A summary of the main findings, including any significant main effects or interactions between the independent variables.
+
+4.  Follow-up tests, such as post-hoc tests, to determine which specific levels of the independent variables were responsible for the significant effects.
+
+Example:
+
+"The study aimed to examine the effect of two different types of motor development programs (e.g. traditional vs. adventure-based) on balance skills in two different age groups (e.g. preschool children vs. school-aged children). A mixed-factors Two-way ANOVA was conducted, with the independent variables being time (within-subject variable) and the age group (between-subject variable) and the dependent variable being balance skills. The results of the ANOVA showed a significant main effect of time, F (1, 48) = 8.32, p = 0.006, with post-test resulting in higher balance skills scores than pretest. A significant interaction was also found between time and the age group, F (1, 48) = 4.12, p = 0.047. Follow-up tests showed that post-test resulted in significantly higher balance skills scores in preschool children compared to pre-test, but there was no significant difference in school-aged children."
+
+It is important to note that in a mixed-factors ANOVA, the assumptions of normality and equal variances are tested at each level of the within-subject variable separately.
+
+## Pearson Correlation Coefficient
+
+The Pearson correlation coefficient (r) is used to measure the strength and direction of the linear relationship between two continuous variables. It is appropriate to use when you want to determine if there is a linear relationship between two variables and the data is at least interval level. It is important to note that the Pearson correlation coefficient only measures linear relationships, and it is not appropriate to use if the relationship between the variables is non-linear.
+
+It is generally considered appropriate to use the Pearson correlation coefficient when the following conditions are met:
+
+1.  The data for both variables is continuous (i.e., interval or ratio level).
+
+2.  Both variables are normally distributed or the sample size is large enough (n\>30)
+
+3.  The variables are not categorical
+
+4.  The data is free from outliers
+
+5.  The relationship between the two variables is believed to be linear
+
+It's also worth noting that the Pearson correlation coefficient assumes that there is no causality between the two variables, it just measures the association between them. If you want to establish causality, you should use other statistical techniques such as regression analysis.
+
+### Reporting results
+
+When reporting the results of a Pearson correlation coefficient, it is important to include the following information:
+
+1.  The correlation coefficient (r) and the associated p-value. The correlation coefficient tells us the strength and direction of the linear relationship between two variables, and the p-value tells us the probability of observing a correlation coefficient as extreme as the one we calculated under the assumption that there is no correlation.
+
+2.  The sample size (e.g. the number of observations)
+
+3.  The scatter plot of the data with the line of best fit and the equation of that line.
+
+4.  The effect size, such as Cohen's d, which is a measure of the magnitude of the correlation.
+
+Example:
+
+"A Pearson correlation coefficient was calculated to examine the relationship between hours of sleep and test scores of a group of students. The sample size was 30. The correlation coefficient was 0.75, with a p-value of 0.001. The scatter plot of the data with the line of best fit showing a positive correlation and equation of the line y = 0.5x+50 . The effect size (Cohen's d) was 0.5, which indicates a moderate effect size."
+
+"The results of the Pearson correlation coefficient revealed a statistically significant positive correlation between hours of sleep and test scores of the students (r(28) = 0.75, p = 0.001). The scatter plot of the data with the line of best fit y = 0.5x+50 illustrates the positive correlation. The effect size (d = 0.5) suggests a moderate correlation."
+
+# Non-parametric tests
+
+Non-parametric tests are a class of statistical tests that do not make assumptions about the underlying probability distribution of the data being analyzed. These tests are also known as distribution-free tests, as they do not require the data to follow a specific distribution such as normal distribution. They are useful when the data does not meet the assumptions of parametric tests or when the sample size is small. Non-parametric tests are less powerful than parametric tests, but they are more robust and can be used with a wide range of data types.
+
+Examples of non-parametric tests include: Mann-Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis H test, chi-square test, and median test. They can be used to test for differences between groups, compare medians, and test for independence. They are commonly used in fields such as social sciences, medicine, and biology.
+
+It is important to note that non-parametric tests do not require the data to be normally distributed but they do require other assumptions to be met such as independence and ordinal or continuous data.
+
+## Wilcoxon signed-rank
+
+The Wilcoxon signed-rank test is a non-parametric test used to determine whether two related samples have the same median. It is used when the data does not meet the assumptions of a parametric test such as the t-test, such as when the data is not normally distributed or the sample size is small. The Wilcoxon signed-rank test is a good alternative to the t-test for comparing two related samples.
+
+You should run the Wilcoxon signed-rank test when:
+
+1.  You have two related samples (e.g. pre-test and post-test scores for the same individuals)
+
+2.  The data is not normally distributed
+
+3.  The sample size is small
+
+4.  You want to compare the median of two related samples
+
+An example of when you would use the Wilcoxon signed-rank test would be if you were studying the effectiveness of a new treatment for a medical condition, and you collected pre-treatment and post-treatment scores for a small group of patients. Since the sample size is small, and the distribution of scores is not normal, you would use the Wilcoxon signed-rank test to compare the median pre-treatment and post-treatment scores and determine if there was a significant difference between them.
+
+### Assumptions
+
+It is a robust test and doesn't require the assumptions of normality, equal variances and large sample size that parametric tests like t-test require.
+
+The Wilcoxon signed-rank test assumes the following:
+
+1.  The data is ordinal or continuous, not categorical.
+
+2.  The two samples being compared are related or dependent, meaning that the observations in one sample correspond to the observations in the other sample in some meaningful way.
+
+3.  The data is at least ordinal, it doesn't assume normality.
+
+4.  The data is independent and randomly selected from the population.
+
+5.  The observations in the two samples should be continuous or ordinal, not categorical.
+
+6.  The data should be free of outliers, as they can have a large impact on the test results.
+
+It is important to note that the Wilcoxon signed-rank test is a non-parametric test, so it is less powerful than a t-test and a parametric test. Therefore, it is advisable to use the Wilcoxon signed-rank test only when the assumptions of the t-test are not met.
+
+### Reporting Results
+
+When reporting the results of a Wilcoxon signed-rank test, you should include the following information:
+
+1.  A description of the study design, including the dependent variable and the groups being compared.
+
+2.  The results of the test, including the test statistic (e.g. W) and the p-value.
+
+3.  A summary of the main findings, including whether the difference between the groups is statistically significant.
+
+4.  The effect size, such as Cohen's d or r, to indicate the magnitude of the difference between the groups.
+
+Example:
+
+"The study aimed to examine the effect of a physical therapy intervention on pain levels in patients with knee osteoarthritis. A Wilcoxon signed-rank test was conducted to compare the pain levels before and after the intervention. The results of the test showed a significant decrease in pain levels after the intervention, W = 45, p = 0.03. The effect size was r = 0.5, indicating a moderate effect size. This suggests that the physical therapy intervention was effective in reducing pain levels in patients with knee osteoarthritis."
+
+It is important to note that the Wilcoxon signed-rank test is a non-parametric test that is used when the data is not normally distributed or the sample size is small. This test is used to compare two related samples or matched-pairs data.
+
+## Mann-Whitney *U* test
+
+The Mann-Whitney U test is a non-parametric test that is used to compare two independent groups to determine whether there is a significant difference in the distribution of scores between the two groups. This test is used when the assumptions of a parametric test such as the independent t-test cannot be met. These assumptions include normality of the data and equal variances between groups.
+
+::: aside
+The Mann-Whitney U test is equivalent to the `Independent-Samples t-test`.
+:::
+
+The Mann-Whitney U test is particularly useful when the data is not normally distributed, when the sample size is small, or when the data has outliers. It is also used when the data is ordinal or non-normally distributed, and when the variances of the two groups are not equal.
+
+An example of when to run the Mann-Whitney U test is when you want to compare the muscle mass gain of two groups of athletes, one group using a new supplement, and the other using a placebo. The muscle mass gain is measured in kilograms and the sample size is small(less than 30), thus, it would be appropriate to use the Mann-Whitney U test to determine if there is a significant difference in muscle mass gain between the two groups.
+
+### Assumptions
+
+The Mann-Whitney U test is a non-parametric test that is used to compare the medians of two independent groups. In order for the test to be valid, the following assumptions must be met:
+
+1.  Independence: The observations in each group must be independent of one another. This means that there should be no relationship between the observations within a group.
+
+2.  Ordinal or continuous data: The data must be ordinal or continuous in nature. The Mann-Whitney U test cannot be used for categorical or discrete data.
+
+3.  No ties: There should be no ties in the data. Ties occur when two or more observations have the same value.
+
+4.  No outliers: The data should not contain outliers. Outliers are observations that are far away from the rest of the data and can have a strong impact on the results of the test.
+
+5.  No normal distribution: The data does not need to follow a normal distribution, which makes the test a good option when dealing with non-normal data.
+
+6.  Same population : The two groups being compared should be sampled from the same population.
+
+It is important to check for these assumptions before running the test and report the results accordingly.
+
+### Reporting results
+
+When reporting the results of a Mann-Whitney *U* test, you should include the following information:
+
+1.  A brief description of the test and its purpose.
+
+2.  The test statistic (U) and the p-value.
+
+3.  A statement about the outcome of the test, such as whether the null hypothesis was rejected or not.
+
+4.  A summary of the main findings, such as the differences in the two groups being compared.
+
+5.  A visual representation of the data, such as box plots or histograms, to help users understand the results.
+
+Example:
+
+"Mann-Whitney U Test
+
+Purpose: To compare the differences in physical activity levels between two groups of individuals (e.g. active vs. sedentary).
+
+Test statistic: U = 50
+
+p-value: 0.03
+
+Outcome: The null hypothesis is rejected.
+
+Findings: The active group had significantly higher physical activity levels than the sedentary group.
+
+Visual representation: A box plot is shown to help the user understand the distribution of physical activity levels in the two groups. The active group has a higher median value and a smaller interquartile range than the sedentary group."
+
+It is important to note that the Mann-Whitney U test is a non-parametric test that is used to compare two independent samples when the data is not normally distributed. This test is also useful to compare two groups when the sample size is small.
+
+## Spearman Rho Correlation Coefficient
+
+### When to use it?
+
+The Spearman rank-order correlation coefficient (Spearman's rho, or simply rho) is a nonparametric measure of the correlation between two variables. It is used when the assumptions of the Pearson correlation coefficient, such as normality of the data, are not met, or when the variables are ordinal or interval with non-linear relationship.
+
+Spearman's rho should be used when your data is ordinal or interval and non-normally distributed. Or when you suspect that the relationship between the two variables is non-linear.
+
+It's also useful when your data have outliers or extreme values as it is less affected by them compared to Pearson correlation coefficient.
+
+It's also useful when you want to investigate the correlation between two ordinal variables, or when you want to investigate the correlation between an ordinal variable and an interval variable.
+
+Keep in mind that, Spearman's rho assumes that the relationship between the two variables is monotonic, it does not test for linearity.
+
+### Reporting results
+
+When reporting the results of a Spearman's rank correlation coefficient (rho), it is important to include the following information:
+
+1.  The correlation coefficient (rho) and the associated p-value. The correlation coefficient tells us the strength and direction of the monotonic relationship between two variables, and the p-value tells us the probability of observing a correlation coefficient as extreme as the one we calculated under the assumption that there is no correlation.
+
+2.  The sample size (e.g. the number of observations)
+
+3.  A scatter plot of the data with the line of best fit if possible
+
+4.  The effect size, such as Cohen's d, which is a measure of the magnitude of the correlation.
+
+Example:
+
+"A Spearman's rank correlation coefficient was calculated to examine the relationship between blood pressure and weight of a group of patients. The sample size was 40. The correlation coefficient was 0.6, with a p-value of 0.001. The scatter plot of the data with the line of best fit showing a positive correlation. The effect size (Cohen's d) was 0.3, which indicates a weak effect size."
+
+"The results of the Spearman's rank correlation coefficient revealed a statistically significant positive correlation between blood pressure and weight of the patients (rho(38) = 0.6, p = 0.001). The scatter plot of the data with the line of best fit illustrates the positive correlation. The effect size (d = 0.3) suggests a weak correlation."
+
+It's important to note that when there is a non-parametric test like spearman correlation, it is better to report the median, percentiles and interquartile range of the variables instead of mean and standard deviation.
