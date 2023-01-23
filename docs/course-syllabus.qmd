@@ -291,16 +291,6 @@ Title 5, California Code of Regulations,§ 41301. Standards for Student Conduct 
 
 CSUN with A HEART If you are facing challenges related to food insecurity, housing precarity/homelessness, mental health, access to technology, eldercare/childcare, or healthcare, you can find guidance, help, and resources from CSUN with A HEART (https://www.csun.edu/heart).
 
-## Diversity + inclusion {.smaller}
-
-It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.
-
-::: incremental
--   If you have a name that differs from those that appear in your official CSUN records, please let me know!
--   If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your advisers and deans are excellent resources.
--   I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it.
-:::
-
 ## Course Schedule
 
 {{< include index.qmd >}}

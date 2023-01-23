@@ -1,6 +1,8 @@
 ---
 title: "Week 4"
-subtitle: "Week 4"
+subtitle: |
+          | Organizing and Displaying Data Percentiles
+          | Percentiles
 format: 
   html:
     toc: true
@@ -19,27 +21,28 @@ editor: visual
 
 ::: callout-important
 -   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+
+Download the lesson in [PDF](week-4.pdf)
 :::
 
 ## Prepare
 
-TBD
+-   Read Furtado <!--# add reference to reading here -->
 
 ## Participate
 
-TBD
+-   Click [here](../slides/lec-1.qmd) to review the lesson for this topic
 
 ## Practice
 
-TBD
+-   Practice with jamovi in class
 
 ## Perform
 
-TBD
+na
 
 <br><br>
 
 ::: {style="font-size: 0.875em;"}
 Back to [course schedule](/ "Course schedule") ⏎
 :::
-

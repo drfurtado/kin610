@@ -1,8 +1,8 @@
 ---
-title: "Simple Linear Regression"
-subtitle: "STA 210 - Spring 2022"
-author: "Dr. Mine Çetinkaya-Rundel"
-footer:  "[sta210-s22.github.io/website](https://sta210-s22.github.io/website/)"
+title: "Welcome to KIN 610!"
+subtitle: "KIN 610 - Spring 2023"
+author: "Dr. Ovande Furtado Jr"
+footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
 logo: "images/logo.png"
 format: 
   revealjs: 
@@ -355,8 +355,7 @@ $$
 
 ## Interpreting the slope {.smaller}
 
-**Poll:** The slope of the model for predicting audience score from critics score is 32.3142.
-Which of the following is the best interpretation of this value?
+**Poll:** The slope of the model for predicting audience score from critics score is 32.3142. Which of the following is the best interpretation of this value?
 
 -   For every one point increase in the critics score, the audience score goes up by 0.5187 points, on average.
 -   For every one point increase in the critics score, we expect the audience score to be higher by 0.5187 points, on average.
@@ -387,8 +386,7 @@ $$\widehat{\text{audience}} = 32.3142 + 0.5187 \times \text{critics}$$
 
 ## Making a prediction
 
-Suppose that a movie has a critics score of 50.
-According to this model, what is the movie's predicted audience score?
+Suppose that a movie has a critics score of 50. According to this model, what is the movie's predicted audience score?
 
 $$
 \begin{aligned}
@@ -400,8 +398,7 @@ $$
 
 ## Extrapolation
 
-Suppose that a movie has a critics score of 0.
-According to this model, what is the movie's predicted audience score?
+Suppose that a movie has a critics score of 0. According to this model, what is the movie's predicted audience score?
 
 ```{r}
 p + coord_cartesian(xlim = c(0, 100))

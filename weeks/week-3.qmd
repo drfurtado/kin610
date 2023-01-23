@@ -1,6 +1,6 @@
 ---
 title: "Week 3"
-subtitle: "Week 3"
+subtitle: "Introduction to Statistics and Measurement"
 format: 
   html:
     toc: true
@@ -19,15 +19,19 @@ editor: visual
 
 ::: callout-important
 -   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+-   Deadlines (before class)
+    -   Quiz and Major Takeaways
+
+Download this lesson as [PDF](week-2.pdf)
 :::
 
 ## Prepare
 
-TBD
+-   Read Furtado (2023)
 
 ## Participate
 
-TBD
+While in class, ask questions and take notes.
 
 ## Practice
 

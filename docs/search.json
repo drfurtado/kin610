@@ -403,14 +403,14 @@
     "href": "weeks/week-4.html",
     "title": "Week 4",
     "section": "",
-    "text": "Important\n\n\n\n\nWe will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm."
+    "text": "Important\n\n\n\n\nWe will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.\n\nDownload the lesson in PDF"
   },
   {
     "objectID": "weeks/week-4.html#prepare",
     "href": "weeks/week-4.html#prepare",
     "title": "Week 4",
     "section": "Prepare",
-    "text": "Prepare\nTBD"
+    "text": "Prepare\n\nRead Furtado"
   },
   {
     "objectID": "weeks/week-4.html#participate",
@@ -5625,14 +5625,14 @@
     "href": "slides/lec-1.html#meet-the-professor",
     "title": "Welcome to KIN 610!",
     "section": "Meet the professor",
-    "text": "Meet the professor\n\n\n\n\n\nDr. Furtado - Cal State Northridge\n\n\n\n\nAssociate Professor in Motor Behavior, Department Kinesiology, Cal State Northridge\nAffiliated Faculty, Computational Media, Arts & Cultures\nFind out more at my academic site"
+    "text": "Meet the professor\n\n\n\n\n\nDr. Furtado - Cal State Northridge\n\n\n\n\nAssociate Professor in Motor Behavior, Department Kinesiology, Cal State Northridge\nFind out more at my academic site"
   },
   {
     "objectID": "slides/lec-1.html#course-faq",
     "href": "slides/lec-1.html#course-faq",
     "title": "Welcome to KIN 610!",
     "section": "Course FAQ",
-    "text": "Course FAQ\n\n\nWhat background is assumed for the course? Introductory statistics or probability course.\nWill we be doing computing? Yes. We will use R.\nWill we learn the mathematical theory of regression? Yes and No. The course is primarily focused on application; however, we will discuss some of the mathematics of simple linear regression. The 1-credit course STA 211: Mathematics of Regression you can take simultaneously / after dives into more of the mathematics."
+    "text": "Course FAQ\n\n\nWhat background is assumed for the course? Introductory statistics or probability course.\nWill we be doing computing? Yes. We will use jamovi."
   },
   {
     "objectID": "slides/lec-1.html#course-learning-objectives",
@@ -5667,14 +5667,14 @@
     "href": "slides/lec-1.html#activities-prepare-participate-practice-perform",
     "title": "Welcome to KIN 610!",
     "section": "Activities: Prepare, Participate, Practice, Perform",
-    "text": "Activities: Prepare, Participate, Practice, Perform\n\nPrepare: Introduce new content and prepare for lectures by completing the readings (and sometimes watching the videos)\nParticipate: Attend and actively participate in lectures and labs, office hours, team meetings\nPractice: Practice applying statistical concepts and computing with application exercises during lecture, graded for completion\nPerform: Put together what you’ve learned to analyze real-world data\n\nLab assignments x 7 (first individual, later team-based)\nHomework assignments x 5 (individual)\nThree take-home exams\nTerm project presented during the final exam period"
+    "text": "Activities: Prepare, Participate, Practice, Perform\n\nPrepare: Introduce new content and prepare for lectures by completing the readings (and sometimes watching mini lecture videos)\nParticipate: Attend and actively participate in lectures and labs\nPractice: Practice applying statistical concepts and computing with application exercises during lecture, graded for completion\nPerform: Put together what you’ve learned to analyze real-world data\n\nLab assignments x 6\nExam 1 and Exam 2"
   },
   {
     "objectID": "slides/lec-1.html#cadence",
     "href": "slides/lec-1.html#cadence",
     "title": "Welcome to KIN 610!",
     "section": "Cadence",
-    "text": "Cadence\n\n\nLabs: Start and make large progress on Monday in lab section, finish up by Friday 5pm of that week\nHWs: Posted Friday morning, due following Friday 5pm\nExams: Exam review Thursday in class, exam posted Friday morning, no lab on Monday of following week, due Monday 11:59pm\nProject: Deadlines throughout the semester, with some lab and lecture time dedicated to working on them, and most work done in teams outside of class"
+    "text": "Cadence\n\n\nActivities: Start and complete in class (completed/not completed)\nLabs: Start and make large progress on Friday-Saturday-Sunday and, finish it up by Thursday 4 pm of that week\nExams: Start and make large progress during the first two hours, then use the remaining time (~45 min) to check your answers"
   },
   {
     "objectID": "slides/lec-1.html#teams",
@@ -5695,21 +5695,21 @@
     "href": "slides/lec-1.html#support",
     "title": "Welcome to KIN 610!",
     "section": "Support",
-    "text": "Support\n\nAttend office hours\nAsk and answer questions on the discussion forum\nReserve email for questions on personal matters and/or grades\nRead the course support page"
+    "text": "Support\n\nAttend office hours\nAsk and answer questions using our mailing list email address\nReserve email for questions on personal matters and/or grades\nRead the course support page"
   },
   {
     "objectID": "slides/lec-1.html#announcements",
     "href": "slides/lec-1.html#announcements",
     "title": "Welcome to KIN 610!",
     "section": "Announcements",
-    "text": "Announcements\n\nPosted on Sakai (Announcements tool) and sent via email, be sure to check both regularly\nI’ll assume that you’ve read an announcement by the next “business” day\nI’ll (try my best to) send a weekly update announcement each Friday, outlining the plan for the following week and reminding you what you need to do to prepare, practice, and perform"
+    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email (course mailing list), be sure to check both regularly\nI’ll assume that you’ve read an announcement by the next “business” day\nI’ll (try my best to) send a weekly update announcement each Friday, outlining the plan for the following week and reminding you what you need to do to prepare, practice, and perform"
   },
   {
     "objectID": "slides/lec-1.html#diversity-inclusion",
     "href": "slides/lec-1.html#diversity-inclusion",
     "title": "Welcome to KIN 610!",
     "section": "Diversity + inclusion",
-    "text": "Diversity + inclusion\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.\n\n\nIf you have a name that differs from those that appear in your official Duke records, please let me know!\nPlease let me know your preferred pronouns. You’ll also be able to note this in the Getting to know you survey.\nIf you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your advisers and deans are excellent resources.\nI (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it."
+    "text": "Diversity + inclusion\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.\n\n\nIf you have a name that differs from those that appear in your official CSUN records, please let me know!\nIf you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your advisers and deans are excellent resources.\nI (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it."
   },
   {
     "objectID": "slides/lec-1.html#accessibility",
@@ -5723,7 +5723,7 @@
     "href": "slides/lec-1.html#covid-policies",
     "title": "Welcome to KIN 610!",
     "section": "COVID policies",
-    "text": "COVID policies\n\nWear a mask at all times!\nRead and follow university guidance"
+    "text": "COVID policies\n\nWear a mask at all times! \nRead and follow university guidance"
   },
   {
     "objectID": "slides/lec-1.html#late-work-waivers-regrades-policy",
@@ -5737,7 +5737,7 @@
     "href": "slides/lec-1.html#collaboration-policy",
     "title": "Welcome to KIN 610!",
     "section": "Collaboration policy",
-    "text": "Collaboration policy\n\nOnly work that is clearly assigned as team work should be completed collaboratively.\nHomeworks must be completed individually. You may not directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.\nExams must be completed individually. You may not discuss any aspect of the exam with peers. If you have questions, post as private questions on the course forum, only the teaching team will see and answer."
+    "text": "Collaboration policy\n\nLabs must be completed individually. You may not directly share answers with others; however, you are welcome to discuss the problems in general and ask for advice.\nExams must be completed individually. You may not discuss any aspect of the exam with peers. If you have questions, post as private questions on the course forum, only the teaching team will see and answer."
   },
   {
     "objectID": "slides/lec-1.html#sharing-reusing-code-policy",
@@ -5751,7 +5751,7 @@
     "href": "slides/lec-1.html#academic-integrity",
     "title": "Welcome to KIN 610!",
     "section": "Academic integrity",
-    "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
+    "text": "Academic integrity\n\nTo uphold the CSUN Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
   },
   {
     "objectID": "slides/lec-1.html#most-importantly",
@@ -5765,21 +5765,21 @@
     "href": "slides/lec-1.html#five-tips-for-success",
     "title": "Welcome to KIN 610!",
     "section": "Five tips for success",
-    "text": "Five tips for success\n\nComplete all the preparation work before class.\nAsk questions.\nDo the readings.\nDo the homework and lab.\nDon’t procrastinate and don’t let a week pass by with lingering questions."
+    "text": "Five tips for success\n\nComplete all the preparation work before class\nAsk questions\nDo the readings\nDo the and labs\nDon’t procrastinate and don’t let a week pass by with lingering questions"
   },
   {
     "objectID": "slides/lec-1.html#learning-during-a-pandemic",
     "href": "slides/lec-1.html#learning-during-a-pandemic",
     "title": "Welcome to KIN 610!",
     "section": "Learning during a pandemic",
-    "text": "Learning during a pandemic\nI want to make sure that you learn everything you were hoping to learn from this class. If this requires flexibility, please don’t hesitate to ask.\n\n\nYou never owe me personal information about your health (mental or physical) but you’re always welcome to talk to me. If I can’t help, I likely know someone who can.\nI want you to learn lots of things from this class, but I primarily want you to stay healthy, balanced, and grounded during this crisis."
+    "text": "Learning during a pandemic\nI want to make sure that you learn everything you were hoping to learn from this class. If this requires flexibility, please don’t hesitate to ask.\n\n\nYou never owe me personal information about your health (mental or physical) but you’re always welcome to talk to me. If I can’t help, I likely know someone who can.\nI want you to learn lots of things from this class, but I primarily want you to stay healthy, balanced, and grounded during this ongoing crisis."
   },
   {
     "objectID": "slides/lec-1.html#this-weeks-tasks",
     "href": "slides/lec-1.html#this-weeks-tasks",
     "title": "Welcome to KIN 610!",
     "section": "This week’s tasks",
-    "text": "This week’s tasks\n\nGet a GitHub account if you don’t have one (some advice for choosing a username here)\nComplete the Getting to know you survey if you haven’t yet done so!\nRead the syllabus\nWatch out for next week’s announcement email, in your inbox sometime tomorrow"
+    "text": "This week’s tasks\n\nPrepare for next week by clicking here\nRe-read the syllabus\nWatch out for next week’s announcement email, in your inbox sometime tomorrow"
   },
   {
     "objectID": "slides/lec-1.html#midori-says",
@@ -7263,7 +7263,7 @@
     "href": "course-syllabus.html#sec-structure-requirements",
     "title": "KIN 610: Quantitative Analysis of Research in Kinesiology",
     "section": "Structure & Requirements",
-    "text": "Structure & Requirements\nI will adopt the 4 “Ps”1 in this course. This means that while taking this course you will be asked to prepare, participate, practice, and perform.\nYou are responsible for the material covered in class prior to attending each class. Note that the week’s readings are specified in the course schedule.\nIn addition to these readings, the instructor may assign supplemental readings throughout the semester. These supplemental readings do not appear on the schedule as these readings will be assigned at the instructor’s discretion.\nThe assignments used to enhance your learning experience in this course include:\n\nParticipation & Attendance2\nClass presence and participation points are given to encourage your active class participation and discussion. You will be rewarded with a perfect score as long as you frequently come to class and actively contribute to the class discussion during lectures.\nIn addition, some in-class activities will count toward participation points. These are unannounced assignments.\n\n\nPreparedness\nYou will be evaluated on your preparedness by completing the a quiz and the major takeaways assignment before each class.\n\n\nQuizzes\nBefore each class, you will complete a multiple-choice quiz on the week’s topic. You must score 100% on each quiz. If you score below 100%, you will have to retake the quiz until you score 100%. You can only move to the following quiz if you score 100% on a quiz.\n\n\nLabs\nStudents will complete several labs in this course. The purpose of each lab is to assist students in applying their understanding of the statistical procedures discussed in class as well as to provide an opportunity for students to respond to the readings.\n\n\n\n\n\n\nWarning\n\n\n\nYou are allowed to discuss the labs with other students (and with the instructor), but you must write the final answers yourself in your own words. Solutions prepared “in committee” or by, copying or paraphrasing someone else’s work is not acceptable; your hand-in assignments must represent your thoughts.\n\n\n\n\nMajor Takeaways\nYou will be evaluated on your preparedness by submitting an assignment before each class. This assignment is meant to be a reflection of your learning. You will be asked to submit at least ten major takeaways from the readings. The content of the assignment must come from the assigned readings for the corresponding class session.\n\n\nExams\nYou will complete two (2) exams in this course. Students may use their notes and textbook for the exams, but no outside resource other than a calculator can be used.\nEach exam has between six to ten questions, with each question worth 10 points. Exams must be completed in the allotted time. The exams (and quizzes) focus on concepts and interpretation, with most of the computational activities occurring in the homework assignments.\nAlthough the quizzes and exams will not focus on previously tested material (they are not meant to be cumulative), knowledge of previously tested material may be inherently required to answer questions related to new material.\nMost of the computational activities will be via lab assignments. In addition, selected readings will be assigned throughout the semester. The content of these readings will be included in exam and quiz questions and homework assignments.\n\n\nDéjà vu\nOrganization is a prerequisite for effective learning. Throughout the semester, you will be asked to organize the material presented in class in a single directory in Google Drive.\nThe directory should have a Doc file (essential links), the syllabus in PDF format, and several subdirectories for each topic covered in the course. Inside each subdirectory, you must include the week’s lesson in PDF format and any assignments or activities you did. The structure of the main directory should look like this:\nKIN610\n\nEssential Links\nSyllabus in pdf\nNavarro and Foxcroft (2022) ebook\n\nWeek 1: <topic>\n\nLesson in pdf\nAny assignment and/or activity completed\n\nWeek 2 <topic> …."
+    "text": "Structure & Requirements\nI will adopt the 4 “Ps”1 in this course. This means that while taking this course you will be asked to prepare, participate, practice, and perform.\nYou are responsible for the material covered in class prior to attending each class. Note that the week’s readings are specified in the course schedule.\nIn addition to these readings, the instructor may assign supplemental readings throughout the semester. These supplemental readings do not appear on the schedule as these readings will be assigned at the instructor’s discretion.\nThe assignments used to enhance your learning experience in this course include:\n\nParticipation & Attendance2\nClass presence and participation points are given to encourage your active class participation and discussion. You will be rewarded with a perfect score as long as you frequently come to class and actively contribute to the class discussion during lectures.\nIn addition, some in-class activities will count toward participation points. These are unannounced assignments.\n\n\nPreparedness\nYou will be evaluated on your preparedness by completing the a quiz and the major takeaways assignment before each class.\n\n\nQuizzes\nBefore each class, you will complete a multiple-choice quiz on the week’s topic. You must score 100% on each quiz. If you score below 100%, you will have to retake the quiz until you score 100%. You can only move to the following quiz if you score 100% on a quiz.\n\n\nLabs\nStudents will complete several labs in this course. The purpose of each lab is to assist students in applying their understanding of the statistical procedures discussed in class as well as to provide an opportunity for students to respond to the readings.\n\n\n\n\n\n\nWarning\n\n\n\nYou are allowed to discuss the labs with other students (and with the instructor), but you must write the final answers yourself in your own words. Solutions prepared “in committee” or by, copying or paraphrasing someone else’s work is not acceptable; your hand-in assignments must represent your thoughts.\n\n\n\n\nMajor Takeaways\nYou will be evaluated on your preparedness by submitting an assignment before each class. This assignment is meant to be a reflection of your learning. You will be asked to submit at least ten major takeaways from the readings. The content of the assignment must come from the assigned readings for the corresponding class session.\n\n\nExams\nYou will complete two (2) exams in this course. Students may use their notes and textbook for the exams, but no outside resource other than a calculator can be used.\nEach exam has between six to ten questions, with each question worth 10 points. Exams must be completed in the allotted time. The exams (and quizzes) focus on concepts and interpretation, with most of the computational activities occurring in the homework assignments.\nAlthough the quizzes and exams will not focus on previously tested material (they are not meant to be cumulative), knowledge of previously tested material may be inherently required to answer questions related to new material.\nMost of the computational activities will be via lab assignments. In addition, selected readings will be assigned throughout the semester. The content of these readings will be included in exam and quiz questions and homework assignments.\n\n\nDéjà vu\nOrganization is a prerequisite for effective learning. Throughout the semester, you will be asked to organize the material presented in class in a single directory in Google Drive.\nThe directory should have a Doc file (essential links), the syllabus in PDF format, and several sub-directories for each topic covered in the course. Inside each sub-directory, you must include the week’s lesson in PDF format and any assignments or activities you did. The structure of the main directory should look like this:\nKIN610\n\nEssential Links\nSyllabus in pdf\nNavarro and Foxcroft (2022) ebook\n\nWeek 1: <topic>\n\nLesson in pdf\nAny assignment and/or activity completed\n\nWeek 2 <topic> …."
   },
   {
     "objectID": "course-syllabus.html#sec-course-policy",
@@ -7397,5 +7397,26 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
+  },
+  {
+    "objectID": "slides/lec-1.html#bi-question-mark-any-questions",
+    "href": "slides/lec-1.html#bi-question-mark-any-questions",
+    "title": "Welcome to KIN 610!",
+    "section": " Any Questions",
+    "text": "Any Questions\n\n\n\nhttps://drfurtado.github.io/kin610/"
+  },
+  {
+    "objectID": "slides/lec-1.html#any-questions",
+    "href": "slides/lec-1.html#any-questions",
+    "title": "Welcome to KIN 610!",
+    "section": "Any Questions",
+    "text": "Any Questions\n\n\n\n\nhttps://drfurtado.github.io/kin610/"
+  },
+  {
+    "objectID": "slides/lec-1.html#bi-question-any-questions",
+    "href": "slides/lec-1.html#bi-question-any-questions",
+    "title": "Welcome to KIN 610!",
+    "section": " Any Questions",
+    "text": "Any Questions\n\n\n\nhttps://drfurtado.github.io/kin610/"
   }
 ]
