@@ -9,8 +9,8 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.2.313">
 
-  <meta name="author" content="Dr.&nbsp;Mine Çetinkaya-Rundel">
-  <title>KIN 610 - Spring 2023 - Simple Linear Regression</title>
+  <meta name="author" content="Dr.&nbsp;Ovande Furtado Jr">
+  <title>KIN 610 - Spring 2023 - Welcome to KIN 610!</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,70 +28,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -382,11 +318,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="KIN 610 - Spring 2023 - Simple Linear Regression">
-<meta property="og:description" content="STA 210 - Spring 2022">
+<meta property="og:title" content="KIN 610 - Spring 2023 - Welcome to KIN 610!">
+<meta property="og:description" content="KIN 610 - Spring 2023">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
-<meta name="twitter:title" content="KIN 610 - Spring 2023 - Simple Linear Regression">
-<meta name="twitter:description" content="STA 210 - Spring 2022">
+<meta name="twitter:title" content="KIN 610 - Spring 2023 - Welcome to KIN 610!">
+<meta name="twitter:description" content="KIN 610 - Spring 2023">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -398,403 +334,26 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Simple Linear Regression</h1>
-  <p class="subtitle">STA 210 - Spring 2022</p>
+  <h1 class="title">Welcome to KIN 610!</h1>
+  <p class="subtitle">KIN 610 - Spring 2023</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr.&nbsp;Mine Çetinkaya-Rundel 
+Dr.&nbsp;Ovande Furtado Jr 
 </div>
 </div>
 </div>
 
 </section>
-<section>
-<section id="welcome" class="title-slide slide level1 center">
-<h1>Welcome</h1>
+<section class="slide level2">
 
-</section>
-<section id="announcements" class="slide level2">
-<h2>Announcements</h2>
-<ul>
-<li>If you’re just joining the class, welcome! Go to the <a href="https://sta210-s22.github.io/website">course website</a> and review content you’ve missed, read the syllabus, and complete the <em>Getting to know you</em> survey.</li>
-<li>Lab 1 is due Friday, at 5pm, on Gradescope.</li>
-</ul>
-</section>
-<section id="dorianne-gray-says" class="slide level2">
-<h2>Dorianne Gray says…</h2>
-
-<img data-src="images/lec-2/dorianne-gray.jpeg" alt="Picture of my cat Dorianne Gray (a gray, furry tabby) with a speech bubble that says &quot;Read the syllabus and make Mine happy!&quot;" width="800" class="r-stretch quarto-figure-center"></section>
-<section id="outline" class="slide level2">
-<h2>Outline</h2>
-<ul>
-<li>Use simple linear regression to describe the relationship between a quantitative predictor and quantitative outcome variable</li>
-<li>Estimate the slope and intercept of the regression line using the least squares method</li>
-<li>Interpret the slope and intercept of the regression line</li>
-</ul>
-</section>
-<section id="computational-setup" class="slide level2">
-<h2>Computational setup</h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># load packages</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">library</span>(tidyverse)       <span class="co"># for data wrangling</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">library</span>(tidymodels)      <span class="co"># for modeling</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">library</span>(fivethirtyeight) <span class="co"># for the fandango dataset</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co"># set default theme and larger font size for ggplot2</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a>ggplot2<span class="sc">::</span><span class="fu">theme_set</span>(ggplot2<span class="sc">::</span><span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">16</span>))</span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co"># set default figure parameters for knitr</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(</span>
-<span id="cb1-11"><a href="#cb1-11"></a>  <span class="at">fig.width =</span> <span class="dv">8</span>,</span>
-<span id="cb1-12"><a href="#cb1-12"></a>  <span class="at">fig.asp =</span> <span class="fl">0.618</span>,</span>
-<span id="cb1-13"><a href="#cb1-13"></a>  <span class="at">fig.retina =</span> <span class="dv">3</span>,</span>
-<span id="cb1-14"><a href="#cb1-14"></a>  <span class="at">dpi =</span> <span class="dv">300</span>,</span>
-<span id="cb1-15"><a href="#cb1-15"></a>  <span class="at">out.width =</span> <span class="st">"80%"</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section></section>
-<section>
-<section id="data" class="title-slide slide level1 center">
-<h1>Data</h1>
-
-</section>
-<section id="movie-ratings" class="slide level2">
-<h2>Movie ratings</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ul>
-<li>Data behind the FiveThirtyEight story <a href="&quot;Be Suspicious Of Online Movie Ratings, Especially Fandango's&quot;"><em>Be Suspicious Of Online Movie Ratings, Especially Fandango’s</em></a></li>
-<li>In the <strong>fivethirtyeight</strong> package: <a href="https://fivethirtyeight-r.netlify.app/reference/fandango.html"><code>fandango</code></a></li>
-<li>Contains every film that has at least 30 fan reviews on Fandango, an IMDb score, Rotten Tomatoes critic and user ratings, and Metacritic critic and user scores</li>
-</ul>
-</div><div class="column" style="width:30%;">
-<p><img data-src="images/lec-2/fandango.png" alt="Fandango logo" width="200"></p>
-<p><img data-src="images/lec-2/imdb.png" alt="IMDB logo" width="200"></p>
-<p><img data-src="images/lec-2/rotten-tomatoes.png" alt="Rotten Tomatoes logo" width="200"></p>
-<p><img data-src="images/lec-2/metacritic.png" alt="Metacritic logo" width="200"></p>
-</div>
-</div>
-</section>
-<section id="data-prep" class="slide level2">
-<h2>Data prep</h2>
-<ul>
-<li>Rename Rotten Tomatoes columns as <code>critics</code> and <code>audience</code></li>
-<li>Rename the dataset as <code>movie_scores</code></li>
-</ul>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>movie_scores <span class="ot">&lt;-</span> fandango <span class="sc">%&gt;%</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>  <span class="fu">rename</span>(</span>
-<span id="cb2-3"><a href="#cb2-3"></a>    <span class="at">critics =</span> rottentomatoes, </span>
-<span id="cb2-4"><a href="#cb2-4"></a>    <span class="at">audience =</span> rottentomatoes_user</span>
-<span id="cb2-5"><a href="#cb2-5"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="data-overview" class="slide level2">
-<h2>Data overview</h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">glimpse</span>(movie_scores)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code>Rows: 146
-Columns: 23
-$ film                       &lt;chr&gt; "Avengers: Age of Ultron", "Cinderella", "A…
-$ year                       &lt;dbl&gt; 2015, 2015, 2015, 2015, 2015, 2015, 2015, 2…
-$ critics                    &lt;int&gt; 74, 85, 80, 18, 14, 63, 42, 86, 99, 89, 84,…
-$ audience                   &lt;int&gt; 86, 80, 90, 84, 28, 62, 53, 64, 82, 87, 77,…
-$ metacritic                 &lt;int&gt; 66, 67, 64, 22, 29, 50, 53, 81, 81, 80, 71,…
-$ metacritic_user            &lt;dbl&gt; 7.1, 7.5, 8.1, 4.7, 3.4, 6.8, 7.6, 6.8, 8.8…
-$ imdb                       &lt;dbl&gt; 7.8, 7.1, 7.8, 5.4, 5.1, 7.2, 6.9, 6.5, 7.4…
-$ fandango_stars             &lt;dbl&gt; 5.0, 5.0, 5.0, 5.0, 3.5, 4.5, 4.0, 4.0, 4.5…
-$ fandango_ratingvalue       &lt;dbl&gt; 4.5, 4.5, 4.5, 4.5, 3.0, 4.0, 3.5, 3.5, 4.0…
-$ rt_norm                    &lt;dbl&gt; 3.70, 4.25, 4.00, 0.90, 0.70, 3.15, 2.10, 4…
-$ rt_user_norm               &lt;dbl&gt; 4.30, 4.00, 4.50, 4.20, 1.40, 3.10, 2.65, 3…
-$ metacritic_norm            &lt;dbl&gt; 3.30, 3.35, 3.20, 1.10, 1.45, 2.50, 2.65, 4…
-$ metacritic_user_nom        &lt;dbl&gt; 3.55, 3.75, 4.05, 2.35, 1.70, 3.40, 3.80, 3…
-$ imdb_norm                  &lt;dbl&gt; 3.90, 3.55, 3.90, 2.70, 2.55, 3.60, 3.45, 3…
-$ rt_norm_round              &lt;dbl&gt; 3.5, 4.5, 4.0, 1.0, 0.5, 3.0, 2.0, 4.5, 5.0…
-$ rt_user_norm_round         &lt;dbl&gt; 4.5, 4.0, 4.5, 4.0, 1.5, 3.0, 2.5, 3.0, 4.0…
-$ metacritic_norm_round      &lt;dbl&gt; 3.5, 3.5, 3.0, 1.0, 1.5, 2.5, 2.5, 4.0, 4.0…
-$ metacritic_user_norm_round &lt;dbl&gt; 3.5, 4.0, 4.0, 2.5, 1.5, 3.5, 4.0, 3.5, 4.5…
-$ imdb_norm_round            &lt;dbl&gt; 4.0, 3.5, 4.0, 2.5, 2.5, 3.5, 3.5, 3.5, 3.5…
-$ metacritic_user_vote_count &lt;int&gt; 1330, 249, 627, 31, 88, 34, 17, 124, 62, 54…
-$ imdb_user_vote_count       &lt;int&gt; 271107, 65709, 103660, 3136, 19560, 39373, …
-$ fandango_votes             &lt;int&gt; 14846, 12640, 12055, 1793, 1021, 397, 252, …
-$ fandango_difference        &lt;dbl&gt; 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5…</code></pre>
-</div>
-</div>
-</section>
-<section id="data-visualization" class="slide level2">
-<h2>Data visualization</h2>
-
-<img data-src="lec-2_files/figure-revealjs/unnamed-chunk-1-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section></section>
-<section>
-<section id="regression-model" class="title-slide slide level1 center">
-<h1>Regression model</h1>
-
-</section>
-<section id="fit-a-line" class="slide level2">
-<h2>Fit a line</h2>
-<p>… to <em>describe</em> the relationship between the critics and audience score</p>
-
-<img data-src="lec-2_files/figure-revealjs/unnamed-chunk-2-1.png" style="width:70.0%" class="r-stretch quarto-figure-center"></section>
-<section id="terminology" class="slide level2">
-<h2>Terminology</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<ul>
-<li><strong>Outcome, <em>Y</em></strong>: variable describing the outcome of interest</li>
-<li><strong>Predictor, X</strong>: variable used to help understand the variability in the outcome</li>
-</ul>
-</div><div class="column" style="width:70%;">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="lec-2_files/figure-revealjs/unnamed-chunk-3-1.png" style="width:100.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="regression-model-1" class="slide level2">
-<h2>Regression model</h2>
-<p>A <strong>regression model</strong> is a function that describes the relationship between the outcome, <span class="math inline">\(Y\)</span>, and the predictor, <span class="math inline">\(X\)</span>.</p>
-<p><span class="math display">\[\begin{aligned} Y &amp;= \color{black}{\textbf{Model}} + \text{Error} \\[8pt]
-&amp;= \color{black}{\mathbf{f(X)}} + \epsilon \\[8pt]
-&amp;= \color{black}{\boldsymbol{\mu_{Y|X}}} + \epsilon \end{aligned}\]</span></p>
-</section>
-<section id="regression-model-2" class="slide level2">
-<h2>Regression model</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><span class="math display">\[
-\begin{aligned} Y &amp;= \color{purple}{\textbf{Model}} + \text{Error} \\[8pt]
-&amp;= \color{purple}{\mathbf{f(X)}} + \epsilon \\[8pt]
-&amp;= \color{purple}{\boldsymbol{\mu_{Y|X}}} + \epsilon
-\end{aligned}
-\]</span></p>
-</div><div class="column" style="width:70%;">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="lec-2_files/figure-revealjs/unnamed-chunk-4-1.png" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="regression-model-residuals" class="slide level2">
-<h2>Regression model + residuals</h2>
-<div class="columns">
-<div class="column" style="width:30%;">
-<p><span class="math display">\[\begin{aligned} Y &amp;= \color{purple}{\textbf{Model}} + \color{blue}{\textbf{Error}} \\[8pt]
-&amp;= \color{purple}{\mathbf{f(X)}} + \color{blue}{\boldsymbol{\epsilon}} \\[8pt]
-&amp;= \color{purple}{\boldsymbol{\mu_{Y|X}}} + \color{blue}{\boldsymbol{\epsilon}} \\[8pt]
-\end{aligned}\]</span></p>
-</div><div class="column" style="width:70%;">
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="lec-2_files/figure-revealjs/unnamed-chunk-5-1.png" style="width:80.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="simple-linear-regression" class="title-slide slide level1 center">
-<h1>Simple linear regression</h1>
-
-</section>
-<section id="simple-linear-regression-1" class="slide level2">
-<h2>Simple linear regression</h2>
-<p>Use <strong>simple linear regression</strong> to model the relationthip between a quantitative outcome (<span class="math inline">\(Y\)</span>) and a single quantitative predictor (<span class="math inline">\(X\)</span>): <span class="math display">\[\Large{Y = \beta_0 + \beta_1 X + \epsilon}\]</span></p>
-<div>
-<ul>
-<li class="fragment"><span class="math inline">\(\beta_1\)</span>: True slope of the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span></li>
-<li class="fragment"><span class="math inline">\(\beta_0\)</span>: True intercept of the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span></li>
-<li class="fragment"><span class="math inline">\(\epsilon\)</span>: Error (residual)</li>
-</ul>
-</div>
-</section>
-<section id="simple-linear-regression-2" class="slide level2">
-<h2>Simple linear regression</h2>
-<p><span class="math display">\[\Large{\hat{Y} = \hat{\beta}_0 + \hat{\beta}_1 X}\]</span></p>
-<ul>
-<li><span class="math inline">\(\hat{\beta}_1\)</span>: Estimated slope of the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span></li>
-<li><span class="math inline">\(\hat{\beta}_0\)</span>: Estimated intercept of the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span></li>
-<li>No error term!</li>
-</ul>
-</section>
-<section id="choosing-values-for-hatbeta_1-and-hatbeta_0" class="slide level2">
-<h2>Choosing values for <span class="math inline">\(\hat{\beta}_1\)</span> and <span class="math inline">\(\hat{\beta}_0\)</span></h2>
-
-<img data-src="lec-2_files/figure-revealjs/unnamed-chunk-6-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section>
-<section id="residuals" class="slide level2">
-<h2>Residuals</h2>
-
-<img data-src="lec-2_files/figure-revealjs/unnamed-chunk-7-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"><p><span class="math display">\[\text{residual} = \text{observed} - \text{predicted} = y - \hat{y}\]</span></p>
-</section>
-<section id="least-squares-line" class="slide level2">
-<h2>Least squares line</h2>
-<ul>
-<li>The residual for the <span class="math inline">\(i^{th}\)</span> observation is</li>
-</ul>
-<p><span class="math display">\[e_i = \text{observed} - \text{predicted} = y_i - \hat{y}_i\]</span></p>
-<ul>
-<li>The <strong>sum of squared</strong> residuals is</li>
-</ul>
-<p><span class="math display">\[e^2_1 + e^2_2 + \dots + e^2_n\]</span></p>
-<ul>
-<li>The <strong>least squares line</strong> is the one that minimizes the sum of squared residuals</li>
-</ul>
-<div class="cell" data-layout-align="center">
-
-</div>
-</section></section>
-<section>
-<section id="slope-and-intercept" class="title-slide slide level1 center">
-<h1>Slope and intercept</h1>
-
-</section>
-<section id="properties-of-least-squares-regression" class="slide level2">
-<h2>Properties of least squares regression</h2>
-<ul>
-<li><p>The regression line goes through the center of mass point, the coordinates corresponding to average <span class="math inline">\(X\)</span> and average <span class="math inline">\(Y\)</span>: <span class="math inline">\(\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1\bar{X}\)</span></p></li>
-<li><p>The slope has the same sign as the correlation coefficient: <span class="math inline">\(\hat{\beta}_1 = r \frac{s_Y}{s_X}\)</span></p></li>
-<li><p>The sum of the residuals is zero: <span class="math inline">\(\sum_{i = 1}^n \epsilon_i = 0\)</span></p></li>
-<li><p>The residuals and <span class="math inline">\(X\)</span> values are uncorrelated</p></li>
-</ul>
-</section>
-<section id="estimating-the-slope" class="slide level2">
-<h2>Estimating the slope</h2>
-<p><span class="math display">\[\large{\hat{\beta}_1 = r \frac{s_Y}{s_X}}\]</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[
-\begin{aligned}
-s_X &amp;= 30.1688 \\
-s_Y &amp;=  20.0244 \\
-r &amp;= 0.7814
-\end{aligned}
-\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-\begin{aligned}
-\hat{\beta}_1 &amp;= 0.7814 \times \frac{20.0244}{30.1688} \\
-&amp;= 0.5187\end{aligned}
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="estimating-the-intercept" class="slide level2">
-<h2>Estimating the intercept</h2>
-<p><span class="math display">\[\large{\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1\bar{X}}\]</span></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><span class="math display">\[\begin{aligned}
-&amp;\bar{x} = 60.8493 \\
-&amp;\bar{y} = 63.8767 \\
-&amp;\hat{\beta}_1 = 0.5187
-\end{aligned}\]</span></p>
-</div><div class="column" style="width:50%;">
-<p><span class="math display">\[
-\begin{aligned}\hat{\beta}_0 &amp;= 63.8767 - 0.5187 \times 60.8493 \\
-&amp;= 32.3142
-\end{aligned}
-\]</span></p>
-</div>
-</div>
-</section>
-<section id="interpreting-the-slope" class="slide level2 smaller">
-<h2>Interpreting the slope</h2>
-<p><strong>Poll:</strong> The slope of the model for predicting audience score from critics score is 32.3142. Which of the following is the best interpretation of this value?</p>
-<ul>
-<li>For every one point increase in the critics score, the audience score goes up by 0.5187 points, on average.</li>
-<li>For every one point increase in the critics score, we expect the audience score to be higher by 0.5187 points, on average.</li>
-<li>For every one point increase in the critics score, the audience score goes up by 0.5187 points.</li>
-<li>For every one point increase in the audience score, the critics score goes up by 0.5187 points, on average.</li>
-</ul>
-</section>
-<section id="interpreting-slope-intercept" class="slide level2">
-<h2>Interpreting slope &amp; intercept</h2>
-<p><span class="math display">\[\widehat{\text{audience}} = 32.3142 + 0.5187 \times \text{critics}\]</span></p>
-<div>
-<ul>
-<li class="fragment"><strong>Slope:</strong> For every one point increase in the critics score, we expect the audience score to be higher by 0.5187 points, on average.</li>
-<li class="fragment"><strong>Intercept:</strong> If the critics score is 0 points, we expect the audience score to be 32.3142 points.</li>
-</ul>
-</div>
-</section>
-<section id="is-the-intercept-meaningful" class="slide level2">
-<h2>Is the intercept meaningful?</h2>
-<p>✅ The intercept is meaningful in context of the data if</p>
-<ul>
-<li>the predictor can feasibly take values equal to or near zero or</li>
-<li>the predictor has values near zero in the observed data</li>
-</ul>
-<div class="fragment">
-<p>🛑 Otherwise, it might not be meaningful!</p>
-</div>
-</section></section>
-<section>
-<section id="prediction" class="title-slide slide level1 center">
-<h1>Prediction</h1>
-
-</section>
-<section id="making-a-prediction" class="slide level2">
-<h2>Making a prediction</h2>
-<p>Suppose that a movie has a critics score of 50. According to this model, what is the movie’s predicted audience score?</p>
-<p><span class="math display">\[
-\begin{aligned}
-\widehat{\text{audience}} &amp;= 32.3142 + 0.5187 \times \text{critics} \\
-&amp;= 32.3142 + 0.5187 \times 50 \\
-&amp;= 58.2492
-\end{aligned}
-\]</span></p>
-</section>
-<section id="extrapolation" class="slide level2">
-<h2>Extrapolation</h2>
-<p>Suppose that a movie has a critics score of 0. According to this model, what is the movie’s predicted audience score?</p>
-
-<img data-src="lec-2_files/figure-revealjs/unnamed-chunk-9-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section></section>
-<section>
-<section id="recap" class="title-slide slide level1 center">
-<h1>Recap</h1>
-
-</section>
-<section id="recap-1" class="slide level2 smaller">
-<h2>Recap</h2>
-<div>
-<ul>
-<li class="fragment"><p>Used simple linear regression to describe the relationship between a quantitative predictor and quantitative outcome variable.</p></li>
-<li class="fragment"><p>Used the least squares method to estimate the slope and intercept.å</p></li>
-<li class="fragment"><p>We interpreted the slope and intercept.</p>
-<div>
-<ul>
-<li class="fragment"><strong>Slope:</strong> For every one unit increase in <span class="math inline">\(x\)</span>, we expect y to be higher/lower by <span class="math inline">\(\hat{\beta}_1\)</span> units, on average.</li>
-<li class="fragment"><strong>Intercept:</strong> If <span class="math inline">\(x\)</span> is 0, then we expect <span class="math inline">\(y\)</span> to be <span class="math inline">\(\hat{\beta}_0\)</span> units.</li>
-</ul>
-</div></li>
-<li class="fragment"><p>Predicted the response given a value of the predictor variable.</p></li>
-<li class="fragment"><p>Defined extrapolation and why we should avoid it.</p></li>
-</ul>
-</div>
 
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://sta210-s22.github.io/website/">sta210-s22.github.io/website</a></p>
+<p><a href="https://drfurtado.github.io/kin610/">https://drfurtado.github.io/kin610/</a></p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -1009,48 +568,6 @@ r &amp;= 0.7814
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          // dispatch for htmlwidgets
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for reveal
-        if (window.Reveal) {
-          window.Reveal.addEventListener("slidechanged", function(event) {
-            fireSlideChanged(event.previousSlide, event.currentSlide);
-          });
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

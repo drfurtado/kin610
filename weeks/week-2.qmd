@@ -1,6 +1,6 @@
 ---
 title: "Week 2"
-subtitle: "Introduction to jamovi"
+subtitle: "Introduction to jamovi and data collection"
 format: 
   html:
     toc: true
@@ -18,10 +18,6 @@ csl: ../apa.csl
 
 ::: callout-important
 We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
-
--   Deadlines
-
-    -   Lab 2 (after class)
 
 Download this lesson as [PDF](week-2.pdf)
 :::

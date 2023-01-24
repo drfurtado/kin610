@@ -1,399 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>drfurtado.github.io/kin610/labs/lab-3.html</loc>
-    <lastmod>2023-01-14T02:57:40.757Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/labs/lab-0.html</loc>
-    <lastmod>2023-01-14T02:57:41.268Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/labs/lab-4.html</loc>
-    <lastmod>2023-01-14T02:57:42.696Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/labs/CopyOflab-2.html</loc>
-    <lastmod>2023-01-14T02:57:44.093Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/labs/lab-5.html</loc>
-    <lastmod>2023-01-14T02:57:44.993Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/labs/lab-7.html</loc>
-    <lastmod>2023-01-14T02:57:45.447Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/labs/lab-6.html</loc>
-    <lastmod>2023-01-14T02:57:46.265Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/course-links.html</loc>
-    <lastmod>2023-01-14T02:57:46.719Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/LICENSE.html</loc>
-    <lastmod>2023-01-14T02:57:47.423Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-6.html</loc>
-    <lastmod>2023-01-14T02:57:48.339Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-7.html</loc>
-    <lastmod>2023-01-14T02:57:59.503Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/one-way-anova.html</loc>
-    <lastmod>2023-01-14T02:58:14.823Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-5.html</loc>
-    <lastmod>2023-01-14T02:58:15.757Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-4.html</loc>
-    <lastmod>2023-01-17T01:46:22.418Z</lastmod>
-  </url>
-  <url>
     <loc>drfurtado.github.io/kin610/weeks/week-1.html</loc>
-    <lastmod>2023-01-14T03:10:09.297Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-3.html</loc>
-    <lastmod>2023-01-14T02:58:51.939Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-2.html</loc>
-    <lastmod>2023-01-14T02:59:02.408Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-10.html</loc>
-    <lastmod>2023-01-14T02:59:13.181Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-11.html</loc>
-    <lastmod>2023-01-14T02:59:24.297Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/CopyOfweek-3.html</loc>
-    <lastmod>2023-01-14T02:59:36.969Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-13.html</loc>
-    <lastmod>2023-01-14T02:59:47.709Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-12.html</loc>
-    <lastmod>2023-01-14T02:59:48.162Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-9.html</loc>
-    <lastmod>2023-01-14T03:00:00.499Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-16.html</loc>
-    <lastmod>2023-01-14T03:00:11.938Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-8.html</loc>
-    <lastmod>2023-01-14T03:00:22.425Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-15.html</loc>
-    <lastmod>2023-01-14T03:00:33.888Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/CopyOfweek-4.html</loc>
-    <lastmod>2023-01-14T03:00:45.979Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/week-14.html</loc>
-    <lastmod>2023-01-14T03:00:46.671Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/weeks/intro-stats.html</loc>
-    <lastmod>2023-01-14T03:01:01.930Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/hw/hw-5.html</loc>
-    <lastmod>2023-01-14T03:01:02.656Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/hw/hw-4.html</loc>
-    <lastmod>2023-01-14T03:01:03.665Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/hw/hw-3.html</loc>
-    <lastmod>2023-01-14T03:01:04.601Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/hw/hw-2.html</loc>
-    <lastmod>2023-01-14T03:01:06.026Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/hw/hw-1.html</loc>
-    <lastmod>2023-01-14T03:01:07.716Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-5-the-office.html</loc>
-    <lastmod>2023-01-14T03:01:08.377Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-11-volcanoes.html</loc>
-    <lastmod>2023-01-14T03:01:09.219Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-4-exam-1-review.html</loc>
-    <lastmod>2023-01-14T03:01:10.114Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-6-the-office-cv.html</loc>
-    <lastmod>2023-01-14T03:01:10.822Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-8-rail-trail.html</loc>
-    <lastmod>2023-01-14T03:01:11.548Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-1-dcbikeshare.html</loc>
-    <lastmod>2023-01-14T03:01:12.385Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-12-exam-3-review.html</loc>
-    <lastmod>2023-01-14T03:01:13.457Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-9-odds.html</loc>
-    <lastmod>2023-01-14T03:01:14.179Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-7-exam-2-review.html</loc>
-    <lastmod>2023-01-14T03:01:14.895Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-0-movies.html</loc>
-    <lastmod>2023-01-14T03:01:15.741Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-3-duke-forest.html</loc>
-    <lastmod>2023-01-14T03:01:16.563Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-2-dcbikeshare.html</loc>
-    <lastmod>2023-01-14T03:01:17.356Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/ae/ae-10-flight-delays.html</loc>
-    <lastmod>2023-01-14T03:01:18.352Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/project-tips-resources.html</loc>
-    <lastmod>2023-01-14T03:01:19.881Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/computing-access.html</loc>
-    <lastmod>2023-01-14T03:01:20.306Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/course-overview.html</loc>
-    <lastmod>2023-01-14T03:01:20.727Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/index.html</loc>
-    <lastmod>2023-01-14T03:09:47.454Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-15.html</loc>
-    <lastmod>2023-01-14T03:01:22.011Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-14.html</loc>
-    <lastmod>2023-01-14T03:01:22.917Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-28.html</loc>
-    <lastmod>2023-01-14T03:01:24.968Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-16.html</loc>
-    <lastmod>2023-01-14T03:01:25.809Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-17.html</loc>
-    <lastmod>2023-01-14T03:01:26.684Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-9.html</loc>
-    <lastmod>2023-01-14T03:01:27.100Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-13.html</loc>
-    <lastmod>2023-01-14T03:01:28.020Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-12.html</loc>
-    <lastmod>2023-01-14T03:01:29.172Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-8.html</loc>
-    <lastmod>2023-01-14T03:01:30.631Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-10.html</loc>
-    <lastmod>2023-01-14T03:01:31.899Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-11.html</loc>
-    <lastmod>2023-01-14T03:01:33.003Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lab-2.html</loc>
-    <lastmod>2023-01-14T03:01:33.480Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-6.html</loc>
-    <lastmod>2023-01-14T03:01:34.495Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-20.html</loc>
-    <lastmod>2023-01-14T03:01:35.486Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-21.html</loc>
-    <lastmod>2023-01-14T03:01:35.991Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-7.html</loc>
-    <lastmod>2023-01-14T03:01:37.094Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lab-3.html</loc>
-    <lastmod>2023-01-14T03:01:38.551Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lab-1.html</loc>
-    <lastmod>2023-01-14T03:01:39.177Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-5.html</loc>
-    <lastmod>2023-01-14T03:01:40.403Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-23.html</loc>
-    <lastmod>2023-01-14T03:01:41.406Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-22.html</loc>
-    <lastmod>2023-01-14T03:01:42.574Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-4.html</loc>
-    <lastmod>2023-01-14T03:01:43.506Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-0.html</loc>
-    <lastmod>2023-01-14T03:01:43.932Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-26.html</loc>
-    <lastmod>2023-01-14T03:01:46.389Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-27.html</loc>
-    <lastmod>2023-01-14T03:01:49.923Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-1.html</loc>
-    <lastmod>2023-01-17T01:27:54.647Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-3.html</loc>
-    <lastmod>2023-01-14T03:01:51.700Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-25.html</loc>
-    <lastmod>2023-01-14T03:01:54.294Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-19.html</loc>
-    <lastmod>2023-01-14T03:01:55.795Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-18.html</loc>
-    <lastmod>2023-01-14T03:01:57.068Z</lastmod>
-  </url>
-  <url>
-    <loc>drfurtado.github.io/kin610/slides/lec-24.html</loc>
-    <lastmod>2023-01-14T03:01:58.497Z</lastmod>
+    <lastmod>2023-01-24T03:19:50.699Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/slides/lec-2.html</loc>
-    <lastmod>2023-01-14T03:02:00.109Z</lastmod>
+    <lastmod>2023-01-24T03:21:29.459Z</lastmod>
+  </url>
+  <url>
+    <loc>drfurtado.github.io/kin610/weeks/week-2.html</loc>
+    <lastmod>2023-01-24T03:22:03.290Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/supplemental/mlr-matrix.html</loc>
-    <lastmod>2023-01-14T03:02:00.817Z</lastmod>
+    <lastmod>2023-01-24T03:21:42.590Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/supplemental/model-diagnostics-matrix.html</loc>
-    <lastmod>2023-01-14T03:02:01.428Z</lastmod>
+    <lastmod>2023-01-24T03:21:43.212Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/supplemental/results-apa.html</loc>
-    <lastmod>2023-01-14T03:02:03.589Z</lastmod>
+    <lastmod>2023-01-24T03:21:45.020Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/supplemental/log-transformations.html</loc>
-    <lastmod>2023-01-14T03:02:04.374Z</lastmod>
+    <lastmod>2023-01-24T03:21:46.605Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/supplemental/tables.html</loc>
-    <lastmod>2023-01-14T03:02:05.373Z</lastmod>
+    <lastmod>2023-01-24T03:21:48.186Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/supplemental/model-selection-criteria.html</loc>
-    <lastmod>2023-01-14T03:02:05.881Z</lastmod>
+    <lastmod>2023-01-24T03:21:49.192Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/course-faq.html</loc>
-    <lastmod>2023-01-14T03:02:06.557Z</lastmod>
+    <lastmod>2023-01-24T03:21:50.864Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/course-support.html</loc>
-    <lastmod>2023-01-14T03:02:07.130Z</lastmod>
+    <lastmod>2023-01-24T03:21:51.704Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/exams/exam-1.html</loc>
-    <lastmod>2023-01-14T03:02:07.662Z</lastmod>
+    <lastmod>2023-01-24T03:21:52.473Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/exams/exam-3.html</loc>
-    <lastmod>2023-01-14T03:02:08.505Z</lastmod>
+    <lastmod>2023-01-24T03:21:53.220Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/exams/exam-2.html</loc>
-    <lastmod>2023-01-14T03:02:09.379Z</lastmod>
+    <lastmod>2023-01-24T03:21:53.872Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/project-description.html</loc>
-    <lastmod>2023-01-14T03:02:10.594Z</lastmod>
+    <lastmod>2023-01-24T03:21:55.038Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/syllabus2.html</loc>
-    <lastmod>2023-01-14T03:02:11.370Z</lastmod>
+    <lastmod>2023-01-24T03:21:56.464Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/course-syllabus.html</loc>
-    <lastmod>2023-01-17T01:28:15.469Z</lastmod>
+    <lastmod>2023-01-24T03:21:58.004Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/computing-troubleshooting.html</loc>
-    <lastmod>2023-01-14T03:02:25.488Z</lastmod>
+    <lastmod>2023-01-24T03:21:58.587Z</lastmod>
   </url>
   <url>
     <loc>drfurtado.github.io/kin610/CopyOfcourse-syllabus.html</loc>
-    <lastmod>2023-01-14T03:02:26.162Z</lastmod>
+    <lastmod>2023-01-24T03:21:59.672Z</lastmod>
   </url>
 </urlset>
