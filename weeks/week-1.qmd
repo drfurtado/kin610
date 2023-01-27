@@ -7,7 +7,7 @@ format:
     toc-location: right
     smooth-scroll: true
   pdf:
-    toc: true
+    toc: false
     number-sections: true
     colorlinks: true
 editor: source
@@ -35,7 +35,7 @@ Students will be asked to complete activities.
 
 ## Perform
 
-Complete Lab 1.
+na
 
 <br><br>
 

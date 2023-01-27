@@ -22,7 +22,7 @@ format:
 bibliography: references.bib
 ---
 
-Download the syllabus as [PDF](syllabus.pdf)
+Download the syllabus as [PDF](course-syllabus.pdf)
 
 # Instructor Info {#sec-instructor-info}
 
