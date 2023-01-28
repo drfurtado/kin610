@@ -23,7 +23,7 @@ Download this lesson as [PDF](week-1.pdf)
 ## Prepare
 
 -   Read and study the [Syllabus](../course-syllabus.qmd)
--   Read and study this [APA Style in-text citation tutorial](https://docs.google.com/document/d/e/2PACX-1vQg7XJ-Z5619v-v9uCbS_5QjpYIfXH2Q1amid7Wcv6cmBMj-cMPpdJ2wK4NwU6H53LLbbgusqxxqXC6/pub)
+-   Read and study this [APA Style in-text citation article](https://drfurtado.github.io/site/blog/posts/apa-citation-basics/)
 
 ## Participate
 
