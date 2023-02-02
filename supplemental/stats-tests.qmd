@@ -6,7 +6,7 @@ title: "Statistical Tests"
 
 Parametric tests are a class of statistical tests that make assumptions about the underlying probability distribution of the data being analyzed. These assumptions include that the data are sampled from a population that follows a normal distribution, and that the sample size is large enough to make these assumptions valid. The most commonly used parametric tests include t-tests, ANOVA (analysis of variance) and multiple regression analysis. These tests are known to have more powerful results than non-parametric tests, which makes them more useful for exploring the difference between groups or testing hypotheses about a population.
 
-The assumptions of parametric tests are met when the data is approximately normal and when the sample size is large enough. Therefore, it is recommended to check for normality of the data using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.
+The assumptions of parametric tests are met when the data are approximately normal and when the sample size is large enough. Therefore, it is recommended to check for normality of the data using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.
 
 Parametric tests are useful when the researcher wants to compare means of two or more groups, establish a relationship between two or more variables, or investigate the correlation between variables. Examples of parametric tests include: t-test, ANOVA, multiple regression analysis, and chi-square tests.
 
@@ -112,7 +112,7 @@ The assumptions of the independent-samples t-test include:
 
 5.  Equal sample size: The sample size in each group should be equal or similar.
 
-It is important to note that not all these assumptions need to be perfectly met for the test to be valid, but the deviations from these assumptions should be small. If the data does not meet these assumptions, the non-parametric version of the independent-samples t-test, such as the Mann-Whitney U test, can be used instead.
+It is important to note that not all these assumptions need to be perfectly met for the test to be valid, but the deviations from these assumptions should be small. If the data do not meet these assumptions, the non-parametric version of the independent-samples t-test, such as the Mann-Whitney U test, can be used instead.
 
 ### Reporting Results
 
@@ -192,8 +192,7 @@ In other words, you should run a one-way ANOVA when:
 
 3.  The dependent variable is continuous
 
-Example:
-A researcher wants to know if there is a difference in the mean test scores of students who studied using different methods (Method A, Method B, Method C). The researcher collect data on test scores and the method used. The test scores are continuous variable and method of study is categorical variable with 3 levels. So, the researcher can use one-way ANOVA to test for the difference in mean test scores across different method of study.
+Example: A researcher wants to know if there is a difference in the mean test scores of students who studied using different methods (Method A, Method B, Method C). The researcher collect data on test scores and the method used. The test scores are continuous variable and method of study is categorical variable with 3 levels. So, the researcher can use one-way ANOVA to test for the difference in mean test scores across different method of study.
 
 ### Assumptions
 
@@ -205,7 +204,7 @@ The one-way ANOVA (analysis of variance) makes several assumptions about the dat
 
 3.  Equal variances: The variances of the data within each group are equal. This assumption can be checked using tests such as the Levene's test.
 
-4.  Random sampling: The data is randomly sampled from the population, so that the sample is representative of the population.
+4.  Random sampling: The data are randomly sampled from the population, so that the sample is representative of the population.
 
 Violations of these assumptions can lead to biased or incorrect results. If the assumptions are not met, non-parametric alternatives such as Kruskal-Wallis test could be used.
 
@@ -299,8 +298,7 @@ When reporting the results of a within-subjects Two-way ANOVA, you should first 
 
 For example, if you were studying the effect of two different types of practice schedules (random vs. blocked) and two different types of feedback (verbal vs. visual) on motor skill learning, your report would look something like this:
 
-Dependent variable: Motor skill learning
-Independent variables: Practice schedule (random vs. blocked) and feedback (verbal vs. visual)
+Dependent variable: Motor skill learning Independent variables: Practice schedule (random vs. blocked) and feedback (verbal vs. visual)
 
 Main Effects:
 
@@ -366,7 +364,7 @@ It is important to note that in a mixed-factors ANOVA, the assumptions of normal
 
 ## Pearson Correlation Coefficient
 
-The Pearson correlation coefficient (r) is used to measure the strength and direction of the linear relationship between two continuous variables. It is appropriate to use when you want to determine if there is a linear relationship between two variables and the data is at least interval level. It is important to note that the Pearson correlation coefficient only measures linear relationships, and it is not appropriate to use if the relationship between the variables is non-linear.
+The Pearson correlation coefficient (r) is used to measure the strength and direction of the linear relationship between two continuous variables. It is appropriate to use when you want to determine if there is a linear relationship between two variables and the data are at least interval level. It is important to note that the Pearson correlation coefficient only measures linear relationships, and it is not appropriate to use if the relationship between the variables is non-linear.
 
 It is generally considered appropriate to use the Pearson correlation coefficient when the following conditions are met:
 
@@ -376,7 +374,7 @@ It is generally considered appropriate to use the Pearson correlation coefficien
 
 3.  The variables are not categorical
 
-4.  The data is free from outliers
+4.  The data are free from outliers
 
 5.  The relationship between the two variables is believed to be linear
 
@@ -402,7 +400,7 @@ Example:
 
 # Non-parametric tests
 
-Non-parametric tests are a class of statistical tests that do not make assumptions about the underlying probability distribution of the data being analyzed. These tests are also known as distribution-free tests, as they do not require the data to follow a specific distribution such as normal distribution. They are useful when the data does not meet the assumptions of parametric tests or when the sample size is small. Non-parametric tests are less powerful than parametric tests, but they are more robust and can be used with a wide range of data types.
+Non-parametric tests are a class of statistical tests that do not make assumptions about the underlying probability distribution of the data being analyzed. These tests are also known as distribution-free tests, as they do not require the data to follow a specific distribution such as normal distribution. They are useful when the data do not meet the assumptions of parametric tests or when the sample size is small. Non-parametric tests are less powerful than parametric tests, but they are more robust and can be used with a wide range of data types.
 
 Examples of non-parametric tests include: Mann-Whitney U test, Wilcoxon signed-rank test, Kruskal-Wallis H test, chi-square test, and median test. They can be used to test for differences between groups, compare medians, and test for independence. They are commonly used in fields such as social sciences, medicine, and biology.
 
@@ -410,13 +408,13 @@ It is important to note that non-parametric tests do not require the data to be 
 
 ## Wilcoxon signed-rank
 
-The Wilcoxon signed-rank test is a non-parametric test used to determine whether two related samples have the same median. It is used when the data does not meet the assumptions of a parametric test such as the t-test, such as when the data is not normally distributed or the sample size is small. The Wilcoxon signed-rank test is a good alternative to the t-test for comparing two related samples.
+The Wilcoxon signed-rank test is a non-parametric test used to determine whether two related samples have the same median. It is used when the data do not meet the assumptions of a parametric test such as the t-test, such as when the data are not normally distributed or the sample size is small. The Wilcoxon signed-rank test is a good alternative to the t-test for comparing two related samples.
 
 You should run the Wilcoxon signed-rank test when:
 
 1.  You have two related samples (e.g. pre-test and post-test scores for the same individuals)
 
-2.  The data is not normally distributed
+2.  The data are not normally distributed
 
 3.  The sample size is small
 
@@ -430,13 +428,13 @@ It is a robust test and doesn't require the assumptions of normality, equal vari
 
 The Wilcoxon signed-rank test assumes the following:
 
-1.  The data is ordinal or continuous, not categorical.
+1.  The data are ordinal or continuous, not categorical.
 
 2.  The two samples being compared are related or dependent, meaning that the observations in one sample correspond to the observations in the other sample in some meaningful way.
 
-3.  The data is at least ordinal, it doesn't assume normality.
+3.  The data are at least ordinal, it doesn't assume normality.
 
-4.  The data is independent and randomly selected from the population.
+4.  The data are independent and randomly selected from the population.
 
 5.  The observations in the two samples should be continuous or ordinal, not categorical.
 
@@ -460,7 +458,7 @@ Example:
 
 "The study aimed to examine the effect of a physical therapy intervention on pain levels in patients with knee osteoarthritis. A Wilcoxon signed-rank test was conducted to compare the pain levels before and after the intervention. The results of the test showed a significant decrease in pain levels after the intervention, W = 45, p = 0.03. The effect size was r = 0.5, indicating a moderate effect size. This suggests that the physical therapy intervention was effective in reducing pain levels in patients with knee osteoarthritis."
 
-It is important to note that the Wilcoxon signed-rank test is a non-parametric test that is used when the data is not normally distributed or the sample size is small. This test is used to compare two related samples or matched-pairs data.
+It is important to note that the Wilcoxon signed-rank test is a non-parametric test that is used when the data are not normally distributed or the sample size is small. This test is used to compare two related samples or matched-pairs data.
 
 ## Mann-Whitney *U* test
 
@@ -470,7 +468,7 @@ The Mann-Whitney U test is a non-parametric test that is used to compare two ind
 The Mann-Whitney U test is equivalent to the `Independent-Samples t-test`.
 :::
 
-The Mann-Whitney U test is particularly useful when the data is not normally distributed, when the sample size is small, or when the data has outliers. It is also used when the data is ordinal or non-normally distributed, and when the variances of the two groups are not equal.
+The Mann-Whitney U test is particularly useful when the data are not normally distributed, when the sample size is small, or when the data have outliers. It is also used when the data are ordinal or non-normally distributed, and when the variances of the two groups are not equal.
 
 An example of when to run the Mann-Whitney U test is when you want to compare the muscle mass gain of two groups of athletes, one group using a new supplement, and the other using a placebo. The muscle mass gain is measured in kilograms and the sample size is small(less than 30), thus, it would be appropriate to use the Mann-Whitney U test to determine if there is a significant difference in muscle mass gain between the two groups.
 
@@ -486,7 +484,7 @@ The Mann-Whitney U test is a non-parametric test that is used to compare the med
 
 4.  No outliers: The data should not contain outliers. Outliers are observations that are far away from the rest of the data and can have a strong impact on the results of the test.
 
-5.  No normal distribution: The data does not need to follow a normal distribution, which makes the test a good option when dealing with non-normal data.
+5.  No normal distribution: The data do not need to follow a normal distribution, which makes the test a good option when dealing with non-normal data.
 
 6.  Same population : The two groups being compared should be sampled from the same population.
 
@@ -522,7 +520,7 @@ Findings: The active group had significantly higher physical activity levels tha
 
 Visual representation: A box plot is shown to help the user understand the distribution of physical activity levels in the two groups. The active group has a higher median value and a smaller interquartile range than the sedentary group."
 
-It is important to note that the Mann-Whitney U test is a non-parametric test that is used to compare two independent samples when the data is not normally distributed. This test is also useful to compare two groups when the sample size is small.
+It is important to note that the Mann-Whitney U test is a non-parametric test that is used to compare two independent samples when the data are not normally distributed. This test is also useful to compare two groups when the sample size is small.
 
 ## Spearman Rho Correlation Coefficient
 
@@ -530,7 +528,7 @@ It is important to note that the Mann-Whitney U test is a non-parametric test th
 
 The Spearman rank-order correlation coefficient (Spearman's rho, or simply rho) is a nonparametric measure of the correlation between two variables. It is used when the assumptions of the Pearson correlation coefficient, such as normality of the data, are not met, or when the variables are ordinal or interval with non-linear relationship.
 
-Spearman's rho should be used when your data is ordinal or interval and non-normally distributed. Or when you suspect that the relationship between the two variables is non-linear.
+Spearman's rho should be used when your data are ordinal or interval and non-normally distributed. Or when you suspect that the relationship between the two variables is non-linear.
 
 It's also useful when your data have outliers or extreme values as it is less affected by them compared to Pearson correlation coefficient.
 

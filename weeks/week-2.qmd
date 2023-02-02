@@ -40,7 +40,7 @@ Students will be asked to complete a series of exercises in class.
 
 Complete Lab 1[^1] and [submit](https://canvas.csun.edu) it by the [deadline](../index.qmd).
 
-[^1]: Link will be provided soon.
+[^1]: Link will be provided during our meeting.
 
 <br><br>
 
