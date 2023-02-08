@@ -7,7 +7,7 @@ draft: true
 
 ## Introduction
 
-This lab in intended to collect data that will be uswed for several purposes throughout the semester.
+This lab in intended to collect data that will be used for several purposes throughout the semester.
 
 ### Tests
 
@@ -17,19 +17,13 @@ Below, you will find the links to several cognitive tests. Wait for further inst
 
 This test measures how many words you can keep in short term memory at once. The number of words you need to remember grows continually, until you can't keep them in your head anymore. Go as long as you can. You have 3 strikes until game over. Your score is how many turns you lasted.
 
-[`Link to take the test`](https://humanbenchmark.com/tests/verbal-memory)
-
 #### 2. Number Memory Test
 
 The average person can only remember 7 digit numbers reliably. Can you do more? You will be presented with a single-digit number and be asked to remember it. The numbers will increase unit you can no longer remember.
 
-[`Link to take the test`](https://humanbenchmark.com/tests/number-memory)
-
 #### 3. Sequence Memory Test
 
 Memorize the sequence of buttons that light up, then press them in order. Every time you finish the pattern, it gets longer. Make a mistake, and the test is over.
-
-[`Link to take the test`](https://humanbenchmark.com/tests/sequence)
 
 #### 4. Chimp Test
 
@@ -39,35 +33,29 @@ In the study, the chimps consistently outperformed humans, and some chimps were 
 
 This test is a variant of that concept, that gets increasingly difficult every turn, starting at 4 digits, and adding one every turn. If you pass a level, the number increases. If you fail, you get a strike. Three strikes and the test is over.
 
-[`Link to take the test`](https://humanbenchmark.com/tests/chimp)
-
 #### 5. Typing Test
 
 This is a simple test of typing speed, measuring words per minute, or WPM. The standard measure of WPM is (number of characters / 5) / (time taken). By that measurement, "quick brown fox" is 15 characters, including spaces. The recorded score is WPM \* Accuracy.
-
-[`Link to take the test`](https://humanbenchmark.com/tests/typing)
 
 #### 6. Reaction Time Test
 
 This is a simple tool to measure your reaction time. When the red box turns green, click on the screen as soon as you can. Then, click anywhere to start the new trial.
 
-[`Link to take the test`](https://humanbenchmark.com/tests/reactiontime)
-
 #### 7. Aim Trainer Test
 
 Click the targets as quickly and accurately as you can. This tests reflexes and hand-eye coordination. Once you've clicked 30 targets, your score and average time per target will be displayed.
-
-[`Link to take the test`](https://humanbenchmark.com/tests/aim)
 
 #### 8. Visual Memory Test
 
 Every level, a number of tiles will flash white. Memorize them, and pick them again after the tiles are reset! Levels get progressively more difficult, to challenge your skills. If you miss 3 tiles on a level, you lose one life. You have three lives. Make it as far as you can!
 
-[`Link to take the test`](https://humanbenchmark.com/tests/memory)
-
 ## Submission
 
-Submit the scores via [Canvas](canvas.csun.edu).
+1.  Visit the Human Benchmark Dashboard and copy the permalink associated with dashboard.
+2.  Visit the Lab 1 assignment in Canvas and submit the link.
+3.  While in class, you will be asked to input your scores on a spreadsheet. The data will be used throughout the semester for various purposes.
+
+<!--# link to create id: https://www.getuniqueid.com, submit scores here: https://bit.ly/3JYNheP -->
 
 ## Grading
 

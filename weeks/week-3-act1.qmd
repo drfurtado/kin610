@@ -1,0 +1,43 @@
+---
+title: "Activity 1: DV and IV"
+---
+
+Exercise 1: Given a scenario, identify the independent and dependent variables.
+
+Scenario: The impact of height on jumping ability.
+
+Independent variable: height
+
+Dependent variable: jumping ability
+
+Exercise 2: Given a scenario, identify the independent and dependent variables.
+
+Scenario: The relationship between training frequency and muscle endurance.
+
+Independent variable: training frequency
+
+Dependent variable: muscle endurance
+
+Exercise 3: Given a scenario, identify the independent and dependent variables.
+
+Scenario: The influence of warm-up on performance.
+
+Independent variable: warm-up
+
+Dependent variable: performance
+
+Exercise 4: Given a scenario, identify the independent and dependent variables.
+
+Scenario: The effect of weight on power output.
+
+Independent variable: weight
+
+Dependent variable: power output
+
+Exercise 5: Given a scenario, identify the independent and dependent variables.
+
+Scenario: The impact of rest time on recovery.
+
+Independent variable: rest time
+
+Dependent variable: recovery

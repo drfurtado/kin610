@@ -494,7 +494,7 @@
     "href": "weeks/week-3.html#practice",
     "title": "Week 3",
     "section": "Practice",
-    "text": "Practice\nTBD"
+    "text": "Practice"
   },
   {
     "objectID": "weeks/week-3.html#perform",
@@ -3588,7 +3588,7 @@
     "href": "slides/lab-2.html#youre-now-ready-to-complete-the-rest-of-lab",
     "title": "Lab 1 - Meet the toolkit",
     "section": "You’re now ready to complete the rest of lab!",
-    "text": "You’re now ready to complete the rest of lab!\nPlease “raise your hand” if you need help as you work on the lab\n\n\n\nsta210-s22.github.io/website"
+    "text": "You’re now ready to complete the rest of lab!\nPlease “raise your hand” if you need help as you work on the lab"
   },
   {
     "objectID": "slides/lec-6.html#computational-setup",
@@ -4414,7 +4414,7 @@
     "href": "slides/lab-1.html#youre-now-ready-to-complete-the-rest-of-lab",
     "title": "Lab 1 - Meet the toolkit",
     "section": "You’re now ready to complete the rest of lab!",
-    "text": "You’re now ready to complete the rest of lab!\nPlease “raise your hand” if you need help as you work on the lab\n\n\n\nsta210-s22.github.io/website"
+    "text": "You’re now ready to complete the rest of lab!\nPlease “raise your hand” if you need help as you work on the lab"
   },
   {
     "objectID": "slides/lec-5.html#announcements",
@@ -7194,5 +7194,96 @@
     "title": "Statistical Tests",
     "section": "Spearman Rho Correlation Coefficient",
     "text": "Spearman Rho Correlation Coefficient\n\nWhen to use it?\nThe Spearman rank-order correlation coefficient (Spearman’s rho, or simply rho) is a nonparametric measure of the correlation between two variables. It is used when the assumptions of the Pearson correlation coefficient, such as normality of the data, are not met, or when the variables are ordinal or interval with non-linear relationship.\nSpearman’s rho should be used when your data are ordinal or interval and non-normally distributed. Or when you suspect that the relationship between the two variables is non-linear.\nIt’s also useful when your data have outliers or extreme values as it is less affected by them compared to Pearson correlation coefficient.\nIt’s also useful when you want to investigate the correlation between two ordinal variables, or when you want to investigate the correlation between an ordinal variable and an interval variable.\nKeep in mind that, Spearman’s rho assumes that the relationship between the two variables is monotonic, it does not test for linearity.\n\n\nReporting results\nWhen reporting the results of a Spearman’s rank correlation coefficient (rho), it is important to include the following information:\n\nThe correlation coefficient (rho) and the associated p-value. The correlation coefficient tells us the strength and direction of the monotonic relationship between two variables, and the p-value tells us the probability of observing a correlation coefficient as extreme as the one we calculated under the assumption that there is no correlation.\nThe sample size (e.g. the number of observations)\nA scatter plot of the data with the line of best fit if possible\nThe effect size, such as Cohen’s d, which is a measure of the magnitude of the correlation.\n\nExample:\n“A Spearman’s rank correlation coefficient was calculated to examine the relationship between blood pressure and weight of a group of patients. The sample size was 40. The correlation coefficient was 0.6, with a p-value of 0.001. The scatter plot of the data with the line of best fit showing a positive correlation. The effect size (Cohen’s d) was 0.3, which indicates a weak effect size.”\n“The results of the Spearman’s rank correlation coefficient revealed a statistically significant positive correlation between blood pressure and weight of the patients (rho(38) = 0.6, p = 0.001). The scatter plot of the data with the line of best fit illustrates the positive correlation. The effect size (d = 0.3) suggests a weak correlation.”\nIt’s important to note that when there is a non-parametric test like spearman correlation, it is better to report the median, percentiles and interquartile range of the variables instead of mean and standard deviation."
+  },
+  {
+    "objectID": "slides/lab-2.html",
+    "href": "slides/lab-2.html",
+    "title": "Lab 1 - Meet the toolkit",
+    "section": "",
+    "text": "Introduction to the lab assignment (~ 5 - 10 minutes)\nWork on the lab assignment (individual at first, but in teams for the rest of the semester)\nLab instructions posted on the course website.\nStart each lab by finding your assignment repo in the course GitHub organization\n\nThis is where you will find the Quarto document and data to get started"
+  },
+  {
+    "objectID": "slides/lab-1.html",
+    "href": "slides/lab-1.html",
+    "title": "Lab 1 - Meet the toolkit",
+    "section": "",
+    "text": "Introduction to the lab assignment (~ 5 - 10 minutes)\nWork on the lab assignment (individual at first, but in teams for the rest of the semester)\nLab instructions posted on the course website.\nStart each lab by finding your assignment repo in the course GitHub organization\n\nThis is where you will find the Quarto document and data to get started"
+  },
+  {
+    "objectID": "slides/lec-1.html",
+    "href": "slides/lec-1.html",
+    "title": "Welcome to KIN 610!",
+    "section": "",
+    "text": "Dr. Furtado - Cal State Northridge\n\n\n\n\nAssociate Professor in Motor Behavior, Department Kinesiology, Cal State Northridge\nFind out more at my academic site\n\n\n\n\n\n\n\n\nWhat background is assumed for the course? Introductory statistics or probability course.\nWill we be doing computing? Yes. We will use jamovi.\n\n\n\n\n\n\nAnalyze real-world data to answer questions about multivariable relationships.\nFit and evaluate linear and logistic regression models.\nAssess whether a proposed model is appropriate and describe its limitations.\nUse Quarto to write reproducible reports and GitHub for version control and collaboration.\nCommunicate results from statistical analyses to a general audience."
+  },
+  {
+    "objectID": "weeks/week-3.html#references",
+    "href": "weeks/week-3.html#references",
+    "title": "Week 3",
+    "section": "References",
+    "text": "References\n\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "weeks/week-3-act1.html",
+    "href": "weeks/week-3-act1.html",
+    "title": "Activity 1: DV and IV",
+    "section": "",
+    "text": "Exercise 1: Given a scenario, identify the independent and dependent variables.\nScenario: The impact of height on jumping ability.\nIndependent variable: height\nDependent variable: jumping ability\nExercise 2: Given a scenario, identify the independent and dependent variables.\nScenario: The relationship between training frequency and muscle endurance.\nIndependent variable: training frequency\nDependent variable: muscle endurance\nExercise 3: Given a scenario, identify the independent and dependent variables.\nScenario: The influence of warm-up on performance.\nIndependent variable: warm-up\nDependent variable: performance\nExercise 4: Given a scenario, identify the independent and dependent variables.\nScenario: The effect of weight on power output.\nIndependent variable: weight\nDependent variable: power output\nExercise 5: Given a scenario, identify the independent and dependent variables.\nScenario: The impact of rest time on recovery.\nIndependent variable: rest time\nDependent variable: recovery"
+  },
+  {
+    "objectID": "slides/lec-3.html#introduction-to-measurement-in-kinesiology",
+    "href": "slides/lec-3.html#introduction-to-measurement-in-kinesiology",
+    "title": "Week 3: Intro to Stats",
+    "section": "Introduction to Measurement in Kinesiology",
+    "text": "Introduction to Measurement in Kinesiology\n\nThe importance of measurement in Kinesiology\nMeasurement as the process of determining the value of a characteristic or quantity"
+  },
+  {
+    "objectID": "slides/lec-3.html#why-measurement-is-important-in-kinesiology",
+    "href": "slides/lec-3.html#why-measurement-is-important-in-kinesiology",
+    "title": "Week 3: Intro to Stats",
+    "section": "Why Measurement is Important in Kinesiology",
+    "text": "Why Measurement is Important in Kinesiology\n\nMeasurement provides objective data\nMeasurement allows for comparison"
+  },
+  {
+    "objectID": "slides/lec-3.html#evaluation-of-interventions",
+    "href": "slides/lec-3.html#evaluation-of-interventions",
+    "title": "Week 3: Intro to Stats",
+    "section": "Evaluation of Interventions",
+    "text": "Evaluation of Interventions\n\nMeasurement is essential for evaluating the effectiveness of interventions\nMeasurement can help to identify patterns or trends in large amounts of data"
+  },
+  {
+    "objectID": "slides/lec-3.html#data-analysis-techniques",
+    "href": "slides/lec-3.html#data-analysis-techniques",
+    "title": "Week 3: Intro to Stats",
+    "section": "Data Analysis Techniques",
+    "text": "Data Analysis Techniques\n\nOne of the most common uses of statistics in Kinesiology is for data analyses This includes:\nDescriptive statistics: summarize and describe the main characteristics of a dataset\nInferential statistics: infer about a specific population based on a sample of data\nDescriptive statistics: mean, median, standard deviation, range\nInferential statistics: t-tests, ANOVA, regression analysis"
+  },
+  {
+    "objectID": "slides/lec-3.html#design-and-analysis-of-experiments-and-studies",
+    "href": "slides/lec-3.html#design-and-analysis-of-experiments-and-studies",
+    "title": "Week 3: Intro to Stats",
+    "section": "Design and Analysis of Experiments and Studies",
+    "text": "Design and Analysis of Experiments and Studies\n\nStatistics used to design and analyze experiments and studies in Kinesiology\nStatistical tests: determine if there is a significant difference between groups or if an intervention has an effect\nExamples: t-test, ANOVA"
+  },
+  {
+    "objectID": "slides/lec-3.html#correlation-and-causal-inference",
+    "href": "slides/lec-3.html#correlation-and-causal-inference",
+    "title": "Week 3: Intro to Stats",
+    "section": "Correlation and Causal Inference",
+    "text": "Correlation and Causal Inference\n\nCorrelation: measures the association between two variables\nCausal inference: determines if an observed association is due to a causal relationship"
+  },
+  {
+    "objectID": "slides/lec-3.html#interpreting-results",
+    "href": "slides/lec-3.html#interpreting-results",
+    "title": "Week 3: Intro to Stats",
+    "section": "Interpreting Results",
+    "text": "Interpreting Results\n\nConsider level of significance: probability that results occurred by chance (p < 0.05)\nConsider practical significance: meaningful results in the real world"
+  },
+  {
+    "objectID": "slides/lec-3.html#visualizing-data",
+    "href": "slides/lec-3.html#visualizing-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Visualizing Data",
+    "text": "Visualizing Data\n\nGraphical methods used to visualize data: histograms, scatter plots, box plots\nHelp identify patterns, outliers, and communicate results in an easily understandable format\n\n\n\n\nhttps://drfurtado.github.io/kin610/"
   }
 ]

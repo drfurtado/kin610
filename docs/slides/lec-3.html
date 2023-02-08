@@ -7,10 +7,10 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.313">
+  <meta name="generator" content="quarto-1.2.269">
 
-  <meta name="author" content="Dr.&nbsp;Mine Çetinkaya-Rundel">
-  <title>KIN 610 - Spring 2023 - SLR: Model fitting in R with tidymodels</title>
+  <meta name="author" content="Dr.&nbsp;Ovande Furtado Jr">
+  <title>KIN 610 - Spring 2023 - Week 3: Intro to Stats</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -28,70 +28,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -382,11 +318,11 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="KIN 610 - Spring 2023 - SLR: Model fitting in R with tidymodels">
-<meta property="og:description" content="STA 210 - Spring 2022">
+<meta property="og:title" content="KIN 610 - Spring 2023 - Week 3: Intro to Stats">
+<meta property="og:description" content="KIN 610 - Spring 2023">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
-<meta name="twitter:title" content="KIN 610 - Spring 2023 - SLR: Model fitting in R with tidymodels">
-<meta name="twitter:description" content="STA 210 - Spring 2022">
+<meta name="twitter:title" content="KIN 610 - Spring 2023 - Week 3: Intro to Stats">
+<meta name="twitter:description" content="KIN 610 - Spring 2023">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -398,256 +334,96 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">SLR: Model fitting in R with tidymodels</h1>
-  <p class="subtitle">STA 210 - Spring 2022</p>
+  <h1 class="title">Week 3: Intro to Stats</h1>
+  <p class="subtitle">KIN 610 - Spring 2023</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr.&nbsp;Mine Çetinkaya-Rundel 
+Dr.&nbsp;Ovande Furtado Jr 
 </div>
 </div>
 </div>
 
 </section>
 <section>
-<section id="welcome" class="title-slide slide level1 center">
-<h1>Welcome</h1>
+<section id="measurement" class="title-slide slide level1 center">
+<h1>Measurement</h1>
 
 </section>
-<section id="announcements" class="slide level2">
-<h2>Announcements</h2>
+<section id="introduction-to-measurement-in-kinesiology" class="slide level2">
+<h2>Introduction to Measurement in Kinesiology</h2>
 <ul>
-<li>If you’re just joining the class, welcome! Go to the <a href="https://sta210-s22.github.io/website">course website</a> and review content you’ve missed, read the syllabus, and complete the <em>Getting to know you</em> survey.</li>
-<li>Lab 1 is due Friday, at 5pm, on Gradescope.</li>
+<li>The importance of measurement in Kinesiology</li>
+<li>Measurement as the process of determining the value of a characteristic or quantity</li>
 </ul>
 </section>
-<section id="recap-of-last-lecture" class="slide level2 smaller">
-<h2>Recap of last lecture</h2>
-<div>
+<section id="why-measurement-is-important-in-kinesiology" class="slide level2">
+<h2>Why Measurement is Important in Kinesiology</h2>
 <ul>
-<li class="fragment"><p>Used simple linear regression to describe the relationship between a quantitative predictor and quantitative outcome variable.</p></li>
-<li class="fragment"><p>Used the least squares method to estimate the slope and intercept.</p></li>
-<li class="fragment"><p>We interpreted the slope and intercept.</p>
-<div>
-<ul>
-<li class="fragment"><strong>Slope:</strong> For every one unit increase in <span class="math inline">\(x\)</span>, we expect y to be higher/lower by <span class="math inline">\(\hat{\beta}_1\)</span> units, on average.</li>
-<li class="fragment"><strong>Intercept:</strong> If <span class="math inline">\(x\)</span> is 0, then we expect <span class="math inline">\(y\)</span> to be <span class="math inline">\(\hat{\beta}_0\)</span> units.</li>
-</ul>
-</div></li>
-<li class="fragment"><p>Predicted the response given a value of the predictor variable.</p></li>
-<li class="fragment"><p>Defined extrapolation and why we should avoid it.</p></li>
-</ul>
-</div>
-</section>
-<section id="interested-in-the-math-behind-it-all" class="slide level2">
-<h2>Interested in the math behind it all?</h2>
-<p>See the supplemental notes on <a href="../supplemental/slr-derivations.html">Deriving the Least-Squares Estimates for Simple Linear Regression</a> for more mathematical details on the derivations of the estimates of <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span>.</p>
-</section>
-<section id="outline" class="slide level2">
-<h2>Outline</h2>
-<ul>
-<li>Use tidymodels to fit and summarize regression models in R</li>
-<li>Complete an application exercise on exploratory data analysis and modeling</li>
+<li>Measurement provides objective data</li>
+<li>Measurement allows for comparison</li>
 </ul>
 </section>
-<section id="computational-setup" class="slide level2">
-<h2>Computational setup</h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># load packages</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">library</span>(tidyverse)       <span class="co"># for data wrangling</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">library</span>(tidymodels)      <span class="co"># for modeling</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">library</span>(fivethirtyeight) <span class="co"># for the fandango dataset</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co"># set default theme and larger font size for ggplot2</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a>ggplot2<span class="sc">::</span><span class="fu">theme_set</span>(ggplot2<span class="sc">::</span><span class="fu">theme_minimal</span>(<span class="at">base_size =</span> <span class="dv">16</span>))</span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co"># set default figure parameters for knitr</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a>knitr<span class="sc">::</span>opts_chunk<span class="sc">$</span><span class="fu">set</span>(</span>
-<span id="cb1-11"><a href="#cb1-11"></a>  <span class="at">fig.width =</span> <span class="dv">8</span>,</span>
-<span id="cb1-12"><a href="#cb1-12"></a>  <span class="at">fig.asp =</span> <span class="fl">0.618</span>,</span>
-<span id="cb1-13"><a href="#cb1-13"></a>  <span class="at">fig.retina =</span> <span class="dv">3</span>,</span>
-<span id="cb1-14"><a href="#cb1-14"></a>  <span class="at">dpi =</span> <span class="dv">300</span>,</span>
-<span id="cb1-15"><a href="#cb1-15"></a>  <span class="at">out.width =</span> <span class="st">"80%"</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
+<section id="evaluation-of-interventions" class="slide level2">
+<h2>Evaluation of Interventions</h2>
+<ul>
+<li>Measurement is essential for evaluating the effectiveness of interventions</li>
+<li>Measurement can help to identify patterns or trends in large amounts of data</li>
+</ul>
 </section></section>
 <section>
-<section id="data" class="title-slide slide level1 center">
-<h1>Data</h1>
-
-</section>
-<section id="movie-ratings" class="slide level2">
-<h2>Movie ratings</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
+<section id="statistics-in-kinesiology" class="title-slide slide level1 center">
+<h1>Statistics in Kinesiology</h1>
 <ul>
-<li>Data behind the FiveThirtyEight story <a href="&quot;Be Suspicious Of Online Movie Ratings, Especially Fandango's&quot;"><em>Be Suspicious Of Online Movie Ratings, Especially Fandango’s</em></a></li>
-<li>In the <strong>fivethirtyeight</strong> package: <a href="https://fivethirtyeight-r.netlify.app/reference/fandango.html"><code>fandango</code></a></li>
-<li>Contains every film that has at least 30 fan reviews on Fandango, an IMDb score, Rotten Tomatoes critic and user ratings, and Metacritic critic and user scores</li>
+<li>Statistics plays a crucial role in Kinesiology</li>
+<li>Allows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise</li>
 </ul>
-</div><div class="column" style="width:30%;">
-<p><img data-src="images/lec-2/fandango.png" alt="Fandango logo" width="200"></p>
-<p><img data-src="images/lec-2/imdb.png" alt="IMDB logo" width="200"></p>
-<p><img data-src="images/lec-2/rotten-tomatoes.png" alt="Rotten Tomatoes logo" width="200"></p>
-<p><img data-src="images/lec-2/metacritic.png" alt="Metacritic logo" width="200"></p>
-</div>
-</div>
 </section>
-<section id="data-prep" class="slide level2">
-<h2>Data prep</h2>
+<section id="data-analysis-techniques" class="slide level2">
+<h2>Data Analysis Techniques</h2>
 <ul>
-<li>Rename Rotten Tomatoes columns as <code>critics</code> and <code>audience</code></li>
-<li>Rename the dataset as <code>movie_scores</code></li>
+<li>One of the most common uses of statistics in Kinesiology is for data analyses This includes:</li>
+<li>Descriptive statistics: summarize and describe the main characteristics of a dataset</li>
+<li>Inferential statistics: infer about a specific population based on a sample of data</li>
+<li>Descriptive statistics: mean, median, standard deviation, range</li>
+<li>Inferential statistics: t-tests, ANOVA, regression analysis</li>
 </ul>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>movie_scores <span class="ot">&lt;-</span> fandango <span class="sc">%&gt;%</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a>  <span class="fu">rename</span>(</span>
-<span id="cb2-3"><a href="#cb2-3"></a>    <span class="at">critics =</span> rottentomatoes, </span>
-<span id="cb2-4"><a href="#cb2-4"></a>    <span class="at">audience =</span> rottentomatoes_user</span>
-<span id="cb2-5"><a href="#cb2-5"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 </section>
-<section id="data-visualization" class="slide level2">
-<h2>Data visualization</h2>
-
-<img data-src="lec-3_files/figure-revealjs/unnamed-chunk-1-1.png" style="width:80.0%" class="r-stretch quarto-figure-center"></section></section>
-<section>
-<section id="using-r-for-slr" class="title-slide slide level1 center">
-<h1>Using R for SLR</h1>
-
-</section>
-<section id="step-1-specify-model" class="slide level2">
-<h2>Step 1: Specify model</h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1"></a><span class="fu">linear_reg</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code>Linear Regression Model Specification (regression)
-
-Computational engine: lm </code></pre>
-</div>
-</div>
-</section>
-<section id="step-2-set-model-fitting-engine" class="slide level2">
-<h2>Step 2: <strong>Set model fitting <em>engine</em></strong></h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># #| code-line-numbers: "|2"</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a></span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb5-4"><a href="#cb5-4"></a>  <span class="fu">set_engine</span>(<span class="st">"lm"</span>) <span class="co"># lm: linear model</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code>Linear Regression Model Specification (regression)
-
-Computational engine: lm </code></pre>
-</div>
-</div>
-</section>
-<section id="step-3-fit-model-estimate-parameters" class="slide level2">
-<h2>Step 3: Fit model &amp; estimate parameters</h2>
-<p>using <strong>formula syntax</strong></p>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># #| code-line-numbers: "|3"</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a></span>
-<span id="cb7-3"><a href="#cb7-3"></a><span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb7-4"><a href="#cb7-4"></a>  <span class="fu">set_engine</span>(<span class="st">"lm"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb7-5"><a href="#cb7-5"></a>  <span class="fu">fit</span>(audience <span class="sc">~</span> critics, <span class="at">data =</span> movie_scores)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code>parsnip model object
-
-Fit time:  4ms 
-
-Call:
-stats::lm(formula = audience ~ critics, data = data)
-
-Coefficients:
-(Intercept)      critics  
-    32.3155       0.5187  </code></pre>
-</div>
-</div>
-</section>
-<section id="a-closer-look-at-model-output" class="slide level2">
-<h2>A closer look at model output</h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1"></a>movie_fit <span class="ot">&lt;-</span> <span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a>  <span class="fu">set_engine</span>(<span class="st">"lm"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb9-3"><a href="#cb9-3"></a>  <span class="fu">fit</span>(audience <span class="sc">~</span> critics, <span class="at">data =</span> movie_scores)</span>
-<span id="cb9-4"><a href="#cb9-4"></a></span>
-<span id="cb9-5"><a href="#cb9-5"></a>movie_fit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code>parsnip model object
-
-Fit time:  2ms 
-
-Call:
-stats::lm(formula = audience ~ critics, data = data)
-
-Coefficients:
-(Intercept)      critics  
-    32.3155       0.5187  </code></pre>
-</div>
-</div>
-<p><span class="math display">\[\widehat{\text{audience}} = 32.3155 + 0.5187 \times \text{critics}\]</span></p>
-<div class="fragment">
-<p><strong>Note:</strong> The intercept is off by a tiny bit from the hand-calculated intercept, this is likely just rounding error in the hand calculation.</p>
-</div>
-</section>
-<section id="the-regression-output" class="slide level2">
-<h2>The regression output</h2>
-<p>We’ll focus on the first column for now…</p>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="co"># #| code-line-numbers: "|4"</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a></span>
-<span id="cb11-3"><a href="#cb11-3"></a><span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span></span>
-<span id="cb11-4"><a href="#cb11-4"></a>  <span class="fu">set_engine</span>(<span class="st">"lm"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb11-5"><a href="#cb11-5"></a>  <span class="fu">fit</span>(audience <span class="sc">~</span> critics, <span class="at">data =</span> movie_scores) <span class="sc">%&gt;%</span></span>
-<span id="cb11-6"><a href="#cb11-6"></a>  <span class="fu">tidy</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code># A tibble: 2 × 5
-  term        estimate std.error statistic  p.value
-  &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;
-1 (Intercept)   32.3      2.34        13.8 4.03e-28
-2 critics        0.519    0.0345      15.0 2.70e-31</code></pre>
-</div>
-</div>
-</section>
-<section id="prediction" class="slide level2">
-<h2>Prediction</h2>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a><span class="co"># #| code-line-numbers: "|2|5"</span></span>
-<span id="cb13-2"><a href="#cb13-2"></a></span>
-<span id="cb13-3"><a href="#cb13-3"></a><span class="co"># create a data frame for a new movie</span></span>
-<span id="cb13-4"><a href="#cb13-4"></a>new_movie <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">critics =</span> <span class="dv">50</span>)</span>
-<span id="cb13-5"><a href="#cb13-5"></a></span>
-<span id="cb13-6"><a href="#cb13-6"></a><span class="co"># predict the outcome for a new movie</span></span>
-<span id="cb13-7"><a href="#cb13-7"></a><span class="fu">predict</span>(movie_fit, new_movie)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-stdout">
-<pre><code># A tibble: 1 × 1
-  .pred
-  &lt;dbl&gt;
-1  58.2</code></pre>
-</div>
-</div>
-</section></section>
-<section id="application-exercise" class="title-slide slide level1 center">
-<h1>Application exercise</h1>
-<div class="appex">
-<p>📋 <a href="https://github.com/sta210-s22/ae-1-dcbikeshare">github.com/sta210-s22/ae-1-dcbikeshare</a></p>
-</div>
-<p>followed by a demo of exporting your work and uploading to GradeScope</p>
-</section>
-
-<section id="recap" class="title-slide slide level1 center">
-<h1>Recap</h1>
+<section id="design-and-analysis-of-experiments-and-studies" class="slide level2">
+<h2>Design and Analysis of Experiments and Studies</h2>
 <ul>
-<li>Used tidymodels to fit and summarize regression models in R</li>
-<li>Completed an application exercise on exploratory data analysis and modeling</li>
+<li>Statistics used to design and analyze experiments and studies in Kinesiology</li>
+<li>Statistical tests: determine if there is a significant difference between groups or if an intervention has an effect</li>
+<li>Examples: t-test, ANOVA</li>
+</ul>
+</section>
+<section id="correlation-and-causal-inference" class="slide level2">
+<h2>Correlation and Causal Inference</h2>
+<ul>
+<li>Correlation: measures the association between two variables</li>
+<li>Causal inference: determines if an observed association is due to a causal relationship</li>
+</ul>
+</section>
+<section id="interpreting-results" class="slide level2">
+<h2>Interpreting Results</h2>
+<ul>
+<li>Consider level of significance: probability that results occurred by chance (p &lt; 0.05)</li>
+<li>Consider practical significance: meaningful results in the real world</li>
+</ul>
+</section>
+<section id="visualizing-data" class="slide level2">
+<h2>Visualizing Data</h2>
+<ul>
+<li>Graphical methods used to visualize data: histograms, scatter plots, box plots</li>
+<li>Help identify patterns, outliers, and communicate results in an easily understandable format</li>
 </ul>
 
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://sta210-s22.github.io/website/">sta210-s22.github.io/website</a></p>
+<p><a href="https://drfurtado.github.io/kin610/">https://drfurtado.github.io/kin610/</a></p>
 </div>
-</section>
+</section></section>
     </div>
   </div>
 
@@ -682,7 +458,7 @@ Coefficients:
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"1aeba1848ef37714","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"4dcd60ada08c61fc","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -862,48 +638,6 @@ Coefficients:
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          // dispatch for htmlwidgets
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for reveal
-        if (window.Reveal) {
-          window.Reveal.addEventListener("slidechanged", function(event) {
-            fireSlideChanged(event.previousSlide, event.currentSlide);
-          });
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

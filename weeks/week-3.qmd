@@ -3,7 +3,7 @@ title: "Week 3"
 subtitle: "Introduction to Statistics and Measurement"
 format: 
   html:
-    toc: true
+    toc: false
     toc-location: right
     smooth-scroll: true
     tbl-colwidths: [5,95]
@@ -27,15 +27,13 @@ Download this lesson as [PDF](week-2.pdf)
 
 ## Prepare
 
--   Read Furtado (2023)
+-   Read @furtado2023
 
 ## Participate
 
 While in class, ask questions and take notes.
 
 ## Practice
-
-TBD
 
 ## Perform
 
