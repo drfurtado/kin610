@@ -99,7 +99,14 @@ You will be evaluated on your preparedness by completing the a `quiz` and the `m
 
 ### Quizzes {#sec-quizzes}
 
-`Before` each class, you will complete a multiple-choice quiz on the week's topic. You must score 100% on each quiz. If you score below 100%, you will have to retake the quiz until you score 100%. You can only move to the following quiz if you score 100% on a quiz.
+`Before` each class, you will complete a multiple-choice quiz on the week's topic. ~~You must score 100% on each quiz. If you score below 100%, you will have to retake the quiz until you score 100%. You can only move to the following quiz if you score 100% on a quiz.~~
+
+A few notes about quizzes:
+
+1.  You will be allowed to take the quiz as many times as you want (as long as the quiz is still open);
+2.  The highest score of taken attempts will be recorded for grading purposes;
+3.  You will be presented with ten questions on each attempt. Questions are drawn from a database comprised of more than ten questions;
+4.  Quizzes are timed; once started, students have 20 minutes to complete each attempt.
 
 ### Labs {#labs}
 
