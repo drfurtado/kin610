@@ -8,7 +8,7 @@ format:
     smooth-scroll: true
     tbl-colwidths: [5,95]
   pdf:
-    toc: true
+    toc: false
     number-sections: true
     colorlinks: true
     tbl-colwidths: [5,95]
