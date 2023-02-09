@@ -1,6 +1,7 @@
 ---
 title: "Week 3: Intro to Stats"
-subtitle: "KIN 610 - Spring 2023"
+subtitle: |
+           KIN 610 - Spring 2023
 author: "Dr. Ovande Furtado Jr"
 footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
 logo: "images/logo.png"
@@ -8,60 +9,270 @@ format:
   revealjs: 
     theme: slides.scss
     multiplex: true
+    incremental: true
     transition: fade
     slide-number: true
+    controls: true
+    controls-tutorial: true
+    controls-layout: edges
+    chalkboard: true
 editor: visual
 execute:
   freeze: auto
+bibliography: references.bib
 ---
+
+## Credits
+
+@furtado2023
+
 # Measurement
 
 ## Introduction to Measurement in Kinesiology
 
-- The importance of measurement in Kinesiology
-- Measurement as the process of determining the value of a characteristic or quantity
+-   The importance of measurement in Kinesiology
+-   Measurement as the process of determining the value of a characteristic or quantity
 
 ## Why Measurement is Important in Kinesiology
 
-- Measurement provides objective data
-- Measurement allows for comparison
+-   Measurement provides objective data
+-   Measurement allows for comparison
 
 ## Evaluation of Interventions
 
-- Measurement is essential for evaluating the effectiveness of interventions
-- Measurement can help to identify patterns or trends in large amounts of data
+-   Measurement is essential for evaluating the effectiveness of interventions
+-   Measurement can help to identify patterns or trends in large amounts of data
 
 # Statistics in Kinesiology
 
-- Statistics plays a crucial role in Kinesiology
-- Allows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise
+## Intro
+
+-   Statistics plays a crucial role in Kinesiology
+-   Allows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise
 
 ## Data Analysis Techniques
 
-- One of the most common uses of statistics in Kinesiology is for data analyses
-This includes:
- - Descriptive statistics: summarize and describe the main characteristics of a dataset
- - Inferential statistics: infer about a specific population based on a sample of data
- - Descriptive statistics: mean, median, standard deviation, range
- - Inferential statistics: t-tests, ANOVA, regression analysis
+-   One of the most common uses of statistics in Kinesiology is for data analyses This includes:
+-   Descriptive statistics: summarize and describe the main characteristics of a dataset
+-   Inferential statistics: infer about a specific population based on a sample of data
+-   Descriptive statistics: mean, median, standard deviation, range
+-   Inferential statistics: t-tests, ANOVA, regression analysis
 
 ## Design and Analysis of Experiments and Studies
 
-- Statistics used to design and analyze experiments and studies in Kinesiology
-- Statistical tests: determine if there is a significant difference between groups or if an intervention has an effect
-- Examples: t-test, ANOVA
+-   Statistics used to design and analyze experiments and studies in Kinesiology
+-   Statistical tests: determine if there is a significant difference between groups or if an intervention has an effect
+-   Examples: t-test, ANOVA
 
 ## Correlation and Causal Inference
 
-- Correlation: measures the association between two variables
-- Causal inference: determines if an observed association is due to a causal relationship
+-   Correlation: measures the association between two variables
+-   Causal inference: determines if an observed association is due to a causal relationship
 
 ## Interpreting Results
 
-- Consider level of significance: probability that results occurred by chance (p < 0.05)
-- Consider practical significance: meaningful results in the real world
+-   Consider level of significance: probability that results occurred by chance (p \< 0.05)
+-   Consider practical significance: meaningful results in the real world
 
 ## Visualizing Data
 
-- Graphical methods used to visualize data: histograms, scatter plots, box plots
-- Help identify patterns, outliers, and communicate results in an easily understandable format
+-   Graphical methods used to visualize data: histograms, scatter plots, box plots
+-   Help identify patterns, outliers, and communicate results in an easily understandable format
+
+# Variables and Constants in Scientific Research
+
+## Variables
+
+- A variable is a characteristic or factor that can change or take on different values within a study or experiment.
+- Example: In a study investigating the effects of a new exercise program on muscle strength, the variable of interest would be muscle strength.
+
+## Constants
+
+- A constant is a characteristic or factor that remains unchanged or fixed within a study or experiment.
+- Example: In a study investigating the effects of a new exercise program on muscle strength, the age of the participants could be considered a constant.
+
+## Benefits of Controlling Constants
+
+- Allows researchers to isolate the effects of a particular variable of interest.
+- Confidence that any changes observed are due to the variable of interest and not other factors.
+    
+## Summary
+
+- Variables and constants are important concepts in scientific research.
+- Variables are factors that can change, while constants are factors that remain unchanged.
+- Understanding and controlling constants is important to isolate the effects of the variables of interest.
+
+# Continuous vs. Discrete Variables
+
+## Continuous Variables
+
+- A continuous variable is a variable that can take on any value within a specific range.
+- Examples: height, weight, time
+- Can be measured to an infinite number of decimal places.
+
+## Discrete Variables
+
+- A discrete variable is a variable that can only take on specific values.
+- Examples: number of children in a household
+- Discrete variables are countable, usually measured by counting.
+
+## Difference between Continuous and Discrete Variables {.scrollable}
+
+- The main difference between continuous and discrete variables is how data is collected and analyzed.
+ - Example 1: Study investigating the relationship between weight and blood pressure, weight is a continuous variable, and blood pressure is also continuous. Pearson Correlation Coefficient would be used to investigate the relationship.
+ - Example 2: Study investigating the relationship between the number of hours of sleep and the number of absenteeism in a company, hours of sleep are continuous and can have an infinite number of values, while absenteeism is discrete. Spearman Rho would be used to investigate the correlation.
+
+## Importance of Understanding Continuous vs. Discrete Variables
+
+- Affects the methods used to collect and analyze data.
+- Researchers must use the appropriate statistical techniques for their specific type of variables to draw valid conclusions from their data.
+
+## Summary
+
+- Continuous and discrete variables are two types of variables used in research.
+- Continuous variables can take on any value within a specific range, while discrete variables can only take on specific values.
+- Understanding the difference between these two types of variables is important because it can affect the methods used to collect and analyze data.
+
+# Levels of Numerical Data
+
+## Intro
+
+- Numerical data is classified into four types based on their level of measurement and the types of statistical analysis that can be used.
+- Nominal, ordinal, interval, and ratio data are different types of numerical data.
+
+## Nominal Data
+
+- Nominal data is a non-numeric type of data that can be placed into categories but cannot be meaningfully ordered or quantified.
+ - Examples: color, gender, religion
+- Analysis methods: frequency distributions, chi-squared tests, contingency tables
+
+## Ordinal Data
+
+- Ordinal data is a type of data that can be placed into categories and can be meaningfully ordered, but the difference between the data points is not necessarily equal.
+ - Examples: education level, socioeconomic status, satisfaction level
+- Analysis methods: medians, quartiles, percentiles
+
+## Interval Data
+
+- Interval data is a type of data that has equal intervals between the data points but does not have an absolute zero point.
+ - Examples: temperature measured in Celsius or Fahrenheit
+- Analysis methods: central tendency and variability measures
+
+## Ratio Data
+
+- Ratio data is a type of data with equal intervals between the data points and an absolute zero point.
+ - Examples: weight, height, time
+- Analysis methods: central tendency and variability measures, correlation, and regression analysis
+
+## Conclusion
+
+- Understanding the differences between nominal, ordinal, interval, and ratio data is crucial because it affects the statistical methods used to analyze and interpret the data.
+- Choosing the appropriate type of data and analysis is important to draw meaningful and accurate conclusions.
+
+# Dependent and Independent Variables
+
+## Independent Variable
+
+- Independent variable (IV) is the variable that is manipulated or changed in an experiment.
+- The IV is the factor the researcher is interested in studying.
+- Example: In a study investigating the effects of a new exercise program on muscle strength, the IV would be the exercise program itself.
+
+## Dependent Variable
+
+- Dependent variable (DV) is the factor affected by the independent variable.
+- The DV is the variable that is measured or observed in response to the manipulation of the independent variable.
+ - Example: In a study investigating the effects of a new exercise program on muscle strength, the DV would be muscle strength, measured before and after the exercise program to see if there is an improvement.
+
+## The Relationship between IV and DV
+
+- The independent variable is manipulated or controlled by the researcher.
+- The dependent variable is measured or observed.
+- Understanding the relationship between these two variables allows researchers to establish a cause-and-effect relationship and draw valid conclusions from their research.
+
+## Another Example
+
+- A study investigating the effect of a specific training program on running performance.
+- Independent variable: The training program
+- Dependent variable: Running performance, measured before and after the program.
+
+## Conclusion
+
+- Dependent and independent variables are important concepts in scientific research.
+- The researcher manipulates independent variables and dependent variables are measured or observed.
+- Understanding the relationship between these two variables is crucial to establish a cause-and-effect relationship and draw valid conclusions from research.
+    
+# Types of Research
+
+## Intro
+
+- Research is a systematic and scientific inquiry into a subject or phenomenon
+- It involves a process of discovering new knowledge, understanding complex issues, and making informed decisions
+
+## Three Common Types of Research
+
+- Historical Research
+- Observational Research
+- Experimental Research
+
+## Historical Research
+
+- Involves the collection and analysis of primary and secondary sources
+- Investigates events, phenomena, or people in the past
+- Relying on written documents, photographs, and other artifacts to reconstruct the past
+- Understanding the origin of events, historical trends, and the development of ideas, institutions, or societies
+
+- Observational Research
+
+- The researcher observes but does not manipulate the phenomenon of interest
+- May involve collecting both quantitative and qualitative data
+- Typically does not involve manipulation of independent variables
+- Can be conducted in natural settings, such as in the field or controlled laboratory settings
+ - Example: studying athletes’ natural movement patterns or assessing the effectiveness of rehabilitation programs
+
+## Experimental Research
+
+- The researcher manipulates one or more independent variables and measures their effects on one or more dependent variables
+- Establishes cause-and-effect relationships between variables
+- Involves using control groups and randomly assigning participants to treatment or control groups
+ - Example: investigating the effects of different training protocols on physical performance or testing the effectiveness of different therapeutic interventions
+
+## Conclusion
+
+- Research is a systematic and scientific inquiry into a particular subject or phenomenon
+- Historical research, observational research, and experimental research are three common types of research
+- Each type of research has its strengths, limitations, and purposes
+- The choice of which type to use will depend on the research question and the study’s goals.
+
+# Internal and external validity
+
+## Introduction
+
+- Research is a systematic and scientific inquiry into a particular subject or phenomenon
+- Two critical concepts in research: internal and external validity
+
+## Internal Validity
+
+- Definition: degree to which the results of a study can be attributed to the manipulation of the independent variable
+- Importance in Kinesiology: ensuring that the results of a study can be attributed to the specific training protocol or intervention tested
+ - Example: investigating the effects of a specific strength training program on muscle mass
+
+## External Validity
+
+- Definition: degree to which the results of a study can be generalized to other populations, settings, and periods
+- Importance in Kinesiology: ensuring that the results of a study can be applied to real-world situations and other populations
+ - Example: investigating the effects of a specific strength training program on muscle mass in young men
+
+## Internal and External Validity
+
+- Separate concepts, but related
+- Researchers should strive to achieve high internal and external validity
+- Trade-offs between the two may be necessary
+
+## Conclusion
+
+- Statistics is a critical component of kinesiology
+- Understanding and applying statistical concepts and methods is crucial for informed decision-making
+- Key concepts like measurement, variables, and research types must be understood and applied properly
+- Understanding and applying concepts like internal and external validity is essential for drawing valid conclusions from research findings.
+
+# References

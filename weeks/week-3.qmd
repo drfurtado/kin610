@@ -31,7 +31,9 @@ Download this lesson as [PDF](week-3.pdf)
 
 ## Participate
 
-While in class, ask questions and take notes.
+While in class, students are to ask questions and take notes.
+
+[Presentation Slides](../slides/lec-3.qmd)
 
 ## Practice
 

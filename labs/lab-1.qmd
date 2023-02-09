@@ -55,7 +55,25 @@ Every level, a number of tiles will flash white. Memorize them, and pick them ag
 2.  Visit the Lab 1 assignment in Canvas and submit the link.
 3.  While in class, you will be asked to input your scores on a spreadsheet. The data will be used throughout the semester for various purposes.
 
-<!--# link to create id: https://www.getuniqueid.com, submit scores here: https://bit.ly/3JYNheP -->
+Link to create `ID`: <https://www.getuniqueid.com>
+
+-   Visit the link above
+-   Copy ONLY the first sequence of characters + the first dash (9 characters including the dash)
+-   Paste the code sequence elsewhere (i.e., Word doc)
+-   Add the current year and semester (i.e., spring2023 or fall2024) after the dash
+-   The final form of your `ID` should look like this: `c7b96573-spring2023`
+
+Submit scores here: <https://bit.ly/3JYNheP>
+
+-   Visit the Human Benchmark Dashboard
+
+-   Open the link above; it will take you to a online spreadsheet (Google Sheets)
+
+-   Enter your `ID` in the `ID column`
+
+-   Select the first test you completed under `Test`; then select `Sex`, `Term`, `Year`, and input the raw `Score` and the `Percentile` associated with the test you took.
+
+-   Repeat this process for the other tests
 
 ## Grading
 
