@@ -21,6 +21,8 @@ editor: visual
 
 ::: callout-important
 -   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+-   Deadlines
+    -   Complete the Quiz and the Takeaways assignment before class
 
 Download the lesson in [PDF](week-4.pdf)
 :::
