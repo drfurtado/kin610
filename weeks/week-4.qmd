@@ -1,7 +1,7 @@
 ---
 title: "Week 4"
 subtitle: |
-          | Organizing and Displaying Data Percentiles
+          | Organizing and Displaying Data Percentiles;
           | Percentiles
 format: 
   html:
@@ -10,7 +10,7 @@ format:
     smooth-scroll: true
     tbl-colwidths: [5,95]
   pdf:
-    toc: true
+    toc: false
     number-sections: true
     colorlinks: true
     tbl-colwidths: [5,95]
@@ -27,11 +27,12 @@ Download the lesson in [PDF](week-4.pdf)
 
 ## Prepare
 
--   Read Furtado <!--# add reference to reading here -->
+-   Read @furtado2022
+-   Read @navarro2022, chap. 5
 
 ## Participate
 
--   Click [here](../slides/lec-1.qmd) to review the lesson for this topic
+-   This page will be updated before our meeting with the link to the lecture slides
 
 ## Practice
 
