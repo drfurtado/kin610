@@ -487,14 +487,14 @@
     "href": "weeks/week-3.html#participate",
     "title": "Week 3",
     "section": "Participate",
-    "text": "Participate\nWhile in class, ask questions and take notes."
+    "text": "Participate\nWhile in class, students are to ask questions and take notes.\nPresentation Slides"
   },
   {
     "objectID": "weeks/week-3.html#practice",
     "href": "weeks/week-3.html#practice",
     "title": "Week 3",
     "section": "Practice",
-    "text": "Practice"
+    "text": "Practice\nTBD"
   },
   {
     "objectID": "weeks/week-3.html#perform",
@@ -7284,6 +7284,286 @@
     "href": "slides/lec-3.html#visualizing-data",
     "title": "Week 3: Intro to Stats",
     "section": "Visualizing Data",
-    "text": "Visualizing Data\n\nGraphical methods used to visualize data: histograms, scatter plots, box plots\nHelp identify patterns, outliers, and communicate results in an easily understandable format\n\n\n\n\nhttps://drfurtado.github.io/kin610/"
+    "text": "Visualizing Data\n\nGraphical methods used to visualize data: histograms, scatter plots, box plots\nHelp identify patterns, outliers, and communicate results in an easily understandable format"
+  },
+  {
+    "objectID": "slides/lec-3.html",
+    "href": "slides/lec-3.html",
+    "title": "Week 3: Intro to Stats",
+    "section": "",
+    "text": "The importance of measurement in Kinesiology\nMeasurement as the process of determining the value of a characteristic or quantity\n\n\n\n\n\nMeasurement provides objective data\nMeasurement allows for comparison\n\n\n\n\n\nMeasurement is essential for evaluating the effectiveness of interventions\nMeasurement can help to identify patterns or trends in large amounts of data"
+  },
+  {
+    "objectID": "slides/lec-3.html#credits",
+    "href": "slides/lec-3.html#credits",
+    "title": "Week 3: Intro to Stats",
+    "section": "Credits",
+    "text": "Credits\nFurtado (2023)"
+  },
+  {
+    "objectID": "slides/lec-3.html#variables",
+    "href": "slides/lec-3.html#variables",
+    "title": "Week 3: Intro to Stats",
+    "section": "Variables",
+    "text": "Variables\n\nA variable is a characteristic or factor that can change or take on different values within a study or experiment.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the variable of interest would be muscle strength."
+  },
+  {
+    "objectID": "slides/lec-3.html#constants",
+    "href": "slides/lec-3.html#constants",
+    "title": "Week 3: Intro to Stats",
+    "section": "Constants",
+    "text": "Constants\n\nA constant is a characteristic or factor that remains unchanged or fixed within a study or experiment.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the age of the participants could be considered a constant."
+  },
+  {
+    "objectID": "slides/lec-3.html#benefits-of-controlling-constants",
+    "href": "slides/lec-3.html#benefits-of-controlling-constants",
+    "title": "Week 3: Intro to Stats",
+    "section": "Benefits of Controlling Constants",
+    "text": "Benefits of Controlling Constants\n\nAllows researchers to isolate the effects of a particular variable of interest.\nConfidence that any changes observed are due to the variable of interest and not other factors."
+  },
+  {
+    "objectID": "slides/lec-3.html#summary",
+    "href": "slides/lec-3.html#summary",
+    "title": "Week 3: Intro to Stats",
+    "section": "Summary",
+    "text": "Summary\n\nVariables and constants are important concepts in scientific research.\nVariables are factors that can change, while constants are factors that remain unchanged.\nUnderstanding and controlling constants is important to isolate the effects of the variables of interest."
+  },
+  {
+    "objectID": "slides/lec-3.html#continuous-variables",
+    "href": "slides/lec-3.html#continuous-variables",
+    "title": "Week 3: Intro to Stats",
+    "section": "Continuous Variables",
+    "text": "Continuous Variables\n\nA continuous variable is a variable that can take on any value within a specific range.\nExamples: height, weight, time\nCan be measured to an infinite number of decimal places."
+  },
+  {
+    "objectID": "slides/lec-3.html#discrete-variables",
+    "href": "slides/lec-3.html#discrete-variables",
+    "title": "Week 3: Intro to Stats",
+    "section": "Discrete Variables",
+    "text": "Discrete Variables\n\nA discrete variable is a variable that can only take on specific values.\nExamples: number of children in a household\nDiscrete variables are countable, usually measured by counting."
+  },
+  {
+    "objectID": "slides/lec-3.html#difference-between-continuous-and-discrete-variables",
+    "href": "slides/lec-3.html#difference-between-continuous-and-discrete-variables",
+    "title": "Week 3: Intro to Stats",
+    "section": "Difference between Continuous and Discrete Variables",
+    "text": "Difference between Continuous and Discrete Variables\n\nThe main difference between continuous and discrete variables is how data is collected and analyzed.\nExample 1: Study investigating the relationship between weight and blood pressure, weight is a continuous variable, and blood pressure is also continuous. Pearson Correlation Coefficient would be used to investigate the relationship.\nExample 2: Study investigating the relationship between the number of hours of sleep and the number of absenteeism in a company, hours of sleep are continuous and can have an infinite number of values, while absenteeism is discrete. Spearman Rho would be used to investigate the correlation."
+  },
+  {
+    "objectID": "slides/lec-3.html#importance-of-understanding-continuous-vs.-discrete-variables",
+    "href": "slides/lec-3.html#importance-of-understanding-continuous-vs.-discrete-variables",
+    "title": "Week 3: Intro to Stats",
+    "section": "Importance of Understanding Continuous vs. Discrete Variables",
+    "text": "Importance of Understanding Continuous vs. Discrete Variables\n\nAffects the methods used to collect and analyze data.\nResearchers must use the appropriate statistical techniques for their specific type of variables to draw valid conclusions from their data."
+  },
+  {
+    "objectID": "slides/lec-3.html#summary-1",
+    "href": "slides/lec-3.html#summary-1",
+    "title": "Week 3: Intro to Stats",
+    "section": "Summary",
+    "text": "Summary\n\nContinuous and discrete variables are two types of variables used in research.\nContinuous variables can take on any value within a specific range, while discrete variables can only take on specific values.\nUnderstanding the difference between these two types of variables is important because it can affect the methods used to collect and analyze data."
+  },
+  {
+    "objectID": "slides/lec-3.html#numerical-data",
+    "href": "slides/lec-3.html#numerical-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Numerical Data",
+    "text": "Numerical Data\n\nThis type of data includes numbers that can be meaningfully measured or ordered, such as weight, height, temperature, and time.\nNumerical data can be further divided into two subcategories: discrete and continuous.\nDiscrete data can only take on certain values (such as whole numbers).\nContinuous data can take on any value within a certain range."
+  },
+  {
+    "objectID": "slides/lec-3.html#categorical-data",
+    "href": "slides/lec-3.html#categorical-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Categorical Data",
+    "text": "Categorical Data\n\nThis type of data includes non-numeric values that can be placed into categories or groups, such as color, gender, and occupation.\nCategorical data can be further divided into two subcategories: nominal and ordinal.\nNominal data cannot be ordered in any meaningful way (such as color).\nOrdinal data can be ordered (such as education level)."
+  },
+  {
+    "objectID": "slides/lec-3.html#time-series-data",
+    "href": "slides/lec-3.html#time-series-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Time-series Data",
+    "text": "Time-series Data\n\nThis type of data is a set of data points collected over time, often at regular intervals.\nThe goal is to understand temporal relationships between variables or how the variable of interest changes over time."
+  },
+  {
+    "objectID": "slides/lec-3.html#cross-sectional-data",
+    "href": "slides/lec-3.html#cross-sectional-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Cross-sectional Data",
+    "text": "Cross-sectional Data\n\nThis type of data is collected from a group of individuals or objects at a single point in time.\nThe goal is to understand the relationship between different variables for a group of individuals or objects at the same point in time."
+  },
+  {
+    "objectID": "slides/lec-3.html#experimental-data",
+    "href": "slides/lec-3.html#experimental-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Experimental Data",
+    "text": "Experimental Data\n\nThis type of data is collected by conducting a controlled experiment, where one variable is manipulated, and the effects on other variables are measured.\nThis allows the researcher to establish a causality relationship between variables."
+  },
+  {
+    "objectID": "slides/lec-3.html#summary-2",
+    "href": "slides/lec-3.html#summary-2",
+    "title": "Week 3: Intro to Stats",
+    "section": "Summary",
+    "text": "Summary\n\nEach type of data requires different statistical methods to properly analyze, interpret, and draw valid conclusions.\nUnderstanding data classification and choosing the appropriate statistical methods for each type of data is critical for accurate and meaningful analysis."
+  },
+  {
+    "objectID": "slides/lec-3.html#nominal-data",
+    "href": "slides/lec-3.html#nominal-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Nominal Data",
+    "text": "Nominal Data\n\nNominal data is a non-numeric type of data that can be placed into categories but cannot be meaningfully ordered or quantified.\nExamples: color, gender, religion\nAnalysis methods: frequency distributions, chi-squared tests, contingency tables"
+  },
+  {
+    "objectID": "slides/lec-3.html#ordinal-data",
+    "href": "slides/lec-3.html#ordinal-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Ordinal Data",
+    "text": "Ordinal Data\n\nOrdinal data is a type of data that can be placed into categories and can be meaningfully ordered, but the difference between the data points is not necessarily equal.\nExamples: education level, socioeconomic status, satisfaction level\nAnalysis methods: medians, quartiles, percentiles"
+  },
+  {
+    "objectID": "slides/lec-3.html#interval-data",
+    "href": "slides/lec-3.html#interval-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Interval Data",
+    "text": "Interval Data\n\nInterval data is a type of data that has equal intervals between the data points but does not have an absolute zero point.\nExamples: temperature measured in Celsius or Fahrenheit\nAnalysis methods: central tendency and variability measures"
+  },
+  {
+    "objectID": "slides/lec-3.html#ratio-data",
+    "href": "slides/lec-3.html#ratio-data",
+    "title": "Week 3: Intro to Stats",
+    "section": "Ratio Data",
+    "text": "Ratio Data\n\nRatio data is a type of data with equal intervals between the data points and an absolute zero point.\nExamples: weight, height, time\nAnalysis methods: central tendency and variability measures, correlation, and regression analysis"
+  },
+  {
+    "objectID": "slides/lec-3.html#conclusion",
+    "href": "slides/lec-3.html#conclusion",
+    "title": "Week 3: Intro to Stats",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nUnderstanding the differences between nominal, ordinal, interval, and ratio data is crucial because it affects the statistical methods used to analyze and interpret the data.\nChoosing the appropriate type of data and analysis is important to draw meaningful and accurate conclusions."
+  },
+  {
+    "objectID": "slides/lec-3.html#independent-variable",
+    "href": "slides/lec-3.html#independent-variable",
+    "title": "Week 3: Intro to Stats",
+    "section": "Independent Variable",
+    "text": "Independent Variable\n\nIndependent variable (IV) is the variable that is manipulated or changed in an experiment.\nThe IV is the factor the researcher is interested in studying.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the IV would be the exercise program itself."
+  },
+  {
+    "objectID": "slides/lec-3.html#dependent-variable",
+    "href": "slides/lec-3.html#dependent-variable",
+    "title": "Week 3: Intro to Stats",
+    "section": "Dependent Variable",
+    "text": "Dependent Variable\n\nDependent variable (DV) is the factor affected by the independent variable.\nThe DV is the variable that is measured or observed in response to the manipulation of the independent variable.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the DV would be muscle strength, measured before and after the exercise program to see if there is an improvement."
+  },
+  {
+    "objectID": "slides/lec-3.html#the-relationship-between-iv-and-dv",
+    "href": "slides/lec-3.html#the-relationship-between-iv-and-dv",
+    "title": "Week 3: Intro to Stats",
+    "section": "The Relationship between IV and DV",
+    "text": "The Relationship between IV and DV\n\nThe independent variable is manipulated or controlled by the researcher.\nThe dependent variable is measured or observed.\nUnderstanding the relationship between these two variables allows researchers to establish a cause-and-effect relationship and draw valid conclusions from their research."
+  },
+  {
+    "objectID": "slides/lec-3.html#another-example",
+    "href": "slides/lec-3.html#another-example",
+    "title": "Week 3: Intro to Stats",
+    "section": "Another Example",
+    "text": "Another Example\n\nA study investigating the effect of a specific training program on running performance.\nIndependent variable: The training program\nDependent variable: Running performance, measured before and after the program."
+  },
+  {
+    "objectID": "slides/lec-3.html#conclusion-1",
+    "href": "slides/lec-3.html#conclusion-1",
+    "title": "Week 3: Intro to Stats",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nDependent and independent variables are important concepts in scientific research.\nThe researcher manipulates independent variables and dependent variables are measured or observed.\nUnderstanding the relationship between these two variables is crucial to establish a cause-and-effect relationship and draw valid conclusions from research."
+  },
+  {
+    "objectID": "slides/lec-3.html#three-common-types-of-research",
+    "href": "slides/lec-3.html#three-common-types-of-research",
+    "title": "Week 3: Intro to Stats",
+    "section": "Three Common Types of Research",
+    "text": "Three Common Types of Research\n\nHistorical Research\nObservational Research\nExperimental Research"
+  },
+  {
+    "objectID": "slides/lec-3.html#historical-research",
+    "href": "slides/lec-3.html#historical-research",
+    "title": "Week 3: Intro to Stats",
+    "section": "Historical Research",
+    "text": "Historical Research\n\nInvolves the collection and analysis of primary and secondary sources\nInvestigates events, phenomena, or people in the past\nRelying on written documents, photographs, and other artifacts to reconstruct the past\nUnderstanding the origin of events, historical trends, and the development of ideas, institutions, or societies\nObservational Research\nThe researcher observes but does not manipulate the phenomenon of interest\nMay involve collecting both quantitative and qualitative data\nTypically does not involve manipulation of independent variables\nCan be conducted in natural settings, such as in the field or controlled laboratory settings\nExample: studying athletes’ natural movement patterns or assessing the effectiveness of rehabilitation programs"
+  },
+  {
+    "objectID": "slides/lec-3.html#experimental-research",
+    "href": "slides/lec-3.html#experimental-research",
+    "title": "Week 3: Intro to Stats",
+    "section": "Experimental Research",
+    "text": "Experimental Research\n\nThe researcher manipulates one or more independent variables and measures their effects on one or more dependent variables\nEstablishes cause-and-effect relationships between variables\nInvolves using control groups and randomly assigning participants to treatment or control groups\nExample: investigating the effects of different training protocols on physical performance or testing the effectiveness of different therapeutic interventions"
+  },
+  {
+    "objectID": "slides/lec-3.html#conclusion-2",
+    "href": "slides/lec-3.html#conclusion-2",
+    "title": "Week 3: Intro to Stats",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nResearch is a systematic and scientific inquiry into a particular subject or phenomenon\nHistorical research, observational research, and experimental research are three common types of research\nEach type of research has its strengths, limitations, and purposes\nThe choice of which type to use will depend on the research question and the study’s goals."
+  },
+  {
+    "objectID": "slides/lec-3.html#introduction",
+    "href": "slides/lec-3.html#introduction",
+    "title": "Week 3: Intro to Stats",
+    "section": "Introduction",
+    "text": "Introduction\n\nResearch is a systematic and scientific inquiry into a particular subject or phenomenon\nTwo critical concepts in research: internal and external validity"
+  },
+  {
+    "objectID": "slides/lec-3.html#internal-validity",
+    "href": "slides/lec-3.html#internal-validity",
+    "title": "Week 3: Intro to Stats",
+    "section": "Internal Validity",
+    "text": "Internal Validity\n\nDefinition: degree to which the results of a study can be attributed to the manipulation of the independent variable\nImportance in Kinesiology: ensuring that the results of a study can be attributed to the specific training protocol or intervention tested\nExample: investigating the effects of a specific strength training program on muscle mass"
+  },
+  {
+    "objectID": "slides/lec-3.html#external-validity",
+    "href": "slides/lec-3.html#external-validity",
+    "title": "Week 3: Intro to Stats",
+    "section": "External Validity",
+    "text": "External Validity\n\nDefinition: degree to which the results of a study can be generalized to other populations, settings, and periods\nImportance in Kinesiology: ensuring that the results of a study can be applied to real-world situations and other populations\nExample: investigating the effects of a specific strength training program on muscle mass in young men"
+  },
+  {
+    "objectID": "slides/lec-3.html#internal-and-external-validity-1",
+    "href": "slides/lec-3.html#internal-and-external-validity-1",
+    "title": "Week 3: Intro to Stats",
+    "section": "Internal and External Validity",
+    "text": "Internal and External Validity\n\nSeparate concepts, but related\nResearchers should strive to achieve high internal and external validity\nTrade-offs between the two may be necessary"
+  },
+  {
+    "objectID": "slides/lec-3.html#conclusion-3",
+    "href": "slides/lec-3.html#conclusion-3",
+    "title": "Week 3: Intro to Stats",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nStatistics is a critical component of kinesiology\nUnderstanding and applying statistical concepts and methods is crucial for informed decision-making\nKey concepts like measurement, variables, and research types must be understood and applied properly\nUnderstanding and applying concepts like internal and external validity is essential for drawing valid conclusions from research findings."
+  },
+  {
+    "objectID": "slides/lec-3.html#intro",
+    "href": "slides/lec-3.html#intro",
+    "title": "Week 3: Intro to Stats",
+    "section": "Intro",
+    "text": "Intro\n\nStatistics plays a crucial role in Kinesiology\nAllows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise"
+  },
+  {
+    "objectID": "slides/lec-3.html#intro-1",
+    "href": "slides/lec-3.html#intro-1",
+    "title": "Week 3: Intro to Stats",
+    "section": "Intro",
+    "text": "Intro\n\nNumerical data is classified into four types based on their level of measurement and the types of statistical analysis that can be used.\nNominal, ordinal, interval, and ratio data are different types of numerical data."
+  },
+  {
+    "objectID": "slides/lec-3.html#intro-2",
+    "href": "slides/lec-3.html#intro-2",
+    "title": "Week 3: Intro to Stats",
+    "section": "Intro",
+    "text": "Intro\n\nResearch is a systematic and scientific inquiry into a subject or phenomenon\nIt involves a process of discovering new knowledge, understanding complex issues, and making informed decisions"
+  },
+  {
+    "objectID": "slides/lec-3.html#intro-3",
+    "href": "slides/lec-3.html#intro-3",
+    "title": "Week 3: Intro to Stats",
+    "section": "Intro",
+    "text": "Intro\n\nResearch is a systematic and scientific inquiry into a subject or phenomenon\nIt involves a process of discovering new knowledge, understanding complex issues, and making informed decisions"
   }
 ]

@@ -7,7 +7,7 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.2.269">
+  <meta name="generator" content="quarto-1.2.313">
 
   <meta name="author" content="Dr.&nbsp;Ovande Furtado Jr">
   <title>KIN 610 - Spring 2023 - Week 3: Intro to Stats</title>
@@ -28,11 +28,32 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -335,7 +356,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Week 3: Intro to Stats</h1>
-  <p class="subtitle">KIN 610 - Spring 2023</p>
+  <p class="subtitle"></p><p>KIN 610 - Spring 2023</p><p></p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -346,6 +367,10 @@ Dr.&nbsp;Ovande Furtado Jr
 </div>
 
 </section>
+<section id="credits" class="slide level2">
+<h2>Credits</h2>
+<p><span class="citation" data-cites="furtado2023">Furtado (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span></p>
+</section>
 <section>
 <section id="measurement" class="title-slide slide level1 center">
 <h1>Measurement</h1>
@@ -354,76 +379,360 @@ Dr.&nbsp;Ovande Furtado Jr
 <section id="introduction-to-measurement-in-kinesiology" class="slide level2">
 <h2>Introduction to Measurement in Kinesiology</h2>
 <ul>
-<li>The importance of measurement in Kinesiology</li>
-<li>Measurement as the process of determining the value of a characteristic or quantity</li>
+<li class="fragment">The importance of measurement in Kinesiology</li>
+<li class="fragment">Measurement as the process of determining the value of a characteristic or quantity</li>
 </ul>
 </section>
 <section id="why-measurement-is-important-in-kinesiology" class="slide level2">
 <h2>Why Measurement is Important in Kinesiology</h2>
 <ul>
-<li>Measurement provides objective data</li>
-<li>Measurement allows for comparison</li>
+<li class="fragment">Measurement provides objective data</li>
+<li class="fragment">Measurement allows for comparison</li>
 </ul>
 </section>
 <section id="evaluation-of-interventions" class="slide level2">
 <h2>Evaluation of Interventions</h2>
 <ul>
-<li>Measurement is essential for evaluating the effectiveness of interventions</li>
-<li>Measurement can help to identify patterns or trends in large amounts of data</li>
+<li class="fragment">Measurement is essential for evaluating the effectiveness of interventions</li>
+<li class="fragment">Measurement can help to identify patterns or trends in large amounts of data</li>
 </ul>
 </section></section>
 <section>
 <section id="statistics-in-kinesiology" class="title-slide slide level1 center">
 <h1>Statistics in Kinesiology</h1>
+
+</section>
+<section id="intro" class="slide level2">
+<h2>Intro</h2>
 <ul>
-<li>Statistics plays a crucial role in Kinesiology</li>
-<li>Allows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise</li>
+<li class="fragment">Statistics plays a crucial role in Kinesiology</li>
+<li class="fragment">Allows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise</li>
 </ul>
 </section>
 <section id="data-analysis-techniques" class="slide level2">
 <h2>Data Analysis Techniques</h2>
 <ul>
-<li>One of the most common uses of statistics in Kinesiology is for data analyses This includes:</li>
-<li>Descriptive statistics: summarize and describe the main characteristics of a dataset</li>
-<li>Inferential statistics: infer about a specific population based on a sample of data</li>
-<li>Descriptive statistics: mean, median, standard deviation, range</li>
-<li>Inferential statistics: t-tests, ANOVA, regression analysis</li>
+<li class="fragment">One of the most common uses of statistics in Kinesiology is for data analyses This includes:</li>
+<li class="fragment">Descriptive statistics: summarize and describe the main characteristics of a dataset</li>
+<li class="fragment">Inferential statistics: infer about a specific population based on a sample of data</li>
+<li class="fragment">Descriptive statistics: mean, median, standard deviation, range</li>
+<li class="fragment">Inferential statistics: t-tests, ANOVA, regression analysis</li>
 </ul>
 </section>
 <section id="design-and-analysis-of-experiments-and-studies" class="slide level2">
 <h2>Design and Analysis of Experiments and Studies</h2>
 <ul>
-<li>Statistics used to design and analyze experiments and studies in Kinesiology</li>
-<li>Statistical tests: determine if there is a significant difference between groups or if an intervention has an effect</li>
-<li>Examples: t-test, ANOVA</li>
+<li class="fragment">Statistics used to design and analyze experiments and studies in Kinesiology</li>
+<li class="fragment">Statistical tests: determine if there is a significant difference between groups or if an intervention has an effect</li>
+<li class="fragment">Examples: t-test, ANOVA</li>
 </ul>
 </section>
 <section id="correlation-and-causal-inference" class="slide level2">
 <h2>Correlation and Causal Inference</h2>
 <ul>
-<li>Correlation: measures the association between two variables</li>
-<li>Causal inference: determines if an observed association is due to a causal relationship</li>
+<li class="fragment">Correlation: measures the association between two variables</li>
+<li class="fragment">Causal inference: determines if an observed association is due to a causal relationship</li>
 </ul>
 </section>
 <section id="interpreting-results" class="slide level2">
 <h2>Interpreting Results</h2>
 <ul>
-<li>Consider level of significance: probability that results occurred by chance (p &lt; 0.05)</li>
-<li>Consider practical significance: meaningful results in the real world</li>
+<li class="fragment">Consider level of significance: probability that results occurred by chance (p &lt; 0.05)</li>
+<li class="fragment">Consider practical significance: meaningful results in the real world</li>
 </ul>
 </section>
 <section id="visualizing-data" class="slide level2">
 <h2>Visualizing Data</h2>
 <ul>
-<li>Graphical methods used to visualize data: histograms, scatter plots, box plots</li>
-<li>Help identify patterns, outliers, and communicate results in an easily understandable format</li>
+<li class="fragment">Graphical methods used to visualize data: histograms, scatter plots, box plots</li>
+<li class="fragment">Help identify patterns, outliers, and communicate results in an easily understandable format</li>
 </ul>
+</section></section>
+<section>
+<section id="variables-and-constants-in-scientific-research" class="title-slide slide level1 center">
+<h1>Variables and Constants in Scientific Research</h1>
+
+</section>
+<section id="variables" class="slide level2">
+<h2>Variables</h2>
+<ul>
+<li class="fragment">A variable is a characteristic or factor that can change or take on different values within a study or experiment.</li>
+<li class="fragment">Example: In a study investigating the effects of a new exercise program on muscle strength, the variable of interest would be muscle strength.</li>
+</ul>
+</section>
+<section id="constants" class="slide level2">
+<h2>Constants</h2>
+<ul>
+<li class="fragment">A constant is a characteristic or factor that remains unchanged or fixed within a study or experiment.</li>
+<li class="fragment">Example: In a study investigating the effects of a new exercise program on muscle strength, the age of the participants could be considered a constant.</li>
+</ul>
+</section>
+<section id="benefits-of-controlling-constants" class="slide level2">
+<h2>Benefits of Controlling Constants</h2>
+<ul>
+<li class="fragment">Allows researchers to isolate the effects of a particular variable of interest.</li>
+<li class="fragment">Confidence that any changes observed are due to the variable of interest and not other factors.</li>
+</ul>
+</section>
+<section id="summary" class="slide level2">
+<h2>Summary</h2>
+<ul>
+<li class="fragment">Variables and constants are important concepts in scientific research.</li>
+<li class="fragment">Variables are factors that can change, while constants are factors that remain unchanged.</li>
+<li class="fragment">Understanding and controlling constants is important to isolate the effects of the variables of interest.</li>
+</ul>
+</section></section>
+<section>
+<section id="continuous-vs.-discrete-variables" class="title-slide slide level1 center">
+<h1>Continuous vs.&nbsp;Discrete Variables</h1>
+
+</section>
+<section id="continuous-variables" class="slide level2">
+<h2>Continuous Variables</h2>
+<ul>
+<li class="fragment">A continuous variable is a variable that can take on any value within a specific range.</li>
+<li class="fragment">Examples: height, weight, time</li>
+<li class="fragment">Can be measured to an infinite number of decimal places.</li>
+</ul>
+</section>
+<section id="discrete-variables" class="slide level2">
+<h2>Discrete Variables</h2>
+<ul>
+<li class="fragment">A discrete variable is a variable that can only take on specific values.</li>
+<li class="fragment">Examples: number of children in a household</li>
+<li class="fragment">Discrete variables are countable, usually measured by counting.</li>
+</ul>
+</section>
+<section id="difference-between-continuous-and-discrete-variables" class="slide level2 scrollable">
+<h2>Difference between Continuous and Discrete Variables</h2>
+<ul>
+<li class="fragment">The main difference between continuous and discrete variables is how data is collected and analyzed.</li>
+<li class="fragment">Example 1: Study investigating the relationship between weight and blood pressure, weight is a continuous variable, and blood pressure is also continuous. Pearson Correlation Coefficient would be used to investigate the relationship.</li>
+<li class="fragment">Example 2: Study investigating the relationship between the number of hours of sleep and the number of absenteeism in a company, hours of sleep are continuous and can have an infinite number of values, while absenteeism is discrete. Spearman Rho would be used to investigate the correlation.</li>
+</ul>
+</section>
+<section id="importance-of-understanding-continuous-vs.-discrete-variables" class="slide level2">
+<h2>Importance of Understanding Continuous vs.&nbsp;Discrete Variables</h2>
+<ul>
+<li class="fragment">Affects the methods used to collect and analyze data.</li>
+<li class="fragment">Researchers must use the appropriate statistical techniques for their specific type of variables to draw valid conclusions from their data.</li>
+</ul>
+</section>
+<section id="summary-1" class="slide level2">
+<h2>Summary</h2>
+<ul>
+<li class="fragment">Continuous and discrete variables are two types of variables used in research.</li>
+<li class="fragment">Continuous variables can take on any value within a specific range, while discrete variables can only take on specific values.</li>
+<li class="fragment">Understanding the difference between these two types of variables is important because it can affect the methods used to collect and analyze data.</li>
+</ul>
+</section></section>
+<section>
+<section id="levels-of-numerical-data" class="title-slide slide level1 center">
+<h1>Levels of Numerical Data</h1>
+
+</section>
+<section id="intro-1" class="slide level2">
+<h2>Intro</h2>
+<ul>
+<li class="fragment">Numerical data is classified into four types based on their level of measurement and the types of statistical analysis that can be used.</li>
+<li class="fragment">Nominal, ordinal, interval, and ratio data are different types of numerical data.</li>
+</ul>
+</section>
+<section id="nominal-data" class="slide level2">
+<h2>Nominal Data</h2>
+<ul>
+<li class="fragment">Nominal data is a non-numeric type of data that can be placed into categories but cannot be meaningfully ordered or quantified.</li>
+<li class="fragment">Examples: color, gender, religion</li>
+<li class="fragment">Analysis methods: frequency distributions, chi-squared tests, contingency tables</li>
+</ul>
+</section>
+<section id="ordinal-data" class="slide level2">
+<h2>Ordinal Data</h2>
+<ul>
+<li class="fragment">Ordinal data is a type of data that can be placed into categories and can be meaningfully ordered, but the difference between the data points is not necessarily equal.</li>
+<li class="fragment">Examples: education level, socioeconomic status, satisfaction level</li>
+<li class="fragment">Analysis methods: medians, quartiles, percentiles</li>
+</ul>
+</section>
+<section id="interval-data" class="slide level2">
+<h2>Interval Data</h2>
+<ul>
+<li class="fragment">Interval data is a type of data that has equal intervals between the data points but does not have an absolute zero point.</li>
+<li class="fragment">Examples: temperature measured in Celsius or Fahrenheit</li>
+<li class="fragment">Analysis methods: central tendency and variability measures</li>
+</ul>
+</section>
+<section id="ratio-data" class="slide level2">
+<h2>Ratio Data</h2>
+<ul>
+<li class="fragment">Ratio data is a type of data with equal intervals between the data points and an absolute zero point.</li>
+<li class="fragment">Examples: weight, height, time</li>
+<li class="fragment">Analysis methods: central tendency and variability measures, correlation, and regression analysis</li>
+</ul>
+</section>
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li class="fragment">Understanding the differences between nominal, ordinal, interval, and ratio data is crucial because it affects the statistical methods used to analyze and interpret the data.</li>
+<li class="fragment">Choosing the appropriate type of data and analysis is important to draw meaningful and accurate conclusions.</li>
+</ul>
+</section></section>
+<section>
+<section id="dependent-and-independent-variables" class="title-slide slide level1 center">
+<h1>Dependent and Independent Variables</h1>
+
+</section>
+<section id="independent-variable" class="slide level2">
+<h2>Independent Variable</h2>
+<ul>
+<li class="fragment">Independent variable (IV) is the variable that is manipulated or changed in an experiment.</li>
+<li class="fragment">The IV is the factor the researcher is interested in studying.</li>
+<li class="fragment">Example: In a study investigating the effects of a new exercise program on muscle strength, the IV would be the exercise program itself.</li>
+</ul>
+</section>
+<section id="dependent-variable" class="slide level2">
+<h2>Dependent Variable</h2>
+<ul>
+<li class="fragment">Dependent variable (DV) is the factor affected by the independent variable.</li>
+<li class="fragment">The DV is the variable that is measured or observed in response to the manipulation of the independent variable.</li>
+<li class="fragment">Example: In a study investigating the effects of a new exercise program on muscle strength, the DV would be muscle strength, measured before and after the exercise program to see if there is an improvement.</li>
+</ul>
+</section>
+<section id="the-relationship-between-iv-and-dv" class="slide level2">
+<h2>The Relationship between IV and DV</h2>
+<ul>
+<li class="fragment">The independent variable is manipulated or controlled by the researcher.</li>
+<li class="fragment">The dependent variable is measured or observed.</li>
+<li class="fragment">Understanding the relationship between these two variables allows researchers to establish a cause-and-effect relationship and draw valid conclusions from their research.</li>
+</ul>
+</section>
+<section id="another-example" class="slide level2">
+<h2>Another Example</h2>
+<ul>
+<li class="fragment">A study investigating the effect of a specific training program on running performance.</li>
+<li class="fragment">Independent variable: The training program</li>
+<li class="fragment">Dependent variable: Running performance, measured before and after the program.</li>
+</ul>
+</section>
+<section id="conclusion-1" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li class="fragment">Dependent and independent variables are important concepts in scientific research.</li>
+<li class="fragment">The researcher manipulates independent variables and dependent variables are measured or observed.</li>
+<li class="fragment">Understanding the relationship between these two variables is crucial to establish a cause-and-effect relationship and draw valid conclusions from research.</li>
+</ul>
+</section></section>
+<section>
+<section id="types-of-research" class="title-slide slide level1 center">
+<h1>Types of Research</h1>
+
+</section>
+<section id="intro-2" class="slide level2">
+<h2>Intro</h2>
+<ul>
+<li class="fragment">Research is a systematic and scientific inquiry into a subject or phenomenon</li>
+<li class="fragment">It involves a process of discovering new knowledge, understanding complex issues, and making informed decisions</li>
+</ul>
+</section>
+<section id="three-common-types-of-research" class="slide level2">
+<h2>Three Common Types of Research</h2>
+<ul>
+<li class="fragment">Historical Research</li>
+<li class="fragment">Observational Research</li>
+<li class="fragment">Experimental Research</li>
+</ul>
+</section>
+<section id="historical-research" class="slide level2">
+<h2>Historical Research</h2>
+<ul>
+<li class="fragment"><p>Involves the collection and analysis of primary and secondary sources</p></li>
+<li class="fragment"><p>Investigates events, phenomena, or people in the past</p></li>
+<li class="fragment"><p>Relying on written documents, photographs, and other artifacts to reconstruct the past</p></li>
+<li class="fragment"><p>Understanding the origin of events, historical trends, and the development of ideas, institutions, or societies</p></li>
+<li class="fragment"><p>Observational Research</p></li>
+<li class="fragment"><p>The researcher observes but does not manipulate the phenomenon of interest</p></li>
+<li class="fragment"><p>May involve collecting both quantitative and qualitative data</p></li>
+<li class="fragment"><p>Typically does not involve manipulation of independent variables</p></li>
+<li class="fragment"><p>Can be conducted in natural settings, such as in the field or controlled laboratory settings</p></li>
+<li class="fragment"><p>Example: studying athletes’ natural movement patterns or assessing the effectiveness of rehabilitation programs</p></li>
+</ul>
+</section>
+<section id="experimental-research" class="slide level2">
+<h2>Experimental Research</h2>
+<ul>
+<li class="fragment">The researcher manipulates one or more independent variables and measures their effects on one or more dependent variables</li>
+<li class="fragment">Establishes cause-and-effect relationships between variables</li>
+<li class="fragment">Involves using control groups and randomly assigning participants to treatment or control groups</li>
+<li class="fragment">Example: investigating the effects of different training protocols on physical performance or testing the effectiveness of different therapeutic interventions</li>
+</ul>
+</section>
+<section id="conclusion-2" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li class="fragment">Research is a systematic and scientific inquiry into a particular subject or phenomenon</li>
+<li class="fragment">Historical research, observational research, and experimental research are three common types of research</li>
+<li class="fragment">Each type of research has its strengths, limitations, and purposes</li>
+<li class="fragment">The choice of which type to use will depend on the research question and the study’s goals.</li>
+</ul>
+</section></section>
+<section>
+<section id="internal-and-external-validity" class="title-slide slide level1 center">
+<h1>Internal and external validity</h1>
+
+</section>
+<section id="introduction" class="slide level2">
+<h2>Introduction</h2>
+<ul>
+<li class="fragment">Research is a systematic and scientific inquiry into a particular subject or phenomenon</li>
+<li class="fragment">Two critical concepts in research: internal and external validity</li>
+</ul>
+</section>
+<section id="internal-validity" class="slide level2">
+<h2>Internal Validity</h2>
+<ul>
+<li class="fragment">Definition: degree to which the results of a study can be attributed to the manipulation of the independent variable</li>
+<li class="fragment">Importance in Kinesiology: ensuring that the results of a study can be attributed to the specific training protocol or intervention tested</li>
+<li class="fragment">Example: investigating the effects of a specific strength training program on muscle mass</li>
+</ul>
+</section>
+<section id="external-validity" class="slide level2">
+<h2>External Validity</h2>
+<ul>
+<li class="fragment">Definition: degree to which the results of a study can be generalized to other populations, settings, and periods</li>
+<li class="fragment">Importance in Kinesiology: ensuring that the results of a study can be applied to real-world situations and other populations</li>
+<li class="fragment">Example: investigating the effects of a specific strength training program on muscle mass in young men</li>
+</ul>
+</section>
+<section id="internal-and-external-validity-1" class="slide level2">
+<h2>Internal and External Validity</h2>
+<ul>
+<li class="fragment">Separate concepts, but related</li>
+<li class="fragment">Researchers should strive to achieve high internal and external validity</li>
+<li class="fragment">Trade-offs between the two may be necessary</li>
+</ul>
+</section>
+<section id="conclusion-3" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li class="fragment">Statistics is a critical component of kinesiology</li>
+<li class="fragment">Understanding and applying statistical concepts and methods is crucial for informed decision-making</li>
+<li class="fragment">Key concepts like measurement, variables, and research types must be understood and applied properly</li>
+<li class="fragment">Understanding and applying concepts like internal and external validity is essential for drawing valid conclusions from research findings.</li>
+</ul>
+</section></section>
+<section id="references" class="title-slide slide level1 smaller scrollable">
+<h1>References</h1>
 
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://drfurtado.github.io/kin610/">https://drfurtado.github.io/kin610/</a></p>
 </div>
-</section></section>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-furtado2023" class="csl-entry" role="doc-biblioentry">
+Furtado, Ovande. 2023. <span>“Understanding the Role of Statistics in Kinesiology.”</span> <a href="https://drfurtado.github.io/randomstats/posts/01102023-role-statistics-kinesiology/">https://drfurtado.github.io/randomstats/posts/01102023-role-statistics-kinesiology/</a>.
+</div>
+</div>
+</section>
     </div>
   </div>
 
@@ -434,6 +743,7 @@ Dr.&nbsp;Ovande Furtado Jr
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
   <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
@@ -450,23 +760,24 @@ Dr.&nbsp;Ovande Furtado Jr
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'multiplex': {"secret":null,"id":"4dcd60ada08c61fc","url":"https://reveal-multiplex.glitch.me/"},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'multiplex': {"secret":null,"id":"1aeba1848ef37714","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: false,
+        controlsTutorial: true,
 
         // Determines where controls appear, "edges" or "bottom-right"
         controlsLayout: 'edges',
@@ -629,7 +940,7 @@ Dr.&nbsp;Ovande Furtado Jr
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           

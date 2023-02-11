@@ -8,7 +8,7 @@ format:
     smooth-scroll: true
     tbl-colwidths: [5,95]
   pdf:
-    toc: true
+    toc: false
     number-sections: true
     colorlinks: true
     tbl-colwidths: [5,95]
@@ -22,7 +22,7 @@ editor: visual
 -   Deadlines (before class)
     -   Quiz and Major Takeaways
 
-Download this lesson as [PDF](week-2.pdf)
+Download this lesson as [PDF](week-3.pdf)
 :::
 
 ## Prepare
@@ -31,9 +31,13 @@ Download this lesson as [PDF](week-2.pdf)
 
 ## Participate
 
-While in class, ask questions and take notes.
+While in class, students are to ask questions and take notes.
+
+[Presentation Slides](../slides/lec-3.qmd)
 
 ## Practice
+
+TBD
 
 ## Perform
 
