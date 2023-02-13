@@ -87,7 +87,7 @@ website:
             text: "Week 15"
       - section: "Supplemental notes"
         contents:
-          - href: supplemental/stats-tets.qmd
+          - href: supplemental/stats-tests.qmd
             text: Statistical Tests
 
 format:
