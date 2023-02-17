@@ -347,7 +347,7 @@
     "href": "weeks/week-4.html#participate",
     "title": "Week 4",
     "section": "Participate",
-    "text": "Participate\n\nThis page will be updated before our meeting with the link to the lecture slides"
+    "text": "Participate\n\nThis page will be updated before our meeting with the link to the lecture slides\n\nSlides"
   },
   {
     "objectID": "weeks/week-4.html#practice",
@@ -592,7 +592,140 @@
     "href": "index.html",
     "title": "KIN 610 - Spring 2023",
     "section": "",
-    "text": "Optional Textbook: Weir and Vincent (2021); Required ebook: Navarro and Foxcroft (2022)\n\n\n\n\n\n\n\n\n\n\n\nWeek1\nDate2\nReading3\nAssignments4\n\n\n\n\n\nWk01\nJan 26\nCourse Introduction (Online via Zoom)\nRead and study the Syllabus\n\n\n\nWK02\nFeb 2\nIntroduction to jamovi & Data Collection\nLab 1\n\n\n\nWK03\nFeb 9\nIntroduction to Statistics and Measurement\nQuiz; Major Takeaways\n\n\n\nWK04\nFeb 16\nOrganizing and Displaying Data\nPercentiles\nQuizzes; Major Takeaways\n\n\n\nWK05\nFeb 23\nMeasures of Central Tendency\nMeasures of Variability\nQuizzes; Major Takeaways; Lab 2\n\n\n\nWK06\nMar 2\nFundamentals of Inferential Statistical\n\nQuiz; Major Takeaways\n\n\n\nWK07\nMar 9\nCorrelation and Bivariate Regression\nQuiz; Major Takeaways\n\n\n\nWK08\nMar 16\nMultiple Correlation and Multiple Regression\nQuiz; Major Takeaways; Lab 3\n\n\n\nWK09\nMar 23\nExam 15\nna\n\n\n\nWK10\nMar 30\nThe Student’s t-test\nQuiz; Major Takeaways\n\n\n\nWK11\nApr 6\nOne-way Analysis of Variance\nQuiz; Major Takeaways\n\n\n\nWK12\nApr 13\nAnalysis of Variance With Repeated Measures\nQuiz; Major Takeaways; Lab 4\n\n\n\nWK13\nApr 20\nSpring Recess\nna\n\n\n\nWK14\nApr 27\n\nFactorial Analysis of Variance: Between-Between\nQuiz; Major Takeaways\n\n\n\nWK15\nMay 4\n\nFactorial Analysis of Variance: Between-Within, Within-Within\nQuiz; Major Takeaways; Lab 5\n\n\n\nWK16\nMay 11\nAnalysis of Nonparametric Data\nQuiz; Major Takeaways\n\n\n\nFinal’s Week\nMay 18\n5:30PM - 7:30PM\nRedwood Hall 276\nExam 26\nna\n\n\n\n\nKIN 610 - Spring 2023 KIN 610 - Spring 2023 Useful links Support Course information Overview Syllabus Support Schedule Useful links FAQ Weekly materials Week 1 Week 2 Week 3 Week 4 Week 5 Week 6 Week 7 Week 8 Week 9 Week 10 Week 11 Week 12 Week 13 Week 14 Week 15 Supplemental notes Statistical Tests © Copyright 2022, Ovande Furtado Jr This page is built with Quarto.\n\n\n  KIN 610 - Spring 2023\n\n\n\nNavarro, Danielle J, and David R Foxcroft. 2022. Learning Statistics with Jamovi: A Tutorial for Psychology Students and Other Beginners (Version 0.75). Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15.\n\n\nWeir, Joseph P., and William J. Vincent. 2021. Statistics in Kinesiology. Human Kinetics. https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource.\n\n\n\n\nFootnotes\n\n\nThe schedule is subject to change.↩︎\nClass Dates: Aug 29, 2022 - Dec 12, 2022↩︎\nStudents are expected to read and study the assigned chapters prior to attending each class meeting.↩︎\nQuizzes and Major Takeaways assignments are due before class; other assignment are due after class.↩︎\nCovers all previously covered topics.↩︎\nCovers mainly topics presented after Exam 1.↩︎"
+    "text": "Optional Textbook: Weir and Vincent (2021); Required ebook: Navarro and Foxcroft (2022)\n\n\n\n\n\n\n\n\n\n\n\nWeek1\nDate2\nReading3\nAssignments4\n\n\n\n\n\nWk01\nJan 26\nCourse Introduction (Online via Zoom)\nRead and study the Syllabus\n\n\n\nWK02\nFeb 2\nIntroduction to jamovi & Data Collection\nLab 1\n\n\n\nWK03\nFeb 9\nIntroduction to Statistics and Measurement\nQuiz; Major Takeaways\n\n\n\nWK04\nFeb 16\nOrganizing and Displaying Data\nPercentiles\nQuizzes; Major Takeaways\n\n\n\nWK05\nFeb 23\nMeasures of Central Tendency\nMeasures of Variability\nQuizzes; Major Takeaways; Lab 2\n\n\n\nWK06\nMar 2\nFundamentals of Inferential Statistical\n\nQuiz; Major Takeaways\n\n\n\nWK07\nMar 9\nCorrelation and Bivariate Regression\nQuiz; Major Takeaways\n\n\n\nWK08\nMar 16\nMultiple Correlation and Multiple Regression\nQuiz; Major Takeaways; Lab 3\n\n\n\nWK09\nMar 23\nExam 15\nna\n\n\n\nWK10\nMar 30\nThe Student’s t-test\nQuiz; Major Takeaways\n\n\n\nWK11\nApr 6\nOne-way Analysis of Variance\nQuiz; Major Takeaways\n\n\n\nWK12\nApr 13\nAnalysis of Variance With Repeated Measures\nQuiz; Major Takeaways; Lab 4\n\n\n\nWK13\nApr 20\nSpring Recess\nna\n\n\n\nWK14\nApr 27\n\nFactorial Analysis of Variance: Between-Between\nQuiz; Major Takeaways\n\n\n\nWK15\nMay 4\n\nFactorial Analysis of Variance: Between-Within, Within-Within\nQuiz; Major Takeaways; Lab 5\n\n\n\nWK16\nMay 11\nAnalysis of Nonparametric Data\nQuiz; Major Takeaways\n\n\n\nFinal’s Week\nMay 18\n5:30PM - 7:30PM\nRedwood Hall 276\nExam 26\nna\n\n\n\n\nKIN 610 - Spring 2023 KIN 610 - Spring 2023 Useful links Support Course information Overview Syllabus Support Schedule Useful links FAQ Weekly materials Week 1 Week 2 Week 3 Week 4 Supplemental notes Statistical Tests © Copyright 2022, Ovande Furtado Jr This page is built with Quarto.\n\n\n  KIN 610 - Spring 2023\n\n\n\nNavarro, Danielle J, and David R Foxcroft. 2022. Learning Statistics with Jamovi: A Tutorial for Psychology Students and Other Beginners (Version 0.75). Danielle J. Navarro; David R. Foxcroft. https://doi.org/10.24384/HGC3-7P15.\n\n\nWeir, Joseph P., and William J. Vincent. 2021. Statistics in Kinesiology. Human Kinetics. https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource.\n\n\n\n\nFootnotes\n\n\nThe schedule is subject to change.↩︎\nClass Dates: Aug 29, 2022 - Dec 12, 2022↩︎\nStudents are expected to read and study the assigned chapters prior to attending each class meeting.↩︎\nQuizzes and Major Takeaways assignments are due before class; other assignment are due after class.↩︎\nCovers all previously covered topics.↩︎\nCovers mainly topics presented after Exam 1.↩︎"
+  },
+  {
+    "objectID": "slides/lec-4.html#credits",
+    "href": "slides/lec-4.html#credits",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Credits",
+    "text": "Credits\nFurtado (2022); Navarro and Foxcroft (2022)"
+  },
+  {
+    "objectID": "slides/lec-4.html#percentile-and-percentile-rank",
+    "href": "slides/lec-4.html#percentile-and-percentile-rank",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Percentile and Percentile Rank",
+    "text": "Percentile and Percentile Rank\nPercentiles and percentile rank are related concepts, but they have slightly different meanings.\nA percentile is a specific value that indicates the percentage of values that are equal to or below a given value in a dataset. For example, the 75th percentile is the value below which 75% of the values in a dataset fall.\nPercentile rank, on the other hand, is a measure of the relative position of a score within a distribution of scores. It indicates the percentage of scores that are equal to or below a given score. For example, if a score has a percentile rank of 75, it means that 75% of the scores in the distribution are equal to or below that score.\nIn essence, percentile rank uses percentiles to determine the relative position of a score within a dataset. While percentiles focus on specific values in a dataset, percentile rank focuses on the relative position of a score within the distribution of scores."
+  },
+  {
+    "objectID": "slides/lec-4.html#definition-of-percentiles",
+    "href": "slides/lec-4.html#definition-of-percentiles",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Definition of Percentiles",
+    "text": "Definition of Percentiles\n\nA measure used in statistics\nIndicates the value below which a certain percentage of observations in a group fall"
+  },
+  {
+    "objectID": "slides/lec-4.html#example-20th-percentile",
+    "href": "slides/lec-4.html#example-20th-percentile",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Example: 20th Percentile",
+    "text": "Example: 20th Percentile\n\nThe value below which 20% of the observations may be found\nCan be used to compare the relative standing of a value within a dataset (Percentile Rank)"
+  },
+  {
+    "objectID": "slides/lec-4.html#example-90th-percentile",
+    "href": "slides/lec-4.html#example-90th-percentile",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Example: 90th Percentile",
+    "text": "Example: 90th Percentile\n\nIf a student’s test score is in the 90th percentile, it means that the student scored higher than 90% of the other students who took the test"
+  },
+  {
+    "objectID": "slides/lec-4.html#determining-distribution",
+    "href": "slides/lec-4.html#determining-distribution",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Determining Distribution",
+    "text": "Determining Distribution\n\nPercentiles can be used to determine the distribution of values within a dataset\nIf the majority of scores fall within the lower percentiles, it may indicate that the scores are generally lower\nIf the majority of scores fall within the higher percentiles, it may indicate that the scores are generally higher"
+  },
+  {
+    "objectID": "slides/lec-4.html#in-a-nutshell",
+    "href": "slides/lec-4.html#in-a-nutshell",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "In a nutshell…",
+    "text": "In a nutshell…\n\nPercentiles can be calculated using a variety of methods\nOne common method is to first arrange the data in order from smallest to largest\nThen identify the value that corresponds to the desired percentile"
+  },
+  {
+    "objectID": "slides/lec-4.html#doing-it-by-hand",
+    "href": "slides/lec-4.html#doing-it-by-hand",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Doing it by hand",
+    "text": "Doing it by hand\n\nArrange the data set in numerical order\nDetermine the position of the percentile you want to calculate in the data set\nE.g. 50th percentile is also known as the median\nCalculate the percentile by multiplying the position of the percentile by the total number of values in the data set and then dividing that number by 100\nE.g. (5 * 10) / 100 = 0.5 for the 50th percentile of a data set with 10 values\nTo find the value at the percentile you calculated, go to the position in the data set that corresponds to the percentile value"
+  },
+  {
+    "objectID": "slides/lec-4.html#example-1",
+    "href": "slides/lec-4.html#example-1",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Example 1:",
+    "text": "Example 1:\n\nData set: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\nFind 50th percentile (median)\nPosition: 50th percentile = (50 / 100) * 10 = 5\nValue: 5"
+  },
+  {
+    "objectID": "slides/lec-4.html#example-2",
+    "href": "slides/lec-4.html#example-2",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Example 2:",
+    "text": "Example 2:\n\nData set: {5, 7, 8, 12, 14, 15, 16, 17, 18, 20}\nFind 75th percentile\nPosition: 75th percentile = (75 / 100) * 10 = 7.5\nValue: average of 7th and 8th values = (16 + 17) / 2 = 16.5"
+  },
+  {
+    "objectID": "slides/lec-4.html#understanding-the-distribution-of-data",
+    "href": "slides/lec-4.html#understanding-the-distribution-of-data",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Understanding the distribution of data",
+    "text": "Understanding the distribution of data\n\nPercentile can be used to understand the distribution of data.\nIt indicates the value below which a certain percentage of data falls.\nFor example, if the 50th percentile of a dataset is 50, it means that 50% of the data falls below that value."
+  },
+  {
+    "objectID": "slides/lec-4.html#interpreting-percentile-values",
+    "href": "slides/lec-4.html#interpreting-percentile-values",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Interpreting percentile values",
+    "text": "Interpreting percentile values\nExample 1: If the 10th percentile is 20 and the 90th percentile is 80, it means that 10% of the data falls below 20 and 90% of the data falls below 80.\n\nThis indicates that the data is distributed relatively evenly, with a few outliers on either side.\n\nExample 2: If the 10th percentile is 20 and the 90th percentile is 90, it means that there is a larger concentration of data towards the higher end of the scale."
+  },
+  {
+    "objectID": "slides/lec-4.html#using-percentile-to-understand-data",
+    "href": "slides/lec-4.html#using-percentile-to-understand-data",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Using percentile to understand data",
+    "text": "Using percentile to understand data\n\nUsing percentile can help us understand the distribution of data and identify patterns or trends in the data.\nIt can also be used to compare different datasets and see how they differ in terms of distribution."
+  },
+  {
+    "objectID": "slides/lec-4.html#comparing-data-sets",
+    "href": "slides/lec-4.html#comparing-data-sets",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Comparing Data Sets",
+    "text": "Comparing Data Sets\n\nComparing data sets can be useful to understand how a particular value in one data set compares to values in another data set.\nPercentiles can be used for comparing data sets, especially when they have different scales or units of measurement."
+  },
+  {
+    "objectID": "slides/lec-4.html#definition-of-percentile-rank",
+    "href": "slides/lec-4.html#definition-of-percentile-rank",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Definition of Percentile Rank",
+    "text": "Definition of Percentile Rank\n\nPercentile rank is a measure of the relative standing of a value in a dataset\nIndicates the percentage of values in the dataset that are equal to or less than the value in question\nExample: if a value has a percentile rank of 75, it means that 75% of the values in the dataset are equal to or less than that value."
+  },
+  {
+    "objectID": "slides/lec-4.html#application-of-percentile-rank",
+    "href": "slides/lec-4.html#application-of-percentile-rank",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Application of Percentile Rank",
+    "text": "Application of Percentile Rank\n\nPercentile ranks are commonly used to describe how well a person has performed on a test or assessment relative to a group of people\nExample: a person scores in the 75th percentile on a test, it means that they scored higher than 75% of the people who took the test\nPercentile ranks can also be used to compare the scores of different groups of people, such as comparing the scores of students in different schools or at different grade levels."
+  },
+  {
+    "objectID": "slides/lec-4.html#difference-between-percentile-rank-and-percentage",
+    "href": "slides/lec-4.html#difference-between-percentile-rank-and-percentage",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Difference between Percentile Rank and Percentage",
+    "text": "Difference between Percentile Rank and Percentage\n\nIt’s important to note that percentile rank is different from percentage\nPercentile rank describes the relative standing of a value within a dataset\nPercentage is a measure of the number of items in a set relative to the total number of items."
+  },
+  {
+    "objectID": "slides/lec-4.html#how-to-calculate-percentile-rank",
+    "href": "slides/lec-4.html#how-to-calculate-percentile-rank",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "How to Calculate Percentile Rank",
+    "text": "How to Calculate Percentile Rank\n\nOrganize the scores in ascending order.\nThe lowest score should be at the bottom.\nIdentify the position of the score in the ordered distribution."
+  },
+  {
+    "objectID": "slides/lec-4.html#calculate-the-percentile-rank-as-a-percentage.",
+    "href": "slides/lec-4.html#calculate-the-percentile-rank-as-a-percentage.",
+    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "section": "Calculate the percentile rank as a percentage.",
+    "text": "Calculate the percentile rank as a percentage.\n\nDivide the position of the score by the total number of scores.\nMultiply the result by 100 to get the percentile rank as a percentage.\n\nExample: Let’s say we have the following distribution of scores: 60, 70, 75, 80, 85, 90, 95, 100. The percentile rank for a score of 80 would be:\n\nOrganize the scores in ascending order: 60, 70, 75, 80, 85, 90, 95, 100.\nDetermine the position of the score in question: The score of 80 is the 4th score in the distribution.\nCalculate the percentile rank as a percentage: 4/8 * 100 = 50%. The score of 80 is at the 50th percentile."
   },
   {
     "objectID": "slides/lec-0.html#meet-each-other",
@@ -737,9 +870,9 @@
   {
     "objectID": "slides/lec-3.html#credits",
     "href": "slides/lec-3.html#credits",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
+    "title": "Week 3: Intro to Stats",
     "section": "Credits",
-    "text": "Credits\nFurtado (2022); Navarro and Foxcroft (2022)"
+    "text": "Credits\nFurtado (2023)"
   },
   {
     "objectID": "slides/lec-3.html#introduction-to-measurement-in-kinesiology",
@@ -1538,453 +1671,5 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
-  },
-  {
-    "objectID": "slides/lec-4.html",
-    "href": "slides/lec-4.html",
-    "title": "Week 3: Intro to Stats",
-    "section": "",
-    "text": "Furtado (2023)"
-  },
-  {
-    "objectID": "slides/lec-4.html#introduction-to-measurement-in-kinesiology",
-    "href": "slides/lec-4.html#introduction-to-measurement-in-kinesiology",
-    "title": "Week 3: Intro to Stats",
-    "section": "Introduction to Measurement in Kinesiology",
-    "text": "Introduction to Measurement in Kinesiology\n\nThe importance of measurement in Kinesiology\nMeasurement as the process of determining the value of a characteristic or quantity"
-  },
-  {
-    "objectID": "slides/lec-4.html#why-measurement-is-important-in-kinesiology",
-    "href": "slides/lec-4.html#why-measurement-is-important-in-kinesiology",
-    "title": "Week 3: Intro to Stats",
-    "section": "Why Measurement is Important in Kinesiology",
-    "text": "Why Measurement is Important in Kinesiology\n\nMeasurement provides objective data\nMeasurement allows for comparison"
-  },
-  {
-    "objectID": "slides/lec-4.html#evaluation-of-interventions",
-    "href": "slides/lec-4.html#evaluation-of-interventions",
-    "title": "Week 3: Intro to Stats",
-    "section": "Evaluation of Interventions",
-    "text": "Evaluation of Interventions\n\nMeasurement is essential for evaluating the effectiveness of interventions\nMeasurement can help to identify patterns or trends in large amounts of data"
-  },
-  {
-    "objectID": "slides/lec-4.html#intro",
-    "href": "slides/lec-4.html#intro",
-    "title": "Week 3: Intro to Stats",
-    "section": "Intro",
-    "text": "Intro\n\nStatistics plays a crucial role in Kinesiology\nAllows researchers and practitioners to analyze and interpret data related to human movement, physical activity, and exercise"
-  },
-  {
-    "objectID": "slides/lec-4.html#data-analysis-techniques",
-    "href": "slides/lec-4.html#data-analysis-techniques",
-    "title": "Week 3: Intro to Stats",
-    "section": "Data Analysis Techniques",
-    "text": "Data Analysis Techniques\n\nOne of the most common uses of statistics in Kinesiology is for data analyses This includes:\nDescriptive statistics: summarize and describe the main characteristics of a dataset\nInferential statistics: infer about a specific population based on a sample of data\nDescriptive statistics: mean, median, standard deviation, range\nInferential statistics: t-tests, ANOVA, regression analysis"
-  },
-  {
-    "objectID": "slides/lec-4.html#design-and-analysis-of-experiments-and-studies",
-    "href": "slides/lec-4.html#design-and-analysis-of-experiments-and-studies",
-    "title": "Week 3: Intro to Stats",
-    "section": "Design and Analysis of Experiments and Studies",
-    "text": "Design and Analysis of Experiments and Studies\n\nStatistics used to design and analyze experiments and studies in Kinesiology\nStatistical tests: determine if there is a significant difference between groups or if an intervention has an effect\nExamples: t-test, ANOVA"
-  },
-  {
-    "objectID": "slides/lec-4.html#correlation-and-causal-inference",
-    "href": "slides/lec-4.html#correlation-and-causal-inference",
-    "title": "Week 3: Intro to Stats",
-    "section": "Correlation and Causal Inference",
-    "text": "Correlation and Causal Inference\n\nCorrelation: measures the association between two variables\nCausal inference: determines if an observed association is due to a causal relationship"
-  },
-  {
-    "objectID": "slides/lec-4.html#interpreting-results",
-    "href": "slides/lec-4.html#interpreting-results",
-    "title": "Week 3: Intro to Stats",
-    "section": "Interpreting Results",
-    "text": "Interpreting Results\n\nConsider level of significance: probability that results occurred by chance (p < 0.05)\nConsider practical significance: meaningful results in the real world"
-  },
-  {
-    "objectID": "slides/lec-4.html#visualizing-data",
-    "href": "slides/lec-4.html#visualizing-data",
-    "title": "Week 3: Intro to Stats",
-    "section": "Visualizing Data",
-    "text": "Visualizing Data\n\nGraphical methods used to visualize data: histograms, scatter plots, box plots\nHelp identify patterns, outliers, and communicate results in an easily understandable format"
-  },
-  {
-    "objectID": "slides/lec-4.html#variables",
-    "href": "slides/lec-4.html#variables",
-    "title": "Week 3: Intro to Stats",
-    "section": "Variables",
-    "text": "Variables\n\nA variable is a characteristic or factor that can change or take on different values within a study or experiment.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the variable of interest would be muscle strength."
-  },
-  {
-    "objectID": "slides/lec-4.html#constants",
-    "href": "slides/lec-4.html#constants",
-    "title": "Week 3: Intro to Stats",
-    "section": "Constants",
-    "text": "Constants\n\nA constant is a characteristic or factor that remains unchanged or fixed within a study or experiment.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the age of the participants could be considered a constant."
-  },
-  {
-    "objectID": "slides/lec-4.html#benefits-of-controlling-constants",
-    "href": "slides/lec-4.html#benefits-of-controlling-constants",
-    "title": "Week 3: Intro to Stats",
-    "section": "Benefits of Controlling Constants",
-    "text": "Benefits of Controlling Constants\n\nAllows researchers to isolate the effects of a particular variable of interest.\nConfidence that any changes observed are due to the variable of interest and not other factors."
-  },
-  {
-    "objectID": "slides/lec-4.html#summary",
-    "href": "slides/lec-4.html#summary",
-    "title": "Week 3: Intro to Stats",
-    "section": "Summary",
-    "text": "Summary\n\nVariables and constants are important concepts in scientific research.\nVariables are factors that can change, while constants are factors that remain unchanged.\nUnderstanding and controlling constants is important to isolate the effects of the variables of interest."
-  },
-  {
-    "objectID": "slides/lec-4.html#continuous-variables",
-    "href": "slides/lec-4.html#continuous-variables",
-    "title": "Week 3: Intro to Stats",
-    "section": "Continuous Variables",
-    "text": "Continuous Variables\n\nA continuous variable is a variable that can take on any value within a specific range.\nExamples: height, weight, time\nCan be measured to an infinite number of decimal places."
-  },
-  {
-    "objectID": "slides/lec-4.html#discrete-variables",
-    "href": "slides/lec-4.html#discrete-variables",
-    "title": "Week 3: Intro to Stats",
-    "section": "Discrete Variables",
-    "text": "Discrete Variables\n\nA discrete variable is a variable that can only take on specific values.\nExamples: number of children in a household\nDiscrete variables are countable, usually measured by counting."
-  },
-  {
-    "objectID": "slides/lec-4.html#difference-between-continuous-and-discrete-variables",
-    "href": "slides/lec-4.html#difference-between-continuous-and-discrete-variables",
-    "title": "Week 3: Intro to Stats",
-    "section": "Difference between Continuous and Discrete Variables",
-    "text": "Difference between Continuous and Discrete Variables\n\nThe main difference between continuous and discrete variables is how data is collected and analyzed.\nExample 1: Study investigating the relationship between weight and blood pressure, weight is a continuous variable, and blood pressure is also continuous. Pearson Correlation Coefficient would be used to investigate the relationship.\nExample 2: Study investigating the relationship between the number of hours of sleep and the number of absenteeism in a company, hours of sleep are continuous and can have an infinite number of values, while absenteeism is discrete. Spearman Rho would be used to investigate the correlation."
-  },
-  {
-    "objectID": "slides/lec-4.html#importance-of-understanding-continuous-vs.-discrete-variables",
-    "href": "slides/lec-4.html#importance-of-understanding-continuous-vs.-discrete-variables",
-    "title": "Week 3: Intro to Stats",
-    "section": "Importance of Understanding Continuous vs. Discrete Variables",
-    "text": "Importance of Understanding Continuous vs. Discrete Variables\n\nAffects the methods used to collect and analyze data.\nResearchers must use the appropriate statistical techniques for their specific type of variables to draw valid conclusions from their data."
-  },
-  {
-    "objectID": "slides/lec-4.html#summary-1",
-    "href": "slides/lec-4.html#summary-1",
-    "title": "Week 3: Intro to Stats",
-    "section": "Summary",
-    "text": "Summary\n\nContinuous and discrete variables are two types of variables used in research.\nContinuous variables can take on any value within a specific range, while discrete variables can only take on specific values.\nUnderstanding the difference between these two types of variables is important because it can affect the methods used to collect and analyze data."
-  },
-  {
-    "objectID": "slides/lec-4.html#intro-1",
-    "href": "slides/lec-4.html#intro-1",
-    "title": "Week 3: Intro to Stats",
-    "section": "Intro",
-    "text": "Intro\n\nNumerical data is classified into four types based on their level of measurement and the types of statistical analysis that can be used.\nNominal, ordinal, interval, and ratio data are different types of numerical data."
-  },
-  {
-    "objectID": "slides/lec-4.html#nominal-data",
-    "href": "slides/lec-4.html#nominal-data",
-    "title": "Week 3: Intro to Stats",
-    "section": "Nominal Data",
-    "text": "Nominal Data\n\nNominal data is a non-numeric type of data that can be placed into categories but cannot be meaningfully ordered or quantified.\nExamples: color, gender, religion\nAnalysis methods: frequency distributions, chi-squared tests, contingency tables"
-  },
-  {
-    "objectID": "slides/lec-4.html#ordinal-data",
-    "href": "slides/lec-4.html#ordinal-data",
-    "title": "Week 3: Intro to Stats",
-    "section": "Ordinal Data",
-    "text": "Ordinal Data\n\nOrdinal data is a type of data that can be placed into categories and can be meaningfully ordered, but the difference between the data points is not necessarily equal.\nExamples: education level, socioeconomic status, satisfaction level\nAnalysis methods: medians, quartiles, percentiles"
-  },
-  {
-    "objectID": "slides/lec-4.html#interval-data",
-    "href": "slides/lec-4.html#interval-data",
-    "title": "Week 3: Intro to Stats",
-    "section": "Interval Data",
-    "text": "Interval Data\n\nInterval data is a type of data that has equal intervals between the data points but does not have an absolute zero point.\nExamples: temperature measured in Celsius or Fahrenheit\nAnalysis methods: central tendency and variability measures"
-  },
-  {
-    "objectID": "slides/lec-4.html#ratio-data",
-    "href": "slides/lec-4.html#ratio-data",
-    "title": "Week 3: Intro to Stats",
-    "section": "Ratio Data",
-    "text": "Ratio Data\n\nRatio data is a type of data with equal intervals between the data points and an absolute zero point.\nExamples: weight, height, time\nAnalysis methods: central tendency and variability measures, correlation, and regression analysis"
-  },
-  {
-    "objectID": "slides/lec-4.html#conclusion",
-    "href": "slides/lec-4.html#conclusion",
-    "title": "Week 3: Intro to Stats",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nUnderstanding the differences between nominal, ordinal, interval, and ratio data is crucial because it affects the statistical methods used to analyze and interpret the data.\nChoosing the appropriate type of data and analysis is important to draw meaningful and accurate conclusions."
-  },
-  {
-    "objectID": "slides/lec-4.html#independent-variable",
-    "href": "slides/lec-4.html#independent-variable",
-    "title": "Week 3: Intro to Stats",
-    "section": "Independent Variable",
-    "text": "Independent Variable\n\nIndependent variable (IV) is the variable that is manipulated or changed in an experiment.\nThe IV is the factor the researcher is interested in studying.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the IV would be the exercise program itself."
-  },
-  {
-    "objectID": "slides/lec-4.html#dependent-variable",
-    "href": "slides/lec-4.html#dependent-variable",
-    "title": "Week 3: Intro to Stats",
-    "section": "Dependent Variable",
-    "text": "Dependent Variable\n\nDependent variable (DV) is the factor affected by the independent variable.\nThe DV is the variable that is measured or observed in response to the manipulation of the independent variable.\nExample: In a study investigating the effects of a new exercise program on muscle strength, the DV would be muscle strength, measured before and after the exercise program to see if there is an improvement."
-  },
-  {
-    "objectID": "slides/lec-4.html#the-relationship-between-iv-and-dv",
-    "href": "slides/lec-4.html#the-relationship-between-iv-and-dv",
-    "title": "Week 3: Intro to Stats",
-    "section": "The Relationship between IV and DV",
-    "text": "The Relationship between IV and DV\n\nThe independent variable is manipulated or controlled by the researcher.\nThe dependent variable is measured or observed.\nUnderstanding the relationship between these two variables allows researchers to establish a cause-and-effect relationship and draw valid conclusions from their research."
-  },
-  {
-    "objectID": "slides/lec-4.html#another-example",
-    "href": "slides/lec-4.html#another-example",
-    "title": "Week 3: Intro to Stats",
-    "section": "Another Example",
-    "text": "Another Example\n\nA study investigating the effect of a specific training program on running performance.\nIndependent variable: The training program\nDependent variable: Running performance, measured before and after the program."
-  },
-  {
-    "objectID": "slides/lec-4.html#conclusion-1",
-    "href": "slides/lec-4.html#conclusion-1",
-    "title": "Week 3: Intro to Stats",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nDependent and independent variables are important concepts in scientific research.\nThe researcher manipulates independent variables and dependent variables are measured or observed.\nUnderstanding the relationship between these two variables is crucial to establish a cause-and-effect relationship and draw valid conclusions from research."
-  },
-  {
-    "objectID": "slides/lec-4.html#intro-2",
-    "href": "slides/lec-4.html#intro-2",
-    "title": "Week 3: Intro to Stats",
-    "section": "Intro",
-    "text": "Intro\n\nResearch is a systematic and scientific inquiry into a subject or phenomenon\nIt involves a process of discovering new knowledge, understanding complex issues, and making informed decisions"
-  },
-  {
-    "objectID": "slides/lec-4.html#three-common-types-of-research",
-    "href": "slides/lec-4.html#three-common-types-of-research",
-    "title": "Week 3: Intro to Stats",
-    "section": "Three Common Types of Research",
-    "text": "Three Common Types of Research\n\nHistorical Research\nObservational Research\nExperimental Research"
-  },
-  {
-    "objectID": "slides/lec-4.html#historical-research",
-    "href": "slides/lec-4.html#historical-research",
-    "title": "Week 3: Intro to Stats",
-    "section": "Historical Research",
-    "text": "Historical Research\n\nInvolves the collection and analysis of primary and secondary sources\nInvestigates events, phenomena, or people in the past\nRelying on written documents, photographs, and other artifacts to reconstruct the past\nUnderstanding the origin of events, historical trends, and the development of ideas, institutions, or societies\nObservational Research\nThe researcher observes but does not manipulate the phenomenon of interest\nMay involve collecting both quantitative and qualitative data\nTypically does not involve manipulation of independent variables\nCan be conducted in natural settings, such as in the field or controlled laboratory settings\nExample: studying athletes’ natural movement patterns or assessing the effectiveness of rehabilitation programs"
-  },
-  {
-    "objectID": "slides/lec-4.html#experimental-research",
-    "href": "slides/lec-4.html#experimental-research",
-    "title": "Week 3: Intro to Stats",
-    "section": "Experimental Research",
-    "text": "Experimental Research\n\nThe researcher manipulates one or more independent variables and measures their effects on one or more dependent variables\nEstablishes cause-and-effect relationships between variables\nInvolves using control groups and randomly assigning participants to treatment or control groups\nExample: investigating the effects of different training protocols on physical performance or testing the effectiveness of different therapeutic interventions"
-  },
-  {
-    "objectID": "slides/lec-4.html#conclusion-2",
-    "href": "slides/lec-4.html#conclusion-2",
-    "title": "Week 3: Intro to Stats",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nResearch is a systematic and scientific inquiry into a particular subject or phenomenon\nHistorical research, observational research, and experimental research are three common types of research\nEach type of research has its strengths, limitations, and purposes\nThe choice of which type to use will depend on the research question and the study’s goals."
-  },
-  {
-    "objectID": "slides/lec-4.html#introduction",
-    "href": "slides/lec-4.html#introduction",
-    "title": "Week 3: Intro to Stats",
-    "section": "Introduction",
-    "text": "Introduction\n\nResearch is a systematic and scientific inquiry into a particular subject or phenomenon\nTwo critical concepts in research: internal and external validity"
-  },
-  {
-    "objectID": "slides/lec-4.html#internal-validity",
-    "href": "slides/lec-4.html#internal-validity",
-    "title": "Week 3: Intro to Stats",
-    "section": "Internal Validity",
-    "text": "Internal Validity\n\nDefinition: degree to which the results of a study can be attributed to the manipulation of the independent variable\nImportance in Kinesiology: ensuring that the results of a study can be attributed to the specific training protocol or intervention tested\nExample: investigating the effects of a specific strength training program on muscle mass"
-  },
-  {
-    "objectID": "slides/lec-4.html#external-validity",
-    "href": "slides/lec-4.html#external-validity",
-    "title": "Week 3: Intro to Stats",
-    "section": "External Validity",
-    "text": "External Validity\n\nDefinition: degree to which the results of a study can be generalized to other populations, settings, and periods\nImportance in Kinesiology: ensuring that the results of a study can be applied to real-world situations and other populations\nExample: investigating the effects of a specific strength training program on muscle mass in young men"
-  },
-  {
-    "objectID": "slides/lec-4.html#internal-and-external-validity-1",
-    "href": "slides/lec-4.html#internal-and-external-validity-1",
-    "title": "Week 3: Intro to Stats",
-    "section": "Internal and External Validity",
-    "text": "Internal and External Validity\n\nSeparate concepts, but related\nResearchers should strive to achieve high internal and external validity\nTrade-offs between the two may be necessary"
-  },
-  {
-    "objectID": "slides/lec-4.html#conclusion-3",
-    "href": "slides/lec-4.html#conclusion-3",
-    "title": "Week 3: Intro to Stats",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nStatistics is a critical component of kinesiology\nUnderstanding and applying statistical concepts and methods is crucial for informed decision-making\nKey concepts like measurement, variables, and research types must be understood and applied properly\nUnderstanding and applying concepts like internal and external validity is essential for drawing valid conclusions from research findings."
-  },
-  {
-    "objectID": "slides/lec-3.html",
-    "href": "slides/lec-3.html",
-    "title": "Week 3: Intro to Stats",
-    "section": "",
-    "text": "Furtado (2023)"
-  },
-  {
-    "objectID": "slides/lec-4.html#credits",
-    "href": "slides/lec-4.html#credits",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Credits",
-    "text": "Credits\nFurtado (2022); Navarro and Foxcroft (2022)"
-  },
-  {
-    "objectID": "slides/lec-4.html#definition-of-percentiles",
-    "href": "slides/lec-4.html#definition-of-percentiles",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Definition of Percentiles",
-    "text": "Definition of Percentiles\n\nA measure used in statistics\nIndicates the value below which a certain percentage of observations in a group fall"
-  },
-  {
-    "objectID": "slides/lec-4.html#example-20th-percentile",
-    "href": "slides/lec-4.html#example-20th-percentile",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Example: 20th Percentile",
-    "text": "Example: 20th Percentile\n\nThe value below which 20% of the observations may be found\nCan be used to compare the relative standing of a value within a dataset (Percentile Rank)"
-  },
-  {
-    "objectID": "slides/lec-4.html#example-90th-percentile",
-    "href": "slides/lec-4.html#example-90th-percentile",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Example: 90th Percentile",
-    "text": "Example: 90th Percentile\n\nIf a student’s test score is in the 90th percentile, it means that the student scored higher than 90% of the other students who took the test"
-  },
-  {
-    "objectID": "slides/lec-4.html#determining-distribution",
-    "href": "slides/lec-4.html#determining-distribution",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Determining Distribution",
-    "text": "Determining Distribution\n\nPercentiles can be used to determine the distribution of values within a dataset\nIf the majority of scores fall within the lower percentiles, it may indicate that the scores are generally lower\nIf the majority of scores fall within the higher percentiles, it may indicate that the scores are generally higher"
-  },
-  {
-    "objectID": "slides/lec-4.html#in-a-nutshell",
-    "href": "slides/lec-4.html#in-a-nutshell",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "In a nutshell…",
-    "text": "In a nutshell…\n\nPercentiles can be calculated using a variety of methods\nOne common method is to first arrange the data in order from smallest to largest\nThen identify the value that corresponds to the desired percentile"
-  },
-  {
-    "objectID": "slides/lec-4.html#doing-it-by-hand",
-    "href": "slides/lec-4.html#doing-it-by-hand",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Doing it by hand",
-    "text": "Doing it by hand\n\nArrange the data set in numerical order\nDetermine the position of the percentile you want to calculate in the data set\nE.g. 50th percentile is also known as the median\nCalculate the percentile by multiplying the position of the percentile by the total number of values in the data set and then dividing that number by 100\nE.g. (5 * 10) / 100 = 0.5 for the 50th percentile of a data set with 10 values\nTo find the value at the percentile you calculated, go to the position in the data set that corresponds to the percentile value"
-  },
-  {
-    "objectID": "slides/lec-4.html#example-1",
-    "href": "slides/lec-4.html#example-1",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Example 1:",
-    "text": "Example 1:\n\nData set: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}\nFind 50th percentile (median)\nPosition: 50th percentile = (50 / 100) * 10 = 5\nValue: 5"
-  },
-  {
-    "objectID": "slides/lec-4.html#example-2",
-    "href": "slides/lec-4.html#example-2",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Example 2:",
-    "text": "Example 2:\n\nData set: {5, 7, 8, 12, 14, 15, 16, 17, 18, 20}\nFind 75th percentile\nPosition: 75th percentile = (75 / 100) * 10 = 7.5\nValue: average of 7th and 8th values = (16 + 17) / 2 = 16.5"
-  },
-  {
-    "objectID": "slides/lec-4.html#understanding-the-distribution-of-data",
-    "href": "slides/lec-4.html#understanding-the-distribution-of-data",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Understanding the distribution of data",
-    "text": "Understanding the distribution of data\n\nPercentile can be used to understand the distribution of data.\nIt indicates the value below which a certain percentage of data falls.\nFor example, if the 50th percentile of a dataset is 50, it means that 50% of the data falls below that value."
-  },
-  {
-    "objectID": "slides/lec-4.html#calculating-percentiles-1",
-    "href": "slides/lec-4.html#calculating-percentiles-1",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Calculating percentiles",
-    "text": "Calculating percentiles\n\nTo understand the distribution of data using percentile, we can calculate the percentiles for different values in the dataset.\nFor example, if we have a dataset of 100 values, we can calculate the 10th percentile, 25th percentile, 50th percentile (also known as the median), 75th percentile, and 90th percentile.\nThese values will give us an idea of how the data is distributed."
-  },
-  {
-    "objectID": "slides/lec-4.html#interpreting-percentile-values",
-    "href": "slides/lec-4.html#interpreting-percentile-values",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Interpreting percentile values",
-    "text": "Interpreting percentile values\nExample 1: If the 10th percentile is 20 and the 90th percentile is 80, it means that 10% of the data falls below 20 and 90% of the data falls below 80.\n\nThis indicates that the data is distributed relatively evenly, with a few outliers on either side.\n\nExample 2: If the 10th percentile is 20 and the 90th percentile is 90, it means that there is a larger concentration of data towards the higher end of the scale."
-  },
-  {
-    "objectID": "slides/lec-4.html#using-percentile-to-understand-data",
-    "href": "slides/lec-4.html#using-percentile-to-understand-data",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Using percentile to understand data",
-    "text": "Using percentile to understand data\n\nUsing percentile can help us understand the distribution of data and identify patterns or trends in the data.\nIt can also be used to compare different datasets and see how they differ in terms of distribution."
-  },
-  {
-    "objectID": "slides/lec-4.html#comparing-data-sets",
-    "href": "slides/lec-4.html#comparing-data-sets",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Comparing Data Sets",
-    "text": "Comparing Data Sets\n\nComparing data sets can be useful to understand how a particular value in one data set compares to values in another data set.\nPercentiles can be used for comparing data sets, especially when they have different scales or units of measurement."
-  },
-  {
-    "objectID": "slides/lec-4.html#using-percentiles-for-comparing-data-sets",
-    "href": "slides/lec-4.html#using-percentiles-for-comparing-data-sets",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Using Percentiles for Comparing Data Sets",
-    "text": "Using Percentiles for Comparing Data Sets\n\nTo calculate the percentile of a particular value in a data set, use the following formula:\nPercentile = (Number of values below the given value / Total number of values) x 100"
-  },
-  {
-    "objectID": "slides/lec-4.html#using-percentiles-for-comparing-data-sets-cont.",
-    "href": "slides/lec-4.html#using-percentiles-for-comparing-data-sets-cont.",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Using Percentiles for Comparing Data Sets, cont.",
-    "text": "Using Percentiles for Comparing Data Sets, cont.\n\nExample data set: 3, 5, 7, 8, 9, 10\nTo find the percentile of the value 7:\nCount the number of values below 7, which is 2 (3 and 5).\nThe total number of values in the dataset is 6.\nPlugging these values into the formula gives us:\nPercentile = (2 / 6) x 100 = 33.33\nThis means that the value 7 is at the 33.33rd percentile in the dataset."
-  },
-  {
-    "objectID": "slides/lec-4.html#percentile-and-percentile-rank",
-    "href": "slides/lec-4.html#percentile-and-percentile-rank",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Percentile and Percentile Rank",
-    "text": "Percentile and Percentile Rank\nPercentiles and percentile rank are related concepts, but they have slightly different meanings.\nA percentile is a specific value that indicates the percentage of values that are equal to or below a given value in a dataset. For example, the 75th percentile is the value below which 75% of the values in a dataset fall.\nPercentile rank, on the other hand, is a measure of the relative position of a score within a distribution of scores. It indicates the percentage of scores that are equal to or below a given score. For example, if a score has a percentile rank of 75, it means that 75% of the scores in the distribution are equal to or below that score.\nIn essence, percentile rank uses percentiles to determine the relative position of a score within a dataset. While percentiles focus on specific values in a dataset, percentile rank focuses on the relative position of a score within the distribution of scores."
-  },
-  {
-    "objectID": "slides/lec-4.html#definition-of-percentile-rank",
-    "href": "slides/lec-4.html#definition-of-percentile-rank",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Definition of Percentile Rank",
-    "text": "Definition of Percentile Rank\n\nPercentile rank is a measure of the relative standing of a value in a dataset\nIndicates the percentage of values in the dataset that are equal to or less than the value in question\nExample: if a value has a percentile rank of 75, it means that 75% of the values in the dataset are equal to or less than that value."
-  },
-  {
-    "objectID": "slides/lec-4.html#application-of-percentile-rank",
-    "href": "slides/lec-4.html#application-of-percentile-rank",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Application of Percentile Rank",
-    "text": "Application of Percentile Rank\n\nPercentile ranks are commonly used to describe how well a person has performed on a test or assessment relative to a group of people\nExample: a person scores in the 75th percentile on a test, it means that they scored higher than 75% of the people who took the test\nPercentile ranks can also be used to compare the scores of different groups of people, such as comparing the scores of students in different schools or at different grade levels."
-  },
-  {
-    "objectID": "slides/lec-4.html#difference-between-percentile-rank-and-percentage",
-    "href": "slides/lec-4.html#difference-between-percentile-rank-and-percentage",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Difference between Percentile Rank and Percentage",
-    "text": "Difference between Percentile Rank and Percentage\n\nIt’s important to note that percentile rank is different from percentage\nPercentile rank describes the relative standing of a value within a dataset\nPercentage is a measure of the number of items in a set relative to the total number of items."
-  },
-  {
-    "objectID": "slides/lec-4.html#how-to-calculate-percentile-rank",
-    "href": "slides/lec-4.html#how-to-calculate-percentile-rank",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "How to Calculate Percentile Rank",
-    "text": "How to Calculate Percentile Rank\n\nOrganize the scores in ascending order.\nThe lowest score should be at the bottom.\nIdentify the position of the score in the ordered distribution."
-  },
-  {
-    "objectID": "slides/lec-4.html#calculate-the-percentile-rank-as-a-percentage.",
-    "href": "slides/lec-4.html#calculate-the-percentile-rank-as-a-percentage.",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Calculate the percentile rank as a percentage.",
-    "text": "Calculate the percentile rank as a percentage.\n\nDivide the position of the score by the total number of scores.\nMultiply the result by 100 to get the percentile rank as a percentage.\n\nExample: Let’s say we have the following distribution of scores: 60, 70, 75, 80, 85, 90, 95, 100. The percentile rank for a score of 80 would be:\n\nOrganize the scores in ascending order: 60, 70, 75, 80, 85, 90, 95, 100.\nDetermine the position of the score in question: The score of 80 is the 4th score in the distribution.\nCalculate the percentile rank as a percentage: 4/8 * 100 = 50%. The score of 80 is at the 50th percentile."
-  },
-  {
-    "objectID": "slides/lec-4.html#comparing-data-sets-cont.",
-    "href": "slides/lec-4.html#comparing-data-sets-cont.",
-    "title": "Week 4: Organizing and Displyain Data & Percentiles",
-    "section": "Comparing Data Sets, cont.",
-    "text": "Comparing Data Sets, cont.\n\nTo calculate the percentile of a particular value in a data set, use the following formula:\nPercentile = (Number of values below the given value / Total number of values) x 100"
   }
 ]

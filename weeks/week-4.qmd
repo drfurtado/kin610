@@ -35,6 +35,7 @@ Download the lesson in [PDF](week-4.pdf)
 ## Participate
 
 -   This page will be updated before our meeting with the link to the lecture slides
+    -   [Slides](../slides/lec-4.qmd)
 
 ## Practice
 
