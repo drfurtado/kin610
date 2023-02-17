@@ -27,7 +27,7 @@ editor: visual
 
 ## Prepare
 
-Read @navarro2022, chap. 4
+TBD
 
 ## Participate
 
