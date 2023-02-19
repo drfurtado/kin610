@@ -32,15 +32,15 @@ Optional Textbook: @weir2021; Required ebook: @navarro2022
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
 | {{< bi calendar >}} | [WK08](/weeks/week-8.qmd)  | `Mar 16`         | Multiple Correlation and Multiple Regression                  | Quiz; Major Takeaways; `Lab 3`                     |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
-| {{< bi calendar >}} | [WK09](/weeks/week-9.qmd)  | `Mar 23`         | `Exam 1`[^5]                                                  | na                                                 |
+| {{< bi calendar >}} | [WK09](/weeks/week-9.qmd)  | `Mar 23`         | Spring Recess                                                 | na                                                 |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
-| {{< bi calendar >}} | [WK10](/weeks/week-10.qmd) | `Mar 30`         | The Student's *t*-test                                        | Quiz; Major Takeaways                              |
+| {{< bi calendar >}} | [WK10](/weeks/week-10.qmd) | `Mar 30`         | `Exam 1`[^5]                                                  | na                                                 |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
-| {{< bi calendar >}} | [WK11](/weeks/week-11.qmd) | `Apr 6`          | One-way Analysis of Variance                                  | Quiz; Major Takeaways                              |
+| {{< bi calendar >}} | [WK11](/weeks/week-11.qmd) | `Apr 6`          | The Student's *t*-test                                        | Quiz; Major Takeaways                              |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
-| {{< bi calendar >}} | [WK12](/weeks/week-12.qmd) | `Apr 13`         | Analysis of Variance With Repeated Measures                   | Quiz; Major Takeaways; `Lab 4`                     |
+| {{< bi calendar >}} | [WK12](/weeks/week-12.qmd) | `Apr 13`         | One-way Analysis of Variance                                  | Quiz; Major Takeaways; `Lab 4`                     |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
-| {{< bi calendar >}} | WK13                       | `Apr 20`         | Spring Recess                                                 | na                                                 |
+| {{< bi calendar >}} | WK13                       | `Apr 20`         | Analysis of Variance With Repeated Measures                   | Quiz; Major Takeaways                              |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+----------------------------------------------------+
 | {{< bi calendar >}} | [WK14](/weeks/week-14.qmd) | `Apr 27`         | \                                                             | Quiz; Major Takeaways                              |
 |                     |                            |                  | Factorial Analysis of Variance: Between-Between               |                                                    |
