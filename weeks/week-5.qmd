@@ -1,6 +1,6 @@
 ---
 title: "Week 5"
-subtitle: "Week 5"
+subtitle: "Descriptive Statistics"
 format: 
   html:
     toc: true
@@ -21,13 +21,14 @@ editor: visual
 -   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 -   Deadlines
     -   Quiz for Week 5
-
     -   Takeaways
+
+Download the lesson in [PDF](week-5.pdf)
 :::
 
 ## Prepare
 
-TBD
+Read @furtadoDescriptiveStatistics2023
 
 ## Participate
 
@@ -39,7 +40,7 @@ TBD
 
 ## Perform
 
-TBD
+Take the quiz and complete the major takeaways assignment for this topic.
 
 <br><br>
 

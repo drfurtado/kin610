@@ -92,6 +92,7 @@ website:
       - section: "Supplemental notes"
         contents:
           - href: supplemental/stats-tests.qmd
+          - href: supplemental/results-apa.qmd
             text: Statistical Tests
 
 format:
