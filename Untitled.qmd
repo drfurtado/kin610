@@ -1,0 +1,183 @@
+---
+title: "KIN 610 - Learn"
+output: 
+  learnr::tutorial: 
+  progressive: true
+  allow_skip: false
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Practice Questions - Week 5
+
+
+```{r practice_w5}
+quiz(
+  question("Which measure of central tendency is most affected by extreme values?",
+    answer("Mean", correct = TRUE),
+    answer("Median"),
+    answer("Mode"),
+    answer("Variance"),
+    random_answer_order = TRUE
+   ),
+  question("What is the formula for calculating the mean?",
+    answer("sum of values divided by the number of values", correct = TRUE),
+    answer("the middle value in a sorted list of values"),
+    answer("the most frequently occurring value in a set of values"),
+    answer("the difference between the highest and lowest values in a set of values"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the median?",
+    answer("the middle value in a sorted list of values", correct = TRUE),
+    answer("sum of values divided by the number of values"),
+    answer("the most frequently occurring value in a set of values"),
+    answer("the difference between the highest and lowest values in a set of values"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the mode?",
+    answer("the most frequently occurring value in a set of values", correct = TRUE),
+    answer("sum of values divided by the number of values"),
+    answer("the middle value in a sorted list of values"),
+    answer("the difference between the highest and lowest values in a set of values"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the variance?",
+    answer("sum of squared deviations from the mean divided by the number of values minus 1", correct = TRUE),
+    answer("the middle value in a sorted list of values"),
+    answer("the most frequently occurring value in a set of values"),
+    answer("the difference between the highest and lowest values in a set of values"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the standard deviation?",
+    answer("square root of the variance", correct = TRUE),
+    answer("the middle value in a sorted list of values"),
+    answer("the most frequently occurring value in a set of values"),
+    answer("the difference between the highest and lowest values in a set of values"),
+    random_answer_order = TRUE
+  ),
+  question("What is the range of the following data set: 5, 10, 15, 20, 25?",
+    answer("20", correct = TRUE),
+    answer("15"),
+    answer("10"),
+    answer("5"),
+    random_answer_order = TRUE
+  ),
+  question("What is the interquartile range of the following data set: 5, 7, 8, 11, 12, 14, 15, 17?",
+    answer("7", correct = TRUE),
+    answer("10"),
+    answer("8"),
+    answer("9"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the first quartile?",
+    answer("median of the lower half of the data set", correct = TRUE),
+    answer("median of the upper half of the data set"),
+    answer("median of the entire data set"),
+    answer("the minimum value in the data set"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the third quartile?",
+    answer("median of the upper half of the data set", correct = TRUE),
+    answer("median of the lower half of the data set"),
+    answer("median of the entire data set"),
+    answer("the maximum value in the data set"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the coefficient of variation?",
+    answer("standard deviation divided by the mean", correct = TRUE),
+    answer("variance divided by the mean"),
+    answer("mean divided by the standard deviation"),
+    answer("mean divided by the variance"),
+    random_answer_order = TRUE
+  ),
+  question("Which measure of central tendency is most affected by extreme values?",
+    answer("Mean", correct = TRUE),
+    answer("Median"),
+    answer("Mode"),
+    answer("Variance"),
+    random_answer_order = TRUE
+  ),
+  question("What is the median of the following data set: 5, 7, 9, 11, 13?",
+    answer("9", correct = TRUE),
+    answer("7"),
+    answer("11"),
+    answer("13"),
+    random_answer_order = TRUE
+  ),
+  question("What is the mode of the following data set: 2, 2, 3, 4, 5, 5, 5, 6, 6?",
+    answer("5", correct = TRUE),
+    answer("2"),
+    answer("3"),
+    answer("6"),
+    random_answer_order = TRUE
+  ),
+  question("What is the range of the following data set: 2, 4, 6, 8, 10?",
+    answer("8", correct = TRUE),
+    answer("10"),
+    answer("6"),
+    answer("4"),
+    random_answer_order = TRUE
+  ),
+  question("What is the interquartile range of the following data set: 3, 4, 5, 7, 8, 9, 11, 12?",
+    answer("5", correct = TRUE),
+    answer("4"),
+    answer("6"),
+    answer("7"),
+    random_answer_order = TRUE
+  ),
+  question("Which measure of central tendency represents the midpoint of a data set?",
+    answer("Median", correct = TRUE),
+    answer("Mean"),
+    answer("Mode"),
+    answer("Variance"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the mean of a data set?",
+    answer("(sum of all values) / (number of values)", correct = TRUE),
+    answer("(number of values) / (sum of all values)"),
+    answer("(sum of all values) * (number of values)"),
+    answer("(sum of all values) - (number of values)"),
+    random_answer_order = TRUE
+  ),
+  question("Which measure of central tendency represents the most frequently occurring value in a data set?",
+    answer("Mode", correct = TRUE),
+    answer("Median"),
+    answer("Mean"),
+    answer("Variance"),
+    random_answer_order = TRUE
+  ),
+  question("What is the standard deviation?",
+    answer("A measure of the amount of variation or dispersion in a set of data values", correct = TRUE),
+    answer("The difference between the highest and lowest values in a data set"),
+    answer("The middle value of a data set"),
+    answer("A measure of the central tendency of a data set"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the standard deviation?",
+    answer("sqrt(sum((x - mean)^2) / (n - 1))", correct = TRUE),
+    answer("sum((x - mean)^2) / n"),
+    answer("sqrt(sum((x + mean)^2) / (n + 1))"),
+    answer("sum((x + mean)^2) / n"),
+    random_answer_order = TRUE
+  ),
+  question("What is the formula for calculating the variance?",
+    answer("sum((x - mean)^2) / (n - 1)", correct = TRUE),
+    answer("sqrt(sum((x - mean)^2) / (n - 1))"),
+    answer("(sum of all values) / (number of values)"),
+    answer("(number of values) / (sum of all values)"),
+    random_answer_order = TRUE
+    ),
+  question("The standard deviation is more interpretable than the variance because",
+    answer("it is aligned to the original data", correct = TRUE),
+    answer("it is easier to calculate"),
+    answer("it goes with the mean"),
+    answer("it tends to give a more accurate variability"),
+    random_answer_order = TRUE    
+  )
+)
+```
+

@@ -30,6 +30,8 @@ Download the lesson in [PDF](week-5.pdf)
 
 Read @furtadoDescriptiveStatistics2023
 
+Practice [questions for this topic](https://drfurtado.shinyapps.io/Practice-Questions/)
+
 ## Participate
 
 Slides will be provided soon.

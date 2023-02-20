@@ -1,0 +1,14 @@
+{
+  "hash": "e4d1ee5935f0ecc5c578fdfeb504f19d",
+  "result": {
+    "markdown": "    ## Flashcard Title\n\n    **Front:**\n\n    The front of the flashcard goes here.\n\n    **Back:**\n\n    The back of the flashcard goes here.\n\n    ---\n\n    ## Another Flashcard Title\n\n    **Front:**\n\n    The front of the flashcard goes here.\n\n    **Back:**\n\n    The back of the flashcard goes here.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
