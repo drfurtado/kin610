@@ -40,119 +40,116 @@ In essence, `percentile rank` uses `percentiles` to determine the `relative posi
 
 ## Definition of Percentiles
 
-- A measure used in statistics
-- Indicates the value below which a certain percentage of observations in a group fall
+-   A measure used in statistics
+-   Indicates the value below which a certain percentage of observations in a group fall
 
 ## Example: 20th Percentile
 
-- The value below which 20% of the observations may be found
-- Can be used to compare the relative standing of a value within a dataset (Percentile Rank)
+-   The value below which 20% of the observations may be found
+-   Can be used to compare the relative standing of a value within a dataset (Percentile Rank)
 
 ## Example: 90th Percentile
 
-- If a student's test score is in the 90th percentile, it means that the student scored higher than 90% of the other students who took the test
+-   If a student's test score is in the 90th percentile, it means that the student scored higher than 90% of the other students who took the test
 
 ## Determining Distribution
 
-- Percentiles can be used to determine the distribution of values within a dataset
-- If the majority of scores fall within the lower percentiles, it may indicate that the scores are generally lower
-- If the majority of scores fall within the higher percentiles, it may indicate that the scores are generally higher
+-   Percentiles can be used to determine the distribution of values within a dataset
+-   If the majority of scores fall within the lower percentiles, it may indicate that the scores are generally lower
+-   If the majority of scores fall within the higher percentiles, it may indicate that the scores are generally higher
 
 # Calculating Percentiles
 
 ## In a nutshell...
 
-- Percentiles can be calculated using a variety of methods
-- One common method is to first arrange the data in order from smallest to largest
-- Then identify the value that corresponds to the desired percentile
+-   Percentiles can be calculated using a variety of methods
+-   One common method is to first arrange the data in order from smallest to largest
+-   Then identify the value that corresponds to the desired percentile
 
 ## Doing it by hand {.scrollable}
 
-- Arrange the data set in numerical order
-- Determine the position of the percentile you want to calculate in the data set
- - E.g. 50th percentile is also known as the median
-- Calculate the percentile by multiplying the position of the percentile by the total number of values in the data set and then dividing that number by 100
- - E.g. (5 * 10) / 100 = 0.5 for the 50th percentile of a data set with 10 values
-- To find the value at the percentile you calculated, go to the position in the data set that corresponds to the percentile value
+-   Arrange the data set in numerical order
+-   Determine the position of the percentile you want to calculate in the data set
+-   E.g. 50th percentile is also known as the median
+-   Calculate the percentile by multiplying the position of the percentile by the total number of values in the data set and then dividing that number by 100
+-   E.g. (5 \* 10) / 100 = 0.5 for the 50th percentile of a data set with 10 values
+-   To find the value at the percentile you calculated, go to the position in the data set that corresponds to the percentile value
 
 ## Example 1:
 
-- Data set: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-- Find 50th percentile (median)
-- Position: 50th percentile = (50 / 100) * 10 = 5
-- Value: 5
+-   Data set: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+-   Find 50th percentile (median)
+-   Position: 50th percentile = (50 / 100) \* 10 = 5
+-   Value: 5
 
 ## Example 2:
 
-- Data set: {5, 7, 8, 12, 14, 15, 16, 17, 18, 20}
-- Find 75th percentile
-- Position: 75th percentile = (75 / 100) * 10 = 7.5
-- Value: average of 7th and 8th values = (16 + 17) / 2 = 16.5
+-   Data set: {5, 7, 8, 12, 14, 15, 16, 17, 18, 20}
+-   Find 75th percentile
+-   Position: 75th percentile = (75 / 100) \* 10 = 7.5
+-   Value: average of 7th and 8th values = (16 + 17) / 2 = 16.5
 
 # Uses of Percentiles
 
 ## Understanding the distribution of data
 
-- Percentile can be used to understand the distribution of data.
-- It indicates the value below which a certain percentage of data falls.
-- For example, if the 50th percentile of a dataset is 50, it means that 50% of the data falls below that value.
+-   Percentile can be used to understand the distribution of data.
+-   It indicates the value below which a certain percentage of data falls.
+-   For example, if the 50th percentile of a dataset is 50, it means that 50% of the data falls below that value.
 
 ## Interpreting percentile values
 
 Example 1: If the 10th percentile is 20 and the 90th percentile is 80, it means that 10% of the data falls below 20 and 90% of the data falls below 80.
 
-- This indicates that the data is distributed relatively evenly, with a few outliers on either side.
+-   This indicates that the data is distributed relatively evenly, with a few outliers on either side.
 
 Example 2: If the 10th percentile is 20 and the 90th percentile is 90, it means that there is a larger concentration of data towards the higher end of the scale.
 
 ## Using percentile to understand data
 
-- Using percentile can help us understand the distribution of data and identify patterns or trends in the data.
-- It can also be used to compare different datasets and see how they differ in terms of distribution.
+-   Using percentile can help us understand the distribution of data and identify patterns or trends in the data.
+-   It can also be used to compare different datasets and see how they differ in terms of distribution.
 
 ## Comparing Data Sets
 
-- Comparing data sets can be useful to understand how a particular value in one data set compares to values in another data set.
-- Percentiles can be used for comparing data sets, especially when they have different scales or units of measurement.
- 
+-   Comparing data sets can be useful to understand how a particular value in one data set compares to values in another data set.
+-   Percentiles can be used for comparing data sets, especially when they have different scales or units of measurement.
+
 # Percentile rank
 
 ## Definition of Percentile Rank
 
-- Percentile rank is a measure of the relative standing of a value in a dataset
-- Indicates the percentage of values in the dataset that are equal to or less than the value in question
-- Example: if a value has a percentile rank of 75, it means that 75% of the values in the dataset are equal to or less than that value.
+-   Percentile rank is a measure of the relative standing of a value in a dataset
+-   Indicates the percentage of values in the dataset that are equal to or less than the value in question
+-   Example: if a value has a percentile rank of 75, it means that 75% of the values in the dataset are equal to or less than that value.
 
 ## Application of Percentile Rank
 
-- Percentile ranks are commonly used to describe how well a person has performed on a test or assessment relative to a group of people
-- Example: a person scores in the 75th percentile on a test, it means that they scored higher than 75% of the people who took the test
-- Percentile ranks can also be used to compare the scores of different groups of people, such as comparing the scores of students in different schools or at different grade levels.
+-   Percentile ranks are commonly used to describe how well a person has performed on a test or assessment relative to a group of people
+-   Example: a person scores in the 75th percentile on a test, it means that they scored higher than 75% of the people who took the test
+-   Percentile ranks can also be used to compare the scores of different groups of people, such as comparing the scores of students in different schools or at different grade levels.
 
 ## Difference between Percentile Rank and Percentage
 
-- It’s important to note that percentile rank is different from percentage
-- Percentile rank describes the relative standing of a value within a dataset
-- Percentage is a measure of the number of items in a set relative to the total number of items.
- 
+-   It's important to note that percentile rank is different from percentage
+-   Percentile rank describes the relative standing of a value within a dataset
+-   Percentage is a measure of the number of items in a set relative to the total number of items.
+
 ## How to Calculate Percentile Rank
 
-- Organize the scores in ascending order.
-- The lowest score should be at the bottom.
-- Identify the position of the score in the ordered distribution.
+-   Organize the scores in ascending order.
+-   The lowest score should be at the bottom.
+-   Identify the position of the score in the ordered distribution.
 
 ## Calculate the percentile rank as a percentage. {.scrollable}
 
-- Divide the position of the score by the total number of scores.
-- Multiply the result by 100 to get the percentile rank as a percentage.
+-   Divide the position of the score by the total number of scores.
+-   Multiply the result by 100 to get the percentile rank as a percentage.
 
-Example: Let's say we have the following distribution of scores: 60, 70, 75, 80, 85, 90, 95, 100.
-The percentile rank for a score of 80 would be:
+Example: Let's say we have the following distribution of scores: 60, 70, 75, 80, 85, 90, 95, 100. The percentile rank for a score of 80 would be:
 
-- Organize the scores in ascending order: 60, 70, 75, 80, 85, 90, 95, 100.
-- Determine the position of the score in question: The score of 80 is the 4th score in the distribution.
-- Calculate the percentile rank as a percentage: 4/8 * 100 = 50%. The score of 80 is at the 50th percentile. 
- 
- 
+-   Organize the scores in ascending order: 60, 70, 75, 80, 85, 90, 95, 100.
+-   Determine the position of the score in question: The score of 80 is the 4th score in the distribution.
+-   Calculate the percentile rank as a percentage: 4/8 \* 100 = 50%. The score of 80 is at the 50th percentile.
+
 # References
- 

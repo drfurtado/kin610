@@ -1678,5 +1678,299 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
+  },
+  {
+    "objectID": "slides/lec-5.html#credits",
+    "href": "slides/lec-5.html#credits",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Credits",
+    "text": "Credits\nFurtado (2023)"
+  },
+  {
+    "objectID": "slides/lec-5.html#the-mean",
+    "href": "slides/lec-5.html#the-mean",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "The Mean",
+    "text": "The Mean\n\nThe mean is the most commonly used measure of central tendency in Kinesiology research.\nIt is the arithmetic average of a data set.\nCalculated by adding up all the values and dividing by the total number of values."
+  },
+  {
+    "objectID": "slides/lec-5.html#why-mean",
+    "href": "slides/lec-5.html#why-mean",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Why Mean?",
+    "text": "Why Mean?\n\nThe mean considers all the values in a data set.\nSensitive to small changes in the data.\nAppropriate for continuous (normal) data"
+  },
+  {
+    "objectID": "slides/lec-5.html#limitations-of-mean",
+    "href": "slides/lec-5.html#limitations-of-mean",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Limitations of Mean",
+    "text": "Limitations of Mean\n\n\n\nNot always the most appropriate measure of central tendency.\nExtreme outliers or skewed data can influence the mean."
+  },
+  {
+    "objectID": "slides/lec-5.html#median-as-an-alternative",
+    "href": "slides/lec-5.html#median-as-an-alternative",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median as an alternative",
+    "text": "Median as an alternative\n\nIf data are continuous but deviating from normality\nThe median is not as sensitive to extreme values as the mean.\nAppropriate with skewed data or data with outliers."
+  },
+  {
+    "objectID": "slides/lec-5.html#applications-of-mean-in-kinesiology",
+    "href": "slides/lec-5.html#applications-of-mean-in-kinesiology",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Applications of Mean in Kinesiology",
+    "text": "Applications of Mean in Kinesiology\n\nAverage performance of a group of athletes. Average time for an injury to heal.\nAverage dose of medication administered to patients."
+  },
+  {
+    "objectID": "slides/lec-5.html#calculating-the-mean---steps",
+    "href": "slides/lec-5.html#calculating-the-mean---steps",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Calculating the Mean - Steps",
+    "text": "Calculating the Mean - Steps\n\nAdd up all the values in the dataset.\nCount the number of observations in the dataset.\nDivide the total sum by the number of observations."
+  },
+  {
+    "objectID": "slides/lec-5.html#calculating-the-mean---example",
+    "href": "slides/lec-5.html#calculating-the-mean---example",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Calculating the Mean - Example",
+    "text": "Calculating the Mean - Example\nData set: 12.5, 10.8, 11.2, 13.1, 12.9, 11.7, 12.3\n\nStep 1: 12.5 + 10.8 + 11.2 + 13.1 + 12.9 + 11.7 + 12.3 = 84.5\nStep 2: 7\nStep 3: 84.5 / 7 = 12.07 seconds"
+  },
+  {
+    "objectID": "slides/lec-5.html#calculating-the-mean-using-jamovi",
+    "href": "slides/lec-5.html#calculating-the-mean-using-jamovi",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Calculating the Mean using Jamovi",
+    "text": "Calculating the Mean using Jamovi\n\n\n\n\n\nOpen jamovi, click Exploration, then Descriptives\nMove DVs under Variables and IVs under Split by\nSelect Variables across rows under Descriptives"
+  },
+  {
+    "objectID": "slides/lec-5.html#median",
+    "href": "slides/lec-5.html#median",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median",
+    "text": "Median\n\nDefinition of Median\nMedian is not influenced by extreme values\nMedian may not be as sensitive to small changes in the data as the mean\nBoth case below the median is 7\ndata1: 1, 3, 7, 7, 8, 99\ndata2: 1, 3, 7, 7, 8, 9"
+  },
+  {
+    "objectID": "slides/lec-5.html#median-calculation",
+    "href": "slides/lec-5.html#median-calculation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median Calculation",
+    "text": "Median Calculation\n\nFirst step is arranging the data in order of magnitude\nMedian is the middle value if the number of observations is odd\nMedian is the average of two middle values if the number of observations is even\nUse of median when data contains extreme values or is ordinal\nHelps to understand the group’s typical value or performance\nExample in the next slide"
+  },
+  {
+    "objectID": "slides/lec-5.html#median-calculation-using-jamovi",
+    "href": "slides/lec-5.html#median-calculation-using-jamovi",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median Calculation using Jamovi",
+    "text": "Median Calculation using Jamovi\n\nSteps to calculate median using jamovi\nExample of calculating median using jamovi"
+  },
+  {
+    "objectID": "slides/lec-5.html#importance-of-median-in-kinesiology-research",
+    "href": "slides/lec-5.html#importance-of-median-in-kinesiology-research",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Importance of Median in Kinesiology Research",
+    "text": "Importance of Median in Kinesiology Research\n\nUse of median when data contains extreme values\nHelps to understand the group’s typical value or performance\nInform future interventions or studies"
+  },
+  {
+    "objectID": "slides/lec-5.html#mode",
+    "href": "slides/lec-5.html#mode",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Mode",
+    "text": "Mode\n\nDefinition of Mode\nMode is the value that occurs most frequently in a data set\nMode is often used with categorical or nominal data"
+  },
+  {
+    "objectID": "slides/lec-5.html#mode-calculation",
+    "href": "slides/lec-5.html#mode-calculation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Mode Calculation",
+    "text": "Mode Calculation\n\nIdentify the value or category that occurs most frequently in the data set\nHelps researchers identify the most common value or category in a data set\nExample of using mode in a study on exercise habits in older adults"
+  },
+  {
+    "objectID": "slides/lec-5.html#mode-calculation-using-jamovi",
+    "href": "slides/lec-5.html#mode-calculation-using-jamovi",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Mode Calculation using Jamovi",
+    "text": "Mode Calculation using Jamovi\n\n\n\nSteps to calculate mode using jamovi\nExample of calculating mode using jamovi\n\n\ncontents…"
+  },
+  {
+    "objectID": "slides/lec-5.html#importance-of-mode-in-kinesiology-research",
+    "href": "slides/lec-5.html#importance-of-mode-in-kinesiology-research",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Importance of Mode in Kinesiology Research",
+    "text": "Importance of Mode in Kinesiology Research\n\nHelps researchers identify the most common value or category in a data set\nInform interventions or training programs\nExample of using mode in a study on exercise habits in older adults"
+  },
+  {
+    "objectID": "slides/lec-5.html#introduction",
+    "href": "slides/lec-5.html#introduction",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Introduction",
+    "text": "Introduction\n\nUnderstanding how much individual data points in a data set vary from one another\nTypes: variance, standard deviation, range, and interquartile range\nImportance\n\nunderstanding data sets\ncan help researchers understand the precision and accuracy of their results\nto draw meaningful conclusions"
+  },
+  {
+    "objectID": "slides/lec-5.html#importance-of-variability",
+    "href": "slides/lec-5.html#importance-of-variability",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Importance of Variability",
+    "text": "Importance of Variability\n\nImportance of measures of variability in understanding data sets\nHow measures of variability can help researchers understand the precision and accuracy of their results\nImportance of understanding measures of variability to draw meaningful conclusions"
+  },
+  {
+    "objectID": "slides/lec-5.html#range",
+    "href": "slides/lec-5.html#range",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Range",
+    "text": "Range\n\nDifference between the largest and smallest values in a data set\nLimitations of range due to sensitivity to outliers or extreme values\nCaution in interpreting the range especially when there are outliers\nThe need to use range in conjunction with other measures of variability"
+  },
+  {
+    "objectID": "slides/lec-5.html#calculating-range",
+    "href": "slides/lec-5.html#calculating-range",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Calculating Range",
+    "text": "Calculating Range\n\nUse of jamovi to obtain the minimum and maximum values for a data set\nCalculation of the range by subtracting the minimum from the maximum value"
+  },
+  {
+    "objectID": "slides/lec-5.html#interquartile-range",
+    "href": "slides/lec-5.html#interquartile-range",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Interquartile Range",
+    "text": "Interquartile Range\n\nDefinition of interquartile range as a measure of variability that is less sensitive to outliers\nUse of quartiles to divide a data set into four equal parts\nCalculation of interquartile range as the difference between the upper and lower quartiles\nImportance of interquartile range in providing information about the range of the middle 50% of the data"
+  },
+  {
+    "objectID": "slides/lec-5.html#calculating-interquartile-range",
+    "href": "slides/lec-5.html#calculating-interquartile-range",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Calculating Interquartile Range",
+    "text": "Calculating Interquartile Range\n\nCalculation: Q3 - Q1\nInterpretation: the range between the first quartile and the third quartile\nAdvantages: Resistant to outliers\nDisadvantages: Not sensitive to extreme values that fall outside the range of the interquartile"
+  },
+  {
+    "objectID": "slides/lec-5.html#variance",
+    "href": "slides/lec-5.html#variance",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Variance",
+    "text": "Variance\n\n\n\\(s^2 = \\frac{\\sum_{i=1}^{n}(x_i-\\bar{x})^2}{n-1}\\)\n\n\nInterpretation: A measure of how much the data deviates from the mean\nAdvantages: Widely used and well known\nDisadvantages: Can be sensitive to outliers"
+  },
+  {
+    "objectID": "slides/lec-5.html#standard-deviation",
+    "href": "slides/lec-5.html#standard-deviation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Standard Deviation",
+    "text": "Standard Deviation\n\nCalculation: \\(s = \\sqrt{\\frac{\\sum_{i=1}^{n}(x_i - \\bar{x})^2}{n-1}}\\)\nInterpretation: A measure of the amount of variation or dispersion of a set of values from the mean\nAdvantages: Widely used and well known\nDisadvantages: Can be sensitive to outliers; more difficult to interpret than the range or IQR"
+  },
+  {
+    "objectID": "slides/lec-5.html#coefficient-of-variation",
+    "href": "slides/lec-5.html#coefficient-of-variation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Coefficient of Variation",
+    "text": "Coefficient of Variation\n\nCalculation: CV = \\(\\frac{s}{\\bar{x}} \\times 100%\\)\nInterpretation: A measure of the relative variation or dispersion of a data set, particularly useful for comparing the variability of data sets with different units or scales\nAdvantages: Allows for comparison of the relative variability of data sets with different scales or units\nDisadvantages: Not suitable for data sets with negative or zero mean values"
+  },
+  {
+    "objectID": "slides/lec-5.html#comparing-measures-of-variability",
+    "href": "slides/lec-5.html#comparing-measures-of-variability",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Comparing Measures of Variability",
+    "text": "Comparing Measures of Variability\n\nIt is essential to consider the characteristics of the data and the research question when comparing measures of variability.\nRange and IQR are useful for non-normally distributed data or when identifying outliers.\nVariance and standard deviation are useful for normally distributed data and can provide more information about the spread of the distribution.\nCoefficient of variation is suitable for comparing the spread of two sets of data with different units."
+  },
+  {
+    "objectID": "slides/lec-5.html#summary",
+    "href": "slides/lec-5.html#summary",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Summary",
+    "text": "Summary\n\nDescriptive statistics help in summarizing and describing a dataset’s features.\nMeasures of variability are used to understand how spread out the data is.\nThe range, interquartile range, variance, standard deviation, and coefficient of variation are measures of variability that have their advantages and disadvantages.\nThe choice of measure depends on the characteristics of the data and the research question."
+  },
+  {
+    "objectID": "slides/lec-5.html#descriptive-table",
+    "href": "slides/lec-5.html#descriptive-table",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Descriptive table",
+    "text": "Descriptive table"
+  },
+  {
+    "objectID": "slides/lec-5.html#descriptives-table",
+    "href": "slides/lec-5.html#descriptives-table",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Descriptives Table",
+    "text": "Descriptives Table"
+  },
+  {
+    "objectID": "slides/lec-5.html#using-jamovi",
+    "href": "slides/lec-5.html#using-jamovi",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Using jamovi",
+    "text": "Using jamovi\n\n\n\n\n\nOpen jamovi, click Exploration, then Descriptives\nMove DVs under Variables and IVs under Split by\nSelect Variables across rows under Descriptives (horizontal format)\njamovi will create a Descriptives Table - see next slide."
+  },
+  {
+    "objectID": "slides/lec-5.html#calculating-the-mean---equation",
+    "href": "slides/lec-5.html#calculating-the-mean---equation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Calculating the Mean - Equation",
+    "text": "Calculating the Mean - Equation\n\\[\n\\bar{x} = \\frac{1}{n}\\sum_{i=1}^{n}x_i\n\\]\nwhere, \\(n\\) is the total number of values in the set, \\(x_i\\) is the \\(i\\)th value in the set, and \\(\\sum_{i=1}^{n}\\) represents the sum of all the values from \\(i=1\\) to \\(i=n\\)."
+  },
+  {
+    "objectID": "slides/lec-5.html#displaying-data",
+    "href": "slides/lec-5.html#displaying-data",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Displaying data",
+    "text": "Displaying data"
+  },
+  {
+    "objectID": "slides/lec-5.html#displaying-data1",
+    "href": "slides/lec-5.html#displaying-data1",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Displaying data1",
+    "text": "Displaying data1\n\n\n\n\n\nBar chart created in RStudio."
+  },
+  {
+    "objectID": "slides/lec-5.html#comparison-table",
+    "href": "slides/lec-5.html#comparison-table",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Comparison table",
+    "text": "Comparison table\n\n\n\n\n\n\n\n\n\nMeasure of Central Tendency\nDefinition\nCalculation\nUsefulness\n\n\n\n\nMean\nThe average of a set of numbers\nSum of values divided by number of values\nUseful for data that are normally distributed and have no extreme values\n\n\nMedian\nThe middle value in a set of numbers\nOrder values and find the middle value\nUseful for data with extreme values or that are not normally distributed\n\n\nMode\nThe value that occurs most frequently in a set of numbers\nIdentify the value that appears most often\nUseful for categorical or nominal data"
+  },
+  {
+    "objectID": "slides/lec-5.html#comparison-table-.scrollable-.smaller",
+    "href": "slides/lec-5.html#comparison-table-.scrollable-.smaller",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Comparison table {.scrollable, .smaller}",
+    "text": "Comparison table {.scrollable, .smaller}\n\n\n\n\n\n\n\n\n\n\nMeasure of Variability\nCalculation\nInterpretation\nAdvantages\nDisadvantages\n\n\n\n\nRange\nMaximum value - Minimum value\nThe spread of the data from the smallest to the largest value\nEasy to understand\nSensitive to outliers\n\n\nInterquartile Range\nQ3 - Q1\nThe range between the first quartile and the third quartile\nResistant to outliers\nNot sensitive to extreme values that fall outside the range of the interquartile\n\n\nVariance\n\\(s^2 = \\frac{\\sum_{i=1}^{n}(x_i-\\bar{x})^2}{n-1}\\)\nA measure of how much the data deviates from the mean\nWidely used and well known\nCan be sensitive to outliers\n\n\nStandard Deviation\n\\(s = \\sqrt{\\frac{\\sum_{i=1}^{n}(x_i - \\bar{x})^2}{n-1}}\\)\nA measure of the amount of variation or dispersion of a set of values from the mean\nWidely used and well known\nCan be sensitive to outliers; more difficult to interpret than the range or IQR"
+  },
+  {
+    "objectID": "slides/lec-5.html#comparison-table-1",
+    "href": "slides/lec-5.html#comparison-table-1",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Comparison table",
+    "text": "Comparison table\n\n\n\n\n\n\n\n\n\n\nMeasure of Variability\nCalculation\nInterpretation\nAdvantages\nDisadvantages\n\n\n\n\nRange\nMaximum value - Minimum value\nThe spread of the data from the smallest to the largest value\nEasy to understand\nSensitive to outliers\n\n\nInterquartile Range\nQ3 - Q1\nThe range between the first quartile and the third quartile\nResistant to outliers\nNot sensitive to extreme values that fall outside the range of the interquartile\n\n\nVariance\n\\(s^2 = \\frac{\\sum_{i=1}^{n}(x_i-\\bar{x})^2}{n-1}\\)\nA measure of how much the data deviates from the mean\nWidely used and well known\nCan be sensitive to outliers\n\n\nStandard Deviation\n\\(s = \\sqrt{\\frac{\\sum_{i=1}^{n}(x_i - \\bar{x})^2}{n-1}}\\)\nA measure of the amount of variation or dispersion of a set of values from the mean\nWidely used and well known\nCan be sensitive to outliers; more difficult to interpret than the range or IQR"
+  },
+  {
+    "objectID": "slides/lec-5.html#median---uses",
+    "href": "slides/lec-5.html#median---uses",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median - Uses",
+    "text": "Median - Uses\nOne example of a research study that used the median instead of the mean when reporting results is a study that examined the income of a group of people. In this study, the researchers may have chosen to report the median income instead of the mean income because the income distribution may have been skewed.\nFor example, let’s say the researchers surveyed 100 people and found that 90 of them had an income of $50,000 per year, 5 of them had an income of $100,000 per year, and 5 of them had an income of $500,000 per year. In this case, the mean income would be calculated as (90 x 50,000 + 5 x 100,000 + 5 x 500,000) / 100 = $83,000 per year. However, this value may not be representative of the income of the majority of the participants because it is heavily influenced by the small group of high earners.\nInstead, the researchers may choose to report the median income, which is the middle value of the income distribution when the values are arranged in order. In this example, the median income would be $50,000 per year, which is a more representative value of the income of the majority of the participants."
+  },
+  {
+    "objectID": "slides/lec-5.html#median---scenario",
+    "href": "slides/lec-5.html#median---scenario",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median - Scenario",
+    "text": "Median - Scenario\nOne example of a research study that used the median instead of the mean when reporting results is a study that examined the income of a group of people. In this study, the researchers may have chosen to report the median income instead of the mean income because the income distribution may have been skewed.\nFor example, let’s say the researchers surveyed 100 people and found that 90 of them had an income of $50,000 per year, 5 of them had an income of $100,000 per year, and 5 of them had an income of $500,000 per year. In this case, the mean income would be calculated as (90 x 50,000 + 5 x 100,000 + 5 x 500,000) / 100 = $83,000 per year. However, this value may not be representative of the income of the majority of the participants because it is heavily influenced by the small group of high earners.\nInstead, the researchers may choose to report the median income, which is the middle value of the income distribution when the values are arranged in order. In this example, the median income would be $50,000 per year, which is a more representative value of the income of the majority of the participants."
+  },
+  {
+    "objectID": "slides/lec-5.html#median---real-example",
+    "href": "slides/lec-5.html#median---real-example",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median - Real Example",
+    "text": "Median - Real Example\nBelow is an example of a fictitious study where the authors would have chosen the median instead of the mean to report their results.\nTitle: “The relationship between physical activity and depression in adults with multiple sclerosis”\nIn this study, the researchers investigated the relationship between physical activity and depression in adults with multiple sclerosis (MS). They collected data on physical activity levels and depression scores from 60 adults with MS and reported the results using the median instead of the mean.\nSpecifically, they reported the median number of minutes per day that participants engaged in moderate-to-vigorous physical activity (MVPA) and the median score on the Center for Epidemiologic Studies Depression Scale (CES-D). They also used the median split technique to categorize participants into high and low MVPA groups and compared their depression scores.\nUsing the median instead of the mean is appropriate in this case because the physical activity and depression data were not normally distributed and were skewed towards lower levels of physical activity and higher depression scores. The use of the median allows for a more accurate representation of the typical physical activity level and depression score in this population."
+  },
+  {
+    "objectID": "slides/lec-5.html#median---scenario-1",
+    "href": "slides/lec-5.html#median---scenario-1",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median - Scenario 1",
+    "text": "Median - Scenario 1\nOne example of a research study that used the median instead of the mean when reporting results is a study that examined the income of a group of people. In this study, the researchers may have chosen to report the median income instead of the mean income because the income distribution may have been skewed.\nFor example, let’s say the researchers surveyed 100 people and found that 90 of them had an income of $50,000 per year, 5 of them had an income of $100,000 per year, and 5 of them had an income of $500,000 per year. In this case, the mean income would be calculated as (90 x 50,000 + 5 x 100,000 + 5 x 500,000) / 100 = $83,000 per year. However, this value may not be representative of the income of the majority of the participants because it is heavily influenced by the small group of high earners.\nInstead, the researchers may choose to report the median income, which is the middle value of the income distribution when the values are arranged in order. In this example, the median income would be $50,000 per year, which is a more representative value of the income of the majority of the participants."
+  },
+  {
+    "objectID": "slides/lec-5.html#median---scenario-2",
+    "href": "slides/lec-5.html#median---scenario-2",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Median - Scenario 2",
+    "text": "Median - Scenario 2\nBelow is an example of a fictitious study where the authors would have chosen the median instead of the mean to report their results.\nTitle: “The relationship between physical activity and depression in adults with multiple sclerosis”\nIn this study, the researchers investigated the relationship between physical activity and depression in adults with multiple sclerosis (MS). They collected data on physical activity levels and depression scores from 60 adults with MS and reported the results using the median instead of the mean.\nSpecifically, they reported the median number of minutes per day that participants engaged in moderate-to-vigorous physical activity (MVPA) and the median score on the Center for Epidemiologic Studies Depression Scale (CES-D). They also used the median split technique to categorize participants into high and low MVPA groups and compared their depression scores.\nUsing the median instead of the mean is appropriate in this case because the physical activity and depression data were not normally distributed and were skewed towards lower levels of physical activity and higher depression scores. The use of the median allows for a more accurate representation of the typical physical activity level and depression score in this population."
   }
 ]
