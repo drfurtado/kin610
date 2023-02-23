@@ -191,7 +191,6 @@ Using the median instead of the mean is appropriate in this case because the phy
 
 -   Identify the value or category that occurs most frequently in the data set
 -   Helps researchers identify the most common value or category in a data set
--   Example of using mode in a study on exercise habits in older adults
 
 ## Comparison table {.scrollable .smaller}
 
@@ -309,5 +308,9 @@ $s^2 = \frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}$
 -   Measures of variability are used to understand how spread out the data is.
 -   The range, interquartile range, variance, standard deviation, and coefficient of variation are measures of variability that have their advantages and disadvantages.
 -   The choice of measure depends on the characteristics of the data and the research question.
+
+# Practice Exercises
+
+Find several exercises by clicking here
 
 # References
