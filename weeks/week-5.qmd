@@ -38,7 +38,7 @@ Practice [questions for this topic](https://drfurtado.shinyapps.io/Practice-Ques
 
 ## Practice
 
-TBD
+Click [here](pe.qmd#sec-week-5) to complete various exercises related to this topic
 
 ## Perform
 

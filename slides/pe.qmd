@@ -6,7 +6,7 @@ collapse-callout:
   tip: true
 ---
 
-# Week 5
+# Week 5 {#sec-week-5}
 
 ## Practice questions
 
