@@ -34,7 +34,7 @@ Practice [questions for this topic](https://drfurtado.shinyapps.io/Practice-Ques
 
 ## Participate
 
-Slides will be provided soon.
+[Lecture Slides](../slides/lec-5.qmd)
 
 ## Practice
 
