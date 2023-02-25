@@ -42,7 +42,11 @@ Click [here](pe.qmd#sec-week-5) to complete various exercises related to this to
 
 ## Perform
 
-Take the quiz and complete the major takeaways assignment for this topic.
+1.  Take the quiz
+
+2.  Complete the major takeaways assignment
+
+3.  Complete [Lab 2](../labs/lab-2.qmd)
 
 <br><br>
 

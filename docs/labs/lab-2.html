@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.2.335">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -62,10 +62,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="KIN 610 - Spring 2023 - Lab 2">
-<meta property="og:description" content="Will be available soon.">
+<meta property="og:description" content="Measures of Central Tendency and Measures of Variability Assignment">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
 <meta name="twitter:title" content="KIN 610 - Spring 2023 - Lab 2">
-<meta name="twitter:description" content="Will be available soon.">
+<meta name="twitter:description" content="Measures of Central Tendency and Measures of Variability Assignment">
 <meta name="twitter:image" content="drfurtado.github.io/kin610/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:image-height" content="418">
@@ -206,8 +206,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
+  <li><a href="#objective" id="toc-objective" class="nav-link active" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#grading-rubric" id="toc-grading-rubric" class="nav-link" data-scroll-target="#grading-rubric">Grading rubric</a></li>
+  <li><a href="#sec-data" id="toc-sec-data" class="nav-link" data-scroll-target="#sec-data">Data</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/drfurtado/kin610/edit/main/labs/lab-2.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/drfurtado/kin610/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -217,6 +219,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title d-none d-lg-block">Lab 2</h1>
+<p class="subtitle lead">Measures of Central Tendency and Measures of Variability Assignment</p>
 </div>
 
 
@@ -231,14 +234,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Will be available soon.</p>
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">Objective</h2>
+<p>Objective: To assess students’ understanding of measures of central tendency and measures of variability and their ability to use jamovi for data analysis.</p>
 </section>
-<section id="grading" class="level2">
-<h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>Total points available: ?</p>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<ol type="1">
+<li>Open <a href="../course-links.html">Jamovi</a> and create a new data set with the following variables: Gender and Reaction Time (ms).</li>
+<li>Enter the <a href="#sec-data">provided data</a> set into the Jamovi data spreasheet.</li>
+<li>Alternatively, you can <a href="./data/data-lab2.csv">download the dataset here</a>.</li>
+<li>Click on “Descriptives” under the “Exploration” tab in the top menu.</li>
+<li>Select the “Reaction Time (ms)” variable and drag it into the “Variables” box.</li>
+<li>Select the “Gender” variable and drag it into the “Split by” box.</li>
+<li>Under “Statistics” and “Plots”, select all checked items depicted in <a href="#fig-jamovi">Figure&nbsp;1</a>.</li>
+<li>Review the generated table and graphs to ensure that the output is accurate and complete.</li>
+<li>Export the output as PDF and choose the desired destination to save the PDF file.</li>
+<li>Name the file with your first initial and last name and submit the file via Canvas (Lab 2 - Part 1).</li>
+<li>Complete Part 2 on Canvas - 2-question quiz</li>
+</ol>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Remember that this assignment must be completed individually, and that plagiarism is prohibited. Review the plagiarism policy posted on the CSUN website before submitting your assignment. Note: The generated PDF file should contain the Descriptives Table (variables across columns) and the relevant graphs. Be sure to review the file before submitting it to ensure it contains all the required information.</p>
+</div>
+</div>
+</section>
+<section id="grading-rubric" class="level2">
+<h2 class="anchored" data-anchor-id="grading-rubric">Grading rubric</h2>
+<p>Total points available: 90</p>
 <table class="table">
+<colgroup>
+<col style="width: 89%">
+<col style="width: 10%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Component</th>
@@ -247,12 +283,118 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td></td>
-<td></td>
+<td><p>File submission (Part 1) containing the following:</p>
+<ul>
+<li>the Descriptives Table (Variables across columns)</li>
+<li>bar blot comparing gender</li>
+<li>single graph with both histograms - w/ density curves (males, females)</li>
+<li>single graph with both boxplots (males, females)</li>
+<li>single graph with both QQ Plots (males, females)</li>
+</ul></td>
+<td>50</td>
 </tr>
 <tr class="even">
-<td></td>
-<td></td>
+<td>20-question quiz</td>
+<td>40</td>
+</tr>
+</tbody>
+</table>
+<div id="fig-jamovi" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/image-1752567466.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;1: Screenshot jamovi</figcaption><p></p>
+</figure>
+</div>
+</section>
+<section id="sec-data" class="level2">
+<h2 class="anchored" data-anchor-id="sec-data">Data</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Gender</strong></th>
+<th><strong>Reaction Time (ms)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Male</td>
+<td>215</td>
+</tr>
+<tr class="even">
+<td>Male</td>
+<td>203</td>
+</tr>
+<tr class="odd">
+<td>Male</td>
+<td>197</td>
+</tr>
+<tr class="even">
+<td>Male</td>
+<td>208</td>
+</tr>
+<tr class="odd">
+<td>Male</td>
+<td>222</td>
+</tr>
+<tr class="even">
+<td>Male</td>
+<td>212</td>
+</tr>
+<tr class="odd">
+<td>Male</td>
+<td>194</td>
+</tr>
+<tr class="even">
+<td>Male</td>
+<td>219</td>
+</tr>
+<tr class="odd">
+<td>Male</td>
+<td>201</td>
+</tr>
+<tr class="even">
+<td>Male</td>
+<td>214</td>
+</tr>
+<tr class="odd">
+<td>Female</td>
+<td>185</td>
+</tr>
+<tr class="even">
+<td>Female</td>
+<td>172</td>
+</tr>
+<tr class="odd">
+<td>Female</td>
+<td>190</td>
+</tr>
+<tr class="even">
+<td>Female</td>
+<td>165</td>
+</tr>
+<tr class="odd">
+<td>Female</td>
+<td>150</td>
+</tr>
+<tr class="even">
+<td>Female</td>
+<td>180</td>
+</tr>
+<tr class="odd">
+<td>Female</td>
+<td>195</td>
+</tr>
+<tr class="even">
+<td>Female</td>
+<td>170</td>
+</tr>
+<tr class="odd">
+<td>Female</td>
+<td>210</td>
+</tr>
+<tr class="even">
+<td>Female</td>
+<td>148</td>
 </tr>
 </tbody>
 </table>
@@ -507,6 +649,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/drfurtado\.github\.io\/kin610/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

@@ -1,9 +1,9 @@
 ---
-title: "Useful links"
+title: "Course Links"
 ---
 
 |                                                               |                                                   |
-|---------------------------------------------------------------|---------------------------------------------------|
+|----------------------------------------|--------------------------------|
 | Link                                                          | Description                                       |
 | {{< bi link >}} [Human benchmark](https://humanbenchmark.com) | Used for data collection                          |
 | {{< bi link >}} [CSUN Canvas](http://canvas.csun.edu)         | Used for assignment submissions                   |
