@@ -1,0 +1,146 @@
+---
+title: "Week 5: Descriptive Statistics"
+subtitle: |
+           KIN 610 - Spring 2023
+author: "Dr. Ovande Furtado Jr"
+footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
+logo: "images/logo.png"
+format: 
+  revealjs: 
+    theme: slides.scss
+    multiplex: true
+    incremental: false
+    transition: fade
+    slide-number: true
+    controls: true
+    controls-tutorial: true
+    controls-layout: edges
+    chalkboard: true
+editor: visual
+execute:
+  freeze: auto
+bibliography: references.bib
+---
+
+## Credits
+ss
+
+# Introduction
+
+## Inferential Stats and Kinesiology
+
+- Kinesiology studies characteristics and behaviors of the human body in motion
+- Data are collected from various sources and analyzed using inferential statistics
+- Understanding inferential statistics is essential to draw accurate conclusions about the population
+
+## Descriptive vs Inferential Statistics
+
+- Descriptive statistics summarize and visualize data (means, standard deviations, graphs)
+- Inferential statistics make predictions and inferences about the population based on sample data
+- Hypothesis testing is a key component of inferential statistics
+
+## Importance of Inferential Statistics in Kinesiology
+
+- Statistics plays a crucial role in analyzing and interpreting collected data
+- Inferential statistics is essential for making decisions based on Kinesiology research and practice data
+- Example: evaluating the effectiveness of a new exercise program for the larger population
+
+## Fundamentals of Inferential Statistics
+
+- Estimation: using sample statistics to estimate population parameters
+- Hypothesis testing: determining whether observed differences in sample data are statistically significant
+
+## Practical Applications of Inferential Statistics in Kinesiology
+
+- Example: using inferential statistics to determine the effectiveness of a new rehabilitation program for injured athletes
+- Example: using inferential statistics to analyze the impact of a new dietary supplement on physical performance
+
+# Probability Concepts
+
+## Introduction to Probability Theory
+
+- Probability theory deals with the analysis of random events and their associated outcomes
+- The sample space is the set of all possible outcomes of an experiment or trial
+- The sample space helps in identifying the range of potential outcomes that could arise from a trial
+
+## Events and Probabilities
+
+- An event is a subset of the sample space that comprises a group of outcomes with a common characteristic
+- Probabilities are numerical values assigned to events, representing the likelihood of those events occurring
+- Probabilities range from 0 to 1, with 0 indicating that an event cannot occur and 1 indicating that the event is certain to occur
+
+## Mutually Exclusive and Independent Events
+
+- Mutually exclusive events are events that cannot occur simultaneously
+- Independent events are events where the occurrence of one event does not affect the occurrence of another
+- Examples of mutually exclusive and independent events ????
+
+
+# Probability Distributions
+
+## Introduction
+
+- Probability distributions allow researchers to infer population parameters based on sample statistics
+- Understanding probability concepts is crucial for comprehending probability distributions
+
+## Discrete Probability Distributions
+
+- Describes probabilities of different outcomes of a discrete variable
+- Can only take certain values
+- Examples: Binomial, Poisson, and Geometric distributions
+
+## Binomial Distribution
+
+- Used to analyze `dichotomous data` in kinesiology research
+- Models the probability of observing a certain number of successes or failures in a given number of trials
+- Example: Success rate of patients undergoing a particular treatment
+
+## Poisson Distribution
+
+- Used to model the number of events that occur in a given period
+- Assumes events occur randomly and independently of each other and that the rate of occurrence is constant over time
+- Example: Number of injuries in a sports team over a season
+
+## Continuous Probability Distributions
+
+- Describes probabilities of different outcomes of a continuous variable
+- Can take any value within a certain range
+- Examples: Normal, t-distribution, and chi-square distribution
+
+## Application of Normal Distribution
+
+- Most commonly used continuous probability distribution in kinesiology research
+- Used to model continuous and normally distributed measurements
+- Characterized by its mean and standard deviation
+- Bell-shaped with most observations falling within one or two standard deviations of the mean
+
+Slide 7: t-Distribution
+Title: Application of t-Distribution
+
+Used when the sample size is small, or the population standard deviation is unknown
+Similar to the normal distribution but with slightly fatter tails
+Used in kinesiology research when comparing means between two groups
+
+Slide 8: Chi-Square Distribution
+Title: Application of Chi-Square Distribution
+
+Used to test the independence of categorical variables
+Also used to test goodness-of-fit, or whether a sample fits a certain distribution
+Example: Relationship between age and injury risk in a particular sport
+
+Slide 9: Conclusion
+Title: Conclusion
+
+Probability distributions are essential tools for inferential statistics in kinesiology research
+Understanding the characteristics and applications of different types of probability distributions is crucial for conducting meaningful and valid statistical analyses.
+
+
+
+
+
+
+# Practice Exercises
+
+Find several exercises by clicking [here](practice-exercices.qmd)
+
+# References

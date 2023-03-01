@@ -270,7 +270,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-z-table" id="toc-the-z-table" class="nav-link active" data-scroll-target="#the-z-table">The <span class="math inline">\(z\)</span> table</a></li>
+  <li><a href="#the-correlation-table" id="toc-the-correlation-table" class="nav-link active" data-scroll-target="#the-correlation-table">The correlation table</a></li>
+  <li><a href="#the-z-table" id="toc-the-z-table" class="nav-link" data-scroll-target="#the-z-table">The <span class="math inline">\(z\)</span> table</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/drfurtado/kin610/edit/main/supplemental/tables.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/drfurtado/kin610/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -294,8 +295,562 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
+<div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Tables</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">z-table</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">correlation</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>asasas</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>The table shows the probabilities associated with various z-scores. Each row represents a different z-score, while the columns show the z-score value and the probability (rounded to two decimal places) of getting a z-score less than or equal to that value.</p>
+<p>For example, if we look at the row where z is equal to 1.96, we see that the probability of getting a z-score less than or equal to 1.96 is 0.025 (1 - 0.9750). This means that if we have a normally distributed variable, and we want to find the probability of getting a z-score less than or equal to 1.96, we can look up that value in the table and find the corresponding probability. In this case, the probability is 0.9750, then subtract from 1. The result is the probability value.</p>
+<p>Conversely, if we have a probability and we want to find the z-score associated with it, we can use the table by looking for the probability in the second column and then reading the corresponding z-score from the first column. For example, if we have a probability of 0.9985, we can look for that value in the second column and find the corresponding z-score of 2.81 in the first column. Overall, this table can be a useful tool for working with the standard normal distribution, particularly when calculating probabilities or finding critical values for hypothesis tests.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>       z probabilities
+1   0.00        0.5000
+2   0.01        0.5040
+3   0.02        0.5080
+4   0.03        0.5120
+5   0.04        0.5160
+6   0.05        0.5199
+7   0.06        0.5239
+8   0.07        0.5279
+9   0.08        0.5319
+10  0.09        0.5359
+11  0.10        0.5398
+12  0.11        0.5438
+13  0.12        0.5478
+14  0.13        0.5517
+15  0.14        0.5557
+16  0.15        0.5596
+17  0.16        0.5636
+18  0.17        0.5675
+19  0.18        0.5714
+20  0.19        0.5753
+21  0.20        0.5793
+22  0.21        0.5832
+23  0.22        0.5871
+24  0.23        0.5910
+25  0.24        0.5948
+26  0.25        0.5987
+27  0.26        0.6026
+28  0.27        0.6064
+29  0.28        0.6103
+30  0.29        0.6141
+31  0.30        0.6179
+32  0.31        0.6217
+33  0.32        0.6255
+34  0.33        0.6293
+35  0.34        0.6331
+36  0.35        0.6368
+37  0.36        0.6406
+38  0.37        0.6443
+39  0.38        0.6480
+40  0.39        0.6517
+41  0.40        0.6554
+42  0.41        0.6591
+43  0.42        0.6628
+44  0.43        0.6664
+45  0.44        0.6700
+46  0.45        0.6736
+47  0.46        0.6772
+48  0.47        0.6808
+49  0.48        0.6844
+50  0.49        0.6879
+51  0.50        0.6915
+52  0.51        0.6950
+53  0.52        0.6985
+54  0.53        0.7019
+55  0.54        0.7054
+56  0.55        0.7088
+57  0.56        0.7123
+58  0.57        0.7157
+59  0.58        0.7190
+60  0.59        0.7224
+61  0.60        0.7257
+62  0.61        0.7291
+63  0.62        0.7324
+64  0.63        0.7357
+65  0.64        0.7389
+66  0.65        0.7422
+67  0.66        0.7454
+68  0.67        0.7486
+69  0.68        0.7517
+70  0.69        0.7549
+71  0.70        0.7580
+72  0.71        0.7611
+73  0.72        0.7642
+74  0.73        0.7673
+75  0.74        0.7704
+76  0.75        0.7734
+77  0.76        0.7764
+78  0.77        0.7794
+79  0.78        0.7823
+80  0.79        0.7852
+81  0.80        0.7881
+82  0.81        0.7910
+83  0.82        0.7939
+84  0.83        0.7967
+85  0.84        0.7995
+86  0.85        0.8023
+87  0.86        0.8051
+88  0.87        0.8078
+89  0.88        0.8106
+90  0.89        0.8133
+91  0.90        0.8159
+92  0.91        0.8186
+93  0.92        0.8212
+94  0.93        0.8238
+95  0.94        0.8264
+96  0.95        0.8289
+97  0.96        0.8315
+98  0.97        0.8340
+99  0.98        0.8365
+100 0.99        0.8389
+101 1.00        0.8413
+102 1.01        0.8438
+103 1.02        0.8461
+104 1.03        0.8485
+105 1.04        0.8508
+106 1.05        0.8531
+107 1.06        0.8554
+108 1.07        0.8577
+109 1.08        0.8599
+110 1.09        0.8621
+111 1.10        0.8643
+112 1.11        0.8665
+113 1.12        0.8686
+114 1.13        0.8708
+115 1.14        0.8729
+116 1.15        0.8749
+117 1.16        0.8770
+118 1.17        0.8790
+119 1.18        0.8810
+120 1.19        0.8830
+121 1.20        0.8849
+122 1.21        0.8869
+123 1.22        0.8888
+124 1.23        0.8907
+125 1.24        0.8925
+126 1.25        0.8944
+127 1.26        0.8962
+128 1.27        0.8980
+129 1.28        0.8997
+130 1.29        0.9015
+131 1.30        0.9032
+132 1.31        0.9049
+133 1.32        0.9066
+134 1.33        0.9082
+135 1.34        0.9099
+136 1.35        0.9115
+137 1.36        0.9131
+138 1.37        0.9147
+139 1.38        0.9162
+140 1.39        0.9177
+141 1.40        0.9192
+142 1.41        0.9207
+143 1.42        0.9222
+144 1.43        0.9236
+145 1.44        0.9251
+146 1.45        0.9265
+147 1.46        0.9279
+148 1.47        0.9292
+149 1.48        0.9306
+150 1.49        0.9319
+151 1.50        0.9332
+152 1.51        0.9345
+153 1.52        0.9357
+154 1.53        0.9370
+155 1.54        0.9382
+156 1.55        0.9394
+157 1.56        0.9406
+158 1.57        0.9418
+159 1.58        0.9429
+160 1.59        0.9441
+161 1.60        0.9452
+162 1.61        0.9463
+163 1.62        0.9474
+164 1.63        0.9484
+165 1.64        0.9495
+166 1.65        0.9505
+167 1.66        0.9515
+168 1.67        0.9525
+169 1.68        0.9535
+170 1.69        0.9545
+171 1.70        0.9554
+172 1.71        0.9564
+173 1.72        0.9573
+174 1.73        0.9582
+175 1.74        0.9591
+176 1.75        0.9599
+177 1.76        0.9608
+178 1.77        0.9616
+179 1.78        0.9625
+180 1.79        0.9633
+181 1.80        0.9641
+182 1.81        0.9649
+183 1.82        0.9656
+184 1.83        0.9664
+185 1.84        0.9671
+186 1.85        0.9678
+187 1.86        0.9686
+188 1.87        0.9693
+189 1.88        0.9699
+190 1.89        0.9706
+191 1.90        0.9713
+192 1.91        0.9719
+193 1.92        0.9726
+194 1.93        0.9732
+195 1.94        0.9738
+196 1.95        0.9744
+197 1.96        0.9750
+198 1.97        0.9756
+199 1.98        0.9761
+200 1.99        0.9767
+201 2.00        0.9772
+202 2.01        0.9778
+203 2.02        0.9783
+204 2.03        0.9788
+205 2.04        0.9793
+206 2.05        0.9798
+207 2.06        0.9803
+208 2.07        0.9808
+209 2.08        0.9812
+210 2.09        0.9817
+211 2.10        0.9821
+212 2.11        0.9826
+213 2.12        0.9830
+214 2.13        0.9834
+215 2.14        0.9838
+216 2.15        0.9842
+217 2.16        0.9846
+218 2.17        0.9850
+219 2.18        0.9854
+220 2.19        0.9857
+221 2.20        0.9861
+222 2.21        0.9864
+223 2.22        0.9868
+224 2.23        0.9871
+225 2.24        0.9875
+226 2.25        0.9878
+227 2.26        0.9881
+228 2.27        0.9884
+229 2.28        0.9887
+230 2.29        0.9890
+231 2.30        0.9893
+232 2.31        0.9896
+233 2.32        0.9898
+234 2.33        0.9901
+235 2.34        0.9904
+236 2.35        0.9906
+237 2.36        0.9909
+238 2.37        0.9911
+239 2.38        0.9913
+240 2.39        0.9916
+241 2.40        0.9918
+242 2.41        0.9920
+243 2.42        0.9922
+244 2.43        0.9925
+245 2.44        0.9927
+246 2.45        0.9929
+247 2.46        0.9931
+248 2.47        0.9932
+249 2.48        0.9934
+250 2.49        0.9936
+251 2.50        0.9938
+252 2.51        0.9940
+253 2.52        0.9941
+254 2.53        0.9943
+255 2.54        0.9945
+256 2.55        0.9946
+257 2.56        0.9948
+258 2.57        0.9949
+259 2.58        0.9951
+260 2.59        0.9952
+261 2.60        0.9953
+262 2.61        0.9955
+263 2.62        0.9956
+264 2.63        0.9957
+265 2.64        0.9959
+266 2.65        0.9960
+267 2.66        0.9961
+268 2.67        0.9962
+269 2.68        0.9963
+270 2.69        0.9964
+271 2.70        0.9965
+272 2.71        0.9966
+273 2.72        0.9967
+274 2.73        0.9968
+275 2.74        0.9969
+276 2.75        0.9970
+277 2.76        0.9971
+278 2.77        0.9972
+279 2.78        0.9973
+280 2.79        0.9974
+281 2.80        0.9974
+282 2.81        0.9975
+283 2.82        0.9976
+284 2.83        0.9977
+285 2.84        0.9977
+286 2.85        0.9978
+287 2.86        0.9979
+288 2.87        0.9979
+289 2.88        0.9980
+290 2.89        0.9981
+291 2.90        0.9981
+292 2.91        0.9982
+293 2.92        0.9982
+294 2.93        0.9983
+295 2.94        0.9984
+296 2.95        0.9984
+297 2.96        0.9985
+298 2.97        0.9985
+299 2.98        0.9986
+300 2.99        0.9986
+301 3.00        0.9987
+302 3.01        0.9987
+303 3.02        0.9987
+304 3.03        0.9988
+305 3.04        0.9988
+306 3.05        0.9989
+307 3.06        0.9989
+308 3.07        0.9989
+309 3.08        0.9990
+310 3.09        0.9990
+311 3.10        0.9990
+312 3.11        0.9991
+313 3.12        0.9991
+314 3.13        0.9991
+315 3.14        0.9992
+316 3.15        0.9992
+317 3.16        0.9992
+318 3.17        0.9992
+319 3.18        0.9993
+320 3.19        0.9993
+321 3.20        0.9993
+322 3.21        0.9993
+323 3.22        0.9994
+324 3.23        0.9994
+325 3.24        0.9994
+326 3.25        0.9994
+327 3.26        0.9994
+328 3.27        0.9995
+329 3.28        0.9995
+330 3.29        0.9995
+331 3.30        0.9995
+332 3.31        0.9995
+333 3.32        0.9995
+334 3.33        0.9996
+335 3.34        0.9996
+336 3.35        0.9996
+337 3.36        0.9996
+338 3.37        0.9996
+339 3.38        0.9996
+340 3.39        0.9997
+341 3.40        0.9997</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>       df alpha=0.1 alpha=0.05 alpha=0.025 alpha=0.01
+  [1,]  1     6.314     12.706      25.452     63.657
+  [2,]  2     2.920      4.303       6.205      9.925
+  [3,]  3     2.353      3.182       4.177      5.841
+  [4,]  4     2.132      2.776       3.495      4.604
+  [5,]  5     2.015      2.571       3.163      4.032
+  [6,]  6     1.943      2.447       2.969      3.707
+  [7,]  7     1.895      2.365       2.841      3.499
+  [8,]  8     1.860      2.306       2.752      3.355
+  [9,]  9     1.833      2.262       2.685      3.250
+ [10,] 10     1.812      2.228       2.634      3.169
+ [11,] 11     1.796      2.201       2.593      3.106
+ [12,] 12     1.782      2.179       2.560      3.055
+ [13,] 13     1.771      2.160       2.533      3.012
+ [14,] 14     1.761      2.145       2.510      2.977
+ [15,] 15     1.753      2.131       2.490      2.947
+ [16,] 16     1.746      2.120       2.473      2.921
+ [17,] 17     1.740      2.110       2.458      2.898
+ [18,] 18     1.734      2.101       2.445      2.878
+ [19,] 19     1.729      2.093       2.433      2.861
+ [20,] 20     1.725      2.086       2.423      2.845
+ [21,] 21     1.721      2.080       2.414      2.831
+ [22,] 22     1.717      2.074       2.405      2.819
+ [23,] 23     1.714      2.069       2.398      2.807
+ [24,] 24     1.711      2.064       2.391      2.797
+ [25,] 25     1.708      2.060       2.385      2.787
+ [26,] 26     1.706      2.056       2.379      2.779
+ [27,] 27     1.703      2.052       2.373      2.771
+ [28,] 28     1.701      2.048       2.368      2.763
+ [29,] 29     1.699      2.045       2.364      2.756
+ [30,] 30     1.697      2.042       2.360      2.750
+ [31,] 31     1.696      2.040       2.356      2.744
+ [32,] 32     1.694      2.037       2.352      2.738
+ [33,] 33     1.692      2.035       2.348      2.733
+ [34,] 34     1.691      2.032       2.345      2.728
+ [35,] 35     1.690      2.030       2.342      2.724
+ [36,] 36     1.688      2.028       2.339      2.719
+ [37,] 37     1.687      2.026       2.336      2.715
+ [38,] 38     1.686      2.024       2.334      2.712
+ [39,] 39     1.685      2.023       2.331      2.708
+ [40,] 40     1.684      2.021       2.329      2.704
+ [41,] 41     1.683      2.020       2.327      2.701
+ [42,] 42     1.682      2.018       2.325      2.698
+ [43,] 43     1.681      2.017       2.323      2.695
+ [44,] 44     1.680      2.015       2.321      2.692
+ [45,] 45     1.679      2.014       2.319      2.690
+ [46,] 46     1.679      2.013       2.317      2.687
+ [47,] 47     1.678      2.012       2.315      2.685
+ [48,] 48     1.677      2.011       2.314      2.682
+ [49,] 49     1.677      2.010       2.312      2.680
+ [50,] 50     1.676      2.009       2.311      2.678
+ [51,] 51     1.675      2.008       2.310      2.676
+ [52,] 52     1.675      2.007       2.308      2.674
+ [53,] 53     1.674      2.006       2.307      2.672
+ [54,] 54     1.674      2.005       2.306      2.670
+ [55,] 55     1.673      2.004       2.304      2.668
+ [56,] 56     1.673      2.003       2.303      2.667
+ [57,] 57     1.672      2.002       2.302      2.665
+ [58,] 58     1.672      2.002       2.301      2.663
+ [59,] 59     1.671      2.001       2.300      2.662
+ [60,] 60     1.671      2.000       2.299      2.660
+ [61,] 61     1.670      2.000       2.298      2.659
+ [62,] 62     1.670      1.999       2.297      2.657
+ [63,] 63     1.669      1.998       2.296      2.656
+ [64,] 64     1.669      1.998       2.295      2.655
+ [65,] 65     1.669      1.997       2.295      2.654
+ [66,] 66     1.668      1.997       2.294      2.652
+ [67,] 67     1.668      1.996       2.293      2.651
+ [68,] 68     1.668      1.995       2.292      2.650
+ [69,] 69     1.667      1.995       2.291      2.649
+ [70,] 70     1.667      1.994       2.291      2.648
+ [71,] 71     1.667      1.994       2.290      2.647
+ [72,] 72     1.666      1.993       2.289      2.646
+ [73,] 73     1.666      1.993       2.289      2.645
+ [74,] 74     1.666      1.993       2.288      2.644
+ [75,] 75     1.665      1.992       2.287      2.643
+ [76,] 76     1.665      1.992       2.287      2.642
+ [77,] 77     1.665      1.991       2.286      2.641
+ [78,] 78     1.665      1.991       2.285      2.640
+ [79,] 79     1.664      1.990       2.285      2.640
+ [80,] 80     1.664      1.990       2.284      2.639
+ [81,] 81     1.664      1.990       2.284      2.638
+ [82,] 82     1.664      1.989       2.283      2.637
+ [83,] 83     1.663      1.989       2.283      2.636
+ [84,] 84     1.663      1.989       2.282      2.636
+ [85,] 85     1.663      1.988       2.282      2.635
+ [86,] 86     1.663      1.988       2.281      2.634
+ [87,] 87     1.663      1.988       2.281      2.634
+ [88,] 88     1.662      1.987       2.280      2.633
+ [89,] 89     1.662      1.987       2.280      2.632
+ [90,] 90     1.662      1.987       2.280      2.632
+ [91,] 91     1.662      1.986       2.279      2.631
+ [92,] 92     1.662      1.986       2.279      2.630
+ [93,] 93     1.661      1.986       2.278      2.630
+ [94,] 94     1.661      1.986       2.278      2.629
+ [95,] 95     1.661      1.985       2.277      2.629
+ [96,] 96     1.661      1.985       2.277      2.628
+ [97,] 97     1.661      1.985       2.277      2.627
+ [98,] 98     1.661      1.984       2.276      2.627
+ [99,] 99     1.660      1.984       2.276      2.626</code></pre>
+</div>
+</div>
+<p>asasas</p>
+</div>
+</div>
+</div>
+<section id="the-correlation-table" class="level1">
+<h1>The correlation table</h1>
+</section>
 <section id="the-z-table" class="level1">
 <h1>The <span class="math inline">\(z\)</span> table</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set up a vector of z-scores</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>z <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="fl">3.4</span>, <span class="fl">3.4</span>, <span class="fl">0.1</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the corresponding probabilities using pnorm()</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>prob <span class="ot">&lt;-</span> <span class="fu">round</span>(<span class="fu">pnorm</span>(z), <span class="dv">4</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Combine the z-scores and probabilities into a data frame</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>table <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(z, prob)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the table</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>               z   prob
+1  -3.400000e+00 0.0003
+2  -3.300000e+00 0.0005
+3  -3.200000e+00 0.0007
+4  -3.100000e+00 0.0010
+5  -3.000000e+00 0.0013
+6  -2.900000e+00 0.0019
+7  -2.800000e+00 0.0026
+8  -2.700000e+00 0.0035
+9  -2.600000e+00 0.0047
+10 -2.500000e+00 0.0062
+11 -2.400000e+00 0.0082
+12 -2.300000e+00 0.0107
+13 -2.200000e+00 0.0139
+14 -2.100000e+00 0.0179
+15 -2.000000e+00 0.0228
+16 -1.900000e+00 0.0287
+17 -1.800000e+00 0.0359
+18 -1.700000e+00 0.0446
+19 -1.600000e+00 0.0548
+20 -1.500000e+00 0.0668
+21 -1.400000e+00 0.0808
+22 -1.300000e+00 0.0968
+23 -1.200000e+00 0.1151
+24 -1.100000e+00 0.1357
+25 -1.000000e+00 0.1587
+26 -9.000000e-01 0.1841
+27 -8.000000e-01 0.2119
+28 -7.000000e-01 0.2420
+29 -6.000000e-01 0.2743
+30 -5.000000e-01 0.3085
+31 -4.000000e-01 0.3446
+32 -3.000000e-01 0.3821
+33 -2.000000e-01 0.4207
+34 -1.000000e-01 0.4602
+35  4.440892e-16 0.5000
+36  1.000000e-01 0.5398
+37  2.000000e-01 0.5793
+38  3.000000e-01 0.6179
+39  4.000000e-01 0.6554
+40  5.000000e-01 0.6915
+41  6.000000e-01 0.7257
+42  7.000000e-01 0.7580
+43  8.000000e-01 0.7881
+44  9.000000e-01 0.8159
+45  1.000000e+00 0.8413
+46  1.100000e+00 0.8643
+47  1.200000e+00 0.8849
+48  1.300000e+00 0.9032
+49  1.400000e+00 0.9192
+50  1.500000e+00 0.9332
+51  1.600000e+00 0.9452
+52  1.700000e+00 0.9554
+53  1.800000e+00 0.9641
+54  1.900000e+00 0.9713
+55  2.000000e+00 0.9772
+56  2.100000e+00 0.9821
+57  2.200000e+00 0.9861
+58  2.300000e+00 0.9893
+59  2.400000e+00 0.9918
+60  2.500000e+00 0.9938
+61  2.600000e+00 0.9953
+62  2.700000e+00 0.9965
+63  2.800000e+00 0.9974
+64  2.900000e+00 0.9981
+65  3.000000e+00 0.9987
+66  3.100000e+00 0.9990
+67  3.200000e+00 0.9993
+68  3.300000e+00 0.9995
+69  3.400000e+00 0.9997</code></pre>
+</div>
+</div>
 <p>The z-table is a statistical table that shows the values of the standard normal distribution. The standard normal distribution is a normal distribution with a mean of 0 and a standard deviation of 1.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
@@ -364,12 +919,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stats)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>f_table <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">df1=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="at">each=</span><span class="dv">30</span>), <span class="at">df2=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="dv">30</span>), </span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>                      <span class="at">p=</span><span class="fu">qf</span>(<span class="fu">seq</span>(<span class="fl">0.01</span>, <span class="fl">0.99</span>, <span class="fl">0.01</span>), <span class="at">df1=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="at">each=</span><span class="dv">30</span>), <span class="at">df2=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="dv">30</span>)))</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(f_table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stats)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>f_table <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">df1=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="at">each=</span><span class="dv">30</span>), <span class="at">df2=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="dv">30</span>), </span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                      <span class="at">p=</span><span class="fu">qf</span>(<span class="fu">seq</span>(<span class="fl">0.01</span>, <span class="fl">0.99</span>, <span class="fl">0.01</span>), <span class="at">df1=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="at">each=</span><span class="dv">30</span>), <span class="at">df2=</span><span class="fu">rep</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">30</span>, <span class="dv">30</span>)))</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(f_table)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>    df1 df2            p
 1     1   1 2.467807e-04
@@ -1275,10 +1830,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="dv">3</span>, <span class="dv">3</span>, <span class="fl">0.01</span>)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>(<span class="fu">dnorm</span>(x, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">1</span>), <span class="at">from=</span><span class="sc">-</span><span class="dv">3</span>, <span class="at">to=</span><span class="dv">3</span>, <span class="at">xlab=</span><span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">"Probability Density"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>x <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="sc">-</span><span class="dv">3</span>, <span class="dv">3</span>, <span class="fl">0.01</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">curve</span>(<span class="fu">dnorm</span>(x, <span class="at">mean=</span><span class="dv">0</span>, <span class="at">sd=</span><span class="dv">1</span>), <span class="at">from=</span><span class="sc">-</span><span class="dv">3</span>, <span class="at">to=</span><span class="dv">3</span>, <span class="at">xlab=</span><span class="st">"x"</span>, <span class="at">ylab=</span><span class="st">"Probability Density"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<p><img src="tables_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<p><img src="tables_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 

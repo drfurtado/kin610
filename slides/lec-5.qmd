@@ -175,7 +175,7 @@ ggplot(group_means, aes(x = group, y = mean, fill = group)) +
 ## Comparison table {.scrollable .smaller}
 
 | **Measure of Central Tendency** | **Definition**                                            | **Calculation**                            | **Usefulness**                                                           |
-|------------------|------------------|------------------|--------------------|
+|---------------------------------|-----------------------------------------------------------|--------------------------------------------|--------------------------------------------------------------------------|
 | Mean                            | The average of a set of numbers                           | Sum of values divided by number of values  | Useful for data that are normally distributed and have no extreme values |
 | Median                          | The middle value in a set of numbers                      | Order values and find the middle value     | Useful for data with extreme values or that are not normally distributed |
 | Mode                            | The value that occurs most frequently in a set of numbers | Identify the value that appears most often | Useful for categorical or nominal data                                   |
@@ -257,7 +257,7 @@ $s^2 = \frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}$
 ## Comparison table {.scrollable .smaller}
 
 | **Measure of Variability** | **Calculation**                                          | **Interpretation**                                                                  | **Advantages**             | **Disadvantages**                                                                |
-|---------------|---------------|---------------|---------------|---------------|
+|----------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------|----------------------------|----------------------------------------------------------------------------------|
 | Range                      | Maximum value - Minimum value                            | The spread of the data from the smallest to the largest value                       | Easy to understand         | Sensitive to outliers                                                            |
 | Interquartile Range        | Q3 - Q1                                                  | The range between the first quartile and the third quartile                         | Resistant to outliers      | Not sensitive to extreme values that fall outside the range of the interquartile |
 | Variance                   | $s^2 = \frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n-1}$        | A measure of how much the data deviates from the mean                               | Widely used and well known | Can be sensitive to outliers                                                     |
