@@ -28,6 +28,25 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -350,20 +369,11 @@ Dr.&nbsp;Ovande Furtado Jr
 </section>
 <section id="credits" class="slide level2">
 <h2>Credits</h2>
-<p>ss</p>
 </section>
 <section>
 <section id="introduction" class="title-slide slide level1 center">
 <h1>Introduction</h1>
 
-</section>
-<section id="inferential-stats-and-kinesiology" class="slide level2">
-<h2>Inferential Stats and Kinesiology</h2>
-<ul>
-<li>Kinesiology studies characteristics and behaviors of the human body in motion</li>
-<li>Data are collected from various sources and analyzed using inferential statistics</li>
-<li>Understanding inferential statistics is essential to draw accurate conclusions about the population</li>
-</ul>
 </section>
 <section id="descriptive-vs-inferential-statistics" class="slide level2">
 <h2>Descriptive vs Inferential Statistics</h2>
@@ -373,26 +383,13 @@ Dr.&nbsp;Ovande Furtado Jr
 <li>Hypothesis testing is a key component of inferential statistics</li>
 </ul>
 </section>
-<section id="importance-of-inferential-statistics-in-kinesiology" class="slide level2">
-<h2>Importance of Inferential Statistics in Kinesiology</h2>
-<ul>
-<li>Statistics plays a crucial role in analyzing and interpreting collected data</li>
-<li>Inferential statistics is essential for making decisions based on Kinesiology research and practice data</li>
-<li>Example: evaluating the effectiveness of a new exercise program for the larger population</li>
-</ul>
-</section>
 <section id="fundamentals-of-inferential-statistics" class="slide level2">
 <h2>Fundamentals of Inferential Statistics</h2>
 <ul>
+<li>Statistics plays a crucial role in analyzing and interpreting collected data</li>
 <li>Estimation: using sample statistics to estimate population parameters</li>
 <li>Hypothesis testing: determining whether observed differences in sample data are statistically significant</li>
-</ul>
-</section>
-<section id="practical-applications-of-inferential-statistics-in-kinesiology" class="slide level2">
-<h2>Practical Applications of Inferential Statistics in Kinesiology</h2>
-<ul>
-<li>Example: using inferential statistics to determine the effectiveness of a new rehabilitation program for injured athletes</li>
-<li>Example: using inferential statistics to analyze the impact of a new dietary supplement on physical performance</li>
+<li>Example: evaluating the effectiveness of a new exercise program for the larger population</li>
 </ul>
 </section></section>
 <section>
@@ -400,102 +397,449 @@ Dr.&nbsp;Ovande Furtado Jr
 <h1>Probability Concepts</h1>
 
 </section>
-<section id="introduction-to-probability-theory" class="slide level2">
+<section id="introduction-to-probability-theory" class="slide level2 smaller">
 <h2>Introduction to Probability Theory</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p>Sample Space: {1, 2, 3, 4, 5, 6}</p>
+<p>Event: odd # {1, 3, 5} and even # {2, 4, 6}</p>
+<p><img data-src="images/image-1163455736.png" width="250"></p>
+</div><div class="column" style="width:70%;">
 <ul>
 <li>Probability theory deals with the analysis of random events and their associated outcomes</li>
 <li>The sample space is the set of all possible outcomes of an experiment or trial</li>
 <li>The sample space helps in identifying the range of potential outcomes that could arise from a trial</li>
-</ul>
-</section>
-<section id="events-and-probabilities" class="slide level2">
-<h2>Events and Probabilities</h2>
-<ul>
 <li>An event is a subset of the sample space that comprises a group of outcomes with a common characteristic</li>
 <li>Probabilities are numerical values assigned to events, representing the likelihood of those events occurring</li>
 <li>Probabilities range from 0 to 1, with 0 indicating that an event cannot occur and 1 indicating that the event is certain to occur</li>
+<li>When flipping a coin, what is the sample space?</li>
 </ul>
-</section>
-<section id="mutually-exclusive-and-independent-events" class="slide level2">
-<h2>Mutually Exclusive and Independent Events</h2>
-<ul>
-<li>Mutually exclusive events are events that cannot occur simultaneously</li>
-<li>Independent events are events where the occurrence of one event does not affect the occurrence of another</li>
-<li>Examples of mutually exclusive and independent events ????</li>
-</ul>
+</div>
+</div>
 </section></section>
 <section>
 <section id="probability-distributions" class="title-slide slide level1 center">
 <h1>Probability Distributions</h1>
 
 </section>
-<section id="introduction-1" class="slide level2">
+<section id="introduction-1" class="slide level2 smaller">
 <h2>Introduction</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="lec-6_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
 <ul>
 <li>Probability distributions allow researchers to infer population parameters based on sample statistics</li>
-<li>Understanding probability concepts is crucial for comprehending probability distributions</li>
+<li>There are many types of probability distributions, we will focus on the most common ones
+<ul>
+<li>normal distribution</li>
+<li>t-distribution</li>
+<li>chi-square distribution</li>
+<li>F-distribution</li>
+<li>Binomial distribution</li>
+</ul></li>
 </ul>
+</div>
+</div>
 </section>
-<section id="discrete-probability-distributions" class="slide level2">
-<h2>Discrete Probability Distributions</h2>
+<section id="types" class="slide level2 smaller">
+<h2>Types</h2>
+<h4 id="discrete-probability-distributions">Discrete Probability Distributions</h4>
 <ul>
 <li>Describes probabilities of different outcomes of a discrete variable</li>
 <li>Can only take certain values</li>
-<li>Examples: Binomial, Poisson, and Geometric distributions</li>
+<li>Examples: Binomial, Poisson, Discrete uniform</li>
 </ul>
-</section>
-<section id="binomial-distribution" class="slide level2">
-<h2>Binomial Distribution</h2>
-<ul>
-<li>Used to analyze <code>dichotomous data</code> in kinesiology research</li>
-<li>Models the probability of observing a certain number of successes or failures in a given number of trials</li>
-<li>Example: Success rate of patients undergoing a particular treatment</li>
-</ul>
-</section>
-<section id="poisson-distribution" class="slide level2">
-<h2>Poisson Distribution</h2>
-<ul>
-<li>Used to model the number of events that occur in a given period</li>
-<li>Assumes events occur randomly and independently of each other and that the rate of occurrence is constant over time</li>
-<li>Example: Number of injuries in a sports team over a season</li>
-</ul>
-</section>
-<section id="continuous-probability-distributions" class="slide level2">
-<h2>Continuous Probability Distributions</h2>
+<h4 id="continuous-probability-distributions">Continuous Probability Distributions</h4>
 <ul>
 <li>Describes probabilities of different outcomes of a continuous variable</li>
 <li>Can take any value within a certain range</li>
 <li>Examples: Normal, t-distribution, and chi-square distribution</li>
 </ul>
 </section>
-<section id="application-of-normal-distribution" class="slide level2">
-<h2>Application of Normal Distribution</h2>
+<section id="null-distributions" class="slide level2 smaller">
+<h2>Null Distributions</h2>
 <ul>
-<li>Most commonly used continuous probability distribution in kinesiology research</li>
-<li>Used to model continuous and normally distributed measurements</li>
-<li>Characterized by its mean and standard deviation</li>
-<li>Bell-shaped with most observations falling within one or two standard deviations of the mean</li>
+<li>Hypothesis testing relies heavily on <code>null distributions</code></li>
+<li>Null distributions are probability distributions of a test statistic under the assumption of a true null hypothesis</li>
+<li>A <code>test statistic</code> is a summary of a sample expressed as a single number
+<ul>
+<li>Examples of test statistics include z, t, F, and chi-square</li>
+</ul></li>
+<li>To determine a p-value, the test statistic is compared to the corresponding null distribution</li>
+<li>The p-value represents the probability of obtaining a test statistic value as extreme or more extreme than the sample’s value, assuming the null hypothesis is true</li>
 </ul>
-<p>Slide 7: t-Distribution Title: Application of t-Distribution</p>
-<p>Used when the sample size is small, or the population standard deviation is unknown Similar to the normal distribution but with slightly fatter tails Used in kinesiology research when comparing means between two groups</p>
-<p>Slide 8: Chi-Square Distribution Title: Application of Chi-Square Distribution</p>
-<p>Used to test the independence of categorical variables Also used to test goodness-of-fit, or whether a sample fits a certain distribution Example: Relationship between age and injury risk in a particular sport</p>
-<p>Slide 9: Conclusion Title: Conclusion</p>
-<p>Probability distributions are essential tools for inferential statistics in kinesiology research Understanding the characteristics and applications of different types of probability distributions is crucial for conducting meaningful and valid statistical analyses.</p>
+</section>
+<section id="example" class="slide level2 smaller">
+<h2>Example</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="images/image-702727459.png" width="300"></p>
+</div><div class="column" style="width:70%;">
+<p>Title: The Effect of a Modified Basketball Program on Motor Skills and Cognitive Function in Older Adults</p>
+<p>This study used a test statistic (t-test) to compare the mean scores of motor skills and cognitive function between two groups of older adults: one group that participated in a modified basketball program and one group that did not. The results showed a significant difference in both motor skills and cognitive function between the two groups, with the basketball group performing better. The t-test was used to determine the probability of obtaining such a difference by chance alone and to determine the statistical significance of the findings.</p>
+</div>
+</div>
+</section>
+<section id="pd-examples" class="slide level2 scrollable smaller">
+<h2>PD Examples</h2>
+<table>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Distribution</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Statistical tests</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Standard Normal</td>
+<td>Normal distribution with mean = 0 and standard deviation = 1</td>
+<td>Z-tests</td>
+</tr>
+<tr class="even">
+<td>Binomial</td>
+<td>Discrete distribution, number of successes in n independent trials</td>
+<td>Chi-squared test, goodness of fit</td>
+</tr>
+<tr class="odd">
+<td>Poisson</td>
+<td>Discrete distribution, number of events in a fixed interval of time or space</td>
+<td>Chi-squared test, goodness of fit</td>
+</tr>
+<tr class="even">
+<td>Exponential</td>
+<td>Continuous distribution, time between successive events in a Poisson process</td>
+<td>Survival analysis</td>
+</tr>
+<tr class="odd">
+<td>t-distribution</td>
+<td>Continuous distribution, used for small sample sizes</td>
+<td>t-tests</td>
+</tr>
+<tr class="even">
+<td>F-distribution</td>
+<td>Continuous distribution, used in ANOVA to test equality of variances</td>
+<td>ANOVA</td>
+</tr>
+<tr class="odd">
+<td>Chi-Square</td>
+<td>Probability distribution used to test hypotheses about the relationship between two categorical variables</td>
+<td>Chi-square goodness of fit test, chi-square test of independence</td>
+</tr>
+</tbody>
+</table>
 </section></section>
-<section id="practice-exercises" class="title-slide slide level1 center">
-<h1>Practice Exercises</h1>
-<p>Find several exercises by clicking <a href="practice-exercices.qmd">here</a></p>
+<section>
+<section id="sampling-error-in-inferential-statistics" class="title-slide slide level1 center">
+<h1>Sampling Error in Inferential Statistics</h1>
+
+</section>
+<section id="from-sample-to-population" class="slide level2">
+<h2>From sample to population</h2>
+<ul>
+<li>Inferential statistics uses samples from a population to make conclusions about the population.</li>
+<li><code>Sampling error</code> is the potential for error due to inherent variability in the sample.</li>
+</ul>
+</section>
+<section id="techniques-to-reduce-sampling-error" class="slide level2">
+<h2>Techniques to Reduce Sampling Error</h2>
+<ul>
+<li>Random sampling involves randomly selecting participants without bias or preference.</li>
+<li>Stratified sampling involves dividing the population into subgroups based on certain characteristics and selecting a random sample from each subgroup.</li>
+<li>Increasing the sample size can reduce random sampling error by providing a more representative sample of the population.</li>
+</ul>
+</section></section>
+<section>
+<section id="levels-of-confidence" class="title-slide slide level1 center">
+<h1>Levels of Confidence</h1>
+
+</section>
+<section id="levels-of-confidence-in-inferential-statistics" class="slide level2 smaller">
+<h2>Levels of Confidence in Inferential Statistics</h2>
+<ul>
+<li><code>Levels of confidence</code> measure the uncertainty or variability in estimates when making inferences about a population based on a sample.</li>
+<li>Levels of confidence represent the degree of certainty that the true population parameter falls within a certain range of values.</li>
+<li>For example, a 95% level of confidence means that 95% of the resulting confidence intervals would contain the true population parameter if the study were repeated many times.</li>
+<li>An example can be found <a href="https://drfurtado.github.io/randomstats/posts/022523-inferential-stats/#calculation">here</a>.</li>
+</ul>
 </section>
 
-<section id="references" class="title-slide slide level1 center">
-<h1>References</h1>
+<section id="factors-affecting-the-choice-of-levels-of-confidence" class="slide level2 smaller">
+<h2>Factors Affecting the Choice of Levels of Confidence</h2>
+<ul>
+<li>The level of confidence chosen by a researcher depends on the level of risk associated with making an incorrect inference, the sample size, and the data’s variability.</li>
+<li>Higher levels of confidence, such as 99%, require larger sample sizes and lead to wider confidence intervals.</li>
+<li>Levels of confidence do not guarantee that the true population parameter falls within the confidence interval, but rather provide a measure of the likelihood that it does.</li>
+<li>Levels of confidence do not provide information about the precision of the estimate, only the degree of certainty in the range of values.</li>
+</ul>
+</section>
+<section id="table" class="slide level2 scrollable smaller">
+<h2>Table</h2>
+<p>This table shows the corresponding values for the level of confidence (LOC), Z-value, and probability (p) in a <code>standard normal distribution</code> for the most commonly used levels of confidence in inferential statistics: 68%, 90%, 95%, and 99%. The values in the table can be used to calculate confidence intervals and perform hypothesis tests.</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Level of Confidence (LOC)</strong></th>
+<th><strong>Z-Value</strong></th>
+<th><strong>Probability (p)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>68%</td>
+<td>1.00</td>
+<td>0.32</td>
+</tr>
+<tr class="even">
+<td>90%</td>
+<td>1.64</td>
+<td>0.10</td>
+</tr>
+<tr class="odd">
+<td><code>95%</code></td>
+<td><code>1.96</code></td>
+<td><code>0.05</code></td>
+</tr>
+<tr class="even">
+<td>99%</td>
+<td>2.58</td>
+<td>0.01</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="estimation" class="title-slide slide level1 center">
+<h1>Estimation</h1>
+
+</section>
+<section id="point-estimation" class="slide level2 smaller">
+<h2>Point Estimation</h2>
+<ul>
+<li>Method of statistical inference used to estimate an unknown population parameter using a single value called the point estimator.</li>
+<li>Used in Kinesiology to estimate parameters such as mean height, weight, or strength of a population based on a sample.</li>
+<li><code>Sample mean</code> is a good estimator of the population mean because it is unbiased and has an expected value equal to it.</li>
+<li>A biased estimator would be systematically off from the true population parameter.</li>
+<li>Point estimators can vary from sample to sample, leading to sampling error.</li>
+</ul>
+</section>
+<section id="properties-of-a-good-point-estimator" class="slide level2">
+<h2>Properties of a Good Point Estimator</h2>
+<ul>
+<li>Unbiasedness: the estimator has an expected value equal to the population parameter.</li>
+<li>Efficiency: the estimator has a small variance and is more precise than other estimators.</li>
+<li>Consistency: the estimator becomes closer to the population parameter as the sample size increases.</li>
+</ul>
+</section>
+<section id="example-of-point-estimation-in-kinesiology" class="slide level2">
+<h2>Example of Point Estimation in Kinesiology</h2>
+<ul>
+<li>Estimating maximum oxygen uptake (VO2max) of all collegiate athletes in the United States using a sample of 100 athletes.</li>
+<li>Sample mean VO2max of the athletes is calculated as <code>60 ml/kg/min.</code></li>
+<li>Sample mean used as the point estimator of the population mean VO2max.</li>
+<li>Mean of all means will converge to the population mean VO2max as the sample size increases.</li>
+</ul>
+</section>
+<section id="interval-estimation" class="slide level2">
+<h2>Interval Estimation</h2>
+<ul>
+<li>Method of statistical inference used to estimate an unknown population parameter using an interval of values called the <code>confidence interval</code>.</li>
+<li>In Kinesiology, confidence intervals can be used to estimate various parameters, such as the difference in means between two groups or the effect size of an intervention.</li>
+<li>An example can be found <a href="https://drfurtado.github.io/randomstats/posts/022523-inferential-stats/#calculation">here</a>.</li>
+</ul>
+</section>
+<section id="significance-testing-using-confidence-intervals" class="slide level2">
+<h2>Significance testing using confidence intervals</h2>
+<ul>
+<li><p>Confidence intervals can test hypotheses about the population parameter by checking whether the hypothesized value falls within the interval.</p></li>
+<li><p>For instance, if the null hypothesis is that there is no difference in mean jump height between male and female athletes, we can check whether the hypothesized value of zero falls within the 95% confidence interval.</p></li>
+<li><p>If it does not, we can reject the null hypothesis at the specified level of significance.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="hypothesis-testing" class="title-slide slide level1 center">
+<h1>Hypothesis Testing</h1>
+
+</section>
+<section id="introduction-2" class="slide level2">
+<h2>Introduction</h2>
+<ul>
+<li><p>Method of statistical inference used to make decisions about population parameter based on sample data.</p></li>
+<li><p>Commonly used in Kinesiology to test efficacy of interventions, compare groups of athletes/patients, and examine relationships between variables.</p></li>
+</ul>
+</section>
+<section id="null-and-alternative-hypotheses" class="slide level2">
+<h2>Null and Alternative Hypotheses</h2>
+<ul>
+<li>Null hypothesis (H0): Statement that assumes the population parameter is equal to a specific value or falls within a specific range.</li>
+<li>Alternative hypothesis (Ha): Statement that contradicts the null hypothesis and assumes that the population parameter is different from the value or range specified by the null hypothesis.</li>
+</ul>
+</section>
+<section id="example-1" class="slide level2">
+<h2>Example:</h2>
+<ul>
+<li>Testing whether <code>new training program</code> increases <code>mean strength</code> of athletes.</li>
+<li>Null hypothesis: Mean strength of athletes who follow program is equal to that of athletes who do not - hypothesis being tested</li>
+<li>Alternative hypothesis: Mean strength of athletes who follow program is greater than that of athletes who do not.</li>
+</ul>
+</section>
+<section id="test-statistics-and-p-values" class="slide level2">
+<h2>Test Statistics and p-values</h2>
+<ul>
+<li>Test statistics: Measure the distance between sample statistic and hypothesized population parameter under null hypothesis.
+<ul>
+<li>t-test: Most commonly used test statistic, compares means of two groups.</li>
+</ul></li>
+<li>p-value: Probability of observing a <code>test statistic</code> as extreme or more extreme than the one obtained from the sample data, assuming the null hypothesis is true.</li>
+</ul>
+</section>
+<section id="example-2" class="slide level2">
+<h2>Example:</h2>
+<ul>
+<li>Testing effect of new <code>exercise program</code> on <code>reducing knee pain</code> in patients with osteoarthritis.</li>
+<li>t-value of 2.5 and p-value of 0.01.</li>
+<li>p-value less than 0.05, reject null hypothesis and conclude that exercise program effectively reduces knee pain.</li>
+</ul>
+</section>
+<section id="type-i-and-type-ii-errors" class="slide level2 smaller">
+<h2>Type I and Type II Errors</h2>
+<ul>
+<li>Hypothesis testing involves making two types of errors: type I and type II.</li>
+<li>Type I error: Null hypothesis is rejected even though it is true. False positive.</li>
+<li>Type II error: Null hypothesis is not rejected even though it is false. False negative.</li>
+<li>Type I errors can be particularly concerning in Kinesiology when testing efficacy of a new treatment or intervention.</li>
+<li>Type II errors can lead to missed opportunity to identify effective treatment or intervention.</li>
+</ul>
+</section>
+<section id="causes-of-error" class="slide level2 smaller">
+<h2>Causes of error</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Type I Errors</strong></p>
+<ol type="1">
+<li>Measurement error</li>
+<li>Lack of random sample</li>
+<li>α value too liberal (α = .10)</li>
+<li>Investigator bias</li>
+<li>Improper use of one-tailed test</li>
+</ol>
+</div><div class="column" style="width:50%;">
+<p><strong>Type II Errors</strong></p>
+<ol type="1">
+<li>Measurement error</li>
+<li>Lack of sufficient power (N too small)</li>
+<li>α value too conservative (α = .01)</li>
+<li>Treatment effect not properly applied</li>
+</ol>
+</div>
+</div>
+<p>Credit: <span class="citation" data-cites="weir2021">Weir and Vincent (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span></p>
+</section>
+<section id="decision-table" class="slide level2 smaller">
+<h2>Decision Table</h2>
+<p>This table shows the possible outcomes of a hypothesis test based on whether the null hypothesis is true or false and whether the test correctly rejects or fails to reject the null hypothesis. A Type I error occurs when the null hypothesis is actually true, but the test incorrectly rejects it. A Type II error occurs when the null hypothesis is actually false, but the test incorrectly fails to reject it.</p>
+<table>
+<colgroup>
+<col style="width: 31%">
+<col style="width: 34%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Null Hypothesis is True</strong></th>
+<th><strong>Null Hypothesis is False</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reject Null Hypothesis</td>
+<td>Type I Error (False Positive)</td>
+<td>Correct Decision (True Positive)</td>
+</tr>
+<tr class="even">
+<td>Fail to Reject Null Hypothesis</td>
+<td>Correct Decision (True Negative)</td>
+<td>Type II Error (False Negative)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="effect-size-and-power-analysis" class="slide level2 smaller">
+<h2><strong>Effect Size and Power Analysis</strong></h2>
+<ul>
+<li>Effect size measures strength of relationship between two variables or magnitude of difference between two groups.</li>
+<li>Used in hypothesis testing to supplement p-value and provide more meaningful interpretation of results.</li>
+<li>In Kinesiology, effect size can be used to determine practical significance of study’s findings.</li>
+<li>Power analysis is statistical technique used to determine sample size needed to detect certain effect size with certain level of statistical power.</li>
+<li>Statistical power is probability of correctly rejecting null hypothesis when it is false.</li>
+<li>In Kinesiology, power analysis can be used to plan sample size for a study to ensure adequate statistical power and reduce risk of type II errors.</li>
+</ul>
+</section>
+<section id="one-tailed-and-two-tailed-statistical-tests" class="slide level2">
+<h2><strong>One-Tailed and Two-Tailed Statistical Tests</strong></h2>
+<p>Researchers choose between one-tailed or two-tailed tests based on the research question and hypotheses.</p>
+<ul>
+<li>A one-tailed test is used when the research question involves a specific directional prediction about the relationship between the variables.</li>
+<li>A two-tailed test is used when the research question involves a non-specific directional prediction about the relationship between the variables.</li>
+</ul>
+</section>
+<section id="one-tailed-test" class="slide level2">
+<h2><strong>One-Tailed Test</strong></h2>
+<ul>
+<li>The critical region for rejecting the null hypothesis is located in only one tail of the distribution, either the upper or the lower tail, depending on the direction of the prediction.</li>
+<li>One-tailed tests are used when the research question involves a specific directional prediction.</li>
+<li>A one-tailed test has more power to detect a significant effect in a specific direction, but it also has a higher risk of a Type I error if the direction of the effect is incorrect.</li>
+</ul>
+</section>
+<section id="example-3" class="slide level2">
+<h2>Example</h2>
+
+<img data-src="lec-6_files/figure-revealjs/fig-1tailed-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: Distribution of α rejection area for a One-tailed test.</p></section>
+<section id="two-tailed-test" class="slide level2">
+<h2><strong>Two-Tailed Test</strong></h2>
+<ul>
+<li><p>The critical region for rejecting the null hypothesis is located in both tails of the distribution, representing extreme values in either direction.</p></li>
+<li><p>Two-tailed tests are used when the research question involves a non-specific directional prediction.</p></li>
+<li><p>A two-tailed test has less power to detect a significant effect but is more conservative and less likely to make a Type I error.</p></li>
+</ul>
+</section>
+<section id="example-4" class="slide level2">
+<h2>Example</h2>
+
+<img data-src="lec-6_files/figure-revealjs/fig-2tailed-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;2: Distribution of α rejection area for a two-tailed test</p></section>
+<section id="choosing-between-one-tailed-and-two-tailed-tests" class="slide level2 smaller">
+<h2><strong>Choosing between one-tailed and two-tailed tests</strong></h2>
+<ul>
+<li>The choice between a one-tailed and two-tailed test depends on the research question and the hypothesis being tested.</li>
+<li>When the research question is directional, or the hypothesis specifies the direction of the effect, a one-tailed test is appropriate.</li>
+<li>When the research question is non-directional, or the hypothesis does not specify the direction of the effect, a two-tailed test is appropriate.</li>
+<li>It is important to choose the appropriate test to ensure the validity and accuracy of the results.</li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://drfurtado.github.io/kin610/">https://drfurtado.github.io/kin610/</a></p>
 </div>
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-weir2021" class="csl-entry" role="doc-biblioentry">
+Weir, Joseph P., and William J. Vincent. 2021. <em>Statistics in Kinesiology</em>. Human Kinetics. <a href="https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource">https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource</a>.
+</div>
+</div>
+</section></section>
     </div>
   </div>
 
@@ -532,7 +876,7 @@ Dr.&nbsp;Ovande Furtado Jr
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
-'multiplex': {"secret":null,"id":"cbfbe1babf2ce627","url":"https://reveal-multiplex.glitch.me/"},
+'multiplex': {"secret":null,"id":"e66d98782c2eb9b5","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -712,6 +1056,44 @@ Dr.&nbsp;Ovande Furtado Jr
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -842,6 +1224,20 @@ Dr.&nbsp;Ovande Furtado Jr
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp(/drfurtado\.github\.io\/kin610/);
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+        var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+          }
+        }
     });
     </script>
     

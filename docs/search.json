@@ -1733,7 +1733,7 @@
     "href": "slides/lec-6.html#credits",
     "title": "Week 5: Descriptive Statistics",
     "section": "Credits",
-    "text": "Credits\nss"
+    "text": "Credits"
   },
   {
     "objectID": "slides/lec-6.html#inferential-stats-and-kinesiology",
@@ -1761,7 +1761,7 @@
     "href": "slides/lec-6.html#fundamentals-of-inferential-statistics",
     "title": "Week 5: Descriptive Statistics",
     "section": "Fundamentals of Inferential Statistics",
-    "text": "Fundamentals of Inferential Statistics\n\nEstimation: using sample statistics to estimate population parameters\nHypothesis testing: determining whether observed differences in sample data are statistically significant"
+    "text": "Fundamentals of Inferential Statistics\n\nStatistics plays a crucial role in analyzing and interpreting collected data\nEstimation: using sample statistics to estimate population parameters\nHypothesis testing: determining whether observed differences in sample data are statistically significant\nExample: evaluating the effectiveness of a new exercise program for the larger population"
   },
   {
     "objectID": "slides/lec-6.html#practical-applications-of-inferential-statistics-in-kinesiology",
@@ -1775,7 +1775,7 @@
     "href": "slides/lec-6.html#introduction-to-probability-theory",
     "title": "Week 5: Descriptive Statistics",
     "section": "Introduction to Probability Theory",
-    "text": "Introduction to Probability Theory\n\nProbability theory deals with the analysis of random events and their associated outcomes\nThe sample space is the set of all possible outcomes of an experiment or trial\nThe sample space helps in identifying the range of potential outcomes that could arise from a trial"
+    "text": "Introduction to Probability Theory\n\n\nSample Space: {1, 2, 3, 4, 5, 6}\nEvent: odd # {1, 3, 5} and even # {2, 4, 6}\n\n\n\nProbability theory deals with the analysis of random events and their associated outcomes\nThe sample space is the set of all possible outcomes of an experiment or trial\nThe sample space helps in identifying the range of potential outcomes that could arise from a trial\nAn event is a subset of the sample space that comprises a group of outcomes with a common characteristic\nProbabilities are numerical values assigned to events, representing the likelihood of those events occurring\nProbabilities range from 0 to 1, with 0 indicating that an event cannot occur and 1 indicating that the event is certain to occur\nWhen flipping a coin, what is the sample space?"
   },
   {
     "objectID": "slides/lec-6.html#events-and-probabilities",
@@ -1796,21 +1796,21 @@
     "href": "slides/lec-6.html#probability-distributions",
     "title": "Week 5: Descriptive Statistics",
     "section": "Probability Distributions",
-    "text": "Probability Distributions\n\nProbability distributions allow researchers to infer population parameters based on sample statistics\nUnderstanding probability concepts is crucial for comprehending probability distributions\nProbability distributions will be discussed in more detail in the following section."
+    "text": "Probability Distributions"
   },
   {
     "objectID": "slides/lec-6.html#introduction-1",
     "href": "slides/lec-6.html#introduction-1",
     "title": "Week 5: Descriptive Statistics",
     "section": "Introduction",
-    "text": "Introduction\n\nProbability distributions allow researchers to infer population parameters based on sample statistics\nUnderstanding probability concepts is crucial for comprehending probability distributions"
+    "text": "Introduction\n\n\n\n\n\n\n\n\n\nProbability distributions allow researchers to infer population parameters based on sample statistics\nThere are many types of probability distributions, we will focus on the most common ones\n\nnormal distribution\nt-distribution\nchi-square distribution\nF-distribution\nBinomial distribution"
   },
   {
     "objectID": "slides/lec-6.html#discrete-probability-distributions",
     "href": "slides/lec-6.html#discrete-probability-distributions",
     "title": "Week 5: Descriptive Statistics",
     "section": "Discrete Probability Distributions",
-    "text": "Discrete Probability Distributions\n\nDescribes probabilities of different outcomes of a discrete variable\nCan only take certain values\nExamples: Binomial, Poisson, and Geometric distributions"
+    "text": "Discrete Probability Distributions\n\nDescribes probabilities of different outcomes of a discrete variable\nCan only take certain values\nExamples: Binomial, Poisson, Discrete uniform"
   },
   {
     "objectID": "slides/lec-6.html#binomial-distribution",
@@ -1839,5 +1839,313 @@
     "title": "Week 5: Descriptive Statistics",
     "section": "Application of Normal Distribution",
     "text": "Application of Normal Distribution\n\nMost commonly used continuous probability distribution in kinesiology research\nUsed to model continuous and normally distributed measurements\nCharacterized by its mean and standard deviation\nBell-shaped with most observations falling within one or two standard deviations of the mean\n\nSlide 7: t-Distribution Title: Application of t-Distribution\nUsed when the sample size is small, or the population standard deviation is unknown Similar to the normal distribution but with slightly fatter tails Used in kinesiology research when comparing means between two groups\nSlide 8: Chi-Square Distribution Title: Application of Chi-Square Distribution\nUsed to test the independence of categorical variables Also used to test goodness-of-fit, or whether a sample fits a certain distribution Example: Relationship between age and injury risk in a particular sport\nSlide 9: Conclusion Title: Conclusion\nProbability distributions are essential tools for inferential statistics in kinesiology research Understanding the characteristics and applications of different types of probability distributions is crucial for conducting meaningful and valid statistical analyses."
+  },
+  {
+    "objectID": "slides/lec-6.html#example",
+    "href": "slides/lec-6.html#example",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example",
+    "text": "Example\n\n\n\n\nTitle: The Effect of a Modified Basketball Program on Motor Skills and Cognitive Function in Older Adults\nThis study used a test statistic (t-test) to compare the mean scores of motor skills and cognitive function between two groups of older adults: one group that participated in a modified basketball program and one group that did not. The results showed a significant difference in both motor skills and cognitive function between the two groups, with the basketball group performing better. The t-test was used to determine the probability of obtaining such a difference by chance alone and to determine the statistical significance of the findings."
+  },
+  {
+    "objectID": "slides/lec-6.html#histogram",
+    "href": "slides/lec-6.html#histogram",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Histogram",
+    "text": "Histogram"
+  },
+  {
+    "objectID": "slides/lec-6.html#cont.",
+    "href": "slides/lec-6.html#cont.",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "cont.",
+    "text": "cont.\nWe can flip a coin 100 times, we can estimate the number of times “Heads” comes up.\n\n\n\nhttps://drfurtado.github.io/kin610/"
+  },
+  {
+    "objectID": "slides/lec-6.html#example-of-fd",
+    "href": "slides/lec-6.html#example-of-fd",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example of FD",
+    "text": "Example of FD\n\n\n\nHight (cm)\nFrequency\n\n\n\n\n160-164\n2\n\n\n165-169\n4\n\n\n170-174\n11\n\n\n175-179\n7\n\n\n180-184\n5\n\n\nTotal\n29\n\n\n\n\nThe higher the probability of a value, the higher its frequency in a sample.\nThus, the probability of a value is its relative frequency in an infinitely large sample.\nPD are theoretical provided infinitely large samples are impossible"
+  },
+  {
+    "objectID": "slides/lec-6.html#histogram-for-the-fd",
+    "href": "slides/lec-6.html#histogram-for-the-fd",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Histogram for the FD",
+    "text": "Histogram for the FD\n\nThis will add a dashed red line at the value of 3.5 on the x-axis to indicate the expected value of a fair 6-sided die."
+  },
+  {
+    "objectID": "slides/lec-6.html#histogram-for-the-previous-fd",
+    "href": "slides/lec-6.html#histogram-for-the-previous-fd",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Histogram for the previous FD",
+    "text": "Histogram for the previous FD"
+  },
+  {
+    "objectID": "slides/lec-6.html#examples",
+    "href": "slides/lec-6.html#examples",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Examples",
+    "text": "Examples\n\n\n\n\n\n\n\n\nDistribution\nDescription\nStatistical tests\n\n\n\n\nStandard Normal\nNormal distribution with mean = 0 and standard deviation = 1\nZ-tests\n\n\nBinomial\nDiscrete distribution, number of successes in n independent trials\nChi-squared test, goodness of fit\n\n\nPoisson\nDiscrete distribution, number of events in a fixed interval of time or space\nChi-squared test, goodness of fit\n\n\nExponential\nContinuous distribution, time between successive events in a Poisson process\nSurvival analysis\n\n\nt-distribution\nContinuous distribution, used for small sample sizes\nt-tests\n\n\nF-distribution\nContinuous distribution, used in ANOVA to test equality of variances\nANOVA\n\n\nChi-Square\nProbability distribution used to test hypotheses about the relationship between two categorical variables\nChi-square goodness of fit test, chi-square test of independence"
+  },
+  {
+    "objectID": "slides/lec-6.html#examples-1",
+    "href": "slides/lec-6.html#examples-1",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Examples",
+    "text": "Examples"
+  },
+  {
+    "objectID": "slides/lec-6.html#null-distributions",
+    "href": "slides/lec-6.html#null-distributions",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Null Distributions",
+    "text": "Null Distributions\n\nHypothesis testing relies heavily on null distributions\nNull distributions are probability distributions of a test statistic under the assumption of a true null hypothesis\nA test statistic is a summary of a sample expressed as a single number\n\nExamples of test statistics include z, t, F, and chi-square\n\nTo determine a p-value, the test statistic is compared to the corresponding null distribution\nThe p-value represents the probability of obtaining a test statistic value as extreme or more extreme than the sample’s value, assuming the null hypothesis is true"
+  },
+  {
+    "objectID": "slides/lec-6.html#observed-scores-equation",
+    "href": "slides/lec-6.html#observed-scores-equation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Observed Scores Equation",
+    "text": "Observed Scores Equation\nObserved score = True score + Error\n\nObserved score is the score actually measured or observed.\nTrue score is the score that would be obtained if there were no measurement error.\nError is the difference between the observed score and the true score due to measurement error or other sources of variability.\nThe true score cannot be directly observed and is estimated based on the observed score and measurement error."
+  },
+  {
+    "objectID": "slides/lec-6.html#from-sample-to-population",
+    "href": "slides/lec-6.html#from-sample-to-population",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "From sample to population",
+    "text": "From sample to population\n\nInferential statistics uses samples from a population to make conclusions about the population.\nSampling error is the potential for error due to inherent variability in the sample."
+  },
+  {
+    "objectID": "slides/lec-6.html#random-sampling-error",
+    "href": "slides/lec-6.html#random-sampling-error",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Random Sampling Error",
+    "text": "Random Sampling Error\n\nRandom sampling error occurs due to chance and leads to an overestimate or underestimate of the population parameter (i.e., mean, standard deviation).\nRandom sampling error can impact the validity and generalizability of research findings in Kinesiology.\nTo reduce random sampling error, researchers can use techniques such as random sampling and stratified sampling."
+  },
+  {
+    "objectID": "slides/lec-6.html#systematic-sampling-error",
+    "href": "slides/lec-6.html#systematic-sampling-error",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Systematic Sampling Error",
+    "text": "Systematic Sampling Error\n\nSystematic sampling error occurs when a bias in sample selection leads to a systematic difference between the sample and the population.\nKinesiology research may be impacted by systematic sampling error when biased sampling methods are used, leading to a non-representative sample.\nCareful attention should be paid to selecting and recruiting participants to minimize systematic sampling error."
+  },
+  {
+    "objectID": "slides/lec-6.html#techniques-to-reduce-sampling-error",
+    "href": "slides/lec-6.html#techniques-to-reduce-sampling-error",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Techniques to Reduce Sampling Error",
+    "text": "Techniques to Reduce Sampling Error\n\nRandom sampling involves randomly selecting participants without bias or preference.\nStratified sampling involves dividing the population into subgroups based on certain characteristics and selecting a random sample from each subgroup.\nIncreasing the sample size can reduce random sampling error by providing a more representative sample of the population."
+  },
+  {
+    "objectID": "slides/lec-6.html#levels-of-confidence-in-inferential-statistics",
+    "href": "slides/lec-6.html#levels-of-confidence-in-inferential-statistics",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Levels of Confidence in Inferential Statistics",
+    "text": "Levels of Confidence in Inferential Statistics\n\nLevels of confidence measure the uncertainty or variability in estimates when making inferences about a population based on a sample.\nLevels of confidence represent the degree of certainty that the true population parameter falls within a certain range of values.\nFor example, a 95% level of confidence means that 95% of the resulting confidence intervals would contain the true population parameter if the study were repeated many times.\nAn example can be found here."
+  },
+  {
+    "objectID": "slides/lec-6.html#application-of-levels-of-confidence-in-kinesiology-research",
+    "href": "slides/lec-6.html#application-of-levels-of-confidence-in-kinesiology-research",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Application of Levels of Confidence in Kinesiology Research",
+    "text": "Application of Levels of Confidence in Kinesiology Research\n\nLevels of confidence can be used to estimate the uncertainty in sample statistics and make inferences about population parameters in Kinesiology research.\nFor example, a study examining the effect of a new exercise program on cardiovascular fitness may calculate a 95% confidence interval for the mean difference in fitness levels between the exercise group and the control group.\nThis confidence interval provides a range of values likely to contain the true population mean difference, with 95% confidence."
+  },
+  {
+    "objectID": "slides/lec-6.html#factors-affecting-the-choice-of-levels-of-confidence",
+    "href": "slides/lec-6.html#factors-affecting-the-choice-of-levels-of-confidence",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Factors Affecting the Choice of Levels of Confidence",
+    "text": "Factors Affecting the Choice of Levels of Confidence\n\nThe level of confidence chosen by a researcher depends on the level of risk associated with making an incorrect inference, the sample size, and the data’s variability.\nHigher levels of confidence, such as 99%, require larger sample sizes and lead to wider confidence intervals.\nLevels of confidence do not guarantee that the true population parameter falls within the confidence interval, but rather provide a measure of the likelihood that it does.\nLevels of confidence do not provide information about the precision of the estimate, only the degree of certainty in the range of values."
+  },
+  {
+    "objectID": "slides/lec-6.html#table",
+    "href": "slides/lec-6.html#table",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Table",
+    "text": "Table\nThis table shows the corresponding values for the level of confidence (LOC), Z-value, and probability (p) in a standard normal distribution for the most commonly used levels of confidence in inferential statistics: 68%, 90%, 95%, and 99%. The values in the table can be used to calculate confidence intervals and perform hypothesis tests.\n\n\n\nLevel of Confidence (LOC)\nZ-Value\nProbability (p)\n\n\n\n\n68%\n1.00\n0.32\n\n\n90%\n1.64\n0.10\n\n\n95%\n1.96\n0.05\n\n\n99%\n2.58\n0.01"
+  },
+  {
+    "objectID": "slides/lec-6.html#point-estimation",
+    "href": "slides/lec-6.html#point-estimation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Point Estimation",
+    "text": "Point Estimation\n\nMethod of statistical inference used to estimate an unknown population parameter using a single value called the point estimator.\nUsed in Kinesiology to estimate parameters such as mean height, weight, or strength of a population based on a sample.\nSample mean is a good estimator of the population mean because it is unbiased and has an expected value equal to it.\nA biased estimator would be systematically off from the true population parameter.\nPoint estimators can vary from sample to sample, leading to sampling error."
+  },
+  {
+    "objectID": "slides/lec-6.html#properties-of-a-good-point-estimator",
+    "href": "slides/lec-6.html#properties-of-a-good-point-estimator",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Properties of a Good Point Estimator",
+    "text": "Properties of a Good Point Estimator\n\nUnbiasedness: the estimator has an expected value equal to the population parameter.\nEfficiency: the estimator has a small variance and is more precise than other estimators.\nConsistency: the estimator becomes closer to the population parameter as the sample size increases."
+  },
+  {
+    "objectID": "slides/lec-6.html#example-of-point-estimation-in-kinesiology",
+    "href": "slides/lec-6.html#example-of-point-estimation-in-kinesiology",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example of Point Estimation in Kinesiology",
+    "text": "Example of Point Estimation in Kinesiology\n\nEstimating maximum oxygen uptake (VO2max) of all collegiate athletes in the United States using a sample of 100 athletes.\nSample mean VO2max of the athletes is calculated as 60 ml/kg/min.\nSample mean used as the point estimator of the population mean VO2max.\nMean of all means will converge to the population mean VO2max as the sample size increases."
+  },
+  {
+    "objectID": "slides/lec-6.html#interval-estimation",
+    "href": "slides/lec-6.html#interval-estimation",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Interval Estimation",
+    "text": "Interval Estimation\n\nMethod of statistical inference used to estimate an unknown population parameter using an interval of values called the confidence interval.\nIn Kinesiology, confidence intervals can be used to estimate various parameters, such as the difference in means between two groups or the effect size of an intervention.\nAn example can be found here."
+  },
+  {
+    "objectID": "slides/lec-6.html#example-difference-in-mean-jump-height-between-male-and-female-athletes",
+    "href": "slides/lec-6.html#example-difference-in-mean-jump-height-between-male-and-female-athletes",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example: Difference in mean jump height between male and female athletes",
+    "text": "Example: Difference in mean jump height between male and female athletes\n\nCalculate the sample mean jump height for each group and calculate the difference in means as the point estimate.\nConstruct a confidence interval for the difference in means using the sample means, sample variances, and sample sizes for each group.\nThe confidence interval is a range of values likely to contain the population parameter with a certain degree of confidence, usually expressed as a percentage."
+  },
+  {
+    "objectID": "slides/lec-6.html#significance-testing-using-confidence-intervals",
+    "href": "slides/lec-6.html#significance-testing-using-confidence-intervals",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Significance testing using confidence intervals",
+    "text": "Significance testing using confidence intervals\n\nConfidence intervals can test hypotheses about the population parameter by checking whether the hypothesized value falls within the interval.\nFor instance, if the null hypothesis is that there is no difference in mean jump height between male and female athletes, we can check whether the hypothesized value of zero falls within the 95% confidence interval.\nIf it does not, we can reject the null hypothesis at the specified level of significance."
+  },
+  {
+    "objectID": "slides/lec-6.html#introduction-2",
+    "href": "slides/lec-6.html#introduction-2",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Introduction",
+    "text": "Introduction\n\nMethod of statistical inference used to make decisions about population parameter based on sample data.\nCommonly used in Kinesiology to test efficacy of interventions, compare groups of athletes/patients, and examine relationships between variables."
+  },
+  {
+    "objectID": "slides/lec-6.html#null-and-alternative-hypotheses",
+    "href": "slides/lec-6.html#null-and-alternative-hypotheses",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Null and Alternative Hypotheses",
+    "text": "Null and Alternative Hypotheses\n\nNull hypothesis (H0): Statement that assumes the population parameter is equal to a specific value or falls within a specific range.\nAlternative hypothesis (Ha): Statement that contradicts the null hypothesis and assumes that the population parameter is different from the value or range specified by the null hypothesis."
+  },
+  {
+    "objectID": "slides/lec-6.html#test-statistics-and-p-values",
+    "href": "slides/lec-6.html#test-statistics-and-p-values",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Test Statistics and p-values",
+    "text": "Test Statistics and p-values\n\nTest statistics: Measure the distance between sample statistic and hypothesized population parameter under null hypothesis.\n\nt-test: Most commonly used test statistic, compares means of two groups.\n\np-value: Probability of observing a test statistic as extreme or more extreme than the one obtained from the sample data, assuming the null hypothesis is true."
+  },
+  {
+    "objectID": "slides/lec-6.html#example-1",
+    "href": "slides/lec-6.html#example-1",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example:",
+    "text": "Example:\n\nTesting whether new training program increases mean strength of athletes.\nNull hypothesis: Mean strength of athletes who follow program is equal to that of athletes who do not - hypothesis being tested\nAlternative hypothesis: Mean strength of athletes who follow program is greater than that of athletes who do not."
+  },
+  {
+    "objectID": "slides/lec-6.html#type-i-and-type-ii-errors",
+    "href": "slides/lec-6.html#type-i-and-type-ii-errors",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Type I and Type II Errors",
+    "text": "Type I and Type II Errors\n\nHypothesis testing involves making two types of errors: type I and type II.\nType I error: Null hypothesis is rejected even though it is true. False positive.\nType II error: Null hypothesis is not rejected even though it is false. False negative.\nType I errors can be particularly concerning in Kinesiology when testing efficacy of a new treatment or intervention.\nType II errors can lead to missed opportunity to identify effective treatment or intervention."
+  },
+  {
+    "objectID": "slides/lec-6.html#causes-of-error",
+    "href": "slides/lec-6.html#causes-of-error",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Causes of error",
+    "text": "Causes of error\n\n\nType I Errors\n\nMeasurement error\nLack of random sample\nα value too liberal (α = .10)\nInvestigator bias\nImproper use of one-tailed test\n\n\nType II Errors\n\nMeasurement error\nLack of sufficient power (N too small)\nα value too conservative (α = .01)\nTreatment effect not properly applied\n\n\n\nCredit: Weir and Vincent (2021)"
+  },
+  {
+    "objectID": "slides/lec-6.html#example-2",
+    "href": "slides/lec-6.html#example-2",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example:",
+    "text": "Example:\n\nTesting effect of new exercise program on reducing knee pain in patients with osteoarthritis.\nt-value of 2.5 and p-value of 0.01.\np-value less than 0.05, reject null hypothesis and conclude that exercise program effectively reduces knee pain."
+  },
+  {
+    "objectID": "slides/lec-6.html#table-1",
+    "href": "slides/lec-6.html#table-1",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Table",
+    "text": "Table\nThis table shows the possible outcomes of a hypothesis test based on whether the null hypothesis is true or false and whether the test correctly rejects or fails to reject the null hypothesis. A Type I error occurs when the null hypothesis is actually true, but the test incorrectly rejects it. A Type II error occurs when the null hypothesis is actually false, but the test incorrectly fails to reject it.\n\n\n\n\n\n\n\n\n\nNull Hypothesis is True\nNull Hypothesis is False\n\n\n\n\nReject Null Hypothesis\nType I Error (False Positive)\nCorrect Decision (True Positive)\n\n\nFail to Reject Null Hypothesis\nCorrect Decision (True Negative)\nType II Error (False Negative)"
+  },
+  {
+    "objectID": "slides/lec-6.html#effect-size-and-power-analysis",
+    "href": "slides/lec-6.html#effect-size-and-power-analysis",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Effect Size and Power Analysis",
+    "text": "Effect Size and Power Analysis\n\nEffect size measures strength of relationship between two variables or magnitude of difference between two groups.\nUsed in hypothesis testing to supplement p-value and provide more meaningful interpretation of results.\nIn Kinesiology, effect size can be used to determine practical significance of study’s findings.\nPower analysis is statistical technique used to determine sample size needed to detect certain effect size with certain level of statistical power.\nStatistical power is probability of correctly rejecting null hypothesis when it is false.\nIn Kinesiology, power analysis can be used to plan sample size for a study to ensure adequate statistical power and reduce risk of type II errors."
+  },
+  {
+    "objectID": "slides/lec-6.html#one-tailed-and-two-tailed-statistical-tests",
+    "href": "slides/lec-6.html#one-tailed-and-two-tailed-statistical-tests",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "One-Tailed and Two-Tailed Statistical Tests",
+    "text": "One-Tailed and Two-Tailed Statistical Tests\nResearchers choose between one-tailed or two-tailed tests based on the research question and hypotheses.\n\nA one-tailed test is used when the research question involves a specific directional prediction about the relationship between the variables.\nA two-tailed test is used when the research question involves a non-specific directional prediction about the relationship between the variables."
+  },
+  {
+    "objectID": "slides/lec-6.html#one-tailed-test",
+    "href": "slides/lec-6.html#one-tailed-test",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "One-Tailed Test",
+    "text": "One-Tailed Test\n\nThe critical region for rejecting the null hypothesis is located in only one tail of the distribution, either the upper or the lower tail, depending on the direction of the prediction.\nOne-tailed tests are used when the research question involves a specific directional prediction.\nA one-tailed test has more power to detect a significant effect in a specific direction, but it also has a higher risk of a Type I error if the direction of the effect is incorrect."
+  },
+  {
+    "objectID": "slides/lec-6.html#two-tailed-test",
+    "href": "slides/lec-6.html#two-tailed-test",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Two-Tailed Test",
+    "text": "Two-Tailed Test\n\nThe critical region for rejecting the null hypothesis is located in both tails of the distribution, representing extreme values in either direction.\nTwo-tailed tests are used when the research question involves a non-specific directional prediction.\nA two-tailed test has less power to detect a significant effect but is more conservative and less likely to make a Type I error."
+  },
+  {
+    "objectID": "slides/lec-6.html#choosing-between-one-tailed-and-two-tailed-tests",
+    "href": "slides/lec-6.html#choosing-between-one-tailed-and-two-tailed-tests",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Choosing between one-tailed and two-tailed tests",
+    "text": "Choosing between one-tailed and two-tailed tests\n\nThe choice between a one-tailed and two-tailed test depends on the research question and the hypothesis being tested.\nWhen the research question is directional, or the hypothesis specifies the direction of the effect, a one-tailed test is appropriate.\nWhen the research question is non-directional, or the hypothesis does not specify the direction of the effect, a two-tailed test is appropriate.\nIt is important to choose the appropriate test to ensure the validity and accuracy of the results."
+  },
+  {
+    "objectID": "slides/lec-6.html#example-3",
+    "href": "slides/lec-6.html#example-3",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example",
+    "text": "Example\n\nFigure 1: Distribution of α rejection area for a One-tailed test."
+  },
+  {
+    "objectID": "slides/lec-6.html#example-4",
+    "href": "slides/lec-6.html#example-4",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Example",
+    "text": "Example\n\nFigure 2: Distribution of α rejection area for a two-tailed test"
+  },
+  {
+    "objectID": "slides/lec-6.html#references",
+    "href": "slides/lec-6.html#references",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/\n\n\n\nWeir, Joseph P., and William J. Vincent. 2021. Statistics in Kinesiology. Human Kinetics. https://us.humankinetics.com/products/statistics-in-kinesiology-5th-edition-with-web-resource."
+  },
+  {
+    "objectID": "slides/lec-6.html#decision-table",
+    "href": "slides/lec-6.html#decision-table",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Decision Table",
+    "text": "Decision Table\nThis table shows the possible outcomes of a hypothesis test based on whether the null hypothesis is true or false and whether the test correctly rejects or fails to reject the null hypothesis. A Type I error occurs when the null hypothesis is actually true, but the test incorrectly rejects it. A Type II error occurs when the null hypothesis is actually false, but the test incorrectly fails to reject it.\n\n\n\n\n\n\n\n\n\nNull Hypothesis is True\nNull Hypothesis is False\n\n\n\n\nReject Null Hypothesis\nType I Error (False Positive)\nCorrect Decision (True Positive)\n\n\nFail to Reject Null Hypothesis\nCorrect Decision (True Negative)\nType II Error (False Negative)"
+  },
+  {
+    "objectID": "slides/lec-6.html#discrete-continuous-probability-distributions",
+    "href": "slides/lec-6.html#discrete-continuous-probability-distributions",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Discrete-Continuous Probability Distributions",
+    "text": "Discrete-Continuous Probability Distributions\nDiscretre Probability Distributions\n\nDescribes probabilities of different outcomes of a discrete variable\nCan only take certain values\nExamples: Binomial, Poisson, Discrete uniform\n\nContinuous Probability Distributions\n\nDescribes probabilities of different outcomes of a continuous variable\nCan take any value within a certain range\nExamples: Normal, t-distribution, and chi-square distribution"
+  },
+  {
+    "objectID": "slides/lec-6.html#types",
+    "href": "slides/lec-6.html#types",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "Types",
+    "text": "Types\nDiscrete Probability Distributions\n\nDescribes probabilities of different outcomes of a discrete variable\nCan only take certain values\nExamples: Binomial, Poisson, Discrete uniform\n\nContinuous Probability Distributions\n\nDescribes probabilities of different outcomes of a continuous variable\nCan take any value within a certain range\nExamples: Normal, t-distribution, and chi-square distribution"
+  },
+  {
+    "objectID": "slides/lec-6.html#pd-examples",
+    "href": "slides/lec-6.html#pd-examples",
+    "title": "Week 5: Descriptive Statistics",
+    "section": "PD Examples",
+    "text": "PD Examples\n\n\n\n\n\n\n\n\nDistribution\nDescription\nStatistical tests\n\n\n\n\nStandard Normal\nNormal distribution with mean = 0 and standard deviation = 1\nZ-tests\n\n\nBinomial\nDiscrete distribution, number of successes in n independent trials\nChi-squared test, goodness of fit\n\n\nPoisson\nDiscrete distribution, number of events in a fixed interval of time or space\nChi-squared test, goodness of fit\n\n\nExponential\nContinuous distribution, time between successive events in a Poisson process\nSurvival analysis\n\n\nt-distribution\nContinuous distribution, used for small sample sizes\nt-tests\n\n\nF-distribution\nContinuous distribution, used in ANOVA to test equality of variances\nANOVA\n\n\nChi-Square\nProbability distribution used to test hypotheses about the relationship between two categorical variables\nChi-square goodness of fit test, chi-square test of independence"
   }
 ]
