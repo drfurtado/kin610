@@ -1,5 +1,5 @@
 ---
-title: "Week 5: Descriptive Statistics"
+title: "Week 6: Fundamentals of Inferential Statistics"
 subtitle: |
            KIN 610 - Spring 2023
 author: "Dr. Ovande Furtado Jr"
@@ -24,6 +24,8 @@ bibliography: references.bib
 ---
 
 ## Credits
+
+TBA
 
 # Introduction
 
@@ -164,7 +166,7 @@ This study used a test statistic (t-test) to compare the mean scores of motor sk
 -   For example, a 95% level of confidence means that 95% of the resulting confidence intervals would contain the true population parameter if the study were repeated many times.
 -   An example can be found [here](https://drfurtado.github.io/randomstats/posts/022523-inferential-stats/#calculation).
 
-## Application of Levels of Confidence in Kinesiology Research  {visibility="hidden"}
+## Application of Levels of Confidence in Kinesiology Research {visibility="hidden"}
 
 -   Levels of confidence can be used to estimate the uncertainty in sample statistics and make inferences about population parameters in Kinesiology research.
 -   For example, a study examining the effect of a new exercise program on cardiovascular fitness may calculate a 95% confidence interval for the `mean difference` in fitness levels between the exercise group and the control group
