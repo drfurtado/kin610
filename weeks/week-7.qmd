@@ -1,0 +1,51 @@
+---
+title: "Week 6"
+subtitle: "Fundamental of Inferential Statistics"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
+editor: visual
+---
+
+::: callout-important
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+-   Deadlines
+    -   Quiz for Week 6
+    -   Takeaways
+
+Download the lesson in [PDF](week-6.pdf)
+:::
+
+## Prepare
+
+Read @furtado2023a
+
+## Participate
+
+[Lecture Slides](../slides/lec-6.qmd)
+
+## Practice
+
+tbd
+
+## Perform
+
+1.  Take the quiz
+
+2.  Complete the major takeaways assignment
+
+<br><br>
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::

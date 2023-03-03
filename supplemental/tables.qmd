@@ -3,7 +3,6 @@ title: "Statistical Tables"
 ---
 
 ::: panel-tabset
-
 ## Tables
 
 asasas

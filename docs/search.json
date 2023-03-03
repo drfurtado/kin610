@@ -1803,7 +1803,7 @@
     "href": "slides/lec-6.html#introduction-1",
     "title": "Week 6: Fundamentals of Inferential Statistics",
     "section": "Introduction",
-    "text": "Introduction\n\n\n\n\n\n\n\n\n\nProbability distributions allow researchers to infer population parameters based on sample statistics\nThere are many types of probability distributions, we will focus on the most common ones\n\nnormal distribution\nt-distribution\nchi-square distribution\nF-distribution\nBinomial distribution"
+    "text": "Introduction\n\n\n\n# Set the seed for reproducibility\nset.seed(123)\n\n# Generate a random sample from a normal distribution with mean 0 and sd 1\nx <- rnorm(10000, mean = 0, sd = 1)\n\n# Create a histogram of the data\nhist(x, main = \"Normal Distribution with mean = 0 and sd = 1\")\n\n\n\n\n\n\nProbability distributions allow researchers to infer population parameters based on sample statistics\nThere are many types of probability distributions, we will focus on the most common ones\n\nnormal distribution\nt-distribution\nchi-square distribution\nF-distribution\nBinomial distribution"
   },
   {
     "objectID": "slides/lec-6.html#discrete-probability-distributions",
@@ -1948,9 +1948,9 @@
   {
     "objectID": "slides/lec-6.html#application-of-levels-of-confidence-in-kinesiology-research",
     "href": "slides/lec-6.html#application-of-levels-of-confidence-in-kinesiology-research",
-    "title": "Week 5: Descriptive Statistics",
+    "title": "Week 6: Fundamentals of Inferential Statistics",
     "section": "Application of Levels of Confidence in Kinesiology Research",
-    "text": "Application of Levels of Confidence in Kinesiology Research\n\nLevels of confidence can be used to estimate the uncertainty in sample statistics and make inferences about population parameters in Kinesiology research.\nFor example, a study examining the effect of a new exercise program on cardiovascular fitness may calculate a 95% confidence interval for the mean difference in fitness levels between the exercise group and the control group.\nThis confidence interval provides a range of values likely to contain the true population mean difference, with 95% confidence."
+    "text": "Application of Levels of Confidence in Kinesiology Research\n\nLevels of confidence can be used to estimate the uncertainty in sample statistics and make inferences about population parameters in Kinesiology research.\nFor example, a study examining the effect of a new exercise program on cardiovascular fitness may calculate a 95% confidence interval for the mean difference in fitness levels between the exercise group and the control group\nThis confidence interval provides a range of values likely to contain the true population mean difference, with 95% confidence."
   },
   {
     "objectID": "slides/lec-6.html#factors-affecting-the-choice-of-levels-of-confidence",
@@ -2104,14 +2104,14 @@
     "href": "slides/lec-6.html#example-3",
     "title": "Week 6: Fundamentals of Inferential Statistics",
     "section": "Example",
-    "text": "Example\n\nFigure 1: Distribution of α rejection area for a One-tailed test."
+    "text": "Example\n\n# set mean and standard deviation\nmu <- 0\nsigma <- 1\n\n# create x-axis values\nx <- seq(-4, 4, by = 0.01)\n\n# create normal distribution\ny <- dnorm(x, mean = mu, sd = sigma)\n\n# plot normal distribution\nplot(x, y, type = \"l\", xlab = \"x\", ylab = \"Density\", main = \"Normal Distribution\")\n\n# shade rejection region\nx_reject <- seq(1.65, 4, by = 0.01)\ny_reject <- dnorm(x_reject, mean = mu, sd = sigma)\npolygon(c(x_reject, 4, 4, x_reject[1]), c(y_reject, 0, dnorm(4, mean = mu, sd = sigma), 0), col = \"red\", border = NA)\n\n# indicate z-score for rejection region\nabline(v = 1.65, col = \"blue\", lty = 2)\ntext(1.7, 0.25, \"z = 1.65\", col = \"blue\")\n\n\n\n\nFigure 1: Distribution of α rejection area for a One-tailed test."
   },
   {
     "objectID": "slides/lec-6.html#example-4",
     "href": "slides/lec-6.html#example-4",
     "title": "Week 6: Fundamentals of Inferential Statistics",
     "section": "Example",
-    "text": "Example\n\nFigure 2: Distribution of α rejection area for a two-tailed test"
+    "text": "Example\n\n# Define mean and standard deviation\nmu <- 0\nsigma <- 1\n\n# Create x-axis values\nx <- seq(-4, 4, length.out = 1000)\n\n# Calculate y-axis values using probability density function\ny <- dnorm(x, mean = mu, sd = sigma)\n\n# Plot normal distribution\nplot(x, y, type = \"l\", xlab = \"Z-score\", ylab = \"Probability Density\",\n     main = \"Normal Distribution with Rejection Regions (Two-tailed Test)\")\n\n# Define alpha level\nalpha <- 0.05\n\n# Define rejection regions\nlower_reject <- qnorm(alpha/2, mean = mu, sd = sigma)\nupper_reject <- qnorm(1-alpha/2, mean = mu, sd = sigma)\n\n# Shade rejection regions\npolygon(c(lower_reject, seq(lower_reject, upper_reject, length.out = 100), upper_reject),\n        c(0, dnorm(seq(lower_reject, upper_reject, length.out = 100), mean = mu, sd = sigma), 0),\n        col = \"gray\", border = NA)\n\n# Add text labels for rejection regions\ntext(lower_reject - 0.15, 0.05, expression(alpha/2))\ntext(upper_reject + 0.15, 0.05, expression(alpha/2))\n\n# Add text label for non-rejection region\ntext((lower_reject + upper_reject)/2, 0.1, expression(1-alpha), cex = 1.5)\n\n\n\n\nFigure 2: Distribution of α rejection area for a two-tailed test"
   },
   {
     "objectID": "slides/lec-6.html#references",
@@ -2139,7 +2139,7 @@
     "href": "slides/lec-6.html#types",
     "title": "Week 6: Fundamentals of Inferential Statistics",
     "section": "Types",
-    "text": "Types\nDiscrete Probability Distributions\n\nDescribes probabilities of different outcomes of a discrete variable\nCan only take certain values\nExamples: Binomial, Poisson, Discrete uniform\n\nContinuous Probability Distributions\n\nDescribes probabilities of different outcomes of a continuous variable\nCan take any value within a certain range\nExamples: Normal, t-distribution, and chi-square distribution"
+    "text": "Types\n\nDiscrete Probability Distributions\n\nDescribes probabilities of different outcomes of a discrete variable\nCan only take certain values\nExamples: Binomial, Poisson, Discrete uniform\n\n\n\nContinuous Probability Distributions\n\nDescribes probabilities of different outcomes of a continuous variable\nCan take any value within a certain range\nExamples: Normal, t-distribution, and chi-square distribution"
   },
   {
     "objectID": "slides/lec-6.html#pd-examples",
@@ -2151,36 +2151,78 @@
   {
     "objectID": "weeks/week-6.html",
     "href": "weeks/week-6.html",
+    "title": "Week 7",
+    "section": "",
+    "text": "Important\n\n\n\n\nWe will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.\nDeadlines\n\nQuiz for Week 7\nTakeaways\n\n\nDownload the lesson in PDF"
+  },
+  {
+    "objectID": "weeks/week-6.html#prepare",
+    "href": "weeks/week-6.html#prepare",
+    "title": "Week 7",
+    "section": "Prepare",
+    "text": "Prepare\nComing soon"
+  },
+  {
+    "objectID": "weeks/week-6.html#participate",
+    "href": "weeks/week-6.html#participate",
+    "title": "Week 7",
+    "section": "Participate",
+    "text": "Participate\nComing soon"
+  },
+  {
+    "objectID": "weeks/week-6.html#practice",
+    "href": "weeks/week-6.html#practice",
+    "title": "Week 7",
+    "section": "Practice",
+    "text": "Practice\nComing soon"
+  },
+  {
+    "objectID": "weeks/week-6.html#perform",
+    "href": "weeks/week-6.html#perform",
+    "title": "Week 7",
+    "section": "Perform",
+    "text": "Perform\n\nTake the quiz\nComplete the major takeaways assignment\n\n\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "weeks/week-7.html",
+    "href": "weeks/week-7.html",
     "title": "Week 6",
     "section": "",
     "text": "Important\n\n\n\n\nWe will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.\nDeadlines\n\nQuiz for Week 6\nTakeaways\n\n\nDownload the lesson in PDF"
   },
   {
-    "objectID": "weeks/week-6.html#prepare",
-    "href": "weeks/week-6.html#prepare",
+    "objectID": "weeks/week-7.html#prepare",
+    "href": "weeks/week-7.html#prepare",
     "title": "Week 6",
     "section": "Prepare",
     "text": "Prepare\nRead Furtado (2023)"
   },
   {
-    "objectID": "weeks/week-6.html#participate",
-    "href": "weeks/week-6.html#participate",
+    "objectID": "weeks/week-7.html#participate",
+    "href": "weeks/week-7.html#participate",
     "title": "Week 6",
     "section": "Participate",
     "text": "Participate\nLecture Slides"
   },
   {
-    "objectID": "weeks/week-6.html#practice",
-    "href": "weeks/week-6.html#practice",
+    "objectID": "weeks/week-7.html#practice",
+    "href": "weeks/week-7.html#practice",
     "title": "Week 6",
     "section": "Practice",
     "text": "Practice\ntbd"
   },
   {
-    "objectID": "weeks/week-6.html#perform",
-    "href": "weeks/week-6.html#perform",
+    "objectID": "weeks/week-7.html#perform",
+    "href": "weeks/week-7.html#perform",
     "title": "Week 6",
     "section": "Perform",
     "text": "Perform\n\nTake the quiz\nComplete the major takeaways assignment\n\n\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "slides/lec-6.html",
+    "href": "slides/lec-6.html",
+    "title": "Week 6: Fundamentals of Inferential Statistics",
+    "section": "",
+    "text": "TBA"
   }
 ]

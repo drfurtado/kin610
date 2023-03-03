@@ -135,7 +135,7 @@ This study used a test statistic (t-test) to compare the mean scores of motor sk
 ## PD Examples {.scrollable .smaller}
 
 | **Distribution** | **Description**                                                                                           | **Statistical tests**                                            |
-|------------------------|------------------------|------------------------|
+|------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | Standard Normal  | Normal distribution with mean = 0 and standard deviation = 1                                              | Z-tests                                                          |
 | Binomial         | Discrete distribution, number of successes in n independent trials                                        | Chi-squared test, goodness of fit                                |
 | Poisson          | Discrete distribution, number of events in a fixed interval of time or space                              | Chi-squared test, goodness of fit                                |
@@ -296,7 +296,7 @@ Credit: @weir2021
 This table shows the possible outcomes of a hypothesis test based on whether the null hypothesis is true or false and whether the test correctly rejects or fails to reject the null hypothesis. A Type I error occurs when the null hypothesis is actually true, but the test incorrectly rejects it. A Type II error occurs when the null hypothesis is actually false, but the test incorrectly fails to reject it.
 
 |                                | **Null Hypothesis is True**      | **Null Hypothesis is False**     |
-|-----------------------|-------------------------|-------------------------|
+|--------------------------------|----------------------------------|----------------------------------|
 | Reject Null Hypothesis         | Type I Error (False Positive)    | Correct Decision (True Positive) |
 | Fail to Reject Null Hypothesis | Correct Decision (True Negative) | Type II Error (False Negative)   |
 

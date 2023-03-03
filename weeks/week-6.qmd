@@ -1,6 +1,6 @@
 ---
-title: "Week 6"
-subtitle: "Fundamental of Inferential Statistics"
+title: "Week 7"
+subtitle: "Correlation and Bivariate Regression"
 format: 
   html:
     toc: true
@@ -20,23 +20,27 @@ editor: visual
 ::: callout-important
 -   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
 -   Deadlines
-    -   Quiz for Week 6
+    -   Quiz for Week 7
     -   Takeaways
 
-Download the lesson in [PDF](week-6.pdf)
+Download the lesson in [PDF](week-7.pdf)
+:::
+
+::: callout-note
+I will post an announcement on Canvas when there are changes to this page.
 :::
 
 ## Prepare
 
-Read @furtado2023a
+Coming soon
 
 ## Participate
 
-[Lecture Slides](../slides/lec-6.qmd)
+Coming soon
 
 ## Practice
 
-tbd
+Coming soon
 
 ## Perform
 
