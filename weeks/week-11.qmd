@@ -1,0 +1,55 @@
+---
+title: "Week 11"
+subtitle: "The Student's t-test"
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    tbl-colwidths: [5,95]
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+    tbl-colwidths: [5,95]
+bibliography: references.bib
+csl: ../apa.csl
+editor: visual
+---
+
+::: callout-important
+-   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+-   Deadlines
+    -   Quiz
+    -   Takeaways
+
+Download the lesson in [PDF](week-11.pdf)
+:::
+
+::: callout-note
+I will post an announcement on Canvas when there are changes to this page.
+:::
+
+## Prepare
+
+Coming soon
+
+## Participate
+
+Coming soon
+
+## Practice
+
+Coming soon
+
+## Perform
+
+1.  Take the quiz
+
+2.  Complete the major takeaways assignment
+
+<br><br>
+
+::: {style="font-size: 0.875em;"}
+Back to [course schedule](/ "Course schedule") ⏎
+:::
