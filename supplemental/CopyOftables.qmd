@@ -1,0 +1,117 @@
+---
+title: "Statistical Tables"
+---
+
+::: panel-tabset
+## Tables
+
+asasas
+
+## z-table
+
+The table shows the probabilities associated with various z-scores. Each row represents a different z-score, while the columns show the z-score value and the probability (rounded to two decimal places) of getting a z-score less than or equal to that value.
+
+For example, if we look at the row where z is equal to 1.96, we see that the probability of getting a z-score less than or equal to 1.96 is 0.025 (1 - 0.9750). This means that if we have a normally distributed variable, and we want to find the probability of getting a z-score less than or equal to 1.96, we can look up that value in the table and find the corresponding probability. In this case, the probability is 0.9750, then subtract from 1. The result is the probability value.
+
+Conversely, if we have a probability and we want to find the z-score associated with it, we can use the table by looking for the probability in the second column and then reading the corresponding z-score from the first column. For example, if we have a probability of 0.9985, we can look for that value in the second column and find the corresponding z-score of 2.81 in the first column. Overall, this table can be a useful tool for working with the standard normal distribution, particularly when calculating probabilities or finding critical values for hypothesis tests.
+
+```{r, echo=FALSE}
+# Set up a vector of z values
+z <- seq(0.00, 3.40, 0.01)
+
+# Calculate the probabilities for each z value using pnorm()
+probabilities <- round(pnorm(z), 4)
+
+# Combine the z values and probabilities into a data frame
+table <- data.frame(z, probabilities)
+
+# Print the table
+print(table)
+
+
+```
+
+## correlation
+
+```{r, echo=FALSE}
+# set up the degrees of freedom (df) range
+df <- 1:99
+
+# set up the alpha values
+alpha <- c(0.10, 0.05, 0.025, 0.01)
+
+# set up an empty matrix to store the critical values
+crit_vals <- matrix(NA, nrow = length(df), ncol = length(alpha)+1)
+
+# fill in the first column of the matrix with degrees of freedom
+crit_vals[,1] <- df
+
+# calculate the critical values and store them in the matrix
+for (i in 1:length(df)) {
+  for (j in 1:length(alpha)) {
+    crit_vals[i,j+1] <- round(qt(1-alpha[j]/2, df[i]), 3)
+  }
+}
+
+# set the column names
+colnames(crit_vals) <- c("df", paste0("alpha=", alpha))
+
+# print the table
+crit_vals
+
+```
+
+asasas
+:::
+
+# The correlation table
+
+# The $z$ table
+
+```{r}
+# Set up a vector of z-scores
+z <- seq(-3.4, 3.4, 0.1)
+
+# Calculate the corresponding probabilities using pnorm()
+prob <- round(pnorm(z), 4)
+
+# Combine the z-scores and probabilities into a data frame
+table <- data.frame(z, prob)
+
+# Print the table
+print(table)
+
+
+```
+
+The z-table is a statistical table that shows the values of the standard normal distribution. The standard normal distribution is a normal distribution with a mean of 0 and a standard deviation of 1.
+
+```{r, echo=FALSE}
+#create a vector of z values
+z_values <- seq(-3, 3, by = 0.1)
+
+#calculate the area in percent for each z value using the pnorm function
+area_percent <- pnorm(z_values, lower.tail = TRUE)
+
+#create a data frame with the z values and area in percent
+z_table <- data.frame(z_value = z_values, area_percent = area_percent)
+
+#view the z table
+z_table
+```
+
+```{r}
+library(stats)
+
+f_table <- data.frame(df1=rep(1:30, each=30), df2=rep(1:30, 30), 
+                      p=qf(seq(0.01, 0.99, 0.01), df1=rep(1:30, each=30), df2=rep(1:30, 30)))
+
+print(f_table)
+
+```
+
+```{r}
+x <- seq(-3, 3, 0.01)
+curve(dnorm(x, mean=0, sd=1), from=-3, to=3, xlab="x", ylab="Probability Density")
+
+```
