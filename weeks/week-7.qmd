@@ -18,7 +18,8 @@ editor: visual
 ---
 
 ::: callout-important
--   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+-   ~~We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.~~
+    -   Online (refer to email for Zoom link)
 -   Deadlines
     -   Quiz
     -   Takeaways
