@@ -2189,5 +2189,250 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
+  },
+  {
+    "objectID": "slides/lec-7.html#credits",
+    "href": "slides/lec-7.html#credits",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Credits",
+    "text": "Credits"
+  },
+  {
+    "objectID": "slides/lec-7.html#introduction-to-bivariate-correlation-analysis",
+    "href": "slides/lec-7.html#introduction-to-bivariate-correlation-analysis",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Introduction to Bivariate Correlation Analysis",
+    "text": "Introduction to Bivariate Correlation Analysis\n\nBivariate correlation analysis is a statistical technique used to examine the relationships between two continuous variables in Kinesiology research.\nCorrelation analysis is a valuable tool for identifying relationships between variables that may impact human health and physical activity.\nIn this chapter, we will discuss the basic concepts of bivariate correlation analysis, measures of correlation, hypothesis testing in correlation analysis, interpretation of results, and applications in Kinesiology research."
+  },
+  {
+    "objectID": "slides/lec-7.html#basic-concepts-of-correlation",
+    "href": "slides/lec-7.html#basic-concepts-of-correlation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Basic Concepts of Correlation",
+    "text": "Basic Concepts of Correlation\n\nCorrelation analysis involves the examination of the relationship between two variables.\nThe correlation coefficient measures the strength and direction of the linear relationship between the two variables.\nCorrelation coefficients range from -1 to +1 and provide a numerical value that summarizes the degree to which two variables are related."
+  },
+  {
+    "objectID": "slides/lec-7.html#definition-of-correlation-coefficient",
+    "href": "slides/lec-7.html#definition-of-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Definition of Correlation Coefficient",
+    "text": "Definition of Correlation Coefficient\n\nA correlation coefficient is a statistical measure used to determine the strength and direction of the linear relationship between two variables.\nIt provides a numerical value that summarizes the degree to which two variables are related.\nCorrelation coefficients are denoted by different symbols depending on their type."
+  },
+  {
+    "objectID": "slides/lec-7.html#types-of-correlation-coefficient",
+    "href": "slides/lec-7.html#types-of-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Types of Correlation Coefficient",
+    "text": "Types of Correlation Coefficient\n\nThere are several types of correlation coefficients that can be used in bivariate correlation analysis, each with its strengths and limitations.\nThe most commonly used correlation coefficient is Pearson’s correlation coefficient (\\(r\\)), which measures the strength and direction of the linear relationship between two variables.\nPearson’s correlation coefficient ranges from -1 to +1, with a value of -1 indicating a perfect negative correlation, a value of 0 indicating no correlation, and a value of +1 indicating a perfect positive correlation."
+  },
+  {
+    "objectID": "slides/lec-7.html#properties-of-correlation-coefficient",
+    "href": "slides/lec-7.html#properties-of-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Properties of Correlation Coefficient",
+    "text": "Properties of Correlation Coefficient\n\nCorrelation coefficients have several properties that are important to understand when interpreting results.\nCorrelation coefficients are symmetric, meaning that the order of the variables does not affect the value of the coefficient.\nCorrelation coefficients are affected by outliers, and their interpretation should take into account the nature of the data."
+  },
+  {
+    "objectID": "slides/lec-7.html#graphical-representation-of-correlation",
+    "href": "slides/lec-7.html#graphical-representation-of-correlation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Graphical Representation of Correlation",
+    "text": "Graphical Representation of Correlation\n\nGraphical representation of correlation can provide valuable insights into the relationship between two variables.\nScatterplots are a common method of graphical representation of correlation.\nScatterplots can also be used to identify outliers and nonlinear relationships between variables."
+  },
+  {
+    "objectID": "slides/lec-7.html#hypothesis-testing-in-correlation-analysis",
+    "href": "slides/lec-7.html#hypothesis-testing-in-correlation-analysis",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Hypothesis Testing in Correlation Analysis",
+    "text": "Hypothesis Testing in Correlation Analysis\n\nHypothesis testing is an important aspect of correlation analysis. It allows researchers to determine whether the observed correlation coefficient is statistically significant.\nHypothesis testing involves calculating a test statistic and comparing it to a critical value to determine whether to accept or reject the null hypothesis."
+  },
+  {
+    "objectID": "slides/lec-7.html#stating-the-null-and-alternative-hypotheses",
+    "href": "slides/lec-7.html#stating-the-null-and-alternative-hypotheses",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Stating the Null and Alternative Hypotheses",
+    "text": "Stating the Null and Alternative Hypotheses\nH0: There is no linear correlation between the two variables, or the correlation coefficient is zero.\nH1: There is a linear correlation between the two variables, or the correlation coefficient is not zero.\nMathematically, we can represent the null and alternative hypotheses as:\nH0: 𝜌 = 0\nH1: 𝜌 ≠ 0\n𝜌 is the population correlation coefficient."
+  },
+  {
+    "objectID": "slides/lec-7.html#interpretation-of-correlation-results",
+    "href": "slides/lec-7.html#interpretation-of-correlation-results",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Interpretation of Correlation Results",
+    "text": "Interpretation of Correlation Results\n\nInterpretation of correlation results involves evaluating the strength and direction of the correlation coefficient.\nThe strength of the correlation can be interpreted based on the absolute value of the correlation coefficient.\nIn Kinesiology research, correlation analysis can be used to examine the relationships between a wide range of variables."
+  },
+  {
+    "objectID": "slides/lec-7.html#applications-of-bivariate-correlation-analysis-in-kinesiology-research",
+    "href": "slides/lec-7.html#applications-of-bivariate-correlation-analysis-in-kinesiology-research",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Applications of Bivariate Correlation Analysis in Kinesiology Research",
+    "text": "Applications of Bivariate Correlation Analysis in Kinesiology Research\n\nBivariate correlation analysis can be used to examine the relationships between a wide range of variables in Kinesiology research.\nBy identifying these relationships, researchers can gain insight into the underlying mechanisms that may impact human health and physical activity.\nBivariate correlation analysis can also examine the relationships between variables that may be confounding factors in other analyses."
+  },
+  {
+    "objectID": "slides/lec-7.html#pearson-correlation-coefficient",
+    "href": "slides/lec-7.html#pearson-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Pearson correlation coefficient",
+    "text": "Pearson correlation coefficient\n\nUsed in research studies with interval or ratio scale variables\nMeasures strength and direction of linear relationship between two continuous variables\nWidely recognized and accepted, many statistical software packages include functions for calculating it\nAssumes linear and normally distributed relationship, sensitive to outliers and extreme values"
+  },
+  {
+    "objectID": "slides/lec-7.html#spearmans-rank-correlation-coefficient",
+    "href": "slides/lec-7.html#spearmans-rank-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Spearman’s rank correlation coefficient",
+    "text": "Spearman’s rank correlation coefficient\n\nUsed when data is not normally distributed or there are outliers\nBased on ranks of data, measures monotonic relationship between two variables\nMonotonic relationship means variables move in same direction but not necessarily at constant rate"
+  },
+  {
+    "objectID": "slides/lec-7.html#kendalls-tau-correlation-coefficient",
+    "href": "slides/lec-7.html#kendalls-tau-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Kendall’s tau correlation coefficient",
+    "text": "Kendall’s tau correlation coefficient\n\nAlso based on ranks of data, more robust than Spearman’s rank correlation coefficient\nUsed when sample size is small or there are tied ranks in the data"
+  },
+  {
+    "objectID": "slides/lec-7.html#point-biserial-correlation-coefficient",
+    "href": "slides/lec-7.html#point-biserial-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Point-biserial correlation coefficient",
+    "text": "Point-biserial correlation coefficient\n\nUsed when one variable is dichotomous and the other is continuous\nMeasures association between dichotomous and continuous variables"
+  },
+  {
+    "objectID": "slides/lec-7.html#phi-correlation-coefficient",
+    "href": "slides/lec-7.html#phi-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Phi correlation coefficient",
+    "text": "Phi correlation coefficient\n\nUsed when both variables are dichotomous\nMeasures association between two dichotomous variables"
+  },
+  {
+    "objectID": "slides/lec-7.html#gamma-correlation-coefficient",
+    "href": "slides/lec-7.html#gamma-correlation-coefficient",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Gamma correlation coefficient",
+    "text": "Gamma correlation coefficient\n\nNon-parametric measure of association between two variables (one nominal and one ordinal)\nMeasures strength and direction of monotonic relationship\nUsed in research studies with categorical data or healthcare research\nDoes not assume linear relationship between variables"
+  },
+  {
+    "objectID": "slides/lec-7.html#introduction",
+    "href": "slides/lec-7.html#introduction",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Introduction",
+    "text": "Introduction\nSeveral important properties should be considered when interpreting the results of bivariate correlation analysis"
+  },
+  {
+    "objectID": "slides/lec-7.html#unitless-measure-of-association",
+    "href": "slides/lec-7.html#unitless-measure-of-association",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Unitless measure of association",
+    "text": "Unitless measure of association\n\nCorrelation coefficient is a unitless measure of association\nNot affected by changes in the units of measurement of the variables\nUseful for comparing the strength of relationships between variables measured in different units"
+  },
+  {
+    "objectID": "slides/lec-7.html#standardized-measure-of-association",
+    "href": "slides/lec-7.html#standardized-measure-of-association",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Standardized measure of association",
+    "text": "Standardized measure of association\n\nThe correlation coefficient is always between -1 and +1\nProvides a standardized measure of association that can be easily interpreted\nCloser the correlation coefficient is to -1 or +1, stronger the relationship is between the variables"
+  },
+  {
+    "objectID": "slides/lec-7.html#sensitive-to-outliers",
+    "href": "slides/lec-7.html#sensitive-to-outliers",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Sensitive to outliers",
+    "text": "Sensitive to outliers\n\nOutliers are extreme values that can disproportionately influence the analysis results\nCorrelation coefficient is sensitive to outliers\nOutliers should be carefully examined and, if necessary, removed from the analysis to ensure that they are not unduly influencing the results"
+  },
+  {
+    "objectID": "slides/lec-7.html#scale-of-measurement-of-variables",
+    "href": "slides/lec-7.html#scale-of-measurement-of-variables",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Scale of measurement of variables",
+    "text": "Scale of measurement of variables\n\nCorrelation coefficient is affected by the scale of measurement of the variables\nIf one variable is measured on a larger scale than the other, the correlation coefficient may be artificially inflated\nScale of measurement should be considered when interpreting the correlation coefficient"
+  },
+  {
+    "objectID": "slides/lec-7.html#graphical-representation-of-correlation-1",
+    "href": "slides/lec-7.html#graphical-representation-of-correlation-1",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Graphical representation of correlation",
+    "text": "Graphical representation of correlation\n\nScatter plot is a graph displaying the relationship between two continuous variables as points\nThe horizontal axis represents one variable, and the vertical axis represents another variable\nScatter plot can identify the presence and strength of a linear relationship between the two variables"
+  },
+  {
+    "objectID": "slides/lec-7.html#calculation-of-correlation-coefficient-from-scatter-plot",
+    "href": "slides/lec-7.html#calculation-of-correlation-coefficient-from-scatter-plot",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Calculation of correlation coefficient from scatter plot",
+    "text": "Calculation of correlation coefficient from scatter plot\n\nCorrelation coefficient can also be calculated from the scatter plot\nThe closer the points are to a straight line, the stronger the relationship between the two variables\nPositive slope indicates positive correlation, negative slope indicates negative correlation"
+  },
+  {
+    "objectID": "slides/lec-7.html#correlation-vs.-causation",
+    "href": "slides/lec-7.html#correlation-vs.-causation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Correlation vs. Causation",
+    "text": "Correlation vs. Causation\n\nCorrelation does not imply causation.\nTwo variables may be correlated, but other factors may be influencing their relationship."
+  },
+  {
+    "objectID": "slides/lec-7.html#strengths-of-bivariate-correlation",
+    "href": "slides/lec-7.html#strengths-of-bivariate-correlation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Strengths of Bivariate Correlation",
+    "text": "Strengths of Bivariate Correlation\n\nStraightforward method for examining the relationship between two variables.\nProvides a standardized measure of association that can be easily interpreted.\nIdentifies potential relationships that may be important for further investigation."
+  },
+  {
+    "objectID": "slides/lec-7.html#limitations-of-bivariate-correlation",
+    "href": "slides/lec-7.html#limitations-of-bivariate-correlation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Limitations of Bivariate Correlation",
+    "text": "Limitations of Bivariate Correlation\n\nOnly examines the relationship between two variables and does not consider the influence of other variables.\nDoes not provide information about causation.\nAssumes a linear relationship and normality, which may not always be appropriate."
+  },
+  {
+    "objectID": "slides/lec-7.html#data-requirements-for-bivariate-correlation",
+    "href": "slides/lec-7.html#data-requirements-for-bivariate-correlation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Data Requirements for Bivariate Correlation",
+    "text": "Data Requirements for Bivariate Correlation\n\nVariables must be measured on a continuous scale.\nData must be at least interval level.\nData should be free of outliers and influential data points."
+  },
+  {
+    "objectID": "slides/lec-7.html#steps-for-conducting-bivariate-correlation",
+    "href": "slides/lec-7.html#steps-for-conducting-bivariate-correlation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Steps for Conducting Bivariate Correlation",
+    "text": "Steps for Conducting Bivariate Correlation\n\nCheck for normality.\nCheck for outliers.\nCalculate the correlation coefficient.\nTest for statistical significance.\nInterpret the results."
+  },
+  {
+    "objectID": "slides/lec-7.html#example",
+    "href": "slides/lec-7.html#example",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Example",
+    "text": "Example\n\nStudy on the relationship between exercise intensity and heart rate.\nNormality and outlier checks performed.\nCorrelation coefficient calculated (r = 0.80).\nStatistical significance tested (p < 0.05).\nInterpretation: Strong positive relationship between exercise intensity and heart rate."
+  },
+  {
+    "objectID": "slides/lec-7.html#references",
+    "href": "slides/lec-7.html#references",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/"
+  },
+  {
+    "objectID": "slides/lec-7.html#hypothesis-testing-in-bivariate-correlation-analysis",
+    "href": "slides/lec-7.html#hypothesis-testing-in-bivariate-correlation-analysis",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Hypothesis Testing in Bivariate Correlation Analysis",
+    "text": "Hypothesis Testing in Bivariate Correlation Analysis\n\nBivariate correlation analysis involves hypothesis testing to determine if there is a significant correlation between the variables of interest.\nHypothesis testing determines the probability that the correlation coefficient calculated from the sample data is statistically significant, indicating that it is unlikely to have occurred by chance."
+  },
+  {
+    "objectID": "slides/lec-7.html#null-and-alternative-hypotheses",
+    "href": "slides/lec-7.html#null-and-alternative-hypotheses",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Null and Alternative Hypotheses",
+    "text": "Null and Alternative Hypotheses\n\nThe null hypothesis for a bivariate correlation analysis is that there is no significant correlation between the two variables.\nThe alternative hypothesis is that there is a significant correlation between the two variables.\nThe significance level, denoted by α, is the probability of rejecting the null hypothesis when it is true.\nFollow the example below when stating the null (𝐻0) and alternative (𝐻𝑎) hypotheses."
+  },
+  {
+    "objectID": "slides/lec-7.html#steps-to-conduct-hypothesis-testing",
+    "href": "slides/lec-7.html#steps-to-conduct-hypothesis-testing",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Steps to Conduct Hypothesis Testing",
+    "text": "Steps to Conduct Hypothesis Testing\n\nCalculate the correlation coefficient (r) using the sample data. Determine the degrees of freedom (df) equal to the sample size minus two (two variables).\nUse a table or statistical software to determine the critical value of r for the given significance level (i.e., alpha = 0.05) and degrees of freedom.\nCompare the calculated correlation coefficient to the critical value.\nIf the calculated correlation coefficient is greater than the critical value, reject the null hypothesis and conclude that there is a significant correlation between the two variables.\nIf the calculated correlation coefficient is less than the critical value, fail to reject the null hypothesis and conclude that there is no significant correlation between the two variables."
+  },
+  {
+    "objectID": "slides/lec-7.html#assumptions-and-interpretation",
+    "href": "slides/lec-7.html#assumptions-and-interpretation",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Assumptions and Interpretation",
+    "text": "Assumptions and Interpretation\n\nThe correlation of two interval (or ratio) variables assumes that the data meet the assumptions of normality and linearity.\nNormality refers to the assumption that the distribution of the variables being studied is approximately normal.\nLinearity is the assumption that the relationship between the two variables is linear.\nIf these assumptions are not met, it may be necessary to use non-parametric correlation coefficients or transform the data to meet these assumptions.\nInterpret the results of hypothesis testing in the context of the research question and consider other factors that may influence the relationship between the variables.\nControlling for confounding variables or conducting subgroup analyses to explore potential interactions may be necessary."
   }
 ]
