@@ -348,11 +348,6 @@ Dr.&nbsp;Ovande Furtado Jr
 </div>
 
 </section>
-<section>
-<section id="credits" class="title-slide slide level1 center">
-<h1>Credits</h1>
-<p>ss</p>
-</section>
 <section id="intro" class="slide level2">
 <h2>Intro</h2>
 <ul>
@@ -368,16 +363,27 @@ Dr.&nbsp;Ovande Furtado Jr
 <li>Correlation coefficients are denoted by different symbols depending on their type.</li>
 </ul>
 </section>
-<section id="properties-of-correlation-coefficient" class="slide level2">
+<section id="properties-of-correlation-coefficient" class="slide level2 smaller">
 <h2>Properties of Correlation Coefficient</h2>
 <ul>
 <li>Are symmetric, meaning that the order of the variables does not affect the value of the coefficient.</li>
-<li>Are affected by outliers</li>
+<li>Outliers are extreme values that can disproportionately influence the analysis results
+<ul>
+<li>Outliers should be carefully examined and, if necessary, removed from the analysis to ensure that they are not unduly influencing the results</li>
+</ul></li>
 <li>Are a unitless measure of association</li>
 <li>Not affected by changes in the units of measurement of the variables
 <ul>
 <li>Useful for comparing the strength of relationships between variables measured in different units</li>
 </ul></li>
+</ul>
+</section>
+<section id="properties-of-correlation-coefficient-cont" class="slide level2">
+<h2>Properties of Correlation Coefficient, cont</h2>
+<ul>
+<li>The correlation coefficient is always between -1 and +1</li>
+<li>Provides a standardized measure of association that can be easily interpreted</li>
+<li>Closer the correlation coefficient is to -1 or +1, stronger the relationship is between the variables</li>
 </ul>
 </section>
 <section id="criteria-for-interpretation" class="slide level2 smaller scrollable">
@@ -556,32 +562,6 @@ Dr.&nbsp;Ovande Furtado Jr
 </ul></li>
 </ul>
 </section>
-<section id="hypothesis-testing-in-correlation-analysis" class="slide level2">
-<h2>Hypothesis Testing in Correlation Analysis</h2>
-<ul>
-<li>Important aspect of correlation analysis as it allows researchers to determine whether the observed correlation coefficient is statistically significant.</li>
-<li>Hypothesis testing involves calculating a <code>test statistic</code> and comparing it to a <code>critical value</code> to determine whether to accept or reject the null hypothesis.</li>
-</ul>
-</section>
-<section id="unitless-measure-of-association" class="slide level2">
-<h2>Unitless measure of association</h2>
-</section>
-<section id="standardized-measure-of-association" class="slide level2">
-<h2>Standardized measure of association</h2>
-<ul>
-<li>The correlation coefficient is always between -1 and +1</li>
-<li>Provides a standardized measure of association that can be easily interpreted</li>
-<li>Closer the correlation coefficient is to -1 or +1, stronger the relationship is between the variables</li>
-</ul>
-</section>
-<section id="sensitive-to-outliers" class="slide level2">
-<h2>Sensitive to outliers</h2>
-<ul>
-<li>Outliers are extreme values that can disproportionately influence the analysis results</li>
-<li>Correlation coefficient is sensitive to outliers</li>
-<li>Outliers should be carefully examined and, if necessary, removed from the analysis to ensure that they are not unduly influencing the results</li>
-</ul>
-</section>
 <section id="scale-of-measurement-of-variables" class="slide level2">
 <h2>Scale of measurement of variables</h2>
 <ul>
@@ -598,14 +578,6 @@ Dr.&nbsp;Ovande Furtado Jr
 <li>Scatter plot can identify the presence and strength of a linear relationship between the two variables</li>
 </ul>
 </section>
-<section id="calculation-of-correlation-coefficient-from-scatter-plot" class="slide level2">
-<h2>Calculation of correlation coefficient from scatter plot</h2>
-<ul>
-<li>Correlation coefficient can also be calculated from the scatter plot</li>
-<li>The closer the points are to a straight line, the stronger the relationship between the two variables</li>
-<li>Positive slope indicates positive correlation, negative slope indicates negative correlation</li>
-</ul>
-</section>
 <section id="correlation-vs.-causation" class="slide level2">
 <h2>Correlation vs.&nbsp;Causation</h2>
 <ul>
@@ -613,28 +585,12 @@ Dr.&nbsp;Ovande Furtado Jr
 <li>Two variables may be correlated, but other factors may be influencing their relationship.</li>
 </ul>
 </section>
-<section id="strengths-of-bivariate-correlation" class="slide level2">
-<h2>Strengths of Bivariate Correlation</h2>
-<ul>
-<li>Straightforward method for examining the relationship between two variables.</li>
-<li>Provides a standardized measure of association that can be easily interpreted.</li>
-<li>Identifies potential relationships that may be important for further investigation.</li>
-</ul>
-</section>
 <section id="limitations-of-bivariate-correlation" class="slide level2">
 <h2>Limitations of Bivariate Correlation</h2>
 <ul>
 <li>Only examines the relationship between two variables and does not consider the influence of other variables.</li>
 <li>Does not provide information about causation.</li>
-<li>Assumes a linear relationship and normality, which may not always be appropriate.</li>
-</ul>
-</section>
-<section id="data-requirements-for-bivariate-correlation" class="slide level2">
-<h2>Data Requirements for Bivariate Correlation</h2>
-<ul>
-<li>Variables must be measured on a continuous scale.</li>
-<li>Data must be at least interval level.</li>
-<li>Data should be free of outliers and influential data points.</li>
+<li>Assumes a linear relationship and normality, which may not always be appropriate - there is fix</li>
 </ul>
 </section>
 <section id="steps-for-conducting-bivariate-correlation" class="slide level2">
@@ -664,8 +620,8 @@ Dr.&nbsp;Ovande Furtado Jr
 <li>Hypothesis testing determines the probability that the correlation coefficient calculated from the sample data is statistically significant, indicating that it is unlikely to have occurred by chance.</li>
 </ul>
 </section>
-<section id="null-and-alternative-hypotheses" class="slide level2">
-<h2>Null and Alternative Hypotheses</h2>
+<section id="null-alternative-hypotheses" class="slide level2">
+<h2>Null &amp; Alternative Hypotheses</h2>
 <ul>
 <li>The null hypothesis for a bivariate correlation analysis is that there is no significant correlation between the two variables.</li>
 <li>The alternative hypothesis is that there is a significant correlation between the two variables.</li>
@@ -673,7 +629,7 @@ Dr.&nbsp;Ovande Furtado Jr
 <li>Follow the example below when stating the null (𝐻0) and alternative (𝐻𝑎) hypotheses.</li>
 </ul>
 </section>
-<section id="stating-the-null-and-alternative-hypotheses" class="slide level2">
+<section id="stating-the-null-and-alternative-hypotheses" class="slide level2 smaller">
 <h2>Stating the Null and Alternative Hypotheses</h2>
 <p>H0: There is no linear correlation between the two variables, or the correlation coefficient is zero.</p>
 <p>H1: There is a linear correlation between the two variables, or the correlation coefficient is not zero.</p>
@@ -697,10 +653,29 @@ Dr.&nbsp;Ovande Furtado Jr
 <ul>
 <li>The correlation of two interval (or ratio) variables assumes that the data meet the assumptions of normality and linearity.</li>
 <li>Normality refers to the assumption that the distribution of the variables being studied is approximately normal.</li>
-<li>Linearity is the assumption that the relationship between the two variables is linear.</li>
+<li>Linearity is the assumption that the relationship between the two variables is linear.
+<ul>
 <li>If these assumptions are not met, it may be necessary to use non-parametric correlation coefficients or transform the data to meet these assumptions.</li>
+</ul></li>
 <li>Interpret the results of hypothesis testing in the context of the research question and consider other factors that may influence the relationship between the variables.</li>
-<li>Controlling for confounding variables or conducting subgroup analyses to explore potential interactions may be necessary.</li>
+<li>Controlling for confounding variables or conducting subgroup analyses to explore potential interactions may be necessary.
+<ul>
+<li><p>Partial correlation&nbsp;<strong>measures the strength of a relationship between two variables, while controlling for the effect of one or more other variables.</strong>&nbsp;</p></li>
+<li><p>For example, you might want to see if there is a&nbsp;correlation&nbsp;between amount of food eaten and blood pressure, while controlling for weight or amount of exercise.&nbsp;</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="correlation-and-jamovi" class="slide level2">
+<h2>Correlation and jamovi</h2>
+<ul>
+<li><p>esci module - Pearson correlation</p>
+<ul>
+<li>Data: lsj - Parenthood</li>
+</ul></li>
+<li><p>Correlation matrix (Pearson, Spearman, Kendall’s tau</p>
+<ul>
+<li>Data: lsj - Anscombe</li>
+</ul></li>
 </ul>
 </section>
 <section id="references" class="slide level2">
@@ -710,7 +685,7 @@ Dr.&nbsp;Ovande Furtado Jr
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://drfurtado.github.io/kin610/">https://drfurtado.github.io/kin610/</a></p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 

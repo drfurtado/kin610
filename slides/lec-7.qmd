@@ -24,10 +24,6 @@ execute:
 bibliography: references.bib
 ---
 
-# Credits
-
-ss
-
 ## Intro
 
 -   Bivariate correlation analysis is a statistical technique to measure the strength and direction of the linear relationship between two variables
@@ -39,13 +35,20 @@ ss
 -   `Correlation coefficients` range from -1 to +1 and provide a numerical value that summarizes the degree to which two variables are related.
 -   Correlation coefficients are denoted by different symbols depending on their type.
 
-## Properties of Correlation Coefficient
+## Properties of Correlation Coefficient {.smaller}
 
 -   Are symmetric, meaning that the order of the variables does not affect the value of the coefficient.
--   Are affected by outliers
+-   Outliers are extreme values that can disproportionately influence the analysis results
+    -   Outliers should be carefully examined and, if necessary, removed from the analysis to ensure that they are not unduly influencing the results
 -   Are a unitless measure of association
 -   Not affected by changes in the units of measurement of the variables
     -   Useful for comparing the strength of relationships between variables measured in different units
+
+## Properties of Correlation Coefficient, cont
+
+-   The correlation coefficient is always between -1 and +1
+-   Provides a standardized measure of association that can be easily interpreted
+-   Closer the correlation coefficient is to -1 or +1, stronger the relationship is between the variables
 
 ## Criteria for interpretation {.smaller .scrollable}
 
@@ -125,25 +128,6 @@ However, it's important to keep in mind that these are just guidelines, and the 
 
     -   can also be used to identify outliers and nonlinear relationships between variables.
 
-## Hypothesis Testing in Correlation Analysis
-
--   Important aspect of correlation analysis as it allows researchers to determine whether the observed correlation coefficient is statistically significant.
--   Hypothesis testing involves calculating a `test statistic` and comparing it to a `critical value` to determine whether to accept or reject the null hypothesis.
-
-## Unitless measure of association
-
-## Standardized measure of association
-
--   The correlation coefficient is always between -1 and +1
--   Provides a standardized measure of association that can be easily interpreted
--   Closer the correlation coefficient is to -1 or +1, stronger the relationship is between the variables
-
-## Sensitive to outliers
-
--   Outliers are extreme values that can disproportionately influence the analysis results
--   Correlation coefficient is sensitive to outliers
--   Outliers should be carefully examined and, if necessary, removed from the analysis to ensure that they are not unduly influencing the results
-
 ## Scale of measurement of variables
 
 -   Correlation coefficient is affected by the scale of measurement of the variables
@@ -156,34 +140,16 @@ However, it's important to keep in mind that these are just guidelines, and the 
 -   The horizontal axis represents one variable, and the vertical axis represents another variable
 -   Scatter plot can identify the presence and strength of a linear relationship between the two variables
 
-## Calculation of correlation coefficient from scatter plot
-
--   Correlation coefficient can also be calculated from the scatter plot
--   The closer the points are to a straight line, the stronger the relationship between the two variables
--   Positive slope indicates positive correlation, negative slope indicates negative correlation
-
 ## Correlation vs. Causation
 
 -   Correlation does not imply causation.
 -   Two variables may be correlated, but other factors may be influencing their relationship.
 
-## Strengths of Bivariate Correlation
-
--   Straightforward method for examining the relationship between two variables.
--   Provides a standardized measure of association that can be easily interpreted.
--   Identifies potential relationships that may be important for further investigation.
-
 ## Limitations of Bivariate Correlation
 
 -   Only examines the relationship between two variables and does not consider the influence of other variables.
 -   Does not provide information about causation.
--   Assumes a linear relationship and normality, which may not always be appropriate.
-
-## Data Requirements for Bivariate Correlation
-
--   Variables must be measured on a continuous scale.
--   Data must be at least interval level.
--   Data should be free of outliers and influential data points.
+-   Assumes a linear relationship and normality, which may not always be appropriate - there is fix
 
 ## Steps for Conducting Bivariate Correlation
 
@@ -206,14 +172,14 @@ However, it's important to keep in mind that these are just guidelines, and the 
 -   Bivariate correlation analysis involves hypothesis testing to determine if there is a significant correlation between the variables of interest.
 -   Hypothesis testing determines the probability that the correlation coefficient calculated from the sample data is statistically significant, indicating that it is unlikely to have occurred by chance.
 
-## Null and Alternative Hypotheses
+## Null & Alternative Hypotheses
 
 -   The null hypothesis for a bivariate correlation analysis is that there is no significant correlation between the two variables.
 -   The alternative hypothesis is that there is a significant correlation between the two variables.
 -   The significance level, denoted by α, is the probability of rejecting the null hypothesis when it is true.
 -   Follow the example below when stating the null (𝐻0) and alternative (𝐻𝑎) hypotheses.
 
-## Stating the Null and Alternative Hypotheses
+## Stating the Null and Alternative Hypotheses {.smaller}
 
 H0: There is no linear correlation between the two variables, or the correlation coefficient is zero.
 
@@ -240,8 +206,21 @@ H1: 𝜌 ≠ 0
 -   The correlation of two interval (or ratio) variables assumes that the data meet the assumptions of normality and linearity.
 -   Normality refers to the assumption that the distribution of the variables being studied is approximately normal.
 -   Linearity is the assumption that the relationship between the two variables is linear.
--   If these assumptions are not met, it may be necessary to use non-parametric correlation coefficients or transform the data to meet these assumptions.
+    -   If these assumptions are not met, it may be necessary to use non-parametric correlation coefficients or transform the data to meet these assumptions.
 -   Interpret the results of hypothesis testing in the context of the research question and consider other factors that may influence the relationship between the variables.
 -   Controlling for confounding variables or conducting subgroup analyses to explore potential interactions may be necessary.
+    -   Partial correlation **measures the strength of a relationship between two variables, while controlling for the effect of one or more other variables.** 
+
+    -   For example, you might want to see if there is a correlation between amount of food eaten and blood pressure, while controlling for weight or amount of exercise. 
+
+## Correlation and jamovi
+
+-   esci module - Pearson correlation
+
+    -   Data: lsj - Parenthood
+
+-   Correlation matrix (Pearson, Spearman, Kendall's tau
+
+    -   Data: lsj - Anscombe
 
 ## References

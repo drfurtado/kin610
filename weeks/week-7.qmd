@@ -44,7 +44,7 @@ Simple Linear Regression (`moved to Week 8`)
 
 ## Participate
 
-Coming soon
+[Lecture Slides](../slides/lec-7.qmd)
 
 ## Practice
 
