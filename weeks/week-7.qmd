@@ -18,7 +18,8 @@ editor: visual
 ---
 
 ::: callout-important
--   We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.
+-   ~~We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.~~
+    -   Online (refer to email for Zoom link)
 -   Deadlines
     -   Quiz
     -   Takeaways
@@ -34,20 +35,16 @@ I will post an announcement on Canvas when there are changes to this page.
 
 Correlation
 
--   Read Furtado (coming soon)
+-   Read
 -   Read [@navarro2022, chap. 12.1-12.2]
 -   Read the supplementary material on [Correlation Coefficient](https://drfurtado.github.io/kin610/supplemental/stats-tests.html#pearson-correlation-coefficient)
 -   Test your knowledge [here](https://drfurtado.shinyapps.io/Practice-Questions/#section-practice-questions---bivariate-correlation)
 
-Simple Linear Regression
-
--   Read Furtado (coming soon)
--   Read [@navarro2022, chap. 12.3-12.4]
--   Test your knowledge here (coming soon)
+Simple Linear Regression (`moved to Week 8`)
 
 ## Participate
 
-Coming soon
+[Lecture Slides](../slides/lec-7.qmd)
 
 ## Practice
 

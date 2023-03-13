@@ -1,6 +1,6 @@
 ---
 title: "Week 8"
-subtitle: "Multiple Correlation and Multiple Regression"
+subtitle: "Simple & Multiple Regression Analysis"
 format: 
   html:
     toc: true
@@ -32,7 +32,11 @@ I will post an announcement on Canvas when there are changes to this page.
 
 ## Prepare
 
-Coming soon
+Simple Linear Regression
+
+-   Read Furtado (coming soon)
+-   Read [@navarro2022, chap. 12.3-12.4]
+-   Test your knowledge here (coming soon)
 
 ## Participate
 
