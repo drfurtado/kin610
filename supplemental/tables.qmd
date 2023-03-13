@@ -5,7 +5,7 @@ title: "Statistical Tables"
 ::: panel-tabset
 ## Tables
 
-asasas
+The field of statistics relies heavily on mathematical formulas and calculations to make sense of data. Statistical tables, such as the z-table, t-table, f-table, and Pearson table, are essential tools for statisticians and researchers. These tables provide critical values for different probability distributions, enabling users to perform statistical tests, calculate confidence intervals, and make informed decisions based on data analysis.
 
 ## z-table
 
@@ -61,57 +61,5 @@ crit_vals
 
 ```
 
-asasas
 :::
 
-# The correlation table
-
-# The $z$ table
-
-```{r}
-# Set up a vector of z-scores
-z <- seq(-3.4, 3.4, 0.1)
-
-# Calculate the corresponding probabilities using pnorm()
-prob <- round(pnorm(z), 4)
-
-# Combine the z-scores and probabilities into a data frame
-table <- data.frame(z, prob)
-
-# Print the table
-print(table)
-
-
-```
-
-The z-table is a statistical table that shows the values of the standard normal distribution. The standard normal distribution is a normal distribution with a mean of 0 and a standard deviation of 1.
-
-```{r, echo=FALSE}
-#create a vector of z values
-z_values <- seq(-3, 3, by = 0.1)
-
-#calculate the area in percent for each z value using the pnorm function
-area_percent <- pnorm(z_values, lower.tail = TRUE)
-
-#create a data frame with the z values and area in percent
-z_table <- data.frame(z_value = z_values, area_percent = area_percent)
-
-#view the z table
-z_table
-```
-
-```{r}
-library(stats)
-
-f_table <- data.frame(df1=rep(1:30, each=30), df2=rep(1:30, 30), 
-                      p=qf(seq(0.01, 0.99, 0.01), df1=rep(1:30, each=30), df2=rep(1:30, 30)))
-
-print(f_table)
-
-```
-
-```{r}
-x <- seq(-3, 3, 0.01)
-curve(dnorm(x, mean=0, sd=1), from=-3, to=3, xlab="x", ylab="Probability Density")
-
-```

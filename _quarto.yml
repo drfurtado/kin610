@@ -94,6 +94,8 @@ website:
         contents:
           - href: supplemental/stats-tests.qmd
             text: Statistical Tests
+          - href: supplemental/tables.qmd
+            text: Statistical Tables
 
 format:
   html:
