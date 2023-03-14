@@ -77,7 +77,7 @@ However, it's important to keep in mind that these are just guidelines, and the 
 ## Comparison table {.smaller .scrollable}
 
 | **Correlation Coefficient** | **Symbol**       | Scales                                                                   |
-|-----------------|-----------------|---------------------------------------|
+|-----------------------------|------------------|--------------------------------------------------------------------------|
 | Pearson                     | $r$              | Both scales interval (or ratio)                                          |
 | Spearman                    | $\rho$ (rho)     | Both scales ordinal                                                      |
 | Kendall                     | $\tau$ (tau)     | Both scales ordinal                                                      |
@@ -124,7 +124,7 @@ However, it's important to keep in mind that these are just guidelines, and the 
 
 -   Graphical representation of correlation can provide valuable insights into the relationship between two variables.
 -   Scatterplots
-    -    are a common method of graphical representation of correlation.
+    -   are a common method of graphical representation of correlation.
 
     -   can also be used to identify outliers and nonlinear relationships between variables.
 

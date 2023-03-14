@@ -1,0 +1,71 @@
+---
+title: "Week 7: Bivariate Correlation"
+subtitle: |
+           KIN 610 - Spring 2023
+author: "Dr. Ovande Furtado Jr"
+footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
+logo: "images/logo.png"
+format: 
+  revealjs: 
+    theme: slides.scss
+    navigation-mode: vertical
+    multiplex: true
+    incremental: false
+    transition: fade
+    slide-number: true
+    controls: true
+    controls-tutorial: true
+    controls-layout: edges
+    chalkboard: true
+    link-external-newwindow: true
+editor: visual
+execute:
+  freeze: auto
+bibliography: references.bib
+---
+
+## Linear Regression Models
+
+-   A way of measuring the relationship between two variables
+
+-   Similar to Pearson correlation, but more powerful
+
+-   Can be used to predict one variable from another
+
+## Example: Parenthood Data Set {.smaller}
+
+::: columns
+::: {.column width="50%"}
+-   Bullet points:
+
+    -   Data set contains measures of sleep and grumpiness for Dani
+
+    -   Hypothesis: less sleep leads to more grumpiness
+
+    -   Scatterplot shows a strong negative correlation (r = -.90)
+:::
+
+::: {.column width="50%"}
+![](images/image-1930564630.png)
+:::
+:::
+
+## Regression Line
+
+-   A straight line that best fits the data
+-   Represents the average relationship between the variables
+-   Can be used to estimate grumpiness from sleep
+
+Slide 4:
+
+-   Title: How to Draw a Regression Line?
+
+-   Bullet points:
+
+    -   The line should go through the middle of the data
+
+    -   The line should minimize the vertical distances between the data points and the line
+
+    -   The line should have a slope and an intercept that can be calculated from the data
+
+## References

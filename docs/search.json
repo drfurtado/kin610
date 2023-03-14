@@ -2427,5 +2427,26 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
+  },
+  {
+    "objectID": "slides/lec-8.html#linear-regression-models",
+    "href": "slides/lec-8.html#linear-regression-models",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Linear Regression Models",
+    "text": "Linear Regression Models\n\nA way of measuring the relationship between two variables\nSimilar to Pearson correlation, but more powerful\nCan be used to predict one variable from another"
+  },
+  {
+    "objectID": "slides/lec-8.html#example-parenthood-data-set",
+    "href": "slides/lec-8.html#example-parenthood-data-set",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "Example: Parenthood Data Set",
+    "text": "Example: Parenthood Data Set\n\n\n\nBullet points:\n\nData set contains measures of sleep and grumpiness for Dani\nHypothesis: less sleep leads to more grumpiness\nScatterplot shows a strong negative correlation (r = -.90)\n\n\n\n\n\n\nSlide 3:\n\nTitle: Regression Line\nBullet points:\n\nA straight line that best fits the data\nRepresents the average relationship between the variables\nCan be used to estimate grumpiness from sleep\n\nImage: Figure 12.11 (a) from the text\n\nSlide 4:\n\nTitle: How to Draw a Regression Line?\nBullet points:\n\nThe line should go through the middle of the data\nThe line should minimize the vertical distances between the data points and the line\nThe line should have a slope and an intercept that can be calculated from the data"
+  },
+  {
+    "objectID": "slides/lec-8.html#references",
+    "href": "slides/lec-8.html#references",
+    "title": "Week 7: Bivariate Correlation",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/"
   }
 ]
