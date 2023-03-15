@@ -1,5 +1,5 @@
 ---
-title: "Week 7: Bivariate Correlation"
+title: "Week 8: Regression Analysis "
 subtitle: |
            KIN 610 - Spring 2023
 author: "Dr. Ovande Furtado Jr"
@@ -24,13 +24,15 @@ execute:
 bibliography: references.bib
 ---
 
+# Simple Linear Regression
+
 ## Linear Regression Models
 
 -   A way of measuring the relationship between two variables
 
 -   Similar to Pearson correlation, but more powerful
 
--   Can be used to predict one variable from another
+-   Can be used to predict one variable from another ( $y$ \<\-- $x$ )
 
 ## Example: Parenthood Data Set {.smaller}
 
@@ -56,16 +58,396 @@ bibliography: references.bib
 -   Represents the average relationship between the variables
 -   Can be used to estimate grumpiness from sleep
 
-Slide 4:
+## How to Draw a Regression Line?
 
--   Title: How to Draw a Regression Line?
+-   The line should go through the middle of the data
 
--   Bullet points:
+-   The line should minimize the vertical distances between the data points and the line
 
-    -   The line should go through the middle of the data
+-   The line should have a slope and an intercept that can be calculated from the data
 
-    -   The line should minimize the vertical distances between the data points and the line
+## The formula for a straight line
 
-    -   The line should have a slope and an intercept that can be calculated from the data
+-   Usually written like this: y = a + bx
+
+-   Two variables: x and y
+
+-   Two coefficients: a and b
+
+-   Coefficient a represents the y-intercept of the line
+
+-   Coefficient b represents the slope of the line
+
+## The interpretation of intercept and slope
+
+-   Intercept: the value of $y$ that you get when $x$ = 0
+
+-   Slope: the change in $y$ that you get when you increase $x$ by 1 unit
+
+-   Positive slope: $y$ goes up as $x$ goes up
+
+-   Negative slope: $y$ goes down as $x$ goes up
+
+## The formula for a regression line
+
+-   Same as the formula for a straight line, but with some extra notation
+
+-   Written like this: $\hat{y}_i = b_0 + b_1 x_i$
+
+-   $\hat{y}\_i$: the predicted value of the outcome variable ($y$) for observation $i$
+
+-   ${y}_i$: the actual value of the outcome variable ($y$) for observation $i$
+
+-   ${x}_i$: the value of the predictor variable ($x$) for observation $i$
+
+-   ${b}_0$: the estimated intercept of the regression line
+
+-   ${b}_1$: the estimated slope of the regression line
+
+## The assumptions of the regression model
+
+-   We assume that the formula \\hat{y}\_i = b_0 + b_1 x_i works for all observations in the data set (i.e., for all i)
+
+-   We distinguish between the actual data {y}\_i and the estimate \\hat{y}\_i (i.e., the prediction that our regression line is making)
+
+-   We use b_0 and b_1 to refer to the coefficients of the regression model
+
+    -   b_0: the estimated intercept of the regression line
+
+    -   b_1: the estimated slope of the regression line
+
+## The residuals of the regression model
+
+-   The data do not fall perfectly on the regression line
+
+-   The difference between the model prediction and that actual data point is called a residual, and we refer to it as {e}\_i
+
+-   Mathematically, the residuals are defined as {e}\_i = {y}\_i - \\hat{y}\_i
+
+-   The residuals measure how well the regression line fits the data
+
+    -   Smaller residuals: better fit
+
+    -   Larger residuals: worse fit
+
+## Estimating a linear regression model
+
+-   We want to find the regression line that fits the data best
+
+-   We can measure how well the regression line fits the data by looking at the residuals
+
+-   The residuals are the differences between the actual data and the model predictions
+
+-   Smaller residuals mean better fit, larger residuals mean worse fit
+
+## The method of least squares
+
+-   We can find the best fitting regression line by minimizing the sum of the squared residuals
+
+-   This is called the method of least squares
+
+-   Mathematically, we want to find \\hat{b}\_0 and \\hat{b}\_1 that minimize \\sum_i (Y_i - \\hat{Y}\_i)\^2 or \\sum_i \\epsilon_i\^2
+
+-   There are formulas to calculate \\hat{b}\_0 and \\hat{b}\_1 from the data
+
+## Ordinary least squares regression
+
+-   We use the method of least squares to estimate the regression coefficients
+
+-   The regression coefficients are estimates of the population parameters
+
+-   We use $\hat{b}_0$ and $\hat{b}_1$ to denote the estimated coefficients
+
+-   Ordinary least squares (OLS) regression is the most common way to estimate a linear regression model
+
+## How to find the estimated coefficients
+
+-   There are formulas to calculate $\hat{b}_0$ and $\hat{b}_1$ from the data
+
+-   The formulas involve some algebra and calculus that are not essential to understand the logic of regression
+
+-   We can use jamovi to do all the calculations for us
+
+-   jamovi will also provide other useful information about the regression model
+
+## Linear regression in jamovi
+
+-   We can use jamovi to estimate a linear regression model from the data
+
+-   We need to specify the dependent variable and the covariate(s) in the analysis
+
+-   jamovi will output the estimated coefficients and other statistics
+
+## Example: Parenthood data
+
+-   Data file: parenthood.csv
+
+-   Dependent variable: dani.grump (Dani's grumpiness)
+
+-   Covariate: dani.sleep (Dani's hours of sleep)
+
+-   Estimated intercept: \\hat{b}\_0 = 125.96
+
+-   Estimated slope: \\hat{b}\_1 = -8.94
+
+-   Regression equation: \\hat{Y}\_i=125.96+(-8.94 X_i)
+
+## Interpreting the estimated model
+
+-   We need to understand what the estimated coefficients mean
+
+-   The slope \\hat{b}\_1 tells us how much the dependent variable changes when the covariate increases by one unit
+
+-   The intercept \\hat{b}\_0 tells us what the expected value of the dependent variable is when the covariate is zero
+
+## Example: Parenthood data
+
+-   Dependent variable: `dani.grump` (Dani's grumpiness)
+
+-   Covariate: `dani.sleep` (Dani's hours of sleep)
+
+-   Estimated slope: $\hat{b}_1$ = -8.94
+
+    -   Interpretation: Each additional hour of sleep reduces grumpiness by `8.94` points
+
+-   Estimated intercept: $\hat{b}_0$ = 125.96
+
+    -   Interpretation: If Dani gets zero hours of sleep, her grumpiness will be `125.96` points
+
+# Multiple Regression
+
+## Introduction
+
+-   We can use more than one predictor variable to explain the variation in the outcome variable
+
+-   We can add more terms to our regression equation to represent each predictor variable
+
+-   Each term has a coefficient that indicates how much the outcome variable changes when that predictor variable increases by one unit
+
+## Example: Parenthood data
+
+-   Outcome variable: `dani.grump` (Dani's grumpiness)
+
+-   Predictor variables: `dani.sleep` (Dani's hours of sleep) and `baby.sleep` (Baby's hours of sleep)
+
+-   Regression equation: $Y_i=b_0+b_1X_{i1}+b_2X_{i2}+\epsilon_i$
+
+    -   $Y_i$: Dani's grumpiness on day $i$
+
+    -   $X_{i1}$: Dani's hours of sleep on day $i$
+
+    -   $X_{i2}$: Baby's hours of sleep on day $i$
+
+    -   $b_0$: Intercept
+
+    -   $b_1$: Coefficient for Dani's sleep
+
+    -   $b_2$: Coefficient for Baby's sleep
+
+    -   $\epsilon_i$: Error term on day $i$
+
+## Estimating the coefficients in multiple regression
+
+-   We want to find the coefficients that minimise the sum of squared residuals
+
+-   Residuals are the differences between the observed and predicted values of the outcome variable
+
+-   We use a similar method as in simple regression, but with more terms in the equation
+
+## Doing it in jamovi
+
+-   jamovi can estimate multiple regression models easily
+
+-   We just need to add more variables to the 'Covariates' box in the analysis
+
+-   jamovi will output the estimated coefficients and other statistics for each predictor variable
+
+-   Example: The Table shows the coefficients for dani.sleep and baby.sleep as predictors of dani.grump
+
+## Interpreting the coefficients in multiple regression
+
+-   The coefficients tell us how much the outcome variable changes when one predictor variable increases by one unit, holding the other predictor variables constant
+
+-   The larger the absolute value of the coefficient, the stronger the effect of that predictor variable on the outcome variable
+
+-   The sign of the coefficient indicates whether the effect is positive or negative
+
+## Example: Parenthood data
+
+-   Coefficient for dani.sleep: -8.94
+
+    -   Interpretation: Each additional hour of sleep reduces Dani's grumpiness by 8.94 points, regardless of how much sleep the baby gets
+
+-   Coefficient for baby.sleep: 0.07
+
+    -   Interpretation: Each additional hour of sleep for the baby increases Dani's grumpiness by 0.07 points, regardless of how much sleep Dani gets
+
+-   Figure 12.14 shows a 3D plot of the data and the regression model
+
+## Quantifying the fit of the regression model
+
+-   We want to know how well our regression model predicts the outcome variable
+
+-   We can compare the predicted values (\$\\hat{Y}\_i\$) to the observed values (\$Y_i\$) using two sums of squares
+
+    -   Residual sum of squares (\$SS\_{res}\$): measures how much error there is in our predictions
+
+    -   Total sum of squares (\$SS\_{tot}\$): measures how much variability there is in the outcome variable
+
+## The $R^2$ value
+
+-   The $R^2$ value is a proportion that tells us how much of the variability in the outcome variable is explained by our regression model
+
+-   It is calculated as:
+
+$$R^2=1-\frac{SS_{res}}{SS_{tot}}$$
+
+-   It ranges from 0 to 1, with higher values indicating better fit
+
+-   It can be interpreted as the percentage of variance explained by our regression model
+
+## The relationship between regression and correlation
+
+-   Regression and correlation are both ways of measuring the strength and direction of a linear relationship between two variables
+
+-   For a simple regression model with one predictor variable, the $R^2$ value is equal to the square of the Pearson correlation coefficient ($r^2$)
+
+-   Running a Pearson correlation is equivalent to running a simple linear regression model
+
+## The adjusted $R^2$ value
+
+-   The adjusted $R^2$ value is a modified version of the $R^2$ value that takes into account the number of predictors in the model
+
+-   It penalizes adding more predictors that do not improve the model performance significantly
+
+-   It can be used to compare different regression models with different numbers of predictors
+
+-   It does not have a simple interpretation as the proportion of variance explained by the model
+
+## The adjusted $R^2$ value (cont.)
+
+-   The adjusted \$R\^2\$ value adjusts for the degrees of freedom in the model
+
+-   It increases only if adding a predictor improves the model more than expected by chance
+
+-   It does not have a clear interpretation as the proportion of variance explained by the model
+
+## Which one to report: $R^2$ or adjusted $R^2$?
+
+-   There is no definitive answer to this question
+
+-   It depends on your preference and your research question
+
+-   Some factors to consider are:
+
+    -   Interpretability: $R^2$ is easier to understand and explain
+
+    -   Bias correction: Adjusted $R^2$ is less likely to overestimate the model performance
+
+    -   Hypothesis testing: There are other ways to test if adding a predictor improves the model significantly
+
+# Hypothesis tests for regression models
+
+-   We can use hypothesis tests to evaluate the significance of our regression model and its coefficients
+
+-   There are two types of hypothesis tests for regression models:
+
+    -   Testing the model as a whole: Is there any relationship between the predictors and the outcome?
+
+    -   Testing a specific coefficient: Is a particular predictor significantly related to the outcome?
+
+# Testing the model as a whole
+
+-   The null hypothesis is that there is no relationship between the predictors and the outcome
+
+-   The alternative hypothesis is that the data follow the regression model
+
+-   We can use an F-test to compare our regression model to a null model that only has an intercept
+
+-   The F-test statistic is calculated as:
+
+$$F=\frac{(R2/K)}{(1-R2)/(N-K-1)}$$
+
+-   where $R^2$ is the proportion of variance explained by our model, $K$ is the number of predictors, and $N$ is the number of observations
+
+-   The F-test statistic follows an F-distribution with $K$ and $N-K-1$ degrees of freedom
+
+-   We can use a p-value to determine if our F-test statistic is significant
+
+## Tests for Individual Coefficients
+
+-   The F-test checks if the model as a whole is performing better than chance
+
+-   If the F-test is not significant, then the regression model may not be good
+
+-   However, passing the F-test does not imply that the model is good
+
+## Example of Multiple Linear Regression Model
+
+-   The estimated regression coefficient for baby.sleep variable is small compared to dani.sleep variable
+
+-   Both variables are measured in "hours slept"
+
+-   This suggests that only the amount of sleep matters in predicting grumpiness
+
+## Hypothesis Testing with t-test
+
+-   The t-test can be used to test if the true regression coefficient is zero
+
+-   Null hypothesis: \$b = 0\$
+
+-   Alternative hypothesis: \$b \\neq 0\$
+
+based on the selected text:
+
+## **Testing the Central Limit Theorem**
+
+-   The sampling distribution of the estimated regression coefficient is a normal distribution with mean centered on b
+
+-   If the null hypothesis is true, then the sampling distribution of \$\\hat{b}\$ has mean zero and unknown standard deviation
+
+-   A good estimate for the standard error of the regression coefficient can be used to define a t-statistic
+
+-   The degrees of freedom in this case are \$df = N - K - 1\$
+
+-   The standard error of the estimated regression coefficient depends on both predictor and outcome variables and is sensitive to violations of homogeneity of variance assumption
+
+## Running Hypothesis Tests in Jamovi
+
+-   To compute statistics, check relevant options and run regression in jamovi
+
+-   See result in the next slide
+
+## Output
+
+![](images/image-65477197.png)
+
+## Model Coefficients
+
+-   Located at bottom of jamovi analysis results
+
+-   Each row refers to one coefficient in regression model
+
+-   First row is intercept term; later rows look at each predictor
+
+## Coefficient Information
+
+-   First column: estimate of b
+
+-   Second column: standard error estimate
+
+-   Third and fourth columns: lower and upper values for 95% confidence interval around b estimate
+
+-   Fifth column: t-statistic (t = b / se(b))
+
+-   Last column: p-value for each test
+
+## Degrees of Freedom
+
+-   Not listed in coefficients table itself
+
+-   Always N - K - 1
+
+-   Listed in table at top of output
 
 ## References

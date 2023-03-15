@@ -2431,22 +2431,274 @@
   {
     "objectID": "slides/lec-8.html#linear-regression-models",
     "href": "slides/lec-8.html#linear-regression-models",
-    "title": "Week 7: Bivariate Correlation",
+    "title": "Week 8: Regression Analysis",
     "section": "Linear Regression Models",
-    "text": "Linear Regression Models\n\nA way of measuring the relationship between two variables\nSimilar to Pearson correlation, but more powerful\nCan be used to predict one variable from another"
+    "text": "Linear Regression Models\n\nA way of measuring the relationship between two variables\nSimilar to Pearson correlation, but more powerful\nCan be used to predict one variable from another ( \\(y\\) &lt;-- \\(x\\) )"
   },
   {
     "objectID": "slides/lec-8.html#example-parenthood-data-set",
     "href": "slides/lec-8.html#example-parenthood-data-set",
-    "title": "Week 7: Bivariate Correlation",
+    "title": "Week 8: Regression Analysis",
     "section": "Example: Parenthood Data Set",
-    "text": "Example: Parenthood Data Set\n\n\n\nBullet points:\n\nData set contains measures of sleep and grumpiness for Dani\nHypothesis: less sleep leads to more grumpiness\nScatterplot shows a strong negative correlation (r = -.90)\n\n\n\n\n\n\nSlide 3:\n\nTitle: Regression Line\nBullet points:\n\nA straight line that best fits the data\nRepresents the average relationship between the variables\nCan be used to estimate grumpiness from sleep\n\nImage: Figure 12.11 (a) from the text\n\nSlide 4:\n\nTitle: How to Draw a Regression Line?\nBullet points:\n\nThe line should go through the middle of the data\nThe line should minimize the vertical distances between the data points and the line\nThe line should have a slope and an intercept that can be calculated from the data"
+    "text": "Example: Parenthood Data Set\n\n\n\nBullet points:\n\nData set contains measures of sleep and grumpiness for Dani\nHypothesis: less sleep leads to more grumpiness\nScatterplot shows a strong negative correlation (r = -.90)"
   },
   {
     "objectID": "slides/lec-8.html#references",
     "href": "slides/lec-8.html#references",
-    "title": "Week 7: Bivariate Correlation",
+    "title": "Week 8: Regression Analysis",
     "section": "References",
     "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/"
+  },
+  {
+    "objectID": "slides/lec-8.html#regression-line",
+    "href": "slides/lec-8.html#regression-line",
+    "title": "Week 8: Regression Analysis",
+    "section": "Regression Line",
+    "text": "Regression Line\n\nA straight line that best fits the data\nRepresents the average relationship between the variables\nCan be used to estimate grumpiness from sleep"
+  },
+  {
+    "objectID": "slides/lec-8.html#how-to-draw-a-regression-line",
+    "href": "slides/lec-8.html#how-to-draw-a-regression-line",
+    "title": "Week 8: Regression Analysis",
+    "section": "How to Draw a Regression Line?",
+    "text": "How to Draw a Regression Line?\n\nThe line should go through the middle of the data\nThe line should minimize the vertical distances between the data points and the line\nThe line should have a slope and an intercept that can be calculated from the data"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-formula-for-a-straight-line",
+    "href": "slides/lec-8.html#the-formula-for-a-straight-line",
+    "title": "Week 8: Regression Analysis",
+    "section": "The formula for a straight line",
+    "text": "The formula for a straight line\n\nUsually written like this: y = a + bx\nTwo variables: x and y\nTwo coefficients: a and b\nCoefficient a represents the y-intercept of the line\nCoefficient b represents the slope of the line"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-interpretation-of-intercept-and-slope",
+    "href": "slides/lec-8.html#the-interpretation-of-intercept-and-slope",
+    "title": "Week 8: Regression Analysis",
+    "section": "The interpretation of intercept and slope",
+    "text": "The interpretation of intercept and slope\n\nIntercept: the value of \\(y\\) that you get when \\(x\\) = 0\nSlope: the change in \\(y\\) that you get when you increase \\(x\\) by 1 unit\nPositive slope: \\(y\\) goes up as \\(x\\) goes up\nNegative slope: \\(y\\) goes down as \\(x\\) goes up"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-formula-for-a-regression-line",
+    "href": "slides/lec-8.html#the-formula-for-a-regression-line",
+    "title": "Week 8: Regression Analysis",
+    "section": "The formula for a regression line",
+    "text": "The formula for a regression line\n\nSame as the formula for a straight line, but with some extra notation\nWritten like this: \\(\\hat{y}_i = b_0 + b_1 x_i\\)\n\\(\\hat{y}\\_i\\): the predicted value of the outcome variable (\\(y\\)) for observation \\(i\\)\n\\({y}_i\\): the actual value of the outcome variable (\\(y\\)) for observation \\(i\\)\n\\({x}_i\\): the value of the predictor variable (\\(x\\)) for observation \\(i\\)\n\\({b}_0\\): the estimated intercept of the regression line\n\\({b}_1\\): the estimated slope of the regression line"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-assumptions-of-the-regression-model",
+    "href": "slides/lec-8.html#the-assumptions-of-the-regression-model",
+    "title": "Week 8: Regression Analysis",
+    "section": "The assumptions of the regression model",
+    "text": "The assumptions of the regression model\n\nWe assume that the formula \\hat{y}_i = b_0 + b_1 x_i works for all observations in the data set (i.e., for all i)\nWe distinguish between the actual data {y}_i and the estimate \\hat{y}_i (i.e., the prediction that our regression line is making)\nWe use b_0 and b_1 to refer to the coefficients of the regression model\n\nb_0: the estimated intercept of the regression line\nb_1: the estimated slope of the regression line"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-residuals-of-the-regression-model",
+    "href": "slides/lec-8.html#the-residuals-of-the-regression-model",
+    "title": "Week 8: Regression Analysis",
+    "section": "The residuals of the regression model",
+    "text": "The residuals of the regression model\n\nThe data do not fall perfectly on the regression line\nThe difference between the model prediction and that actual data point is called a residual, and we refer to it as {e}_i\nMathematically, the residuals are defined as {e}_i = {y}_i - \\hat{y}_i\nThe residuals measure how well the regression line fits the data\n\nSmaller residuals: better fit\nLarger residuals: worse fit"
+  },
+  {
+    "objectID": "slides/lec-8.html#estimating-a-linear-regression-model",
+    "href": "slides/lec-8.html#estimating-a-linear-regression-model",
+    "title": "Week 8: Regression Analysis",
+    "section": "Estimating a linear regression model",
+    "text": "Estimating a linear regression model\n\nWe want to find the regression line that fits the data best\nWe can measure how well the regression line fits the data by looking at the residuals\nThe residuals are the differences between the actual data and the model predictions\nSmaller residuals mean better fit, larger residuals mean worse fit"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-method-of-least-squares",
+    "href": "slides/lec-8.html#the-method-of-least-squares",
+    "title": "Week 8: Regression Analysis",
+    "section": "The method of least squares",
+    "text": "The method of least squares\n\nWe can find the best fitting regression line by minimizing the sum of the squared residuals\nThis is called the method of least squares\nMathematically, we want to find \\hat{b}_0 and \\hat{b}_1 that minimize \\sum_i (Y_i - \\hat{Y}_i)^2 or \\sum_i \\epsilon_i^2\nThere are formulas to calculate \\hat{b}_0 and \\hat{b}_1 from the data"
+  },
+  {
+    "objectID": "slides/lec-8.html#ordinary-least-squares-regression",
+    "href": "slides/lec-8.html#ordinary-least-squares-regression",
+    "title": "Week 8: Regression Analysis",
+    "section": "Ordinary least squares regression",
+    "text": "Ordinary least squares regression\n\nWe use the method of least squares to estimate the regression coefficients\nThe regression coefficients are estimates of the population parameters\nWe use \\(\\hat{b}_0\\) and \\(\\hat{b}_1\\) to denote the estimated coefficients\nOrdinary least squares (OLS) regression is the most common way to estimate a linear regression model"
+  },
+  {
+    "objectID": "slides/lec-8.html#how-to-find-the-estimated-coefficients",
+    "href": "slides/lec-8.html#how-to-find-the-estimated-coefficients",
+    "title": "Week 8: Regression Analysis",
+    "section": "How to find the estimated coefficients",
+    "text": "How to find the estimated coefficients\n\nThere are formulas to calculate \\(\\hat{b}_0\\) and \\(\\hat{b}_1\\) from the data\nThe formulas involve some algebra and calculus that are not essential to understand the logic of regression\nWe can use jamovi to do all the calculations for us\njamovi will also provide other useful information about the regression model"
+  },
+  {
+    "objectID": "slides/lec-8.html#linear-regression-in-jamovi",
+    "href": "slides/lec-8.html#linear-regression-in-jamovi",
+    "title": "Week 8: Regression Analysis",
+    "section": "Linear regression in jamovi",
+    "text": "Linear regression in jamovi\n\nWe can use jamovi to estimate a linear regression model from the data\nWe need to specify the dependent variable and the covariate(s) in the analysis\njamovi will output the estimated coefficients and other statistics"
+  },
+  {
+    "objectID": "slides/lec-8.html#example-parenthood-data",
+    "href": "slides/lec-8.html#example-parenthood-data",
+    "title": "Week 8: Regression Analysis",
+    "section": "Example: Parenthood data",
+    "text": "Example: Parenthood data\n\nData file: parenthood.csv\nDependent variable: dani.grump (Dani’s grumpiness)\nCovariate: dani.sleep (Dani’s hours of sleep)\nEstimated intercept: \\hat{b}_0 = 125.96\nEstimated slope: \\hat{b}_1 = -8.94\nRegression equation: \\hat{Y}_i=125.96+(-8.94 X_i)"
+  },
+  {
+    "objectID": "slides/lec-8.html#interpreting-the-estimated-model",
+    "href": "slides/lec-8.html#interpreting-the-estimated-model",
+    "title": "Week 8: Regression Analysis",
+    "section": "Interpreting the estimated model",
+    "text": "Interpreting the estimated model\n\nWe need to understand what the estimated coefficients mean\nThe slope \\hat{b}_1 tells us how much the dependent variable changes when the covariate increases by one unit\nThe intercept \\hat{b}_0 tells us what the expected value of the dependent variable is when the covariate is zero"
+  },
+  {
+    "objectID": "slides/lec-8.html#example-parenthood-data-1",
+    "href": "slides/lec-8.html#example-parenthood-data-1",
+    "title": "Week 8: Regression Analysis",
+    "section": "Example: Parenthood data",
+    "text": "Example: Parenthood data\n\nDependent variable: dani.grump (Dani’s grumpiness)\nCovariate: dani.sleep (Dani’s hours of sleep)\nEstimated slope: \\(\\hat{b}_1\\) = -8.94\n\nInterpretation: Each additional hour of sleep reduces grumpiness by 8.94 points\n\nEstimated intercept: \\(\\hat{b}_0\\) = 125.96\n\nInterpretation: If Dani gets zero hours of sleep, her grumpiness will be 125.96 points"
+  },
+  {
+    "objectID": "slides/lec-8.html#introduction",
+    "href": "slides/lec-8.html#introduction",
+    "title": "Week 8: Regression Analysis",
+    "section": "Introduction",
+    "text": "Introduction\n\nWe can use more than one predictor variable to explain the variation in the outcome variable\nWe can add more terms to our regression equation to represent each predictor variable\nEach term has a coefficient that indicates how much the outcome variable changes when that predictor variable increases by one unit"
+  },
+  {
+    "objectID": "slides/lec-8.html#example-parenthood-data-2",
+    "href": "slides/lec-8.html#example-parenthood-data-2",
+    "title": "Week 8: Regression Analysis",
+    "section": "Example: Parenthood data",
+    "text": "Example: Parenthood data\n\nOutcome variable: dani.grump (Dani’s grumpiness)\nPredictor variables: dani.sleep (Dani’s hours of sleep) and baby.sleep (Baby’s hours of sleep)\nRegression equation: \\(Y_i=b_0+b_1X_{i1}+b_2X_{i2}+\\epsilon_i\\)\n\n\\(Y_i\\): Dani’s grumpiness on day \\(i\\)\n\\(X_{i1}\\): Dani’s hours of sleep on day \\(i\\)\n\\(X_{i2}\\): Baby’s hours of sleep on day \\(i\\)\n\\(b_0\\): Intercept\n\\(b_1\\): Coefficient for Dani’s sleep\n\\(b_2\\): Coefficient for Baby’s sleep\n\\(\\epsilon_i\\): Error term on day \\(i\\)"
+  },
+  {
+    "objectID": "slides/lec-8.html#estimating-the-coefficients-in-multiple-regression",
+    "href": "slides/lec-8.html#estimating-the-coefficients-in-multiple-regression",
+    "title": "Week 8: Regression Analysis",
+    "section": "Estimating the coefficients in multiple regression",
+    "text": "Estimating the coefficients in multiple regression\n\nWe want to find the coefficients that minimise the sum of squared residuals\nResiduals are the differences between the observed and predicted values of the outcome variable\nWe use a similar method as in simple regression, but with more terms in the equation"
+  },
+  {
+    "objectID": "slides/lec-8.html#doing-it-in-jamovi",
+    "href": "slides/lec-8.html#doing-it-in-jamovi",
+    "title": "Week 8: Regression Analysis",
+    "section": "Doing it in jamovi",
+    "text": "Doing it in jamovi\n\njamovi can estimate multiple regression models easily\nWe just need to add more variables to the ‘Covariates’ box in the analysis\njamovi will output the estimated coefficients and other statistics for each predictor variable\nExample: The Table shows the coefficients for dani.sleep and baby.sleep as predictors of dani.grump"
+  },
+  {
+    "objectID": "slides/lec-8.html#interpreting-the-coefficients-in-multiple-regression",
+    "href": "slides/lec-8.html#interpreting-the-coefficients-in-multiple-regression",
+    "title": "Week 8: Regression Analysis",
+    "section": "Interpreting the coefficients in multiple regression",
+    "text": "Interpreting the coefficients in multiple regression\n\nThe coefficients tell us how much the outcome variable changes when one predictor variable increases by one unit, holding the other predictor variables constant\nThe larger the absolute value of the coefficient, the stronger the effect of that predictor variable on the outcome variable\nThe sign of the coefficient indicates whether the effect is positive or negative"
+  },
+  {
+    "objectID": "slides/lec-8.html#example-parenthood-data-3",
+    "href": "slides/lec-8.html#example-parenthood-data-3",
+    "title": "Week 8: Regression Analysis",
+    "section": "Example: Parenthood data",
+    "text": "Example: Parenthood data\n\nCoefficient for dani.sleep: -8.94\n\nInterpretation: Each additional hour of sleep reduces Dani’s grumpiness by 8.94 points, regardless of how much sleep the baby gets\n\nCoefficient for baby.sleep: 0.07\n\nInterpretation: Each additional hour of sleep for the baby increases Dani’s grumpiness by 0.07 points, regardless of how much sleep Dani gets\n\nFigure 12.14 shows a 3D plot of the data and the regression model"
+  },
+  {
+    "objectID": "slides/lec-8.html#quantifying-the-fit-of-the-regression-model",
+    "href": "slides/lec-8.html#quantifying-the-fit-of-the-regression-model",
+    "title": "Week 8: Regression Analysis",
+    "section": "Quantifying the fit of the regression model",
+    "text": "Quantifying the fit of the regression model\n\nWe want to know how well our regression model predicts the outcome variable\nWe can compare the predicted values ($\\hat{Y}_i$) to the observed values ($Y_i$) using two sums of squares\n\nResidual sum of squares ($SS_{res}$): measures how much error there is in our predictions\nTotal sum of squares ($SS_{tot}$): measures how much variability there is in the outcome variable"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-r2-value",
+    "href": "slides/lec-8.html#the-r2-value",
+    "title": "Week 8: Regression Analysis",
+    "section": "The \\(R^2\\) value",
+    "text": "The \\(R^2\\) value\n\nThe \\(R^2\\) value is a proportion that tells us how much of the variability in the outcome variable is explained by our regression model\nIt is calculated as:\n\n\\[R^2=1-\\frac{SS_{res}}{SS_{tot}}\\]\n\nIt ranges from 0 to 1, with higher values indicating better fit\nIt can be interpreted as the percentage of variance explained by our regression model"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-relationship-between-regression-and-correlation",
+    "href": "slides/lec-8.html#the-relationship-between-regression-and-correlation",
+    "title": "Week 8: Regression Analysis",
+    "section": "The relationship between regression and correlation",
+    "text": "The relationship between regression and correlation\n\nRegression and correlation are both ways of measuring the strength and direction of a linear relationship between two variables\nFor a simple regression model with one predictor variable, the \\(R^2\\) value is equal to the square of the Pearson correlation coefficient (\\(r^2\\))\nRunning a Pearson correlation is equivalent to running a simple linear regression model"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-adjusted-r2-value",
+    "href": "slides/lec-8.html#the-adjusted-r2-value",
+    "title": "Week 8: Regression Analysis",
+    "section": "The adjusted \\(R^2\\) value",
+    "text": "The adjusted \\(R^2\\) value\n\nThe adjusted \\(R^2\\) value is a modified version of the \\(R^2\\) value that takes into account the number of predictors in the model\nIt penalizes adding more predictors that do not improve the model performance significantly\nIt can be used to compare different regression models with different numbers of predictors\nIt does not have a simple interpretation as the proportion of variance explained by the model"
+  },
+  {
+    "objectID": "slides/lec-8.html#the-adjusted-r2-value-cont.",
+    "href": "slides/lec-8.html#the-adjusted-r2-value-cont.",
+    "title": "Week 8: Regression Analysis",
+    "section": "The adjusted \\(R^2\\) value (cont.)",
+    "text": "The adjusted \\(R^2\\) value (cont.)\n\nThe adjusted $R^2$ value adjusts for the degrees of freedom in the model\nIt increases only if adding a predictor improves the model more than expected by chance\nIt does not have a clear interpretation as the proportion of variance explained by the model"
+  },
+  {
+    "objectID": "slides/lec-8.html#which-one-to-report-r2-or-adjusted-r2",
+    "href": "slides/lec-8.html#which-one-to-report-r2-or-adjusted-r2",
+    "title": "Week 8: Regression Analysis",
+    "section": "Which one to report: \\(R^2\\) or adjusted \\(R^2\\)?",
+    "text": "Which one to report: \\(R^2\\) or adjusted \\(R^2\\)?\n\nThere is no definitive answer to this question\nIt depends on your preference and your research question\nSome factors to consider are:\n\nInterpretability: \\(R^2\\) is easier to understand and explain\nBias correction: Adjusted \\(R^2\\) is less likely to overestimate the model performance\nHypothesis testing: There are other ways to test if adding a predictor improves the model significantly"
+  },
+  {
+    "objectID": "slides/lec-8.html#tests-for-individual-coefficients",
+    "href": "slides/lec-8.html#tests-for-individual-coefficients",
+    "title": "Week 8: Regression Analysis",
+    "section": "Tests for Individual Coefficients",
+    "text": "Tests for Individual Coefficients\n\nThe F-test checks if the model as a whole is performing better than chance\nIf the F-test is not significant, then the regression model may not be good\nHowever, passing the F-test does not imply that the model is good"
+  },
+  {
+    "objectID": "slides/lec-8.html#example-of-multiple-linear-regression-model",
+    "href": "slides/lec-8.html#example-of-multiple-linear-regression-model",
+    "title": "Week 8: Regression Analysis",
+    "section": "Example of Multiple Linear Regression Model",
+    "text": "Example of Multiple Linear Regression Model\n\nThe estimated regression coefficient for baby.sleep variable is small compared to dani.sleep variable\nBoth variables are measured in “hours slept”\nThis suggests that only the amount of sleep matters in predicting grumpiness"
+  },
+  {
+    "objectID": "slides/lec-8.html#hypothesis-testing-with-t-test",
+    "href": "slides/lec-8.html#hypothesis-testing-with-t-test",
+    "title": "Week 8: Regression Analysis",
+    "section": "Hypothesis Testing with t-test",
+    "text": "Hypothesis Testing with t-test\n\nThe t-test can be used to test if the true regression coefficient is zero\nNull hypothesis: $b = 0$\nAlternative hypothesis: $b \\neq 0$\n\nbased on the selected text:"
+  },
+  {
+    "objectID": "slides/lec-8.html#testing-the-central-limit-theorem",
+    "href": "slides/lec-8.html#testing-the-central-limit-theorem",
+    "title": "Week 8: Regression Analysis",
+    "section": "Testing the Central Limit Theorem",
+    "text": "Testing the Central Limit Theorem\n\nThe sampling distribution of the estimated regression coefficient is a normal distribution with mean centered on b\nIf the null hypothesis is true, then the sampling distribution of $\\hat{b}$ has mean zero and unknown standard deviation\nA good estimate for the standard error of the regression coefficient can be used to define a t-statistic\nThe degrees of freedom in this case are $df = N - K - 1$\nThe standard error of the estimated regression coefficient depends on both predictor and outcome variables and is sensitive to violations of homogeneity of variance assumption"
+  },
+  {
+    "objectID": "slides/lec-8.html#running-hypothesis-tests-in-jamovi",
+    "href": "slides/lec-8.html#running-hypothesis-tests-in-jamovi",
+    "title": "Week 8: Regression Analysis",
+    "section": "Running Hypothesis Tests in Jamovi",
+    "text": "Running Hypothesis Tests in Jamovi\n\nTo compute statistics, check relevant options and run regression in jamovi\nSee result in the next slide"
+  },
+  {
+    "objectID": "slides/lec-8.html#model-coefficients",
+    "href": "slides/lec-8.html#model-coefficients",
+    "title": "Week 8: Regression Analysis",
+    "section": "Model Coefficients",
+    "text": "Model Coefficients\n\nLocated at bottom of jamovi analysis results\nEach row refers to one coefficient in regression model\nFirst row is intercept term; later rows look at each predictor"
+  },
+  {
+    "objectID": "slides/lec-8.html#coefficient-information",
+    "href": "slides/lec-8.html#coefficient-information",
+    "title": "Week 8: Regression Analysis",
+    "section": "Coefficient Information",
+    "text": "Coefficient Information\n\nFirst column: estimate of b\nSecond column: standard error estimate\nThird and fourth columns: lower and upper values for 95% confidence interval around b estimate\nFifth column: t-statistic (t = b / se(b))\nLast column: p-value for each test"
+  },
+  {
+    "objectID": "slides/lec-8.html#degrees-of-freedom",
+    "href": "slides/lec-8.html#degrees-of-freedom",
+    "title": "Week 8: Regression Analysis",
+    "section": "Degrees of Freedom",
+    "text": "Degrees of Freedom\n\nNot listed in coefficients table itself\nAlways N - K - 1\nListed in table at top of output"
+  },
+  {
+    "objectID": "slides/lec-8.html#output",
+    "href": "slides/lec-8.html#output",
+    "title": "Week 8: Regression Analysis",
+    "section": "Output",
+    "text": "Output"
   }
 ]
