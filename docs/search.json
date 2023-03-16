@@ -980,39 +980,53 @@
     "text": "Assumptions of Regression, cont.\nAlso…\n\nUncorrelated Predictors: In a multiple regression model, predictors should not be too strongly correlated with each other.\n\nStrongly correlated predictors (collinearity) can cause problems when evaluating the model.\n\nNo “Bad” Outliers: The regression model should not be too strongly influenced by one or two anomalous data points.\n\nAnomalous data points can raise questions about the adequacy of the model and trustworthiness of data."
   },
   {
-    "objectID": "slides/lec-8.html#diagnostics-collinearity",
-    "href": "slides/lec-8.html#diagnostics-collinearity",
+    "objectID": "slides/lec-8.html#checking-for-linearity",
+    "href": "slides/lec-8.html#checking-for-linearity",
     "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: collinearity",
-    "text": "Diagnostics: collinearity\n\nVariance Inflation Factor (VIF)\n\nUsed to detect multicollinearity in a regression model\nMeasures the correlation among independent variables (predictors)\n\nInterpreting VIF\n\nA VIF of 1 means no correlation among the predictor and the remaining predictor variables\nVIFs exceeding 4 warrant further investigation\nVIFs exceeding 10 are signs of serious multicollinearity requiring correction\n\n\nOutput from Parenthood.csv"
+    "section": "Checking for linearity",
+    "text": "Checking for linearity\n\n\n\n\nChecking Linearity\n\nIt is important to check for the linearity of relationships between predictors and outcomes.\n\nPlotting Relationships\n\nOne way to check for linearity is to plot the relationship between predicted values and observed values for the outcome variable.\n\nUsing Jamovi\n\nIn Jamovi, you can save predicted values to the dataset and then draw a scatterplot of observed against predicted (fitted) values.\n\nInterpreting Results\n\nIf the plot looks approximately linear, then it suggests that your model is not doing too badly. However, if there are big departures from linearity, it suggests that changes need to be made."
   },
   {
-    "objectID": "slides/lec-8.html#diagnostics-residuals",
-    "href": "slides/lec-8.html#diagnostics-residuals",
+    "objectID": "slides/lec-8.html#checking-for-linearity-cont.",
+    "href": "slides/lec-8.html#checking-for-linearity-cont.",
     "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: residuals",
-    "text": "Diagnostics: residuals\n\n\n\n\nResidual QQ-Plot\n\nGraphical tool used to assess if a set of data plausibly came from some theoretical distribution such as a Normal or exponential\n\nInterpreting Residual QQ-Plot\n\nTheoretical quantiles on the horizontal axis will be distributed around zero\nObserved residual quantiles on the vertical axis will also be distributed around zero\nCheck if the points lie approximately on the line\nIf they don’t, your residuals aren’t Gaussian and thus your errors aren’t either"
+    "section": "Checking for linearity, cont.",
+    "text": "Checking for linearity, cont.\n\n\n\n\nTo get a more detailed picture of linearity, it can be helpful to look at the relationship between predicted values and residuals.\nUsing Jamovi\n\nIn Jamovi, you can save residuals to the dataset and then draw a scatterplot of predicted values against residual values.\n\nInterpreting Results\n\nIdeally, the relationship between predicted values and residuals should be a straight, perfectly horizontal line. In practice, we’re looking for a reasonably straight or flat line. This is a matter of judgement."
   },
   {
-    "objectID": "slides/lec-8.html#diagnostics-residuals-cont.",
-    "href": "slides/lec-8.html#diagnostics-residuals-cont.",
+    "objectID": "slides/lec-8.html#checking-for-normality-residuals",
+    "href": "slides/lec-8.html#checking-for-normality-residuals",
     "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: residuals, cont.",
-    "text": "Diagnostics: residuals, cont.\n\n\n\n\n\nInterpreting Residual Plots\n\nThe residuals \"bounce randomly\" around the 0 line\nThis suggests that the assumption that the relationship is linear is reasonable\nThe residuals roughly form a \"horizontal band\" around the 0 line\nThis suggests that the variances of the error terms are equal\nNo one residual \"stands out\" from the basic random pattern of residuals\nThis suggests that there are no outliers"
+    "section": "Checking for normality (residuals)",
+    "text": "Checking for normality (residuals)\n\n\n\n\nRegression models rely on a normality assumption: the residuals should be normally distributed.\nUsing Jamovi\n\nIn Jamovi, you can draw a QQ-plot via the ‘Assumption Checks’ - ‘Assumption Checks’ - ‘Q-Q plot of residuals’ option.\n\nInterpreting Results\n\nThe output shows the standardized residuals plotted as a function of their theoretical quantiles according to the regression model. The dots should be somewhat near the line."
   },
   {
-    "objectID": "slides/lec-8.html#diagnostics-outliers-cont.",
-    "href": "slides/lec-8.html#diagnostics-outliers-cont.",
+    "objectID": "slides/lec-8.html#checking-for-normality-residuals-cont.",
+    "href": "slides/lec-8.html#checking-for-normality-residuals-cont.",
     "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: outliers, cont.",
-    "text": "Diagnostics: outliers, cont.\n\n\n\n\n\nUsed in regression analysis to identify influential data points that may negatively affect your regression model\nA measure of an observation or instance's influence on a linear regression\nInstances with a large influence may be outliers\nDatasets with a large number of highly influential points might not be suitable for linear regression without further processing such as outlier removal or imputation\nIdentifying Outliers\n\nA general rule of thumb is to investigate any point that is more than 3 times the mean of all the distances"
+    "section": "Checking for normality (residuals), cont.",
+    "text": "Checking for normality (residuals), cont.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChecking Relationship between Predicted Values and Residuals\n\nIn Jamovi, you can use the ‘Residuals Plots’ option to check the relationship between predicted values and residuals.\nThe output provides a scatterplot for each predictor variable, the outcome variable, and the predicted values against residuals.\n\nInterpreting Results\n\nWe are looking for a fairly uniform distribution of dots with no clear bunching or patterning.\n\nThe dots are fairly evenly spread across the whole plot \n\nIssues with the relationship between predicted values and residuals? \n\nTransform one or more of the variables (Box-Cox Transform in jamovi)"
   },
   {
-    "objectID": "slides/lec-8.html#diagnostics-normality-cont.",
-    "href": "slides/lec-8.html#diagnostics-normality-cont.",
+    "objectID": "slides/lec-8.html#checking-for-equality-of-variance",
+    "href": "slides/lec-8.html#checking-for-equality-of-variance",
     "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: normality, cont.",
-    "text": "Diagnostics: normality, cont.\n\n\n\n\nThe p-value is above 0.05 - approximating normality"
+    "section": "Checking for equality of variance",
+    "text": "Checking for equality of variance\n\n\n\n\nRegression models make an assumption of equality (homogeneity) of variance.\n\nThis means that the variance of the residuals is assumed to be constant.\n\nPlotting Equality of Variance in Jamovi\n\nTo check this assumption in Jamovi, first calculate the square root of the absolute size of the residual.\n\nCompute this new variable using the formula SQRT(ABS(Residuals))\n\nThen plot this against the predicted values.\nThe plot should show a straight horizontal line running through the middle."
+  },
+  {
+    "objectID": "slides/lec-8.html#checking-for-collineary",
+    "href": "slides/lec-8.html#checking-for-collineary",
+    "title": "Week 8: Regression Analysis",
+    "section": "Checking for Collineary",
+    "text": "Checking for Collineary\n\n\n\n\n\nVariance Inflation Factors (VIFs) can be used to determine if predictors in a regression model are too highly correlated with each other.\n\nEach predictor has an associated VIF.\n\nIn Jamovi, click on the ‘Collinearity’ checkbox in the ‘Regression’ - ‘Assumptions’ options to see VIF values.\nInterpreting VIF\n\nA VIF of 1 means no correlation among the predictor and the remaining predictor variables\nVIFs exceeding 4 warrant further investigation\nVIFs exceeding 10 are signs of serious multicollinearity requiring correction"
+  },
+  {
+    "objectID": "slides/lec-8.html#checking-for-outliers",
+    "href": "slides/lec-8.html#checking-for-outliers",
+    "title": "Week 8: Regression Analysis",
+    "section": "Checking for outliers",
+    "text": "Checking for outliers\n\n\n\n\n\nUsed in regression analysis to identify influential data points that may negatively affect your regression model\nDatasets with a large number of highly influential points might not be suitable for linear regression without further processing such as outlier removal or imputation\nIdentifying Outliers\n\nA general rule of thumb: Cook’s distance greater than 1 is often considered large\n\nWhat if the value is greater than 1?\n\nremove the outlier and run the regression again\nHow? In jamovi you can save the Cook’s distance values to the dataset, then draw a boxplot of the Cook’s distance values to identify the specific outliers."
   },
   {
     "objectID": "slides/lec-8.html#references",
@@ -2938,89 +2952,5 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-linearity",
-    "href": "slides/lec-8.html#checking-for-linearity",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for linearity",
-    "text": "Checking for linearity\n\n\n\n\nChecking Linearity\n\nIt is important to check for the linearity of relationships between predictors and outcomes.\n\nPlotting Relationships\n\nOne way to check for linearity is to plot the relationship between predicted values and observed values for the outcome variable.\n\nUsing Jamovi\n\nIn Jamovi, you can save predicted values to the dataset and then draw a scatterplot of observed against predicted (fitted) values.\n\nInterpreting Results\n\nIf the plot looks approximately linear, then it suggests that your model is not doing too badly. However, if there are big departures from linearity, it suggests that changes need to be made."
-  },
-  {
-    "objectID": "slides/lec-8.html#collinearity",
-    "href": "slides/lec-8.html#collinearity",
-    "title": "Week 8: Regression Analysis",
-    "section": "Collinearity",
-    "text": "Collinearity\n\nVariance Inflation Factor (VIF)\n\nUsed to detect multicollinearity in a regression model\nMeasures the correlation among independent variables (predictors)\n\nInterpreting VIF\n\nA VIF of 1 means no correlation among the predictor and the remaining predictor variables\nVIFs exceeding 4 warrant further investigation\nVIFs exceeding 10 are signs of serious multicollinearity requiring correction\n\n\nOutput from Parenthood.csv"
-  },
-  {
-    "objectID": "slides/lec-8.html#diagnostics-residuals-1",
-    "href": "slides/lec-8.html#diagnostics-residuals-1",
-    "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: residuals",
-    "text": "Diagnostics: residuals\n\n\n\n\n\nInterpreting Residual Plots\n\nThe residuals “bounce randomly” around the 0 line\nThis suggests that the assumption that the relationship is linear is reasonable\nThe residuals roughly form a “horizontal band” around the 0 line\nThis suggests that the variances of the error terms are equal\nNo one residual “stands out” from the basic random pattern of residuals\nThis suggests that there are no outliers"
-  },
-  {
-    "objectID": "slides/lec-8.html#diagnostics-outliers",
-    "href": "slides/lec-8.html#diagnostics-outliers",
-    "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: outliers",
-    "text": "Diagnostics: outliers\n\n\n\n\n\nUsed in regression analysis to identify influential data points that may negatively affect your regression model\nA measure of an observation or instance’s influence on a linear regression\nInstances with a large influence may be outliers\nDatasets with a large number of highly influential points might not be suitable for linear regression without further processing such as outlier removal or imputation\nIdentifying Outliers\n\nA general rule of thumb is to investigate any point that is more than 3 times the mean of all the distances"
-  },
-  {
-    "objectID": "slides/lec-8.html#diagnostics-normality",
-    "href": "slides/lec-8.html#diagnostics-normality",
-    "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: normality",
-    "text": "Diagnostics: normality\n\n\n\n\nThe p-value is above 0.05 - approximating normality"
-  },
-  {
-    "objectID": "slides/lec-8.html#diagnostics-linearity",
-    "href": "slides/lec-8.html#diagnostics-linearity",
-    "title": "Week 8: Regression Analysis",
-    "section": "Diagnostics: linearity",
-    "text": "Diagnostics: linearity"
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-linearity-cont.",
-    "href": "slides/lec-8.html#checking-for-linearity-cont.",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for linearity, cont.",
-    "text": "Checking for linearity, cont.\n\n\n\n\nTo get a more detailed picture of linearity, it can be helpful to look at the relationship between predicted values and residuals.\nUsing Jamovi\n\nIn Jamovi, you can save residuals to the dataset and then draw a scatterplot of predicted values against residual values.\n\nInterpreting Results\n\nIdeally, the relationship between predicted values and residuals should be a straight, perfectly horizontal line. In practice, we’re looking for a reasonably straight or flat line. This is a matter of judgement."
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-normality-residuals",
-    "href": "slides/lec-8.html#checking-for-normality-residuals",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for normality (residuals)",
-    "text": "Checking for normality (residuals)\n\n\n\n\nRegression models rely on a normality assumption: the residuals should be normally distributed.\nUsing Jamovi\n\nIn Jamovi, you can draw a QQ-plot via the ‘Assumption Checks’ - ‘Assumption Checks’ - ‘Q-Q plot of residuals’ option.\n\nInterpreting Results\n\nThe output shows the standardized residuals plotted as a function of their theoretical quantiles according to the regression model. The dots should be somewhat near the line."
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-normality-residuals-cont.",
-    "href": "slides/lec-8.html#checking-for-normality-residuals-cont.",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for normality (residuals), cont.",
-    "text": "Checking for normality (residuals), cont.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChecking Relationship between Predicted Values and Residuals\n\nIn Jamovi, you can use the ‘Residuals Plots’ option to check the relationship between predicted values and residuals.\nThe output provides a scatterplot for each predictor variable, the outcome variable, and the predicted values against residuals.\n\nInterpreting Results\n\nWe are looking for a fairly uniform distribution of dots with no clear bunching or patterning.\n\nThe dots are fairly evenly spread across the whole plot \n\nIssues with the relationship between predicted values and residuals? \n\nTransform one or more of the variables (Box-Cox Transform in jamovi)"
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-equality-of-variance",
-    "href": "slides/lec-8.html#checking-for-equality-of-variance",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for equality of variance",
-    "text": "Checking for equality of variance\n\n\n\n\nRegression models make an assumption of equality (homogeneity) of variance.\n\nThis means that the variance of the residuals is assumed to be constant.\n\nPlotting Equality of Variance in Jamovi\n\nTo check this assumption in Jamovi, first calculate the square root of the absolute size of the residual.\n\nCompute this new variable using the formula SQRT(ABS(Residuals))\n\nThen plot this against the predicted values.\nThe plot should show a straight horizontal line running through the middle."
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-collineary",
-    "href": "slides/lec-8.html#checking-for-collineary",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for Collineary",
-    "text": "Checking for Collineary\n\n\n\n\n\nVariance Inflation Factors (VIFs) can be used to determine if predictors in a regression model are too highly correlated with each other.\n\nEach predictor has an associated VIF.\n\nIn Jamovi, click on the ‘Collinearity’ checkbox in the ‘Regression’ - ‘Assumptions’ options to see VIF values.\nInterpreting VIF\n\nA VIF of 1 means no correlation among the predictor and the remaining predictor variables\nVIFs exceeding 4 warrant further investigation\nVIFs exceeding 10 are signs of serious multicollinearity requiring correction"
-  },
-  {
-    "objectID": "slides/lec-8.html#checking-for-outliers",
-    "href": "slides/lec-8.html#checking-for-outliers",
-    "title": "Week 8: Regression Analysis",
-    "section": "Checking for outliers",
-    "text": "Checking for outliers\n\n\n\n\n\nUsed in regression analysis to identify influential data points that may negatively affect your regression model\nDatasets with a large number of highly influential points might not be suitable for linear regression without further processing such as outlier removal or imputation\nIdentifying Outliers\n\nA general rule of thumb: Cook’s distance greater than 1 is often considered large\n\nWhat if the value is greater than 1?\n\nremove the outlier and run the regression again\nHow? In jamovi you can save the Cook’s distance values to the dataset, then draw a boxplot of the Cook’s distance values to identify the specific outliers."
   }
 ]

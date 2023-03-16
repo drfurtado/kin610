@@ -33,9 +33,7 @@ bibliography: references.bib
 ## Linear Regression Models
 
 -   A way of measuring the relationship between two variables
-
 -   Similar to Pearson correlation, but more powerful
-
 -   Can be used to predict one variable from another
 
 ## Example: Parenthood Data Set {.smaller}
@@ -337,7 +335,7 @@ $$R^2=1-\frac{SS_{res}}{SS_{tot}}$$
     -   The adjusted $R^2$ value adjusts for the degrees of freedom in the model
 -   It increases only `if adding a predictor` improves the model more than expected by chance
 
-## Which one to report: $R^2$ or adjusted $R^2$?
+## Which one to report: $R^2$ or adjusted $R^2$? {.smaller}
 
 -   There is no definitive answer to this question
 -   It depends on your preference and your research question
@@ -521,7 +519,7 @@ Interpreting Results
 :::
 :::
 
-## Checking for normality (residuals)
+## Checking for normality (residuals) {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
