@@ -24,6 +24,10 @@ execute:
 bibliography: references.bib
 ---
 
+# Credits
+
+@navarro2022
+
 # Simple Linear Regression
 
 ## Linear Regression Models
@@ -32,23 +36,19 @@ bibliography: references.bib
 
 -   Similar to Pearson correlation, but more powerful
 
--   Can be used to predict one variable from another ( $y$ \<\-- $x$ )
+-   Can be used to predict one variable from another
 
 ## Example: Parenthood Data Set {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
--   Bullet points:
-
-    -   Data set contains measures of sleep and grumpiness for Dani
-
-    -   Hypothesis: less sleep leads to more grumpiness
-
-    -   Scatterplot shows a strong negative correlation (r = -.90)
+-   Data set contains measures of sleep and grumpiness for Dani
+-   Hypothesis: less sleep leads to more grumpiness
+-   Scatterplot shows a strong negative correlation (r = -.90)
 :::
 
 ::: {.column width="50%"}
-![](images/image-1930564630.png)
+![](images/image-2116704164.png)
 :::
 :::
 
@@ -469,8 +469,167 @@ Also...
 
     -   Strongly correlated predictors (collinearity) can cause problems when evaluating the model.
 
--   No \"Bad\" Outliers: The regression model should not be too strongly influenced by one or two anomalous data points.
+-   No "Bad" Outliers: The regression model should not be too strongly influenced by one or two anomalous data points.
 
     -   Anomalous data points can raise questions about the adequacy of the model and trustworthiness of data.
+
+# Diagnostics
+
+## Checking for linearity {.smaller .scrollable}
+
+::: columns
+::: {.column width="50%"}
+![](images/image-1265318825.png)
+:::
+
+::: {.column width="50%"}
+Checking Linearity
+
+-   It is important to check for the linearity of relationships between predictors and outcomes.
+
+Plotting Relationships
+
+-   One way to check for linearity is to plot the relationship between `predicted` values and `observed` values for the outcome variable.
+
+Using Jamovi
+
+-   In Jamovi, you can save predicted values to the dataset and then draw a scatterplot of observed against predicted (fitted) values.
+
+Interpreting Results
+
+-   If the plot looks approximately linear, then it suggests that your model is not doing too badly. However, if there are big departures from linearity, it suggests that changes need to be made.
+:::
+:::
+
+## Checking for linearity, cont. {.smaller .scrollable}
+
+::: columns
+::: {.column width="50%"}
+![](images/image-624924736.png)
+:::
+
+::: {.column width="50%"}
+To get a more detailed picture of linearity, it can be helpful to look at the relationship between predicted values and residuals.
+
+Using Jamovi
+
+-   In Jamovi, you can save r`esiduals` to the dataset and then draw a scatterplot of `predicted` values against `residual values`.
+
+Interpreting Results
+
+-   Ideally, the relationship between predicted values and residuals should be a straight, perfectly horizontal line. In practice, we're looking for a reasonably straight or flat line. This is a matter of judgement.
+:::
+:::
+
+## Checking for normality (residuals)
+
+::: columns
+::: {.column width="50%"}
+![](images/image-2117442079.png)
+:::
+
+::: {.column width="50%"}
+Regression models rely on a normality assumption: the residuals should be normally distributed.
+
+Using Jamovi
+
+-   In Jamovi, you can draw a QQ-plot via the 'Assumption Checks' - 'Assumption Checks' - 'Q-Q plot of residuals' option.
+
+Interpreting Results
+
+-   The output shows the standardized residuals plotted as a function of their theoretical quantiles according to the regression model. The dots should be somewhat near the line.
+:::
+:::
+
+## Checking for normality (residuals), cont. {.smaller .scrollable}
+
+::: columns
+::: {.column width="50%"}
+::: {layout-nrow="2"}
+![](images/image-972051397.png)
+
+![](images/image-576762059.png)
+
+![](images/image-1155124670.png)
+
+![](images/image-1901862958.png)
+:::
+:::
+
+::: {.column width="50%"}
+Checking Relationship between Predicted Values and Residuals
+
+-   In Jamovi, you can use the 'Residuals Plots' option to check the relationship between predicted values and residuals.
+-   The output provides a scatterplot for each `predictor variable`, the `outcome variable`, and the `predicted values` against residuals.
+
+Interpreting Results
+
+-   We are looking for a fairly uniform distribution of dots with no clear bunching or patterning.
+
+    -   The dots are fairly evenly spread across the whole plot {{< bi emoji-smile >}}
+
+    Issues with the relationship between predicted values and residuals? {{< bi emoji-frown >}}
+
+    -   Transform one or more of the variables (Box-Cox Transform in jamovi)
+:::
+:::
+
+## Checking for equality of variance {.smaller .scrollable}
+
+::: columns
+::: {.column width="50%"}
+![](images/image-1571155407.png)
+:::
+
+::: {.column width="50%"}
+Regression models make an assumption of equality (homogeneity) of variance.
+
+-   This means that the variance of the residuals is assumed to be constant.
+
+Plotting Equality of Variance in Jamovi
+
+-   To check this assumption in Jamovi, first calculate the square root of the absolute size of the residual.
+    -   Compute this new variable using the formula `SQRT(ABS(Residuals))`
+-   Then plot this against the predicted values.
+-   The plot should show a straight horizontal line running through the middle.
+:::
+:::
+
+## Checking for Collineary {.smaller .scrollable}
+
+::: columns
+::: {.column width="50%"}
+![](images/image-16520368.png){width="335"}
+:::
+
+::: {.column width="50%"}
+-   Variance Inflation Factors (VIFs) can be used to determine if predictors in a regression model are too highly correlated with each other.
+    -   Each predictor has an associated VIF.
+-   In Jamovi, click on the 'Collinearity' checkbox in the 'Regression' - 'Assumptions' options to see VIF values.
+-   Interpreting VIF
+    -   A VIF of 1 means no correlation among the predictor and the remaining predictor variables
+    -   VIFs exceeding 4 warrant further investigation
+    -   VIFs exceeding 10 are signs of serious multicollinearity requiring correction
+:::
+:::
+
+## Checking for outliers {.smaller .scrollable}
+
+::: columns
+::: {.column width="50%"}
+![](images/image-1539623535.png)
+:::
+
+::: {.column width="50%"}
+-   Used in regression analysis to identify influential data points that may negatively affect your regression model
+-   Datasets with a large number of highly influential points might not be suitable for linear regression without further processing such as outlier removal or imputation
+-   Identifying Outliers
+    -   A general rule of thumb: Cook's distance greater than 1 is often considered large
+-   What if the value is greater than 1?
+    -   remove the outlier and run the regression again
+
+    -   How? In jamovi you can save the Cook's distance values to the dataset, then draw a boxplot of the Cook's distance values to identify the specific outliers.
+:::
+:::
 
 ## References

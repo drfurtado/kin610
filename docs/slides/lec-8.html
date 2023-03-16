@@ -30,7 +30,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -348,6 +367,11 @@ Dr.&nbsp;Ovande Furtado Jr
 </div>
 
 </section>
+<section id="credits" class="title-slide slide level1 center">
+<h1>Credits</h1>
+<p><span class="citation" data-cites="navarro2022">Navarro and Foxcroft (<a href="#/references" role="doc-biblioref" onclick="">2022</a>)</span></p>
+</section>
+
 <section>
 <section id="simple-linear-regression" class="title-slide slide level1 center">
 <h1>Simple Linear Regression</h1>
@@ -358,7 +382,7 @@ Dr.&nbsp;Ovande Furtado Jr
 <ul>
 <li><p>A way of measuring the relationship between two variables</p></li>
 <li><p>Similar to Pearson correlation, but more powerful</p></li>
-<li><p>Can be used to predict one variable from another ( <span class="math inline">\(y\)</span> &lt;-- <span class="math inline">\(x\)</span> )</p></li>
+<li><p>Can be used to predict one variable from another</p></li>
 </ul>
 </section>
 <section id="example-parenthood-data-set" class="slide level2 smaller">
@@ -366,15 +390,12 @@ Dr.&nbsp;Ovande Furtado Jr
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li><p>Bullet points:</p>
-<ul>
-<li><p>Data set contains measures of sleep and grumpiness for Dani</p></li>
-<li><p>Hypothesis: less sleep leads to more grumpiness</p></li>
-<li><p>Scatterplot shows a strong negative correlation (r = -.90)</p></li>
-</ul></li>
+<li>Data set contains measures of sleep and grumpiness for Dani</li>
+<li>Hypothesis: less sleep leads to more grumpiness</li>
+<li>Scatterplot shows a strong negative correlation (r = -.90)</li>
 </ul>
 </div><div class="column" style="width:50%;">
-<p><img data-src="images/image-1930564630.png" class="quarto-discovered-preview-image"></p>
+<p><img data-src="images/image-2116704164.png" class="quarto-discovered-preview-image"></p>
 </div>
 </div>
 </section>
@@ -815,18 +836,197 @@ Dr.&nbsp;Ovande Furtado Jr
 <ul>
 <li>Strongly correlated predictors (collinearity) can cause problems when evaluating the model.</li>
 </ul></li>
-<li><p>No "Bad" Outliers: The regression model should not be too strongly influenced by one or two anomalous data points.</p>
+<li><p>No “Bad” Outliers: The regression model should not be too strongly influenced by one or two anomalous data points.</p>
 <ul>
 <li>Anomalous data points can raise questions about the adequacy of the model and trustworthiness of data.</li>
 </ul></li>
 </ul>
+</section></section>
+<section>
+<section id="diagnostics" class="title-slide slide level1 center">
+<h1>Diagnostics</h1>
+
 </section>
-<section id="references" class="slide level2">
+<section id="checking-for-linearity" class="slide level2 smaller scrollable">
+<h2>Checking for linearity</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-1265318825.png"></p>
+</div><div class="column" style="width:50%;">
+<p>Checking Linearity</p>
+<ul>
+<li>It is important to check for the linearity of relationships between predictors and outcomes.</li>
+</ul>
+<p>Plotting Relationships</p>
+<ul>
+<li>One way to check for linearity is to plot the relationship between <code>predicted</code> values and <code>observed</code> values for the outcome variable.</li>
+</ul>
+<p>Using Jamovi</p>
+<ul>
+<li>In Jamovi, you can save predicted values to the dataset and then draw a scatterplot of observed against predicted (fitted) values.</li>
+</ul>
+<p>Interpreting Results</p>
+<ul>
+<li>If the plot looks approximately linear, then it suggests that your model is not doing too badly. However, if there are big departures from linearity, it suggests that changes need to be made.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="checking-for-linearity-cont." class="slide level2 smaller scrollable">
+<h2>Checking for linearity, cont.</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-624924736.png"></p>
+</div><div class="column" style="width:50%;">
+<p>To get a more detailed picture of linearity, it can be helpful to look at the relationship between predicted values and residuals.</p>
+<p>Using Jamovi</p>
+<ul>
+<li>In Jamovi, you can save r<code>esiduals</code> to the dataset and then draw a scatterplot of <code>predicted</code> values against <code>residual values</code>.</li>
+</ul>
+<p>Interpreting Results</p>
+<ul>
+<li>Ideally, the relationship between predicted values and residuals should be a straight, perfectly horizontal line. In practice, we’re looking for a reasonably straight or flat line. This is a matter of judgement.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="checking-for-normality-residuals" class="slide level2">
+<h2>Checking for normality (residuals)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-2117442079.png"></p>
+</div><div class="column" style="width:50%;">
+<p>Regression models rely on a normality assumption: the residuals should be normally distributed.</p>
+<p>Using Jamovi</p>
+<ul>
+<li>In Jamovi, you can draw a QQ-plot via the ‘Assumption Checks’ - ‘Assumption Checks’ - ‘Q-Q plot of residuals’ option.</li>
+</ul>
+<p>Interpreting Results</p>
+<ul>
+<li>The output shows the standardized residuals plotted as a function of their theoretical quantiles according to the regression model. The dots should be somewhat near the line.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="checking-for-normality-residuals-cont." class="slide level2 smaller scrollable">
+<h2>Checking for normality (residuals), cont.</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/image-972051397.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/image-576762059.png"></p>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/image-1155124670.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images/image-1901862958.png"></p>
+</div>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Checking Relationship between Predicted Values and Residuals</p>
+<ul>
+<li>In Jamovi, you can use the ‘Residuals Plots’ option to check the relationship between predicted values and residuals.</li>
+<li>The output provides a scatterplot for each <code>predictor variable</code>, the <code>outcome variable</code>, and the <code>predicted values</code> against residuals.</li>
+</ul>
+<p>Interpreting Results</p>
+<ul>
+<li><p>We are looking for a fairly uniform distribution of dots with no clear bunching or patterning.</p>
+<ul>
+<li>The dots are fairly evenly spread across the whole plot <i class="bi-emoji-smile" style="" role="img" aria-hidden="true"></i></li>
+</ul>
+<p>Issues with the relationship between predicted values and residuals? <i class="bi-emoji-frown" style="" role="img" aria-hidden="true"></i></p>
+<ul>
+<li>Transform one or more of the variables (Box-Cox Transform in jamovi)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="checking-for-equality-of-variance" class="slide level2 smaller scrollable">
+<h2>Checking for equality of variance</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-1571155407.png"></p>
+</div><div class="column" style="width:50%;">
+<p>Regression models make an assumption of equality (homogeneity) of variance.</p>
+<ul>
+<li>This means that the variance of the residuals is assumed to be constant.</li>
+</ul>
+<p>Plotting Equality of Variance in Jamovi</p>
+<ul>
+<li>To check this assumption in Jamovi, first calculate the square root of the absolute size of the residual.
+<ul>
+<li>Compute this new variable using the formula <code>SQRT(ABS(Residuals))</code></li>
+</ul></li>
+<li>Then plot this against the predicted values.</li>
+<li>The plot should show a straight horizontal line running through the middle.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="checking-for-collineary" class="slide level2 smaller scrollable">
+<h2>Checking for Collineary</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-16520368.png" width="335"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Variance Inflation Factors (VIFs) can be used to determine if predictors in a regression model are too highly correlated with each other.
+<ul>
+<li>Each predictor has an associated VIF.</li>
+</ul></li>
+<li>In Jamovi, click on the ‘Collinearity’ checkbox in the ‘Regression’ - ‘Assumptions’ options to see VIF values.</li>
+<li>Interpreting VIF
+<ul>
+<li>A VIF of 1 means no correlation among the predictor and the remaining predictor variables</li>
+<li>VIFs exceeding 4 warrant further investigation</li>
+<li>VIFs exceeding 10 are signs of serious multicollinearity requiring correction</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="checking-for-outliers" class="slide level2 smaller scrollable">
+<h2>Checking for outliers</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-1539623535.png"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Used in regression analysis to identify influential data points that may negatively affect your regression model</li>
+<li>Datasets with a large number of highly influential points might not be suitable for linear regression without further processing such as outlier removal or imputation</li>
+<li>Identifying Outliers
+<ul>
+<li>A general rule of thumb: Cook’s distance greater than 1 is often considered large</li>
+</ul></li>
+<li>What if the value is greater than 1?
+<ul>
+<li><p>remove the outlier and run the regression again</p></li>
+<li><p>How? In jamovi you can save the Cook’s distance values to the dataset, then draw a boxplot of the Cook’s distance values to identify the specific outliers.</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 
 
 <img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://drfurtado.github.io/kin610/">https://drfurtado.github.io/kin610/</a></p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-navarro2022" class="csl-entry" role="listitem">
+Navarro, Danielle J, and David R Foxcroft. 2022. <em>Learning Statistics with Jamovi: A Tutorial for Psychology Students and Other Beginners (Version 0.75)</em>. Danielle J. Navarro; David R. Foxcroft. <a href="https://doi.org/10.24384/HGC3-7P15">https://doi.org/10.24384/HGC3-7P15</a>.
+</div>
 </div>
 </section></section>
     </div>
