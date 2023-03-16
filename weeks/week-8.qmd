@@ -22,8 +22,6 @@ editor: visual
 -   Deadlines
     -   Quiz
     -   Takeaways
-
-Download the lesson in [PDF](week-8.pdf)
 :::
 
 ::: callout-note
@@ -32,11 +30,11 @@ I will post an announcement on Canvas when there are changes to this page.
 
 ## Prepare
 
-Simple Linear Regression
+Simple & Multiple Linear Regression
 
--   Read Furtado (coming soon)
--   Read [@navarro2022, chap. 12.3-12.4]
--   Test your knowledge here (coming soon)
+-   Read [@navarro2022, chap. 12.3-12.12]
+-   Videos
+    -   [Linear regression](https://youtu.be/_5AVGuEzCXc?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
 
 ## Participate
 

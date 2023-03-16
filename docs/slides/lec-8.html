@@ -7,7 +7,8 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.272">
 
   <meta name="author" content="Dr.&nbsp;Ovande Furtado Jr">
@@ -396,11 +397,11 @@ Dr.&nbsp;Ovande Furtado Jr
 <section id="the-formula-for-a-straight-line" class="slide level2">
 <h2>The formula for a straight line</h2>
 <ul>
-<li><p>Usually written like this: y = a + bx</p></li>
-<li><p>Two variables: x and y</p></li>
-<li><p>Two coefficients: a and b</p></li>
-<li><p>Coefficient a represents the y-intercept of the line</p></li>
-<li><p>Coefficient b represents the slope of the line</p></li>
+<li><p>Usually written like this: <span class="math inline">\(y = a + bx\)</span></p></li>
+<li><p>Two variables: <span class="math inline">\(x\)</span> and <span class="math inline">\(y\)</span></p></li>
+<li><p>Two coefficients: <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span></p></li>
+<li><p>Coefficient <span class="math inline">\(a\)</span> represents the <code>y-intercept</code> of the line</p></li>
+<li><p>Coefficient <span class="math inline">\(b\)</span> represents the <code>slope</code> of the line</p></li>
 </ul>
 </section>
 <section id="the-interpretation-of-intercept-and-slope" class="slide level2">
@@ -412,42 +413,68 @@ Dr.&nbsp;Ovande Furtado Jr
 <li><p>Negative slope: <span class="math inline">\(y\)</span> goes down as <span class="math inline">\(x\)</span> goes up</p></li>
 </ul>
 </section>
-<section id="the-formula-for-a-regression-line" class="slide level2">
-<h2>The formula for a regression line</h2>
+<section id="the-formula-for-a-regression-line" class="slide level2 smaller">
+<h2>The formula for a Regression line</h2>
 <ul>
-<li><p>Same as the formula for a straight line, but with some extra notation</p></li>
-<li><p>Written like this: <span class="math inline">\(\hat{y}_i = b_0 + b_1 x_i\)</span></p></li>
-<li><p><span class="math inline">\(\hat{y}\_i\)</span>: the predicted value of the outcome variable (<span class="math inline">\(y\)</span>) for observation <span class="math inline">\(i\)</span></p></li>
-<li><p><span class="math inline">\({y}_i\)</span>: the actual value of the outcome variable (<span class="math inline">\(y\)</span>) for observation <span class="math inline">\(i\)</span></p></li>
-<li><p><span class="math inline">\({x}_i\)</span>: the value of the predictor variable (<span class="math inline">\(x\)</span>) for observation <span class="math inline">\(i\)</span></p></li>
-<li><p><span class="math inline">\({b}_0\)</span>: the estimated intercept of the regression line</p></li>
-<li><p><span class="math inline">\({b}_1\)</span>: the estimated slope of the regression line</p></li>
+<li><p>Same as the formula for a <code>straight line</code>, but with some <code>extra notation</code></p></li>
+<li><p>So if <span class="math inline">\(y\)</span> is the outcome variable (DV) and <span class="math inline">\(x\)</span> is the predictor variable (IV), then:</p></li>
 </ul>
+<p><span class="math display">\[\hat{y}_i = b_0 + b_1 x_i\]</span></p>
+<p><span class="math inline">\(\hat{y}_i\)</span>: the predicted value of the <code>outcome variable</code> (<span class="math inline">\(y\)</span>) for observation <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\({y}_i\)</span>: the actual value of the <code>outcome variable</code> (<span class="math inline">\(y\)</span>) for observation <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\({x}_i\)</span>: the value of the <code>predictor variable</code> (<span class="math inline">\(x\)</span>) for observation <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\({b}_0\)</span>: the estimated <code>intercept</code> of the regression line</p>
+<p><span class="math inline">\({b}_1\)</span>: the estimated <code>slope</code> of the regression line</p>
+<aside class="notes">
+<p>xi is the value of the predictor variable (#of hours on day 1) and yi is the corresponding value of the outcome variable (grumpiness on that day) - works for all observations.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="the-assumptions-of-the-regression-model" class="slide level2">
+<section id="the-assumptions-of-the-regression-model" class="slide level2 smaller">
 <h2>The assumptions of the regression model</h2>
 <ul>
-<li><p>We assume that the formula \hat{y}_i = b_0 + b_1 x_i works for all observations in the data set (i.e., for all i)</p></li>
-<li><p>We distinguish between the actual data {y}_i and the estimate \hat{y}_i (i.e., the prediction that our regression line is making)</p></li>
-<li><p>We use b_0 and b_1 to refer to the coefficients of the regression model</p>
+<li><p>We assume that the formula works for all observations in the data set (i.e., for all i)</p></li>
+<li><p>We distinguish between the actual data <span class="math inline">\({y}_i\)</span> and the estimate <span class="math inline">\(\hat{y}_i\)</span> (i.e., the prediction that our regression line is making)</p></li>
+<li><p>We use <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span> to refer to the coefficients of the regression model</p>
 <ul>
-<li><p>b_0: the estimated intercept of the regression line</p></li>
-<li><p>b_1: the estimated slope of the regression line</p></li>
+<li><p><span class="math inline">\(b_0\)</span>: the estimated intercept of the regression line</p></li>
+<li><p><span class="math inline">\(b_1\)</span>: the estimated slope of the regression line</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="the-residuals-of-the-regression-model" class="slide level2">
-<h2>The residuals of the regression model</h2>
+<section id="residuals-of-the-regression-model" class="slide level2 smaller">
+<h2>Residuals of the Regression model</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="lec-8_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+</div>
+</div>
+<p>Now, we have the complete linear regression model</p>
+<p><span class="math display">\[\hat{y}_i = b_0 + b_1 x_i + {e}_i\]</span></p>
+</div><div class="column" style="width:40%;">
 <ul>
 <li><p>The data do not fall perfectly on the regression line</p></li>
-<li><p>The difference between the model prediction and that actual data point is called a residual, and we refer to it as {e}_i</p></li>
-<li><p>Mathematically, the residuals are defined as {e}_i = {y}_i - \hat{y}_i</p></li>
+<li><p>The difference between the model prediction and that actual data point is called a residual, and we refer to it as <span class="math inline">\({e}_i\)</span></p></li>
+<li><p>Mathematically, the residuals are defined as <span class="math inline">\({e}_i = {y}_i - \hat{y}_i\)</span></p></li>
 <li><p>The residuals measure how well the regression line fits the data</p>
 <ul>
-<li><p>Smaller residuals: better fit</p></li>
-<li><p>Larger residuals: worse fit</p></li>
+<li>Smaller residuals: better fit</li>
+<li>Larger residuals: worse fit</li>
 </ul></li>
 </ul>
+</div>
+</div>
 </section>
 <section id="estimating-a-linear-regression-model" class="slide level2">
 <h2>Estimating a linear regression model</h2>
@@ -458,19 +485,10 @@ Dr.&nbsp;Ovande Furtado Jr
 <li><p>Smaller residuals mean better fit, larger residuals mean worse fit</p></li>
 </ul>
 </section>
-<section id="the-method-of-least-squares" class="slide level2">
-<h2>The method of least squares</h2>
-<ul>
-<li><p>We can find the best fitting regression line by minimizing the sum of the squared residuals</p></li>
-<li><p>This is called the method of least squares</p></li>
-<li><p>Mathematically, we want to find \hat{b}_0 and \hat{b}_1 that minimize \sum_i (Y_i - \hat{Y}_i)^2 or \sum_i \epsilon_i^2</p></li>
-<li><p>There are formulas to calculate \hat{b}_0 and \hat{b}_1 from the data</p></li>
-</ul>
-</section>
 <section id="ordinary-least-squares-regression" class="slide level2">
 <h2>Ordinary least squares regression</h2>
 <ul>
-<li><p>We use the method of least squares to estimate the regression coefficients</p></li>
+<li><p>We use the method of <code>least squares</code> to estimate the <code>regression coefficients</code></p></li>
 <li><p>The regression coefficients are estimates of the population parameters</p></li>
 <li><p>We use <span class="math inline">\(\hat{b}_0\)</span> and <span class="math inline">\(\hat{b}_1\)</span> to denote the estimated coefficients</p></li>
 <li><p>Ordinary least squares (OLS) regression is the most common way to estimate a linear regression model</p></li>
@@ -485,43 +503,47 @@ Dr.&nbsp;Ovande Furtado Jr
 <li><p>jamovi will also provide other useful information about the regression model</p></li>
 </ul>
 </section>
-<section id="linear-regression-in-jamovi" class="slide level2">
-<h2>Linear regression in jamovi</h2>
+<section id="linear-regression-in-jamovi" class="slide level2 smaller">
+<h2>Linear Regression in jamovi</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
 <ul>
-<li><p>We can use jamovi to estimate a linear regression model from the data</p></li>
-<li><p>We need to specify the dependent variable and the covariate(s) in the analysis</p></li>
-<li><p>jamovi will output the estimated coefficients and other statistics</p></li>
+<li>We can use jamovi to estimate a linear regression model from the data</li>
+<li>We need to specify the <code>dependent variable</code> and the <code>covariate(s)</code> in the analysis</li>
+<li>jamovi will output the estimated coefficients and other statistics</li>
 </ul>
+</div><div class="column" style="width:70%;">
+<p><img data-src="images/image-1038690211.png"></p>
+</div>
+</div>
 </section>
 <section id="example-parenthood-data" class="slide level2">
 <h2>Example: Parenthood data</h2>
-<ul>
-<li><p>Data file: parenthood.csv</p></li>
-<li><p>Dependent variable: dani.grump (Dani’s grumpiness)</p></li>
-<li><p>Covariate: dani.sleep (Dani’s hours of sleep)</p></li>
-<li><p>Estimated intercept: \hat{b}_0 = 125.96</p></li>
-<li><p>Estimated slope: \hat{b}_1 = -8.94</p></li>
-<li><p>Regression equation: \hat{Y}_i=125.96+(-8.94 X_i)</p></li>
-</ul>
+<p>Data file: parenthood.csv (found in module <code>lsj data</code> in jamovi)</p>
+<p>Dependent variable: <code>dani.grump</code> (Dani’s grumpiness)</p>
+<p>Covariate: <code>dani.sleep</code> (Dani’s hours of sleep)</p>
+<p>Estimated intercept: <span class="math inline">\(\hat{b}_0\)</span> = 125.96</p>
+<p>Estimated slope: <span class="math inline">\(\hat{b}_1\)</span> = -8.94</p>
+<p>Regression equation: <span class="math inline">\(\hat{Y}_i = 125.96+(-8.94 X_i)\)</span></p>
 </section>
 <section id="interpreting-the-estimated-model" class="slide level2">
 <h2>Interpreting the estimated model</h2>
 <ul>
-<li><p>We need to understand what the estimated coefficients mean</p></li>
-<li><p>The slope \hat{b}_1 tells us how much the dependent variable changes when the covariate increases by one unit</p></li>
-<li><p>The intercept \hat{b}_0 tells us what the expected value of the dependent variable is when the covariate is zero</p></li>
+<li>We need to understand what the estimated coefficients mean</li>
+<li>The slope <span class="math inline">\(\hat{b}_1\)</span> tells us how much the <code>dependent variable</code> changes when the <code>covariate</code> increases by one unit</li>
+<li>The intercept <span class="math inline">\(\hat{b}_0\)</span> tells us what the expected value of the <code>dependent variable</code> is when the <code>covariate</code> is zero</li>
 </ul>
 </section>
 <section id="example-parenthood-data-1" class="slide level2">
 <h2>Example: Parenthood data</h2>
 <ul>
-<li><p>Dependent variable: <code>dani.grump</code> (Dani’s grumpiness)</p></li>
-<li><p>Covariate: <code>dani.sleep</code> (Dani’s hours of sleep)</p></li>
-<li><p>Estimated slope: <span class="math inline">\(\hat{b}_1\)</span> = -8.94</p>
+<li>Dependent variable: <code>dani.grump</code> (Dani’s grumpiness)</li>
+<li>Covariate: <code>dani.sleep</code> (Dani’s hours of sleep)</li>
+<li>Estimated slope: <span class="math inline">\(\hat{b}_1\)</span> = -8.94
 <ul>
-<li>Interpretation: Each additional hour of sleep reduces grumpiness by <code>8.94</code> points</li>
+<li>Interpretation: Each additional hour of sleep <code>reduces</code> grumpiness by <code>8.94</code> points</li>
 </ul></li>
-<li><p>Estimated intercept: <span class="math inline">\(\hat{b}_0\)</span> = 125.96</p>
+<li>Estimated intercept: <span class="math inline">\(\hat{b}_0\)</span> = 125.96
 <ul>
 <li>Interpretation: If Dani gets zero hours of sleep, her grumpiness will be <code>125.96</code> points</li>
 </ul></li>
@@ -535,154 +557,149 @@ Dr.&nbsp;Ovande Furtado Jr
 <section id="introduction" class="slide level2">
 <h2>Introduction</h2>
 <ul>
-<li><p>We can use more than one predictor variable to explain the variation in the outcome variable</p></li>
-<li><p>We can add more terms to our regression equation to represent each predictor variable</p></li>
+<li><p>We can use more than one <code>predictor variable</code> to explain the variation in the <code>outcome variable</code></p>
+<ul>
+<li>Add more terms to our regression equation to represent each predictor variable</li>
+</ul></li>
 <li><p>Each term has a coefficient that indicates how much the outcome variable changes when that predictor variable increases by one unit</p></li>
 </ul>
 </section>
-<section id="example-parenthood-data-2" class="slide level2">
+<section id="example-parenthood-data-2" class="slide level2 smaller">
 <h2>Example: Parenthood data</h2>
 <ul>
 <li><p>Outcome variable: <code>dani.grump</code> (Dani’s grumpiness)</p></li>
-<li><p>Predictor variables: <code>dani.sleep</code> (Dani’s hours of sleep) and <code>baby.sleep</code> (Baby’s hours of sleep)</p></li>
-<li><p>Regression equation: <span class="math inline">\(Y_i=b_0+b_1X_{i1}+b_2X_{i2}+\epsilon_i\)</span></p>
-<ul>
-<li><p><span class="math inline">\(Y_i\)</span>: Dani’s grumpiness on day <span class="math inline">\(i\)</span></p></li>
-<li><p><span class="math inline">\(X_{i1}\)</span>: Dani’s hours of sleep on day <span class="math inline">\(i\)</span></p></li>
-<li><p><span class="math inline">\(X_{i2}\)</span>: Baby’s hours of sleep on day <span class="math inline">\(i\)</span></p></li>
-<li><p><span class="math inline">\(b_0\)</span>: Intercept</p></li>
-<li><p><span class="math inline">\(b_1\)</span>: Coefficient for Dani’s sleep</p></li>
-<li><p><span class="math inline">\(b_2\)</span>: Coefficient for Baby’s sleep</p></li>
-<li><p><span class="math inline">\(\epsilon_i\)</span>: Error term on day <span class="math inline">\(i\)</span></p></li>
-</ul></li>
+<li><p>Predictor variables: <code>dani.sleep</code> (Dani’s hours of sleep) <strong>and</strong> <code>baby.sleep</code> (Baby’s hours of sleep)</p></li>
 </ul>
+<p>Regression equation: <span class="math inline">\(Y_i=b_0+b_1X_{i1}+b_2X_{i2}+\epsilon_i\)</span></p>
+<p><span class="math inline">\(Y_i\)</span>: Dani’s grumpiness on day <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\(X_{i1}\)</span>: Dani’s hours of sleep on day <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\(X_{i2}\)</span>: Baby’s hours of sleep on day <span class="math inline">\(i\)</span></p>
+<p><span class="math inline">\(b_0\)</span>: Intercept</p>
+<p><span class="math inline">\(b_1\)</span>: Coefficient for Dani’s sleep</p>
+<p><span class="math inline">\(b_2\)</span>: Coefficient for Baby’s sleep</p>
+<p><span class="math inline">\(\epsilon_i\)</span>: Error term on day <span class="math inline">\(i\)</span></p>
 </section>
 <section id="estimating-the-coefficients-in-multiple-regression" class="slide level2">
 <h2>Estimating the coefficients in multiple regression</h2>
 <ul>
-<li><p>We want to find the coefficients that minimise the sum of squared residuals</p></li>
-<li><p>Residuals are the differences between the observed and predicted values of the outcome variable</p></li>
-<li><p>We use a similar method as in simple regression, but with more terms in the equation</p></li>
+<li>We want to find the coefficients that minimize the sum of squared residuals</li>
+<li>Residuals are the differences between the observed and predicted values of the outcome variable</li>
+<li>We use a similar method as in <code>simple regression</code>, but with <code>more terms in the equation</code></li>
 </ul>
 </section>
-<section id="doing-it-in-jamovi" class="slide level2">
+<section id="doing-it-in-jamovi" class="slide level2 smaller">
 <h2>Doing it in jamovi</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-1898479417.png"></p>
+</div><div class="column" style="width:50%;">
 <ul>
-<li><p>jamovi can estimate multiple regression models easily</p></li>
-<li><p>We just need to add more variables to the ‘Covariates’ box in the analysis</p></li>
-<li><p>jamovi will output the estimated coefficients and other statistics for each predictor variable</p></li>
-<li><p>Example: The Table shows the coefficients for dani.sleep and baby.sleep as predictors of dani.grump</p></li>
+<li>jamovi can estimate multiple regression models easily</li>
+<li>We just need to add more variables to the <code>Covariates</code> box in the analysis</li>
+<li>jamovi will output the estimated coefficients and other statistics for each predictor variable</li>
+<li>The Table shows the coefficients for dani.sleep and baby.sleep as predictors of dani.grump</li>
 </ul>
+</div>
+</div>
 </section>
 <section id="interpreting-the-coefficients-in-multiple-regression" class="slide level2">
 <h2>Interpreting the coefficients in multiple regression</h2>
 <ul>
-<li><p>The coefficients tell us how much the outcome variable changes when one predictor variable increases by one unit, holding the other predictor variables constant</p></li>
-<li><p>The larger the absolute value of the coefficient, the stronger the effect of that predictor variable on the outcome variable</p></li>
-<li><p>The sign of the coefficient indicates whether the effect is positive or negative</p></li>
+<li>The coefficients tell us how much the <code>outcome variable</code> changes when <code>one predictor variable</code> increases by one unit, <code>holding</code> the other predictor variables <code>constant</code></li>
+<li>The <code>larger</code> the <strong>absolute</strong> value of the coefficient, the <code>stronger</code> the effect of that predictor variable on the outcome variable</li>
+<li>The sign of the coefficient indicates whether the effect is positive or negative</li>
 </ul>
 </section>
 <section id="example-parenthood-data-3" class="slide level2">
 <h2>Example: Parenthood data</h2>
 <ul>
-<li><p>Coefficient for dani.sleep: -8.94</p>
+<li><p>Coefficient (slope) for dani.sleep: <code>-8.94</code></p>
 <ul>
-<li>Interpretation: Each additional hour of sleep reduces Dani’s grumpiness by 8.94 points, regardless of how much sleep the baby gets</li>
+<li>Interpretation: Each additional hour of sleep <code>reduces</code> Dani’s grumpiness by <code>8.94 points</code>, regardless of how much sleep the baby gets</li>
 </ul></li>
-<li><p>Coefficient for baby.sleep: 0.07</p>
+<li><p>Coefficient (slope) for baby.sleep: 0.01</p>
 <ul>
-<li>Interpretation: Each additional hour of sleep for the baby increases Dani’s grumpiness by 0.07 points, regardless of how much sleep Dani gets</li>
+<li>Interpretation: Each additional hour of sleep for the baby <code>increases</code> Dani’s grumpiness by <code>0.01 points</code>, regardless of how much sleep Dani gets</li>
 </ul></li>
-<li><p>Figure 12.14 shows a 3D plot of the data and the regression model</p></li>
 </ul>
 </section>
 <section id="quantifying-the-fit-of-the-regression-model" class="slide level2">
 <h2>Quantifying the fit of the regression model</h2>
 <ul>
 <li><p>We want to know how well our regression model predicts the outcome variable</p></li>
-<li><p>We can compare the predicted values ($\hat{Y}_i$) to the observed values ($Y_i$) using two sums of squares</p>
+<li><p>We can compare the predicted values ( <span class="math inline">\(\hat{Y}_i\)</span> ) to the observed values ( <span class="math inline">\(Y_i\)</span> ) using two sums of squares</p>
 <ul>
-<li><p>Residual sum of squares ($SS_{res}$): measures how much error there is in our predictions</p></li>
-<li><p>Total sum of squares ($SS_{tot}$): measures how much variability there is in the outcome variable</p></li>
+<li><p><code>Residual</code> sum of squares ( <span class="math inline">\(SS_{res}\)</span> ): measures how much error there is in our predictions</p></li>
+<li><p><code>Total</code> sum of squares ( <span class="math inline">\(SS_{tot}\)</span> ): measures how much variability there is in the outcome variable</p></li>
 </ul></li>
 </ul>
 </section>
-<section id="the-r2-value" class="slide level2">
-<h2>The <span class="math inline">\(R^2\)</span> value</h2>
+<section id="the-r2-value-effect-size" class="slide level2 smaller">
+<h2>The <span class="math inline">\(R^2\)</span> value (effect size)</h2>
 <ul>
-<li><p>The <span class="math inline">\(R^2\)</span> value is a proportion that tells us how much of the variability in the outcome variable is explained by our regression model</p></li>
+<li><p>The <span class="math inline">\(R^2\)</span> value is a proportion that tells us how much of the <code>variability</code> in the <code>outcome variable</code> is explained by our <code>regression model</code></p></li>
 <li><p>It is calculated as:</p></li>
 </ul>
 <p><span class="math display">\[R^2=1-\frac{SS_{res}}{SS_{tot}}\]</span></p>
 <ul>
-<li><p>It ranges from 0 to 1, with higher values indicating better fit</p></li>
-<li><p>It can be interpreted as the percentage of variance explained by our regression model</p></li>
+<li><p>It ranges from 0 to 1, with <code>higher</code> values indicating <code>better fit</code></p></li>
+<li><p>It can be interpreted as the <code>percentage of variance explained by our regression model</code></p></li>
 </ul>
 </section>
 <section id="the-relationship-between-regression-and-correlation" class="slide level2">
 <h2>The relationship between regression and correlation</h2>
 <ul>
 <li><p>Regression and correlation are both ways of measuring the strength and direction of a linear relationship between two variables</p></li>
-<li><p>For a simple regression model with one predictor variable, the <span class="math inline">\(R^2\)</span> value is equal to the square of the Pearson correlation coefficient (<span class="math inline">\(r^2\)</span>)</p></li>
-<li><p>Running a Pearson correlation is equivalent to running a simple linear regression model</p></li>
+<li><p>For a <code>simple regression</code> model with one predictor variable, the <span class="math inline">\(R^2\)</span> value is <code>equal</code> to the square of the Pearson correlation coefficient (<span class="math inline">\(r^2\)</span>)</p>
+<ul>
+<li>Running a Pearson correlation is equivalent to running a simple linear regression model</li>
+</ul></li>
 </ul>
 </section>
 <section id="the-adjusted-r2-value" class="slide level2">
 <h2>The adjusted <span class="math inline">\(R^2\)</span> value</h2>
 <ul>
-<li><p>The adjusted <span class="math inline">\(R^2\)</span> value is a modified version of the <span class="math inline">\(R^2\)</span> value that takes into account the number of predictors in the model</p></li>
-<li><p>It penalizes adding more predictors that do not improve the model performance significantly</p></li>
-<li><p>It can be used to compare different regression models with different numbers of predictors</p></li>
-<li><p>It does not have a simple interpretation as the proportion of variance explained by the model</p></li>
-</ul>
-</section>
-<section id="the-adjusted-r2-value-cont." class="slide level2">
-<h2>The adjusted <span class="math inline">\(R^2\)</span> value (cont.)</h2>
+<li>The adjusted <span class="math inline">\(R^2\)</span> value is a modified version of the <span class="math inline">\(R^2\)</span> value that takes into account the number of predictors in the model
 <ul>
-<li><p>The adjusted $R^2$ value adjusts for the degrees of freedom in the model</p></li>
-<li><p>It increases only if adding a predictor improves the model more than expected by chance</p></li>
-<li><p>It does not have a clear interpretation as the proportion of variance explained by the model</p></li>
+<li>The adjusted <span class="math inline">\(R^2\)</span> value adjusts for the degrees of freedom in the model</li>
+</ul></li>
+<li>It increases only <code>if adding a predictor</code> improves the model more than expected by chance</li>
 </ul>
 </section>
 <section id="which-one-to-report-r2-or-adjusted-r2" class="slide level2">
 <h2>Which one to report: <span class="math inline">\(R^2\)</span> or adjusted <span class="math inline">\(R^2\)</span>?</h2>
 <ul>
-<li><p>There is no definitive answer to this question</p></li>
-<li><p>It depends on your preference and your research question</p></li>
-<li><p>Some factors to consider are:</p>
+<li>There is no definitive answer to this question</li>
+<li>It depends on your preference and your research question</li>
+<li>Some factors to consider are:
 <ul>
 <li><p>Interpretability: <span class="math inline">\(R^2\)</span> is easier to understand and explain</p></li>
 <li><p>Bias correction: Adjusted <span class="math inline">\(R^2\)</span> is less likely to overestimate the model performance</p></li>
 <li><p>Hypothesis testing: There are other ways to test if adding a predictor improves the model significantly</p></li>
 </ul></li>
 </ul>
-</section></section>
-<section id="hypothesis-tests-for-regression-models" class="title-slide slide level1 center">
-<h1>Hypothesis tests for regression models</h1>
+</section>
+<section id="hypothesis-tests-for-regression-models" class="slide level2 smaller">
+<h2>Hypothesis tests for regression models</h2>
 <ul>
-<li><p>We can use hypothesis tests to evaluate the significance of our regression model and its coefficients</p></li>
-<li><p>There are two types of hypothesis tests for regression models:</p>
+<li>We can use hypothesis tests to evaluate the <code>significance</code> of our regression model and its <code>coefficients</code></li>
+<li>There are two types of hypothesis tests for regression models:
 <ul>
-<li><p>Testing the model as a whole: Is there any relationship between the predictors and the outcome?</p></li>
-<li><p>Testing a specific coefficient: Is a particular predictor significantly related to the outcome?</p></li>
+<li><p>Testing the <code>model as a whole</code>: Is there any relationship between the predictors and the outcome?</p></li>
+<li><p>Testing a <code>specific coefficient</code>: Is a particular predictor significantly related to the outcome?</p></li>
 </ul></li>
 </ul>
 </section>
-
-<section>
-<section id="testing-the-model-as-a-whole" class="title-slide slide level1 center">
-<h1>Testing the model as a whole</h1>
+<section id="test-the-model-as-a-whole" class="slide level2 smaller">
+<h2>Test the model as a whole</h2>
+<p><span class="math inline">\(H_0\)</span>: there is no relationship between the predictors and the outcome</p>
+<p><span class="math inline">\(H_a\)</span>: data follow the regression model</p>
+<p><span class="math display">\[F=\frac{(R^2/K)}{(1-R^2)/(N-K-1)}\]</span></p>
 <ul>
-<li><p>The null hypothesis is that there is no relationship between the predictors and the outcome</p></li>
-<li><p>The alternative hypothesis is that the data follow the regression model</p></li>
-<li><p>We can use an F-test to compare our regression model to a null model that only has an intercept</p></li>
-<li><p>The F-test statistic is calculated as:</p></li>
-</ul>
-<p><span class="math display">\[F=\frac{(R2/K)}{(1-R2)/(N-K-1)}\]</span></p>
-<ul>
-<li><p>where <span class="math inline">\(R^2\)</span> is the proportion of variance explained by our model, <span class="math inline">\(K\)</span> is the number of predictors, and <span class="math inline">\(N\)</span> is the number of observations</p></li>
-<li><p>The F-test statistic follows an F-distribution with <span class="math inline">\(K\)</span> and <span class="math inline">\(N-K-1\)</span> degrees of freedom</p></li>
-<li><p>We can use a p-value to determine if our F-test statistic is significant</p></li>
+<li>where <span class="math inline">\(R^2\)</span> is the proportion of variance explained by our model, <span class="math inline">\(K\)</span> is the number of predictors, and <span class="math inline">\(N\)</span> is the number of observations</li>
+<li>The F-test statistic follows an F-distribution with <span class="math inline">\(K\)</span> and <span class="math inline">\(N-K-1\)</span> degrees of freedom</li>
+<li>We can use a <code>p-value</code> to determine if our F-test statistic <code>is significant</code></li>
+<li><i class="bi-emoji-smile" style="" role="img" aria-hidden="true"></i> jamovi can do this for us!</li>
 </ul>
 </section>
 <section id="tests-for-individual-coefficients" class="slide level2">
@@ -690,35 +707,26 @@ Dr.&nbsp;Ovande Furtado Jr
 <ul>
 <li><p>The F-test checks if the model as a whole is performing better than chance</p></li>
 <li><p>If the F-test is not significant, then the regression model may not be good</p></li>
-<li><p>However, passing the F-test does not imply that the model is good</p></li>
+<li><p>However, passing the F-test does not imply that the model is good <i class="bi-emoji-frown" style="" role="img" aria-hidden="true"></i></p></li>
 </ul>
 </section>
-<section id="example-of-multiple-linear-regression-model" class="slide level2">
-<h2>Example of Multiple Linear Regression Model</h2>
+<section id="example-of-multiple-linear-regression" class="slide level2">
+<h2>Example of Multiple Linear Regression</h2>
 <ul>
-<li><p>The estimated regression coefficient for baby.sleep variable is small compared to dani.sleep variable</p></li>
-<li><p>Both variables are measured in “hours slept”</p></li>
-<li><p>This suggests that only the amount of sleep matters in predicting grumpiness</p></li>
+<li><p>In a multiple linear regression model with baby.sleep and dani.sleep as predictors:</p>
+<ul>
+<li><p>The estimated regression coefficient for baby.sleep is small (0.01) compared to dani.sleep (-.8.95)</p></li>
+<li><p>This suggests that only dani.sleep matters in predicting grumpiness</p></li>
+</ul></li>
 </ul>
 </section>
-<section id="hypothesis-testing-with-t-test" class="slide level2">
-<h2>Hypothesis Testing with t-test</h2>
+<section id="hypothesis-testing-for-regression-coefficients" class="slide level2">
+<h2>Hypothesis Testing for Regression Coefficients</h2>
 <ul>
-<li><p>The t-test can be used to test if the true regression coefficient is zero</p></li>
-<li><p>Null hypothesis: $b = 0$</p></li>
-<li><p>Alternative hypothesis: $b \neq 0$</p></li>
+<li>A t-test can be used to test if a regression coefficient is significantly different from zero</li>
 </ul>
-<p>based on the selected text:</p>
-</section>
-<section id="testing-the-central-limit-theorem" class="slide level2">
-<h2><strong>Testing the Central Limit Theorem</strong></h2>
-<ul>
-<li><p>The sampling distribution of the estimated regression coefficient is a normal distribution with mean centered on b</p></li>
-<li><p>If the null hypothesis is true, then the sampling distribution of $\hat{b}$ has mean zero and unknown standard deviation</p></li>
-<li><p>A good estimate for the standard error of the regression coefficient can be used to define a t-statistic</p></li>
-<li><p>The degrees of freedom in this case are $df = N - K - 1$</p></li>
-<li><p>The standard error of the estimated regression coefficient depends on both predictor and outcome variables and is sensitive to violations of homogeneity of variance assumption</p></li>
-</ul>
+<p><span class="math inline">\(H_0\)</span>: b = 0 (the true regression coefficient is zero)</p>
+<p><span class="math inline">\(H_0\)</span>: b ≠ 0 (the true regression coefficient is not zero)</p>
 </section>
 <section id="running-hypothesis-tests-in-jamovi" class="slide level2">
 <h2>Running Hypothesis Tests in Jamovi</h2>
@@ -730,31 +738,87 @@ Dr.&nbsp;Ovande Furtado Jr
 <section id="output" class="slide level2">
 <h2>Output</h2>
 
-<img data-src="images/image-65477197.png" class="r-stretch"></section>
-<section id="model-coefficients" class="slide level2">
-<h2>Model Coefficients</h2>
+<img data-src="images/image-65477197.png" class="r-stretch"><aside class="notes">
+<p>Model Coefficients</p>
 <ul>
-<li><p>Located at bottom of jamovi analysis results</p></li>
-<li><p>Each row refers to one coefficient in regression model</p></li>
-<li><p>First row is intercept term; later rows look at each predictor</p></li>
+<li>Located at bottom of jamovi analysis results</li>
+<li>Each row refers to one coefficient in regression model</li>
+<li>First row is intercept term; later rows look at each predictor</li>
+</ul>
+<p>Coefficient Information</p>
+<ul>
+<li>First column: estimate of b</li>
+<li>Second column: standard error estimate</li>
+<li>Third and fourth columns: lower and upper values for 95% confidence interval around b estimate</li>
+<li>Fifth column: t-statistic ( <span class="math inline">\(t = b / se(b)\)</span> )</li>
+<li>Last column: p-value for each test</li>
+</ul>
+<p>Degrees of Freedom</p>
+<ul>
+<li>Not listed in coefficients table itself</li>
+<li>Always N - K - 1</li>
+<li>Listed in table at top of output</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="interpretation" class="slide level2 smaller">
+<h2>Interpretation</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/image-1183448681.png"></p>
+<p>Conclusion</p>
+<ul>
+<li>The current regression model may not be the best fit for the data</li>
+<li>Dropping <code>baby.sleep</code> predictor entirely may <code>improve</code> the model</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>The model performs significantly better than chance
+<ul>
+<li><p><span class="math inline">\(F(2,97) = 215.24\)</span>, <span class="math inline">\(p&lt; .001\)</span></p></li>
+<li><p><span class="math inline">\(R^2 = .81\)</span> value indicates that the regression model accounts for 81% of the variability in the outcome measure</p></li>
+</ul></li>
+<li>Individual Coefficients
+<ul>
+<li><p><code>baby.sleep</code> variable has no significant effect</p></li>
+<li><p>All work in this model is being done by the <code>dani.sleep</code> variable</p></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="assumptions-of-regression" class="slide level2 smaller">
+<h2>Assumptions of Regression</h2>
+<p>The linear regression model relies on several assumptions.</p>
+<ul>
+<li><p>Linearity: The relationship between X and Y is assumed to be linear.</p></li>
+<li><p>Independence: Residuals are assumed to be independent of each other.</p></li>
+<li><p>Normality: The residuals are assumed to be normally distributed.</p></li>
+<li><p>Equality of Variance: The standard deviation of the residual is assumed to be the same for all values of Y-hat.</p></li>
 </ul>
 </section>
-<section id="coefficient-information" class="slide level2">
-<h2>Coefficient Information</h2>
+<section id="assumptions-of-regression-cont." class="slide level2 smaller">
+<h2>Assumptions of Regression, cont.</h2>
+<p>Also…</p>
 <ul>
-<li><p>First column: estimate of b</p></li>
-<li><p>Second column: standard error estimate</p></li>
-<li><p>Third and fourth columns: lower and upper values for 95% confidence interval around b estimate</p></li>
-<li><p>Fifth column: t-statistic (t = b / se(b))</p></li>
-<li><p>Last column: p-value for each test</p></li>
-</ul>
-</section>
-<section id="degrees-of-freedom" class="slide level2">
-<h2>Degrees of Freedom</h2>
+<li><p>Uncorrelated Predictors: In a multiple regression model, predictors should not be too strongly correlated with each other.</p>
 <ul>
-<li><p>Not listed in coefficients table itself</p></li>
-<li><p>Always N - K - 1</p></li>
-<li><p>Listed in table at top of output</p></li>
+<li>Strongly correlated predictors (collinearity) can cause problems when evaluating the model.</li>
+</ul></li>
+<li><p>No "Bad" Outliers: The regression model should not be too strongly influenced by one or two anomalous data points.</p>
+<ul>
+<li>Anomalous data points can raise questions about the adequacy of the model and trustworthiness of data.</li>
+</ul></li>
 </ul>
 </section>
 <section id="references" class="slide level2">
@@ -776,8 +840,6 @@ Dr.&nbsp;Ovande Furtado Jr
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
-  <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
-  <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -801,7 +863,6 @@ Dr.&nbsp;Ovande Furtado Jr
 'autoAnimateUnmatched': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
-'multiplex': {"secret":null,"id":"ebc3e31d47a2fff4","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -822,7 +883,7 @@ Dr.&nbsp;Ovande Furtado Jr
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'h.v',
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -863,7 +924,7 @@ Dr.&nbsp;Ovande Furtado Jr
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'default',
+        navigationMode: 'linear',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -975,12 +1036,50 @@ Dr.&nbsp;Ovande Furtado Jr
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
-          
+          RevealNotes,
           RevealSearch,
           RevealZoom
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
