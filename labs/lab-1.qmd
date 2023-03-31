@@ -2,10 +2,19 @@
 title: "Lab 1 - Data Collection"
 editor: visual
 reference-location: margin
-draft: true
+format: 
+  html:
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+  pdf:
+    toc: false
+    number-sections: true
+    colorlinks: true
+draft: false
 ---
 
-## Introduction
+## Introductions
 
 This lab in intended to collect data that will be used for several purposes throughout the semester.
 

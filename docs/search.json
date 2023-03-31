@@ -35,6 +35,76 @@
     "text": "Data\n\n\n\nGender\nReaction Time (ms)\n\n\n\n\nMale\n215\n\n\nMale\n203\n\n\nMale\n197\n\n\nMale\n208\n\n\nMale\n222\n\n\nMale\n212\n\n\nMale\n194\n\n\nMale\n219\n\n\nMale\n201\n\n\nMale\n214\n\n\nFemale\n185\n\n\nFemale\n172\n\n\nFemale\n190\n\n\nFemale\n165\n\n\nFemale\n150\n\n\nFemale\n180\n\n\nFemale\n195\n\n\nFemale\n170\n\n\nFemale\n210\n\n\nFemale\n148"
   },
   {
+    "objectID": "labs/lab-3.html",
+    "href": "labs/lab-3.html",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Here are the learning objectives for this assignment:\n\nUnderstand the concepts of simple and multiple regression analysis in the context of Kinesiology.\nDevelop proficiency in using jamovi to conduct and interpret simple and multiple regression analyses.\nLearn to interpret regression coefficients, R-squared values, and other related statistics from regression output.\nUnderstand the importance of assessing model assumptions and the impact of multicollinearity in multiple regression analysis.\nApply critical thinking skills to evaluate the relationships between multiple factors affecting athletic performance.\nDevelop the ability to interpret and communicate the results of regression analyses to both technical and non-technical audiences.\nEnhance problem-solving skills by addressing real-world Kinesiology-related questions using statistical analyses."
+  },
+  {
+    "objectID": "labs/lab-3.html#objective",
+    "href": "labs/lab-3.html#objective",
+    "title": "Lab 3",
+    "section": "",
+    "text": "Here are the learning objectives for this assignment:\n\nUnderstand the concepts of simple and multiple regression analysis in the context of Kinesiology.\nDevelop proficiency in using jamovi to conduct and interpret simple and multiple regression analyses.\nLearn to interpret regression coefficients, R-squared values, and other related statistics from regression output.\nUnderstand the importance of assessing model assumptions and the impact of multicollinearity in multiple regression analysis.\nApply critical thinking skills to evaluate the relationships between multiple factors affecting athletic performance.\nDevelop the ability to interpret and communicate the results of regression analyses to both technical and non-technical audiences.\nEnhance problem-solving skills by addressing real-world Kinesiology-related questions using statistical analyses."
+  },
+  {
+    "objectID": "labs/lab-3.html#introduction",
+    "href": "labs/lab-3.html#introduction",
+    "title": "Lab 3",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to this week’s lab on regression analysis using jamovi! In this lab, we will be applying the concepts of simple and multiple regression analysis to a dataset related to Kinesiology. The dataset contains information on various factors affecting athletic performance."
+  },
+  {
+    "objectID": "labs/lab-3.html#sec-dataset",
+    "href": "labs/lab-3.html#sec-dataset",
+    "title": "Lab 3",
+    "section": "Dataset",
+    "text": "Dataset\nThe dataset is provided in a CSV format, which you can download here: data-lab3.csv\nThe dataset contains the following variables:\n\nID - Unique identifier for each participant\nAge - Age of the participant (in years)\nHeight - Height of the participant (in centimeters)\nWeight - Weight of the participant (in kilograms)\nBMI - Body Mass Index of the participant\nVO2max - Maximum oxygen consumption (in ml/kg/min)\n40YD - Time to complete a 40-yard dash (in seconds)\nVerticalJump - Maximum vertical jump height (in inches)"
+  },
+  {
+    "objectID": "labs/lab-3.html#sec-instructions",
+    "href": "labs/lab-3.html#sec-instructions",
+    "title": "Lab 3",
+    "section": "Instructions",
+    "text": "Instructions\nPart 1: Data Analysis using jamovi\n\nDownload and install jamovi (https://www.jamovi.org) if you haven’t already.\nOpen jamovi and import the data-lab3.csv file.\nPerform a simple regression analysis to predict VO2max based on Age.\nPerform a multiple regression analysis to predict VO2max based on Age, Height, Weight, and BMI.\nInterpret the results of both simple and multiple regression analyses.\n\nPart 2: Open-ended Questions\nAfter completing the data analysis in jamovi, please access Canvas to answer the 10 questions related to the analysis. I urge you to answer the questions first, then copy and paste them in Canvas.\nOpen-ended Questions\n\nWhat is the primary purpose of conducting a regression analysis?\nIn simple regression analysis, what is the role of the independent variable and the dependent variable?\nHow can you determine the strength and direction of the relationship between the independent and dependent variables in a simple regression analysis?\nWhat is the difference between simple and multiple regression analysis?\nHow do you interpret the R-squared value in a regression analysis?\nIn the simple regression analysis predicting VO2max based on Age, what is the direction of the relationship between Age and VO2max?\nIn the multiple regression analysis predicting VO2max, which variable(s) had a significant effect on VO2max?\nIn the multiple regression analysis predicting VO2max, which variable(s) had the strongest effect on VO2max?\nHow can multicollinearity affect the results of a multiple regression analysis?\nWhat can be done to address multicollinearity in a multiple regression analysis?\n\nRemember to submit your jamovi output and your responses to the multiple-choice questions on Canvas by the due date. Good luck!"
+  },
+  {
+    "objectID": "labs/lab-3.html#grading-rubric",
+    "href": "labs/lab-3.html#grading-rubric",
+    "title": "Lab 3",
+    "section": "Grading rubric",
+    "text": "Grading rubric\nTotal points available: 90\n\n\n\nComponent\nPoints\n\n\n\n\n10 open-ended questions\n90\n\n\njamovi output in PDF format\n10"
+  },
+  {
+    "objectID": "labs/lab-1.html",
+    "href": "labs/lab-1.html",
+    "title": "Lab 1 - Data Collection",
+    "section": "",
+    "text": "This lab in intended to collect data that will be used for several purposes throughout the semester.\n\n\nBelow, you will find the links to several cognitive tests. Wait for further instructions from your instruction before start taking the tests. This is important because becoming familiar with the tests before other students will likely add noise to the data.\n\n\nThis test measures how many words you can keep in short term memory at once. The number of words you need to remember grows continually, until you can’t keep them in your head anymore. Go as long as you can. You have 3 strikes until game over. Your score is how many turns you lasted.\n\n\n\nThe average person can only remember 7 digit numbers reliably. Can you do more? You will be presented with a single-digit number and be asked to remember it. The numbers will increase unit you can no longer remember.\n\n\n\nMemorize the sequence of buttons that light up, then press them in order. Every time you finish the pattern, it gets longer. Make a mistake, and the test is over.\n\n\n\nThis is a test of working memory, made famous by a study that found that chimpanzees consistently outperform humans on this task.\nIn the study, the chimps consistently outperformed humans, and some chimps were able to remember 9 digits over 90% of the time.\nThis test is a variant of that concept, that gets increasingly difficult every turn, starting at 4 digits, and adding one every turn. If you pass a level, the number increases. If you fail, you get a strike. Three strikes and the test is over.\n\n\n\nThis is a simple test of typing speed, measuring words per minute, or WPM. The standard measure of WPM is (number of characters / 5) / (time taken). By that measurement, “quick brown fox” is 15 characters, including spaces. The recorded score is WPM * Accuracy.\n\n\n\nThis is a simple tool to measure your reaction time. When the red box turns green, click on the screen as soon as you can. Then, click anywhere to start the new trial.\n\n\n\nClick the targets as quickly and accurately as you can. This tests reflexes and hand-eye coordination. Once you’ve clicked 30 targets, your score and average time per target will be displayed.\n\n\n\nEvery level, a number of tiles will flash white. Memorize them, and pick them again after the tiles are reset! Levels get progressively more difficult, to challenge your skills. If you miss 3 tiles on a level, you lose one life. You have three lives. Make it as far as you can!"
+  },
+  {
+    "objectID": "labs/lab-1.html#introductions",
+    "href": "labs/lab-1.html#introductions",
+    "title": "Lab 1 - Data Collection",
+    "section": "",
+    "text": "This lab in intended to collect data that will be used for several purposes throughout the semester.\n\n\nBelow, you will find the links to several cognitive tests. Wait for further instructions from your instruction before start taking the tests. This is important because becoming familiar with the tests before other students will likely add noise to the data.\n\n\nThis test measures how many words you can keep in short term memory at once. The number of words you need to remember grows continually, until you can’t keep them in your head anymore. Go as long as you can. You have 3 strikes until game over. Your score is how many turns you lasted.\n\n\n\nThe average person can only remember 7 digit numbers reliably. Can you do more? You will be presented with a single-digit number and be asked to remember it. The numbers will increase unit you can no longer remember.\n\n\n\nMemorize the sequence of buttons that light up, then press them in order. Every time you finish the pattern, it gets longer. Make a mistake, and the test is over.\n\n\n\nThis is a test of working memory, made famous by a study that found that chimpanzees consistently outperform humans on this task.\nIn the study, the chimps consistently outperformed humans, and some chimps were able to remember 9 digits over 90% of the time.\nThis test is a variant of that concept, that gets increasingly difficult every turn, starting at 4 digits, and adding one every turn. If you pass a level, the number increases. If you fail, you get a strike. Three strikes and the test is over.\n\n\n\nThis is a simple test of typing speed, measuring words per minute, or WPM. The standard measure of WPM is (number of characters / 5) / (time taken). By that measurement, “quick brown fox” is 15 characters, including spaces. The recorded score is WPM * Accuracy.\n\n\n\nThis is a simple tool to measure your reaction time. When the red box turns green, click on the screen as soon as you can. Then, click anywhere to start the new trial.\n\n\n\nClick the targets as quickly and accurately as you can. This tests reflexes and hand-eye coordination. Once you’ve clicked 30 targets, your score and average time per target will be displayed.\n\n\n\nEvery level, a number of tiles will flash white. Memorize them, and pick them again after the tiles are reset! Levels get progressively more difficult, to challenge your skills. If you miss 3 tiles on a level, you lose one life. You have three lives. Make it as far as you can!"
+  },
+  {
+    "objectID": "labs/lab-1.html#submission",
+    "href": "labs/lab-1.html#submission",
+    "title": "Lab 1 - Data Collection",
+    "section": "Submission",
+    "text": "Submission\n\nVisit the Human Benchmark Dashboard and copy the permalink associated with dashboard.\nVisit the Lab 1 assignment in Canvas and submit the link.\nWhile in class, you will be asked to input your scores on a spreadsheet. The data will be used throughout the semester for various purposes.\n\nLink to create ID: https://www.getuniqueid.com\n\nVisit the link above\nCopy ONLY the first sequence of characters + the first dash (9 characters including the dash)\nPaste the code sequence elsewhere (i.e., Word doc)\nAdd the current year and semester (i.e., spring2023 or fall2024) after the dash\nThe final form of your ID should look like this: c7b96573-spring2023\n\nSubmit scores here: https://bit.ly/3JYNheP\n\nVisit the Human Benchmark Dashboard\nOpen the link above; it will take you to a online spreadsheet (Google Sheets)\nEnter your ID in the ID column\nSelect the first test you completed under Test; then select Sex, Term, Year, and input the raw Score and the Percentile associated with the test you took.\nRepeat this process for the other tests"
+  },
+  {
+    "objectID": "labs/lab-1.html#grading",
+    "href": "labs/lab-1.html#grading",
+    "title": "Lab 1 - Data Collection",
+    "section": "Grading",
+    "text": "Grading\nTotal points available: 80 points.\n\n\n\nComponent\nPoints1\n\n\n\n\nTest 1\n10\n\n\nTest 2\n10\n\n\nTest 3\n10\n\n\nTest 4\n10\n\n\nTest 5\n10\n\n\nTest 6\n10\n\n\nTest 7\n10\n\n\nTest 8\n10\n\n\n\n\n\n1 To earn full points on each test, students must follow the instructions, take the test, and submit the scores and their respective percentiles via Canvas."
+  },
+  {
     "objectID": "labs/lab-0.html",
     "href": "labs/lab-0.html",
     "title": "Lab 0 - Meet + greet",
@@ -781,7 +851,7 @@
     "href": "slides/lec-8.html#residuals-of-the-regression-model",
     "title": "Week 8: Regression Analysis",
     "section": "Residuals of the Regression model",
-    "text": "Residuals of the Regression model\n\n\n\n\n\n\n\nNow, we have the complete linear regression model\n\\[\\hat{y}_i = b_0 + b_1 x_i + {e}_i\\]\n\n\nThe data do not fall perfectly on the regression line\nThe difference between the model prediction and that actual data point is called a residual, and we refer to it as \\({e}_i\\)\nMathematically, the residuals are defined as \\({e}_i = {y}_i - \\hat{y}_i\\)\nThe residuals measure how well the regression line fits the data\n\nSmaller residuals: better fit\nLarger residuals: worse fit"
+    "text": "Residuals of the Regression model\n\n\n\n# Generate some example data with a strong negative correlation\nset.seed(123)\nx &lt;- rnorm(100)\ny &lt;- -0.8*x + rnorm(100, sd=0.5)\n\n# Plot the data\nplot(x,y)\n\n# Add the best fit line\nabline(lm(y ~ x), col=\"red\")\n\n\n\n\nNow, we have the complete linear regression model\n\\[\\hat{y}_i = b_0 + b_1 x_i + {e}_i\\]\n\n\nThe data do not fall perfectly on the regression line\nThe difference between the model prediction and that actual data point is called a residual, and we refer to it as \\({e}_i\\)\nMathematically, the residuals are defined as \\({e}_i = {y}_i - \\hat{y}_i\\)\nThe residuals measure how well the regression line fits the data\n\nSmaller residuals: better fit\nLarger residuals: worse fit"
   },
   {
     "objectID": "slides/lec-8.html#estimating-a-linear-regression-model",
