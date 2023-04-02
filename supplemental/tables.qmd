@@ -2,64 +2,171 @@
 title: "Statistical Tables"
 ---
 
-::: panel-tabset
-## Tables
-
 The field of statistics relies heavily on mathematical formulas and calculations to make sense of data. Statistical tables, such as the z-table, t-table, f-table, and Pearson table, are essential tools for statisticians and researchers. These tables provide critical values for different probability distributions, enabling users to perform statistical tests, calculate confidence intervals, and make informed decisions based on data analysis.
 
+::: panel-tabset
 ## z-table
 
-The table shows the probabilities associated with various z-scores. Each row represents a different z-score, while the columns show the z-score value and the probability (rounded to two decimal places) of getting a z-score less than or equal to that value.
+To interpret the table containing z-values from 0.00 to 4.00 and their corresponding one-tailed and two-tailed probabilities, follow these steps:
 
-For example, if we look at the row where z is equal to 1.96, we see that the probability of getting a z-score less than or equal to 1.96 is 0.025 (1 - 0.9750). This means that if we have a normally distributed variable, and we want to find the probability of getting a z-score less than or equal to 1.96, we can look up that value in the table and find the corresponding probability. In this case, the probability is 0.9750, then subtract from 1. The result is the probability value.
+1.  Identify the type of test: Determine whether you are conducting a one-tailed or two-tailed test. A one-tailed test is used when the direction of the relationship is hypothesized, while a two-tailed test is used when no specific direction is hypothesized.
+2.  Locate the z-value: Calculate the z-value (z) for your data. This is typically obtained through hypothesis testing, such as the z-test or as part of the output of other tests like linear regression.
+3.  Find the probabilities: In the table, locate the row with the z-value closest to the calculated z-value from your data. In that row, you will find the one-tailed and two-tailed probabilities associated with that z-value.
 
-Conversely, if we have a probability and we want to find the z-score associated with it, we can use the table by looking for the probability in the second column and then reading the corresponding z-score from the first column. For example, if we have a probability of 0.9985, we can look for that value in the second column and find the corresponding z-score of 2.81 in the first column. Overall, this table can be a useful tool for working with the standard normal distribution, particularly when calculating probabilities or finding critical values for hypothesis tests.
+For one-tailed tests:
+
+-   The one-tailed probability represents the probability of observing a value as extreme as the calculated z-value or more extreme in the specified direction, given that the null hypothesis is true.
+
+For two-tailed tests:
+
+-   The two-tailed probability represents the probability of observing a value as extreme as the calculated z-value or more extreme in either direction, given that the null hypothesis is true.
+
+4.  Compare the probabilities with the desired significance level (α): The significance level, denoted as α, is the probability of rejecting the null hypothesis when it is true. Commonly used significance levels are 0.05 and 0.01. If the probability from the table is less than or equal to your chosen α, you can reject the null hypothesis, suggesting that there is a significant effect or relationship between the variables under consideration. If the probability is greater than α, you fail to reject the null hypothesis, meaning that there is not enough evidence to suggest a significant effect or relationship between the variables.
+
+Keep in mind that rejecting or failing to reject the null hypothesis does not prove causation, but rather indicates the presence or absence of a significant effect or relationship between the variables under certain assumptions.
+
+**The values under the one and two-tailed columns represent the area between the Mean and Z (in percent) in the normal distribution.**
 
 ```{r, echo=FALSE}
-# Set up a vector of z values
-z <- seq(0.00, 3.40, 0.01)
+suppressPackageStartupMessages(library(tidyverse))
 
-# Calculate the probabilities for each z value using pnorm()
-probabilities <- round(pnorm(z), 4)
+library(tidyverse)
+library(knitr)
 
-# Combine the z values and probabilities into a data frame
-table <- data.frame(z, probabilities)
+z_values <- seq(0, 4, by = 0.01) # Z-values from 0.00 to 4.00 with increments of 0.01
 
-# Print the table
-print(table)
+# Calculate one-tailed and two-tailed probabilities
+probabilities <- tibble(
+  z_value = z_values,
+  one_tailed_probability = pnorm(z_values, lower.tail = FALSE),
+  two_tailed_probability = 2 * pnorm(-abs(z_values))
+)
 
+# Format the table nicely using kable function from knitr package
+kable(probabilities,
+      caption = "Probabilities for z-values from 0.00 to 4.00",
+      align = "c",
+      digits = 4)
 
 ```
 
-## correlation
+## Student's t
 
 ```{r, echo=FALSE}
-# set up the degrees of freedom (df) range
-df <- 1:99
+# Set degrees of freedom and alpha levels
+df <- seq(1, 30)
+alpha <- c(0.05, 0.01, 0.001)
 
-# set up the alpha values
-alpha <- c(0.10, 0.05, 0.025, 0.01)
+# Create t-table distribution for two-tailed test
+t_table <- data.frame(df = rep(df, each = length(alpha)),
+                      alpha = rep(alpha, times = length(df)),
+                      tcritical = qt(1 - alpha/2, df))
 
-# set up an empty matrix to store the critical values
-crit_vals <- matrix(NA, nrow = length(df), ncol = length(alpha)+1)
+# Create t-table distribution for one-tailed test
+t_table_one_tailed <- data.frame(df = rep(df, each = length(alpha)),
+                                 alpha = rep(alpha, times = length(df)),
+                                 tcritical = qt(1 - alpha, df))
 
-# fill in the first column of the matrix with degrees of freedom
-crit_vals[,1] <- df
+# Display tables
+library(knitr)
+kable(t_table, digits = 3, caption = "t-table distribution for two-tailed test")
 
-# calculate the critical values and store them in the matrix
-for (i in 1:length(df)) {
-  for (j in 1:length(alpha)) {
-    crit_vals[i,j+1] <- round(qt(1-alpha[j]/2, df[i]), 3)
-  }
+kable(t_table_one_tailed, digits = 3, caption = "t-table distribution for one-tailed test")
+```
+
+## Pearson r
+
+To interpret the table containing critical values for Pearson's correlation coefficient for both one-tailed and two-tailed tests with sample sizes ranging from 5 to 100, follow these steps:
+
+-   Identify the type of test: Determine whether you are conducting a one-tailed or two-tailed test. A one-tailed test is used when the direction of the relationship is hypothesized, while a two-tailed test is used when no specific direction is hypothesized.
+
+-   Choose the desired significance level (α): The significance level, denoted as α, is the probability of rejecting the null hypothesis when it is true. Commonly used significance levels are 0.05 and 0.01.
+
+-   Locate the degrees of freedom (df): Degrees of freedom (df) are calculated as the sample size (n) minus 2. Find the row in the table corresponding to the df of your data.
+
+-   Find the critical value: In the table, locate the critical value corresponding to the selected test type (one-tailed or two-tailed), significance level (α), and degrees of freedom (df). This critical value is the threshold at which you will reject or fail to reject the null hypothesis.
+
+-   Compare the critical value with the calculated Pearson's correlation coefficient (r): Calculate the Pearson's correlation coefficient (r) for your data. If the absolute value of the calculated r is greater than or equal to the critical value found in the table, you can reject the null hypothesis, concluding that there is a significant relationship between the two variables. If the absolute value of the calculated r is less than the critical value, you fail to reject the null hypothesis, meaning that there is not enough evidence to suggest a significant relationship between the two variables.
+
+Remember that rejecting or failing to reject the null hypothesis does not prove causation, but rather indicates the presence or absence of a significant correlation between the two variables.
+
+```{r echo=FALSE}
+
+suppressPackageStartupMessages(library(tidyverse))
+
+# Function to calculate critical values for Pearson's correlation coefficient
+get_critical_values <- function(sample_sizes, alpha_levels, tail) {
+  df <- expand.grid(sample_size = sample_sizes, alpha = alpha_levels) %>% 
+    mutate(degrees_of_freedom = sample_size - 2,
+           critical_value = ifelse(tail == "two-tailed",
+                                   abs(qt(alpha/2, degrees_of_freedom)),
+                                   abs(qt(alpha, degrees_of_freedom)))) %>% 
+    select(alpha, degrees_of_freedom, critical_value) %>% 
+    mutate(test_tail = tail)
+  return(df)
 }
 
-# set the column names
-colnames(crit_vals) <- c("df", paste0("alpha=", alpha))
+sample_sizes <- seq(5, 100) # Sample sizes: 5, 6, 7, ..., 100
+alpha_levels <- c(0.05, 0.01) # Significance levels: 0.05 and 0.01
 
-# print the table
-crit_vals
+critical_values_one_tailed <- get_critical_values(sample_sizes, alpha_levels, "one-tailed")
+critical_values_two_tailed <- get_critical_values(sample_sizes, alpha_levels, "two-tailed")
 
+# Combine the one-tailed and two-tailed data frames
+combined_critical_values <- bind_rows(critical_values_one_tailed, critical_values_two_tailed)
+
+# Format the table nicely using kable function from knitr package
+knitr::kable(combined_critical_values,
+             caption = "Critical values for Pearson's correlation coefficient",
+             align = "c",
+             digits = 3)
 ```
 
-:::
+## F-table
 
+To interpret the F-table containing critical F-values for various degrees of freedom and significance levels, follow these steps:
+
+1.  Identify the degrees of freedom: Determine the numerator degrees of freedom (df1) and the denominator degrees of freedom (df2) for your data. This typically depends on the specific statistical test or model you are using, such as ANOVA or regression analysis.
+
+2.  Choose the significance level (α): Select the desired significance level (α) for your test. Commonly used significance levels are 0.05 and 0.01. The significance level represents the probability of rejecting the null hypothesis when it is true.
+
+3.  Locate the critical F-value: In the F-table, find the row with the correct df1 and the column with the correct df2. At the intersection of this row and column, locate the critical F-value for your chosen significance level (α).
+
+4.  Calculate the F-value: Using your data, calculate the F-value (F) as part of your statistical test or model.
+
+5.  Compare the F-value with the critical F-value: If the calculated F-value is greater than the critical F-value from the table, you can reject the null hypothesis, suggesting that there is a significant effect or relationship between the variables under consideration. If the calculated F-value is less than or equal to the critical F-value, you fail to reject the null hypothesis, meaning that there is not enough evidence to suggest a significant effect or relationship between the variables.
+
+Keep in mind that rejecting or failing to reject the null hypothesis does not prove causation, but rather indicates the presence or absence of a significant effect or relationship between the variables under certain assumptions. Also, remember that the F-table provides critical F-values for specific degrees of freedom and significance levels, so ensure that you use the correct values when interpreting the table.
+
+For the F-test:
+
+-   df1 (numerator degrees of freedom): This typically represents the degrees of freedom associated with the factor or group being tested. In ANOVA, for example, df1 is the number of groups minus one (k - 1), where k is the number of groups being compared.
+
+-   df2 (denominator degrees of freedom): This typically represents the degrees of freedom associated with the error or residual variation within the groups. In ANOVA, for example, df2 is the total number of observations minus the number of groups (N - k), where N is the total number of observations across all groups.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(knitr)
+
+# Function to calculate critical F-values
+get_critical_f_values <- function(df1_range, df2_range, alpha_levels) {
+  df <- expand.grid(df1 = df1_range, df2 = df2_range, alpha = alpha_levels) %>% 
+    mutate(critical_f_value = qf(1 - alpha, df1, df2)) %>% 
+    select(df1, df2, alpha, critical_f_value)
+  return(df)
+}
+
+df1_range <- 1:10 # Numerator degrees of freedom range
+df2_range <- 1:50 # Denominator degrees of freedom range
+alpha_levels <- c(0.05, 0.01) # Significance levels: 0.05 and 0.01
+
+critical_f_values <- get_critical_f_values(df1_range, df2_range, alpha_levels)
+
+# Format the table nicely using kable function from knitr package
+kable(critical_f_values,
+      caption = "Critical F-values for F-test",
+      align = "c",
+      digits = 3)
+
+```
+:::
