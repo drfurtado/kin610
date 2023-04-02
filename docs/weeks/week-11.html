@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -335,7 +354,6 @@ Important
 <li>Takeaways</li>
 </ul></li>
 </ul>
-<p>Download the lesson in <a href="week-11.pdf">PDF</a></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -353,7 +371,14 @@ Note
 </div>
 <section id="prepare" class="level2">
 <h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
-<p>Coming soon</p>
+<p>Read <span class="citation" data-cites="furtadoRandomStatsComparingTwo2023">Furtado (<a href="#ref-furtadoRandomStatsComparingTwo2023" role="doc-biblioref">2023</a>)</span></p>
+<p>Watch these videos:</p>
+<ul>
+<li><a href="https://youtu.be/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">Overview of t-test</a></li>
+<li><a href="https://youtu.be/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">One-sample t-test</a></li>
+<li><a href="https://youtu.be/SM-DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">Independent-samples t-test</a></li>
+<li><a href="https://youtu.be/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">Paired-samples t-test</a></li>
+</ul>
 </section>
 <section id="participate" class="level2">
 <h2 class="anchored" data-anchor-id="participate">Participate</h2>
@@ -375,9 +400,14 @@ Note
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-furtadoRandomStatsComparingTwo2023" class="csl-entry" role="listitem">
+Furtado, O. (2023, April 1). <em><span>RandomStats</span> - <span>Comparing Two Means</span></em> [Blog]. <span>RandomStats</span>. <a href="https://drfurtado.github.io/randomstats/posts/04012023-ttest/">https://drfurtado.github.io/randomstats/posts/04012023-ttest/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -724,6 +754,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("drfurtado\.github\.io\/kin610");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">

@@ -12,7 +12,8 @@ format:
     number-sections: true
     colorlinks: true
     tbl-colwidths: [5,95]
-bibliography: references.bib
+link-external-newwindow: true
+bibliography: ../references.bib
 csl: ../apa.csl
 editor: visual
 ---
@@ -22,8 +23,6 @@ editor: visual
 -   Deadlines
     -   Quiz
     -   Takeaways
-
-Download the lesson in [PDF](week-11.pdf)
 :::
 
 ::: callout-note
@@ -32,7 +31,14 @@ I will post an announcement on Canvas when there are changes to this page.
 
 ## Prepare
 
-Coming soon
+Read @furtadoRandomStatsComparingTwo2023
+
+Watch these videos:
+
+-   [Overview of t-test](https://youtu.be/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
+-   [One-sample t-test](https://youtu.be/DrBT4ezYIL8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
+-   [Independent-samples t-test](https://youtu.be/SM-DN9dpPd4?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
+-   [Paired-samples t-test](https://youtu.be/lSjfYYiJG6E?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
 
 ## Participate
 
