@@ -791,6 +791,272 @@
     "text": "Footnotes\n\n\nThe schedule is subject to change.↩︎\nClass Dates: Aug 29, 2022 - Dec 12, 2022↩︎\nStudents are expected to read and study the assigned chapters prior to attending each class meeting.↩︎\nQuizzes and Major Takeaways assignments are due before class; other assignment are due after class.↩︎\nCovers all previously covered topics.↩︎\nCovers mainly topics presented after Exam 1.↩︎"
   },
   {
+    "objectID": "slides/lec-9.html#credits",
+    "href": "slides/lec-9.html#credits",
+    "title": "Week 9: The t-test",
+    "section": "Credits",
+    "text": "Credits\nFurtado (2023)"
+  },
+  {
+    "objectID": "slides/lec-9.html#learning-objectives",
+    "href": "slides/lec-9.html#learning-objectives",
+    "title": "Week 9: The t-test",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\nHistory and development of the Student’s t-test\n\nWilliam Sealy Gosset\nPseudonym “Student”\n\nT-distribution in statistical testing\n\nRelationship to the normal distribution\nImportance for small sample sizes\n\nMain types of t-tests\n\nOne-sample t-test\nIndependent samples t-test\nPaired samples t-test\n\nAssumptions underlying the t-test\n\nIndependence of observations\nNormality of the data\nHomogeneity of variances\nImplications of violating assumptions\n\nConducting a t-test\n\nHypothesis formulation\nCalculation of test statistics\nInterpretation of p-values and confidence intervals\n\nEvaluating effect size\n\nUnderstanding Cohen’s d\n\nAlternative nonparametric tests\n\nWilcoxon signed-rank test\nMann-Whitney U test\n\nT-test application in real-world research\n\nExamples in Kinesiology\n\nGuidance on conducting t-tests with statistical software\n\njamovi\nSPSS\nR"
+  },
+  {
+    "objectID": "slides/lec-9.html#data-summary",
+    "href": "slides/lec-9.html#data-summary",
+    "title": "Week 9: The t-test",
+    "section": "Data summary",
+    "text": "Data summary\nI will use a data set called dynamometer to demonstrate the analyses in this blog post. You can download the CSV file here and a summary of the data is provided in Table 1.\n\n\nTable 1: Descriptive Statistics for dynamometer\n\n\n\nAge_Group\nN\nMean\nSD\n\n\nAge\n18-39\n20\n27.9\n6.43\n\n\n\n40-60\n20\n49.3\n6.38\n\n\nBefore\n18-39\n20\n45.6\n1.84\n\n\n\n40-60\n20\n38.5\n3.12\n\n\nAfter\n18-39\n20\n52.6\n1.84\n\n\n\n40-60\n20\n43.7\n3.64"
+  },
+  {
+    "objectID": "slides/lec-9.html#one-sample-t-test",
+    "href": "slides/lec-9.html#one-sample-t-test",
+    "title": "Week 9: The t-test",
+    "section": "One-Sample T-Test",
+    "text": "One-Sample T-Test\n\nCompares the mean of a single sample to a known population mean or hypothesized value\nDetermines if the sample mean significantly differs from an expected value\nExample: Comparing the average height of a sample to the known population mean height"
+  },
+  {
+    "objectID": "slides/lec-9.html#independent-samples-t-test",
+    "href": "slides/lec-9.html#independent-samples-t-test",
+    "title": "Week 9: The t-test",
+    "section": "Independent Samples T-Test",
+    "text": "Independent Samples T-Test\n\nCompares the means of two independent groups\nUsed to determine if there is a significant difference between groups\nExample: Comparing test scores between students taught using different teaching methods"
+  },
+  {
+    "objectID": "slides/lec-9.html#paired-samples-t-test",
+    "href": "slides/lec-9.html#paired-samples-t-test",
+    "title": "Week 9: The t-test",
+    "section": "Paired Samples T-Test",
+    "text": "Paired Samples T-Test\n\nAlso known as the dependent samples t-test\nCompares the means of two related groups or repeated measures\nOften used in pre-post study designs\nExample: Comparing participants’ muscle strength before and after an exercise program"
+  },
+  {
+    "objectID": "slides/lec-9.html#assumptions",
+    "href": "slides/lec-9.html#assumptions",
+    "title": "Week 9: The t-test",
+    "section": "Assumptions",
+    "text": "Assumptions\nAssumption of Normality\n\nData should be approximately normally distributed\nT-test is robust against violations of normality with large sample sizes\nIf assumption is violated, consider using non-parametric tests\n\nAssumption of Homogeneity of Variances\n\nFor independent samples t-test, variances should be equal between groups\nIf assumption is violated, use Welch’s t-test, which does not require equal variances\nUse Levene’s test to assess homogeneity of variances\n\nAssumption of Independence\n\nObservations within each group should be independent\nParticularly relevant for the independent samples t-test\nEnsure proper study design and data collection to meet this assumption"
+  },
+  {
+    "objectID": "slides/lec-9.html#effect-size",
+    "href": "slides/lec-9.html#effect-size",
+    "title": "Week 9: The t-test",
+    "section": "Effect Size",
+    "text": "Effect Size\nCohen’s d\n\nMeasure of effect size\nExpresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units\nCan be used for all types of t-tests (One-sample, independent samples, paired samples)\nProvides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest\n\nOne-sample t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X} - \\mu}{SD} \\qquad(1)\\]\n\nIndependent samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X_1} - \\overline{X_2}}{SD_{pooled}} \\qquad(2)\\]\nPooled standard deviation formula: \\[ SD_{pooled} = \\sqrt{\\frac{(n_1 - 1) \\times SD_1^2 + (n_2 - 1) \\times SD_2^2}{n_1 + n_2 - 2}} \\qquad(3)\\]\n\nPaired samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{D}}{SD_D} \\qquad(4)\\]\n\nInterpreting Cohen’s d\n\nSmall effect: 0.2\nMedium effect: 0.5\nLarge effect: 0.8 or higher\nConsider research context and field of study"
+  },
+  {
+    "objectID": "slides/lec-9.html#interpreting-t-test-results",
+    "href": "slides/lec-9.html#interpreting-t-test-results",
+    "title": "Week 9: The t-test",
+    "section": "Interpreting t-test results",
+    "text": "Interpreting t-test results\nKey concepts\n\nt-value\np-value\nSignificance level (commonly 0.05)\nNull hypothesis\nEffect size measures (e.g., Cohen’s d)"
+  },
+  {
+    "objectID": "slides/lec-9.html#the-t-distribution",
+    "href": "slides/lec-9.html#the-t-distribution",
+    "title": "Week 9: The t-test",
+    "section": "The t-distribution",
+    "text": "The t-distribution\nStudent’s t-distribution\n\nProbability distribution\nEstimating the mean of a normally distributed population with unknown variance\nContinuous, symmetric distribution\nThicker tails than standard normal distribution\n\nRole in hypothesis testing\n\nUsed in t-tests to compare sample means\nEstimating the sampling distribution of the sample mean"
+  },
+  {
+    "objectID": "slides/lec-9.html#the-t-distribution-1",
+    "href": "slides/lec-9.html#the-t-distribution-1",
+    "title": "Week 9: The t-test",
+    "section": "The t-distribution",
+    "text": "The t-distribution\nKey features\n\nSymmetry\n\nSymmetric around its mean (zero)\n\nThicker tails\n\nHigher likelihood of observing extreme values or outliers\n\nDegrees of freedom\n\nRelated to the sample size\nAs degrees of freedom increase, the t-distribution approaches the standard normal distribution"
+  },
+  {
+    "objectID": "slides/lec-9.html#when-to-use-it",
+    "href": "slides/lec-9.html#when-to-use-it",
+    "title": "Week 9: The t-test",
+    "section": "When to use it?",
+    "text": "When to use it?\n\nUse when comparing the mean of a single sample to a known or hypothesized population mean"
+  },
+  {
+    "objectID": "slides/lec-9.html#assumptions-1",
+    "href": "slides/lec-9.html#assumptions-1",
+    "title": "Week 9: The t-test",
+    "section": "Assumptions",
+    "text": "Assumptions\n\nIndependence: Observations in the sample are independent\nNormality: Sample is drawn from a normally distributed population\nEqual variances: Population variances of the two groups are equal\nRandom sampling: Sample is drawn randomly and independently from the population\nSample size: Sample size is large enough (usually &gt; 30) for the Central Limit Theorem"
+  },
+  {
+    "objectID": "slides/lec-9.html#equation",
+    "href": "slides/lec-9.html#equation",
+    "title": "Week 9: The t-test",
+    "section": "Equation",
+    "text": "Equation\n\nt = (x̄ - μ) / (s / √n)\nt = (x̄ - μ) / (s_x / √n)"
+  },
+  {
+    "objectID": "slides/lec-9.html#example",
+    "href": "slides/lec-9.html#example",
+    "title": "Week 9: The t-test",
+    "section": "Example",
+    "text": "Example\n\nResearch question: Do older adults improve muscle strength following an 8-week exercise program?\nNull Hypothesis (H0): μ_After = 40\nAlternative Hypothesis (H1): μ_After ≠ 40"
+  },
+  {
+    "objectID": "slides/lec-9.html#analyzing-with-jamovi",
+    "href": "slides/lec-9.html#analyzing-with-jamovi",
+    "title": "Week 9: The t-test",
+    "section": "Analyzing with jamovi",
+    "text": "Analyzing with jamovi\n\nDownload and install jamovi\nOpen jamovi and import the dataset\nRun the One-sample t-test"
+  },
+  {
+    "objectID": "slides/lec-9.html#analyzing-with-spss",
+    "href": "slides/lec-9.html#analyzing-with-spss",
+    "title": "Week 9: The t-test",
+    "section": "Analyzing with SPSS",
+    "text": "Analyzing with SPSS\n\nOpen SPSS and load the dataset\nRun One-sample t-test using the menu or syntax"
+  },
+  {
+    "objectID": "slides/lec-9.html#reporting-results-in-apa-style",
+    "href": "slides/lec-9.html#reporting-results-in-apa-style",
+    "title": "Week 9: The t-test",
+    "section": "Reporting Results in APA Style",
+    "text": "Reporting Results in APA Style\n\nDescription of the test used\nStatement of the null and alternative hypotheses\nTest statistic (t-value) with degrees of freedom (df) and p-value\nEffect size (e.g., Cohen’s d)\nConclusion about the null hypothesis\nDiscussion of practical significance and limitations"
+  },
+  {
+    "objectID": "slides/lec-9.html#example-apa-style-reporting",
+    "href": "slides/lec-9.html#example-apa-style-reporting",
+    "title": "Week 9: The t-test",
+    "section": "Example APA Style Reporting",
+    "text": "Example APA Style Reporting\n\nOne-sample t-test conducted\nSample mean muscle strength: M = 48.2, SD = 5.35\nt(39) = 9.66, p &lt; .001, Cohen’s d = 1.53\nAssumption of normality violated (Shapiro-Wilk test, p = .032)\nResults should be interpreted with caution\nAlternative: Wilcoxon rank test (non-parametric equivalent)\nRefer to Furtado (2023) for more examples"
+  },
+  {
+    "objectID": "slides/lec-9.html#when-to-use-it-1",
+    "href": "slides/lec-9.html#when-to-use-it-1",
+    "title": "Week 9: The t-test",
+    "section": "When to use it?",
+    "text": "When to use it?\n\nCompares the means of two independent groups\nExample: comparing muscle strength between groups who completed or did not complete a resistance training program\nIndependent variable: resistance training program completion\nDependent variable: muscle strength"
+  },
+  {
+    "objectID": "slides/lec-9.html#assumptions-2",
+    "href": "slides/lec-9.html#assumptions-2",
+    "title": "Week 9: The t-test",
+    "section": "Assumptions",
+    "text": "Assumptions\n\nNormality: approximately normal distribution within each group\nIndependence: observations in each group are independent\nEqual variances: variances of the two groups should be roughly equal\nRandom Sampling: random and representative samples of the population\nEqual sample size: similar sample sizes in each group\nNon-parametric Alternative\n\nMann-Whitney U test can be used if assumptions are not met"
+  },
+  {
+    "objectID": "slides/lec-9.html#equation---students-t-test-equal-variances",
+    "href": "slides/lec-9.html#equation---students-t-test-equal-variances",
+    "title": "Week 9: The t-test",
+    "section": "Equation - Student’s t-test (Equal Variances)",
+    "text": "Equation - Student’s t-test (Equal Variances)\n\\[\nt = \\frac{\\bar{X}_1 - \\bar{X}_2}{s_p \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}\n\\]\n\n\\(t\\): t-statistic\n\\(\\bar{X}_1\\) and \\(\\bar{X}_2\\): sample means of the two groups\n\\(s_p\\): pooled standard deviation\n\n\\[\ns_p = \\sqrt{\\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}\n\\]\n\n\\(n_1\\) and \\(n_2\\): sample sizes of the two groups\n\\(s_1\\) and \\(s_2\\): sample standard deviations of the two groups"
+  },
+  {
+    "objectID": "slides/lec-9.html#equation---welchs-t-test-equal-variance-not-assumed",
+    "href": "slides/lec-9.html#equation---welchs-t-test-equal-variance-not-assumed",
+    "title": "Week 9: The t-test",
+    "section": "Equation - Welch’s t-test (Equal Variance Not Assumed)",
+    "text": "Equation - Welch’s t-test (Equal Variance Not Assumed)\n\\[\nt = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}}\n\\]\n\n\\(t\\): t-statistic\n\\(\\bar{X}_1\\) and \\(\\bar{X}_2\\): sample means of the two groups\n\\(n_1\\) and \\(n_2\\): sample sizes of the two groups\n\\(s_1\\) and \\(s_2\\): sample standard deviations of the two groups"
+  },
+  {
+    "objectID": "slides/lec-9.html#example-1",
+    "href": "slides/lec-9.html#example-1",
+    "title": "Week 9: The t-test",
+    "section": "Example",
+    "text": "Example\nIn this example, the researcher wanted to investigate mean differences between the age groups.\nResearch question\n\nIs there a significant difference in the mean ‘After’ scores between age groups 18-39 and 40-60 in terms of dynamometer performance?\n\nHypothesis statements\n\nNull Hypothesis (H0): μ(18-39) = μ(40-60)\n\nNo significant difference in mean ‘After’ scores between age groups\n\nAlternative Hypothesis (H1): μ(18-39) ≠ μ(40-60)\n\nSignificant difference in mean ‘After’ scores between age groups"
+  },
+  {
+    "objectID": "slides/lec-9.html#analyzing-with-jamovi-1",
+    "href": "slides/lec-9.html#analyzing-with-jamovi-1",
+    "title": "Week 9: The t-test",
+    "section": "Analyzing with jamovi",
+    "text": "Analyzing with jamovi\n\nImport the data\nPerform the independent samples t-test\nSet additional options (optional)\nView the results"
+  },
+  {
+    "objectID": "slides/lec-9.html#analyzing-with-spss-1",
+    "href": "slides/lec-9.html#analyzing-with-spss-1",
+    "title": "Week 9: The t-test",
+    "section": "Analyzing with SPSS",
+    "text": "Analyzing with SPSS\n\nImport the data\nPerform the independent samples t-test using the menu\nView the results"
+  },
+  {
+    "objectID": "slides/lec-9.html#interpreting-the-results",
+    "href": "slides/lec-9.html#interpreting-the-results",
+    "title": "Week 9: The t-test",
+    "section": "Interpreting the Results",
+    "text": "Interpreting the Results\n\nCheck assumptions: normality and equal variances\nExamine descriptive statistics\nInterpret Levene’s test results\nInterpret t-test results: t-value, degrees of freedom, and p-value\nDetermine significance based on p-value\nConsider effect size (Cohen’s d or Hedges’ g)\nInterpret results in context of research question"
+  },
+  {
+    "objectID": "slides/lec-9.html#reporting-results-in-apa-style-1",
+    "href": "slides/lec-9.html#reporting-results-in-apa-style-1",
+    "title": "Week 9: The t-test",
+    "section": "Reporting Results in APA Style",
+    "text": "Reporting Results in APA Style\n\nInclude test statistic, degrees of freedom, and p-value\nDescribe compared variables, sample sizes, and means\nState null and alternative hypotheses\nInterpret results (reject or fail to reject null hypothesis)\nReport effect size (Cohen’s d)\nBriefly interpret results in context of research question"
+  },
+  {
+    "objectID": "slides/lec-9.html#example-report",
+    "href": "slides/lec-9.html#example-report",
+    "title": "Week 9: The t-test",
+    "section": "Example Report",
+    "text": "Example Report\n\nIndependent-samples t-test results\nSignificant difference in “After” scores between age groups 18-39 and 40-60\n18-39: M = 52.6, SD = 1.84\n40-60: M = 43.7, SD = 43.5\nt(28.1) = 9.80, p &lt; .001, Cohen’s d = 3.10\nWelch’s correction used due to unequal variances"
+  },
+  {
+    "objectID": "slides/lec-9.html#when-to-use-it-2",
+    "href": "slides/lec-9.html#when-to-use-it-2",
+    "title": "Week 9: The t-test",
+    "section": "When to use it?",
+    "text": "When to use it?\n\nCompare two sets of related (or paired) data\nAssess effectiveness of different treatments on a group\nPre- and post-test designs\nControl for individual differences"
+  },
+  {
+    "objectID": "slides/lec-9.html#assumptions-3",
+    "href": "slides/lec-9.html#assumptions-3",
+    "title": "Week 9: The t-test",
+    "section": "Assumptions",
+    "text": "Assumptions\n\nIndependence: observations within each pair are independent\nNormality: differences between pairs are normally distributed\nEqual variances: variances of differences between pairs are equal\nPaired data: each individual measured twice\nRandom Sampling: sample selected randomly from population"
+  },
+  {
+    "objectID": "slides/lec-9.html#equation-1",
+    "href": "slides/lec-9.html#equation-1",
+    "title": "Week 9: The t-test",
+    "section": "Equation",
+    "text": "Equation\n\\[\nt = \\frac{\\bar{d}}{s_d/\\sqrt{n}}\n\\]\n\n\\(\\bar{d}\\): mean difference\n\\(s_d\\): standard deviation of the differences\n\\(n\\): sample size\n\\(t\\): t-statistic"
+  },
+  {
+    "objectID": "slides/lec-9.html#example-2",
+    "href": "slides/lec-9.html#example-2",
+    "title": "Week 9: The t-test",
+    "section": "Example",
+    "text": "Example\nA researcher wanted to investigate whether an intervention (such as an exercise program) has a significant effect on muscle strength. Participants were recruited based on specific inclusion criteria (e.g., age range, health status, etc.), and muscle strength measurements (in kg) were taken for each participant both before and after the intervention. The null hypothesis would be that there is no significant difference between the “Before” and “After” measurements, while the alternative hypothesis would be that there is a significant difference. The Paired-samples t test would be an appropriate statistical analysis to test this hypothesis.\nResearch Question\n\nInvestigate difference in muscle strength before and after a training program among participants\n\nHypotheses Statements\n\nNull Hypothesis (H0): \\(\\mu_{D} = 0\\)\nAlternative Hypothesis (H1): \\(\\mu_{D} \\neq 0\\)"
+  },
+  {
+    "objectID": "slides/lec-9.html#analyzing-with-jamovi-2",
+    "href": "slides/lec-9.html#analyzing-with-jamovi-2",
+    "title": "Week 9: The t-test",
+    "section": "Analyzing with jamovi",
+    "text": "Analyzing with jamovi\n\nDownload and install jamovi\nOpen jamovi and import the dynamometer.csv dataset\nClick “T-tests” and select “Paired Samples t-test”\nMove Before and After variables under Paired Variables\nSelect desired options\nView results in the “Results” tab"
+  },
+  {
+    "objectID": "slides/lec-9.html#analyzing-with-spss-2",
+    "href": "slides/lec-9.html#analyzing-with-spss-2",
+    "title": "Week 9: The t-test",
+    "section": "Analyzing with SPSS",
+    "text": "Analyzing with SPSS\n\nOpen SPSS and import dynamometer.csv dataset\nGo to Analyze &gt; Compare Means &gt; Paired-samples T Test\nSelect “Before” and “After” variables\nClick “Options” and select “Descriptive statistics” and “Paired samples test”\nClick “Continue” and “OK” to run the analysis"
+  },
+  {
+    "objectID": "slides/lec-9.html#interpreting-the-results-1",
+    "href": "slides/lec-9.html#interpreting-the-results-1",
+    "title": "Week 9: The t-test",
+    "section": "Interpreting the Results",
+    "text": "Interpreting the Results\n\nCheck the t-test’s p-value\n\np-value &lt; significance level: reject the null hypothesis\np-value &gt; significance level: cannot reject the null hypothesis\n\nEvaluate Cohen’s d\n\nSmall effect: |d| = 0.2\nMedium effect: |d| = 0.5\nLarge effect: |d| = 0.8"
+  },
+  {
+    "objectID": "slides/lec-9.html#reporting-results",
+    "href": "slides/lec-9.html#reporting-results",
+    "title": "Week 9: The t-test",
+    "section": "Reporting Results",
+    "text": "Reporting Results\n\nTest statistic and p-value\nSample size\nMean difference and standard deviation of the differences\nEffect size, such as Cohen’s d\n\nSuggested Reporting:\nA Paired-samples t-test was conducted to compare the scores before and after the intervention. There was a significant difference in the scores for before (M = 42.1, SD = 4.42) and after (M = 48.2, SD = 5.35) conditions; t(39) = -31.208, p &lt; .001, 95% CI [-6.495, -5.705], Cohen’s d = 4.93. The results indicate that there is a significant difference between the “Before” and “After” scores, with the “After” scores being higher on average. The effect size (Cohen’s d) is large, suggesting that the intervention had a substantial impact on the scores."
+  },
+  {
+    "objectID": "slides/lec-9.html#references",
+    "href": "slides/lec-9.html#references",
+    "title": "Week 9: The t-test",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/\n\n\n\nFurtado, Ovande. 2023. “RandomStats - Comparing Two Means.” Blog. RandomStats. April 1, 2023. https://drfurtado.github.io/randomstats/posts/04012023-ttest/."
+  },
+  {
     "objectID": "slides/lec-8.html#linear-regression-models",
     "href": "slides/lec-8.html#linear-regression-models",
     "title": "Week 8: Regression Analysis",
@@ -1544,7 +1810,7 @@
     "href": "slides/lec-5.html#credits",
     "title": "Week 5: Descriptive Statistics",
     "section": "Credits",
-    "text": "Credits\nFurtado (2023)"
+    "text": "Credits\n(furtadoDescriptiveStatistics2023?)"
   },
   {
     "objectID": "slides/lec-5.html#the-mean",
@@ -1733,7 +1999,7 @@
     "href": "slides/lec-4.html#credits",
     "title": "Week 4: Organizing and Displyain Data & Percentiles",
     "section": "Credits",
-    "text": "Credits\nFurtado (2022); Navarro and Foxcroft (2022)"
+    "text": "Credits\n(furtado2022?); Navarro and Foxcroft (2022)"
   },
   {
     "objectID": "slides/lec-4.html#percentile-and-percentile-rank",
@@ -2006,7 +2272,7 @@
     "href": "slides/lec-3.html#credits",
     "title": "Week 3: Intro to Stats",
     "section": "Credits",
-    "text": "Credits\nFurtado (2023)"
+    "text": "Credits\n(furtado2023?)"
   },
   {
     "objectID": "slides/lec-3.html#introduction-to-measurement-in-kinesiology",
@@ -3022,362 +3288,5 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
-  },
-  {
-    "objectID": "slides/lec-9.html#credits",
-    "href": "slides/lec-9.html#credits",
-    "title": "Week 9: The t-test",
-    "section": "Credits",
-    "text": "Credits\nFurtado (2023)"
-  },
-  {
-    "objectID": "slides/lec-9.html#learning-objectives",
-    "href": "slides/lec-9.html#learning-objectives",
-    "title": "Week 9: The t-test",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\nHistory and development of the Student’s t-test\n\nWilliam Sealy Gosset\nPseudonym “Student”\n\nT-distribution in statistical testing\n\nRelationship to the normal distribution\nImportance for small sample sizes\n\nMain types of t-tests\n\nOne-sample t-test\nIndependent samples t-test\nPaired samples t-test\n\nAssumptions underlying the t-test\n\nIndependence of observations\nNormality of the data\nHomogeneity of variances\nImplications of violating assumptions\n\nConducting a t-test\n\nHypothesis formulation\nCalculation of test statistics\nInterpretation of p-values and confidence intervals\n\nEvaluating effect size\n\nUnderstanding Cohen’s d\n\nAlternative nonparametric tests\n\nWilcoxon signed-rank test\nMann-Whitney U test\n\nT-test application in real-world research\n\nExamples in Kinesiology\n\nGuidance on conducting t-tests with statistical software\n\njamovi\nSPSS\nR"
-  },
-  {
-    "objectID": "slides/lec-9.html#data-summary",
-    "href": "slides/lec-9.html#data-summary",
-    "title": "Week 9: The t-test",
-    "section": "Data summary",
-    "text": "Data summary\nI will use a data set called dynamometer to demonstrate the analyses in this blog post. You can download the CSV file here and a summary of the data is provided in Table 1.\n\n\nTable 1: Descriptive Statistics for dynamometer\n\n\n\nAge_Group\nN\nMean\nSD\n\n\nAge\n18-39\n20\n27.9\n6.43\n\n\n\n40-60\n20\n49.3\n6.38\n\n\nBefore\n18-39\n20\n45.6\n1.84\n\n\n\n40-60\n20\n38.5\n3.12\n\n\nAfter\n18-39\n20\n52.6\n1.84\n\n\n\n40-60\n20\n43.7\n3.64"
-  },
-  {
-    "objectID": "slides/lec-9.html#references",
-    "href": "slides/lec-9.html#references",
-    "title": "Week 9: The t-test",
-    "section": "References",
-    "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/\n\n\n\nFurtado, Ovande. 2023. “RandomStats - Comparing Two Means.” Blog. RandomStats. April 1, 2023. https://drfurtado.github.io/randomstats/posts/04012023-ttest/."
-  },
-  {
-    "objectID": "slides/lec-9.html#slide-3-one-sample-t-test",
-    "href": "slides/lec-9.html#slide-3-one-sample-t-test",
-    "title": "Week 9: The t-test",
-    "section": "Slide 3: One-Sample T-Test",
-    "text": "Slide 3: One-Sample T-Test\n\nCompares the mean of a single sample to a known population mean or hypothesized value\nDetermines if the sample mean significantly differs from an expected value\nExample: Comparing the average height of a sample to the known population mean height"
-  },
-  {
-    "objectID": "slides/lec-9.html#slide-4-independent-samples-t-test",
-    "href": "slides/lec-9.html#slide-4-independent-samples-t-test",
-    "title": "Week 9: The t-test",
-    "section": "Slide 4: Independent Samples T-Test",
-    "text": "Slide 4: Independent Samples T-Test\n\nCompares the means of two independent groups\nUsed to determine if there is a significant difference between groups\nExample: Comparing test scores between students taught using different teaching methods"
-  },
-  {
-    "objectID": "slides/lec-9.html#slide-5-paired-samples-t-test",
-    "href": "slides/lec-9.html#slide-5-paired-samples-t-test",
-    "title": "Week 9: The t-test",
-    "section": "Slide 5: Paired Samples T-Test",
-    "text": "Slide 5: Paired Samples T-Test\n\nAlso known as the dependent samples t-test\nCompares the means of two related groups or repeated measures\nOften used in pre-post study designs\nExample: Comparing participants’ muscle strength before and after an exercise program"
-  },
-  {
-    "objectID": "slides/lec-9.html#types",
-    "href": "slides/lec-9.html#types",
-    "title": "Week 9: The t-test",
-    "section": "Types",
-    "text": "Types\nOne-Sample T-Test\n\nCompares the mean of a single sample to a known population mean or hypothesized value\nDetermines if the sample mean significantly differs from an expected value\nExample: Comparing the average height of a sample to the known population mean height\n\nIndependent Samples T-Test\n\nCompares the means of two independent groups\nUsed to determine if there is a significant difference between groups\nExample: Comparing test scores between students taught using different teaching methods\n\nPaired Samples T-Test\n\nAlso known as the dependent samples t-test\nCompares the means of two related groups or repeated measures\nOften used in pre-post study designs\nExample: Comparing participants’ muscle strength before and after an exercise program"
-  },
-  {
-    "objectID": "slides/lec-9.html#assumptions",
-    "href": "slides/lec-9.html#assumptions",
-    "title": "Week 9: The t-test",
-    "section": "Assumptions",
-    "text": "Assumptions\nAssumption of Normality\n\nData should be approximately normally distributed\nT-test is robust against violations of normality with large sample sizes\nIf assumption is violated, consider using non-parametric tests\n\nAssumption of Homogeneity of Variances\n\nFor independent samples t-test, variances should be equal between groups\nIf assumption is violated, use Welch’s t-test, which does not require equal variances\nUse Levene’s test to assess homogeneity of variances\n\nAssumption of Independence\n\nObservations within each group should be independent\nParticularly relevant for the independent samples t-test\nEnsure proper study design and data collection to meet this assumption"
-  },
-  {
-    "objectID": "slides/lec-9.html#sec-effect-size-ttest",
-    "href": "slides/lec-9.html#sec-effect-size-ttest",
-    "title": "Week 9: The t-test",
-    "section": "Effect Size",
-    "text": "Effect Size\nCohen’s d\n\nMeasure of effect size\nExpresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units\nCan be used for all types of t-tests (One-sample, independent samples, paired samples)\n\nOne-sample t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X} - \\mu}{SD} \\qquad(1)\\]\n\nIndependent samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X_1} - \\overline{X_2}}{SD_{pooled}} \\qquad(2)\\]\nPooled standard deviation formula: \\[ SD_{pooled} = \\sqrt{\\frac{(n_1 - 1) \\times SD_1^2 + (n_2 - 1) \\times SD_2^2}{n_1 + n_2 - 2}} \\qquad(3)\\]\n\nPaired samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{D}}{SD_D} \\qquad(4)\\]\n\nInterpreting Cohen’s d\n\nSmall effect: 0.2\nMedium effect: 0.5\nLarge effect: 0.8 or higher\nConsider research context and field of study\n\nImportance of reporting Cohen’s d\n\nProvides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest"
-  },
-  {
-    "objectID": "slides/lec-9.html#effect-size-sec-effect-size-ttest",
-    "href": "slides/lec-9.html#effect-size-sec-effect-size-ttest",
-    "title": "Week 9: The t-test",
-    "section": "Effect Size {#sec-effect-size-ttest}",
-    "text": "Effect Size {#sec-effect-size-ttest}\nCohen’s d\n\nMeasure of effect size\nExpresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units\nCan be used for all types of t-tests (One-sample, independent samples, paired samples)\n\nOne-sample t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X} - \\mu}{SD} \\qquad(1)\\]\n\nIndependent samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X_1} - \\overline{X_2}}{SD_{pooled}} \\qquad(2)\\]\nPooled standard deviation formula: \\[ SD_{pooled} = \\sqrt{\\frac{(n_1 - 1) \\times SD_1^2 + (n_2 - 1) \\times SD_2^2}{n_1 + n_2 - 2}} \\qquad(3)\\]\n\nPaired samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{D}}{SD_D} \\qquad(4)\\]\n\nInterpreting Cohen’s d\n\nSmall effect: 0.2\nMedium effect: 0.5\nLarge effect: 0.8 or higher\nConsider research context and field of study\n\nImportance of reporting Cohen’s d\n\nProvides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest"
-  },
-  {
-    "objectID": "slides/lec-9.html#effect-size-sec-effect-size-ttest-.scrollable-.-smaller",
-    "href": "slides/lec-9.html#effect-size-sec-effect-size-ttest-.scrollable-.-smaller",
-    "title": "Week 9: The t-test",
-    "section": "Effect Size {#sec-effect-size-ttest} {.scrollable . smaller}",
-    "text": "Effect Size {#sec-effect-size-ttest} {.scrollable . smaller}\nCohen’s d\n\nMeasure of effect size\nExpresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units\nCan be used for all types of t-tests (One-sample, independent samples, paired samples)\n\nOne-sample t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X} - \\mu}{SD} \\qquad(1)\\]\n\nIndependent samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X_1} - \\overline{X_2}}{SD_{pooled}} \\qquad(2)\\]\nPooled standard deviation formula: \\[ SD_{pooled} = \\sqrt{\\frac{(n_1 - 1) \\times SD_1^2 + (n_2 - 1) \\times SD_2^2}{n_1 + n_2 - 2}} \\qquad(3)\\]\n\nPaired samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{D}}{SD_D} \\qquad(4)\\]\n\nInterpreting Cohen’s d\n\nSmall effect: 0.2\nMedium effect: 0.5\nLarge effect: 0.8 or higher\nConsider research context and field of study\n\nImportance of reporting Cohen’s d\n\nProvides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest"
-  },
-  {
-    "objectID": "slides/lec-9.html#sec-effect-size",
-    "href": "slides/lec-9.html#sec-effect-size",
-    "title": "Week 9: The t-test",
-    "section": "Effect Size",
-    "text": "Effect Size\nCohen’s d\n\nMeasure of effect size\nExpresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units\nCan be used for all types of t-tests (One-sample, independent samples, paired samples)\nProvides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest\n\nOne-sample t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X} - \\mu}{SD} \\qquad(1)\\]\n\nIndependent samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X_1} - \\overline{X_2}}{SD_{pooled}} \\qquad(2)\\]\nPooled standard deviation formula: \\[ SD_{pooled} = \\sqrt{\\frac{(n_1 - 1) \\times SD_1^2 + (n_2 - 1) \\times SD_2^2}{n_1 + n_2 - 2}} \\qquad(3)\\]\n\nPaired samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{D}}{SD_D} \\qquad(4)\\]\n\nInterpreting Cohen’s d\n\nSmall effect: 0.2\nMedium effect: 0.5\nLarge effect: 0.8 or higher\nConsider research context and field of study"
-  },
-  {
-    "objectID": "slides/lec-9.html#sec-interpreting-t-test-results",
-    "href": "slides/lec-9.html#sec-interpreting-t-test-results",
-    "title": "Week 9: The t-test",
-    "section": "Interpreting t-test results",
-    "text": "Interpreting t-test results\nKey concepts\n\nt-value\np-value\nSignificance level (commonly 0.05)\nNull hypothesis\nEffect size measures (e.g., Cohen’s d)"
-  },
-  {
-    "objectID": "slides/lec-9.html#sec-the-t-distribution",
-    "href": "slides/lec-9.html#sec-the-t-distribution",
-    "title": "Week 9: The t-test",
-    "section": "The t-distribution",
-    "text": "The t-distribution\nStudent’s t-distribution\n\nProbability distribution\nEstimating the mean of a normally distributed population with unknown variance\nContinuous, symmetric distribution\nThicker tails than standard normal distribution\n\nRole in hypothesis testing\n\nUsed in t-tests to compare sample means\nEstimating the sampling distribution of the sample mean\n\nKey features\n\nSymmetry\n\nSymmetric around its mean (zero)\n\nThicker tails\n\nHigher likelihood of observing extreme values or outliers\n\nDegrees of freedom\n\nRelated to the sample size\nAs degrees of freedom increase, the t-distribution approaches the standard normal distribution"
-  },
-  {
-    "objectID": "slides/lec-9.html#when-to-use-it",
-    "href": "slides/lec-9.html#when-to-use-it",
-    "title": "Week 9: The t-test",
-    "section": "When to use it?",
-    "text": "When to use it?\n\nUse when comparing the mean of a single sample to a known or hypothesized population mean"
-  },
-  {
-    "objectID": "slides/lec-9.html#assumptions-1",
-    "href": "slides/lec-9.html#assumptions-1",
-    "title": "Week 9: The t-test",
-    "section": "Assumptions",
-    "text": "Assumptions\n\nIndependence: Observations in the sample are independent\nNormality: Sample is drawn from a normally distributed population\nEqual variances: Population variances of the two groups are equal\nRandom sampling: Sample is drawn randomly and independently from the population\nSample size: Sample size is large enough (usually &gt; 30) for the Central Limit Theorem"
-  },
-  {
-    "objectID": "slides/lec-9.html#equation",
-    "href": "slides/lec-9.html#equation",
-    "title": "Week 9: The t-test",
-    "section": "Equation",
-    "text": "Equation\n\nt = (x̄ - μ) / (s / √n)\nt = (x̄ - μ) / (s_x / √n)"
-  },
-  {
-    "objectID": "slides/lec-9.html#example",
-    "href": "slides/lec-9.html#example",
-    "title": "Week 9: The t-test",
-    "section": "Example",
-    "text": "Example\n\nResearch question: Do older adults improve muscle strength following an 8-week exercise program?\nNull Hypothesis (H0): μ_After = 40\nAlternative Hypothesis (H1): μ_After ≠ 40"
-  },
-  {
-    "objectID": "slides/lec-9.html#analyzing-with-jamovi",
-    "href": "slides/lec-9.html#analyzing-with-jamovi",
-    "title": "Week 9: The t-test",
-    "section": "Analyzing with jamovi",
-    "text": "Analyzing with jamovi\n\nDownload and install jamovi\nOpen jamovi and import the dataset\nRun the One-sample t-test"
-  },
-  {
-    "objectID": "slides/lec-9.html#analyzing-with-spss",
-    "href": "slides/lec-9.html#analyzing-with-spss",
-    "title": "Week 9: The t-test",
-    "section": "Analyzing with SPSS",
-    "text": "Analyzing with SPSS\n\nOpen SPSS and load the dataset\nRun One-sample t-test using the menu or syntax"
-  },
-  {
-    "objectID": "slides/lec-9.html#reporting-results-in-apa-style",
-    "href": "slides/lec-9.html#reporting-results-in-apa-style",
-    "title": "Week 9: The t-test",
-    "section": "Reporting Results in APA Style",
-    "text": "Reporting Results in APA Style\n\nDescription of the test used\nStatement of the null and alternative hypotheses\nTest statistic (t-value) with degrees of freedom (df) and p-value\nEffect size (e.g., Cohen’s d)\nConclusion about the null hypothesis\nDiscussion of practical significance and limitations"
-  },
-  {
-    "objectID": "slides/lec-9.html#example-apa-style-reporting",
-    "href": "slides/lec-9.html#example-apa-style-reporting",
-    "title": "Week 9: The t-test",
-    "section": "Example APA Style Reporting",
-    "text": "Example APA Style Reporting\n\nOne-sample t-test conducted\nSample mean muscle strength: M = 48.2, SD = 5.35\nt(39) = 9.66, p &lt; .001, Cohen’s d = 1.53\nAssumption of normality violated (Shapiro-Wilk test, p = .032)\nResults should be interpreted with caution\nAlternative: Wilcoxon rank test (non-parametric equivalent)\nRefer to Furtado (2023) for more examples"
-  },
-  {
-    "objectID": "slides/lec-9.html#assumptions-2",
-    "href": "slides/lec-9.html#assumptions-2",
-    "title": "Week 9: The t-test",
-    "section": "Assumptions",
-    "text": "Assumptions\n\nNormality: approximately normal distribution within each group\nIndependence: observations in each group are independent\nEqual variances: variances of the two groups should be roughly equal\nRandom Sampling: random and representative samples of the population\nEqual sample size: similar sample sizes in each group\nNon-parametric Alternative\n\nMann-Whitney U test can be used if assumptions are not met"
-  },
-  {
-    "objectID": "slides/lec-9.html#non-parametric-alternative",
-    "href": "slides/lec-9.html#non-parametric-alternative",
-    "title": "Week 9: The t-test",
-    "section": "Non-parametric Alternative",
-    "text": "Non-parametric Alternative\n\nMann-Whitney U test can be used if assumptions are not met"
-  },
-  {
-    "objectID": "slides/lec-9.html#equation---students-t-test-equal-variances",
-    "href": "slides/lec-9.html#equation---students-t-test-equal-variances",
-    "title": "Week 9: The t-test",
-    "section": "Equation - Student’s t-test (Equal Variances)",
-    "text": "Equation - Student’s t-test (Equal Variances)\n\\[\nt = \\frac{\\bar{X}_1 - \\bar{X}_2}{s_p \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}\n\\]\n\n\\(t\\): t-statistic\n\\(\\bar{X}_1\\) and \\(\\bar{X}_2\\): sample means of the two groups\n\\(s_p\\): pooled standard deviation\n\n\\[\ns_p = \\sqrt{\\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}\n\\]\n\n\\(n_1\\) and \\(n_2\\): sample sizes of the two groups\n\\(s_1\\) and \\(s_2\\): sample standard deviations of the two groups"
-  },
-  {
-    "objectID": "slides/lec-9.html#equation---welchs-t-test-equal-variance-not-assumed",
-    "href": "slides/lec-9.html#equation---welchs-t-test-equal-variance-not-assumed",
-    "title": "Week 9: The t-test",
-    "section": "Equation - Welch’s t-test (Equal Variance Not Assumed)",
-    "text": "Equation - Welch’s t-test (Equal Variance Not Assumed)\n\\[\nt = \\frac{\\bar{X}_1 - \\bar{X}_2}{\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2}}}\n\\]\n\n\\(t\\): t-statistic\n\\(\\bar{X}_1\\) and \\(\\bar{X}_2\\): sample means of the two groups\n\\(n_1\\) and \\(n_2\\): sample sizes of the two groups\n\\(s_1\\) and \\(s_2\\): sample standard deviations of the two groups"
-  },
-  {
-    "objectID": "slides/lec-9.html#research-question",
-    "href": "slides/lec-9.html#research-question",
-    "title": "Week 9: The t-test",
-    "section": "Research question",
-    "text": "Research question\n\nIs there a significant difference in the mean ‘After’ scores between age groups 18-39 and 40-60 in terms of dynamometer performance?"
-  },
-  {
-    "objectID": "slides/lec-9.html#hypothesis-statements",
-    "href": "slides/lec-9.html#hypothesis-statements",
-    "title": "Week 9: The t-test",
-    "section": "Hypothesis statements",
-    "text": "Hypothesis statements\n\nNull Hypothesis (H0): μ(18-39) = μ(40-60)\n\nNo significant difference in mean ‘After’ scores between age groups\n\nAlternative Hypothesis (H1): μ(18-39) ≠ μ(40-60)\n\nSignificant difference in mean ‘After’ scores between age groups"
-  },
-  {
-    "objectID": "slides/lec-9.html#analyzing-with-jamovi-1",
-    "href": "slides/lec-9.html#analyzing-with-jamovi-1",
-    "title": "Week 9: The t-test",
-    "section": "Analyzing with jamovi",
-    "text": "Analyzing with jamovi\n\nImport the data\nPerform the independent samples t-test\nSet additional options (optional)\nView the results"
-  },
-  {
-    "objectID": "slides/lec-9.html#analyzing-with-spss-1",
-    "href": "slides/lec-9.html#analyzing-with-spss-1",
-    "title": "Week 9: The t-test",
-    "section": "Analyzing with SPSS",
-    "text": "Analyzing with SPSS\n\nImport the data\nPerform the independent samples t-test using the menu\nView the results"
-  },
-  {
-    "objectID": "slides/lec-9.html#interpreting-the-results",
-    "href": "slides/lec-9.html#interpreting-the-results",
-    "title": "Week 9: The t-test",
-    "section": "Interpreting the Results",
-    "text": "Interpreting the Results\n\nCheck assumptions: normality and equal variances\nExamine descriptive statistics\nInterpret Levene’s test results\nInterpret t-test results: t-value, degrees of freedom, and p-value\nDetermine significance based on p-value\nConsider effect size (Cohen’s d or Hedges’ g)\nInterpret results in context of research question"
-  },
-  {
-    "objectID": "slides/lec-9.html#reporting-results-in-apa-style-1",
-    "href": "slides/lec-9.html#reporting-results-in-apa-style-1",
-    "title": "Week 9: The t-test",
-    "section": "Reporting Results in APA Style",
-    "text": "Reporting Results in APA Style\n\nInclude test statistic, degrees of freedom, and p-value\nDescribe compared variables, sample sizes, and means\nState null and alternative hypotheses\nInterpret results (reject or fail to reject null hypothesis)\nReport effect size (Cohen’s d)\nBriefly interpret results in context of research question"
-  },
-  {
-    "objectID": "slides/lec-9.html#example-report",
-    "href": "slides/lec-9.html#example-report",
-    "title": "Week 9: The t-test",
-    "section": "Example Report",
-    "text": "Example Report\n\nIndependent-samples t-test results\nSignificant difference in “After” scores between age groups 18-39 and 40-60\n18-39: M = 52.6, SD = 1.84\n40-60: M = 43.7, SD = 43.5\nt(28.1) = 9.80, p &lt; .001, Cohen’s d = 3.10\nWelch’s correction used due to unequal variances"
-  },
-  {
-    "objectID": "slides/lec-9.html#when-to-use-it-1",
-    "href": "slides/lec-9.html#when-to-use-it-1",
-    "title": "Week 9: The t-test",
-    "section": "When to use it?",
-    "text": "When to use it?\n\nCompares the means of two independent groups\nExample: comparing muscle strength between groups who completed or did not complete a resistance training program\nIndependent variable: resistance training program completion\nDependent variable: muscle strength"
-  },
-  {
-    "objectID": "slides/lec-9.html#assumptions-3",
-    "href": "slides/lec-9.html#assumptions-3",
-    "title": "Week 9: The t-test",
-    "section": "Assumptions",
-    "text": "Assumptions\n\nIndependence: observations within each pair are independent\nNormality: differences between pairs are normally distributed\nEqual variances: variances of differences between pairs are equal\nPaired data: each individual measured twice\nRandom Sampling: sample selected randomly from population"
-  },
-  {
-    "objectID": "slides/lec-9.html#equation-1",
-    "href": "slides/lec-9.html#equation-1",
-    "title": "Week 9: The t-test",
-    "section": "Equation",
-    "text": "Equation\n\\[\nt = \\frac{\\bar{d}}{s_d/\\sqrt{n}}\n\\]\n\n\\(\\bar{d}\\): mean difference\n\\(s_d\\): standard deviation of the differences\n\\(n\\): sample size\n\\(t\\): t-statistic"
-  },
-  {
-    "objectID": "slides/lec-9.html#example-1",
-    "href": "slides/lec-9.html#example-1",
-    "title": "Week 9: The t-test",
-    "section": "Example",
-    "text": "Example\nIn this example, the researcher wanted to investigate mean differences between the age groups.\nResearch question\n\nIs there a significant difference in the mean ‘After’ scores between age groups 18-39 and 40-60 in terms of dynamometer performance?\n\nHypothesis statements\n\nNull Hypothesis (H0): μ(18-39) = μ(40-60)\n\nNo significant difference in mean ‘After’ scores between age groups\n\nAlternative Hypothesis (H1): μ(18-39) ≠ μ(40-60)\n\nSignificant difference in mean ‘After’ scores between age groups"
-  },
-  {
-    "objectID": "slides/lec-9.html#one-sample-t-test",
-    "href": "slides/lec-9.html#one-sample-t-test",
-    "title": "Week 9: The t-test",
-    "section": "One-Sample T-Test",
-    "text": "One-Sample T-Test\n\nCompares the mean of a single sample to a known population mean or hypothesized value\nDetermines if the sample mean significantly differs from an expected value\nExample: Comparing the average height of a sample to the known population mean height"
-  },
-  {
-    "objectID": "slides/lec-9.html#independent-samples-t-test",
-    "href": "slides/lec-9.html#independent-samples-t-test",
-    "title": "Week 9: The t-test",
-    "section": "Independent Samples T-Test",
-    "text": "Independent Samples T-Test\n\nCompares the means of two independent groups\nUsed to determine if there is a significant difference between groups\nExample: Comparing test scores between students taught using different teaching methods"
-  },
-  {
-    "objectID": "slides/lec-9.html#paired-samples-t-test",
-    "href": "slides/lec-9.html#paired-samples-t-test",
-    "title": "Week 9: The t-test",
-    "section": "Paired Samples T-Test",
-    "text": "Paired Samples T-Test\n\nAlso known as the dependent samples t-test\nCompares the means of two related groups or repeated measures\nOften used in pre-post study designs\nExample: Comparing participants’ muscle strength before and after an exercise program"
-  },
-  {
-    "objectID": "slides/lec-9.html#effect-size",
-    "href": "slides/lec-9.html#effect-size",
-    "title": "Week 9: The t-test",
-    "section": "Effect Size",
-    "text": "Effect Size\nCohen’s d\n\nMeasure of effect size\nExpresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units\nCan be used for all types of t-tests (One-sample, independent samples, paired samples)\nProvides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest\n\nOne-sample t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X} - \\mu}{SD} \\qquad(1)\\]\n\nIndependent samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{X_1} - \\overline{X_2}}{SD_{pooled}} \\qquad(2)\\]\nPooled standard deviation formula: \\[ SD_{pooled} = \\sqrt{\\frac{(n_1 - 1) \\times SD_1^2 + (n_2 - 1) \\times SD_2^2}{n_1 + n_2 - 2}} \\qquad(3)\\]\n\nPaired samples t-test\n\nCohen’s d formula: \\[ Cohen's\\,d = \\frac{\\overline{D}}{SD_D} \\qquad(4)\\]\n\nInterpreting Cohen’s d\n\nSmall effect: 0.2\nMedium effect: 0.5\nLarge effect: 0.8 or higher\nConsider research context and field of study"
-  },
-  {
-    "objectID": "slides/lec-9.html#interpreting-t-test-results",
-    "href": "slides/lec-9.html#interpreting-t-test-results",
-    "title": "Week 9: The t-test",
-    "section": "Interpreting t-test results",
-    "text": "Interpreting t-test results\nKey concepts\n\nt-value\np-value\nSignificance level (commonly 0.05)\nNull hypothesis\nEffect size measures (e.g., Cohen’s d)"
-  },
-  {
-    "objectID": "slides/lec-9.html#the-t-distribution",
-    "href": "slides/lec-9.html#the-t-distribution",
-    "title": "Week 9: The t-test",
-    "section": "The t-distribution",
-    "text": "The t-distribution\nStudent’s t-distribution\n\nProbability distribution\nEstimating the mean of a normally distributed population with unknown variance\nContinuous, symmetric distribution\nThicker tails than standard normal distribution\n\nRole in hypothesis testing\n\nUsed in t-tests to compare sample means\nEstimating the sampling distribution of the sample mean"
-  },
-  {
-    "objectID": "slides/lec-9.html#the-t-distribution-1",
-    "href": "slides/lec-9.html#the-t-distribution-1",
-    "title": "Week 9: The t-test",
-    "section": "The t-distribution",
-    "text": "The t-distribution\nKey features\n\nSymmetry\n\nSymmetric around its mean (zero)\n\nThicker tails\n\nHigher likelihood of observing extreme values or outliers\n\nDegrees of freedom\n\nRelated to the sample size\nAs degrees of freedom increase, the t-distribution approaches the standard normal distribution"
-  },
-  {
-    "objectID": "slides/lec-9.html#when-to-use-it-2",
-    "href": "slides/lec-9.html#when-to-use-it-2",
-    "title": "Week 9: The t-test",
-    "section": "When to use it?",
-    "text": "When to use it?\n\nCompare two sets of related (or paired) data\nAssess effectiveness of different treatments on a group\nPre- and post-test designs\nControl for individual differences"
-  },
-  {
-    "objectID": "slides/lec-9.html#example-2",
-    "href": "slides/lec-9.html#example-2",
-    "title": "Week 9: The t-test",
-    "section": "Example",
-    "text": "Example\nA researcher wanted to investigate whether an intervention (such as an exercise program) has a significant effect on muscle strength. Participants were recruited based on specific inclusion criteria (e.g., age range, health status, etc.), and muscle strength measurements (in kg) were taken for each participant both before and after the intervention. The null hypothesis would be that there is no significant difference between the “Before” and “After” measurements, while the alternative hypothesis would be that there is a significant difference. The Paired-samples t test would be an appropriate statistical analysis to test this hypothesis.\nResearch Question\n\nInvestigate difference in muscle strength before and after a training program among participants\n\nHypotheses Statements\n\nNull Hypothesis (H0): \\(\\mu_{D} = 0\\)\nAlternative Hypothesis (H1): \\(\\mu_{D} \\neq 0\\)"
-  },
-  {
-    "objectID": "slides/lec-9.html#analyzing-with-jamovi-2",
-    "href": "slides/lec-9.html#analyzing-with-jamovi-2",
-    "title": "Week 9: The t-test",
-    "section": "Analyzing with jamovi",
-    "text": "Analyzing with jamovi\n\nDownload and install jamovi\nOpen jamovi and import the dynamometer.csv dataset\nClick “T-tests” and select “Paired Samples t-test”\nMove Before and After variables under Paired Variables\nSelect desired options\nView results in the “Results” tab"
-  },
-  {
-    "objectID": "slides/lec-9.html#analyzing-with-spss-2",
-    "href": "slides/lec-9.html#analyzing-with-spss-2",
-    "title": "Week 9: The t-test",
-    "section": "Analyzing with SPSS",
-    "text": "Analyzing with SPSS\n\nOpen SPSS and import dynamometer.csv dataset\nGo to Analyze &gt; Compare Means &gt; Paired-samples T Test\nSelect “Before” and “After” variables\nClick “Options” and select “Descriptive statistics” and “Paired samples test”\nClick “Continue” and “OK” to run the analysis"
-  },
-  {
-    "objectID": "slides/lec-9.html#interpreting-the-results-1",
-    "href": "slides/lec-9.html#interpreting-the-results-1",
-    "title": "Week 9: The t-test",
-    "section": "Interpreting the Results",
-    "text": "Interpreting the Results\n\nCheck the t-test’s p-value\n\np-value &lt; significance level: reject the null hypothesis\np-value &gt; significance level: cannot reject the null hypothesis\n\nEvaluate Cohen’s d\n\nSmall effect: |d| = 0.2\nMedium effect: |d| = 0.5\nLarge effect: |d| = 0.8"
-  },
-  {
-    "objectID": "slides/lec-9.html#reporting-results",
-    "href": "slides/lec-9.html#reporting-results",
-    "title": "Week 9: The t-test",
-    "section": "Reporting Results",
-    "text": "Reporting Results\n\nTest statistic and p-value\nSample size\nMean difference and standard deviation of the differences\nEffect size, such as Cohen’s d\n\nSuggested Reporting:\nA Paired-samples t-test was conducted to compare the scores before and after the intervention. There was a significant difference in the scores for before (M = 42.1, SD = 4.42) and after (M = 48.2, SD = 5.35) conditions; t(39) = -31.208, p &lt; .001, 95% CI [-6.495, -5.705], Cohen’s d = 4.93. The results indicate that there is a significant difference between the “Before” and “After” scores, with the “After” scores being higher on average. The effect size (Cohen’s d) is large, suggesting that the intervention had a substantial impact on the scores."
   }
 ]
