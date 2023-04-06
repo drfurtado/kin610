@@ -1,0 +1,423 @@
+---
+title: "Week 9: The t-test"
+subtitle: |
+           KIN 610 - Spring 2023
+author: "Dr. Ovande Furtado Jr"
+footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
+logo: "images/logo.png"
+format: 
+  revealjs: 
+    theme: slides.scss
+    navigation-mode: linear
+    multiplex: false
+    incremental: false
+    transition: fade
+    slide-number: true
+    controls: true
+    controls-tutorial: true
+    controls-layout: edges
+    chalkboard: true
+    link-external-newwindow: true
+editor: visual
+execute:
+  freeze: auto
+bibliography: references.bib
+---
+
+## Credits
+
+@furtadoRandomStatsComparingTwo2023
+
+## Learning objectives {.scrollable .smaller}
+
+1.  History and development of the Student's t-test
+    -   William Sealy Gosset
+    -   Pseudonym "Student"
+2.  T-distribution in statistical testing
+    -   Relationship to the normal distribution
+    -   Importance for small sample sizes
+3.  Main types of t-tests
+    -   One-sample t-test
+    -   Independent samples t-test
+    -   Paired samples t-test
+4.  Assumptions underlying the t-test
+    -   Independence of observations
+    -   Normality of the data
+    -   Homogeneity of variances
+    -   Implications of violating assumptions
+5.  Conducting a t-test
+    -   Hypothesis formulation
+    -   Calculation of test statistics
+    -   Interpretation of p-values and confidence intervals
+6.  Evaluating effect size
+    -   Understanding Cohen's d
+7.  Alternative nonparametric tests
+    -   Wilcoxon signed-rank test
+    -   Mann-Whitney U test
+8.  T-test application in real-world research
+    -   Examples in Kinesiology
+9.  Guidance on conducting t-tests with statistical software
+    -   jamovi
+    -   SPSS
+    -   R
+
+## Data summary {.scrollable .smaller}
+
+I will use a data set called dynamometer to demonstrate the analyses in this blog post. You can download the CSV file [here](../data/dynamometer.csv) and a summary of the data is provided in @tbl-desc-data.
+
+|        |           |     |      |      |
+|--------|-----------|-----|------|------|
+|        | Age_Group | N   | Mean | SD   |
+| Age    | 18-39     | 20  | 27.9 | 6.43 |
+|        | 40-60     | 20  | 49.3 | 6.38 |
+| Before | 18-39     | 20  | 45.6 | 1.84 |
+|        | 40-60     | 20  | 38.5 | 3.12 |
+| After  | 18-39     | 20  | 52.6 | 1.84 |
+|        | 40-60     | 20  | 43.7 | 3.64 |
+
+: Descriptive Statistics for dynamometer {#tbl-desc-data}
+
+# Types of t-tests
+
+## **One-Sample T-Test**
+
+-   Compares the mean of a single sample to a known population mean or hypothesized value
+-   Determines if the sample mean significantly differs from an expected value
+-   Example: Comparing the average height of a sample to the known population mean height
+
+## **Independent Samples T-Test**
+
+-   Compares the means of two independent groups
+-   Used to determine if there is a significant difference between groups
+-   Example: Comparing test scores between students taught using different teaching methods
+
+## **Paired Samples T-Test**
+
+-   Also known as the dependent samples t-test
+-   Compares the means of two related groups or repeated measures
+-   Often used in pre-post study designs
+-   Example: Comparing participants' muscle strength before and after an exercise program
+
+## Assumptions {.scrollable .smaller}
+
+**Assumption of Normality**
+
+-   Data should be approximately normally distributed
+-   T-test is robust against violations of normality with large sample sizes
+-   If assumption is violated, consider using non-parametric tests
+
+**Assumption of Homogeneity of Variances**
+
+-   For independent samples t-test, variances should be equal between groups
+-   If assumption is violated, use Welch's t-test, which does not require equal variances
+-   Use Levene's test to assess homogeneity of variances
+
+**Assumption of Independence**
+
+-   Observations within each group should be independent
+-   Particularly relevant for the independent samples t-test
+-   Ensure proper study design and data collection to meet this assumption
+
+## Effect Size {.scrollable .smaller}
+
+**Cohen's d**
+
+-   Measure of effect size
+-   Expresses the magnitude of the difference between a sample mean and a known or hypothesized population mean in standardized units
+-   Can be used for all types of t-tests (One-sample, independent samples, paired samples)
+-   Provides a more comprehensive understanding of the effect of an intervention or treatment on the outcome of interest
+
+**One-sample t-test**
+
+-   Cohen's d formula: $$ Cohen's\,d = \frac{\overline{X} - \mu}{SD}$$ {#eq-cohend-tone}
+
+**Independent samples t-test**
+
+-   Cohen's d formula: $$ Cohen's\,d = \frac{\overline{X_1} - \overline{X_2}}{SD_{pooled}}$$ {#eq-cohend-ind}
+-   Pooled standard deviation formula: $$ SD_{pooled} = \sqrt{\frac{(n_1 - 1) \times SD_1^2 + (n_2 - 1) \times SD_2^2}{n_1 + n_2 - 2}}$$ {#eq-cohend-ind-pooled}
+
+**Paired samples t-test**
+
+-   Cohen's d formula: $$ Cohen's\,d = \frac{\overline{D}}{SD_D}$$ {#eq-cohend-dep}
+
+**Interpreting Cohen's d**
+
+-   Small effect: 0.2
+-   Medium effect: 0.5
+-   Large effect: 0.8 or higher
+-   Consider research context and field of study
+
+## Interpreting t-test results
+
+**Key concepts**
+
+-   t-value
+-   p-value
+-   Significance level (commonly 0.05)
+-   Null hypothesis
+-   Effect size measures (e.g., Cohen's d)
+
+## The t-distribution {.smaller .scrollable}
+
+**Student's t-distribution**
+
+-   Probability distribution
+-   Estimating the mean of a normally distributed population with unknown variance
+-   Continuous, symmetric distribution
+-   Thicker tails than standard normal distribution
+
+**Role in hypothesis testing**
+
+-   Used in t-tests to compare sample means
+-   Estimating the sampling distribution of the sample mean
+
+## The t-distribution {.smaller .scrollable}
+
+**Key features**
+
+1.  Symmetry
+    -   Symmetric around its mean (zero)
+2.  Thicker tails
+    -   Higher likelihood of observing extreme values or outliers
+3.  Degrees of freedom
+    -   Related to the sample size
+    -   As degrees of freedom increase, the t-distribution approaches the standard normal distribution
+
+# One-sample t-test
+
+## When to use it?
+
+-   Use when comparing the mean of a single sample to a known or hypothesized population mean
+
+## Assumptions {.scrollable .smaller}
+
+1.  Independence: Observations in the sample are independent
+2.  Normality: Sample is drawn from a normally distributed population
+3.  Equal variances: Population variances of the two groups are equal
+4.  Random sampling: Sample is drawn randomly and independently from the population
+5.  Sample size: Sample size is large enough (usually \> 30) for the Central Limit Theorem
+
+## Equation
+
+-   t = (x̄ - μ) / (s / √n)
+-   t = (x̄ - μ) / (s_x / √n)
+
+## Example
+
+-   Research question: Do older adults improve muscle strength following an 8-week exercise program?
+-   Null Hypothesis (H0): μ_After = 40
+-   Alternative Hypothesis (H1): μ_After ≠ 40
+
+## Analyzing with jamovi
+
+1.  Download and install jamovi
+2.  Open jamovi and import the dataset
+3.  Run the One-sample t-test
+
+## Analyzing with SPSS
+
+1.  Open SPSS and load the dataset
+2.  Run One-sample t-test using the menu or syntax
+
+## Reporting Results in APA Style {.scrollable .smaller}
+
+-   Description of the test used
+-   Statement of the null and alternative hypotheses
+-   Test statistic (t-value) with degrees of freedom (df) and p-value
+-   Effect size (e.g., Cohen's d)
+-   Conclusion about the null hypothesis
+-   Discussion of practical significance and limitations
+
+## Example APA Style Reporting {.scrollable .smaller}
+
+-   One-sample t-test conducted
+-   Sample mean muscle strength: M = 48.2, SD = 5.35
+-   t(39) = 9.66, p \< .001, Cohen's d = 1.53
+-   Assumption of normality violated (Shapiro-Wilk test, p = .032)
+-   Results should be interpreted with caution
+-   Alternative: Wilcoxon rank test (non-parametric equivalent)
+-   Refer to @furtadoRandomStatsComparingTwo2023 for more examples
+
+# Independent-samples t-test
+
+## When to use it?
+
+-   Compares the means of two independent groups
+-   Example: comparing muscle strength between groups who completed or did not complete a resistance training program
+-   Independent variable: resistance training program completion
+-   Dependent variable: muscle strength
+
+## Assumptions {.scrollable .smaller}
+
+-   Normality: approximately normal distribution within each group
+-   Independence: observations in each group are independent
+-   Equal variances: variances of the two groups should be roughly equal
+-   Random Sampling: random and representative samples of the population
+-   Equal sample size: similar sample sizes in each group
+-   Non-parametric Alternative
+    -   Mann-Whitney U test can be used if assumptions are not met
+
+## Equation - Student's t-test (Equal Variances) {.scrollable .smaller}
+
+$$
+t = \frac{\bar{X}_1 - \bar{X}_2}{s_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}}
+$$
+
+-   $t$: t-statistic
+-   $\bar{X}_1$ and $\bar{X}_2$: sample means of the two groups
+-   $s_p$: pooled standard deviation
+
+$$
+s_p = \sqrt{\frac{(n_1 - 1)s_1^2 + (n_2 - 1)s_2^2}{n_1 + n_2 - 2}}
+$$
+
+-   $n_1$ and $n_2$: sample sizes of the two groups
+-   $s_1$ and $s_2$: sample standard deviations of the two groups
+
+## Equation - Welch's t-test (Equal Variance Not Assumed) {.scrollable .smaller}
+
+$$
+t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+$$
+
+-   $t$: t-statistic
+-   $\bar{X}_1$ and $\bar{X}_2$: sample means of the two groups
+-   $n_1$ and $n_2$: sample sizes of the two groups
+-   $s_1$ and $s_2$: sample standard deviations of the two groups
+
+## Example {.scrollable .smaller}
+
+In this example, the researcher wanted to investigate mean differences between the age groups.
+
+Research question
+
+-   Is there a significant difference in the mean 'After' scores between age groups 18-39 and 40-60 in terms of dynamometer performance?
+
+Hypothesis statements
+
+-   Null Hypothesis (H0): μ(18-39) = μ(40-60)
+    -   No significant difference in mean 'After' scores between age groups
+-   Alternative Hypothesis (H1): μ(18-39) ≠ μ(40-60)
+    -   Significant difference in mean 'After' scores between age groups
+
+## Analyzing with jamovi
+
+1.  Import the data
+2.  Perform the independent samples t-test
+3.  Set additional options (optional)
+4.  View the results
+
+## Analyzing with SPSS
+
+1.  Import the data
+2.  Perform the independent samples t-test using the menu
+3.  View the results
+
+## Interpreting the Results {.scrollable .smaller}
+
+1.  Check assumptions: normality and equal variances
+2.  Examine descriptive statistics
+3.  Interpret Levene's test results
+4.  Interpret t-test results: t-value, degrees of freedom, and p-value
+5.  Determine significance based on p-value
+6.  Consider effect size (Cohen's d or Hedges' g)
+7.  Interpret results in context of research question
+
+## Reporting Results in APA Style {.scrollable .smaller}
+
+1.  Include test statistic, degrees of freedom, and p-value
+2.  Describe compared variables, sample sizes, and means
+3.  State null and alternative hypotheses
+4.  Interpret results (reject or fail to reject null hypothesis)
+5.  Report effect size (Cohen's d)
+6.  Briefly interpret results in context of research question
+
+## Example Report {.scrollable .smaller}
+
+-   Independent-samples t-test results
+-   Significant difference in "After" scores between age groups 18-39 and 40-60
+-   18-39: M = 52.6, SD = 1.84
+-   40-60: M = 43.7, SD = 43.5
+-   t(28.1) = 9.80, p \< .001, Cohen's d = 3.10
+-   Welch's correction used due to unequal variances
+
+# Paired-samples t-test
+
+## When to use it?
+
+-   Compare two sets of related (or paired) data
+-   Assess effectiveness of different treatments on a group
+-   Pre- and post-test designs
+-   Control for individual differences
+
+## Assumptions {.scrollable .smaller}
+
+1.  Independence: observations within each pair are independent
+2.  Normality: differences between pairs are normally distributed
+3.  Equal variances: variances of differences between pairs are equal
+4.  Paired data: each individual measured twice
+5.  Random Sampling: sample selected randomly from population
+
+## Equation
+
+$$
+t = \frac{\bar{d}}{s_d/\sqrt{n}}
+$$
+
+-   $\bar{d}$: mean difference
+-   $s_d$: standard deviation of the differences
+-   $n$: sample size
+-   $t$: t-statistic
+
+## Example {.scrollable .smaller}
+
+A researcher wanted to investigate whether an intervention (such as an exercise program) has a significant effect on muscle strength. Participants were recruited based on specific inclusion criteria (e.g., age range, health status, etc.), and muscle strength measurements (in kg) were taken for each participant both before and after the intervention. The null hypothesis would be that there is no significant difference between the "Before" and "After" measurements, while the alternative hypothesis would be that there is a significant difference. The `Paired-samples` t test would be an appropriate statistical analysis to test this hypothesis.
+
+Research Question
+
+-   Investigate difference in muscle strength before and after a training program among participants
+
+Hypotheses Statements
+
+-   Null Hypothesis (H0): $\mu_{D} = 0$
+-   Alternative Hypothesis (H1): $\mu_{D} \neq 0$
+
+## Analyzing with jamovi
+
+1.  Download and install jamovi
+2.  Open jamovi and import the `dynamometer.csv` dataset
+3.  Click "T-tests" and select "Paired Samples t-test"
+4.  Move `Before` and `After` variables under `Paired Variables`
+5.  Select desired options
+6.  View results in the "Results" tab
+
+## Analyzing with SPSS
+
+1.  Open SPSS and import `dynamometer.csv` dataset
+2.  Go to Analyze \> Compare Means \> Paired-samples T Test
+3.  Select "Before" and "After" variables
+4.  Click "Options" and select "Descriptive statistics" and "Paired samples test"
+5.  Click "Continue" and "OK" to run the analysis
+
+## Interpreting the Results {.scrollable .smaller}
+
+1.  Check the t-test's p-value
+    1.  p-value \< significance level: reject the null hypothesis
+    2.  p-value \> significance level: cannot reject the null hypothesis
+2.  Evaluate Cohen's d
+    1.  Small effect: \|d\| = 0.2
+    2.  Medium effect: \|d\| = 0.5
+    3.  Large effect: \|d\| = 0.8
+
+## Reporting Results {.scrollable .smaller}
+
+1.  Test statistic and p-value
+2.  Sample size
+3.  Mean difference and standard deviation of the differences
+4.  Effect size, such as Cohen's d
+
+**Suggested Reporting:**
+
+A Paired-samples t-test was conducted to compare the scores before and after the intervention. There was a significant difference in the scores for before (M = 42.1, SD = 4.42) and after (M = 48.2, SD = 5.35) conditions; t(39) = -31.208, p \< .001, 95% CI \[-6.495, -5.705\], Cohen's d = 4.93. The results indicate that there is a significant difference between the "Before" and "After" scores, with the "After" scores being higher on average. The effect size (Cohen's d) is large, suggesting that the intervention had a substantial impact on the scores.
+
+## References

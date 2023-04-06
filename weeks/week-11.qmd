@@ -33,6 +33,8 @@ I will post an announcement on Canvas when there are changes to this page.
 
 Read @furtadoRandomStatsComparingTwo2023
 
+Study the Student's t table under [Statistical Tables](../supplemental/tables.qmd)
+
 Watch these videos:
 
 -   [Overview of t-test](https://youtu.be/mb7KCLYEis8?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
