@@ -1,5 +1,5 @@
 ---
-title: "Week 9: The t-test"
+title: "Week 11: The t-test"
 subtitle: |
            KIN 610 - Spring 2023
 author: "Dr. Ovande Furtado Jr"
