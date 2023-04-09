@@ -12,7 +12,7 @@ format:
     number-sections: true
     colorlinks: true
     tbl-colwidths: [5,95]
-bibliography: references.bib
+bibliography: ../references2.bib
 csl: ../apa.csl
 editor: visual
 ---
@@ -22,8 +22,6 @@ editor: visual
 -   Deadlines
     -   Quiz
     -   Takeaways
-
-Download the lesson in [PDF](week-12.pdf)
 :::
 
 ::: callout-note
@@ -32,7 +30,15 @@ I will post an announcement on Canvas when there are changes to this page.
 
 ## Prepare
 
-Coming soon
+Read @furtadoRandomStatsOneWayANOVA2023
+
+Study the Student's F table under [Statistical Tables](../supplemental/tables.qmd)
+
+Watch these videos:
+
+-   [One-ANOVA](https://youtu.be/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn)
+
+-   [Kruskal-Wallis H test](https://youtu.be/qfs6T311_88?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn) (non-parametric equivalent to the F test)
 
 ## Participate
 

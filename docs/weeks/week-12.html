@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -335,7 +354,6 @@ Important
 <li>Takeaways</li>
 </ul></li>
 </ul>
-<p>Download the lesson in <a href="week-12.pdf">PDF</a></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -353,7 +371,13 @@ Note
 </div>
 <section id="prepare" class="level2">
 <h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
-<p>Coming soon</p>
+<p>Read <span class="citation" data-cites="furtadoRandomStatsOneWayANOVA2023">Furtado (<a href="#ref-furtadoRandomStatsOneWayANOVA2023" role="doc-biblioref">2023</a>)</span></p>
+<p>Study the Student’s F table under <a href="../supplemental/tables.html">Statistical Tables</a></p>
+<p>Watch these videos:</p>
+<ul>
+<li><p><a href="https://youtu.be/TJoJTVgDyqY?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">One-ANOVA</a></p></li>
+<li><p><a href="https://youtu.be/qfs6T311_88?list=PLkk92zzyru5OAtc_ItUubaSSq6S_TGfRn">Kruskal-Wallis H test</a> (non-parametric equivalent to the F test)</p></li>
+</ul>
 </section>
 <section id="participate" class="level2">
 <h2 class="anchored" data-anchor-id="participate">Participate</h2>
@@ -375,9 +399,14 @@ Note
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-furtadoRandomStatsOneWayANOVA2023" class="csl-entry" role="listitem">
+Furtado, O. (2023, April 8). <em><span>RandomStats</span> - <span>One-Way ANOVA</span></em> [Blog]. <span>RandomStats</span>. <a href="https://drfurtado.github.io/randomstats/posts/04082023-one-way-anova/">https://drfurtado.github.io/randomstats/posts/04082023-one-way-anova/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
