@@ -42,7 +42,7 @@ Watch these videos:
 
 ## Participate
 
-Coming soon
+[Slides for this lecture](../slides/lec-10.qmd)
 
 ## Practice
 
