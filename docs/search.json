@@ -3288,5 +3288,257 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nJanuary 5: Classes begin (Monday meeting schedule)\nJanuary 6: Regular class meeting schedule begins\nJanuary 17: Martin Luther King, Jr. Day holiday, no classes are held\nJanuary 19: Drop/add ends\nMarch 7-11: Spring recess, no classes are held\nMarch 23: Last day to withdraw with W\nApril 20: Classes end\nApril 21-24: Reading period\nApril 25-30: Final exams\n\nClick here for the full Duke academic calendar."
+  },
+  {
+    "objectID": "slides/lec-10.html#credits",
+    "href": "slides/lec-10.html#credits",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Credits",
+    "text": "Credits"
+  },
+  {
+    "objectID": "slides/lec-10.html#references",
+    "href": "slides/lec-10.html#references",
+    "title": "Week 12: One-way ANOVA",
+    "section": "References",
+    "text": "References\n\n\n\nhttps://drfurtado.github.io/kin610/"
+  },
+  {
+    "objectID": "slides/lec-10.html#hypotheses-in-one-way-anova",
+    "href": "slides/lec-10.html#hypotheses-in-one-way-anova",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Hypotheses in One-way ANOVA",
+    "text": "Hypotheses in One-way ANOVA\n\nNull Hypothesis (H0): All group means are equal.\nAlternative Hypothesis (H1): At least one group mean is different."
+  },
+  {
+    "objectID": "slides/lec-10.html#one-way-anova-process",
+    "href": "slides/lec-10.html#one-way-anova-process",
+    "title": "Week 12: One-way ANOVA",
+    "section": "One-way ANOVA Process",
+    "text": "One-way ANOVA Process\n\nState the null and alternative hypotheses.\nCalculate the test statistic (F-statistic) using the ANOVA table.\nDetermine the critical value based on the chosen significance level (alpha) and degrees of freedom.\nCompare the test statistic to the critical value.\nMake a decision about the null hypothesis."
+  },
+  {
+    "objectID": "slides/lec-10.html#post-hoc-tests",
+    "href": "slides/lec-10.html#post-hoc-tests",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Post-hoc Tests",
+    "text": "Post-hoc Tests\nIf the null hypothesis is rejected, post-hoc tests can be conducted to identify the specific group differences."
+  },
+  {
+    "objectID": "slides/lec-10.html#intro-to-one-way-anova",
+    "href": "slides/lec-10.html#intro-to-one-way-anova",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Intro to One-way ANOVA",
+    "text": "Intro to One-way ANOVA\nOne-way Analysis of Variance (ANOVA) is a statistical technique used to compare the means of three or more groups. It is an extension of the t-test, which can only compare the means of two groups. The main purpose of one-way ANOVA is to determine if there are any significant differences among the group means."
+  },
+  {
+    "objectID": "slides/lec-10.html#sum-of-squares-between-groups-ssb",
+    "href": "slides/lec-10.html#sum-of-squares-between-groups-ssb",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Sum of Squares Between groups (SSB)",
+    "text": "Sum of Squares Between groups (SSB)\n\nMeasures the variability between the group means\nQuantifies differences in the means of different groups compared to the grand mean\nLarger SSB value indicates greater difference between group means\nSuggests factor being studied may have significant impact on the outcome"
+  },
+  {
+    "objectID": "slides/lec-10.html#sum-of-squares-within-groups-ssw",
+    "href": "slides/lec-10.html#sum-of-squares-within-groups-ssw",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Sum of Squares Within groups (SSW)",
+    "text": "Sum of Squares Within groups (SSW)\n\nMeasures the variability within each group\nRepresents dispersion of individual data points around their respective group means\nLarger SSW value indicates more variability within the groups\nMay be due to random errors or other factors not accounted for in the study"
+  },
+  {
+    "objectID": "slides/lec-10.html#key-differences-between-ssb-and-ssw",
+    "href": "slides/lec-10.html#key-differences-between-ssb-and-ssw",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Key Differences Between SSB and SSW",
+    "text": "Key Differences Between SSB and SSW\n\nSSB: concerned with variability between group means\nSSW: focuses on variability within each group\nSSB: identifies the effect of the factor being studied\nSSW: accounts for random errors and other unexplained factors"
+  },
+  {
+    "objectID": "slides/lec-10.html#f-ratio-in-one-way-anova",
+    "href": "slides/lec-10.html#f-ratio-in-one-way-anova",
+    "title": "Week 12: One-way ANOVA",
+    "section": "F-Ratio in One-Way ANOVA",
+    "text": "F-Ratio in One-Way ANOVA\n\nTest statistic for determining statistically significant differences between group means\nF-ratio = Mean Square Between groups (MSB) / Mean Square Within groups (MSW)\nMSB = SSB / degrees of freedom between groups\nMSW = SSW / degrees of freedom within groups\nLarger F-ratio indicates greater between-group variability than within-group variability\nSuggests differences between group means are statistically significant"
+  },
+  {
+    "objectID": "slides/lec-10.html#intro",
+    "href": "slides/lec-10.html#intro",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Intro",
+    "text": "Intro\nThe F distribution, also known as the Fisher-Snedecor distribution, is a continuous probability distribution that is widely used in statistical hypothesis testing, particularly in the analysis of variance (ANOVA). It is named after Ronald A. Fisher and George W. Snedecor, two prominent statisticians who contributed significantly to its development."
+  },
+  {
+    "objectID": "slides/lec-10.html#characteristics-of-the-f-distribution",
+    "href": "slides/lec-10.html#characteristics-of-the-f-distribution",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Characteristics of the F Distribution",
+    "text": "Characteristics of the F Distribution\n\n\n\n\n\n\n\n\n\nThe F distribution has two important parameters: degrees of freedom for the numerator (df1) and degrees of freedom for the denominator (df2). These parameters define the shape of the distribution. Some key characteristics of the F distribution are:\nIt is always non-negative, as it represents the ratio of two chi-square distributions.\nIt is asymmetric and positively skewed, with a longer tail on the right side.\nThe peak of the distribution shifts to the right as the degrees of freedom increase.\nAs both degrees of freedom approach infinity, the F distribution converges to a normal distribution."
+  },
+  {
+    "objectID": "slides/lec-10.html#applications-of-the-f-distribution-in-anova",
+    "href": "slides/lec-10.html#applications-of-the-f-distribution-in-anova",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Applications of the F Distribution in ANOVA",
+    "text": "Applications of the F Distribution in ANOVA\nThe F distribution is central to the analysis of variance (ANOVA) and other statistical tests that involve comparing variances or assessing the effects of different factors on a response variable. In these applications, an F statistic is calculated as the ratio of two mean square values (MS), which are derived from sums of squares (SS) and degrees of freedom:\nF = (MS_between groups) / (MS_within groups)\n\nThe numerator (MS_between groups) represents the variability between the groups\nThe denominator (MS_within groups) represents the variability within the groups\nF statistic is used in ANOVA (Analysis of Variance) to compare variances between groups\nIt measures the ratio of variability between groups to the variability within groups\n\nF Statistic and Group Differences\n\nF statistic close to 1: No significant difference between groups\nF statistic much greater than 1: Significant effect of the factor being tested\n\nHypothesis Testing with F Statistic\n\nCompare the calculated F statistic to a critical value from the F distribution\nUse appropriate degrees of freedom\nIf F statistic &gt; critical value, reject the null hypothesis\nA significant F statistic suggests a significant effect of the factor being tested"
+  },
+  {
+    "objectID": "slides/lec-10.html#calculate-the-sum-of-squares",
+    "href": "slides/lec-10.html#calculate-the-sum-of-squares",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Calculate the sum of squares:",
+    "text": "Calculate the sum of squares:\nSum of squares is calculated using the following components:\n\nSum of squares between groups (SSB): It measures the variability among group means.\n\\[\nSSB = Σk(Ŷi. - Ŷ..)² / ni\n\\]\nwhere k is the number of groups, Ŷi. is the mean of group i, Ŷ.. is the grand mean, and ni is the number of observations in group i.\nSum of squares within groups (SSW): It measures the variability within each group.\n\\[\nSSW = ΣΣ(Yij - Ŷi.)²\n\\]\nwhere Yij is the observation j in group i, and Ŷi. is the mean of group i.\nTotal sum of squares (SST): It measures the total variability in the data.\n\\[\nSST = ΣΣ(Yij - Ŷ..)²\n\\]"
+  },
+  {
+    "objectID": "slides/lec-10.html#sec-calculate-the-f-ratio",
+    "href": "slides/lec-10.html#sec-calculate-the-f-ratio",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Calculate the F-ratio",
+    "text": "Calculate the F-ratio\nThe F-ratio is calculated using the mean squares, which are obtained by dividing the sum of squares by their respective degrees of freedom.\n\nMean squares between groups (MSB):\n\\[\nMSB = SSB / (k - 1)\n\\]\nwhere k is the number of groups.\nMean squares within groups (MSW):\n\\[\nMSW = SSW / (N - k)\n\\]\nwhere N is the total number of observations.\nF-ratio:\n\\[\nF = MSB / MSW\n\\]\n\nThe F-ratio follows an F-distribution with (k - 1) and (N - k) degrees of freedom. The F-ratio is then compared to the critical value from the F-distribution table at a given significance level (usually α = 0.05) to determine if the null hypothesis can be rejected."
+  },
+  {
+    "objectID": "slides/lec-10.html#calculate-the-f-ratio",
+    "href": "slides/lec-10.html#calculate-the-f-ratio",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Calculate the F-ratio",
+    "text": "Calculate the F-ratio\nThe F-ratio is calculated using the mean squares, which are obtained by dividing the sum of squares by their respective degrees of freedom.\n\nMean squares between groups (MSB):\n\\[\nMSB = SSB / (k - 1)\n\\]\nwhere k is the number of groups.\nMean squares within groups (MSW):\n\\[\nMSW = SSW / (N - k)\n\\]\nwhere N is the total number of observations.\nF-ratio:\n\\[\nF = MSB / MSW\n\\]\n\nThe F-ratio follows an F-distribution with (k - 1) and (N - k) degrees of freedom. The F-ratio is then compared to the critical value from the F-distribution table at a given significance level (usually α = 0.05) to determine if the null hypothesis can be rejected."
+  },
+  {
+    "objectID": "slides/lec-10.html#eta-squared-eta2",
+    "href": "slides/lec-10.html#eta-squared-eta2",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Eta-squared (\\(\\eta^2\\))",
+    "text": "Eta-squared (\\(\\eta^2\\))\n\nProportion of variance in the dependent variable explained by the independent variable.\nRanges from 0 to 1.\nEquation: \\(\\eta^2 = \\frac{SS_{between}}{SS_{total}}\\)\nRule of thumb: 0.01 (small), 0.06 (medium), 0.14 (large) effect sizes."
+  },
+  {
+    "objectID": "slides/lec-10.html#partial-eta-squared-eta_p2",
+    "href": "slides/lec-10.html#partial-eta-squared-eta_p2",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Partial eta-squared (\\(\\eta_p^2\\))",
+    "text": "Partial eta-squared (\\(\\eta_p^2\\))\n\nVariation of eta-squared that takes into account the degrees of freedom associated with the residual error term.\nCan be less biased in certain situations.\nEquation: \\(\\eta_p^2 = \\frac{SS_{between}}{SS_{between} + SS_{error}}\\)\nSame rule of thumb as eta-squared."
+  },
+  {
+    "objectID": "slides/lec-10.html#omega-squared-omega2",
+    "href": "slides/lec-10.html#omega-squared-omega2",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Omega-squared (\\(\\omega^2\\))",
+    "text": "Omega-squared (\\(\\omega^2\\))\n\nEstimates the true population effect size.\nTypically used when the sample size is small and/or the population effect size is unknown.\nEquation: \\(\\omega^2 = \\frac{SS_{between} - (df_{between} \\times MS_{error})}{SS_{total} + MS_{error}}\\)\nSlightly different rule of thumb: 0.01 (small), 0.06 (medium), 0.14 (large) effect sizes.\n\nNote: In these equations, \\(SS_{between}\\) represents the sum of squares between groups, \\(SS_{total}\\) represents the total sum of squares, \\(SS_{error}\\) represents the sum of squares error (also known as the residual sum of squares), \\(df_{between}\\) represents the degrees of freedom between groups, and \\(MS_{error}\\) represents the mean square error (calculated as \\(SS_{error} / df_{error}\\))."
+  },
+  {
+    "objectID": "slides/lec-10.html#common-post-hoc-tests",
+    "href": "slides/lec-10.html#common-post-hoc-tests",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Common Post-hoc Tests",
+    "text": "Common Post-hoc Tests\nTukey’s HSD Test\n\nWidely used for pairwise comparisons with equal variances.\nControls experiment-wise Type I error rate.\nMost powerful test with equal sample sizes.\n\nBonferroni Test\n\nAdjusts significance level by the number of pairwise comparisons.\nMore conservative than Tukey’s HSD.\nCan be used with equal or unequal sample sizes.\n\nScheffé’s Test\n\nMore conservative than Tukey’s HSD and Bonferroni.\nAllows any linear combination of means (not just pairwise comparisons).\nSuitable for complex planned comparisons.\n\nGames-Howell Test\n\nDesigned for unequal variances.\nUses Welch-Satterthwaite degrees of freedom.\nSuitable for unequal sample sizes."
+  },
+  {
+    "objectID": "slides/lec-10.html#factors-to-consider",
+    "href": "slides/lec-10.html#factors-to-consider",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Factors to Consider",
+    "text": "Factors to Consider\nAssumption of Equal Variances\n\nTukey’s HSD, Bonferroni, or Scheffé’s if met.\nGames-Howell if not met.\n\nSample Sizes\n\nTukey’s HSD for equal sample sizes.\nBonferroni or Games-Howell for unequal sample sizes.\n\nConservativeness vs. Power\n\nTukey’s HSD is more powerful but less conservative.\nBonferroni and Scheffé’s are more conservative but less powerful.\nBalance trade-off between Type I and Type II error rates."
+  },
+  {
+    "objectID": "slides/lec-10.html#research-question",
+    "href": "slides/lec-10.html#research-question",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Research question",
+    "text": "Research question\n\nIs there a significant difference in flexibility among participants in the three different exercise programs (A, B, and C)?"
+  },
+  {
+    "objectID": "slides/lec-10.html#hypothesis-statements",
+    "href": "slides/lec-10.html#hypothesis-statements",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Hypothesis Statements",
+    "text": "Hypothesis Statements\n\nNull Hypothesis (H0): \\(\\mu_{A} = \\mu_{B} = \\mu_{C}\\)\n\nThere is no significant difference in flexibility among the three exercise programs.\n\nAlternative Hypothesis (H1): \\(\\mu_{A} \\neq \\mu_{B} \\text{ or } \\mu_{A} \\neq \\mu_{C} \\text{ or } \\mu_{B} \\neq \\mu_{C}\\)\n\nThere is a significant difference in flexibility among at least two of the exercise programs."
+  },
+  {
+    "objectID": "slides/lec-10.html#anova-test-results",
+    "href": "slides/lec-10.html#anova-test-results",
+    "title": "Week 12: One-way ANOVA",
+    "section": "ANOVA Test Results",
+    "text": "ANOVA Test Results\n\nThe one-way ANOVA test was conducted with a significance level of \\(\\alpha = 0.05\\).\nThe test statistic value was F(2, 27) = 4.98, and the p-value was 0.014.\nSince the p-value is less than the significance level, we reject the null hypothesis.\nWe can conclude that there is a significant difference in flexibility among at least two of the exercise programs."
+  },
+  {
+    "objectID": "slides/lec-10.html#post-hoc-tests-1",
+    "href": "slides/lec-10.html#post-hoc-tests-1",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Post Hoc Tests",
+    "text": "Post Hoc Tests\n\nSince the one-way ANOVA test indicated a significant difference, we can conduct post hoc tests to determine which pairs of exercise programs have a significant difference in flexibility.\nTukey’s HSD test was conducted with a significance level of \\(\\alpha = 0.05\\).\nThe test results indicated a significant difference in flexibility between exercise programs A and C, with a p-value of 0.013.\nNo other pairs of exercise programs had a significant difference in flexibility."
+  },
+  {
+    "objectID": "slides/lec-10.html#jamovi",
+    "href": "slides/lec-10.html#jamovi",
+    "title": "Week 12: One-way ANOVA",
+    "section": "jamovi",
+    "text": "jamovi"
+  },
+  {
+    "objectID": "slides/lec-10.html#interpreting-the-results",
+    "href": "slides/lec-10.html#interpreting-the-results",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Interpreting the results",
+    "text": "Interpreting the results\n\nOne-way ANOVA results\n\nStatistically significant difference in flexibility scores between the three groups\nF-value of 53.65 and p-value of 2.71e-12\nAt least one group mean is significantly different from the others\n\nTukey HSD test results\n\nDifference in flexibility scores between groups A and B is significantly different from 0\n95% confidence interval: 5.97 to 10.96, p-value of 0\nGroup B has significantly higher flexibility score than group A\n\nNo significant difference between groups A and C\n\nConfidence interval (-3.83 to 1.16) includes 0, p-value of 0.40\nComparison between groups B and C shows significant difference\nGroup B has significantly higher flexibility score than group C\nConfidence interval: -12.29 to -7.31, p-value of 0\n\nConclusion\n\nSignificant differences in flexibility scores between at least two of the three groups\nGroup B has significantly higher flexibility score than both groups A and C\nNo significant difference in flexibility scores between groups A and C."
+  },
+  {
+    "objectID": "slides/lec-10.html#intro-1",
+    "href": "slides/lec-10.html#intro-1",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Intro",
+    "text": "Intro\nThe nonparametric equivalent to the one-way ANOVA is the Kruskal-Wallis test. It is used when the assumptions of normality and homogeneity of variance are not met.\nThe Kruskal-Wallis test ranks the data and compares the medians of the groups instead of the means.\nLike the one-way ANOVA, it tests the null hypothesis that there is no difference between the groups, and the alternative hypothesis that at least one group differs from the others."
+  },
+  {
+    "objectID": "slides/lec-10.html#jamovi-1",
+    "href": "slides/lec-10.html#jamovi-1",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Jamovi",
+    "text": "Jamovi\n\nOpen the data set in jamovi.\nClick on the “ANOVA” button and under “Nonparametric Tests”, select One-way ANOVA Kruskal-Wallis.\nDrag the dependent variable to the “Test Variable” box and the grouping variable to the “Factor” box.\nClick “Run” to obtain the test results."
+  },
+  {
+    "objectID": "slides/lec-10.html#spss",
+    "href": "slides/lec-10.html#spss",
+    "title": "Week 12: One-way ANOVA",
+    "section": "SPSS",
+    "text": "SPSS\n\nOpen the data set in SPSS.\nClick on “Analyze” and select “Nonparametric Tests” from the drop-down menu.\nSelect “Independent Samples” from the list of available tests.\nMove the dependent variable to the “Test Variable List” box and the grouping variable to the “Grouping Variable” box.\nClick on the “Options” button and select “Kruskal-Wallis H” from the list of available tests.\nClick “Continue” and then “OK” to run the test."
+  },
+  {
+    "objectID": "slides/lec-10.html#r",
+    "href": "slides/lec-10.html#r",
+    "title": "Week 12: One-way ANOVA",
+    "section": "R",
+    "text": "R\n\nOpen R and load the necessary packages (e.g., “tidyverse”, “rstatix”).\nLoad the data set into R using the read.csv() or read.table() function.\nUse the kruskal.test() function to conduct the Kruskal-Wallis test, specifying the dependent variable and grouping variable.\nUse the summary() function to obtain the test results.\n(Optional) Use the dunn_test() function from the “rstatix” package to conduct post-hoc pairwise comparisons."
+  },
+  {
+    "objectID": "slides/lec-10.html#results-of-one-way-anova-on-flexibility-scores",
+    "href": "slides/lec-10.html#results-of-one-way-anova-on-flexibility-scores",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Results of One-Way ANOVA on Flexibility Scores",
+    "text": "Results of One-Way ANOVA on Flexibility Scores\n\nA one-way analysis of variance (ANOVA) was conducted to determine whether there were significant differences in flexibility scores among three groups. Results revealed a significant main effect of group on flexibility scores, \\(F(2, 42) = 53.65, p &lt; .001, \\eta_{p}^{2} = .72\\). Post hoc pairwise comparisons using Tukey’s HSD test showed that group B had significantly higher flexibility scores compared to both groups A (\\(p &lt; .001\\)) and C (\\(p &lt; .001\\)). However, no significant difference was found between groups A and C (\\(p = .40\\)). These findings suggest that group B had significantly better flexibility scores than groups A and C, while groups A and C did not differ significantly in terms of their flexibility scores."
+  },
+  {
+    "objectID": "slides/lec-10.html#jamovi---post-hoc",
+    "href": "slides/lec-10.html#jamovi---post-hoc",
+    "title": "Week 12: One-way ANOVA",
+    "section": "jamovi - post hoc",
+    "text": "jamovi - post hoc"
+  },
+  {
+    "objectID": "slides/lec-10.html#anova-output-includes",
+    "href": "slides/lec-10.html#anova-output-includes",
+    "title": "Week 12: One-way ANOVA",
+    "section": "ANOVA output includes:",
+    "text": "ANOVA output includes:\n\nDegrees of freedom for the between-group factor and the residual error term\nSum of squares for the between-group factor and the residual error term\nMean squares for the between-group factor and the residual error term\nF-statistic and p-value associated with the F-statistic"
+  },
+  {
+    "objectID": "slides/lec-10.html#to-interpret-the-results-consider-both-the-f-statistic-and-p-value",
+    "href": "slides/lec-10.html#to-interpret-the-results-consider-both-the-f-statistic-and-p-value",
+    "title": "Week 12: One-way ANOVA",
+    "section": "To interpret the results, consider both the F-statistic and p-value:",
+    "text": "To interpret the results, consider both the F-statistic and p-value:\n\nF-statistic indicates significant differences between group means\nP-value tells you whether those differences are statistically significant\nIf p-value &lt; alpha level, then evidence of significant difference between at least 2 group means"
+  },
+  {
+    "objectID": "slides/lec-10.html#examining-effect-size",
+    "href": "slides/lec-10.html#examining-effect-size",
+    "title": "Week 12: One-way ANOVA",
+    "section": "Examining effect size:",
+    "text": "Examining effect size:\n\nCommon measures: eta-squared (\\(\\eta^2\\)), partial eta-squared (\\(\\eta_p^2\\)), and omega-squared (\\(\\omega^2\\))\nLarger effect sizes indicate more meaningful differences between groups"
   }
 ]
