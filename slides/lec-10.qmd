@@ -18,13 +18,18 @@ format:
     controls-layout: edges
     chalkboard: true
     link-external-newwindow: true
+  pdf:
+   toc: true
+  html: default
 editor: visual
 execute:
   freeze: auto
-bibliography: references.bib
+bibliography: ../references.bib
 ---
 
 # Credits
+
+@furtadoRandomStatsOneWayANOVA2023
 
 # Sample data
 
@@ -320,21 +325,21 @@ Conservativeness vs. Power
 
 ## ANOVA output includes:
 
-  -   Degrees of freedom for the between-group factor and the residual error term
-  -   Sum of squares for the between-group factor and the residual error term
-  -   Mean squares for the between-group factor and the residual error term
-  -   F-statistic and p-value associated with the F-statistic
+-   Degrees of freedom for the between-group factor and the residual error term
+-   Sum of squares for the between-group factor and the residual error term
+-   Mean squares for the between-group factor and the residual error term
+-   F-statistic and p-value associated with the F-statistic
 
 ## To interpret the results, consider both the F-statistic and p-value:
 
-  -   F-statistic indicates significant differences between group means
-  -   P-value tells you whether those differences are statistically significant
-  -   If p-value \< alpha level, then evidence of significant difference between at least 2 group means
+-   F-statistic indicates significant differences between group means
+-   P-value tells you whether those differences are statistically significant
+-   If p-value \< alpha level, then evidence of significant difference between at least 2 group means
 
 ## Examining effect size:
 
-  -   Common measures: eta-squared ($\eta^2$), partial eta-squared ($\eta_p^2$), and omega-squared ($\omega^2$)
-  -   Larger effect sizes indicate more meaningful differences between groups
+-   Common measures: eta-squared ($\eta^2$), partial eta-squared ($\eta_p^2$), and omega-squared ($\omega^2$)
+-   Larger effect sizes indicate more meaningful differences between groups
 
 # One-Way ANOVA Example {#sec-one-way-anova-example}
 
@@ -363,13 +368,13 @@ Conservativeness vs. Power
 -   The test results indicated a significant difference in flexibility between exercise programs A and C, with a p-value of 0.013.
 -   No other pairs of exercise programs had a significant difference in flexibility.
 
-# Statistical Package  {.scrollable .smaller}
+# Statistical Package {.scrollable .smaller}
 
 ## jamovi
 
 ![](images/Screenshot%202023-04-08%20at%202.41.01%20PM.png)
 
-## jamovi - post hoc  {.scrollable .smaller}
+## jamovi - post hoc {.scrollable .smaller}
 
 ![](images/Screenshot%202023-04-08%20at%202.42.26%20PM.png)
 
