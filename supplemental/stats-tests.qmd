@@ -82,7 +82,7 @@ BMI: predictor/independent (continuous)
 
 ### Hypotheses
 
-H₀: β₁ = 0 H₁: β₁ ≠ 0
+H₀: β₁ = 0; H₁: β₁ ≠ 0
 
 ### Data collection & preparation
 

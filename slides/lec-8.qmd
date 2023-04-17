@@ -18,7 +18,11 @@ format:
     controls-layout: edges
     chalkboard: true
     link-external-newwindow: true
+  pdf: 
+    toc: true
+  html: default
 editor: visual
+search: true
 execute:
   freeze: auto
 bibliography: references.bib
