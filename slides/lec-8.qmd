@@ -6,7 +6,11 @@ author: "Dr. Ovande Furtado Jr"
 footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
 logo: "images/logo.png"
 format: 
+  html: default
+  pdf: 
+    toc: true
   revealjs: 
+    output-file: lec-8.qmd
     theme: slides.scss
     navigation-mode: linear
     multiplex: false
@@ -18,9 +22,9 @@ format:
     controls-layout: edges
     chalkboard: true
     link-external-newwindow: true
-  pdf: 
-    toc: true
-  html: default
+    smaller: true
+    scrollable: true
+
 editor: visual
 search: true
 execute:
