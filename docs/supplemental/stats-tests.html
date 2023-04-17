@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.299">
+<meta name="generator" content="quarto-1.3.324">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -292,6 +292,17 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#parametric-tests" id="toc-parametric-tests" class="nav-link active" data-scroll-target="#parametric-tests">Parametric tests</a>
   <ul class="collapse">
+  <li><a href="#simple-linear-regression" id="toc-simple-linear-regression" class="nav-link" data-scroll-target="#simple-linear-regression">Simple Linear Regression</a>
+  <ul class="collapse">
+  <li><a href="#steps" id="toc-steps" class="nav-link" data-scroll-target="#steps">Steps</a></li>
+  </ul></li>
+  <li><a href="#diagnostics" id="toc-diagnostics" class="nav-link" data-scroll-target="#diagnostics">Diagnostics</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a>
+  <ul class="collapse">
+  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research question</a></li>
+  <li><a href="#hypotheses" id="toc-hypotheses" class="nav-link" data-scroll-target="#hypotheses">Hypotheses</a></li>
+  <li><a href="#data-collection-preparation" id="toc-data-collection-preparation" class="nav-link" data-scroll-target="#data-collection-preparation">Data collection &amp; preparation</a></li>
+  </ul></li>
   <li><a href="#one-sample-t-test" id="toc-one-sample-t-test" class="nav-link" data-scroll-target="#one-sample-t-test">One-sample t test</a>
   <ul class="collapse">
   <li><a href="#when-to-use-it" id="toc-when-to-use-it" class="nav-link" data-scroll-target="#when-to-use-it">When to use it?</a></li>
@@ -386,6 +397,79 @@ ul.task-list li input[type="checkbox"] {
 <p>Parametric tests are a class of statistical tests that make assumptions about the underlying probability distribution of the data being analyzed. These assumptions include that the data are sampled from a population that follows a normal distribution, and that the sample size is large enough to make these assumptions valid. The most commonly used parametric tests include t-tests, ANOVA (analysis of variance) and multiple regression analysis. These tests are known to have more powerful results than non-parametric tests, which makes them more useful for exploring the difference between groups or testing hypotheses about a population.</p>
 <p>The assumptions of parametric tests are met when the data are approximately normal and when the sample size is large enough. Therefore, it is recommended to check for normality of the data using normality test such as the Shapiro-Wilk test and check for outliers using box plots and histograms.</p>
 <p>Parametric tests are useful when the researcher wants to compare means of two or more groups, establish a relationship between two or more variables, or investigate the correlation between variables. Examples of parametric tests include: t-test, ANOVA, multiple regression analysis, and chi-square tests.</p>
+<section id="simple-linear-regression" class="level2">
+<h2 class="anchored" data-anchor-id="simple-linear-regression">Simple Linear Regression</h2>
+<p>Simple linear regression is a statistical method used to model the relationship between two variables, where one variable (called the independent variable or predictor variable) is used to predict the other variable (called the dependent variable or response variable). The relationship between the two variables is assumed to be linear, meaning that the change in the dependent variable is proportional to the change in the independent variable.</p>
+<p>The goal of simple linear regression is to find the best-fitting line that describes the relationship between the two variables. This line is called the regression line, and it is defined by an equation of the form y = mx + b, where y is the dependent variable, x is the independent variable, m is the slope of the line, and b is the y-intercept of the line.</p>
+<p>To find the values of m and b that best fit the data, simple linear regression uses a method called least squares regression. This method minimizes the sum of the squared differences between the predicted values of y and the actual values of y for each value of x. The resulting regression line can be used to predict the value of y for any given value of x within the range of the data.</p>
+<p>Simple linear regression is commonly used in many fields, including economics, social sciences, and engineering, to analyze the relationship between two variables and make predictions based on that relationship.</p>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<p>To conduct a hypothesis test in the context of simple linear regression, follow these steps:</p>
+<ol type="1">
+<li><p><strong>State the research question(s)</strong> and assess the <strong>nature of the variables</strong> (continuous, discrete), and identify the dependent (outcome) and independent variables.</p></li>
+<li><p><strong>State the null and alternative hypotheses</strong>: The null hypothesis (H₀) typically states that there is no relationship between the predictor (independent) variable and the response (dependent) variable, i.e., the slope of the regression line (β₁) is equal to zero. The alternative hypothesis (H₁) states that there is a relationship between the predictor and response variables, i.e., the slope is not equal to zero.</p>
+<p>H₀: β₁ = 0 H₁: β₁ ≠ 0</p></li>
+<li><p><strong>Collect data</strong>: Gather a sample of paired data points for the predictor and response variables.</p></li>
+<li><p><strong>Prepare data (diagnostics)</strong>: Ensure that the data is appropriate for linear regression (i.e., there is a linear relationship, the residuals are normally distributed, homoscedasticity is present, and extreme outliers are not present).</p>
+<ol type="1">
+<li><p>Linearity:</p>
+<ol type="1">
+<li><p><strong>Scatterplot</strong>: Create a scatterplot of the response variable against the predictor variable. Visually inspect the plot to determine if the relationship appears to be linear. If the data points form a pattern that roughly resembles a straight line, it suggests a linear relationship. If the pattern is curved, it indicates that the relationship may be nonlinear.</p></li>
+<li><p><strong>Residual plot</strong>: After fitting the linear regression model, plot the residuals (observed values minus predicted values) against the predictor variable or the predicted values. A random scattering of residuals around the horizontal axis (zero) suggests that the linear model is appropriate. If there is a pattern or trend in the residual plot, it indicates a potential violation of the linearity assumption.</p></li>
+<li><p><strong>Correlation coefficient (Pearson’s r)</strong>: Calculate the correlation coefficient between the predictor and response variables. Pearson’s r ranges from -1 to 1, with values close to -1 or 1 suggesting a strong linear relationship, and values close to 0 indicating a weak or no linear relationship. While the correlation coefficient can provide information about the strength and direction of the relationship, it doesn’t necessarily imply causation or indicate that a linear regression model is appropriate.</p></li>
+<li><p><strong>Partial regression plots (added-variable plots)</strong>: Partial regression plots can help assess the linearity assumption in multiple regression settings. These plots show the relationship between a response variable and a predictor variable, controlling for the effects of other predictor variables in the model. If the partial regression plots display a linear pattern, it supports the linearity assumption.</p></li>
+</ol></li>
+</ol></li>
+<li><p><strong>Estimate the regression coefficients</strong>: Using the sample data, calculate the slope (β₁) and the intercept (β₀) of the regression line using the least squares method or another appropriate method.</p></li>
+<li><p><strong>Calculate the test statistic</strong>: Compute the t-statistic for the hypothesis test using the following formula:</p>
+<p>t = (b₁ - 0) / SE(b₁)</p>
+<p>Here, b₁ is the estimated slope of the regression line, and SE(b₁) is the standard error of the slope.</p></li>
+<li><p><strong>Determine the degrees of freedom</strong>: Calculate the degrees of freedom for the t-distribution, which is equal to the number of data points (n) minus the number of estimated parameters (2 for simple linear regression: the slope and the intercept).</p>
+<p>df = n - 2</p></li>
+<li><p><strong>Determine the critical value or p-value</strong>: Based on the chosen significance level (α, usually 0.05), determine the critical t-value from the t-distribution table, or calculate the p-value for the observed t-statistic. The p-value is the probability of observing a t-statistic as extreme or more extreme than the one calculated, assuming the null hypothesis is true.</p></li>
+<li><p><strong>Make a decision</strong>: Compare the calculated t-statistic to the critical value or the p-value to the significance level:</p>
+<ul>
+<li><p>If the absolute value of the t-statistic is greater than the critical value, or if the p-value is less than the significance level (p &lt; α), reject the null hypothesis. This suggests that there is a significant relationship between the predictor and response variables.</p></li>
+<li><p>If the absolute value of the t-statistic is less than or equal to the critical value, or if the p-value is greater than or equal to the significance level (p ≥ α), fail to reject the null hypothesis. This suggests that there is no significant relationship between the predictor and response variables.</p></li>
+</ul></li>
+<li><p><strong>Interpret the results</strong>: Based on the decision made in the previous step, interpret the results in the context of your research question or study. If you rejected the null hypothesis, you can also report the estimated regression coefficients and the coefficient of determination (R²) to describe the strength and direction of the relationship between the predictor and response variables.</p></li>
+</ol>
+</section>
+</section>
+<section id="diagnostics" class="level2">
+<h2 class="anchored" data-anchor-id="diagnostics">Diagnostics</h2>
+</section>
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<section id="research-question" class="level3">
+<h3 class="anchored" data-anchor-id="research-question">Research question</h3>
+<p>Can VO2max be predicted from BMI?</p>
+<p><strong>Variables:</strong></p>
+<p>V02max: predicted/dependent (continuous)</p>
+<p>BMI: predictor/independent (continuous)</p>
+</section>
+<section id="hypotheses" class="level3">
+<h3 class="anchored" data-anchor-id="hypotheses">Hypotheses</h3>
+<p>H₀: β₁ = 0 H₁: β₁ ≠ 0</p>
+</section>
+<section id="data-collection-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection-preparation">Data collection &amp; preparation</h3>
+<p>The following variables have been recorded for each individual:</p>
+<ol type="1">
+<li>Age (in years)</li>
+<li>Gender (1 = Male, 2 = Female)</li>
+<li>Resting eart Rate (RHR, in beats per minute)</li>
+<li>VO2 Max (in mL/kg/min)</li>
+<li>Body Mass Index (BMI)</li>
+</ol>
+<p>The dataset can be found here: <a href="../exams/physical-fitness.csv">physical-fitness.csv</a></p>
+<section id="diagnostics-1" class="level4">
+<h4 class="anchored" data-anchor-id="diagnostics-1">Diagnostics</h4>
+<p>Linearity</p>
+</section>
+</section>
+</section>
 <section id="one-sample-t-test" class="level2">
 <h2 class="anchored" data-anchor-id="one-sample-t-test">One-sample t test</h2>
 <p><span id="eq-one-sample-a"><span class="math display">\[

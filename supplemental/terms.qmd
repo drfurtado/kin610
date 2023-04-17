@@ -1,0 +1,11 @@
+---
+title: Terms and definitions
+---
+
+#### **Homoscedasticity**
+
+is a term used in statistics to describe a situation where the variance or dispersion of errors or residuals is constant across all levels of a predictor variable. In simpler terms, it means that the spread of data points is consistent throughout the range of values of the independent variable.
+
+For example, if we are studying the relationship between the weight of a person and their height, homoscedasticity means that the spread of weight values is consistent for individuals with the same height. This is in contrast to heteroscedasticity, where the spread of data points varies for different levels of the predictor variable.
+
+Homoscedasticity is an important assumption in many statistical tests, including regression analysis, ANOVA, and t-tests. Violations of homoscedasticity can result in biased or inefficient estimates of parameters, incorrect standard errors, and reduced statistical power. Therefore, it is important to test for homoscedasticity before applying these tests and to use appropriate techniques to correct for heteroscedasticity if it is detected.

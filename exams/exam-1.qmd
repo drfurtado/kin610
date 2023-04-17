@@ -1,65 +1,244 @@
 ---
 title: "Exam 1"
-subtitle: "STA 210 - Spring 2022"
+subtitle: "KIN 610 - Spring 2023 (Dr. Furtado)"
+toc: true
+number-sections: true
+filters:
+  - collapse-callout
+collapse-callout:
+  all: true
+callout-appearance: simple
+callout-icon: true
+format: 
+  html:
+    code-tools: true
+self-contained: true
 editor: visual
 ---
 
-# Instructions
+# Instructions {.unnumbered}
 
-## Overview
+## Overview {.unnumbered}
 
-Exam 1 will be released on Friday, Feb 4 at 9 am ET and must be completed by Mon, Feb 7 at 11:59 pm.
+Exam 1 will be taken in class.
 
-The exam will consist of two parts:
+## Requirements & Resources {.unnumbered}
 
-1.  **Part 1 - Conceptual:** Multiple choice questions on Sakai test and quizzes. This portion may only be submitted one time. Go [here](https://sakai.duke.edu/samigo-app/servlet/Login?id=6fa7ebf3-01af-42a6-91ba-3e813d3901221643963875703) to complete Part 1 of the exam.
-2.  **Part 2 - Applied:** Data analysis in RStudio and submitted in Gradescope (like a usual lab and homework). Go to the [GitHub organization](https://github.com/sta210-s22/) for the course and find the **exam-1-** repo to complete Part 3 of your exam. Add your answers to the `exam-1.qmd` file in your repo.
+-   You must use a lab computer to complete Exam 1.
+-   You can ONLY access:
+    -   your "Déjà vu" folder in Google Drive for notes
+    -   the course's site at [KIN 610 - Spring 2023 (drfurtado.github.io)](https://drfurtado.github.io/kin610/)
 
-**Both portions must be completed and submitted by Mon, Feb 7 at 11:59 pm**. Late work will only be accepted in the case of of extenuating circumstances and notification from your academic dean.
+## Submission {.unnumbered}
 
-🍀 Good luck! 🍀
+-   Complete Exam 1 in class
+-   Save the Word file (Exam 1 - Par 1) as PDF.
+-   Export a clean\* version of the Output as PDF (Exam 1 - Part 2)
+-   Visit our course in Canvas to submit both Part 1 and Part 2
 
-## Academic Integrity
+::: callout-note
+Only submit what is relevant to each of the 5 questions - delete everything else. Be careful when deleting stuff from the output in jamovi. DO NOT select "ALL"; otherwise, it will delete everything.
+:::
 
-By taking this exam, you pledge to uphold the Duke Community Standard:
+## Dataset {.unnumbered}
 
--   I will not lie, cheat, or steal in my academic endeavors;
+The following variables have been recorded for each individual:
 
--   I will conduct myself honorably in all my endeavors; and
+1.  Age (in years)
+2.  Gender (1 = Male, 2 = Female)
+3.  Resting eart Rate (RHR, in beats per minute)
+4.  VO2 Max (in mL/kg/min)
+5.  Body Mass Index (BMI)
 
--   I will act if the Standard is compromised.
+The dataset can be found here: [physical-fitness.csv](https://mycsunemail-my.sharepoint.com/:x:/g/personal/ovande_furtado_csun_edu/ES5kIwg0AqxDrihmhDt8n1wB1HBoLEgNjLlHV8pCSS0Wxg?e=STyWe6)
 
-## Rules & Notes
+## Measures of Central Tendency (20 pts.)
 
--   This is an individual assignment. Everything in your repository and on Sakai is for your eyes only.
+Using the provided dataset, complete the following tasks:
 
--   You may not collaborate or communicate anything about this exam to **anyone** except the instructor and the head TA (Rick Presman). For example, you may not communicate with other students, other TAs, or post/solicit help on the internet, email or via any other method of communication.
+### Question
 
--   The exam is open-book, open-note, so you may use any materials from class as you take the exam.
+Calculate N, mean, median, and mode **ONLY** of the participants' **BMI**. Provide the \`Descriptives Table\` below -- use the \`variables across rows\` format.
 
--   Only head TA and professor office hours will be held during the exam period.
+::: {.callout-tip appearance="simple"}
+## Answer
 
--   You may **not** email the TAs questions about the exam.
+![](images/Screenshot%202023-04-14%20at%2012.27.20%20PM.png)
+:::
 
--   If you have questions, direct message the professor or the head TA (Rick Presman) on Slack or post on Sakai Conversations for "Instructors in this site" only or attend my office hours (Monday, 10:30 am - 11:30 am).
+### Question
 
-## Submission
+Compare the mean, median, and mode **ONLY** of **BMI** for male and female participants separately. Provide the \`Descriptives Table\` below -- use the \`variables across rows\` format.
 
--   **Part 1 - Conceptual:** The answers to the multiple choice/short answer questions should be submitted under *Test & Quizzes* in Sakai.
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.15.16%20PM.png)
+:::
 
--   **Part 2 - Applied:** The PDF document for the data analysis portion must be uploaded to Gradescope.
+### Question
 
-    -   You must submit a PDF to Gradescope that corresponds to the `.qmd` file on your GitHub repository in order to receive credit for this portion of the exam.
+Discuss which measure of central tendency best represents the center of the data for this variable and whether the choice differs between the two gender groups.
 
-    -   You must upload a PDF, not HTML. Any non-PDF submissions will **not** be graded.
+::: callout-tip
+When data is not normally distributed, the median is often a better measure of central tendency than the mean. The median is the middle number in an ordered dataset. It is less sensitive to outliers and skewed data than the mean.
+:::
 
-    -   Mark the pages associated with each question. If any answer for a question spans multiple pages, mark all associated pages.
+## Measures of Variability (20 pts.)
 
-    -   Make sure to associate the "Workflow & formatting" section with the first page.
+Using the provided dataset, complete the following tasks:
 
-    -   Failure to mark the pages in Gradescope will result in point deductions. Any pages that are not marked will **not** be graded.
+### Question
 
-    -   Make sure that your uploaded PDF document matches your `.qmd` and the PDF in your GitHub repository exactly. Points will be deducted for documents that are not reproducible.
+Calculate the range, variance, and standard deviation of the participants' **ages**. Provide the `Descriptives Table` below -- use the `variables across rows` format.
+
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.24.05%20PM.png)
+:::
+
+### Question
+
+Compare the range, variance, and standard deviation of **ages** for male and female participants separately. Provide the `Descriptives Table` below -- use the `variables across rows` format.
+
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.46.31%20PM.png)
+:::
+
+### Question
+
+Which of these measures (range, variance, standard deviation) would you include when reporting the data and why?
+
+::: callout-tip
+As stated in [class](https://drfurtado.github.io/kin610/slides/lec-5.html?q=variability#/comparing-measures-of-variability), when the variable is approximating normality, the most appropriate measure of variability is the variance or the standard deviation. The standard deviation has the advantage of representing the variability in the same scale as the variable, in this case, years.
+
+![](images/Screenshot%202023-04-14%20at%201.48.00%20PM.png)
+:::
+
+## Normality and Displaying Data (20 pts.)
+
+Using the provided dataset, complete the following tasks:
+
+### Question
+
+Create a histogram and a Q-Q plot of the participants' **ages**. Provide the graphs below (side-by-side).
+
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.50.00%20PM.png)
+:::
+
+### Question
+
+Based on these visualizations, assess whether the distribution of **ages** appears to be normally distributed for the entire dataset and separately for male and female participants.
+
+::: callout-tip
+Based on the visualizations only, it is difficult to tell "ages" (including males and females) is normally distributed. If I had to guess, I would say it is deviating from normality. More information is needed.
+
+When splitting by gender, the data for both males and females appear to be deviating from normality. Both histograms are skewed and the dots on the qq-plots are touching the line
+:::
+
+### Question
+
+Perform a Shapiro-Wilk test and calculate the zkurt & zskew to further evaluate the normality of the **age** distribution for the entire dataset and for each gender group and interpret the results. Create a table containing skewness, kurtosis, and the Shapiro-Wilk test and provide it below.
+
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.51.59%20PM.png)
+
+Entire data: the data is approximating normality based on the zkurt, zskew (values within +- 2.0) and the Shapiro-wilk test (p \> .05).
+
+Male only: the is approximating normality based on the zkurt and zskew (values within +- 2.0) but deviating from normality based on the SW test (p \< .05).
+
+Female only: same as males (values are slightly different)
+:::
+
+## Correlation (20 pts.)
+
+Using the provided dataset, complete the following tasks:
+
+### Question
+
+Calculate the Pearson's correlation coefficient between the participants' **ages** and their resting heart rates (**RHR**).
+
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.53.59%20PM.png)
+:::
+
+### Question
+
+Calculate the Pearson's correlation coefficient between the participants' **ages** and their **RHR** **separately** for male and female participants.
+
+::: callout-tip
+![](images/Screenshot%202023-04-14%20at%201.55.05%20PM.png)
+:::
+
+### Question
+
+Describe the **strength** and **direction** of the relationship between these variables for the **entire** **dataset** and **each gender group** and discuss any potential factors that may contribute to the observed correlations.
+
+::: callout-tip
+Based on the criteria discussed in [class](https://drfurtado.github.io/kin610/slides/lec-7.html?q=criteria%20cor#/criteria-for-interpretation), the association for both males and females, and gender combined, is **positive and very strong**.
+:::
+
+## Simple Linear Regression (20 pts.)
+
+Using the provided dataset, complete the following tasks:
+
+### Question
+
+Perform a simple linear regression analysis with the participants' **VO2 Max** as the **dependent** variable and their **BMI** as the **independent** variable.
+
+::: callout
+Diagnostics
+
+[Linearity](https://drfurtado.github.io/kin610/slides/lec-8.html?q=cook#/checking-for-linearity): problematic
+
+One way to check for linearity is to plot the relationship between `predicted` values and `observed` values for the outcome variable (graph 1). And to get a more detailed picture of linearity, it can be helpful to look at the relationship between predicted values and residuals (graph 2).
+
+`Based on the information below, it is difficult to assume linearity`
+
+-   We are looking for a somewhat straight line (see graph below)
+
+![](images/physical-fitness.png){width="277"}
+
+-   In practice, we're looking for a reasonably straight or flat line
+
+![](images/line2.png){width="275"}
+
+[Normality](https://drfurtado.github.io/kin610/slides/lec-8.html?q=cook#/checking-for-normality-residuals): Problematic
+
+In Jamovi, you can draw a QQ-plot via the 'Assumption Checks' - 'Assumption Checks' - 'Q-Q plot of residuals' option.
+
+Based on the info below, the data are deviating form normality. The p--value for the SW test is less than .05 and the dots on the QQ-plot. In addition, the dots on the three residuals plots below are not evenly distributed.
+
+![](images/Screenshot%202023-04-14%20at%202.57.53%20PM.png){width="313"}
+
+![](images/rp2.png){width="260"}
+
+![](images/rp3.png){width="246"}
+
+![](images/rp1.png){width="265"}
+:::
+
+The model:\
+Direction/Strength: + very strong (.813)\
+Effect size" .662 (about 66% of the variability in the predicted variable can be explained by the variability in the predictor)
+
+Significance: The model was statistically significant (F(1, 48) = 93.8, p \< .001).
+
+![](images/Screenshot%202023-04-14%20at%202.10.55%20PM.png)
+
+### Question
+
+Perform **separate** simple linear regression analyses for **male** and **female** participants, with **VO2 Max** as the **dependent** variable and **BMI** as the **independent** variable.
+
+::: callout-tip
+Below I show the simple linear regression for males (first two tables) and for females (last two tables).
+
+![](images/Screenshot%202023-04-14%20at%202.13.17%20PM.png)
+
+![](images/Screenshot%202023-04-14%20at%202.13.57%20PM.png){width="410"}
+:::
+
+### Question
+
+Report and compare the regression coefficients (slopes), intercepts, and R-squared values for the entire dataset and each gender group. Interpret the results and discuss the implications of these findings for the effectiveness of the physical fitness program for different gender groups
 
 # Grading (50 pts)
 

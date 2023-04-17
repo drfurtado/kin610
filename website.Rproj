@@ -14,4 +14,4 @@ LaTeX: pdfLaTeX
 
 StripTrailingWhitespace: Yes
 
-ZoteroLibraries: "Intro to Stats In Kinesiology"
+ZoteroLibraries: "Intro to Stats In Kinesiology","KIN610"

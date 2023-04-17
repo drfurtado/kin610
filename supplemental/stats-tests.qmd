@@ -10,6 +10,96 @@ The assumptions of parametric tests are met when the data are approximately norm
 
 Parametric tests are useful when the researcher wants to compare means of two or more groups, establish a relationship between two or more variables, or investigate the correlation between variables. Examples of parametric tests include: t-test, ANOVA, multiple regression analysis, and chi-square tests.
 
+## Simple Linear Regression
+
+Simple linear regression is a statistical method used to model the relationship between two variables, where one variable (called the independent variable or predictor variable) is used to predict the other variable (called the dependent variable or response variable). The relationship between the two variables is assumed to be linear, meaning that the change in the dependent variable is proportional to the change in the independent variable.
+
+The goal of simple linear regression is to find the best-fitting line that describes the relationship between the two variables. This line is called the regression line, and it is defined by an equation of the form y = mx + b, where y is the dependent variable, x is the independent variable, m is the slope of the line, and b is the y-intercept of the line.
+
+To find the values of m and b that best fit the data, simple linear regression uses a method called least squares regression. This method minimizes the sum of the squared differences between the predicted values of y and the actual values of y for each value of x. The resulting regression line can be used to predict the value of y for any given value of x within the range of the data.
+
+Simple linear regression is commonly used in many fields, including economics, social sciences, and engineering, to analyze the relationship between two variables and make predictions based on that relationship.
+
+### Steps
+
+To conduct a hypothesis test in the context of simple linear regression, follow these steps:
+
+1.  **State the research question(s)** and assess the **nature of the variables** (continuous, discrete), and identify the dependent (outcome) and independent variables.
+
+2.  **State the null and alternative hypotheses**: The null hypothesis (H₀) typically states that there is no relationship between the predictor (independent) variable and the response (dependent) variable, i.e., the slope of the regression line (β₁) is equal to zero. The alternative hypothesis (H₁) states that there is a relationship between the predictor and response variables, i.e., the slope is not equal to zero.
+
+    H₀: β₁ = 0 H₁: β₁ ≠ 0
+
+3.  **Collect data**: Gather a sample of paired data points for the predictor and response variables.
+
+4.  **Prepare data (diagnostics)**: Ensure that the data is appropriate for linear regression (i.e., there is a linear relationship, the residuals are normally distributed, homoscedasticity is present, and extreme outliers are not present).
+
+    1.  Linearity:
+
+        1.  **Scatterplot**: Create a scatterplot of the response variable against the predictor variable. Visually inspect the plot to determine if the relationship appears to be linear. If the data points form a pattern that roughly resembles a straight line, it suggests a linear relationship. If the pattern is curved, it indicates that the relationship may be nonlinear.
+
+        2.  **Residual plot**: After fitting the linear regression model, plot the residuals (observed values minus predicted values) against the predictor variable or the predicted values. A random scattering of residuals around the horizontal axis (zero) suggests that the linear model is appropriate. If there is a pattern or trend in the residual plot, it indicates a potential violation of the linearity assumption.
+
+        3.  **Correlation coefficient (Pearson's r)**: Calculate the correlation coefficient between the predictor and response variables. Pearson's r ranges from -1 to 1, with values close to -1 or 1 suggesting a strong linear relationship, and values close to 0 indicating a weak or no linear relationship. While the correlation coefficient can provide information about the strength and direction of the relationship, it doesn't necessarily imply causation or indicate that a linear regression model is appropriate.
+
+        4.  **Partial regression plots (added-variable plots)**: Partial regression plots can help assess the linearity assumption in multiple regression settings. These plots show the relationship between a response variable and a predictor variable, controlling for the effects of other predictor variables in the model. If the partial regression plots display a linear pattern, it supports the linearity assumption.
+
+5.  **Estimate the regression coefficients**: Using the sample data, calculate the slope (β₁) and the intercept (β₀) of the regression line using the least squares method or another appropriate method.
+
+6.  **Calculate the test statistic**: Compute the t-statistic for the hypothesis test using the following formula:
+
+    t = (b₁ - 0) / SE(b₁)
+
+    Here, b₁ is the estimated slope of the regression line, and SE(b₁) is the standard error of the slope.
+
+7.  **Determine the degrees of freedom**: Calculate the degrees of freedom for the t-distribution, which is equal to the number of data points (n) minus the number of estimated parameters (2 for simple linear regression: the slope and the intercept).
+
+    df = n - 2
+
+8.  **Determine the critical value or p-value**: Based on the chosen significance level (α, usually 0.05), determine the critical t-value from the t-distribution table, or calculate the p-value for the observed t-statistic. The p-value is the probability of observing a t-statistic as extreme or more extreme than the one calculated, assuming the null hypothesis is true.
+
+9.  **Make a decision**: Compare the calculated t-statistic to the critical value or the p-value to the significance level:
+
+    -   If the absolute value of the t-statistic is greater than the critical value, or if the p-value is less than the significance level (p \< α), reject the null hypothesis. This suggests that there is a significant relationship between the predictor and response variables.
+
+    -   If the absolute value of the t-statistic is less than or equal to the critical value, or if the p-value is greater than or equal to the significance level (p ≥ α), fail to reject the null hypothesis. This suggests that there is no significant relationship between the predictor and response variables.
+
+10. **Interpret the results**: Based on the decision made in the previous step, interpret the results in the context of your research question or study. If you rejected the null hypothesis, you can also report the estimated regression coefficients and the coefficient of determination (R²) to describe the strength and direction of the relationship between the predictor and response variables.
+
+## Diagnostics
+
+## Example
+
+### Research question
+
+Can VO2max be predicted from BMI?
+
+**Variables:**
+
+V02max: predicted/dependent (continuous)
+
+BMI: predictor/independent (continuous)
+
+### Hypotheses
+
+H₀: β₁ = 0 H₁: β₁ ≠ 0
+
+### Data collection & preparation
+
+The following variables have been recorded for each individual:
+
+1.  Age (in years)
+2.  Gender (1 = Male, 2 = Female)
+3.  Resting eart Rate (RHR, in beats per minute)
+4.  VO2 Max (in mL/kg/min)
+5.  Body Mass Index (BMI)
+
+The dataset can be found here: [physical-fitness.csv](../exams/physical-fitness.csv)
+
+#### Diagnostics
+
+Linearity
+
 ## One-sample t test
 
 $$
