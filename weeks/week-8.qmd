@@ -38,7 +38,7 @@ Simple & Multiple Linear Regression
 
 ## Participate
 
-[Slides](/slides/lec-8.qmd)
+[Slides](/slides/lec-8.html)
 
 ## Practice
 
