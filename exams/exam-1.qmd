@@ -3,17 +3,11 @@ title: "Exam 1"
 subtitle: "KIN 610 - Spring 2023 (Dr. Furtado)"
 toc: true
 number-sections: true
-filters:
-  - collapse-callout
-collapse-callout:
-  all: true
-callout-appearance: simple
-callout-icon: true
 format: 
   html:
     code-tools: true
-self-contained: true
 editor: visual
+bibliography: references.bib
 ---
 
 # Instructions {.unnumbered}
@@ -36,8 +30,8 @@ Exam 1 will be taken in class.
 -   Export a clean\* version of the Output as PDF (Exam 1 - Part 2)
 -   Visit our course in Canvas to submit both Part 1 and Part 2
 
-::: callout-note
-Only submit what is relevant to each of the 5 questions - delete everything else. Be careful when deleting stuff from the output in jamovi. DO NOT select "ALL"; otherwise, it will delete everything.
+::: {.callout-tip collapse="true" appearance="simple"}
+## AnswerOnly submit what is relevant to each of the 5 questions - delete everything else. Be careful when deleting stuff from the output in jamovi. DO NOT select "ALL"; otherwise, it will delete everything.
 :::
 
 ## Dataset {.unnumbered}
@@ -60,7 +54,7 @@ Using the provided dataset, complete the following tasks:
 
 Calculate N, mean, median, and mode **ONLY** of the participants' **BMI**. Provide the \`Descriptives Table\` below -- use the \`variables across rows\` format.
 
-::: {.callout-tip appearance="simple"}
+::: {.callout-tip collapse="true" appearance="simple"}
 ## Answer
 
 ![](images/Screenshot%202023-04-14%20at%2012.27.20%20PM.png)
@@ -70,7 +64,9 @@ Calculate N, mean, median, and mode **ONLY** of the participants' **BMI**. Provi
 
 Compare the mean, median, and mode **ONLY** of **BMI** for male and female participants separately. Provide the \`Descriptives Table\` below -- use the \`variables across rows\` format.
 
-::: callout-tip
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
 ![](images/Screenshot%202023-04-14%20at%201.15.16%20PM.png)
 :::
 
@@ -78,8 +74,10 @@ Compare the mean, median, and mode **ONLY** of **BMI** for male and female parti
 
 Discuss which measure of central tendency best represents the center of the data for this variable and whether the choice differs between the two gender groups.
 
-::: callout-tip
-When data is not normally distributed, the median is often a better measure of central tendency than the mean. The median is the middle number in an ordered dataset. It is less sensitive to outliers and skewed data than the mean.
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
+When data is not normally distributed, the median is often a better measure of central tendency than the mean. The median is the middle number in an ordered dataset. It is less sensitive to outliers and skewed data than the mean. The choice does not differ between the two gender groups as in both cases the distribution of scores for BMI are deviating from normality.
 :::
 
 ## Measures of Variability (20 pts.)
@@ -90,7 +88,9 @@ Using the provided dataset, complete the following tasks:
 
 Calculate the range, variance, and standard deviation of the participants' **ages**. Provide the `Descriptives Table` below -- use the `variables across rows` format.
 
-::: callout-tip
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
 ![](images/Screenshot%202023-04-14%20at%201.24.05%20PM.png)
 :::
 
@@ -98,7 +98,9 @@ Calculate the range, variance, and standard deviation of the participants' **age
 
 Compare the range, variance, and standard deviation of **ages** for male and female participants separately. Provide the `Descriptives Table` below -- use the `variables across rows` format.
 
-::: callout-tip
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
 ![](images/Screenshot%202023-04-14%20at%201.46.31%20PM.png)
 :::
 
@@ -106,7 +108,9 @@ Compare the range, variance, and standard deviation of **ages** for male and fem
 
 Which of these measures (range, variance, standard deviation) would you include when reporting the data and why?
 
-::: callout-tip
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
 As stated in [class](https://drfurtado.github.io/kin610/slides/lec-5.html?q=variability#/comparing-measures-of-variability), when the variable is approximating normality, the most appropriate measure of variability is the variance or the standard deviation. The standard deviation has the advantage of representing the variability in the same scale as the variable, in this case, years.
 
 ![](images/Screenshot%202023-04-14%20at%201.48.00%20PM.png)
@@ -120,7 +124,9 @@ Using the provided dataset, complete the following tasks:
 
 Create a histogram and a Q-Q plot of the participants' **ages**. Provide the graphs below (side-by-side).
 
-::: callout-tip
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
 ![](images/Screenshot%202023-04-14%20at%201.50.00%20PM.png)
 :::
 
@@ -128,8 +134,10 @@ Create a histogram and a Q-Q plot of the participants' **ages**. Provide the gra
 
 Based on these visualizations, assess whether the distribution of **ages** appears to be normally distributed for the entire dataset and separately for male and female participants.
 
-::: callout-tip
-Based on the visualizations only, it is difficult to tell "ages" (including males and females) is normally distributed. If I had to guess, I would say it is deviating from normality. More information is needed.
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
+Based on the visualizations only, it is difficult to tell "ages" (including males and females) is normally distributed. More information is needed.
 
 When splitting by gender, the data for both males and females appear to be deviating from normality. Both histograms are skewed and the dots on the qq-plots are touching the line
 :::
@@ -138,7 +146,9 @@ When splitting by gender, the data for both males and females appear to be devia
 
 Perform a Shapiro-Wilk test and calculate the zkurt & zskew to further evaluate the normality of the **age** distribution for the entire dataset and for each gender group and interpret the results. Create a table containing skewness, kurtosis, and the Shapiro-Wilk test and provide it below.
 
-::: callout-tip
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
 ![](images/Screenshot%202023-04-14%20at%201.51.59%20PM.png)
 
 Entire data: the data is approximating normality based on the zkurt, zskew (values within +- 2.0) and the Shapiro-wilk test (p \> .05).
@@ -156,94 +166,114 @@ Using the provided dataset, complete the following tasks:
 
 Calculate the Pearson's correlation coefficient between the participants' **ages** and their resting heart rates (**RHR**).
 
-::: callout-tip
-![](images/Screenshot%202023-04-14%20at%201.53.59%20PM.png)
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
+![](images/Screenshot%202023-04-17%20at%203.26.48%20PM.png){width="350"}
 :::
 
 ### Question
 
 Calculate the Pearson's correlation coefficient between the participants' **ages** and their **RHR** **separately** for male and female participants.
 
-::: callout-tip
-![](images/Screenshot%202023-04-14%20at%201.55.05%20PM.png)
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
+**Males**
+
+![](images/Screenshot%202023-04-17%20at%203.28.06%20PM.png){width="350"}
+
+**Females**
+
+![](images/Screenshot%202023-04-17%20at%203.28.51%20PM.png){width="350"}
 :::
 
 ### Question
 
 Describe the **strength** and **direction** of the relationship between these variables for the **entire** **dataset** and **each gender group** and discuss any potential factors that may contribute to the observed correlations.
 
-::: callout-tip
-Based on the criteria discussed in [class](https://drfurtado.github.io/kin610/slides/lec-7.html?q=criteria%20cor#/criteria-for-interpretation), the association for both males and females, and gender combined, is **positive and very strong**.
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
+Based on the criteria discussed in [class](https://drfurtado.github.io/kin610/slides/lec-7.html?q=criteria%20cor#/criteria-for-interpretation), the association for both males and females, and gender combined are:
+
+-   positive and very strong
+
+-   significant (p \< .001)
+
+Some factors that may contribute to the observed results are sample size, outliers, etc.
 :::
 
 ## Simple Linear Regression (20 pts.)
 
 Using the provided dataset, complete the following tasks:
 
-### Question
+### Question - gender combined
 
 Perform a simple linear regression analysis with the participants' **VO2 Max** as the **dependent** variable and their **BMI** as the **independent** variable.
 
-::: callout
-Diagnostics
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
 
-[Linearity](https://drfurtado.github.io/kin610/slides/lec-8.html?q=cook#/checking-for-linearity): problematic
-
-One way to check for linearity is to plot the relationship between `predicted` values and `observed` values for the outcome variable (graph 1). And to get a more detailed picture of linearity, it can be helpful to look at the relationship between predicted values and residuals (graph 2).
-
-`Based on the information below, it is difficult to assume linearity`
-
--   We are looking for a somewhat straight line (see graph below)
-
-![](images/physical-fitness.png){width="277"}
-
--   In practice, we're looking for a reasonably straight or flat line
-
-![](images/line2.png){width="275"}
-
-[Normality](https://drfurtado.github.io/kin610/slides/lec-8.html?q=cook#/checking-for-normality-residuals): Problematic
-
-In Jamovi, you can draw a QQ-plot via the 'Assumption Checks' - 'Assumption Checks' - 'Q-Q plot of residuals' option.
-
-Based on the info below, the data are deviating form normality. The p--value for the SW test is less than .05 and the dots on the QQ-plot. In addition, the dots on the three residuals plots below are not evenly distributed.
-
-![](images/Screenshot%202023-04-14%20at%202.57.53%20PM.png){width="313"}
-
-![](images/rp2.png){width="260"}
-
-![](images/rp3.png){width="246"}
-
-![](images/rp1.png){width="265"}
+[Click here to see results](exam-1-q5.1.html)
 :::
 
-The model:\
-Direction/Strength: + very strong (.813)\
-Effect size" .662 (about 66% of the variability in the predicted variable can be explained by the variability in the predictor)
-
-Significance: The model was statistically significant (F(1, 48) = 93.8, p \< .001).
-
-![](images/Screenshot%202023-04-14%20at%202.10.55%20PM.png)
-
-### Question
+### Question - M & F separated
 
 Perform **separate** simple linear regression analyses for **male** and **female** participants, with **VO2 Max** as the **dependent** variable and **BMI** as the **independent** variable.
 
-::: callout-tip
-Below I show the simple linear regression for males (first two tables) and for females (last two tables).
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
 
-![](images/Screenshot%202023-04-14%20at%202.13.17%20PM.png)
+#### Results for males
 
-![](images/Screenshot%202023-04-14%20at%202.13.57%20PM.png){width="410"}
+[Click here to see results](exam-1-q5.m.html)
+
+#### Results for females
+
+[Click here to see results](exam-1-q5.f.html)
 :::
 
-### Question
+### Question - report
 
 Report and compare the regression coefficients (slopes), intercepts, and R-squared values for the entire dataset and each gender group. Interpret the results and discuss the implications of these findings for the effectiveness of the physical fitness program for different gender groups
 
+::: {.callout-tip collapse="true" appearance="simple"}
+## Answer
+
+#### Combined
+
+Slope: -1.56 bmi index (the change in y that you get when you increase x by 1 unit)\
+Intercept: 81.73 (the value of y that you get when x = 0)
+
+#### Males
+
+Slope: -1.12 bmi index (the change in y that you get when you increase x by 1 unit)\
+Intercept: 72.98 (the value of y that you get when x = 0)
+
+#### Females
+
+Slope: -1.67 bmi index (the change in y that you get when you increase x by 1 unit)\
+Intercept: 82.67 (the value of y that you get when x = 0)
+
+#### Interpretation
+
+The scatterplot shows the relationship between BMI and VO2max, with each point representing a participant's BMI and VO2max values. The regression line shows the estimated linear relationship between BMI and VO2max based on the data.
+
+The slope of the regression line represents the change in VO2max for a one-unit increase in BMI, holding all other variables constant. In this case, it indicates that for each one-unit increase in BMI, we expect VO2max to decrease by 1.56 units, on average.
+
+The intercept of the regression line represents the expected value of VO2max when BMI is equal to zero. However, in this case, it is not meaningful to interpret the intercept in this way, since BMI cannot be equal to zero.
+
+Overall, these results suggest that there is a negative linear relationship between BMI and VO2max, with higher BMI values associated with lower VO2max values. However, it is important to note that correlation does not imply causation, and there may be other factors that influence the relationship between BMI and VO2max. Additionally, the strength of the relationship and the accuracy of the estimated slope may be assessed using additional statistical metrics, such as R-squared and p-values.
+:::
+
 # Grading (50 pts)
 
-| **Part**                             | **Points** |
-|:-------------------------------------|:----------:|
-| **Part 1 - Conceptual** (on Sakai)   |     10     |
-| **Part 2 - Applied** (on Gradescope) |     40     |
-| **Total**                            |     50     |
+| Part      | **Points** |
+|:----------|:----------:|
+| Q1        |     20     |
+| Q2        |     20     |
+| Q3        |     20     |
+| Q4        |     20     |
+| Q5        |     20     |
+| **Total** |    100     |

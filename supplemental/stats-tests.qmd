@@ -84,7 +84,7 @@ BMI: predictor/independent (continuous)
 
 H₀: β₁ = 0; H₁: β₁ ≠ 0
 
-### Data collection & preparation
+### Data collection
 
 The following variables have been recorded for each individual:
 
@@ -96,9 +96,23 @@ The following variables have been recorded for each individual:
 
 The dataset can be found here: [physical-fitness.csv](../exams/physical-fitness.csv)
 
-#### Diagnostics
+### Data preparation (Diagnostics)
 
-Linearity
+#### Linearity
+
+#### Homoscedasticity
+
+If you violate the assumption of equal variance (also known as homoscedasticity) in a simple linear regression, this can have several consequences for your model:
+
+1.  Biased estimates: The estimated coefficients may be biased, which means that they may not accurately reflect the true relationship between the dependent variable and the independent variable.
+
+2.  Inaccurate standard errors: The standard errors of the estimated coefficients may be inaccurate, which means that the confidence intervals and hypothesis tests based on them may be incorrect.
+
+3.  Invalid hypothesis tests: The F-test and t-tests used to assess the significance of the regression coefficients may not be valid if the assumption of equal variance is violated.
+
+4.  Inefficient estimates: The estimates may be less efficient than they would be under homoscedasticity, which means that you may need a larger sample size to achieve the same level of precision in your estimates.
+
+To address this issue, you may want to consider using alternative regression techniques that are robust to heteroscedasticity, such as weighted least squares regression or generalized least squares regression. Alternatively, you may want to transform the variables or use nonparametric methods that do not assume equal variance. You can also use diagnostic plots, such as a plot of residuals against predicted values, to identify and correct heteroscedasticity.
 
 ## One-sample t test
 

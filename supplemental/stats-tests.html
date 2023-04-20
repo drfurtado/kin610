@@ -301,7 +301,8 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research question</a></li>
   <li><a href="#hypotheses" id="toc-hypotheses" class="nav-link" data-scroll-target="#hypotheses">Hypotheses</a></li>
-  <li><a href="#data-collection-preparation" id="toc-data-collection-preparation" class="nav-link" data-scroll-target="#data-collection-preparation">Data collection &amp; preparation</a></li>
+  <li><a href="#data-collection" id="toc-data-collection" class="nav-link" data-scroll-target="#data-collection">Data collection</a></li>
+  <li><a href="#data-preparation-diagnostics" id="toc-data-preparation-diagnostics" class="nav-link" data-scroll-target="#data-preparation-diagnostics">Data preparation (Diagnostics)</a></li>
   </ul></li>
   <li><a href="#one-sample-t-test" id="toc-one-sample-t-test" class="nav-link" data-scroll-target="#one-sample-t-test">One-sample t test</a>
   <ul class="collapse">
@@ -453,8 +454,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="hypotheses">Hypotheses</h3>
 <p>H₀: β₁ = 0; H₁: β₁ ≠ 0</p>
 </section>
-<section id="data-collection-preparation" class="level3">
-<h3 class="anchored" data-anchor-id="data-collection-preparation">Data collection &amp; preparation</h3>
+<section id="data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection">Data collection</h3>
 <p>The following variables have been recorded for each individual:</p>
 <ol type="1">
 <li>Age (in years)</li>
@@ -464,9 +465,22 @@ ul.task-list li input[type="checkbox"] {
 <li>Body Mass Index (BMI)</li>
 </ol>
 <p>The dataset can be found here: <a href="../exams/physical-fitness.csv">physical-fitness.csv</a></p>
-<section id="diagnostics-1" class="level4">
-<h4 class="anchored" data-anchor-id="diagnostics-1">Diagnostics</h4>
-<p>Linearity</p>
+</section>
+<section id="data-preparation-diagnostics" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation-diagnostics">Data preparation (Diagnostics)</h3>
+<section id="linearity" class="level4">
+<h4 class="anchored" data-anchor-id="linearity">Linearity</h4>
+</section>
+<section id="homoscedasticity" class="level4">
+<h4 class="anchored" data-anchor-id="homoscedasticity">Homoscedasticity</h4>
+<p>If you violate the assumption of equal variance (also known as homoscedasticity) in a simple linear regression, this can have several consequences for your model:</p>
+<ol type="1">
+<li><p>Biased estimates: The estimated coefficients may be biased, which means that they may not accurately reflect the true relationship between the dependent variable and the independent variable.</p></li>
+<li><p>Inaccurate standard errors: The standard errors of the estimated coefficients may be inaccurate, which means that the confidence intervals and hypothesis tests based on them may be incorrect.</p></li>
+<li><p>Invalid hypothesis tests: The F-test and t-tests used to assess the significance of the regression coefficients may not be valid if the assumption of equal variance is violated.</p></li>
+<li><p>Inefficient estimates: The estimates may be less efficient than they would be under homoscedasticity, which means that you may need a larger sample size to achieve the same level of precision in your estimates.</p></li>
+</ol>
+<p>To address this issue, you may want to consider using alternative regression techniques that are robust to heteroscedasticity, such as weighted least squares regression or generalized least squares regression. Alternatively, you may want to transform the variables or use nonparametric methods that do not assume equal variance. You can also use diagnostic plots, such as a plot of residuals against predicted values, to identify and correct heteroscedasticity.</p>
 </section>
 </section>
 </section>

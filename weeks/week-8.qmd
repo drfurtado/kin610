@@ -42,7 +42,7 @@ Simple & Multiple Linear Regression
 
 The slides can found [here](/slides/lec-8.html)[^1]
 
-[^1]: The link will take you to a html page with the slides content. To view the actual slides (in presentation view) click on Revealjs under `Other Formats.`
+[^1]: The link will take you to a html page with the slides content. To view the actual slides (in presentation view) click on RevealJS under `Other Formats.`
 
 ## Practice
 

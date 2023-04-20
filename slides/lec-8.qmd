@@ -2,7 +2,7 @@
 title: "Week 8: Regression Analysis "
 subtitle: |
            KIN 610 - Spring 2023
-author: "Dr. Ovande Furtado Jr"
+author: "Ovande Furtado"
 footer:  "[https://drfurtado.github.io/kin610/](https://drfurtado.github.io/kin610/)"
 logo: "images/logo.png"
 format: 
@@ -24,6 +24,7 @@ format:
     link-external-newwindow: true
     smaller: true
     scrollable: true
+    code-fold: true
 
 editor: visual
 search: true
@@ -86,13 +87,40 @@ bibliography: references.bib
 
 ## The interpretation of intercept and slope
 
+::: columns
+::: {.column width="50%"}
+```{r echo=FALSE}
+# Set seed for reproducibility
+set.seed(123)
+
+# Generate random data with linear relationship
+x <- runif(50, min = 0, max = 20)
+y <- -1.56 * x + 81.73 + rnorm(50, sd = 5)
+
+# Fit a linear regression model
+model <- lm(y ~ x)
+
+# Extract the slope and intercept from the model
+slope <- coef(model)[2]
+intercept <- coef(model)[1]
+
+# Create scatterplot with regression line and slope/intercept labels
+plot(x, y, main = "Scatterplot with Linear Relationship\n",
+     sub = paste0("Slope = ", round(slope, 2), ", Intercept = ", round(intercept, 2)),
+     xlab = "X", ylab = "Y", pch = 16)
+abline(model, col = "red", lwd = 2)
+
+
+```
+:::
+
+::: {.column width="50%"}
 -   Intercept: the value of $y$ that you get when $x$ = 0
-
 -   Slope: the change in $y$ that you get when you increase $x$ by 1 unit
-
 -   Positive slope: $y$ goes up as $x$ goes up
-
 -   Negative slope: $y$ goes down as $x$ goes up
+:::
+:::
 
 ## The formula for a Regression line {.smaller}
 

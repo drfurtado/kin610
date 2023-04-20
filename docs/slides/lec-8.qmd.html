@@ -11,7 +11,7 @@
 <link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.324">
 
-  <meta name="author" content="Dr.&nbsp;Ovande Furtado Jr">
+  <meta name="author" content="Ovande Furtado">
   <title>KIN 610 - Spring 2023 - Week 8: Regression Analysis</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -427,7 +427,7 @@
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Dr.&nbsp;Ovande Furtado Jr 
+Ovande Furtado 
 </div>
 </div>
 </div>
@@ -493,12 +493,22 @@ Dr.&nbsp;Ovande Furtado Jr
 </section>
 <section id="the-interpretation-of-intercept-and-slope" class="slide level2">
 <h2>The interpretation of intercept and slope</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="lec-8_files/figure-html/unnamed-chunk-1-1.png" width="672"></p>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
 <ul>
-<li><p>Intercept: the value of <span class="math inline">\(y\)</span> that you get when <span class="math inline">\(x\)</span> = 0</p></li>
-<li><p>Slope: the change in <span class="math inline">\(y\)</span> that you get when you increase <span class="math inline">\(x\)</span> by 1 unit</p></li>
-<li><p>Positive slope: <span class="math inline">\(y\)</span> goes up as <span class="math inline">\(x\)</span> goes up</p></li>
-<li><p>Negative slope: <span class="math inline">\(y\)</span> goes down as <span class="math inline">\(x\)</span> goes up</p></li>
+<li>Intercept: the value of <span class="math inline">\(y\)</span> that you get when <span class="math inline">\(x\)</span> = 0</li>
+<li>Slope: the change in <span class="math inline">\(y\)</span> that you get when you increase <span class="math inline">\(x\)</span> by 1 unit</li>
+<li>Positive slope: <span class="math inline">\(y\)</span> goes up as <span class="math inline">\(x\)</span> goes up</li>
+<li>Negative slope: <span class="math inline">\(y\)</span> goes down as <span class="math inline">\(x\)</span> goes up</li>
 </ul>
+</div>
+</div>
 </section>
 <section id="the-formula-for-a-regression-line" class="slide level2 smaller">
 <h2>The formula for a Regression line</h2>
@@ -543,6 +553,8 @@ Dr.&nbsp;Ovande Furtado Jr
 <div class="columns">
 <div class="column" style="width:60%;">
 <div class="cell">
+<details>
+<summary>Code</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Generate some example data with a strong negative correlation</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
 <span id="cb1-3"><a href="#cb1-3"></a>x <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)</span>
@@ -553,8 +565,9 @@ Dr.&nbsp;Ovande Furtado Jr
 <span id="cb1-8"><a href="#cb1-8"></a></span>
 <span id="cb1-9"><a href="#cb1-9"></a><span class="co"># Add the best fit line</span></span>
 <span id="cb1-10"><a href="#cb1-10"></a><span class="fu">abline</span>(<span class="fu">lm</span>(y <span class="sc">~</span> x), <span class="at">col=</span><span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <div class="cell-output-display">
-<p><img data-src="lec-8_files/figure-html/unnamed-chunk-1-1.png" width="672"></p>
+<p><img data-src="lec-8_files/figure-html/unnamed-chunk-2-1.png" width="672"></p>
 </div>
 </div>
 <p>Now, we have the complete linear regression model</p>
