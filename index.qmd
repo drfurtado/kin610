@@ -12,7 +12,7 @@ identifier-prefix: sch
 bibliography: references.bib
 ---
 
-Optional Textbook: @weir2021; Required ebook: @navarro2022
+Optional Textbook: @weir2021; Required ebook: @navarroLearningStatisticsJamovi2022
 
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+-----------------------------------------------------+
 |                     | Week[^1]                   | Date[^2]         | Reading[^3]                                                   | Assignments[^4]                                     |
