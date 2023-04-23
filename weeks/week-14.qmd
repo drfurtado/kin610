@@ -12,7 +12,7 @@ format:
     number-sections: true
     colorlinks: true
     tbl-colwidths: [5,95]
-bibliography: references.bib
+bibliography: ../references.bib
 csl: ../apa.csl
 editor: visual
 ---
@@ -22,8 +22,6 @@ editor: visual
 -   Deadlines
     -   Quiz
     -   Takeaways
-
-Download the lesson in [PDF](week-14.pdf)
 :::
 
 ::: callout-note
@@ -32,7 +30,9 @@ I will post an announcement on Canvas when there are changes to this page.
 
 ## Prepare
 
-Coming soon
+Read @furtadoRandomStatsFactorialAnalysis2023
+
+{{< bi youtube >}} ANOVA in jamovi [@datalabccANOVAJamovi2019]
 
 ## Participate
 

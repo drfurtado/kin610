@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -42,6 +61,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -335,7 +355,6 @@ Important
 <li>Takeaways</li>
 </ul></li>
 </ul>
-<p>Download the lesson in <a href="week-14.pdf">PDF</a></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -353,7 +372,8 @@ Note
 </div>
 <section id="prepare" class="level2">
 <h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
-<p>Coming soon</p>
+<p>Read <span class="citation" data-cites="furtadoRandomStatsFactorialAnalysis2023">Furtado (<a href="#ref-furtadoRandomStatsFactorialAnalysis2023" role="doc-biblioref">2023</a>)</span></p>
+<p><i class="bi-youtube" style="" role="img" aria-hidden="true"></i> ANOVA in jamovi <span class="citation" data-cites="datalabccANOVAJamovi2019">(<a href="#ref-datalabccANOVAJamovi2019" role="doc-biblioref">datalabcc, 2019</a>)</span></p>
 </section>
 <section id="participate" class="level2">
 <h2 class="anchored" data-anchor-id="participate">Participate</h2>
@@ -375,9 +395,17 @@ Note
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-datalabccANOVAJamovi2019" class="csl-entry" role="listitem">
+datalabcc (Director). (2019, March 7). <em><span>ANOVA</span> — jamovi</em>. <a href="https://www.youtube.com/watch?v=TJoJTVgDyqY">https://www.youtube.com/watch?v=TJoJTVgDyqY</a>
+</div>
+<div id="ref-furtadoRandomStatsFactorialAnalysis2023" class="csl-entry" role="listitem">
+Furtado, O. (2023, April 23). <em><span>RandomStats</span> - <span>Factorial Analysis</span> of <span>Variance</span>: <span>Between-Between</span></em> [Blog]. <span>RandomStats</span>. <a href="https://drfurtado.github.io/randomstats/posts/04222023-fanova-bb/">https://drfurtado.github.io/randomstats/posts/04222023-fanova-bb/</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
