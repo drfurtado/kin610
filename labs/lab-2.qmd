@@ -23,17 +23,17 @@ Objective: To assess students' understanding of measures of central tendency and
 
 ## Instructions
 
-1.  Open [Jamovi](../course-links.qmd) and create a new data set with the following variables: Gender and Reaction Time (ms).
-2.  Enter the [provided data](#sec-data) set into the Jamovi data spreasheet.
-3.  Alternatively, you can [download the dataset here](./data/data-lab2.csv).
-4.  Click on "Descriptives" under the "Exploration" tab in the top menu.
-5.  Select the "Reaction Time (ms)" variable and drag it into the "Variables" box.
-6.  Select the "Gender" variable and drag it into the "Split by" box.
-7.  Under "Statistics" and "Plots", select all checked items depicted in @fig-jamovi.
-8.  Review the generated table and graphs to ensure that the output is accurate and complete.
-9.  Export the output as PDF and choose the desired destination to save the PDF file.
-10. Name the file with your first initial and last name and submit the file via Canvas (Lab 2 - Part 1).
-11. Complete Part 2 on Canvas - 2-question quiz
+-   Open [Jamovi](../course-links.qmd) and create a new data set with the following variables: Gender and Reaction Time (ms).
+-   Enter the [provided data](#sec-data) set into the Jamovi data spreasheet.
+-   Alternatively, you can [download](./data/data-lab2.csv) the data.
+-   Click on "Descriptives" under the "Exploration" tab in the top menu.
+-   Select the "Reaction Time (ms)" variable and drag it into the "Variables" box.
+-   Select the "Gender" variable and drag it into the "Split by" box.
+-   Under "Statistics" and "Plots", select all checked items depicted in @fig-jamovi.
+-   Review the generated table and graphs to ensure that the output is accurate and complete.
+-   Export the output as PDF and choose the desired destination to save the PDF file.
+-   Name the file with your first initial and last name and submit the file via Canvas (Lab 2 - Part 1).
+-   Complete Part 2 on Canvas - 2-question quiz
 
 ::: callout-warning
 Remember that this assignment must be completed individually, and that plagiarism is prohibited. Review the plagiarism policy posted on the CSUN website before submitting your assignment. Note: The generated PDF file should contain the Descriptives Table (variables across columns) and the relevant graphs. Be sure to review the file before submitting it to ensure it contains all the required information.
@@ -43,19 +43,19 @@ Remember that this assignment must be completed individually, and that plagiaris
 
 Total points available: 90
 
-+----------------------------------------------------------------------------+--------+
-| Component                                                                  | Points |
-+============================================================================+========+
-| File submission (Part 1) containing the following:                         | 50     |
-|                                                                            |        |
-| -   the Descriptives Table (Variables across columns)                      |        |
-| -   bar blot comparing gender                                              |        |
-| -   single graph with both histograms - w/ density curves (males, females) |        |
-| -   single graph with both boxplots (males, females)                       |        |
-| -   single graph with both QQ Plots (males, females)                       |        |
-+----------------------------------------------------------------------------+--------+
-| 20-question quiz                                                           | 40     |
-+----------------------------------------------------------------------------+--------+
++----------------------------------------------------------------------------+-----------+
+| Component                                                                  | Points    |
++============================================================================+===========+
+| File submission (Part 1) containing the following:                         | 50        |
+|                                                                            |           |
+| -   the Descriptives Table (Variables across columns)                      |           |
+| -   bar blot comparing gender                                              |           |
+| -   single graph with both histograms - w/ density curves (males, females) |           |
+| -   single graph with both boxplots (males, females)                       |           |
+| -   single graph with both QQ Plots (males, females)                       |           |
++----------------------------------------------------------------------------+-----------+
+| 20-question quiz                                                           | 40        |
++----------------------------------------------------------------------------+-----------+
 
 ![Screenshot jamovi](images/image-1752567466.png){#fig-jamovi}
 
