@@ -40,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/downloadthis-1.9.1/downloadthis.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -327,7 +328,6 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Open <a href="../course-links.html">Jamovi</a> and create a new data set with the following variables: Gender and Reaction Time (ms).</li>
 <li>Enter the <a href="#sec-data">provided data</a> set into the Jamovi data spreasheet.</li>
-<li>Alternatively, you can <a href="./data/data-lab2.csv">download</a> the data.</li>
 <li>Click on “Descriptives” under the “Exploration” tab in the top menu.</li>
 <li>Select the “Reaction Time (ms)” variable and drag it into the “Variables” box.</li>
 <li>Select the “Gender” variable and drag it into the “Split by” box.</li>
@@ -392,6 +392,15 @@ Warning
 </section>
 <section id="sec-data" class="level2">
 <h2 class="anchored" data-anchor-id="sec-data">Data</h2>
+<p><a href="#dnldts44054" onclick="fetch('data:text/csv;base64,IkdlbmRlciIsIlJlYWN0aW9uIFRpbWUgKG1zKSIKIk1hbGUiLDIxNQoiTWFsZSIsMjAzCiJNYWxlIiwxOTcKIk1hbGUiLDIwOAoiTWFsZSIsMjIyCiJNYWxlIiwyMTIKIk1hbGUiLDE5NAoiTWFsZSIsMjE5CiJNYWxlIiwyMDEKIk1hbGUiLDIxNAoiRmVtYWxlIiwxODUKIkZlbWFsZSIsMTcyCiJGZW1hbGUiLDE5MAoiRmVtYWxlIiwxNjUKIkZlbWFsZSIsMTUwCiJGZW1hbGUiLDE4MAoiRmVtYWxlIiwxOTUKIkZlbWFsZSIsMTcwCiJGZW1hbGUiLDIxMAoiRmVtYWxlIiwxNDgK').then(res => res.blob()).then(blob => {
+      const downloadURL = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      document.body.appendChild(a);
+      a.href = downloadURL;
+      a.download = 'file.csv'; a.click();
+      window.URL.revokeObjectURL(downloadURL);
+      document.body.removeChild(a);
+        });"><button class="btn btn-default downloadthis  " id="dnldts44054"><i class="bi bi-download"></i> Download </button></a></p>
 <table class="table">
 <thead>
 <tr class="header">
