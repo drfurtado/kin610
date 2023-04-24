@@ -43,19 +43,19 @@ Remember that this assignment must be completed individually, and that plagiaris
 
 Total points available: 90
 
-+----------------------------------------------------------------------------+-----------+
-| Component                                                                  | Points    |
-+============================================================================+===========+
-| File submission (Part 1) containing the following:                         | 50        |
-|                                                                            |           |
-| -   the Descriptives Table (Variables across columns)                      |           |
-| -   bar blot comparing gender                                              |           |
-| -   single graph with both histograms - w/ density curves (males, females) |           |
-| -   single graph with both boxplots (males, females)                       |           |
-| -   single graph with both QQ Plots (males, females)                       |           |
-+----------------------------------------------------------------------------+-----------+
-| 20-question quiz                                                           | 40        |
-+----------------------------------------------------------------------------+-----------+
++----------------------------------------------------------------------------+--------+
+| Component                                                                  | Points |
++============================================================================+========+
+| File submission (Part 1) containing the following:                         | 50     |
+|                                                                            |        |
+| -   the Descriptives Table (Variables across columns)                      |        |
+| -   bar blot comparing gender                                              |        |
+| -   single graph with both histograms - w/ density curves (males, females) |        |
+| -   single graph with both boxplots (males, females)                       |        |
+| -   single graph with both QQ Plots (males, females)                       |        |
++----------------------------------------------------------------------------+--------+
+| 20-question quiz                                                           | 40     |
++----------------------------------------------------------------------------+--------+
 
 ![Screenshot jamovi](images/image-1752567466.png){#fig-jamovi}
 

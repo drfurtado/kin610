@@ -2147,5 +2147,40 @@
     "title": "Week 14",
     "section": "Perform",
     "text": "Perform\n\nTake the quiz\nComplete the major takeaways assignment\n\n\n\nBack to course schedule ⏎"
+  },
+  {
+    "objectID": "labs/lab-2.html",
+    "href": "labs/lab-2.html",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Objective: To assess students’ understanding of measures of central tendency and measures of variability and their ability to use jamovi for data analysis."
+  },
+  {
+    "objectID": "labs/lab-2.html#objective",
+    "href": "labs/lab-2.html#objective",
+    "title": "Lab 2",
+    "section": "",
+    "text": "Objective: To assess students’ understanding of measures of central tendency and measures of variability and their ability to use jamovi for data analysis."
+  },
+  {
+    "objectID": "labs/lab-2.html#instructions",
+    "href": "labs/lab-2.html#instructions",
+    "title": "Lab 2",
+    "section": "Instructions",
+    "text": "Instructions\n\nOpen Jamovi and create a new data set with the following variables: Gender and Reaction Time (ms).\nEnter the provided data set into the Jamovi data spreasheet.\nAlternatively, you can download the dataset here.\nClick on “Descriptives” under the “Exploration” tab in the top menu.\nSelect the “Reaction Time (ms)” variable and drag it into the “Variables” box.\nSelect the “Gender” variable and drag it into the “Split by” box.\nUnder “Statistics” and “Plots”, select all checked items depicted in Figure 1.\nReview the generated table and graphs to ensure that the output is accurate and complete.\nExport the output as PDF and choose the desired destination to save the PDF file.\nName the file with your first initial and last name and submit the file via Canvas (Lab 2 - Part 1).\nComplete Part 2 on Canvas - 2-question quiz\n\n\n\n\n\n\n\nWarning\n\n\n\nRemember that this assignment must be completed individually, and that plagiarism is prohibited. Review the plagiarism policy posted on the CSUN website before submitting your assignment. Note: The generated PDF file should contain the Descriptives Table (variables across columns) and the relevant graphs. Be sure to review the file before submitting it to ensure it contains all the required information."
+  },
+  {
+    "objectID": "labs/lab-2.html#grading-rubric",
+    "href": "labs/lab-2.html#grading-rubric",
+    "title": "Lab 2",
+    "section": "Grading rubric",
+    "text": "Grading rubric\nTotal points available: 90\n\n\n\n\n\n\n\nComponent\nPoints\n\n\n\n\nFile submission (Part 1) containing the following:\n\nthe Descriptives Table (Variables across columns)\nbar blot comparing gender\nsingle graph with both histograms - w/ density curves (males, females)\nsingle graph with both boxplots (males, females)\nsingle graph with both QQ Plots (males, females)\n\n50\n\n\n20-question quiz\n40\n\n\n\n\n\n\nFigure 1: Screenshot jamovi"
+  },
+  {
+    "objectID": "labs/lab-2.html#sec-data",
+    "href": "labs/lab-2.html#sec-data",
+    "title": "Lab 2",
+    "section": "Data",
+    "text": "Data\n\n\n\nGender\nReaction Time (ms)\n\n\n\n\nMale\n215\n\n\nMale\n203\n\n\nMale\n197\n\n\nMale\n208\n\n\nMale\n222\n\n\nMale\n212\n\n\nMale\n194\n\n\nMale\n219\n\n\nMale\n201\n\n\nMale\n214\n\n\nFemale\n185\n\n\nFemale\n172\n\n\nFemale\n190\n\n\nFemale\n165\n\n\nFemale\n150\n\n\nFemale\n180\n\n\nFemale\n195\n\n\nFemale\n170\n\n\nFemale\n210\n\n\nFemale\n148"
   }
 ]
