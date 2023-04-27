@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.324">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Exam 2</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="_exam-2_files/libs/clipboard/clipboard.min.js"></script>
+<script src="_exam-2_files/libs/quarto-html/quarto.js"></script>
+<script src="_exam-2_files/libs/quarto-html/popper.min.js"></script>
+<script src="_exam-2_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="_exam-2_files/libs/quarto-html/anchor.min.js"></script>
+<link href="_exam-2_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="_exam-2_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="_exam-2_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="_exam-2_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="_exam-2_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Exam 2</h1>
+<p class="subtitle lead">KIN 610 - Spring 2023 (Dr.&nbsp;Furtado)</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="instructions" class="level1">
+<h1>Instructions</h1>
+<p>You will be given a <a href="#data-set">data set</a> and various research questions that can be answered by running the appropriate statistical tests in jamovi.</p>
+<p>For each RQ below, run the appropriate statistical test, then answer the questions associated with each RQ.</p>
+<p><code>RQ1</code>: Is the mean <code>BMI</code> significantly different from <code>25</code> in the sample population?</p>
+<p><strong>1. Based on the results of RQ-1A, which statement is correct?</strong></p>
+<p>a) The average BMI of the sample is significantly different from the national average of 25.<br>
+b) The average BMI of the sample is not significantly different from the national average of 25.<br>
+c) The average BMI of the sample is significantly lower than the national average of 25.<br>
+d) The average BMI of the sample is significantly higher than the national average of 25.</p>
+<p><strong>2. Which statistical procedure (test) did you use to answer RQ-1A?</strong></p>
+<p>a) One-sample t-test<br>
+b) Wilcoxon rank test<br>
+c) Independent-samples t-test<br>
+d) Paired-sample t-test</p>
+<p><code>RQ2</code>: Is there a significant difference in the mean <code>exercise duration</code> between <code>males and females</code>?</p>
+<p><code>RQ3</code>: Is there a significant difference in the mean <code>flexibility</code>score and the mean <code>strength</code> score among the participants?</p>
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"></h3>
+<p>For each part, you will be given one or more research questions. You must then:</p>
+<ol type="1">
+<li>run the appropriate data analysis using jamovi to answer each of the research questions</li>
+<li>then, using the output, answer up to 5 multiple-choice questions that will be provided on Canvas</li>
+</ol>
+</section>
+</section>
+<section id="part-1-data-analysis-and-interpretation" class="level1">
+<h1>Part 1: Data analysis and interpretation</h1>
+<section id="part-1a-students-t-tests" class="level2">
+<h2 class="anchored" data-anchor-id="part-1a-students-t-tests">Part 1A: Student’s t-tests</h2>
+<section id="research-questions-for-part-1a" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions-for-part-1a">Research questions for Part 1A</h3>
+</section>
+<section id="steps-for-part-1a" class="level3">
+<h3 class="anchored" data-anchor-id="steps-for-part-1a">Steps for Part 1A</h3>
+<ol type="1">
+<li>Open the data file in jamovi</li>
+<li>Run the analyses that will allow you to answer each of the RQs above
+<ol type="1">
+<li>ensure to check for the assumptions of normality (use Shapiro-Wilk to based your decision) and equal variances before deciding which test to use to answer each RQ</li>
+</ol></li>
+<li>Using the output from jamovi, <strong>click here</strong> and answer the questions for <code>Part 1A</code></li>
+<li>Save the jamovi file (omv), not the output, as <code>firstname-lastname-ex2-part1</code>. This file will submitted in <code>Part 2</code>.</li>
+</ol>
+</section>
+</section>
+<section id="part-1b-one-way-anova" class="level2">
+<h2 class="anchored" data-anchor-id="part-1b-one-way-anova">Part 1B: One-way ANOVA</h2>
+<section id="research-questions-for-part-1b" class="level3">
+<h3 class="anchored" data-anchor-id="research-questions-for-part-1b">Research questions for Part 1B</h3>
+<p><code>RQ1A</code>: Is the mean <code>BMI</code> significantly different from <code>25</code> in the sample population?</p>
+<p><code>RQ2A</code>: Is there a significant difference in the mean <code>endurance</code> between <code>males and females</code>?</p>
+<p><code>RQ3A</code>: Is there a significant difference in the mean <code>flexibility</code>score and the mean <code>strength</code> score among the participants?</p>
+</section>
+<section id="steps-for-part-1a-1" class="level3">
+<h3 class="anchored" data-anchor-id="steps-for-part-1a-1">Steps for Part 1A</h3>
+<ol type="1">
+<li>Open the data file in jamovi</li>
+<li>Run the analyses that will allow you to answer each of the RQs above</li>
+<li>Using the output from jamovi, <strong>click here</strong> and answer the questions for <code>Part 1A</code></li>
+<li>Save the jamovi file (omv), not the output, as <code>firstname-lastname-ex2-part1</code>. This file will submitted in <code>Part 2</code>.</li>
+</ol>
+<p>🍀 Good luck! 🍀</p>
+</section>
+</section>
+<section id="academic-integrity" class="level2">
+<h2 class="anchored" data-anchor-id="academic-integrity">Academic Integrity</h2>
+</section>
+<section id="rules-notes" class="level2">
+<h2 class="anchored" data-anchor-id="rules-notes">Rules &amp; Notes</h2>
+<ul>
+<li><p>This is an individual assignment. Everything in your repository and on Sakai is for your eyes only.</p></li>
+<li><p>You may not collaborate or communicate anything about this exam to <strong>anyone</strong> except the instructor and the head TA (Rick Presman). For example, you may not communicate with other students, other TAs, or post/solicit help on the internet, email or via any other method of communication.</p></li>
+<li><p>The exam is open-book, open-note, so you may use any materials from class as you take the exam.</p></li>
+<li><p>Only head TA and professor office hours will be held during the exam period.</p></li>
+<li><p>You may <strong>not</strong> email the TAs questions about the exam.</p></li>
+<li><p>If you have questions, direct message the professor or the head TA (Rick Presman) on Slack or post on Sakai Conversations for “Instructors in this site” only or attend my office hours (Monday, 10:30 am - 11:30 am).</p></li>
+</ul>
+</section>
+<section id="submission" class="level2">
+<h2 class="anchored" data-anchor-id="submission">Submission</h2>
+<ul>
+<li><p><strong>Part 1 - Conceptual:</strong> The answers to the multiple choice/short answer questions should be submitted under <em>Test &amp; Quizzes</em> in Sakai.</p></li>
+<li><p><strong>Part 2 - Applied:</strong> The PDF document for the data analysis portion must be uploaded to Gradescope.</p>
+<ul>
+<li><p>You must submit a PDF to Gradescope that corresponds to the <code>.qmd</code> file on your GitHub repository in order to receive credit for this portion of the exam.</p></li>
+<li><p>You must upload a PDF, not HTML. Any non-PDF submissions will <strong>not</strong> be graded.</p></li>
+<li><p>Mark the pages associated with each question. If any answer for a question spans multiple pages, mark all associated pages.</p></li>
+<li><p>Make sure to associate the “Workflow &amp; formatting” section with the first page.</p></li>
+<li><p>Failure to mark the pages in Gradescope will result in point deductions. Any pages that are not marked will <strong>not</strong> be graded.</p></li>
+<li><p>Make sure that your uploaded PDF document matches your <code>.qmd</code> and the PDF in your GitHub repository exactly. Points will be deducted for documents that are not reproducible.</p></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="data-set" class="level1">
+<h1>Data set</h1>
+<p>The data file will be provided in Canvas.</p>
+<p><code>ParticipantID</code>: A unique identifier for each participant in the study (nominal).<br>
+<code>Age</code>: The age of the participant in years (ratio).<br>
+<code>Gender</code>: The gender of the participant, coded as 0 for female and 1 for male (nominal).<br>
+<code>Height</code>: The height of the participant in centimeters (ratio).<br>
+<code>Weight</code>: The weight of the participant in kilograms (ratio).<br>
+<code>BMI</code>: The body mass index of the participant, calculated as weight (kg) / height (m)^2 (ratio).<br>
+<code>ExerciseFrequency</code>: The number of times the participant exercises per week (ratio).<br>
+<code>ExerciseDuration</code>: The average duration of each exercise session in minutes (ratio).<br>
+<code>ExerciseIntensity</code>: The self-reported intensity level of the participant’s exercise sessions, coded as 1 for low, 2 for moderate, and 3 for high (ordinal).<br>
+<code>FlexibilityScore</code>: The participant’s flexibility score on a scale of 1 to 10, with 1 being the lowest and 10 being the highest (ordinal).<br>
+<code>StrengthScore</code>: The participant’s strength score on a scale of 1 to 10, with 1 being the lowest and 10 being the highest (ordinal).<br>
+<code>EnduranceScore</code>: The participant’s endurance score on a scale of 1 to 10, with 1 being the lowest and 10 being the highest (ordinal).</p>
+</section>
+<section id="grading-50-pts" class="level1">
+<h1>Grading (50 pts)</h1>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Part</strong></th>
+<th style="text-align: center;"><strong>Points</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Part 1 - Conceptual</strong> (on Sakai)</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Part 2 - Applied</strong> (on Gradescope)</td>
+<td style="text-align: center;">40</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Total</strong></td>
+<td style="text-align: center;">50</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

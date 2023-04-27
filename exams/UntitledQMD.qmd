@@ -1,0 +1,61 @@
+---
+title: "KIN 610 | Final Exam"
+author: "Dr. Furtado"
+date: today
+format: compact-pdf
+---
+
+# Instructions
+
+You will be given a data set and various research questions that can be answered by running the appropriate statistical tests in jamovi.
+
+For each RQ below, run the appropriate statistical test, then answer the questions associated with each RQ. Finally, transfer your answers to the Scantron provided to you and hand it in along with this handout.
+
+## RQ1: Is the mean BMI significantly different from 25 in the sample population?
+
+1. **Based on the analysis you conducted to answer `RQ1`, which statement is correct?**
+ a. The average BMI of the sample is significantly different from the national average of 25.
+ b. The average BMI of the sample is not significantly different from the national average of 25.
+ c. I failed to reject the null hypothesis.
+ d. B and C are correct.*
+
+2. **Which statistical procedure (test) did you use to answer RQ1?**
+ a. One-sample t-test
+ b. Wilcoxon rank test*
+ c. Independent-samples t-test
+ d. Paired-sample t-test
+
+## RQ2: Is there a significant difference in the mean `EnduranceScore' between males and females?
+
+3. **Based on the analysis you conducted to answer `RQ2`, the appropriate test statistic to report in this case is:**
+ a. Student's t
+ b. Mann-Whitney U*
+ c. Shapiro-Wilk
+ d. None, the test was not significant
+
+4. **Based on the analysis you conducted to answer `RQ2`, which statement below is correct?**
+ a. The effect size is not important since the p-value is not significant.
+ b. The practical significance of the observed difference in `exercise endurance` is negligible.
+ c. The effect size is to report is 0.62.*
+ d. The effect size is to report is 1.36.
+
+
+## RQ3: Is there a significant difference in the mean `FlexibilityScore` and the mean `StrengthScore` among the participants?
+
+5. **Based on the analysis you conducted to answer `RQ3`, the appropriate test statistic to report in this case is:**
+ a. Student's t
+ b. Mann-Whitney U
+ c. Wilcoxon rank test*
+ d. None, the test was not significant
+ 
+6. **Based on the analysis you conducted to answer `RQ3`, which statement below is correct?**
+ a. The effect size is not important since the p-value is not significant.
+ b. The practical significance of the observed difference in `flexibility` and `strength` is negligible.
+ c. The effect size is to report is -2.35.
+ d. The effect size is to report is -1.00.*
+
+
+
+
+
+
