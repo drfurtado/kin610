@@ -13,5 +13,5 @@ staging/
 _site/
 *.key
 *speaker.html
-project-description.qmd
-project-tips-resources_files/
+*project-description.qmd
+*project-tips-resources_files/
