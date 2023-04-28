@@ -20,7 +20,6 @@ format:
     link-external-newwindow: true
   pdf:
    toc: true
-  html: default
 editor: visual
 execute:
   freeze: auto
