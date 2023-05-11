@@ -75,7 +75,7 @@ For all research questions below, test the hypothesis using $\alpha$ = .05 and t
 
 Using `database 1`, run the appropriate test to answer the research question below:
 
-> Is there a difference in flexibility among college athletes compared to a population mean flexibility score of 35?
+> Is there a difference in flexibility (**before**) among college athletes compared to a population mean flexibility score of 35?
 
 Provide the following:
 
@@ -162,8 +162,7 @@ Using `database 2`, run the appropriate test to answer the research question bel
 2.  the $H_0$ and the $H_A$ hypotheses
 3.  whether any assumptions were violated (state `none`, if all assumptions were confirmed)
     1.  *Disregard the assumption of test of independence since a random technique was not used*
-4.   the test used to answer the research question
-    1.  *Consider the nature of the dependent variable and the result of the Shapiro-Will test*
+4.  the test used to answer the research question 1. *Consider the nature of the dependent variable and the result of the Shapiro-Will test*
 5.  if the assumption of normality does not apply (or was violated), what test should be used instead?
 6.  the test decision (reject or fail to reject the $H_0$) + explanation
     1.  use the `p-value` and the `test statistic value` to explain your decision
