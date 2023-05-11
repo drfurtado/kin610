@@ -65,23 +65,14 @@ After completing the data analysis in jamovi, please access Canvas to answer the
 **Open-ended Questions**
 
 1.  What is the primary purpose of conducting a regression analysis?
-
 2.  In simple regression analysis, what is the role of the independent variable and the dependent variable?
-
 3.  How can you determine the strength and direction of the relationship between the independent and dependent variables in a simple regression analysis?
-
 4.  What is the difference between simple and multiple regression analysis?
-
 5.  How do you interpret the R-squared value in a regression analysis?
-
 6.  In the simple regression analysis predicting VO2max based on Age, what is the direction of the relationship between Age and VO2max?
-
 7.  In the multiple regression analysis predicting VO2max, which variable(s) had a significant effect on VO2max?
-
 8.  In the multiple regression analysis predicting VO2max, which variable(s) had the strongest effect on VO2max?
-
 9.  How can multicollinearity affect the results of a multiple regression analysis?
-
 10. What can be done to address multicollinearity in a multiple regression analysis?
 
 Remember to submit your jamovi output and your responses to the multiple-choice questions on Canvas by the due date. Good luck!

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>KIN 610 - Spring 2023 - Week 15</title>
+<title>KIN 610 - Spring 2023 - Final Review</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../weeks/week-16.html" rel="next">
-<link href="../weeks/week-14.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,6 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -61,15 +60,19 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="KIN 610 - Spring 2023 - Week 15">
-<meta property="og:description" content="Factorial Analysis of Variance: Between-Within, Within-Within">
+<meta property="og:title" content="KIN 610 - Spring 2023 - Final Review">
+<meta property="og:description" content="">
+<meta property="og:image" content="drfurtado.github.io/kin610/exams/images/Screenshot 2023-05-10 at 5.24.42 PM.png">
 <meta property="og:site-name" content="KIN 610 - Spring 2023">
-<meta name="twitter:title" content="KIN 610 - Spring 2023 - Week 15">
-<meta name="twitter:description" content="Factorial Analysis of Variance: Between-Within, Within-Within">
-<meta name="twitter:image" content="drfurtado.github.io/kin610/weeks/images/twitter-card.png">
+<meta property="og:image:height" content="209">
+<meta property="og:image:width" content="821">
+<meta name="twitter:title" content="KIN 610 - Spring 2023 - Final Review">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="drfurtado.github.io/kin610/exams/images/twitter-card.png">
 <meta name="twitter:creator" content="@ofurtado">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -84,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../weeks/week-1.html">Weekly materials</a></li><li class="breadcrumb-item"><a href="../weeks/week-15.html">Week 15</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Final Review</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -163,13 +166,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
  <span class="menu-text">Weekly materials</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../weeks/week-1.html" class="sidebar-item-text sidebar-link">
@@ -244,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../weeks/week-15.html" class="sidebar-item-text sidebar-link active">
+  <a href="../weeks/week-15.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 15</span></a>
   </div>
 </li>
@@ -289,20 +292,30 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#prepare" id="toc-prepare" class="nav-link active" data-scroll-target="#prepare">Prepare</a></li>
-  <li><a href="#participate" id="toc-participate" class="nav-link" data-scroll-target="#participate">Participate</a></li>
-  <li><a href="#practice" id="toc-practice" class="nav-link" data-scroll-target="#practice">Practice</a></li>
-  <li><a href="#perform" id="toc-perform" class="nav-link" data-scroll-target="#perform">Perform</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#datasets" id="toc-datasets" class="nav-link" data-scroll-target="#datasets">Datasets</a>
+  <ul class="collapse">
+  <li><a href="#dataset-1" id="toc-dataset-1" class="nav-link" data-scroll-target="#dataset-1">Dataset 1</a></li>
+  <li><a href="#dataset-2" id="toc-dataset-2" class="nav-link" data-scroll-target="#dataset-2">Dataset 2</a></li>
+  </ul></li>
+  <li><a href="#research-questions" id="toc-research-questions" class="nav-link" data-scroll-target="#research-questions">Research questions</a>
+  <ul class="collapse">
+  <li><a href="#research-question-1" id="toc-research-question-1" class="nav-link" data-scroll-target="#research-question-1">Research question 1</a></li>
+  <li><a href="#research-question-2" id="toc-research-question-2" class="nav-link" data-scroll-target="#research-question-2">Research Question 2</a></li>
+  <li><a href="#research-question-3" id="toc-research-question-3" class="nav-link" data-scroll-target="#research-question-3">Research Question 3</a></li>
+  <li><a href="#research-question-4" id="toc-research-question-4" class="nav-link" data-scroll-target="#research-question-4">Research Question 4</a></li>
+  <li><a href="#research-question-5" id="toc-research-question-5" class="nav-link" data-scroll-target="#research-question-5">Research Question 5</a></li>
+  <li><a href="#research-question-6" id="toc-research-question-6" class="nav-link" data-scroll-target="#research-question-6">Research Question 6</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/drfurtado/kin610/edit/main/weeks/week-15.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/drfurtado/kin610/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="week-15.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/drfurtado/kin610/edit/main/exams/final-review.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/drfurtado/kin610/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="final-review.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 15</h1>
-<p class="subtitle lead">Factorial Analysis of Variance: Between-Within, Within-Within</p>
+<h1 class="title">Final Review</h1>
 </div>
 
 
@@ -317,63 +330,276 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>We will meet at the Redwood Hall Computer Lab (Re 276) at 4 pm.</li>
-<li>Deadlines
-<ul>
-<li>Quiz</li>
-<li>Takeaways</li>
-</ul></li>
-</ul>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>I will post an announcement on Canvas when there are changes to this page.</p>
-</div>
-</div>
-<section id="prepare" class="level2">
-<h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
-<p>Read</p>
-</section>
-<section id="participate" class="level2">
-<h2 class="anchored" data-anchor-id="participate">Participate</h2>
-<p>Coming soon</p>
-</section>
-<section id="practice" class="level2">
-<h2 class="anchored" data-anchor-id="practice">Practice</h2>
-<p>Coming soon</p>
-</section>
-<section id="perform" class="level2">
-<h2 class="anchored" data-anchor-id="perform">Perform</h2>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <ol type="1">
-<li><p>Take the quiz</p></li>
-<li><p>Complete the major takeaways assignment</p></li>
+<li><p><a href="https://drfurtado.github.io/randomstats/posts/04012023-ttest/"><strong>t-test</strong></a>: The t-test is a statistical test used to compare the means of two groups. It helps determine whether there is a significant difference between the means of the two groups.</p>
+<ul>
+<li><p>One-samples t-test: used when there is one group that needs to be compared to population value.</p></li>
+<li><p>Independent samples t-test: used when the two groups being compared are independent (e.g., comparing the mean strength of two different groups of athletes)</p></li>
+<li><p>Paired samples t-test: used when the two groups being compared are dependent or related (e.g., comparing the mean strength of the same group of athletes before and after a training program)</p></li>
+</ul></li>
+<li><p><a href="https://drfurtado.github.io/randomstats/posts/04082023-one-way-anova/"><strong>One-way ANOVA</strong></a>: One-way Analysis of Variance (ANOVA) is used to compare the means of three or more groups. It tests the null hypothesis that all group means are equal. If the p-value is less than the chosen significance level, the null hypothesis can be rejected, indicating that there is a significant difference between at least two of the groups.</p></li>
+<li><p><a href="https://drfurtado.github.io/randomstats/posts/04152023-r_anova/"><strong>Repeated measures ANOVA</strong></a>: Repeated measures ANOVA is used to analyze data when the same participants are measured multiple times under different conditions or at different time points. This test takes into account the within-subject variability and is useful in determining whether there is a significant effect of the different conditions or time points on the dependent variable.</p></li>
+<li><p><a href="https://drfurtado.github.io/randomstats/posts/04222023-fanova-bb/"><strong>Between</strong></a> <strong>and <a href="https://drfurtado.github.io/randomstats/posts/04282023-fanova-ww/">within</a> subjects ANOVA</strong>: This type of ANOVA is used when there are both between-subjects factors and within-subjects factors in an experiment. It allows you to analyze the main effects and interactions of these factors on the dependent variable.</p></li>
+<li><p><strong>Nonparametric tests</strong>: Nonparametric tests are used when the assumptions of parametric tests (e.g., normality, equal variances) are not met. Examples of nonparametric tests that can be used as alternatives to the tests above include:</p>
+<ul>
+<li><p><code>Mann-Whitney U test</code>: a nonparametric alternative to the <code>independent samples t-test</code></p></li>
+<li><p><code>Wilcoxon signed-rank test</code>: a nonparametric alternative to the <code>paired samples t-test</code></p></li>
+<li><p><code>Kruskal-Wallis H test</code>: a nonparametric alternative to the <code>one-way ANOVA</code></p></li>
+<li><p><code>Friedman test</code>: a nonparametric alternative to the <code>repeated measures ANOVA</code></p></li>
+</ul></li>
 </ol>
-<p><br><br></p>
-<div style="font-size: 0.875em;">
-<p>Back to <a href="../" title="Course schedule">course schedule</a> ⏎</p>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<section id="dataset-1" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-1">Dataset 1</h3>
+<p><i class="bi-download" style="" role="img" aria-hidden="true"></i> <a href="review-data1.csv">Download</a></p>
+<p>Brief description of the dataset:</p>
+<ul>
+<li>The dataset contains information on 30 individuals.</li>
+<li>Each individual’s record includes their ID, age, gender, “before” and “after” scores for a stretching intervention, and reaction time.</li>
+<li>The age of the individuals ranges from 20 to 49 years old.</li>
+<li>There are 15 male and 15 female individuals in the dataset.</li>
+</ul>
+<p><img src="images/Screenshot 2023-05-10 at 5.24.42 PM.png" class="img-fluid"></p>
+</section>
+<section id="dataset-2" class="level3">
+<h3 class="anchored" data-anchor-id="dataset-2">Dataset 2</h3>
+<p><i class="bi-download" style="" role="img" aria-hidden="true"></i> <a href="review-data2.csv">Download</a></p>
+<p>Brief description of the dataset:</p>
+<ul>
+<li>The dataset contains information on 24 individuals.</li>
+<li>Outcome variable: sit-up test (repetitions)</li>
+<li>Each individual’s record includes their ID, gender, age group, condition, and scores on three time measures (pre, mid, and posttest).</li>
+<li>The age groups are categorized as <code>young</code> (8-10) and <code>old</code> (11-13)</li>
+<li>The conditions are labeled as A, B, and C.</li>
+</ul>
+<p><img src="images/Screenshot 2023-05-10 at 7.08.07 PM.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="research-questions" class="level2">
+<h2 class="anchored" data-anchor-id="research-questions">Research questions</h2>
+<p>Find below a list of research questions along with corresponding database links. To answer each question, perform the appropriate statistical procedure using the relevant database.</p>
+<div class="callout callout-style-simple callout-none no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
 </div>
+<div class="callout-body-container">
+<p>For all research questions below, test the hypothesis using <span class="math inline">\(\alpha\)</span> = .05 and two-tailed tests.</p>
+</div>
+</div>
+</div>
+<section id="research-question-1" class="level3">
+<h3 class="anchored" data-anchor-id="research-question-1">Research question 1</h3>
+<p>Using <code>database 1</code>, run the appropriate test to answer the research question below:</p>
+<blockquote class="blockquote">
+<p>Is there a difference in flexibility among college athletes compared to a population mean flexibility score of 35?</p>
+</blockquote>
+<p>Provide the following:</p>
+<ol type="1">
+<li>the independent and dependent variables and specify the level (nominal, ordinal, continuous)</li>
+<li>the <span class="math inline">\(H_0\)</span> and the <span class="math inline">\(H_A\)</span> hypotheses</li>
+<li>whether any assumptions were violated (state <code>none</code>, if all assumptions were confirmed)
+<ol type="1">
+<li><em>Disregard the assumption of test of independence since a random technique was not used</em></li>
+</ol></li>
+<li>the test used to answer the research question
+<ol type="1">
+<li><em>Consider the nature of the dependent variable and the result of the Shapiro-Will test</em></li>
+</ol></li>
+<li>if the assumption of normality does not apply (or was violated), what test should be used instead?</li>
+<li>the test decision (reject or fail to reject the <span class="math inline">\(H_0\)</span>) + explanation
+<ol type="1">
+<li>use the <code>p-value</code> and the <code>test statistic value</code> to explain your decision</li>
+</ol></li>
+<li>conclusion in one paragraph (does not have to be in APA style)</li>
+<li>information on the meaningfulness of the result (effect size)</li>
+<li>jamovi output (Name the output <code>Research Question 1)</code>
+<ol type="1">
+<li>test’s main table</li>
+<li>any assumption check tables</li>
+<li>descriptives table</li>
+<li>descriptives plot</li>
+</ol></li>
+</ol>
+<p>Do not close jamovi; continue on to answer <code>Research Question 2</code></p>
+</section>
+<section id="research-question-2" class="level3">
+<h3 class="anchored" data-anchor-id="research-question-2">Research Question 2</h3>
+<p>Using <code>database 1</code>, run the appropriate test to answer the research question below:</p>
+<blockquote class="blockquote">
+<p>Is there a difference in reaction time between male and female athletes?</p>
+</blockquote>
+<p>Provide the following:</p>
+<ol type="1">
+<li>the independent and dependent variables and specify the level (nominal, ordinal, continuous)</li>
+<li>the <span class="math inline">\(H_0\)</span> and the <span class="math inline">\(H_A\)</span> hypotheses</li>
+<li>whether any assumptions were violated (state <code>none</code>, if all assumptions were confirmed)
+<ol type="1">
+<li><em>Disregard the assumption of test of independence since a random technique was not used</em></li>
+</ol></li>
+<li>the test used to answer the research question
+<ol type="1">
+<li><em>Consider the nature of the dependent variable and the result of the Shapiro-Will test</em></li>
+</ol></li>
+<li>if the assumption of normality does not apply (or was violated), what test should be used instead?</li>
+<li>the test decision (reject or fail to reject the <span class="math inline">\(H_0\)</span>) + explanation
+<ol type="1">
+<li>use the <code>p-value</code> and the <code>test statistic value</code> to explain your decision</li>
+</ol></li>
+<li>conclusion in one paragraph (does not have to be in APA style)</li>
+<li>information on the meaningfulness of the result (effect size)</li>
+<li>jamovi output (Name the output <code>Research Question 2)</code>
+<ol type="1">
+<li>test’s main table</li>
+<li>any assumption check tables</li>
+<li>descriptives table</li>
+<li>descriptives plot</li>
+</ol></li>
+</ol>
+<p>Do not close jamovi; continue on to answer <code>Research Question 3</code></p>
+</section>
+<section id="research-question-3" class="level3">
+<h3 class="anchored" data-anchor-id="research-question-3">Research Question 3</h3>
+<p>Using <code>database 1</code>, run the appropriate test to answer the research question below:</p>
+<blockquote class="blockquote">
+<p>Does a resistance training program lead to increased strength in middle-aged adults?</p>
+</blockquote>
+<p>Provide the following:</p>
+<ol type="1">
+<li>the independent and dependent variables and specify the level (nominal, ordinal, continuous)</li>
+<li>the <span class="math inline">\(H_0\)</span> and the <span class="math inline">\(H_A\)</span> hypotheses</li>
+<li>whether any assumptions were violated (state <code>none</code>, if all assumptions were confirmed)
+<ol type="1">
+<li><em>Disregard the assumption of test of independence since a random technique was not used</em></li>
+</ol></li>
+<li>the test used to answer the research question
+<ol type="1">
+<li><em>Consider the nature of the dependent variable and the result of the Shapiro-Will test</em></li>
+</ol></li>
+<li>if the assumption of normality does not apply (or was violated), what test should be used instead?</li>
+<li>the test decision (reject or fail to reject the <span class="math inline">\(H_0\)</span>) + explanation
+<ol type="1">
+<li>use the <code>p-value</code> and the <code>test statistic value</code> to explain your decision</li>
+</ol></li>
+<li>conclusion in one paragraph (does not have to be in APA style)</li>
+<li>information on the meaningfulness of the result (effect size)</li>
+<li>jamovi output (Name the output <code>Research Question 3)</code>
+<ol type="1">
+<li>test’s main table</li>
+<li>any assumption check tables</li>
+<li>descriptives table</li>
+<li>descriptives plot</li>
+</ol></li>
+</ol>
+</section>
+<section id="research-question-4" class="level3">
+<h3 class="anchored" data-anchor-id="research-question-4">Research Question 4</h3>
+<p>Using <code>database 2</code>, run the appropriate test to answer the research question below:</p>
+<blockquote class="blockquote">
+<p>Is there a significant interaction between <code>age group</code> and <code>condition</code> on <code>sit-up scores</code> (Score1)?</p>
+</blockquote>
+<p><strong>Provide the following:</strong></p>
+<ol type="1">
+<li>the independent and dependent variables and specify the level (nominal, ordinal, continuous)</li>
+<li>the <span class="math inline">\(H_0\)</span> and the <span class="math inline">\(H_A\)</span> hypotheses</li>
+<li>whether any assumptions were violated (state <code>none</code>, if all assumptions were confirmed)
+<ol type="1">
+<li><em>Disregard the assumption of test of independence since a random technique was not used</em></li>
+</ol></li>
+<li>the test used to answer the research question 1. <em>Consider the nature of the dependent variable and the result of the Shapiro-Will test</em></li>
+<li>if the assumption of normality does not apply (or was violated), what test should be used instead?</li>
+<li>the test decision (reject or fail to reject the <span class="math inline">\(H_0\)</span>) + explanation
+<ol type="1">
+<li>use the <code>p-value</code> and the <code>test statistic value</code> to explain your decision</li>
+</ol></li>
+<li>conclusion in one paragraph (does not have to be in APA style)</li>
+<li>information on the meaningfulness of the result (effect size)</li>
+<li>jamovi output (Name the output <code>Research Question 4)</code>
+<ol type="1">
+<li>test’s main table</li>
+<li>any assumption check tables</li>
+<li>any post-hoc table</li>
+<li>descriptives table</li>
+<li>descriptives plot</li>
+</ol></li>
+</ol>
+</section>
+<section id="research-question-5" class="level3">
+<h3 class="anchored" data-anchor-id="research-question-5">Research Question 5</h3>
+<p>Using <code>database 2</code>, run the appropriate test to answer the research question below:</p>
+<blockquote class="blockquote">
+<p>Is there a significant difference in <code>scores</code> across time (pre, mid, posttest)?</p>
+</blockquote>
+<p><strong>Provide the following:</strong></p>
+<ol type="1">
+<li>the independent and dependent variables and specify the level (nominal, ordinal, continuous)</li>
+<li>the <span class="math inline">\(H_0\)</span> and the <span class="math inline">\(H_A\)</span> hypotheses</li>
+<li>whether any assumptions were violated (state <code>none</code>, if all assumptions were confirmed)
+<ol type="1">
+<li><em>Disregard the assumption of test of independence since a random technique was not used</em></li>
+</ol></li>
+<li>the test used to answer the research question
+<ol type="1">
+<li><em>Consider the nature of the dependent variable and the result of the Shapiro-Will test</em></li>
+</ol></li>
+<li>if the assumption of normality does not apply (or was violated), what test should be used instead?</li>
+<li>the test decision (reject or fail to reject the <span class="math inline">\(H_0\)</span>) + explanation
+<ol type="1">
+<li>use the <code>p-value</code> and the <code>test statistic value</code> to explain your decision</li>
+</ol></li>
+<li>conclusion in one paragraph (does not have to be in APA style)</li>
+<li>information on the meaningfulness of the result (effect size)</li>
+<li>jamovi output (Name the output <code>Research Question 5)</code>
+<ol type="1">
+<li>test’s main table</li>
+<li>any assumption check tables</li>
+<li>any post-hoc table</li>
+<li>descriptives table</li>
+<li>descriptives plot</li>
+</ol></li>
+</ol>
+</section>
+<section id="research-question-6" class="level3">
+<h3 class="anchored" data-anchor-id="research-question-6">Research Question 6</h3>
+<p>Using <code>database 2</code>, run the appropriate test to answer the research question below:</p>
+<blockquote class="blockquote">
+<p>Is there a significant difference in scores (Scores3) across the three conditions (A, B, and C)?</p>
+</blockquote>
+<p><strong>Provide the following:</strong></p>
+<ol type="1">
+<li>the independent and dependent variables and specify the level (nominal, ordinal, continuous)</li>
+<li>the <span class="math inline">\(H_0\)</span> and the <span class="math inline">\(H_A\)</span> hypotheses</li>
+<li>whether any assumptions were violated (state <code>none</code>, if all assumptions were confirmed)
+<ol type="1">
+<li><em>Disregard the assumption of test of independence since a random technique was not used</em></li>
+</ol></li>
+<li>the test used to answer the research question
+<ol type="1">
+<li><em>Consider the nature of the dependent variable and the result of the Shapiro-Will test</em></li>
+</ol></li>
+<li>if the assumption of normality does not apply (or was violated), what test should be used instead?</li>
+<li>the test decision (reject or fail to reject the <span class="math inline">\(H_0\)</span>) + explanation
+<ol type="1">
+<li>use the <code>p-value</code> and the <code>test statistic value</code> to explain your decision</li>
+</ol></li>
+<li>conclusion in one paragraph (does not have to be in APA style)</li>
+<li>information on the meaningfulness of the result (effect size)</li>
+<li>jamovi output (Name the output <code>Research Question 6)</code>
+<ol type="1">
+<li>test’s main table</li>
+<li>any assumption check tables</li>
+<li>any post-hoc table</li>
+<li>descriptives table</li>
+<li>descriptives plot</li>
+</ol></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -725,18 +951,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../weeks/week-14.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Week 14</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../weeks/week-16.html" class="pagination-link">
-        <span class="nav-page-text">Week 16</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -750,5 +964,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

@@ -51,7 +51,7 @@ Optional Textbook: @weir2021; Required ebook: @navarroLearningStatisticsJamovi20
 | {{< bi calendar >}} | [WK15](/weeks/week-15.qmd) | `May 4`          | \                                                             | Quiz; Major Takeaways; `Lab 5`                      |
 |                     |                            |                  | Factorial Analysis of Variance: Between-Within, Within-Within |                                                     |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+-----------------------------------------------------+
-| {{< bi calendar >}} | [WK16](/weeks/week-16.qmd) | `May 11`         | Analysis of Nonparametric Data                                | Quiz; Major Takeaways                               |
+| {{< bi calendar >}} | [WK16](/weeks/week-16.qmd) | `May 11`         | [Final Review](exams/final-review.qmd)                        | Quiz; Major Takeaways                               |
 +---------------------+----------------------------+------------------+---------------------------------------------------------------+-----------------------------------------------------+
 | {{< bi calendar >}} | Final's Week               | `May 18`\        | `Exam 2`[^6]                                                  | Refer to Canvas                                     |
 |                     |                            | 5:30PM - 7:30PM\ |                                                               |                                                     |
