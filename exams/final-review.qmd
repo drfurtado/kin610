@@ -129,7 +129,7 @@ Do not close jamovi; continue on to answer `Research Question 3`
 
 Using `database 1`, run the appropriate test to answer the research question below:
 
-> Does a resistance training program lead to increased strength in middle-aged adults?
+> Does a stretching intervention program lead to increased flexibility in middle-aged adults?
 
 Provide the following:
 
