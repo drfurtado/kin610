@@ -179,7 +179,7 @@ Using `database 2`, run the appropriate test to answer the research question bel
 
 Using `database 2`, run the appropriate test to answer the research question below:
 
-> Is there a significant difference in `scores` across time (pre, mid, posttest)?
+Is there a significant difference in scores across time (pre, mid, posttest)?
 
 **Provide the following:**
 
@@ -226,5 +226,16 @@ Using `database 2`, run the appropriate test to answer the research question bel
     3.  any post-hoc table
     4.  descriptives table
     5.  descriptives plot
+
+# Appendix A
+
+| Parametric tests                     | Nonparametric equivalents        |
+|--------------------------------------|----------------------------------|
+| 1\. One sample t-test                | 1\. Wilcoxon signed-rank test    |
+| 2\. Independent samples t-test       | 2\. Mann-Whitney U test          |
+| 3\. Paired samples t-test            | 3\. Wilcoxon signed-rank test    |
+| 4\. One-way ANOVA                    | 4\. Kruskal-Wallis test          |
+| 5\. Repeated measures ANOVA          | 5\. Friedman test                |
+| 6\. Between-subjects factorial ANOVA | 6\. Aligned Rank Transform (ART) |
 
 
