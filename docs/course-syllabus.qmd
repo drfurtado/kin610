@@ -140,7 +140,7 @@ KIN610
 
 -   Essential Links
 -   Syllabus in pdf
--   @navarro2022 ebook
+-   @navarroLearningStatisticsJamovi2022 ebook
 
 Week 1: \<topic\>
 
@@ -148,6 +148,15 @@ Week 1: \<topic\>
 -   Any assignment and/or activity completed
 
 Week 2 \<topic\> ....
+
+**Submission**
+
+1.  Copy the link to the "KIN610" folder - see below
+2.  Submit the link to the assignment on Canvas
+
+![](images/Screenshot%202023-05-20%20at%2010.42.21%20PM.png){width="250"}
+
+![](images/Screenshot%202023-05-20%20at%2010.41.57%20PM.png){width="250"}
 
 ## Course Policy {#sec-course-policy}
 
